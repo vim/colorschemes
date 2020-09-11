@@ -5,6 +5,7 @@ set foldcolumn=4
 set foldmethod=indent
 set shiftwidth=2
 set cursorline
+set cursorcolumn
 set colorcolumn=72
 set spell
 syntax on
@@ -18,6 +19,7 @@ nnoremenu 1.10 WinBar.Foo :echo 'Foo'<CR>
 nnoremenu 1.20 WinBar.Bar :echo 'Bar'<CR>
 nnoremenu 1.30 WinBar.Baz :echo 'Baz'<CR>
 11
+normal w
 normal zR
 split
 1
