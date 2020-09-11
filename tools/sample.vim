@@ -9,13 +9,18 @@ set colorcolumn=72
 set spell
 syntax on
 tabnew
-silent e $VIMRUNTIME/indent.vim
-10
-normal zR
-vsplit
-normal zM
-silent help user-manual
-autocmd! VimEnter * execute 'terminal' | wincmd p
+silent vertical help group-name
+/Comment
+normal zt
+only
+silent vsplit $VIMRUNTIME/indent.vim
 nnoremenu 1.10 WinBar.Foo :echo 'Foo'<CR>
 nnoremenu 1.20 WinBar.Bar :echo 'Bar'<CR>
 nnoremenu 1.30 WinBar.Baz :echo 'Baz'<CR>
+11
+normal zR
+split
+1
+normal zM
+autocmd! VimEnter * execute 'terminal' | wincmd p
+call feedkeys('V6j')
