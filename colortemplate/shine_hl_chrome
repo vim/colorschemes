@@ -10,8 +10,8 @@ Normal           fg0        bg0
 EndOfBuffer      bg1        none
 Statusline       none       none      reverse,bold
 StatuslineNC     none       none      reverse
-StatuslineTerm   none       none      reverse,bold
-StatuslineTermNC none       none      reverse
+StatuslineTerm   type       none      reverse,bold
+StatuslineTermNC type       none      reverse
 VertSplit        none       none      reverse
 
 Pmenu            fg0        pmenu
