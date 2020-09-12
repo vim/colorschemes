@@ -28,10 +28,10 @@ Color: folded      #e4e4e4 254
 Color: pmenu       #dadada 253
 Color: wildmenu    #ffff00 226
 
-Color: diffadd     #c9f9c9 194
-Color: diffdelete  #f9c9c9 224
-Color: diffchange  #f9f9c9 230
-Color: difftext    #f9d999 222
+Color: diffadd     #d7ffd7 194
+Color: diffdelete  #ffd7d7 224
+Color: diffchange  #ffffd7 230
+Color: difftext    #ffd787 222
 
 Include: shine_hl_chrome
 Include: shine_hl_syntax
