@@ -12,21 +12,20 @@ Background: light
 
 ;;; Refined syntax colors
 Color: comment     #6c6c6c 242
-Color: constant    #aa7b9f 139
-Color: identifier  #76b1a9 73
-Color: statement   #81a55c 107
-Color: preproc     #af87af 134
-Color: type        #7ea06c 108
+Color: constant    #af87af 139
+Color: identifier  #5fafaf 73
+Color: statement   #87af5f 107
+Color: preproc     #af5fd7 134
+Color: type        #87af87 108
 Color: special     #d75f87 168
-Color: specialchar #6d6d6d 242
 Color: storage     #d70000 160
 
 Color: fg0         #000000 16
 Color: bg0         #ffffff 231
-Color: bg1         #c7c7c7 251
+Color: bg1         #bcbcbc 250
 Color: visual      #d0d0d0 252
-Color: folded      #e7e7e7 254
-Color: pmenu       #d7d7d7 188
+Color: folded      #e4e4e4 254
+Color: pmenu       #dadada 253
 Color: wildmenu    #ffff00 226
 
 Color: diffadd     #c9f9c9 194

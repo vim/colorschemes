@@ -8,7 +8,7 @@ Number       special     none
 Float        special     none
 PreProc      preproc     none
 Special      special     none
-SpecialChar  specialchar none
+SpecialChar  comment     none
 Tag          preproc     none
 Type         type        none
 Operator     preproc     none
