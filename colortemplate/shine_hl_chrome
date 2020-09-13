@@ -54,7 +54,7 @@ MatchParen       bg0        special
 Search           bg0        preproc
 IncSearch        none       none      reverse
 WildMenu         wildmenu   fg0       reverse,bold
-ColorColumn      none       folded
+ColorColumn      none       diffdelete
 Cursor           bg0        fg0
 lCursor          fg0        constant
 
