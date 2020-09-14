@@ -26,7 +26,7 @@ Delimiter         -> Special
 Exception         -> Statement
 Float             -> Constant
 Function          -> Identifier
-Include           -> PblackreProc
+Include           -> PreProc
 Keyword           -> Statement
 Label             -> Statement
 Macro             -> PreProc
@@ -127,9 +127,9 @@ TabLineFill          darkblue          darkcyan
 TabLineSel           darkblue          cyan
 Title                white             none
 VertSplit            darkcyan          none
-Visual               black             darkcyan
-VisualNOS            black             darkcyan
-WarningMsg           red               none 
+Visual               white             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           red               none
 WildMenu             darkblue          yellow
 Comment              gray              none
 Constant             cyan              none
