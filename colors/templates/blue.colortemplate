@@ -1,0 +1,179 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+# Information {{{
+# Mandatory
+Full name:     blue
+Short name:    blue
+Author:        Romain Lafourcade <romainlafourcade@gmail.com>
+# Optional
+Maintainer:    Myself <myself@somewhere.org>
+Website:       https://me.org
+Description:   Remake of blue.vim
+License:       Public domain
+# Prefix for options: short name is used if this key is not present:
+Option Prefix: blue
+# }}}
+
+# Documentation {{{
+# Include: _help.colortemplate
+# }}}
+
+# Common linked groups {{{
+QuickFixLine      -> Search
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Debug             -> Special
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+# See `:help lCursor`
+lCursor           -> Cursor
+# }}}
+
+Background: dark
+
+# Color palette {{{
+# Color name         GUI                     Base256     Base16 (optional)
+# Color: black         rgb( 57,  71,  89)        ~         Black
+# Color: red           rgb(255,   0,   0)        ~         DarkRed
+# Color: green         rgb(  0, 255,   0)        ~         DarkGreen
+# Color: yellow        rgb(255, 255,   0)        ~         DarkYellow
+# Color: blue          rgb(  0,   0, 255)        ~         DarkBlue
+# Color: magenta       rgb(255,   0, 255)        ~         DarkMagenta
+# Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
+# Color: white         rgb(235, 235, 235)        ~         LightGrey
+# Color: brightblack   rgb(210, 210, 210)        ~         DarkGrey
+# Color: brightred     rgb(255, 100,   0)        ~         LightRed
+# Color: brightgreen   rgb(100, 255,   0)        ~         LightGreen
+# Color: brightyellow  rgb(255, 255, 100)        ~         LightYellow
+# Color: brightblue    rgb(  0, 100, 255)        ~         LightBlue
+# Color: brightmagenta rgb(255, 100, 255)        ~         LightMagenta
+# Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
+# You may use hexadecimal values, too, and you may provide an explicit base-256 color:
+# Color: brightwhite   #e0e0ed                  231        White
+Color: black         #000000                  0          black
+Color: darkred       #800000                  1          darkred
+Color: darkgreen     #008000                  2          darkgreen
+Color: darkyellow    #808000                  3          darkyellow
+Color: darkblue      #000080                  4          darkblue
+Color: darkmagenta   #800080                  5          darkmagenta
+Color: darkcyan      #008080                  6          darkcyan
+Color: gray          #c0c0c0                  7          gray
+Color: darkgray      #808080                  8          darkgray
+Color: red           #ff0000                  9          red
+Color: green         #00ff00                  10         green
+Color: yellow        #ffff00                  11         yellow
+Color: blue          #0000ff                  12         blue
+Color: magenta       #ff00ff                  13         magenta
+Color: cyan          #00ffff                  14         cyan
+Color: white         #ffffff                  15         white
+# }}}
+# Terminal colors {{{
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
+Term colors: darkgray red green yellow blue magenta cyan white
+# }}}
+
+# Default highlight groups {{{
+Variant: gui
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: 256 8
+#if get(g:, '@optionprefix_transp_bg', 0)
+Variant: gui 256 8
+    Normal           yellow          darkblue
+    Terminal         white             none
+#else
+    Normal           yellow          darkblue
+    Terminal         white             black
+#endif
+
+# Group              Foreground        Background        Attributes
+ColorColumn          none              darkmagenta
+Conceal              none              none
+Cursor               white             black
+CursorColumn         none              blue 
+CursorLine           none              blue 
+CursorLineNr         yellow            blue  
+DiffAdd              darkgreen         none              reverse
+DiffChange           darkcyan          none              reverse
+DiffDelete           darkred           none              reverse
+DiffText             cyan              none              reverse
+Directory            cyan          none 
+EndOfBuffer          yellow            darkblue
+ErrorMsg             white             red               
+FoldColumn           darkcyan          none 
+Folded               darkblue          darkyellow   
+IncSearch            white             magenta             t=reverse g=standout
+LineNr               white             black
+MatchParen           white             black
+ModeMsg              darkblue          green
+MoreMsg              white             black
+NonText              magenta           none
+Pmenu                white             magenta
+PmenuSbar            magenta           darkmagenta
+PmenuSel             magenta           white
+PmenuThumb           white             white
+Question             white             black
+Search               white             black
+SignColumn           white             black
+SpecialKey           white             black
+SpellBad             white             black             s=red
+SpellCap             white             black             s=blue
+SpellLocal           white             black             s=magenta
+SpellRare            white             black             s=cyan reverse
+StatusLine           darkblue          cyan 
+StatusLineNC         darkblue          darkcyan
+TabLine              white             black
+TabLineFill          white             black
+TabLineSel           white             black
+Title                white             black
+VertSplit            white             black
+Visual               white             black
+VisualNOS            white             black
+WarningMsg           white             black
+WildMenu             white             black
+# Other conventional group names (see `:help group-name`)
+Comment              white             none              italic
+Constant             white             none
+Error                white             black             reverse
+Identifier           white             none
+Ignore               white             none
+PreProc              white             none
+Special              white             none
+Statement            white             none
+Todo                 white             none
+Type                 white             none
+Underlined           white             none
+# See `:help CursorIM`
+CursorIM             none              fg
+# See `:help window-toolbar`
+ToolbarLine          none              black
+ToolbarButton        white             black             bold
+# }}}
+
+# Additional highlight groups {{{
+# Add additional highlight groups here if you want
+# }}}
+
+# B/W variant {{{
+# Include: _bw.colortemplate
+# }}}
