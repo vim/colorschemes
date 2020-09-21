@@ -169,8 +169,9 @@ func! Test_check_colors()
     endif
     call cursor(1,1)
   endfor
+  let g:ft_groups = ft_groups
   if !empty(ft_groups)
-    let err['filetype'] = get(err, 'filetype', 'Should not define: ') . join(uniq(sort(ft_groups)))
+    let err['filetype'] = get(err, 'filetype', 'Should not define:') . ' ' . join(uniq(sort(ft_groups)))
   endif
 
   " 8) Were debugPC and debugBreakpoint defined?
@@ -178,7 +179,7 @@ func! Test_check_colors()
     let pat = '\Chi\%[ghlight]!\= *\%[link] \+\zs' .. group .. '\>'
     if search(pat, 'cnW')
       let line = search(pat, 'cW')
-      let err['filetype'] = get(err, 'filetype', 'Should not define: ') . matchstr(getline('.'), pat). ' '
+      let err['filetype'] = get(err, 'filetype', 'Should not define:') . ' ' . matchstr(getline('.'), pat)
     endif
     call cursor(1,1)
   endfor
