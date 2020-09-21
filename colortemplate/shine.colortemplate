@@ -37,11 +37,7 @@ Color: difftext    #ffd787 222
 
 ;;; Chrome
 
-#if get(g:, '@optionprefix_transp_bg', 0)
-Normal           fg0        none
-#else
 Normal           fg0        bg0
-#endif
 
 EndOfBuffer      bg1        none
 Statusline       none       none      reverse,bold
