@@ -92,8 +92,8 @@ Search           bg0       preproc
 IncSearch        none      none        reverse
 WildMenu         wildmenu  fg0         reverse,bold
 ColorColumn      none      difftext
-Cursor           bg0       fg0
-lCursor          fg0       constant
+Cursor           fg0       cursor
+lCursor          fg0       lcursor
 
 DiffAdd          none      diffadd
 DiffChange       none      diffchange
