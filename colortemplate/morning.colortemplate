@@ -29,8 +29,6 @@ Color: folded      #d3d3d3 252 7
 Color: folded_fg   #00008b 18 1
 Color: pmenu       #b2b2b2 249 13
 Color: wildmenu    #ffff00 226 14
-Color: cursor      #00ff00 46  10
-Color: lcursor     #00ffff 51  11
 Color: error       #ff0000 196 4
 
 
@@ -92,8 +90,8 @@ Search           bg0       preproc
 IncSearch        none      none        reverse
 WildMenu         wildmenu  fg0         reverse,bold
 ColorColumn      none      difftext
-Cursor           fg0       cursor
-lCursor          fg0       lcursor
+Cursor           bg0       type
+lCursor          bg0       statement
 
 DiffAdd          none      diffadd
 DiffChange       none      diffchange
