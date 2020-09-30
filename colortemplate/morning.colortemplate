@@ -28,6 +28,8 @@ Color: visual      #d0d0d0 252 7
 Color: folded      #d3d3d3 252 7
 Color: folded_fg   #00008b 18 1
 Color: pmenu       #b2b2b2 249 13
+Color: status      #a8a8a8 248 0
+Color: statusnc    #9e9e9e 247 0
 Color: wildmenu    #ffff00 226 14
 Color: error       #ff0000 196 4
 
@@ -44,10 +46,10 @@ Normal           fg0       bg0
 
 EndOfBuffer      comment   endofbuffer bold
 Statusline       none      none        reverse,bold
-StatuslineNC     none      none        reverse
+StatuslineNC     none      bg1         reverse
 StatuslineTerm   type      none        reverse,bold
-StatuslineTermNC type      none        reverse
-VertSplit        none      none        reverse
+StatuslineTermNC type      bg1         reverse
+VertSplit        none      bg1         reverse
 
 Pmenu            fg0       pmenu
 PmenuSel         fg0       wildmenu
