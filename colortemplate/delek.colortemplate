@@ -79,9 +79,9 @@ Underlined       preproc    none      underline
 Error            bg0        error
 ErrorMsg         bg0        error
 WarningMsg       preproc    bg0
-MoreMsg          fg0        bg0
-ModeMsg          fg0        bg0
-Question         constant   none
+MoreMsg          fg0        bg0       bold
+ModeMsg          fg0        bg0       bold
+Question         constant   none      bold
 
 Todo             bg0        wildmenu
 MatchParen       bg0        special
