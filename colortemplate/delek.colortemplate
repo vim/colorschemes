@@ -70,7 +70,7 @@ LineNr           linenr     none
 FoldColumn       wildmenu   none
 CursorLine       none       folded
 CursorColumn     none       folded
-CursorLineNr     none       folded
+CursorLineNr     linenr     none      bold
 QuickFixLine     none       folded
 SignColumn       none       none
 
