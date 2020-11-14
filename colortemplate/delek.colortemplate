@@ -98,7 +98,7 @@ DiffDelete       comment    diffdelete
 DiffText         fg0        difftext
 
 SpellBad         error      none   t=underline g=undercurl s=error
-SpellCap         constant   none   t=underline g=undercurl s=constant
+SpellCap         identifier none   t=underline g=undercurl s=identifier
 SpellLocal       statement  none   t=underline g=undercurl s=statement
 SpellRare        type       none   t=underline g=undercurl s=type
 
