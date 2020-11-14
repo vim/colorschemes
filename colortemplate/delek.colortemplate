@@ -1,0 +1,126 @@
+; vim: ft=colortemplate
+Full name: delek
+Short name: delek
+Description: Reimplementation of default delek colorscheme
+Maintainer: Originally mainatined by David Schweikert <david@schweikert.ch>
+Author: Updated by Maxim Kim <habamax@gmail.com>
+
+
+Variant:    gui 256
+Background: light
+
+
+;;; Refined syntax colors
+
+Color: comment     #ee0000 196
+Color: constant    #00cd00 40
+Color: identifier  #008b8b 30
+Color: statement   #0000ff 21
+Color: preproc     #cd00cd 164
+Color: type        #0000ff 21
+Color: special     #ff1493 198
+
+Color: fg0         #000000 16
+Color: bg0         #ffffff 231
+Color: bg1         #bcbcbc 250
+Color: visual      #d0d0d0 252
+Color: folded      #e4e4e4 254
+Color: pmenu       #add8e6 152
+Color: wildmenu    #00008b 18
+Color: error       #ff0000 196
+Color: status_fg   #ffd700 196
+Color: linenr      #a52a2a 124
+
+Color: diffadd     #d7ffd7 194
+Color: diffdelete  #ffd7d7 224
+Color: diffchange  #ffffd7 230
+Color: difftext    #ffd787 222
+
+
+;;; Chrome
+
+Normal           fg0        bg0
+
+EndOfBuffer      bg1        none
+Statusline       status_fg  statement reverse,bold
+StatuslineNC     fg0        status_fg reverse
+StatuslineTerm   type       none      reverse,bold
+StatuslineTermNC type       none      reverse
+VertSplit        none       status_fg reverse
+
+Pmenu            fg0        pmenu
+PmenuSel         bg0        wildmenu
+PmenuSbar        none       bg1
+PmenuThumb       none       fg0
+
+TabLine          fg0        bg1       underline
+TabLineFill      none       none      reverse
+TabLineSel       none       none      bold
+
+ToolbarLine      none       folded
+ToolbarButton    none       bg1       bold
+
+NonText          bg1        none
+SpecialKey       bg1        none
+
+Folded           wildmenu   folded
+Visual           fg0        visual
+VisualNOS        none       comment
+LineNr           linenr     none
+FoldColumn       wildmenu   none
+CursorLine       none       folded
+CursorColumn     none       folded
+CursorLineNr     none       folded
+QuickFixLine     none       folded
+SignColumn       none       none
+
+Underlined       preproc    none      underline
+
+Error            bg0        error
+ErrorMsg         bg0        error
+WarningMsg       preproc    bg0
+MoreMsg          fg0        bg0
+ModeMsg          fg0        bg0
+Question         constant   none
+
+Todo             bg0        wildmenu
+MatchParen       bg0        special
+Search           bg0        preproc
+IncSearch        none       none      reverse
+WildMenu         status_fg  wildmenu  bold
+ColorColumn      none       diffdelete
+Cursor           bg0        fg0
+lCursor          fg0        constant
+
+DiffAdd          none       diffadd
+DiffChange       none       diffchange
+DiffDelete       comment    diffdelete
+DiffText         fg0        difftext
+
+SpellBad         error      none   t=underline g=undercurl s=error
+SpellCap         constant   none   t=underline g=undercurl s=constant
+SpellLocal       statement  none   t=underline g=undercurl s=statement
+SpellRare        type       none   t=underline g=undercurl s=type
+
+
+;;; Syntax
+
+Comment      comment     none
+Constant     constant    none
+Identifier   identifier  none
+Statement    statement   none bold
+PreProc      preproc     none
+Type         type        none bold
+Special      special     none
+
+Directory    identifier  none bold
+Conceal      comment     none
+Ignore       none        none
+
+Title        preproc     none bold
+
+
+;;; Terminal
+
+Term colors: bg0     statement constant preproc identifier type special bg1
+Term colors: comment statement constant preproc identifier type special fg0
