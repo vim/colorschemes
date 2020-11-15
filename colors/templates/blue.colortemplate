@@ -1,0 +1,157 @@
+# vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+# Information {{{
+# Mandatory
+Full name:     blue
+Short name:    blue
+Author:        Romain Lafourcade <romainlafourcade@gmail.com>
+# Optional
+Maintainer:    Romain Lafourcade <romainlafourcade@gmail.com>
+Description:   Remake of blue.vim
+License:       Same as Vim
+# }}}
+
+# Documentation {{{
+# Include: _help.colortemplate
+# }}}
+
+# Common linked groups {{{
+QuickFixLine      -> Search
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Debug             -> Special
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+QuickFixLine      -> Search
+diffAdded         -> String
+diffRemoved       -> WarningMsg
+diffOnly          -> WarningMsg
+diffNoEOL         -> WarningMsg
+diffIsA           -> WarningMsg
+diffIdentical     -> WarningMsg
+diffDiffer        -> WarningMsg
+diffCommon        -> WarningMsg
+diffBDiffer       -> WarningMsg
+# See `:help lCursor`
+lCursor           -> Cursor
+# }}}
+
+Background: dark
+
+# Color palette {{{
+# Color name         GUI                     Base256     Base16 (optional)
+Color: black         #000000                  0          black
+Color: darkred       #800000                  1          darkred
+Color: darkgreen     #008000                  2          darkgreen
+Color: darkyellow    #808000                  3          darkyellow
+Color: darkblue      #000080                  4          darkblue
+Color: darkmagenta   #800080                  5          darkmagenta
+Color: darkcyan      #008080                  6          darkcyan
+Color: gray          #c0c0c0                  7          gray
+Color: darkgray      #808080                  8          darkgray
+Color: red           #ff0000                  9          red
+Color: green         #00ff00                  10         green
+Color: yellow        #ffff00                  11         yellow
+Color: blue          #0000ff                  12         blue
+Color: magenta       #ff00ff                  13         magenta
+Color: cyan          #00ffff                  14         cyan
+Color: white         #ffffff                  15         white
+# }}}
+# Terminal colors {{{
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
+Term colors: darkgray red green yellow blue magenta cyan white
+# }}}
+
+# Default highlight groups {{{
+Variant: gui 256 8
+Normal               yellow            darkblue
+Terminal             yellow            darkblue
+
+# Group              Foreground        Background        Attributes
+ColorColumn          none              darkmagenta
+Conceal              none              none
+Cursor               black             green
+CursorColumn         none              blue
+CursorLine           none              blue
+CursorLineNr         yellow            blue
+DiffAdd              darkgreen         none              reverse
+DiffChange           darkcyan          none              reverse
+DiffDelete           darkred           none              reverse
+DiffText             cyan              none              reverse
+Directory            cyan              none
+EndOfBuffer          yellow            darkblue
+ErrorMsg             white             red
+FoldColumn           darkcyan          none
+Folded               darkblue          darkyellow
+IncSearch            white             magenta           t=reverse g=standout
+LineNr               white             none
+MatchParen           white             magenta
+ModeMsg              darkblue          green
+MoreMsg              cyan              none
+NonText              magenta           none
+Pmenu                white             magenta
+PmenuSbar            magenta           darkmagenta
+PmenuSel             magenta           white
+PmenuThumb           white             white
+Question             green             none
+Search               black             yellow
+SignColumn           darkcyan          none
+SpecialKey           cyan              none
+SpellBad             none              none              s=red
+SpellCap             none              none              s=blue
+SpellLocal           none              none              s=magenta
+SpellRare            none              none              s=cyan
+StatusLine           darkblue          cyan
+StatusLineNC         darkblue          darkcyan
+TabLine              darkblue          darkcyan
+TabLineFill          darkblue          darkcyan
+TabLineSel           darkblue          cyan
+Title                white             none
+VertSplit            darkcyan          none
+Visual               white             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           red               none
+WildMenu             darkblue          yellow
+Comment              gray              none
+Constant             cyan              none
+Error                red               white             reverse
+Identifier           gray              none
+Ignore               darkgray          none
+PreProc              green             none
+Special              cyan              none
+Statement            white             none
+Todo                 darkblue          white
+Type                 green             none
+Underlined           none              none              underline
+# See `:help CursorIM`
+CursorIM             none              fg
+# See `:help window-toolbar`
+ToolbarButton        darkgray          white
+ToolbarLine          none              gray
+# }}}
+
+# Additional highlight groups {{{
+StatusLineTerm       darkblue          green
+StatusLineTermNC     darkblue          darkgreen
+debugBreakpoint      darkblue          red
+debugPC              darkblue          blue
+# }}}
