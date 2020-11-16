@@ -1,9 +1,10 @@
 ; vim: ft=colortemplate
 Full name: morning
 Short name: morning
-Description: Remake of default morning colorscheme.
-Maintainer: Originally maintained by Bram Moolenaar <Bram@vim.org>
-Author: Updated by Maxim Kim <habamax@gmail.com>
+Description: Colorscheme with light grey background.
+Author: Original author Bram Moolenaar <Bram@vim.org>
+Maintainer: Original maintainer Bram Moolenaar <Bram@vim.org>
+Website: https://github.com/vim/colorschemes
 
 
 Variant:    gui 256 16
