@@ -24,6 +24,7 @@ Color: storage     #d70000 160
 Color: fg0         #000000 16
 Color: bg0         #ffffff 231
 Color: bg1         #bcbcbc 250
+Color: bg2         #4e4e4e 239
 Color: visual      #d0d0d0 252
 Color: folded      #e4e4e4 254
 Color: pmenu       #dadada 253
@@ -40,11 +41,11 @@ Color: difftext    #ffd787 222
 Normal           fg0        bg0
 
 EndOfBuffer      bg1        none
-Statusline       none       none      reverse,bold
-StatuslineNC     none       none      reverse
-StatuslineTerm   type       none      reverse,bold
-StatuslineTermNC type       none      reverse
-VertSplit        none       none      reverse
+Statusline       bg0        fg0       bold
+StatuslineNC     folded     bg2
+StatuslineTerm   bg0        statement bold
+StatuslineTermNC folded     type
+VertSplit        folded     bg2
 
 Pmenu            fg0        pmenu
 PmenuSel         fg0        wildmenu
