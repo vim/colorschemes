@@ -1,9 +1,10 @@
 ; vim: ft=colortemplate
 Full name: zellner
 Short name: zellner
-Description: Reimplementation of default zellner colorscheme
-Maintainer: Originally maintained by Ron Aaron <ron@ronware.org>
-Author: Updated by Maxim Kim <habamax@gmail.com>
+Description: Light background colorscheme.
+Author: Original author Ron Aaron <ron@ronware.org>
+Maintainer: Original maintainer Ron Aaron <ron@ronware.org>
+Website: https://github.com/vim/colorschemes
 
 
 Variant:    gui 256

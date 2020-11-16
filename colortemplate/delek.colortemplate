@@ -1,9 +1,10 @@
 ; vim: ft=colortemplate
 Full name: delek
 Short name: delek
-Description: Reimplementation of default delek colorscheme
-Maintainer: Originally maintained by David Schweikert <david@schweikert.ch>
-Author: Updated by Maxim Kim <habamax@gmail.com>
+Description: Light background colorscheme.
+Author: Original authour David Schweikert <david@schweikert.ch>
+Maintainer: Original maintainer David Schweikert <david@schweikert.ch>
+Website: https://github.com/vim/colorschemes
 
 
 Variant:    gui 256
