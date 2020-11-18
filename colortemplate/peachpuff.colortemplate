@@ -56,7 +56,7 @@ PmenuSel         fg0        cursorline bold
 PmenuSbar        none       folded
 PmenuThumb       none       cursorline
 
-TabLine          fg0        bg1        underline
+TabLine          bg0        bg1        underline
 TabLineFill      none       none       reverse
 TabLineSel       none       none       bold
 
