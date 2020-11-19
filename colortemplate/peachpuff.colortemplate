@@ -70,7 +70,7 @@ Folded           folded_fg  folded
 Visual           fg0        visual
 VisualNOS        none       comment
 LineNr           linenr     none
-FoldColumn       wildmenu   none
+FoldColumn       comment    none
 CursorLine       none       cursorline
 CursorColumn     none       cursorline
 CursorLineNr     linenr     none       bold
