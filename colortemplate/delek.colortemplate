@@ -29,7 +29,7 @@ Color: folded      #e4e4e4 254
 Color: pmenu       #add8e6 152
 Color: wildmenu    #00008b 18
 Color: error       #ff0000 196
-Color: status_fg   #ffd700 196
+Color: status_fg   #ffd700 220
 Color: linenr      #a52a2a 124
 
 Color: diffadd     #d7ffd7 194
