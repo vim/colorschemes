@@ -13,35 +13,35 @@ Background: dark
 
 
 ;;; Color palette
-Color: foreground #ffffff 231;done
-Color: background #333333 236;done
+Color: foreground #ffffff 231
+Color: background #333333 236
 
-Color: color00    #7f7f8c 242;done
-Color: color08    #8a7f7f 244;done
+Color: color00    #7f7f8c 242
+Color: color08    #8a7f7f 244
 
-Color: color01    #cd5c5c 167;done
-Color: color09    #ff0000 196;done
+Color: color01    #cd5c5c 167
+Color: color09    #ff0000 196
 
-Color: color02    #9acd32 112;done
-Color: color10    #89fb98 120;done
+Color: color02    #9acd32 112
+Color: color10    #89fb98 120
 
-Color: color03    #bdb76b 143;done
-Color: color11    #f0e68c 186;done
+Color: color03    #bdb76b 143
+Color: color11    #f0e68c 186
 
-Color: color04    #75a0ff 111;done
-Color: color12    #6dceeb 81;done
+Color: color04    #75a0ff 111
+Color: color12    #6dceeb 81
 
-Color: color05    #eeee00 226;done
-Color: color13    #ffde9b 222;done
+Color: color05    #eeee00 226
+Color: color13    #ffde9b 222
 
-Color: color06    #cd853f 172;done
-Color: color14    #ffa0a0 217;done
+Color: color06    #cd853f 172
+Color: color14    #ffa0a0 217
 
-Color: color07    #666666 241;done
-Color: color15    #c2bfa5 144;done
+Color: color07    #666666 241
+Color: color15    #c2bfa5 144
 
-Color: color16    #6b8e24 64;done
-Color: color17    #4d4d4d 239;done
+Color: color16    #6b8e24 64
+Color: color17    #4d4d4d 239
 
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
