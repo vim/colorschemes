@@ -16,7 +16,7 @@ Background: dark
 Color: foreground #ffffff 231;done
 Color: background #333333 236;done
 
-Color: color00    #7f7f8c 16;done
+Color: color00    #7f7f8c 242;done
 Color: color08    #8a7f7f 244;done
 
 Color: color01    #cd5c5c 167;done
