@@ -92,7 +92,7 @@ LineNr           color11    none
 FoldColumn       color06    color00
 CursorLine       none       color07
 CursorColumn     none       color07
-CursorLineNr     color05    none    bold
+CursorLineNr     color11    none    bold
 QuickFixLine     none       color07
 SignColumn       color06    color00
 
@@ -100,7 +100,7 @@ Underlined       color04    none    underline
 
 Error            color15    color09
 ErrorMsg         color15    color09
-ModeMsg          color13    none    bold
+ModeMsg          color15    none    bold
 WarningMsg       color01    none    bold
 MoreMsg          color02    none    bold
 Question         color10    none    bold
