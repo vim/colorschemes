@@ -110,7 +110,7 @@ MatchParen       color00    color03
 Search           background color11
 IncSearch        background color10
 WildMenu         background color11
-ColorColumn      none       color01
+ColorColumn      none       color08
 Cursor           background foreground
 lCursor          background color09
 
