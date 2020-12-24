@@ -1,0 +1,144 @@
+; vim: ft=colortemplate
+Full name: industry
+Short name: industry
+Description: "industry" stands for 'industrial' color scheme.
+Author: Original author Shian Lee.
+Maintainer: Original maintainer Shian Lee.
+Website: https://github.com/vim/colorschemes
+
+; Remark: "industry" stands for 'industrial' color scheme. In industrial
+;         HMI (Human-Machine-Interface) programming, using a standard color
+;         scheme is mandatory in many cases (in traffic-lights for example):
+;         LIGHT_RED is     'Warning'
+;         LIGHT_YELLOW is  'Attention'
+;         LIGHT_GREEN is   'Normal'
+;         LIGHT_MAGENTA is 'Warning-Attention' (light RED-YELLOW)
+;         LIGHT_CYAN is    'Attention-Normal'  (light YELLOW-GREEN).
+;         BLACK is          Dark-High-Contrast Background for maximum safety.
+;         BLUE is           Shade of BLACK (not supposed to get attention).
+;
+;         Industrial color scheme is by nature clear, safe and productive.
+;         Yet, depends on the file type's syntax, it might appear incorrect.
+
+Variant:    gui 256
+
+Background: dark
+
+
+;;; Color palette
+Color: foreground #dadada 253
+Color: background #000000 16
+
+Color: color00    #303030 236
+Color: color08    #444444 238
+
+Color: color01    #870000 88
+Color: color09    #FF0000 196
+
+Color: color02    #5FD75F 77
+Color: color10    #00FF00 46
+
+Color: color03    #AFAF00 142
+Color: color11    #FFFF00 226
+
+Color: color04    #80a0ff 111
+Color: color12    #0000FF 21
+
+Color: color05    #AF00AF 127
+Color: color13    #FF00FF 201
+
+Color: color06    #00AFAF 37
+Color: color14    #00FFFF 51
+
+Color: color07    #6C6C6C 242
+Color: color15    #FFFFFF 231
+
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+;;; chrome
+
+Variant: gui 256
+
+Normal           foreground background
+
+EndOfBuffer      color08    background
+Statusline       background foreground bold
+StatuslineNC     background foreground
+StatuslineTerm   background color02 bold
+StatuslineTermNC background color02
+VertSplit        background foreground
+
+Pmenu            foreground color08
+PmenuSel         background color11
+PmenuSbar        none       color00
+PmenuThumb       none       color07
+
+TabLine          foreground color08
+TabLineFill      none       color07
+TabLineSel       color15    background bold
+
+ToolbarLine      none       color00
+ToolbarButton    foreground color07 bold
+
+NonText          color06    none
+SpecialKey       color06    none
+
+Folded           color06    color00
+Visual           foreground color07
+VisualNOS        foreground color07
+LineNr           color11    none
+FoldColumn       color06    color00
+CursorLine       none       color07
+CursorColumn     none       color07
+CursorLineNr     color05    none    bold
+QuickFixLine     none       color07
+SignColumn       color06    color00
+
+Underlined       color04    none    underline
+
+Error            color15    color09
+ErrorMsg         color15    color09
+ModeMsg          color13    none    bold
+WarningMsg       color01    none    bold
+MoreMsg          color02    none    bold
+Question         color10    none    bold
+
+Todo             color12    color11
+MatchParen       color00    color03
+Search           background color11
+IncSearch        background color10
+WildMenu         background color11
+ColorColumn      none       color01
+Cursor           background foreground
+lCursor          background color09
+
+DiffAdd          background color02
+DiffChange       none       none
+DiffText         background color03
+DiffDelete       color09    color00
+
+SpellBad         color09    none    t=underline g=undercurl s=color09
+SpellCap         color01    none    t=underline g=undercurl s=color01
+SpellLocal       color03    none    t=underline g=undercurl s=color03
+SpellRare        color11    none    t=underline g=undercurl s=color11
+
+
+;;; :h group-names
+Comment          color06    none
+
+Identifier       color13    none
+Function         color10    none
+Statement        color15    none bold
+Constant         color14    none
+PreProc          color11    none
+Type             color10    none bold
+Special          color09    none
+Delimiter        color11    none
+
+Directory        color14    none
+Conceal          color07    none
+Ignore           none       none
+
+Title            color13    none bold
