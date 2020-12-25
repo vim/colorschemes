@@ -40,6 +40,7 @@ Color: color07    #BCBCBC 250
 Color: color15    #FFFFFF 231
 
 Color: color16    #262626 235
+Color: color17    #3A3A3A 237
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -52,10 +53,10 @@ Normal           foreground background
 
 EndOfBuffer      color12    background
 Statusline       color15    color04
-StatuslineNC     color15    color00
+StatuslineNC     color15    color17
 StatuslineTerm   background foreground
 StatuslineTermNC background color10
-VertSplit        color15    color00
+VertSplit        color15    color17
 
 Pmenu            color15    color08
 PmenuSel         background color11
@@ -72,7 +73,7 @@ ToolbarButton    color15    color08 bold
 NonText          color06    none
 SpecialKey       color06    none
 
-Folded           color06    color08
+Folded           color06    color00
 Visual           color15    color02
 VisualNOS        color15    color02
 LineNr           color11    none
