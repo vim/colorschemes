@@ -1,0 +1,129 @@
+; vim: ft=colortemplate
+Full name: peachpuff
+Short name: peachpuff
+Description: This color scheme uses a peachpuff background (what you've expected when it's " called peachpuff?).
+Author: Original author David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
+Maintainer: Original maintainer David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
+Website: https://github.com/vim/colorschemes
+
+
+Variant:    gui 256
+Background: light
+
+
+;;; Refined syntax colors
+
+Color: comment     #406090 25
+Color: constant    #c00058 161
+Color: identifier  #008b8b 30
+Color: statement   #a52a2a 124
+Color: preproc     #cd00cd 164
+Color: type        #2e8b57 29
+Color: special     #6a5acd 62
+
+Color: fg0         #000000 16
+Color: bg0         #ffdab9 223
+Color: fg1         #ffffff 231
+Color: bg1         #737373 243
+Color: visual      #cccccc 252
+Color: folded      #e3c1a5 252
+Color: folded_fg   #000000 16
+Color: cursorline  #f5c195 254
+Color: pmenu       #ffaf87 216
+Color: wildmenu    #ffff00 226
+Color: error       #ff0000 196
+Color: linenr      #cd0000 160
+
+Color: diffadd     #ffffff 231
+Color: diffdelete  #f6e8d0 223
+Color: diffchange  #edb5cd 218
+Color: difftext    #ff8060 209
+
+
+;;; Chrome
+
+Normal           fg0        bg0
+
+EndOfBuffer      bg1        none
+Statusline       fg1        fg0        bold
+StatuslineNC     bg0        bg1        bold
+StatuslineTerm   fg1        type       bold
+StatuslineTermNC bg0        identifier bold
+VertSplit        bg0        bg1
+
+Pmenu            fg0        pmenu
+PmenuSel         fg0        cursorline bold
+PmenuSbar        none       folded
+PmenuThumb       none       cursorline
+
+TabLine          bg0        bg1        underline
+TabLineFill      none       none       reverse
+TabLineSel       none       none       bold
+
+ToolbarLine      none       folded
+ToolbarButton    bg0        bg1        bold
+
+NonText          bg1        none
+SpecialKey       bg1        none
+
+Folded           folded_fg  folded
+Visual           fg0        visual
+VisualNOS        none       comment
+LineNr           linenr     none
+FoldColumn       comment    none
+CursorLine       none       cursorline
+CursorColumn     none       cursorline
+CursorLineNr     linenr     none       bold
+QuickFixLine     none       cursorline
+SignColumn       none       none
+
+Underlined       special    none       underline
+
+Error            fg1        error      bold
+ErrorMsg         fg1        error      bold
+WarningMsg       preproc    bg0        bold
+MoreMsg          type       bg0        bold
+ModeMsg          fg0        bg0        bold
+Question         constant   none       bold
+
+Todo             special    wildmenu
+MatchParen       bg0        special
+Search           bg0        preproc
+IncSearch        none       none       reverse
+WildMenu         fg0        wildmenu   bold
+ColorColumn      none       diffdelete
+Cursor           bg0        fg0
+lCursor          fg0        constant
+
+DiffAdd          none       diffadd
+DiffChange       none       diffchange
+DiffDelete       comment    diffdelete bold
+DiffText         none       difftext   bold
+
+SpellBad         error      none   t=underline g=undercurl s=error
+SpellCap         identifier none   t=underline g=undercurl s=identifier
+SpellLocal       statement  none   t=underline g=undercurl s=statement
+SpellRare        type       none   t=underline g=undercurl s=type
+
+
+;;; Syntax
+
+Comment      comment     none
+Constant     constant    none
+Identifier   identifier  none
+Statement    statement   none bold
+PreProc      preproc     none
+Type         type        none bold
+Special      special     none
+
+Directory    identifier  none bold
+Conceal      comment     none
+Ignore       none        none
+
+Title        preproc     none bold
+
+
+;;; Terminal
+
+Term colors: bg0     statement constant preproc identifier type special bg1
+Term colors: comment statement constant preproc identifier type special fg0
