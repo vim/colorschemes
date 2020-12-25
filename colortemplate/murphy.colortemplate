@@ -1,0 +1,130 @@
+; vim: ft=colortemplate
+Full name: murphy
+Short name: murphy
+Description: Green foreground black background.
+Author: Original author Ron Aaron <ron@ronware.org>.
+Maintainer: Original maintainer Ron Aaron <ron@ronware.org>.
+Website: https://github.com/vim/colorschemes
+
+Variant:    gui 256
+
+Background: dark
+
+
+;;; Color palette
+Color: foreground #87FF87 120
+Color: background #000000 16
+
+Color: color00    #303030 236
+Color: color08    #444444 238
+
+Color: color01    #FFA700 214
+Color: color09    #FF0000 196
+
+Color: color02    #005F00 22
+Color: color10    #00875F 29
+
+Color: color03    #FFD7AF 223
+Color: color11    #FFFF00 226
+
+Color: color04    #00008B 18
+Color: color12    #0000FF 21
+
+Color: color05    #FFAFAF 217
+Color: color13    #FF00FF 201
+
+Color: color06    #00AFAF 37
+Color: color14    #00FFFF 51
+
+Color: color07    #BCBCBC 250
+Color: color15    #FFFFFF 231
+
+Color: color16    #262626 235
+Color: color17    #3A3A3A 237
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+;;; chrome
+
+Variant: gui 256
+
+Normal           foreground background
+
+EndOfBuffer      color12    background
+Statusline       color15    color04
+StatuslineNC     color15    color17
+StatuslineTerm   background foreground
+StatuslineTermNC background color10
+VertSplit        color15    color17
+
+Pmenu            color15    color08
+PmenuSel         background color11
+PmenuSbar        none       color00
+PmenuThumb       none       color07
+
+TabLine          foreground color08
+TabLineFill      none       color00
+TabLineSel       color15    background
+
+ToolbarLine      none       color00
+ToolbarButton    color15    color08 bold
+
+NonText          color06    none
+SpecialKey       color06    none
+
+Folded           color06    color00
+Visual           color15    color02
+VisualNOS        color15    color02
+LineNr           color11    none
+FoldColumn       color06    color00
+CursorLine       none       color08
+CursorColumn     none       color08
+CursorLineNr     color11    none    bold
+QuickFixLine     none       color08
+SignColumn       color06    color00
+
+Underlined       color06    none    underline
+
+Error            color15    color09
+ErrorMsg         color15    color09
+ModeMsg          foreground none    bold
+WarningMsg       color01    none    bold
+MoreMsg          color02    none    bold
+Question         color14    none    bold
+
+Todo             color12    color11
+MatchParen       color00    color03
+Search           color15    color12
+IncSearch        none       none    reverse
+WildMenu         background color11
+ColorColumn      none       color16
+Cursor           background foreground
+lCursor          background color09
+
+DiffAdd          background color10
+DiffChange       none       none
+DiffText         background color03
+DiffDelete       color09    color00
+
+SpellBad         color09    none    t=underline g=undercurl s=color09
+SpellCap         color01    none    t=underline g=undercurl s=color01
+SpellLocal       color03    none    t=underline g=undercurl s=color03
+SpellRare        color11    none    t=underline g=undercurl s=color11
+
+
+;;; :h group-names
+Comment          color01    none
+
+Identifier       color14    none
+Statement        color11    none
+Constant         color15    none
+PreProc          color03    none
+Type             color07    none
+Special          color13    none
+
+Directory        color14    none
+Conceal          color07    none
+Ignore           none       none
+
+Title            color13    none bold
