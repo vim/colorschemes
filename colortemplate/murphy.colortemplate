@@ -39,6 +39,7 @@ Color: color14    #00FFFF 51
 Color: color07    #BCBCBC 250
 Color: color15    #FFFFFF 231
 
+Color: color16    #262626 235
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -96,7 +97,7 @@ MatchParen       color00    color03
 Search           color15    color12
 IncSearch        none       none    reverse
 WildMenu         background color11
-ColorColumn      none       color08
+ColorColumn      none       color16
 Cursor           background foreground
 lCursor          background color09
 
