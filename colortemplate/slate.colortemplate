@@ -1,0 +1,133 @@
+Full name: slate
+Short name: slate
+Description: Remake of slate
+Author: https://github.com/vim/colorschemes
+Maintainer: Original maintainer Ralph Amissah <ralph@amissah.com>
+
+Variant:    gui 256
+
+Background: dark
+
+
+;;; color palette
+Color: foreground #FFFFFF 231
+Color: background #262626 235
+
+Color: color00    #000000 16
+Color: color08    #333333 236
+
+Color: color01    #FF0000 196
+Color: color09    #FFAFAF 217
+
+Color: color02    #5F8700 64
+Color: color10    #00875F 29
+
+Color: color03    #ffff00 226
+Color: color11    #FFD700 220
+
+Color: color04    #87d7FF 117
+Color: color12    #5F87D7 68
+
+Color: color05    #d7d787 186
+Color: color13    #AFAF87 144
+
+Color: color06    #FFD7AF 223
+Color: color14    #FF8787 210
+
+Color: color07    #666666 241
+Color: color15    #FFFFFF 231
+
+Color: color16    #D7875F 173
+Color: color17    #00FF00 46
+
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+
+;;; chrome
+
+Normal           foreground background
+
+EndOfBuffer      color12    none
+Statusline       color00    color13
+StatuslineNC     color07    color13
+StatuslineTerm   color00    color13
+StatuslineTermNC color07    color13
+VertSplit        color07    color13
+
+Pmenu            none       color08
+PmenuSel         background color05
+PmenuSbar        none       color07
+PmenuThumb       none       color15
+
+TabLine          color07    color08
+TabLineFill      color14    color08
+TabLineSel       color00    color13
+
+ToolbarLine      none       none
+ToolbarButton    background color05
+
+NonText          color12    none
+SpecialKey       color10    none
+
+Folded           color07    color00
+Visual           color05    color02
+VisualNOS        color05    color02
+LineNr           color07    none
+FoldColumn       color08    color00
+CursorLine       none       color00
+CursorColumn     none       color00
+CursorLineNr     none       color00
+QuickFixLine     none       color00
+SignColumn       none       background
+
+Underlined       color12    none underline
+
+Error            color15    color01
+ErrorMsg         color09    none
+ModeMsg          background color11
+WarningMsg       color14    none
+MoreMsg          color10    none
+Question         color10    none
+
+Todo             color01    color03
+MatchParen       color00    color11
+Search           color00    color06
+IncSearch        color00    color17
+WildMenu         background color05
+ColorColumn      none       color00
+Cursor           color08    color05
+lCursor          background color09
+
+DiffAdd          none       none
+DiffChange       none       none
+DiffText         background color11
+DiffDelete       color13    none
+
+SpellBad         color01    none t=underline g=undercurl s=color01
+SpellCap         color03    none t=underline g=undercurl s=color03
+SpellLocal       color09    none t=underline g=undercurl s=color09
+SpellRare        color06    none t=underline g=undercurl s=color06
+
+
+;;; :h group-names
+Comment          color07    none
+
+Identifier       color14    none
+Function         color06    none
+Statement        color12    none bold
+Constant         color09    none
+String           color04    none
+PreProc          color16    none
+Type             color12    none bold
+Special          color05    none
+Operator         color16    none
+Define           color11    none bold
+Structure        color17    none
+
+Directory        color10    none bold
+Conceal          color07    none
+Ignore           none       none
+
+Title            color11    none bold
