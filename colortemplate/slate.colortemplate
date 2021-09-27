@@ -41,6 +41,9 @@ Color: color15    #FFFFFF 231
 Color: color16    #D7875F 173
 Color: color17    #00FF00 46
 
+Color: color19    #5f0087 66
+Color: color20    #005f00 65
+Color: color18    #444444 60
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -77,9 +80,9 @@ Visual           color05    color02
 VisualNOS        color05    color02
 LineNr           color07    none
 FoldColumn       color08    color00
-CursorLine       none       color00
-CursorColumn     none       color00
-CursorLineNr     none       color00
+CursorLine       none       color08
+CursorColumn     none       color08
+CursorLineNr     none       color08
 QuickFixLine     none       color00
 SignColumn       none       background
 
@@ -94,16 +97,16 @@ Question         color10    none
 
 Todo             color01    color03
 MatchParen       color00    color11
-Search           color00    color06
+Search           color00    color16
 IncSearch        color00    color17
 WildMenu         background color05
 ColorColumn      none       color00
 Cursor           color08    color05
 lCursor          background color09
 
-DiffAdd          background color05
-DiffChange       background color02
-DiffText         background color11
+DiffAdd          none       color18
+DiffChange       none       color19
+DiffText         none       color20
 DiffDelete       color13    none
 
 SpellBad         color01    none t=underline g=undercurl s=color01
