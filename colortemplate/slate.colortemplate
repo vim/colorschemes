@@ -1,8 +1,9 @@
 Full name: slate
 Short name: slate
 Description: Remake of slate
-Author: https://github.com/vim/colorschemes
+Author: Original maintainer Ralph Amissah <ralph@amissah.com>
 Maintainer: Original maintainer Ralph Amissah <ralph@amissah.com>
+Website: https://github.com/vim/colorschemes
 
 Variant:    gui 256
 
@@ -100,8 +101,8 @@ ColorColumn      none       color00
 Cursor           color08    color05
 lCursor          background color09
 
-DiffAdd          none       none
-DiffChange       none       none
+DiffAdd          background color05
+DiffChange       background color02
 DiffText         background color11
 DiffDelete       color13    none
 
