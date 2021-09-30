@@ -53,6 +53,9 @@ Color: color14    #00FFFF 51
 Color: color07    #6C6C6C 242
 Color: color15    #FFFFFF 231
 
+Color: colorDiffA #005F00 22
+Color: colorDiffC #00005F 17
+Color: colorDiffD #5f0000 52
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -114,10 +117,11 @@ ColorColumn      none       color08
 Cursor           background foreground
 lCursor          background color09
 
-DiffAdd          background color02
-DiffChange       none       none
-DiffText         background color03
-DiffDelete       color09    color00
+DiffAdd          none       colorDiffA
+DiffChange       none       colorDiffC
+DiffText         color06    color12
+DiffDelete       color09    colorDiffD
+
 
 SpellBad         color09    none    t=underline g=undercurl s=color09
 SpellCap         color01    none    t=underline g=undercurl s=color01
