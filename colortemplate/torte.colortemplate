@@ -69,6 +69,7 @@ Color: PreProc        #ff80ff 81
 Color: Type           #60ff60 121
 Color: Underlined     #80a0ff 81
 
+Color: Pmenu          #303030 236
 
 Variant: gui 256
 
@@ -129,17 +130,17 @@ StatusLineTerm   color00     StatusLineTerm t=bold g=bold
 StatusLineTermNC color00     StatusLineTerm
 VertSplit        none        color00        t=reverse g=reverse
 
-TabLine          color15     rgbDarkGrey    t=underline g=underline
+TabLine          color15     color08
 TabLineFill      none        color00        t=reverse g=reverse
 TabLineSel       none        color00        t=bold g=bold
 
 ToolbarLine      none        color00
 ToolbarButton    color00     color07        bold
 
-Pmenu            color15     color08
+Pmenu            fg          Pmenu
 PmenuSbar        none        rgbGrey
 PmenuSel         color00     color11
-PmenuThumb       none        color15
+PmenuThumb       none        fg
 
 DiffAdd          none        rgbDarkBlue
 DiffChange       none        rgbDarkMagenta
