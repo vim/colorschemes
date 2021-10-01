@@ -68,6 +68,8 @@ Color: PreProc        #00ff00 46  10
 Color: Type           #00c000 34  2
 Color: Directory      #00c000 34  2
 Color: Pmenu          #303030 236 8
+Color: Folded         #303030 236 8
+Color: Cursorline     #3a3a3a 237 8
 
 Variant: gui 256 16
 
@@ -94,9 +96,9 @@ Conceal          color07     rgbDarkGrey
 Cursor           color00     color15
 lCursor          color00     color15
 CursorIM         none        fg
-CursorColumn     none        rgbGrey40
-CursorLine       none        rgbGrey40      t=underline
-CursorLineNr     color11     none           t=underline g=bold
+CursorColumn     none        Cursorline
+CursorLine       none        Cursorline      t=underline
+CursorLineNr     color11     Cursorline      t=underline g=bold
 
 Title            Title       none           t=bold g=bold
 Directory        Directory   none
@@ -107,9 +109,9 @@ EndOfBuffer      rgbBlue     none           g=bold
 ErrorMsg         color15     color01
 WarningMsg       WarningMsg  none
 SignColumn       color14     SignColumn
-FoldColumn       color14     rgbDarkGrey
-Folded           color14     rgbDarkGrey
-LineNr           color11     none
+FoldColumn       color08     Folded
+Folded           color08     Folded
+LineNr           color08     none
 MatchParen       none        rgbDarkCyan
 ModeMsg          none        none           t=bold g=bold
 MoreMsg          rgbSeaGreen none           g=bold
