@@ -66,10 +66,10 @@ MatchParen           none              darkcyan
 ModeMsg              none              none              bold
 MoreMsg              seagreen          none              t=bold
 NonText              lightblue         grey20
-Pmenu                white             magenta
-PmenuSbar            magenta           darkmagenta
-PmenuSel             magenta           white
-PmenuThumb           white             white
+Pmenu                white             grey30
+PmenuSbar            none              grey60
+PmenuSel             grey20            grey
+PmenuThumb           none              white
 Question             green             none
 Search               black             yellow
 SignColumn           darkcyan          none
