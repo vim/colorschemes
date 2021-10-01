@@ -1,0 +1,153 @@
+;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+;;; Information
+Full name:   evening
+Short name:  evening
+Description: This color scheme uses a dark grey background.
+Author:      Original author Bram Moolenaar <Bram@vim.org>
+Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
+
+Variant:    gui 256 16
+Background: dark
+
+;;; Color palette
+Color: lightmagenta  #ffafaf           217               magenta
+Color: lightyellow   #ffff5f           227               yellow
+Color: blue          #0000ff           21                blue
+Color: cyan          #00ffff           51                cyan
+Color: darkblue      #87afff           111               darkblue
+Color: darkcyan      #008787           30                darkcyan
+Color: darkmagenta   #870087           90                darkmagenta
+Color: green         #00ff00           46                green
+Color: lightblue     #afd7ff           153               lightblue
+Color: magenta       #ff00ff           201               darkmagenta
+Color: orange        #ffaf00           214               darkred
+Color: red           #ff0000           196               red
+Color: seagreen      #00875f           29                darkgreen
+Color: yellow        #ffff00           226               darkyellow
+Color: white         #ffffff           231               white
+Color: lightgrey     #d0d0d0           252               gray
+Color: grey          #bcbcbc           250               gray
+Color: grey20        #303030           236               gray
+Color: grey30        #4e4e4e           239               darkgray
+Color: grey40        #626262           241               darkgray
+Color: grey60        #949494           246               darkgray
+Color: black         #000000           16                black
+Color: diffa         #005f5f           23                darkcyan
+Color: diffd         #875f00           94                darkred
+Color: diffc         #8700ff           93                magenta
+Color: difft         #5f005f           53                darkmagenta
+
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Normal               white             grey20
+Terminal          -> Normal
+ColorColumn          none              darkmagenta
+Conceal              none              none
+Cursor               black             green
+CursorColumn      -> CursorLine
+CursorIM          -> Cursor
+CursorLine           none              grey40
+CursorLineNr         yellow            grey40
+DiffAdd              none              diffa
+DiffChange           none              diffc
+DiffDelete           none              diffd
+DiffText             none              difft
+EndOfBuffer          lightblue         grey20
+Error                red               white             reverse
+ErrorMsg             white             red
+FoldColumn           darkblue          lightgrey
+Folded               darkblue          lightgrey
+IncSearch            none              none              reverse
+LineNr               yellow            none
+MatchParen           none              darkcyan
+ModeMsg              none              none              bold
+MoreMsg              seagreen          none              t=bold
+NonText              lightblue         grey20
+Pmenu                white             magenta
+PmenuSbar            magenta           darkmagenta
+PmenuSel             magenta           white
+PmenuThumb           white             white
+Question             green             none
+Search               black             yellow
+SignColumn           darkcyan          none
+SpecialKey           cyan              none
+SpellBad             none              none              s=red
+SpellCap             none              none              s=blue
+SpellLocal           none              none              s=magenta
+SpellRare            none              none              s=cyan
+StatusLine           white             grey20            bold,reverse
+StatusLineNC         lightgrey         grey20            reverse
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+TabLine              lightgrey         grey20            reverse
+TabLineFill       -> TabLine
+TabLineSel           white             grey20            bold,reverse
+ToolbarButton        grey30            white
+ToolbarLine          none              grey
+VertSplit            white             white
+Visual               white             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           red               none
+WildMenu             darkblue          yellow
+debugBreakpoint      darkblue          red
+debugPC              darkblue          blue
+
+QuickFixLine      -> Search
+Debug             -> Special
+QuickFixLine      -> Search
+diffAdded         -> String
+diffRemoved       -> WarningMsg
+diffOnly          -> WarningMsg
+diffNoEOL         -> WarningMsg
+diffIsA           -> WarningMsg
+diffIdentical     -> WarningMsg
+diffDiffer        -> WarningMsg
+diffCommon        -> WarningMsg
+diffBDiffer       -> WarningMsg
+lCursor           -> Cursor
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory            cyan              none
+Title                white             none
+Comment              darkblue          none
+Constant             lightmagenta      none
+Identifier           cyan              none
+Ignore               grey30            none
+PreProc              magenta           none
+Special              lightmagenta      none
+Statement            lightyellow       none              bold
+Todo                 darkblue          white
+Type                 green             none              bold
+Underlined           none              none              underline
+
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+
+;;; Terminal
+Term colors: black orange seagreen yellow darkblue darkmagenta darkcyan grey
+Term colors: grey30 red green lightyellow blue magenta cyan white
