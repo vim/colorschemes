@@ -1,0 +1,149 @@
+Full name:     pablo
+Short name:    pablo
+Author:        Ron Aaron <ron@ronware.org>
+Maintainer:    Original maintainerRon Aaron <ron@ronware.org>
+Website:       https://github.com/vim/colorschemes
+License:       Same as Vim
+
+
+Background: dark
+
+; shim layer that replicates default xterm colors as close as we can
+Color: color00 #000000 16  0
+Color: color08 #7f7f7f 102 8
+
+Color: color01 #cd0000 160 1
+Color: color09 #ff0000 196 9
+
+Color: color02 #00cd00 40  2
+Color: color10 #00ff00 46  10
+
+Color: color03 #cdcd00 184 3
+Color: color11 #ffff00 226 11
+
+Color: color04 #0000ee 20  4
+Color: color12 #5c5cff 63  12
+
+Color: color05 #cd00cd 164 5
+Color: color13 #ff00ff 201 13
+
+Color: color06 #00cdcd 44  6
+Color: color14 #00ffff 51  14
+
+Color: color07 #e5e5e5 254 7
+Color: color15 #ffffff 231 15
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+; This layer replicates the behaviour of 'default', no matter how broken it is.
+Color: rgbGrey30      #4d4d4d 239
+Color: rgbGrey40      #666666 241
+Color: rgbDarkGrey    #a9a9a9 248
+Color: rgbDarkBlue    #00008b 20
+Color: rgbDarkMagenta #8b008b 164
+Color: rgbBlue        #0000ff 63
+Color: rgbDarkCyan    #008b8b 44
+Color: rgbSeaGreen    #2e8b57 121
+Color: rgbGrey        #bebebe 248
+Color: Question       #00ff00 121
+Color: SignColumn     #a9a9a9 248
+Color: SpecialKey     #00ffff 81
+Color: StatusLineTerm #90ee90 121
+Color: Title          #ff00ff 225
+Color: WarningMsg     #ff0000 224
+Color: ToolbarLine    #7f7f7f 242
+Color: ToolbarButton  #d3d3d3 254
+Color: Underlined     #80a0ff 81 12
+
+; tweaked for the pablo
+Color: Comment        #808080 244 8
+Color: Constant       #00ffff 51  14
+Color: Special        #0000ff 21  12
+Color: Identifier     #00c0c0 37  6
+Color: Search         #c0c000 142 3
+Color: Statement      #c0c000 142 3
+Color: Todo           #c0c000 142 3
+Color: PreProc        #00ff00 46  10
+Color: Type           #00c000 34  2
+Color: Directory      #00c000 34  2
+Color: Pmenu          #303030 236 8
+
+Variant: gui 256 16
+
+Normal           color15     color00
+
+; Syntax
+Comment          Comment     none
+Constant         Constant    none
+Identifier       Identifier  none
+Statement        Statement   none           t=bold g=bold
+PreProc          PreProc     none
+Type             Type        none
+Special          Special     none
+Underlined       Underlined  none           t=underline g=underline
+Ignore           color00     color00
+Error            color15     color09
+Todo             color00     Todo
+
+Variant: gui 256
+
+; Chrome
+ColorColumn      none        rgbGrey30
+Conceal          color07     rgbDarkGrey
+Cursor           color00     color15
+lCursor          color00     color15
+CursorIM         none        fg
+CursorColumn     none        rgbGrey40
+CursorLine       none        rgbGrey40      t=underline
+CursorLineNr     color11     none           t=underline g=bold
+
+Title            Title       none           t=bold g=bold
+Directory        Directory   none
+Search           color00     Search
+IncSearch        none        none           t=reverse g=reverse
+NonText          rgbBlue     none           g=bold
+EndOfBuffer      rgbBlue     none           g=bold
+ErrorMsg         color15     color01
+WarningMsg       WarningMsg  none
+SignColumn       color14     SignColumn
+FoldColumn       color14     rgbDarkGrey
+Folded           color14     rgbDarkGrey
+LineNr           color11     none
+MatchParen       none        rgbDarkCyan
+ModeMsg          none        none           t=bold g=bold
+MoreMsg          rgbSeaGreen none           g=bold
+Question         Question    none           g=bold
+SpecialKey       SpecialKey  none
+Visual           none        rgbDarkGrey
+VisualNOS        none        color00        t=underline,bold g=underline,bold
+WildMenu         color00     color11
+
+SpellBad         none        color09        g=undercurl
+SpellCap         none        rgbBlue        g=undercurl
+SpellLocal       none        color14        g=undercurl
+SpellRare        none        color13        g=undercurl
+
+StatusLine       color11     color04
+StatusLineNC     none        color00        t=reverse g=reverse
+StatusLineTerm   color00     StatusLineTerm t=bold g=bold
+StatusLineTermNC color00     StatusLineTerm
+VertSplit        none        color00        t=reverse g=reverse
+
+TabLine          color15     color08
+TabLineFill      none        color00        t=reverse g=reverse
+TabLineSel       none        color00        t=bold g=bold
+
+ToolbarLine      none        color00
+ToolbarButton    color00     color07        bold
+
+Pmenu            fg          Pmenu
+PmenuSbar        none        rgbGrey
+PmenuSel         color00     color11
+PmenuThumb       none        fg
+
+DiffAdd          none        rgbDarkBlue
+DiffChange       none        rgbDarkMagenta
+DiffDelete       rgbBlue     rgbDarkCyan    g=bold
+DiffText         none        color09        t=bold g=bold
+
