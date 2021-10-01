@@ -88,8 +88,8 @@ TabLineSel           white             grey20            bold,reverse
 ToolbarButton        grey30            white
 ToolbarLine          none              grey
 VertSplit            white             white
-Visual               white             darkcyan
-VisualNOS            darkcyan          white
+Visual               none              grey60
+VisualNOS            none              none              bold,underline
 WarningMsg           red               none
 WildMenu             grey20            yellow            bold
 debugBreakpoint      darkblue          red
@@ -112,15 +112,15 @@ lCursor           -> Cursor
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
-Title                white             none
+Title                magenta           none
 Comment              darkblue          none
 Constant             lightmagenta      none
 Identifier           cyan              none
-Ignore               grey30            none
+Ignore               grey20            none
 PreProc              magenta           none
-Special              lightmagenta      none
+Special              orange            none
 Statement            lightyellow       none              bold
-Todo                 darkblue          white
+Todo                 yellow            blue              reverse
 Type                 green             none              bold
 Underlined           none              none              underline
 
