@@ -91,7 +91,7 @@ VertSplit            white             white
 Visual               white             darkcyan
 VisualNOS            darkcyan          white
 WarningMsg           red               none
-WildMenu             darkblue          yellow
+WildMenu             grey20            darkblue
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
