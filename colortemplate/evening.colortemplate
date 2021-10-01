@@ -58,8 +58,8 @@ DiffText             none              difft
 EndOfBuffer          lightblue         grey20
 Error                red               white             reverse
 ErrorMsg             white             red
-FoldColumn           darkblue          lightgrey
-Folded               darkblue          lightgrey
+FoldColumn           darkblue          none
+Folded               grey20            darkblue          bold
 IncSearch            none              none              reverse
 LineNr               yellow            none
 MatchParen           none              darkcyan
