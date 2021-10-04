@@ -1,0 +1,145 @@
+;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+;;; Information
+Full name:   darkblue
+Short name:  darkblue
+Description: For those who prefer dark background
+Author:      Original author Bohdan Vlasyuk <bohdan@vstu.edu.ua>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
+
+Variant:    gui 256 16
+Background: dark
+
+;;; Color palette
+Color: bluedark      #00005F           17                darkblue
+Color: blue          #005FD7           26                blue
+Color: turquoise     #00D7D7           44                darkcyan
+Color: turqlight     #87FFFF           123               cyan
+Color: purpledark    #5F00AF           55                darkmagenta
+Color: purple        #8787FF           105               magenta
+Color: green         #87FF00           118               green
+Color: grey          #808080           244               darkgrey
+Color: greylight     #BCBCBC           250               lightgrey
+Color: orange        #D75F00           172               darkred
+Color: pink          #FF87FF           213               red
+Color: peach         #FFAF87           217               darkyellow
+Color: yellow        #FFFF5F           227               yellow
+Color: white         #FFFFFF           231               white
+Color: black         #000000           16                black
+Color: red           #870000           88                darkred
+Color: magentadark   #870087           90                darkmagenta
+Color: diffc         #0087af           31                darkcyan
+Color: difft         #005f87           24                blue
+
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Normal               greylight         bluedark
+Terminal          -> Normal
+ColorColumn          none              red
+Conceal              none              none
+Cursor               black             yellow
+CursorColumn      -> CursorLine
+CursorIM          -> Cursor
+CursorLine           none              grey
+CursorLineNr         green             grey
+DiffAdd              none              bluedark
+DiffChange           none              diffc
+DiffDelete           blue              turquoise
+DiffText             none              difft
+EndOfBuffer          blue              bluedark
+Error                red               white             reverse
+ErrorMsg             white             blue
+FoldColumn           grey              none
+Folded               grey              none
+IncSearch            blue              turqlight         reverse
+LineNr               green             none
+MatchParen           none              none              reverse
+ModeMsg              turquoise         none
+MoreMsg              green             none
+NonText              blue              bluedark
+Pmenu                greylight         purpledark
+PmenuSbar            none              grey
+PmenuSel             greylight         blue
+PmenuThumb           none              greylight
+Question             green             none
+Search               turqlight         blue
+SignColumn           grey              none
+SpecialKey           turquoise         none
+SpellBad             none              none              s=red
+SpellCap             none              none              s=blue
+SpellLocal           none              none              s=pink
+SpellRare            none              none              s=turquoise
+StatusLine           bluedark          greylight
+StatusLineNC         black             grey
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+TabLine              black             grey
+TabLineFill       -> TabLine
+TabLineSel           bluedark          greylight
+ToolbarButton        black             greylight
+ToolbarLine          none              grey
+VertSplit            black             grey
+Visual               purple            greylight         reverse
+VisualNOS            purple            greylight         reverse,underline
+WarningMsg           red               none
+WildMenu             yellow            black
+debugBreakpoint      bluedark          red
+debugPC              bluedark          blue
+
+QuickFixLine      -> Search
+Debug             -> Special
+QuickFixLine      -> Search
+diffAdded         -> String
+diffRemoved       -> WarningMsg
+diffOnly          -> WarningMsg
+diffNoEOL         -> WarningMsg
+diffIsA           -> WarningMsg
+diffIdentical     -> WarningMsg
+diffDiffer        -> WarningMsg
+diffCommon        -> WarningMsg
+diffBDiffer       -> WarningMsg
+lCursor           -> Cursor
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory            turquoise         none
+Title                pink              none
+Comment              purple            none
+Constant             peach             none
+Identifier           turqlight         none
+Ignore               bluedark          greylight
+PreProc              pink              none
+Special              orange            none
+Statement            yellow            none
+Todo                 blue              orange               reverse
+Type                 green             none
+Underlined           none              none              underline
+
+Boolean           -> Constant
+Character         -> Constant
+Conditional       -> Statement
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+Macro             -> PreProc
+Number            -> Constant
+Operator          -> Statement
+PreCondit         -> PreProc
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+
+;;; Terminal
+Term colors: black red green peach bluedark purpledark turquoise grey
+Term colors: greylight pink green yellow blue purple turqlight white
