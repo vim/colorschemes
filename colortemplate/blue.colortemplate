@@ -9,25 +9,25 @@ Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
 Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
-Variant:    gui 256 8
+Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
-Color: black         #000000           0                 black
-Color: darkred       #800000           1                 darkred
-Color: darkgreen     #008000           2                 darkgreen
-Color: darkyellow    #808000           3                 darkyellow
-Color: darkblue      #000080           4                 darkblue
-Color: darkmagenta   #800080           5                 darkmagenta
-Color: darkcyan      #008080           6                 darkcyan
-Color: gray          #c0c0c0           7                 gray
-Color: darkgray      #808080           8                 darkgray
-Color: red           #ff0000           9                 red
-Color: green         #00ff00           10                green
-Color: yellow        #ffff00           11                yellow
-Color: blue          #0000ff           12                blue
-Color: magenta       #ff00ff           13                magenta
-Color: cyan          #00ffff           14                cyan
+Color: black         #000000           16                black
+Color: darkred       #870000           88                darkred
+Color: darkgreen     #008700           28                darkgreen
+Color: darkyellow    #878700           100               darkyellow
+Color: darkblue      #000087           18                darkblue
+Color: darkmagenta   #870087           90                darkmagenta
+Color: darkcyan      #008787           30                darkcyan
+Color: gray          #bcbcbc           250               gray
+Color: darkgray      #878787           102               darkgray
+Color: red           #d70000           160               red
+Color: green         #00d75f           41                green
+Color: yellow        #ffdf00           220               yellow
+Color: blue          #005faf           25                blue
+Color: magenta       #d787d7           176               magenta
+Color: cyan          #5fffff           87                cyan
 Color: white         #ffffff           15                white
 
 ;;; Chrome
