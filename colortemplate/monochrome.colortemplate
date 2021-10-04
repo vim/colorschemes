@@ -1,0 +1,210 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Information
+; Mandatory
+Full Name:     monochrome
+Short name:    monochrome
+Author:        neutaaaaan <neutaaaaan-gh@protonmail.com>
+Maintainer:    neutaaaaan <neutaaaaan-gh@protonmail.com>
+Website:       https://www.github.com/vim/colorschemes
+Description:   A "colorscheme" that only uses the user's terminal foreground and background colors, originally meant to be used in broken environments.
+License:       Vim License (see `:help license`)`
+
+
+; Global definitions - put at the top of the colorscheme
+QuickFixLine         -> Search
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+Define               -> PreProc
+Debug                -> Special
+Delimiter            -> Special
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Label                -> Statement
+Macro                -> PreProc
+Number               -> Constant
+Operator             -> Statement
+PreCondit            -> PreProc
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StorageClass         -> Type
+String               -> Constant
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+; See `:help lCursor`
+lCursor              -> Cursor
+; Custom
+debugBreakpoint      -> ModeMsg
+debugPC              -> CursorLine
+
+Background: any
+
+; This is only here because colortemplate really wants something to be here.
+; The default xterm palette happens to work *okay* against both light and dark backgrounds.
+; Color name                GUI                  Base256 
+Color: xterm0        #000000                   16
+Color: xterm1        #cd0000                   160
+Color: xterm2        #00cd00                   40
+Color: xterm3        #cdcd00                   184
+Color: xterm4        #0000ee                   20
+Color: xterm5        #cd00cd                   164
+Color: xterm6        #00cdcd                   44
+Color: xterm7        #e5e5e5                   254
+Color: xterm8        #7f7f7f                   102
+Color: xterm9        #ff0000                   196
+Color: xterm10       #00ff00                   46
+Color: xterm11       #ffff00                   226 
+Color: xterm12       #5c5cff                   63
+Color: xterm13       #ff00ff                   201
+Color: xterm14       #00ffff                   51
+Color: xterm15       #ffffff                   231
+
+; Terminal colors
+Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
+Term colors: xterm8 xterm9 xterm10 xterm11 xterm12 xterm13 xterm14 xterm15
+
+Variant: gui 256 16 8
+; Group              Foreground        Background        Attributes
+Normal               none              none
+Terminal             none              none
+ColorColumn          none              none              reverse
+Conceal              none              none
+Cursor               none              none              reverse
+CursorColumn         none              none
+CursorLine           none              none
+CursorLineNr         none              none              bold
+DiffAdd              none              none              reverse
+DiffChange           none              none             
+DiffDelete           none              none              reverse
+DiffText             none              none              reverse
+Directory            none              none
+EndOfBuffer          none              none
+ErrorMsg             none              none              reverse,bold
+FoldColumn           none              none
+Folded               none              none
+IncSearch            none              none              reverse,bold,underline
+LineNr               none              none
+MatchParen           none              none              bold,underline
+ModeMsg              none              none              bold
+MoreMsg              none              none
+NonText              none              none
+Pmenu                none              none              reverse
+PmenuSbar            none              none              reverse
+PmenuSel             none              none              bold
+PmenuThumb           none              none
+Question             none              none              standout
+Search               none              none              reverse
+SignColumn           none              none              reverse
+SpecialKey           none              none              bold
+SpellBad             none              none              underline
+SpellCap             none              none              underline
+SpellLocal           none              none              underline
+SpellRare            none              none              underline
+StatusLine           none              none              bold,reverse
+StatusLineNC         none              none              bold,underline
+TabLine              none              none              bold,underline
+TabLineFill          none              none
+TabLineSel           none              none              reverse,bold
+Title                none              none
+VertSplit            none              none
+Visual               none              none              reverse
+VisualNOS            none              none
+WarningMsg           none              none              standout
+WildMenu             none              none              bold
+; Other conventional group names (see `:help group-name`)
+Comment              none              none              bold
+Constant             none              none
+Error                none              none              reverse,bold
+Identifier           none              none
+Ignore               none              none
+PreProc              none              none
+Special              none              none
+Statement            none              none
+Todo                 none              none              reverse,bold
+Type                 none              none
+Underlined           none              none              underline
+; See `:help CursorIM`
+CursorIM             none              none
+; See `:help window-toolbar`
+ToolbarLine          none              none              reverse
+ToolbarButton        none              none              bold,reverse
+
+
+; This is necessary for t_Co=0 to work.
+;
+; This was originally an include, that for some reason implies t_Co=2.
+; Adding 2 to the list of variants above does not help, my understanding is that colortemplate addresses `term` separately 
+; from the `cterm`/`gui` catch-all used in the rest of the template.
+
+Variant: 2
+
+; Default highlight groups
+; Group              Unused Unused  Term attributes
+Normal               omit   omit
+ColorColumn          omit   omit    reverse
+Conceal              omit   omit
+Cursor               omit   omit    reverse
+CursorColumn         omit   omit
+CursorLine           omit   omit
+CursorLineNr         omit   omit    bold
+DiffAdd              omit   omit    reverse
+DiffChange           omit   omit
+DiffDelete           omit   omit    reverse
+DiffText             omit   omit    reverse
+Directory            omit   omit
+EndOfBuffer          omit   omit
+ErrorMsg             omit   omit    bold,reverse
+FoldColumn           omit   omit    
+Folded               omit   omit
+IncSearch            omit   omit    reverse,bold,underline
+LineNr               omit   omit
+MatchParen           omit   omit    bold,underline
+ModeMsg              omit   omit    bold
+MoreMsg              omit   omit
+NonText              omit   omit
+Pmenu                omit   omit    reverse
+PmenuSbar            omit   omit    reverse
+PmenuSel             omit   omit    bold
+PmenuThumb           omit   omit
+Question             omit   omit    standout
+Search               omit   omit    reverse
+SignColumn           omit   omit    reverse
+SpecialKey           omit   omit    bold
+SpellBad             omit   omit    underline
+SpellCap             omit   omit    underline
+SpellLocal           omit   omit    underline
+SpellRare            omit   omit    underline
+StatusLine           omit   omit    reverse,bold
+StatusLineNC         omit   omit    bold,underline
+TabLine              omit   omit    underline,bold
+TabLineFill          omit   omit
+TabLineSel           omit   omit    reverse,bold
+Title                omit   omit
+VertSplit            omit   omit
+Visual               omit   omit    reverse
+VisualNOS            omit   omit
+WarningMsg           omit   omit    standout
+WildMenu             omit   omit    bold
+; Other conventional group names (see `:help group-name`)
+Comment              omit   omit    bold
+Constant             omit   omit
+Error                omit   omit    reverse,bold
+Identifier           omit   omit
+Ignore               omit   omit
+PreProc              omit   omit
+Special              omit   omit
+Statement            omit   omit
+Todo                 omit   omit    reverse,bold
+Type                 omit   omit
+Underlined           omit   omit    underline
+CursorIM             omit   omit
+ToolbarLine          omit   omit    reverse
+ToolbarButton        omit   omit    bold,reverse
