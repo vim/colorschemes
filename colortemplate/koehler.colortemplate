@@ -96,7 +96,7 @@ Color: Type          #60ff60                    83
 Color: koeDirectory  #cc8000                   172
 Color: koeCursorLine #555555                   240
 Color: koeLightBlue  #ADD8E6                   153
-Color: koeColorCol   #8b0000                   88
+Color: koeDarkRed    #8b0000                   88
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -108,7 +108,7 @@ Term colors: xterm14 xterm15
 Variant: gui 256
 
 ; Group              Foreground        Background        Attributes
-ColorColumn          none              koeColorCol
+ColorColumn          none              koeDarkRed
 Conceal              xterm7            rgbDarkGrey
 Cursor               xterm0            xterm10
 CursorColumn         none              koeCursorLine
@@ -117,7 +117,7 @@ CursorLineNr         xterm11           none              t=bold g=bold
 DiffAdd              none              rgbDarkBlue
 DiffChange           none              rgbDarkMagenta
 DiffDelete           rgbBlue           rgbDarkCyan       t=bold g=bold
-DiffText             none              xterm9            t=bold g=bold
+DiffText             none              koeDarkRed        t=bold g=bold
 Directory            koeDirectory      xterm0
 EndOfBuffer          xterm1            xterm0            t=bold g=bold
 ErrorMsg             xterm15           xterm9
