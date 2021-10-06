@@ -137,7 +137,7 @@ SpellBad             uipink            black             underline
 SpellCap             uiblue            black             underline
 SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
-StatusLine           white             uiblack           bold
+StatusLine           black             white             bold
 StatusLineNC         brightblack       black             underline
 TabLine              white             uiblack
 TabLineFill          white             none
@@ -147,7 +147,7 @@ VertSplit            brightblack       black
 Visual               none              none              reverse
 VisualNOS            none              uiblack
 WarningMsg           white             black
-WildMenu             uiblue            uiblack           bold
+WildMenu             uiblue            black             bold
 ; Other conventional group names (see `:help group-name`)
 Comment              brightblack       black             bold
 Constant             white             none
