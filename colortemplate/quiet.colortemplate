@@ -272,7 +272,7 @@ Color: uiteal               #00ffaf                ~
 Color: uiblue               #00afff                ~          
 Color: uipurple             #af00ff                ~          
 Color: uiamber              #ffaf00                ~          
-Color: invisigrey           #afafaf                ~   
+Color: invisigrey           #a8a8a8                ~   
 
 Color: errorred             #ff005f                ~
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -322,7 +322,7 @@ SpellCap             uiblue            white             underline
 SpellLocal           uipurple          white             underline
 SpellRare            uiteal            white             underline
 StatusLine           brightwhite       black             bold
-StatusLineNC         black             brightwhite
+StatusLineNC         black             invisigrey
 TabLine              black             brightwhite
 TabLineFill          black             white
 TabLineSel           brightwhite       black             bold
