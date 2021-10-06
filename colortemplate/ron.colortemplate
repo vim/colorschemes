@@ -12,6 +12,7 @@ License:       Same as Vim
 
 
 ; Common linked groups {{{
+Terminal          -> Normal
 Boolean           -> Constant
 Character         -> Constant
 Conditional       -> Statement
