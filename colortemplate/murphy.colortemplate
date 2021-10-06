@@ -46,8 +46,11 @@ Color: colorDiffA #005F00 22
 Color: colorDiffC #00005F 17
 Color: colorDiffD #5f0000 52
 
-Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+Color: color04t   #87AFFF 111
+Color: color12t   #005FFF 27
+
+Term colors: color00 color01 color02 color03 color04t color05 color06 color07
+Term colors: color08 color09 color10 color11 color12t color13 color14 color15
 
 ;;; chrome
 
