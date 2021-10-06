@@ -7,9 +7,10 @@ Short name:    elflord
 Author:        original author Ron Aaron <ron@ronware.org>
 Maintainer:    original maintainer Ron Aaron <ron@ronware.org>
 Website:       https://www.github.com/vim/colorschemes
-License:       Unspecified/TBD ?
+License:       Same as Vim
 
 ; Common linked groups {{{
+Terminal          -> Normal
 Boolean           -> Constant
 Character         -> Constant
 Conditional       -> Repeat
@@ -62,7 +63,7 @@ Color: xterm7        #e5e5e5                   254
 Color: xterm8        #7f7f7f                   102
 Color: xterm9        #ff0000                   196
 Color: xterm10       #00ff00                   46
-Color: xterm11       #ffff00                   226 
+Color: xterm11       #ffff00                   226
 Color: xterm12       #5c5cff                   63
 Color: xterm13       #ff00ff                   201
 Color: xterm14       #00ffff                   51
@@ -71,8 +72,10 @@ Color: xterm15       #ffffff                   231
 ; Elflord relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
-; Unused entries have since been removed and the 256c fallbacks have been replaced by more 
+; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
+Color: Pmenu         #444444                   238
+Color: CursorLine    #3a3a3a                   237
 Color: rgbGrey40     #666666                    59
 Color: rgbDarkGrey   #a9a9a9                   145
 Color: rgbBlue       #0000ff                    21
@@ -90,15 +93,15 @@ Color: ToolbarLine   #7f7f7f                   244
 Color: Underlined    #80a0ff                   111
 
 ; Specific to elflord
-Color: elfComment    #80a0ff                   111 
+Color: elfComment    #80a0ff                   111
 Color: elfIdentifier #40ffff                    87
 Color: elfStatement  #aa4444                   131
 Color: elfPreProc    #ff80ff                   213
 Color: elfType       #60ff60                    83
 Color: elfDiffAdd    #00008b                    18
 Color: elfDiffDelete #008b8b                    30
-Color: elfDiffChange #8b008b                    90
-Color: elfDiffText   #80a0ff                    81
+Color: elfDiffChange #5f005f                    53
+Color: elfDiffText   #5f0000                    52
 Color: elfBlue       #0000ff                    21
 
 ; }}}
@@ -113,59 +116,59 @@ Variant: gui 256
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              xterm1
-Conceal              xterm7            rgbDarkGrey
+Conceal              rgbGrey40         none
 Cursor               xterm0            xterm14
-CursorColumn         none              rgbGrey40         
-CursorLine           none              rgbGrey40         
+CursorColumn         none              CursorLine
+CursorLine           none              CursorLine
 CursorLineNr         xterm11           none              t=underline g=bold
 DiffAdd              none              elfDiffAdd
 DiffChange           none              elfDiffChange
 DiffDelete           xterm15           elfDiffDelete
-DiffText             none              xterm9            t=bold g=bold
-Directory            Directory         xterm0            
+DiffText             none              elfDiffText       t=bold g=bold
+Directory            Directory         xterm0
 EndOfBuffer          rgbBlue           xterm0            t=bold g=bold
-ErrorMsg             xterm15           xterm1            
-FoldColumn           xterm14           rgbDarkGrey       
-Folded               xterm14           rgbDarkGrey       
+ErrorMsg             xterm15           xterm1
+FoldColumn           xterm14           rgbGrey40
+Folded               xterm14           rgbGrey40
 IncSearch            none              xterm0            t=reverse g=reverse
-LineNr               xterm11           xterm0            
-MatchParen           none              rgbDarkCyan       
+LineNr               xterm11           xterm0
+MatchParen           none              rgbDarkCyan
 ModeMsg              none              xterm0            t=bold g=bold
 MoreMsg              rgbSeaGreen       xterm0            t=bold g=bold
 NonText              rgbBlue           xterm0            t=bold g=bold
 Normal               xterm14           xterm0
-Pmenu                xterm0            xterm13
+Pmenu                xterm15           Pmenu
 PmenuSbar            none              rgbGrey
-PmenuSel             rgbDarkGrey       xterm0
+PmenuSel             xterm0            xterm6
 PmenuThumb           none              xterm15
 Question             Question          xterm0            t=bold g=bold
-Search               xterm0            xterm11           
-SignColumn           xterm14           SignColumn        
-SpecialKey           SpecialKey        xterm0            
+Search               xterm0            xterm11
+SignColumn           xterm14           SignColumn
+SpecialKey           SpecialKey        xterm0
 SpellBad             none              xterm9            g=undercurl
-SpellCap             none              rgbBlue           g=undercurl            
-SpellLocal           none              xterm14           g=undercurl            
+SpellCap             none              rgbBlue           g=undercurl
+SpellLocal           none              xterm14           g=undercurl
 SpellRare            none              xterm13           g=undercurl
 StatusLine           none              xterm0            t=reverse,bold g=reverse,bold
 StatusLineNC         none              xterm0            t=reverse g=reverse
 StatusLineTerm       xterm0            StatusLineTerm    t=bold g=bold
-StatusLineTermNC     xterm0            StatusLineTerm    
-TabLine              xterm15           rgbDarkGrey       t=underline g=underline
+StatusLineTermNC     xterm0            StatusLineTerm
+TabLine              xterm15           rgbDarkCyan       t=underline g=underline
 TabLineFill          none              xterm0            t=reverse g=reverse
 TabLineSel           none              xterm0            t=bold g=bold
 Terminal             xterm14           xterm0
 Title                Title             xterm0            t=bold g=bold
 VertSplit            none              xterm0            t=reverse g=reverse
-Visual               none              rgbDarkGrey       
+Visual               xterm0            rgbDarkGrey
 VisualNOS            none              xterm0            t=underline,bold g=underline,bold
-WarningMsg           WarningMsg        xterm0            
-WildMenu             xterm0            xterm11           
+WarningMsg           WarningMsg        xterm0
+WildMenu             xterm0            xterm11
 ; Other conventional group names (see `:help group-name`)
-Comment              elfComment        none              
+Comment              elfComment        none
 Constant             xterm13           none
 Error                xterm15           xterm9
 Function             xterm15           none
-Identifier           elfIdentifier     none              
+Identifier           elfIdentifier     none
 Ignore               xterm0            xterm0
 Operator             xterm9            none
 PreProc              elfPreProc        none
@@ -178,7 +181,7 @@ Underlined           Underlined        none              t=underline g=underline
 ; See `:help CursorIM`
 CursorIM             none              fg
 ; See `:help window-toolbar`
-ToolbarLine          none              ToolbarLine       
-ToolbarButton        xterm0            xterm0            t=bold g=bold
+ToolbarLine          none              none
+ToolbarButton        xterm0            xterm7            t=bold g=bold
 ; }}}
 
