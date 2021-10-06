@@ -7,7 +7,7 @@ Short name:    ron
 Author:        original author Ron Aaron <ron@ronware.org>
 Maintainer:    original maintainer Ron Aaron <ron@ronware.org>
 Website:       https://www.github.com/vim/colorschemes
-License:       Unspecified/TBD ?
+License:       Same as Vim
 
 
 
@@ -64,7 +64,7 @@ Color: xterm7        #e5e5e5                   254
 Color: xterm8        #7f7f7f                   102
 Color: xterm9        #ff0000                   196
 Color: xterm10       #00ff00                   46
-Color: xterm11       #ffff00                   226 
+Color: xterm11       #ffff00                   226
 Color: xterm12       #5c5cff                   63
 Color: xterm13       #ff00ff                   201
 Color: xterm14       #00ffff                   51
@@ -73,7 +73,7 @@ Color: xterm15       #ffffff                   231
 ; Ron relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
-; Unused entries have since been removed and the 256c fallbacks have been replaced by more 
+; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
 Color: rgbGrey40     #666666                    59
 Color: rgbDarkGrey   #a9a9a9                   145
@@ -91,6 +91,7 @@ Color: ToolbarLine   #7f7f7f                   244
 Color: Underlined    #80a0ff                   111
 
 ; Specific to ron.vim
+Color: Pmenu         #444444                   238
 Color: ron303030     #303030                   236
 Color: ronLightBlue  #add8e6                   152
 Color: ronPink2      #eea9b8                   217
@@ -117,43 +118,43 @@ Variant: gui 256
 ColorColumn          none              xterm1
 Conceal              xterm7            rgbDarkGrey
 Cursor               xterm15           ronCursor
-CursorColumn         none              rgbGrey40         
+CursorColumn         none              rgbGrey40
 CursorLine           none              rgbGrey40         t=underline
 CursorLineNr         xterm11           none              t=underline g=bold
 DiffAdd              none              ronSlateBlue
-DiffChange           none              ronDarkGreen    
-DiffDelete           rgbBlue           rgbDarkCyan       g=bold
+DiffChange           none              ronDarkGreen
+DiffDelete           rgbBlue           ronCoral          g=bold
 DiffText             none              ronOliveDrab
-Directory            Directory         xterm0            
+Directory            Directory         xterm0
 EndOfBuffer          rgbBlue           xterm0            g=bold
 ErrorMsg             xterm0            xterm9
 FoldColumn           xterm15           ronGray30
 Folded               none              ronGray30
 IncSearch            none              ronSteelBlue
-LineNr               rgbDarkGrey       xterm0            
-MatchParen           none              rgbDarkCyan       
+LineNr               rgbDarkGrey       xterm0
+MatchParen           none              rgbDarkCyan
 ModeMsg              none              xterm0            t=bold g=bold
 MoreMsg              rgbSeaGreen       xterm0            g=bold
 NonText              xterm11           ron303030
 Normal               xterm14           xterm0
-Pmenu                xterm0            xterm13
+Pmenu                xterm15           Pmenu
 PmenuSbar            none              rgbGrey
-PmenuSel             rgbDarkGrey       xterm0
+PmenuSel             xterm0            xterm6
 PmenuThumb           none              xterm15
 Question             Question          xterm0            g=bold
 Search               xterm0            rgbDarkGrey       t=bold g=bold
-SignColumn           xterm14           SignColumn        
-SpecialKey           SpecialKey        xterm0            
+SignColumn           xterm14           SignColumn
+SpecialKey           SpecialKey        xterm0
 SpellBad             none              xterm9            g=undercurl
-SpellCap             none              rgbBlue           g=undercurl            
-SpellLocal           none              xterm14           g=undercurl            
+SpellCap             none              rgbBlue           g=undercurl
+SpellLocal           none              xterm14           g=undercurl
 SpellRare            none              xterm13           g=undercurl
 StatusLine           xterm14           rgbBlue           t=bold g=bold
 StatusLineNC         ronLightBlue      rgbDarkBlue
 StatusLineTerm       xterm0            StatusLineTerm    t=bold g=bold
-StatusLineTermNC     xterm0            StatusLineTerm    
-TabLine              xterm15           rgbDarkGrey       t=underline g=underline
-TabLineFill          none              xterm0            t=reverse g=reverse
+StatusLineTermNC     xterm0            StatusLineTerm
+TabLine              xterm15           rgbDarkCyan       t=underline g=underline
+TabLineFill          rgbDarkGrey       xterm0            t=reverse g=reverse
 TabLineSel           none              xterm0            t=bold g=bold
 Terminal             xterm14           xterm0
 Title                rgbDarkGrey       xterm0
@@ -161,9 +162,9 @@ VertSplit            none              xterm0            t=reverse g=reverse
 Visual               none              none              t=reverse g=reverse
 VisualNOS            none              xterm0            t=underline,bold g=underline,bold
 WarningMsg           xterm0            xterm10
-WildMenu             xterm0            xterm11           
+WildMenu             xterm0            xterm11
 ; Other conventional group names (see `:help group-name`)
-Comment              xterm10           none              
+Comment              xterm10           none
 Constant             xterm14           none              bold
 Error                xterm14           xterm9
 Identifier           xterm14           none
@@ -179,7 +180,7 @@ Underlined           Underlined        none              t=underline g=underline
 ; See `:help CursorIM`
 CursorIM             none              fg
 ; See `:help window-toolbar`
-ToolbarLine          none              ToolbarLine       t=underline
-ToolbarButton        xterm0            xterm0            bold
+ToolbarLine          none              none              t=underline
+ToolbarButton        xterm0            xterm7            bold
 ; }}}
 
