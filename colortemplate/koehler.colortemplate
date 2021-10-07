@@ -148,7 +148,6 @@ StatusLineTermNC     xterm0            StatusLineTerm
 TabLine              rgbBlue           xterm15           t=bold g=bold
 TabLineFill          rgbBlue           xterm15           t=bold g=bold
 TabLineSel           xterm15           rgbBlue           t=bold g=bold
-Terminal             xterm15           xterm0
 Title                xterm13           xterm0            t=bold g=bold
 VertSplit            none              xterm0            t=reverse g=reverse
 Visual               none              rgbGrey40         t=reverse g=reverse
