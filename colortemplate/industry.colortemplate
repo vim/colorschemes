@@ -56,6 +56,7 @@ Color: color15    #FFFFFF 231
 Color: colorDiffA #005F00 22
 Color: colorDiffC #00005F 17
 Color: colorDiffD #5f0000 52
+Color: colorDiffT #0000FF 21
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -119,7 +120,7 @@ lCursor          background color09
 
 DiffAdd          none       colorDiffA
 DiffChange       none       colorDiffC
-DiffText         color06    color12
+DiffText         color06    colorDiffT
 DiffDelete       color09    colorDiffD
 
 
