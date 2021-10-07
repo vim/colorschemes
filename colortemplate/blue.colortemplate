@@ -75,8 +75,8 @@ StatusLineTermNC     darkblue          darkgreen
 TabLine              darkblue          darkcyan
 TabLineFill          darkblue          darkcyan
 TabLineSel           darkblue          cyan
-ToolbarButton        darkgray          white
-ToolbarLine          none              gray
+ToolbarButton        white             blue
+ToolbarLine          none              none
 VertSplit            darkcyan          none
 Visual               white             darkcyan
 VisualNOS            darkcyan          white
