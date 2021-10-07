@@ -88,6 +88,7 @@ WildMenu             yellow            black
 debugBreakpoint      bluedark          red
 debugPC              bluedark          blue
 
+Terminal          -> Normal
 QuickFixLine      -> Search
 Debug             -> Special
 QuickFixLine      -> Search
