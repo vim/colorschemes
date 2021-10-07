@@ -78,8 +78,8 @@ StatusLineTermNC  -> StatusLineNC
 TabLine              black             grey
 TabLineFill       -> TabLine
 TabLineSel           bluedark          greylight
-ToolbarButton        black             greylight
-ToolbarLine          none              grey
+ToolbarButton        white             blue
+ToolbarLine          none              none
 VertSplit            black             grey
 Visual               purple            greylight         reverse
 VisualNOS            purple            greylight         reverse,underline
