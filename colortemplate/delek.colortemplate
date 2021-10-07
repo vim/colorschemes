@@ -125,3 +125,6 @@ Title        preproc     none bold
 
 Term colors: bg0     statement constant preproc identifier type special bg1
 Term colors: comment statement constant preproc identifier type special fg0
+
+;;; Links
+Terminal          -> Normal
