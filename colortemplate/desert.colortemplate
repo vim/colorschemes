@@ -133,3 +133,7 @@ Conceal          color07    none
 Ignore           none       none
 
 Title            color01    none
+
+
+;;; Links
+Terminal          -> Normal
