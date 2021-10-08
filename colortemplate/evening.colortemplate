@@ -39,6 +39,8 @@ Color: diffa         #005f5f           23                darkcyan
 Color: diffd         #875f00           94                darkred
 Color: diffc         #8700ff           93                magenta
 Color: difft         #5f005f           53                darkmagenta
+Color: xtermblue     #0087ff           33                blue
+Color: xtermdarkblue #006faf           25                darkblue
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
@@ -149,5 +151,5 @@ Tag               -> Special
 Typedef           -> Type
 
 ;;; Terminal
-Term colors: black orange seagreen yellow darkblue darkmagenta darkcyan grey
-Term colors: grey30 red green lightyellow blue magenta cyan white
+Term colors: black orange seagreen yellow xtermdarkblue darkmagenta darkcyan grey
+Term colors: grey30 red green lightyellow xtermblue magenta cyan white
