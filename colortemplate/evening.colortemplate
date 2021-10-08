@@ -88,8 +88,8 @@ StatusLineTermNC  -> StatusLineNC
 TabLine              lightgrey         grey20            reverse
 TabLineFill       -> TabLine
 TabLineSel           white             grey20            bold,reverse
-ToolbarButton        grey30            white
-ToolbarLine          none              grey
+ToolbarButton        grey30            grey60
+ToolbarLine          none              grey30
 VertSplit            white             white
 Visual               none              grey60
 VisualNOS            none              none              bold,underline
