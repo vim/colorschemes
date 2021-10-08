@@ -29,6 +29,8 @@ Color: blue          #005faf           25                blue
 Color: magenta       #d787d7           176               magenta
 Color: cyan          #5fffff           87                cyan
 Color: white         #ffffff           15                white
+Color: xtermblue     #5fafff           75                blue
+Color: xtermdarkblue #0087af           31                darkblue
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
@@ -141,4 +143,4 @@ Typedef           -> Type
 
 ;;; Terminal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
-Term colors: darkgray red green yellow blue magenta cyan white
+Term colors: darkgray red green yellow xtermblue magenta cyan white
