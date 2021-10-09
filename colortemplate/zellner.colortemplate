@@ -53,8 +53,8 @@ VertSplit        none       bg0       reverse
 
 Pmenu            fg0        pmenu
 PmenuSel         fg0        wildmenu
-PmenuSbar        none       comment
-PmenuThumb       none       pmenu
+PmenuSbar        none       bg0
+PmenuThumb       none       bg1
 
 TabLine          fg0        bg1       underline
 TabLineFill      none       none      reverse
