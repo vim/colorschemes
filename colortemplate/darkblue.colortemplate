@@ -59,10 +59,10 @@ MatchParen           none              none              reverse
 ModeMsg              turquoise         none
 MoreMsg              green             none
 NonText              blue              bluedark
-Pmenu                greylight         purpledark
-PmenuSbar            none              grey
-PmenuSel             greylight         blue
-PmenuThumb           none              greylight
+Pmenu                white             blue
+PmenuSbar            none              none
+PmenuSel             blue              white
+PmenuThumb           none              white
 Question             green             none
 Search               turqlight         blue
 SignColumn           grey              none

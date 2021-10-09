@@ -58,10 +58,10 @@ MatchParen           white             magenta
 ModeMsg              darkblue          green
 MoreMsg              cyan              none
 NonText              magenta           none
-Pmenu                white             magenta
-PmenuSbar            magenta           darkmagenta
-PmenuSel             magenta           white
-PmenuThumb           white             white
+Pmenu                white             darkcyan
+PmenuSbar            none              none
+PmenuSel             darkcyan          white
+PmenuThumb           none              white
 Question             green             none
 Search               black             yellow
 SignColumn           darkcyan          none
