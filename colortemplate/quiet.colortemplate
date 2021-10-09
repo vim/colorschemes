@@ -76,6 +76,23 @@ Color: xterm13       #ff00ff                   201      13
 Color: xterm14       #00ffff                   51       14
 Color: xterm15       #ffffff                   231      15
 
+Color: dark0         #080808                     ~
+Color: dark1         #d7005f                     ~
+Color: dark2         #00af5f                     ~
+Color: dark3         #d78700                     ~
+Color: dark4         #0087d7                     ~
+Color: dark5         #d787d7                     ~
+Color: dark6         #00afaf                     ~
+Color: dark7         #dddddd                     ~
+Color: dark8         #707070                     ~
+Color: dark9         #ff005f                     ~
+Color: dark10        #00d75f                     ~
+Color: dark11        #ffaf00                     ~
+Color: dark12        #5fafff                     ~
+Color: dark13        #ff87ff                     ~
+Color: dark14        #00d7d7                     ~
+Color: dark15        #ffffff                     ~
+
 Color: diffred              #d75f5f                ~          
 Color: diffgreen            #00af00                ~          
 Color: diffblue             #87afd7                ~          
@@ -95,8 +112,8 @@ Color: errorred             #ff005f                ~
 ; }}}
 
 ; Terminal colors for dark variant {{{
-Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
-Term colors: xterm8 xterm9 xterm10 xterm11 xterm12 xterm13 xterm14 xterm15
+Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
+Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
 Variant: gui 256 
@@ -261,6 +278,23 @@ Color: xterm13       #ff00ff                   201      13
 Color: xterm14       #00ffff                   51       14
 Color: xterm15       #ffffff                   231      15
 
+Color: light0        #080808           ~
+Color: light1        #9f003f           ~
+Color: light2        #00773f           ~
+Color: light3        #9f4f00           ~
+Color: light4        #004faf           ~
+Color: light5        #77008f           ~
+Color: light6        #00779f           ~
+Color: light7        #d7d7d7           ~
+Color: light8        #626262           ~
+Color: light9        #bf005f           ~
+Color: light10       #00975f           ~
+Color: light11       #bf6f00           ~
+Color: light12       #006fcf           ~
+Color: light13       #9700af           ~
+Color: light14       #0097bf           ~
+Color: light15       #ffffff           ~
+
 Color: diffred              #d78787                ~   
 Color: diffgreen            #87d787                ~   
 Color: diffblue             #afafd7                ~   
@@ -279,8 +313,8 @@ Color: errorred             #ff005f                ~
 ; }}}
 
 ; Terminal colors for light variant {{{
-Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
-Term colors: xterm8 xterm9 xterm10 xterm11 xterm12 xterm13 xterm14 xterm15
+Term colors: light0 light1 light2 light3 light4 light5 light6 light7
+Term colors: light8 light9 light10 light11 light12 light13 light14 light15
 ; }}}
 
 Variant: gui 256 
