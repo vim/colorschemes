@@ -55,7 +55,7 @@ VertSplit        none      bg1         reverse
 Pmenu            fg0       pmenu
 PmenuSel         fg0       wildmenu
 PmenuSbar        none      bg0
-PmenuThumb       none      status
+PmenuThumb       none      fg0
 
 TabLine          fg0       bg1         underline
 TabLineFill      none      none        reverse
