@@ -53,8 +53,8 @@ VertSplit        bg0        bg1
 
 Pmenu            fg0        pmenu
 PmenuSel         fg0        cursorline bold
-PmenuSbar        none       folded
-PmenuThumb       none       cursorline
+PmenuSbar        none       bg0
+PmenuThumb       none       bg1
 
 TabLine          bg0        bg1        underline
 TabLineFill      none       none       reverse
