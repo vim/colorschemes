@@ -60,7 +60,7 @@ StatuslineTerm   color00    color13
 StatuslineTermNC color07    color13
 VertSplit        color07    color13
 
-Pmenu            none       color08
+Pmenu            none       color07
 PmenuSel         background color05
 PmenuSbar        none       background
 PmenuThumb       none       color11
