@@ -50,8 +50,8 @@ VertSplit        folded     bg2
 
 Pmenu            fg0        pmenu
 PmenuSel         fg0        wildmenu
-PmenuSbar        none       comment
-PmenuThumb       none       pmenu
+PmenuSbar        none       bg0
+PmenuThumb       none       comment
 
 TabLine          fg0        bg1       underline
 TabLineFill      none       none      reverse
