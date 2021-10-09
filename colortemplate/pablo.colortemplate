@@ -141,9 +141,9 @@ ToolbarLine      none        color00
 ToolbarButton    color00     color07        bold
 
 Pmenu            fg          Pmenu
-PmenuSbar        none        rgbGrey
-PmenuSel         color00     color11
-PmenuThumb       none        fg
+PmenuSbar        none        color00
+PmenuSel         color00     color07
+PmenuThumb       none        color08
 
 DiffAdd          none        rgbDarkBlue
 DiffChange       none        rgbDarkMagenta
