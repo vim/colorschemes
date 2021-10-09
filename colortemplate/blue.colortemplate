@@ -60,7 +60,7 @@ MoreMsg              cyan              none
 NonText              magenta           none
 Pmenu                white             darkcyan
 PmenuSbar            none              none
-PmenuSel             darkblue          white
+PmenuSel             darkcyan          white
 PmenuThumb           none              white
 Question             green             none
 Search               black             yellow
