@@ -139,9 +139,9 @@ MoreMsg              rgbSeaGreen       xterm0            g=bold
 NonText              xterm11           ron303030
 Normal               xterm14           xterm0
 Pmenu                xterm15           Pmenu
-PmenuSbar            none              rgbGrey
+PmenuSbar            none              xterm0
 PmenuSel             xterm0            xterm6
-PmenuThumb           none              xterm15
+PmenuThumb           none              xterm8
 Question             Question          xterm0            g=bold
 Search               xterm0            rgbDarkGrey       t=bold g=bold
 SignColumn           xterm14           SignColumn
