@@ -1,3 +1,5 @@
+" Usage:
+"     $ vim -Nu NONE -S colors/tools/sample_base.vim +source\ colors/blue.vim
 set nocompatible
 set number
 set relativenumber
@@ -11,7 +13,10 @@ set spell
 syntax on
 tabnew
 silent vertical help group-name
-/Comment
+/Constant
+sign define piet text=>> texthl=Search
+execute "sign place 2 line=" . line('.') . " name=piet file=" . expand('%:p')
+?Comment
 normal zt
 only
 silent vsplit $VIMRUNTIME/indent.vim
@@ -24,5 +29,5 @@ normal zR
 split
 1
 normal zM
-autocmd! VimEnter * execute 'terminal' | wincmd p
+autocmd! VimEnter * execute 'terminal ls -al --color' | wincmd p
 call feedkeys('V6j')
