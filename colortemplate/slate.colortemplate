@@ -41,6 +41,8 @@ Color: color15    #FFFFFF 231
 Color: color16    #D7875F 173
 Color: color17    #00FF00 46
 
+Color: Pmenu      #4A4A4A 239
+
 Color: colorDiffA #005F00 22
 Color: colorDiffC #00005F 17
 Color: colorDiffD #5F0000 52
@@ -60,7 +62,7 @@ StatuslineTerm   color00    color13
 StatuslineTermNC color07    color13
 VertSplit        color07    color13
 
-Pmenu            none       color07
+Pmenu            none       Pmenu
 PmenuSel         background color05
 PmenuSbar        none       background
 PmenuThumb       none       color11
