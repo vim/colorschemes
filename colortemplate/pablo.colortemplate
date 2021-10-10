@@ -113,6 +113,8 @@ SignColumn       color14     SignColumn
 FoldColumn       color08     Folded
 Folded           color08     Folded
 LineNr           color08     none
+LineNrAbove   -> LineNr
+LineNrBelow   -> LineNr
 MatchParen       none        rgbDarkCyan
 ModeMsg          none        none           t=bold g=bold
 MoreMsg          rgbSeaGreen none           g=bold

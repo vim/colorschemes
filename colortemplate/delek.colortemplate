@@ -128,3 +128,5 @@ Term colors: comment statement constant preproc identifier type special fg0
 
 ;;; Links
 Terminal          -> Normal
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr

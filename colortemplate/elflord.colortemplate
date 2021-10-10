@@ -184,4 +184,6 @@ CursorIM             none              fg
 ToolbarLine          none              none
 ToolbarButton        xterm0            xterm7            t=bold g=bold
 ; }}}
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
 

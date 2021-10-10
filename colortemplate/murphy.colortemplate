@@ -139,3 +139,5 @@ Title            color13    none bold
 
 ;;; Links
 Terminal          -> Normal
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr

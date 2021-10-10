@@ -183,5 +183,8 @@ CursorIM             none              fg
 ; See `:help window-toolbar`
 ToolbarLine          none              none              t=underline
 ToolbarButton        xterm0            xterm7            bold
+; Links
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
 ; }}}
 

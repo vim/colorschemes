@@ -55,6 +55,8 @@ FoldColumn           grey              none
 Folded               grey              none
 IncSearch            blue              turqlight         reverse
 LineNr               green             none
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
 MatchParen           none              none              reverse
 ModeMsg              turquoise         none
 MoreMsg              green             none

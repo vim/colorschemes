@@ -65,6 +65,8 @@ FoldColumn           darkblue          none
 Folded               grey20            darkblue          bold
 IncSearch            none              none              reverse
 LineNr               yellow            none
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
 MatchParen           none              darkcyan
 ModeMsg              none              none              bold
 MoreMsg              seagreen          none              t=bold

@@ -24,6 +24,8 @@ Include           -> PreProc
 IncSearch         -> Visual
 Keyword           -> Statement
 Label             -> Statement
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
 Macro             -> PreProc
 Number            -> Constant
 Operator          -> Statement

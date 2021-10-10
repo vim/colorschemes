@@ -150,3 +150,5 @@ DiffText         none        color09        t=bold g=bold
 
 ;;; Links
 Terminal         -> Normal
+LineNrAbove      -> LineNr
+LineNrBelow      -> LineNr
