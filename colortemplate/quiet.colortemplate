@@ -156,7 +156,7 @@ SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
 StatusLine           black             white             bold
 StatusLineNC         brightblack       black             underline
-TabLine              white             uiblack
+TabLine              brightblack       black             underline
 TabLineFill          white             none
 TabLineSel           black             white             bold
 Title                white             black
@@ -357,7 +357,7 @@ SpellLocal           uipurple          white             underline
 SpellRare            uiteal            white             underline
 StatusLine           brightwhite       black             bold
 StatusLineNC         black             invisigrey
-TabLine              black             brightwhite
+TabLine              black             invisigrey
 TabLineFill          black             white
 TabLineSel           brightwhite       black             bold
 Title                black             white
