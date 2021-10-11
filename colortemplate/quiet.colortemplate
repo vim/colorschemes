@@ -280,7 +280,7 @@ Color: xterm15       #ffffff                   231      15
 
 Color: light0        #080808           ~
 Color: light1        #9f003f           ~
-Color: light2        #00773f           ~
+Color: light2        #00673f           ~
 Color: light3        #9f4f00           ~
 Color: light4        #004faf           ~
 Color: light5        #77008f           ~
@@ -288,7 +288,7 @@ Color: light6        #00779f           ~
 Color: light7        #d7d7d7           ~
 Color: light8        #626262           ~
 Color: light9        #bf005f           ~
-Color: light10       #00975f           ~
+Color: light10       #00875f           ~
 Color: light11       #bf6f00           ~
 Color: light12       #006fcf           ~
 Color: light13       #9700af           ~
