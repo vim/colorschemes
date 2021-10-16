@@ -107,7 +107,7 @@ LineNrBelow       -> LineNr
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
-Title                white             none
+Title                magenta           none
 Comment              gray              none
 Constant             cyan              none
 Identifier           gray              none
