@@ -37,23 +37,23 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ; This layer replicates the behaviour of 'default', no matter how broken it is.
-Color: rgbGrey30      #4d4d4d 239
-Color: rgbGrey40      #666666 241
-Color: rgbDarkGrey    #a9a9a9 248
-Color: rgbDarkBlue    #00008b 20
-Color: rgbDarkMagenta #8b008b 164
-Color: rgbBlue        #0000ff 63
-Color: rgbDarkCyan    #008b8b 44
-Color: rgbSeaGreen    #2e8b57 121
-Color: rgbGrey        #bebebe 248
-Color: Question       #00ff00 121
-Color: SignColumn     #a9a9a9 248
-Color: SpecialKey     #00ffff 81
-Color: StatusLineTerm #90ee90 121
-Color: Title          #ff00ff 225
-Color: WarningMsg     #ff0000 224
-Color: ToolbarLine    #7f7f7f 242
-Color: ToolbarButton  #d3d3d3 254
+Color: rgbGrey30      #4d4d4d 239 8
+Color: rgbGrey40      #666666 241 8
+Color: rgbDarkGrey    #a9a9a9 248 7
+Color: rgbDarkBlue    #00008b 20  4
+Color: rgbDarkMagenta #8b008b 164 5
+Color: rgbBlue        #0000ff 63  12
+Color: rgbDarkCyan    #008b8b 44  6
+Color: rgbSeaGreen    #2e8b57 121 2
+Color: rgbGrey        #bebebe 248 7
+Color: Question       #00ff00 121 10
+Color: SignColumn     #a9a9a9 248 0
+Color: SpecialKey     #00ffff 81  14
+Color: StatusLineTerm #90ee90 121 2
+Color: Title          #ff00ff 225 13
+Color: WarningMsg     #ff0000 224 1
+Color: ToolbarLine    #7f7f7f 242 8
+Color: ToolbarButton  #d3d3d3 254 7
 Color: Underlined     #80a0ff 81 12
 
 ; tweaked for the pablo
@@ -89,17 +89,11 @@ Ignore           color00     color00
 Error            color15     color09
 Todo             color00     Todo
 
-Variant: gui 256
-
 ; Chrome
-ColorColumn      none        rgbGrey30
 Conceal          color07     rgbDarkGrey
 Cursor           color00     color15
 lCursor          color00     color15
 CursorIM         none        fg
-CursorColumn     none        Cursorline
-CursorLine       none        Cursorline      t=underline
-CursorLineNr     color11     Cursorline      t=underline g=bold
 
 Title            Title       none           t=bold g=bold
 Directory        Directory   none
@@ -110,8 +104,33 @@ EndOfBuffer      rgbBlue     none           g=bold
 ErrorMsg         color15     color01
 WarningMsg       WarningMsg  none
 SignColumn       color14     SignColumn
+
+Variant: 16
+ColorColumn      color15     rgbGrey30
+FoldColumn       none        none           underline
+Folded           rgbBlue     none           underline
+CursorColumn     none        none           underline
+CursorLine       none        none           underline
+CursorLineNr     color11     none           underline,bold
+DiffAdd          none        none
+DiffChange       color15     rgbDarkMagenta
+DiffDelete       rgbBlue     rgbDarkCyan    g=bold
+DiffText         color11     color09        t=bold g=bold
+Variant: gui 256
+ColorColumn      none        rgbGrey30
 FoldColumn       color08     Folded
 Folded           color08     Folded
+CursorColumn     none        Cursorline
+CursorLine       none        Cursorline     t=underline
+CursorLineNr     color11     Cursorline     t=underline g=bold
+DiffAdd          none        rgbDarkBlue
+DiffChange       none        rgbDarkMagenta
+DiffDelete       rgbBlue     rgbDarkCyan    g=bold
+DiffText         none        color09        t=bold g=bold
+
+Variant: gui 256 16
+Visual           rgbDarkBlue rgbDarkGrey
+VisualNOS        none        color00        t=underline,bold g=underline,bold
 LineNr           color08     none
 LineNrAbove   -> LineNr
 LineNrBelow   -> LineNr
@@ -120,8 +139,6 @@ ModeMsg          none        none           t=bold g=bold
 MoreMsg          rgbSeaGreen none           g=bold
 Question         Question    none           g=bold
 SpecialKey       SpecialKey  none
-Visual           none        rgbDarkGrey
-VisualNOS        none        color00        t=underline,bold g=underline,bold
 WildMenu         color00     color11
 
 SpellBad         none        color09        g=undercurl
@@ -143,11 +160,6 @@ ToolbarLine      none        color00
 ToolbarButton    color00     color07        bold
 
 Pmenu            fg          Pmenu
-PmenuSbar        none        color00
+PmenuSbar        none        none
 PmenuSel         color00     color07
-PmenuThumb       none        color08
-
-DiffAdd          none        rgbDarkBlue
-DiffChange       none        rgbDarkMagenta
-DiffDelete       rgbBlue     rgbDarkCyan    g=bold
-DiffText         none        color09        t=bold g=bold
+PmenuThumb       none        color15
