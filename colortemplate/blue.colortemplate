@@ -52,7 +52,7 @@ Error                red               white             reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
-IncSearch            white             magenta           t=reverse g=standout
+IncSearch            darkmagenta       white             t=reverse g=standout
 LineNr               white             none
 MatchParen           white             magenta
 ModeMsg              darkblue          green
@@ -71,12 +71,12 @@ SpellCap             none              none              s=blue
 SpellLocal           none              none              s=magenta
 SpellRare            none              none              s=cyan
 StatusLine           darkblue          cyan
-StatusLineNC         darkblue          darkcyan
-StatusLineTerm       darkblue          green
-StatusLineTermNC     darkblue          darkgreen
-TabLine              darkblue          darkcyan
-TabLineFill          darkblue          darkcyan
-TabLineSel           darkblue          cyan
+StatusLineNC         cyan              darkcyan
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+TabLine           -> StatusLineNC
+TabLineFill       -> StatusLineNC
+TabLineSel        -> StatusLine
 ToolbarButton        white             blue
 ToolbarLine          none              none
 VertSplit            darkcyan          none
