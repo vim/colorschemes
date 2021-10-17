@@ -1,10 +1,12 @@
 ; vim: cc=20,35,50 vsts=19,15,15,4
-Full name: slate
-Short name: slate
+
+Full name:   slate
+Short name:  slate
 Description: Remake of slate
-Author: Original maintainer Ralph Amissah <ralph@amissah.com>
-Maintainer: Original maintainer Ralph Amissah <ralph@amissah.com>
-Website: https://github.com/vim/colorschemes
+Author:      Original maintainer Ralph Amissah <ralph@amissah.com>
+Maintainer:  Original maintainer Ralph Amissah <ralph@amissah.com>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
 Variant:    gui 256
 

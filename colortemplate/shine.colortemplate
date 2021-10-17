@@ -1,10 +1,12 @@
 ; vim: ft=colortemplate
-Full name: shine
-Short name: shine
+
+Full name:   shine
+Short name:  shine
 Description: Light colorscheme inspired by normal text editors.
-Author: Original author is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
-Maintainer: Original maintainer is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
-Website: https://github.com/vim/colorschemes
+Author:      Original author is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
+Maintainer:  Original maintainer is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
 
 Variant:    gui 256

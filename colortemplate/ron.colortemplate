@@ -2,12 +2,13 @@
 
 ; Information {{{
 ; Mandatory
-Full name:     ron
-Short name:    ron
-Author:        original author Ron Aaron <ron@ronware.org>
-Maintainer:    original maintainer Ron Aaron <ron@ronware.org>
-Website:       https://www.github.com/vim/colorschemes
-License:       Same as Vim
+
+Full name:  ron
+Short name: ron
+Author:     original author Ron Aaron <ron@ronware.org>
+Maintainer: original maintainer Ron Aaron <ron@ronware.org>
+Website:    https://www.github.com/vim/colorschemes
+License:    Same as Vim
 
 
 

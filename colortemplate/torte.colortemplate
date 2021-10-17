@@ -1,9 +1,10 @@
-Full name: torte
-Short name: torte
+Full name:   torte
+Short name:  torte
 Description: Remake of torte (grey on black)
-Author: Original maintainer Thorsten Maerz <info@netztorte.de>
-Maintainer: Original maintainer Thorsten Maerz <info@netztorte.de>
-Website: https://github.com/vim/colorschemes
+Author:      Original maintainer Thorsten Maerz <info@netztorte.de>
+Maintainer:  Original maintainer Thorsten Maerz <info@netztorte.de>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
 Variant:    gui 256
 

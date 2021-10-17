@@ -1,10 +1,11 @@
 ; vim: cc=23,35,50 vsts=22,12,15,4
-Full name:     pablo
-Short name:    pablo
-Author:        Ron Aaron <ron@ronware.org>
-Maintainer:    Original maintainerRon Aaron <ron@ronware.org>
-Website:       https://github.com/vim/colorschemes
-License:       Same as Vim
+
+Full name:  pablo
+Short name: pablo
+Author:     Ron Aaron <ron@ronware.org>
+Maintainer: Original maintainerRon Aaron <ron@ronware.org>
+Website:    https://github.com/vim/colorschemes
+License:    Same as Vim
 
 
 Background: dark
