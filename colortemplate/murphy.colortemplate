@@ -1,4 +1,4 @@
-; vim: ft=colortemplate
+; vim: cc=20,35,50
 Full name: murphy
 Short name: murphy
 Description: Green foreground black background.
@@ -12,132 +12,151 @@ Background: dark
 
 
 ;;; Color palette
-Color: foreground #87FF87 120
-Color: background #000000 16
+Color: foreground  #87FF87        120            10
+Color: background  #000000        16             0
 
-Color: color00    #303030 236
-Color: color08    #444444 238
+Color: color00     #303030        236            0
+Color: color08     #444444        238            8
 
-Color: color01    #FFA700 214
-Color: color09    #FF0000 196
+Color: color01     #FFA700        214            1
+Color: color09     #FF0000        196            9
 
-Color: color02    #005F00 22
-Color: color10    #00875F 29
+Color: color02     #005F00        22             2
+Color: color10     #00875F        29             10
 
-Color: color03    #FFD7AF 223
-Color: color11    #FFFF00 226
+Color: color03     #FFD7AF        223            3
+Color: color11     #FFFF00        226            11
 
-Color: color04    #00008B 18
-Color: color12    #0000FF 21
+Color: color04     #00008B        18             4
+Color: color12     #0000FF        21             12
 
-Color: color05    #FFAFAF 217
-Color: color13    #FF00FF 201
+Color: color05     #FFAFAF        217            5
+Color: color13     #FF00FF        201            13
 
-Color: color06    #00AFAF 37
-Color: color14    #00FFFF 51
+Color: color06     #00AFAF        37             6
+Color: color14     #00FFFF        51             14
 
-Color: color07    #BCBCBC 250
-Color: color15    #FFFFFF 231
+Color: color07     #BCBCBC        250            7
+Color: color15     #FFFFFF        231            15
 
-Color: color16    #262626 235
-Color: color17    #3A3A3A 237
+Color: color16     #262626        235            0
+Color: color17     #3A3A3A        237            8
 
-Color: colorDiffA #005F00 22
-Color: colorDiffC #00005F 17
-Color: colorDiffD #5f0000 52
+Color: colorDiffA  #005F00        22             0
+Color: colorDiffC  #00005F        17             0
+Color: colorDiffD  #5f0000        52             1
 
-Color: color04t   #87AFFF 111
-Color: color12t   #005FFF 27
+Color: color04t    #87AFFF        111            4
+Color: color12t    #005FFF        27             12
 
 Term colors: color00 color01 color02 color03 color04t color05 color06 color07
 Term colors: color08 color09 color10 color11 color12t color13 color14 color15
 
 ;;; chrome
 
+Variant: gui 256 16
+
+Normal             foreground     background
+
+EndOfBuffer        color12        background
+Statusline         color15        color04
+StatuslineNC       color15        color17
+StatuslineTerm     background     foreground
+StatuslineTermNC   background     color10
+VertSplit          color15        color17
+
+Pmenu              color15        color08
+PmenuSel           background     color11
+PmenuSbar          none           color00
+PmenuThumb         none           color07
+
+Variant: 16
+TabLineFill        none           color07
 Variant: gui 256
+TabLineFill        none           color00
+Variant: gui 256 16
+TabLine            foreground     color08
+TabLineSel         color15        background
 
-Normal           foreground background
+ToolbarLine        none           color00
+ToolbarButton      color15        color08        bold
 
-EndOfBuffer      color12    background
-Statusline       color15    color04
-StatuslineNC     color15    color17
-StatuslineTerm   background foreground
-StatuslineTermNC background color10
-VertSplit        color15    color17
+NonText            color06        none
+SpecialKey         color06        none
 
-Pmenu            color15    color08
-PmenuSel         background color11
-PmenuSbar        none       color00
-PmenuThumb       none       color07
+Variant: 16
+Folded             color06        none           underline
+CursorLine         none           none           underline
+CursorColumn       none           none           underline
+CursorLineNr       color11        none           bold,underline
+QuickFixLine       none           none           underline
+ColorColumn        foreground     color08
+Variant: gui 256
+Folded             color06        color00
+CursorLine         none           color08
+CursorColumn       none           color08
+CursorLineNr       color11        none           bold
+QuickFixLine       none           color08
+ColorColumn        none           color16
+Variant: gui 256 16
+Visual             color15        color02
+VisualNOS          color15        color02
+LineNr             color11        none
+FoldColumn         color06        none
+SignColumn         color06        none
 
-TabLine          foreground color08
-TabLineFill      none       color00
-TabLineSel       color15    background
+Underlined         color06        none           underline
 
-ToolbarLine      none       color00
-ToolbarButton    color15    color08 bold
+Error              color15        color09
+ErrorMsg           color15        color09
+ModeMsg            foreground     none           bold
+WarningMsg         color01        none           bold
+MoreMsg            color02        none           bold
+Question           color14        none           bold
 
-NonText          color06    none
-SpecialKey       color06    none
+Todo               color12        color11
+MatchParen         color00        color03
+Search             color15        color12
+IncSearch          none           none           reverse
+WildMenu           background     color11
+Cursor             background     foreground
+lCursor            background     color09
 
-Folded           color06    color00
-Visual           color15    color02
-VisualNOS        color15    color02
-LineNr           color11    none
-FoldColumn       color06    color00
-CursorLine       none       color08
-CursorColumn     none       color08
-CursorLineNr     color11    none    bold
-QuickFixLine     none       color08
-SignColumn       color06    color00
+DiffAdd            none           colorDiffA
+DiffChange         none           colorDiffC
+DiffText           color11        color02
+DiffDelete         color03        colorDiffD
 
-Underlined       color06    none    underline
-
-Error            color15    color09
-ErrorMsg         color15    color09
-ModeMsg          foreground none    bold
-WarningMsg       color01    none    bold
-MoreMsg          color02    none    bold
-Question         color14    none    bold
-
-Todo             color12    color11
-MatchParen       color00    color03
-Search           color15    color12
-IncSearch        none       none    reverse
-WildMenu         background color11
-ColorColumn      none       color16
-Cursor           background foreground
-lCursor          background color09
-
-DiffAdd          none       colorDiffA
-DiffChange       none       colorDiffC
-DiffText         color06    color12
-DiffDelete       color09    colorDiffD
-
-SpellBad         color09    none    t=underline g=undercurl s=color09
-SpellCap         color01    none    t=underline g=undercurl s=color01
-SpellLocal       color03    none    t=underline g=undercurl s=color03
-SpellRare        color11    none    t=underline g=undercurl s=color11
+SpellBad           color09        none           t=underline g=undercurl s=color09
+SpellCap           color01        none           t=underline g=undercurl s=color01
+SpellLocal         color03        none           t=underline g=undercurl s=color03
+SpellRare          color11        none           t=underline g=undercurl s=color11
 
 
 ;;; :h group-names
-Comment          color01    none
+Comment            color01        none
 
-Identifier       color14    none
-Statement        color11    none
-Constant         color15    none
-PreProc          color03    none
-Type             color07    none
-Special          color13    none
+Variant: gui 256 16
+Identifier         color14        none
+Statement          color11        none
+Constant           color15        none
+Variant: 16
+PreProc            color05        none
+Variant: gui 256
+PreProc            color03        none
+Variant: gui 256 16
+Type               color07        none
+Special            color13        none
 
-Directory        color14    none
-Conceal          color07    none
-Ignore           none       none
+Variant: gui 256 16
+Directory          color14        none
+Conceal            color07        none
+Ignore             none           none
 
-Title            color13    none bold
+Title              color13        none           bold
 
 
 ;;; Links
-Terminal          -> Normal
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
+Terminal        -> Normal
+LineNrAbove     -> LineNr
+LineNrBelow     -> LineNr
