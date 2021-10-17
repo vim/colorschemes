@@ -1,10 +1,11 @@
 ; vim: cc=20,35,50
-Full name: industry
-Short name: industry
+Full name:   industry
+Short name:  industry
 Description: "industry" stands for 'industrial' color scheme.
-Author: Original author Shian Lee.
-Maintainer: Original maintainer Shian Lee.
-Website: https://github.com/vim/colorschemes
+Author:      Original author Shian Lee.
+Maintainer:  Original maintainer Shian Lee.
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
 ; Remark: "industry" stands for 'industrial' color scheme. In industrial
 ;         HMI (Human-Machine-Interface) programming, using a standard color
@@ -20,8 +21,7 @@ Website: https://github.com/vim/colorschemes
 ;         Industrial color scheme is by nature clear, safe and productive.
 ;         Yet, depends on the file type's syntax, it might appear incorrect.
 
-Variant:    gui 256
-
+Variant: gui 256 16
 Background: dark
 
 

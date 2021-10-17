@@ -1,13 +1,13 @@
 ; vim: cc=20,35,50
-Full name: murphy
-Short name: murphy
+Full name:   murphy
+Short name:  murphy
 Description: Green foreground black background.
-Author: Original author Ron Aaron <ron@ronware.org>.
-Maintainer: Original maintainer Ron Aaron <ron@ronware.org>.
-Website: https://github.com/vim/colorschemes
+Author:      Original author Ron Aaron <ron@ronware.org>.
+Maintainer:  Original maintainer Ron Aaron <ron@ronware.org>.
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
-Variant:    gui 256
-
+Variant: gui 256 16
 Background: dark
 
 
