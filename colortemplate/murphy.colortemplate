@@ -1,4 +1,5 @@
-; vim: cc=20,35,50
+; vim: cc=20,35,50 vsts=19,15,15,4
+
 Full name:   murphy
 Short name:  murphy
 Description: Green foreground black background.

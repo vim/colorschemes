@@ -1,3 +1,4 @@
+; vim: cc=23,35,50 vsts=22,12,15,4
 Full name:     pablo
 Short name:    pablo
 Author:        Ron Aaron <ron@ronware.org>
@@ -9,157 +10,157 @@ License:       Same as Vim
 Background: dark
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: color00 #000000 16  0
-Color: color08 #7f7f7f 102 8
+Color: color00        #000000     16             0
+Color: color08        #7f7f7f     102            8
 
-Color: color01 #cd0000 160 1
-Color: color09 #ff0000 196 9
+Color: color01        #cd0000     160            1
+Color: color09        #ff0000     196            9
 
-Color: color02 #00cd00 40  2
-Color: color10 #00ff00 46  10
+Color: color02        #00cd00     40             2
+Color: color10        #00ff00     46             10
 
-Color: color03 #cdcd00 184 3
-Color: color11 #ffff00 226 11
+Color: color03        #cdcd00     184            3
+Color: color11        #ffff00     226            11
 
-Color: color04 #0000ee 20  4
-Color: color12 #5c5cff 63  12
+Color: color04        #0000ee     20             4
+Color: color12        #5c5cff     63             12
 
-Color: color05 #cd00cd 164 5
-Color: color13 #ff00ff 201 13
+Color: color05        #cd00cd     164            5
+Color: color13        #ff00ff     201            13
 
-Color: color06 #00cdcd 44  6
-Color: color14 #00ffff 51  14
+Color: color06        #00cdcd     44             6
+Color: color14        #00ffff     51             14
 
-Color: color07 #e5e5e5 254 7
-Color: color15 #ffffff 231 15
+Color: color07        #e5e5e5     254            7
+Color: color15        #ffffff     231            15
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ; This layer replicates the behaviour of 'default', no matter how broken it is.
-Color: rgbGrey30      #4d4d4d 239 8
-Color: rgbGrey40      #666666 241 8
-Color: rgbDarkGrey    #a9a9a9 248 7
-Color: rgbDarkBlue    #00008b 20  4
-Color: rgbDarkMagenta #8b008b 164 5
-Color: rgbBlue        #0000ff 63  12
-Color: rgbDarkCyan    #008b8b 44  6
-Color: rgbSeaGreen    #2e8b57 121 2
-Color: rgbGrey        #bebebe 248 7
-Color: Question       #00ff00 121 10
-Color: SignColumn     #a9a9a9 248 0
-Color: SpecialKey     #00ffff 81  14
-Color: StatusLineTerm #90ee90 121 2
-Color: Title          #ff00ff 225 13
-Color: WarningMsg     #ff0000 224 1
-Color: ToolbarLine    #7f7f7f 242 8
-Color: ToolbarButton  #d3d3d3 254 7
-Color: Underlined     #80a0ff 81 12
+Color: rgbGrey30      #4d4d4d     239            8
+Color: rgbGrey40      #666666     241            8
+Color: rgbDarkGrey    #a9a9a9     248            7
+Color: rgbDarkBlue    #00008b     20             4
+Color: rgbDarkMagenta #8b008b     164            5
+Color: rgbBlue        #0000ff     63             12
+Color: rgbDarkCyan    #008b8b     44             6
+Color: rgbSeaGreen    #2e8b57     121            2
+Color: rgbGrey        #bebebe     248            7
+Color: Question       #00ff00     121            10
+Color: SignColumn     #a9a9a9     248            0
+Color: SpecialKey     #00ffff     81             14
+Color: StatusLineTerm #90ee90     121            2
+Color: Title          #ff00ff     225            13
+Color: WarningMsg     #ff0000     224            1
+Color: ToolbarLine    #7f7f7f     242            8
+Color: ToolbarButton  #d3d3d3     254            7
+Color: Underlined     #80a0ff     81 1           2
 
 ; tweaked for the pablo
-Color: Comment        #808080 244 8
-Color: Constant       #00ffff 51  14
-Color: Special        #0000ff 21  12
-Color: Identifier     #00c0c0 37  6
-Color: Search         #c0c000 142 3
-Color: Statement      #c0c000 142 3
-Color: Todo           #c0c000 142 3
-Color: PreProc        #00ff00 46  10
-Color: Type           #00c000 34  2
-Color: Directory      #00c000 34  2
-Color: Pmenu          #303030 236 8
-Color: Folded         #303030 236 8
-Color: Cursorline     #3a3a3a 237 8
+Color: Comment        #808080     244            8
+Color: Constant       #00ffff     51             14
+Color: Special        #0000ff     21             12
+Color: Identifier     #00c0c0     37             6
+Color: Search         #c0c000     142            3
+Color: Statement      #c0c000     142            3
+Color: Todo           #c0c000     142            3
+Color: PreProc        #00ff00     46             10
+Color: Type           #00c000     34             2
+Color: Directory      #00c000     34             2
+Color: Pmenu          #303030     236            8
+Color: Folded         #303030     236            8
+Color: Cursorline     #3a3a3a     237            8
 
 Variant: gui 256 16
 
-Normal           color15     color00
-Terminal      -> Normal
+Normal                color15     color00
+Terminal           -> Normal
 
 ; Syntax
-Comment          Comment     none
-Constant         Constant    none
-Identifier       Identifier  none
-Statement        Statement   none           t=bold g=bold
-PreProc          PreProc     none
-Type             Type        none
-Special          Special     none
-Underlined       Underlined  none           t=underline g=underline
-Ignore           color00     color00
-Error            color15     color09
-Todo             color00     Todo
+Comment               Comment     none
+Constant              Constant    none
+Identifier            Identifier  none
+Statement             Statement   none           t=bold g=bold
+PreProc               PreProc     none
+Type                  Type        none
+Special               Special     none
+Underlined            Underlined  none           t=underline g=underline
+Ignore                color00     color00
+Error                 color15     color09
+Todo                  color00     Todo
 
 ; Chrome
-Conceal          color07     rgbDarkGrey
-Cursor           color00     color15
-lCursor          color00     color15
-CursorIM         none        fg
+Conceal               color07     rgbDarkGrey
+Cursor                color00     color15
+lCursor               color00     color15
+CursorIM              none        fg
 
-Title            Title       none           t=bold g=bold
-Directory        Directory   none
-Search           color00     Search
-IncSearch        none        none           t=reverse g=reverse
-NonText          rgbBlue     none           g=bold
-EndOfBuffer      rgbBlue     none           g=bold
-ErrorMsg         color15     color01
-WarningMsg       WarningMsg  none
-SignColumn       color14     SignColumn
+Title                 Title       none           t=bold g=bold
+Directory             Directory   none
+Search                color00     Search
+IncSearch             none        none           t=reverse g=reverse
+NonText               rgbBlue     none           g=bold
+EndOfBuffer           rgbBlue     none           g=bold
+ErrorMsg              color15     color01
+WarningMsg            WarningMsg  none
+SignColumn            color14     SignColumn
 
 Variant: 16
-ColorColumn      color15     rgbGrey30
-FoldColumn       none        none           underline
-Folded           rgbBlue     none           underline
-CursorColumn     none        none           underline
-CursorLine       none        none           underline
-CursorLineNr     color11     none           underline,bold
-DiffAdd          none        none
-DiffChange       color15     rgbDarkMagenta
-DiffDelete       rgbBlue     rgbDarkCyan    g=bold
-DiffText         color11     color09        t=bold g=bold
+ColorColumn           color15     rgbGrey30
+FoldColumn            none        none           underline
+Folded                rgbBlue     none           underline
+CursorColumn          none        none           underline
+CursorLine            none        none           underline
+CursorLineNr          color11     none           underline,bold
+DiffAdd               none        none
+DiffChange            color15     rgbDarkMagenta
+DiffDelete            rgbBlue     rgbDarkCyan    g=bold
+DiffText              color11     color09        t=bold g=bold
 Variant: gui 256
-ColorColumn      none        rgbGrey30
-FoldColumn       color08     Folded
-Folded           color08     Folded
-CursorColumn     none        Cursorline
-CursorLine       none        Cursorline     t=underline
-CursorLineNr     color11     Cursorline     t=underline g=bold
-DiffAdd          none        rgbDarkBlue
-DiffChange       none        rgbDarkMagenta
-DiffDelete       rgbBlue     rgbDarkCyan    g=bold
-DiffText         none        color09        t=bold g=bold
+ColorColumn           none        rgbGrey30
+FoldColumn            color08     Folded
+Folded                color08     Folded
+CursorColumn          none        Cursorline
+CursorLine            none        Cursorline     t=underline
+CursorLineNr          color11     Cursorline     t=underline g=bold
+DiffAdd               none        rgbDarkBlue
+DiffChange            none        rgbDarkMagenta
+DiffDelete            rgbBlue     rgbDarkCyan    g=bold
+DiffText              none        color09        t=bold g=bold
 
 Variant: gui 256 16
-Visual           rgbDarkBlue rgbDarkGrey
-VisualNOS        none        color00        t=underline,bold g=underline,bold
-LineNr           color08     none
-LineNrAbove   -> LineNr
-LineNrBelow   -> LineNr
-MatchParen       none        rgbDarkCyan
-ModeMsg          none        none           t=bold g=bold
-MoreMsg          rgbSeaGreen none           g=bold
-Question         Question    none           g=bold
-SpecialKey       SpecialKey  none
-WildMenu         color00     color11
+Visual                rgbDarkBlue rgbDarkGrey
+VisualNOS             none        color00        t=underline,bold g=underline,bold
+LineNr                color08     none
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+MatchParen            none        rgbDarkCyan
+ModeMsg               none        none           t=bold g=bold
+MoreMsg               rgbSeaGreen none           g=bold
+Question              Question    none           g=bold
+SpecialKey            SpecialKey  none
+WildMenu              color00     color11
 
-SpellBad         none        color09        g=undercurl
-SpellCap         none        rgbBlue        g=undercurl
-SpellLocal       none        color14        g=undercurl
-SpellRare        none        color13        g=undercurl
+SpellBad              none        color09        g=undercurl
+SpellCap              none        rgbBlue        g=undercurl
+SpellLocal            none        color14        g=undercurl
+SpellRare             none        color13        g=undercurl
 
-StatusLine       color11     color04
-StatusLineNC     none        color00        t=reverse g=reverse
-StatusLineTerm   color00     StatusLineTerm t=bold g=bold
-StatusLineTermNC color00     StatusLineTerm
-VertSplit        none        color00        t=reverse g=reverse
+StatusLine            color11     color04
+StatusLineNC          none        color00        t=reverse g=reverse
+StatusLineTerm        color00     StatusLineTerm t=bold g=bold
+StatusLineTermNC      color00     StatusLineTerm
+VertSplit             none        color00        t=reverse g=reverse
 
-TabLine          color15     color08
-TabLineFill      none        color00        t=reverse g=reverse
-TabLineSel       none        color00        t=bold g=bold
+TabLine               color15     color08
+TabLineFill           none        color00        t=reverse g=reverse
+TabLineSel            none        color00        t=bold g=bold
 
-ToolbarLine      none        color00
-ToolbarButton    color00     color07        bold
+ToolbarLine           none        color00
+ToolbarButton         color00     color07        bold
 
-Pmenu            fg          Pmenu
-PmenuSbar        none        none
-PmenuSel         color00     color07
-PmenuThumb       none        color15
+Pmenu                 fg          Pmenu
+PmenuSbar             none        none
+PmenuSel              color00     color07
+PmenuThumb            none        color15
