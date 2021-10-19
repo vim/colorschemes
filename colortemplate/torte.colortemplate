@@ -95,22 +95,20 @@ Todo                  color00     color11
 
 ; Chrome
 Variant: 16
-SignColumn            color14     none
-FoldColumn            color14     none
 Folded                color14     none           underline
 Visual                color00     rgbDarkGrey    bold
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           underline,bold
 Variant: gui 256
-SignColumn            color14     SignColumn
-FoldColumn            color14     rgbDarkGrey
 Folded                color14     rgbDarkGrey
 Visual                color00     rgbDarkGrey    bold
 CursorColumn          none        rgbGrey40
 CursorLine            none        rgbGrey40
 CursorLineNr          color11     rgbGrey40
 Variant: gui 256 16
+SignColumn            color14     none
+FoldColumn            color14     none
 ColorColumn           background  rgbSeaGreen
 Conceal               color07     rgbDarkGrey
 Cursor                color00     color10        g=bold
