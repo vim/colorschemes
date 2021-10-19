@@ -1,4 +1,4 @@
-; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+; vim: ft=colortemplate fdm=marker cc=23,40,58 vsts=22,17,18,4 et ts=2 sw=2
 
 ; Information {{{
 ; Mandatory
@@ -10,37 +10,33 @@ Website:       https://www.github.com/vim/colorschemes
 License:       Same as Vim
 
 ; Common linked groups {{{
-Terminal          -> Normal
-Boolean           -> Constant
-Character         -> Constant
-Conditional       -> Repeat
-Debug             -> Special
-Define            -> PreProc
-Delimiter         -> Special
-Exception         -> Statement
-Float             -> Number
-;Function          -> Identifier
-Include           -> PreProc
-Keyword           -> Statement
-Label             -> Statement
-Macro             -> PreProc
-Number            -> Constant
-;Operator          -> Statement
-PopupSelected     -> PmenuSel
-PreCondit         -> PreProc
-QuickFixLine      -> Search
-;Repeat            -> Statement
-SpecialChar       -> Special
-SpecialComment    -> Special
-StatusLineTerm    -> StatusLine
-StatusLineTermNC  -> StatusLineNC
-StorageClass      -> Type
-String            -> Constant
-Structure         -> Type
-Tag               -> Special
-Typedef           -> Type
-; See `:help lCursor`
-lCursor           -> Cursor
+Terminal           -> Normal
+Boolean            -> Constant
+Character          -> Constant
+Conditional        -> Repeat
+Debug              -> Special
+Define             -> PreProc
+Delimiter          -> Special
+Exception          -> Statement
+Float              -> Number
+Include            -> PreProc
+Keyword            -> Statement
+Label              -> Statement
+Macro              -> PreProc
+Number             -> Constant
+PopupSelected      -> PmenuSel
+PreCondit          -> PreProc
+QuickFixLine       -> Search
+SpecialChar        -> Special
+SpecialComment     -> Special
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
+StorageClass       -> Type
+String             -> Constant
+Structure          -> Type
+Tag                -> Special
+Typedef            -> Type
+lCursor            -> Cursor
 ; }}}
 
 Background: dark
@@ -52,58 +48,61 @@ Background: dark
 ; which simply cannot be relied upon.
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: xterm0        #000000                   16
-Color: xterm1        #cd0000                   160
-Color: xterm2        #00cd00                   40
-Color: xterm3        #cdcd00                   184
-Color: xterm4        #0000ee                   20
-Color: xterm5        #cd00cd                   164
-Color: xterm6        #00cdcd                   44
-Color: xterm7        #e5e5e5                   254
-Color: xterm8        #7f7f7f                   102
-Color: xterm9        #ff0000                   196
-Color: xterm10       #00ff00                   46
-Color: xterm11       #ffff00                   226
-Color: xterm12       #5c5cff                   63
-Color: xterm13       #ff00ff                   201
-Color: xterm14       #00ffff                   51
-Color: xterm15       #ffffff                   231
+Color: xterm0         #000000          16                0
+Color: xterm1         #cd0000          160               1
+Color: xterm2         #00cd00          40                2
+Color: xterm3         #cdcd00          184               3
+Color: xterm4         #0000ee          20                4
+Color: xterm5         #cd00cd          164               5
+Color: xterm6         #00cdcd          44                6
+Color: xterm7         #e5e5e5          254               7
+Color: xterm8         #7f7f7f          102               8
+Color: xterm9         #ff0000          196               9
+Color: xterm10        #00ff00          46                10
+Color: xterm11        #ffff00          226               11
+Color: xterm12        #5c5cff          63                12
+Color: xterm13        #ff00ff          201               13
+Color: xterm14        #00ffff          51                14
+Color: xterm15        #ffffff          231               15
 
 ; Elflord relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
 ; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
-Color: Pmenu         #444444                   238
-Color: CursorLine    #3a3a3a                   237
-Color: rgbGrey40     #666666                    59
-Color: rgbDarkGrey   #a9a9a9                   145
-Color: rgbBlue       #0000ff                    21
-Color: rgbDarkCyan   #008b8b                    30
-Color: Directory     #00ffff                    51
-Color: rgbSeaGreen   #2e8b57                    29
-Color: rgbGrey       #bebebe                   250
-Color: Question      #00ff00                    46
-Color: SignColumn    #a9a9a9                   248
-Color: SpecialKey    #00ffff                    51
-Color: StatusLineTerm #90ee90                  120
-Color: Title         #ff00ff                   201
-Color: WarningMsg    #ff0000                   196
-Color: ToolbarLine   #7f7f7f                   244
-Color: Underlined    #80a0ff                   111
+Color: Pmenu          #444444          238               8
+Color: CursorLine     #3a3a3a          237               8
+Color: rgbGrey40      #666666          59                8
+Color: rgbDarkGrey    #a9a9a9          145               8
+Color: rgbBlue        #0000ff          21                4
+Color: rgbDarkCyan    #008b8b          30                6
+Color: Directory      #00ffff          51                14
+Color: rgbSeaGreen    #2e8b57          29                2
+Color: rgbGrey        #bebebe          250               7
+Color: Question       #00ff00          46                10
+Color: SignColumn     #a9a9a9          248               7
+Color: SpecialKey     #00ffff          51                14
+Color: StatusLineTerm #90ee90          120               2
+Color: Title          #ff00ff          201               13
+Color: WarningMsg     #ff0000          196               9
+Color: ToolbarLine    #7f7f7f          244               8
+Color: Underlined     #80a0ff          111               12
 
 ; Specific to elflord
-Color: elfComment    #80a0ff                   111
-Color: elfIdentifier #40ffff                    87
-Color: elfStatement  #aa4444                   131
-Color: elfPreProc    #ff80ff                   213
-Color: elfType       #60ff60                    83
-Color: elfDiffAdd    #00008b                    18
-Color: elfDiffDelete #008b8b                    30
-Color: elfDiffChange #5f005f                    53
-Color: elfDiffText   #5f0000                    52
-Color: elfBlue       #0000ff                    21
+Color: elfComment     #80a0ff          111               12
+Color: elfIdentifier  #40ffff          87                14
+Color: elfStatement   #aa4444          131               1
+Color: elfPreProc     #ff80ff          213               13
+Color: elfType        #60ff60          83                10
+Color: elfDiffAdd     #00008b          18                4
+Color: elfDiffDelete  #008b8b          30                6
+Color: elfDiffChange  #5f005f          53                5
+Color: elfDiffText    #5f0000          52                1
+Color: elfBlue        #0000ff          21                12
 
+Color: colorDiffA     #005F00          22                0
+Color: colorDiffC     #00005F          17                0
+Color: colorDiffD     #5F0000          52                1
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -112,78 +111,84 @@ Term colors: xterm14 xterm15
 ; }}}
 
 ; Default highlight groups {{{
+Variant: 16
+ColorColumn           xterm14          xterm1
+CursorColumn          none             none              underline
+CursorLine            none             none              underline
+CursorLineNr          xterm11          none              underline,bold
+Folded                xterm4           none              underline
 Variant: gui 256
+ColorColumn           none             xterm1
+CursorColumn          none             CursorLine
+CursorLine            none             CursorLine
+CursorLineNr          xterm11          none              t=underline g=bold
+Folded                xterm14          rgbGrey40
 
-; Group              Foreground        Background        Attributes
-ColorColumn          none              xterm1
-Conceal              rgbGrey40         none
-Cursor               xterm0            xterm14
-CursorColumn         none              CursorLine
-CursorLine           none              CursorLine
-CursorLineNr         xterm11           none              t=underline g=bold
-DiffAdd              none              elfDiffAdd
-DiffChange           none              elfDiffChange
-DiffDelete           xterm15           elfDiffDelete
-DiffText             none              elfDiffText       t=bold g=bold
-Directory            Directory         xterm0
-EndOfBuffer          rgbBlue           xterm0            t=bold g=bold
-ErrorMsg             xterm15           xterm1
-FoldColumn           xterm14           rgbGrey40
-Folded               xterm14           rgbGrey40
-IncSearch            none              xterm0            t=reverse g=reverse
-LineNr               xterm11           xterm0
-MatchParen           none              rgbDarkCyan
-ModeMsg              none              xterm0            t=bold g=bold
-MoreMsg              rgbSeaGreen       xterm0            t=bold g=bold
-NonText              rgbBlue           xterm0            t=bold g=bold
-Normal               xterm14           xterm0
-Pmenu                xterm15           Pmenu
-PmenuSbar            none              rgbGrey
-PmenuSel             xterm0            xterm6
-PmenuThumb           none              xterm15
-Question             Question          xterm0            t=bold g=bold
-Search               xterm0            xterm11
-SignColumn           xterm14           SignColumn
-SpecialKey           SpecialKey        xterm0
-SpellBad             none              xterm9            g=undercurl
-SpellCap             none              rgbBlue           g=undercurl
-SpellLocal           none              xterm14           g=undercurl
-SpellRare            none              xterm13           g=undercurl
-StatusLine           none              xterm0            t=reverse,bold g=reverse,bold
-StatusLineNC         none              xterm0            t=reverse g=reverse
-StatusLineTerm       xterm0            StatusLineTerm    t=bold g=bold
-StatusLineTermNC     xterm0            StatusLineTerm
-TabLine              xterm15           rgbDarkCyan       t=underline g=underline
-TabLineFill          none              xterm0            t=reverse g=reverse
-TabLineSel           none              xterm0            t=bold g=bold
-Terminal             xterm14           xterm0
-Title                Title             xterm0            t=bold g=bold
-VertSplit            none              xterm0            t=reverse g=reverse
-Visual               xterm0            rgbDarkGrey
-VisualNOS            none              xterm0            t=underline,bold g=underline,bold
-WarningMsg           WarningMsg        xterm0
-WildMenu             xterm0            xterm11
+Variant: gui 256 16
+; Group               Foreground       Background        Attributes
+Conceal               rgbGrey40        none
+Cursor                xterm0           xterm14
+DiffAdd               none             colorDiffA
+DiffChange            none             colorDiffC
+DiffText              xterm6           xterm12
+DiffDelete            xterm3           colorDiffD
+Directory             Directory        xterm0
+EndOfBuffer           rgbBlue          xterm0            t=bold g=bold
+ErrorMsg              xterm15          xterm1
+FoldColumn            xterm14          none
+IncSearch             none             xterm0            t=reverse g=reverse
+LineNr                xterm11          none
+MatchParen            none             rgbDarkCyan
+ModeMsg               none             none              t=bold g=bold
+MoreMsg               rgbSeaGreen      none              t=bold g=bold
+NonText               rgbBlue          none              t=bold g=bold
+Normal                xterm14          xterm0
+Pmenu                 xterm15          Pmenu
+PmenuSbar             none             rgbGrey
+PmenuSel              xterm0           xterm6
+PmenuThumb            none             xterm15
+Question              Question         none              t=bold g=bold
+Search                xterm0           xterm11
+SignColumn            xterm14          none
+SpecialKey            SpecialKey       none
+SpellBad              none             xterm9            g=undercurl
+SpellCap              none             rgbBlue           g=undercurl
+SpellLocal            none             xterm14           g=undercurl
+SpellRare             none             xterm13           g=undercurl
+StatusLine            none             xterm0            t=reverse,bold g=reverse,bold
+StatusLineNC          none             xterm0            t=reverse g=reverse
+StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
+StatusLineTermNC      xterm0           StatusLineTerm
+TabLine               xterm0           rgbDarkCyan
+TabLineFill           none             xterm0            t=reverse g=reverse
+TabLineSel            none             xterm0            t=bold g=bold
+Terminal              xterm14          xterm0
+Title                 Title            none              t=bold g=bold
+VertSplit             none             xterm0            t=reverse g=reverse
+Visual                xterm0           rgbDarkGrey
+VisualNOS             none             xterm0            t=underline,bold g=underline,bold
+WarningMsg            WarningMsg       none
+WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
-Comment              elfComment        none
-Constant             xterm13           none
-Error                xterm15           xterm9
-Function             xterm15           none
-Identifier           elfIdentifier     none
-Ignore               xterm0            xterm0
-Operator             xterm9            none
-PreProc              elfPreProc        none
-Repeat               xterm15           none
-Special              xterm9            none
-Statement            elfStatement      none              t=bold g=bold
-Todo                 elfBlue           xterm11
-Type                 elfType           none              t=bold g=bold
-Underlined           Underlined        none              t=underline g=underline
+Comment               elfComment       none
+Constant              xterm13          none
+Error                 xterm15          xterm9
+Function              xterm15          none
+Identifier            elfIdentifier    none
+Ignore                xterm0           xterm0
+Operator              xterm9           none
+PreProc               elfPreProc       none
+Repeat                xterm15          none
+Special               xterm9           none
+Statement             elfStatement     none              t=bold g=bold
+Todo                  elfBlue          xterm11
+Type                  elfType          none              t=bold g=bold
+Underlined            Underlined       none              t=underline g=underline
 ; See `:help CursorIM`
-CursorIM             none              fg
+CursorIM              none             fg
 ; See `:help window-toolbar`
-ToolbarLine          none              none
-ToolbarButton        xterm0            xterm7            t=bold g=bold
+ToolbarLine           none             none
+ToolbarButton         xterm0           xterm7            t=bold g=bold
 ; }}}
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
-
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
