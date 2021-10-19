@@ -34,10 +34,10 @@ Color: error       #ff0000        196            9
 Color: status_fg   #ffd700        220            3
 Color: linenr      #a52a2a        124            8
 
-Color: diffadd     #d7ffd7        194            15
+Color: diffadd     #d7ffd7        194            7
 Color: diffdelete  #ffd7d7        224            15
-Color: diffchange  #ffffd7        230            15
-Color: difftext    #ffd787        222            4
+Color: diffchange  #ffffd7        230            7
+Color: difftext    #ffd787        222            3
 
 
 ;;; Chrome
