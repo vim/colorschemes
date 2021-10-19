@@ -1,4 +1,4 @@
-; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+; vim: ft=colortemplate fdm=marker cc=23,40,58 vsts=22,17,18,4 et ts=2 sw=2
 
 ; Information {{{
 ; Mandatory
@@ -13,37 +13,34 @@ License:    Same as Vim
 
 
 ; Common linked groups {{{
-Terminal          -> Normal
-Boolean           -> Constant
-Character         -> Constant
-Conditional       -> Statement
-Debug             -> Special
-Define            -> PreProc
-Delimiter         -> Special
-Exception         -> Statement
-Float             -> Constant
-Function          -> Identifier
-Include           -> PreProc
-Keyword           -> Statement
-;Label             -> Statement
-Macro             -> PreProc
-Number            -> Constant
-;Operator          -> Statement
-PopupSelected     -> PmenuSel
-PreCondit         -> PreProc
-QuickFixLine      -> Search
-Repeat            -> Statement
-SpecialChar       -> Special
-SpecialComment    -> Special
-StatusLineTerm    -> StatusLine
-StatusLineTermNC  -> StatusLineNC
-StorageClass      -> Type
-String            -> Constant
-Structure         -> Type
-Tag               -> Special
-Typedef           -> Type
-; See `:help lCursor`
-lCursor           -> Cursor
+Terminal           -> Normal
+Boolean            -> Constant
+Character          -> Constant
+Conditional        -> Statement
+Debug              -> Special
+Define             -> PreProc
+Delimiter          -> Special
+Exception          -> Statement
+Float              -> Constant
+Function           -> Identifier
+Include            -> PreProc
+Keyword            -> Statement
+Macro              -> PreProc
+Number             -> Constant
+PopupSelected      -> PmenuSel
+PreCondit          -> PreProc
+QuickFixLine       -> Search
+Repeat             -> Statement
+SpecialChar        -> Special
+SpecialComment     -> Special
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
+StorageClass       -> Type
+String             -> Constant
+Structure          -> Type
+Tag                -> Special
+Typedef            -> Type
+lCursor            -> Cursor
 ; }}}
 
 Background: dark
@@ -55,57 +52,60 @@ Background: dark
 ; which simply cannot be relied upon.
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: xterm0        #000000                   16
-Color: xterm1        #cd0000                   160
-Color: xterm2        #00cd00                   40
-Color: xterm3        #cdcd00                   184
-Color: xterm4        #0000ee                   20
-Color: xterm5        #cd00cd                   164
-Color: xterm6        #00cdcd                   44
-Color: xterm7        #e5e5e5                   254
-Color: xterm8        #7f7f7f                   102
-Color: xterm9        #ff0000                   196
-Color: xterm10       #00ff00                   46
-Color: xterm11       #ffff00                   226
-Color: xterm12       #5c5cff                   63
-Color: xterm13       #ff00ff                   201
-Color: xterm14       #00ffff                   51
-Color: xterm15       #ffffff                   231
+Color: xterm0         #000000          16                0
+Color: xterm1         #cd0000          160               1
+Color: xterm2         #00cd00          40                2
+Color: xterm3         #cdcd00          184               3
+Color: xterm4         #0000ee          20                4
+Color: xterm5         #cd00cd          164               5
+Color: xterm6         #00cdcd          44                6
+Color: xterm7         #e5e5e5          254               7
+Color: xterm8         #7f7f7f          102               8
+Color: xterm9         #ff0000          196               9
+Color: xterm10        #00ff00          46                10
+Color: xterm11        #ffff00          226               11
+Color: xterm12        #5c5cff          63                12
+Color: xterm13        #ff00ff          201               13
+Color: xterm14        #00ffff          51                14
+Color: xterm15        #ffffff          231               15
 
 ; Ron relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
 ; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
-Color: rgbGrey40     #666666                    59
-Color: rgbDarkGrey   #a9a9a9                   145
-Color: rgbDarkBlue   #00008b                    20
-Color: rgbBlue       #0000ff                    21
-Color: rgbDarkCyan   #008b8b                    44
-Color: Directory     #00ffff                    51
-Color: rgbSeaGreen   #2e8b57                    29
-Color: rgbGrey       #bebebe                   250
-Color: Question      #00ff00                    46
-Color: SignColumn    #a9a9a9                   248
-Color: SpecialKey    #00ffff                    51
-Color: StatusLineTerm #90ee90                  120
-Color: ToolbarLine   #7f7f7f                   244
-Color: Underlined    #80a0ff                   111
+Color: rgbGrey40      #666666          59                8
+Color: rgbDarkGrey    #a9a9a9          145               7
+Color: rgbDarkBlue    #00008b          20                4
+Color: rgbBlue        #0000ff          21                4
+Color: rgbDarkCyan    #008b8b          44                6
+Color: Directory      #00ffff          51                14
+Color: rgbSeaGreen    #2e8b57          29                2
+Color: rgbGrey        #bebebe          250               7
+Color: Question       #00ff00          46                10
+Color: SignColumn     #a9a9a9          248               7
+Color: SpecialKey     #00ffff          51                14
+Color: StatusLineTerm #90ee90          120               2
+Color: ToolbarLine    #7f7f7f          244               8
+Color: Underlined     #80a0ff          111               12
 
 ; Specific to ron.vim
-Color: Pmenu         #444444                   238
-Color: ron303030     #303030                   236
-Color: ronLightBlue  #add8e6                   152
-Color: ronPink2      #eea9b8                   217
-Color: ronOrange     #ffa500                   214
-Color: ronCursor     #60a060                    71
-Color: ronSteelBlue  #4682b4                    67
-Color: ronGold2      #eec900                   220
-Color: ronDarkGreen  #006400                    22
-Color: ronSlateBlue  #6a5acd                    62
-Color: ronOliveDrab  #6b8e23                    64
-Color: ronCoral      #ff7f50                   209
-Color: ronGray30     #4d4d4d                   239
+Color: Pmenu          #444444          238               8
+Color: ron303030      #303030          236               8
+Color: ronLightBlue   #add8e6          152               6
+Color: ronPink2       #eea9b8          217               5
+Color: ronOrange      #ffa500          214               3
+Color: ronCursor      #60a060          71                10
+Color: ronSteelBlue   #4682b4          67                12
+Color: ronGold2       #eec900          220               11
+Color: ronDarkGreen   #006400          22                2
+Color: ronSlateBlue   #6a5acd          62                12
+Color: ronOliveDrab   #6b8e23          64                10
+Color: ronCoral       #ff7f50          209               9
+Color: ronGray30      #4d4d4d          239               8
+Color: colorDiffA     #005F00          22                0
+Color: colorDiffC     #00005F          17                0
+Color: colorDiffD     #5F0000          52                1
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -114,78 +114,83 @@ Term colors: xterm14 xterm15
 ; }}}
 
 ; Default highlight groups {{{
+; Group               Foreground       Background        Attributes
+Variant: 16
+ColorColumn           xterm14          xterm1
+CursorColumn          none             none              underline
+CursorLine            none             none              underline
+CursorLineNr          xterm11          none              underline,bold
 Variant: gui 256
+ColorColumn           none             xterm1
+CursorColumn          none             rgbGrey40
+CursorLine            none             rgbGrey40         t=underline
+CursorLineNr          xterm11          none              t=underline g=bold
 
-; Group              Foreground        Background        Attributes
-ColorColumn          none              xterm1
-Conceal              xterm7            rgbDarkGrey
-Cursor               xterm15           ronCursor
-CursorColumn         none              rgbGrey40
-CursorLine           none              rgbGrey40         t=underline
-CursorLineNr         xterm11           none              t=underline g=bold
-DiffAdd              none              ronSlateBlue
-DiffChange           none              ronDarkGreen
-DiffDelete           rgbBlue           ronCoral          g=bold
-DiffText             none              ronOliveDrab
-Directory            Directory         xterm0
-EndOfBuffer          rgbBlue           xterm0            g=bold
-ErrorMsg             xterm0            xterm9
-FoldColumn           xterm15           ronGray30
-Folded               none              ronGray30
-IncSearch            none              ronSteelBlue
-LineNr               rgbDarkGrey       xterm0
-MatchParen           none              rgbDarkCyan
-ModeMsg              none              xterm0            t=bold g=bold
-MoreMsg              rgbSeaGreen       xterm0            g=bold
-NonText              xterm11           ron303030
-Normal               xterm14           xterm0
-Pmenu                xterm15           Pmenu
-PmenuSbar            none              xterm0
-PmenuSel             xterm0            xterm6
-PmenuThumb           none              xterm8
-Question             Question          xterm0            g=bold
-Search               xterm0            rgbDarkGrey       t=bold g=bold
-SignColumn           xterm14           SignColumn
-SpecialKey           SpecialKey        xterm0
-SpellBad             none              xterm9            g=undercurl
-SpellCap             none              rgbBlue           g=undercurl
-SpellLocal           none              xterm14           g=undercurl
-SpellRare            none              xterm13           g=undercurl
-StatusLine           xterm14           rgbBlue           t=bold g=bold
-StatusLineNC         ronLightBlue      rgbDarkBlue
-StatusLineTerm       xterm0            StatusLineTerm    t=bold g=bold
-StatusLineTermNC     xterm0            StatusLineTerm
-TabLine              xterm15           rgbDarkCyan       t=underline g=underline
-TabLineFill          rgbDarkGrey       xterm0            t=reverse g=reverse
-TabLineSel           none              xterm0            t=bold g=bold
-Terminal             xterm14           xterm0
-Title                rgbDarkGrey       xterm0
-VertSplit            none              xterm0            t=reverse g=reverse
-Visual               none              none              t=reverse g=reverse
-VisualNOS            none              xterm0            t=underline,bold g=underline,bold
-WarningMsg           xterm0            xterm10
-WildMenu             xterm0            xterm11
+Variant: gui 256 16
+Normal                xterm14          xterm0
+Conceal               xterm7           rgbDarkGrey
+Cursor                xterm15          ronCursor
+DiffAdd               none             colorDiffA
+DiffChange            none             colorDiffC
+DiffText              xterm6           xterm12
+DiffDelete            xterm3           colorDiffD
+Directory             Directory        none
+EndOfBuffer           rgbBlue          none              g=bold
+ErrorMsg              xterm0           xterm9
+FoldColumn            xterm15          none
+Folded                none             ronGray30
+IncSearch             none             ronSteelBlue
+LineNr                rgbDarkGrey      none
+MatchParen            none             rgbDarkCyan
+ModeMsg               none             none              t=bold g=bold
+MoreMsg               rgbSeaGreen      none              g=bold
+NonText               xterm11          ron303030
+Pmenu                 xterm15          Pmenu
+PmenuSbar             none             xterm0
+PmenuSel              xterm0           xterm6
+PmenuThumb            none             xterm7
+Question              Question         xterm0            g=bold
+Search                xterm0           rgbDarkGrey       t=bold g=bold
+SignColumn            xterm14          none
+SpecialKey            SpecialKey       none
+SpellBad              none             xterm9            g=undercurl
+SpellCap              none             rgbBlue           g=undercurl
+SpellLocal            none             xterm14           g=undercurl
+SpellRare             none             xterm13           g=undercurl
+StatusLine            xterm14          rgbBlue           t=bold g=bold
+StatusLineNC          ronLightBlue     rgbDarkBlue
+VertSplit             ronLightBlue     rgbDarkBlue
+StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
+StatusLineTermNC      xterm0           StatusLineTerm
+TabLine               xterm0           rgbDarkCyan
+TabLineFill           rgbDarkGrey      xterm8
+TabLineSel            none             xterm0            t=bold g=bold
+Terminal              xterm14          xterm0
+Title                 rgbDarkGrey      none
+Visual                none             none              t=reverse g=reverse
+VisualNOS             none             xterm0            t=underline,bold g=underline,bold
+WarningMsg            xterm0           none
+WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
-Comment              xterm10           none
-Constant             xterm14           none              bold
-Error                xterm14           xterm9
-Identifier           xterm14           none
-Ignore               xterm0            xterm0
-Label                ronGold2          xterm0
-Operator             ronOrange         xterm0
-PreProc              ronPink2          none
-Special              xterm11           none
-Statement            ronLightBlue      none
-Todo                 xterm0            ronOrange
-Type                 rgbSeaGreen       none              bold
-Underlined           Underlined        none              t=underline g=underline
+Comment               xterm10          none
+Constant              xterm14          none              bold
+Error                 xterm14          xterm9
+Identifier            xterm14          none
+Ignore                xterm0           xterm0
+Label                 ronGold2         none
+Operator              ronOrange        none
+PreProc               ronPink2         none
+Special               xterm11          none
+Statement             ronLightBlue     none
+Todo                  xterm0           ronOrange
+Type                  rgbSeaGreen      none              bold
+Underlined            Underlined       none              t=underline g=underline
 ; See `:help CursorIM`
-CursorIM             none              fg
+CursorIM              none             fg
 ; See `:help window-toolbar`
-ToolbarLine          none              none              t=underline
-ToolbarButton        xterm0            xterm7            bold
+ToolbarLine           none             none
+ToolbarButton         xterm0           xterm7            bold
 ; Links
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
 ; }}}
-
