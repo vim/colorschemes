@@ -8,47 +8,47 @@ Maintainer:  Original maintainer Ralph Amissah <ralph@amissah.com>
 Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
-Variant:    gui 256
 
+Variant:    gui 256 16
 Background: dark
 
 
 ;;; color palette
-Color: foreground  #FFFFFF        231
-Color: background  #262626        235
+Color: foreground  #FFFFFF        231            15
+Color: background  #262626        235            0
 
-Color: color00     #000000        16
-Color: color08     #333333        236
+Color: color00     #000000        16             0
+Color: color08     #333333        236            8
 
-Color: color01     #FF0000        196
-Color: color09     #FFAFAF        217
+Color: color01     #FF0000        196            1
+Color: color09     #FFAFAF        217            9
 
-Color: color02     #5F8700        64
-Color: color10     #00875F        29
+Color: color02     #5F8700        64             2
+Color: color10     #00875F        29             10
 
-Color: color03     #ffff00        226
-Color: color11     #FFD700        220
+Color: color03     #ffff00        226            3
+Color: color11     #FFD700        220            11
 
-Color: color04     #87d7FF        117
-Color: color12     #5F87D7        68
+Color: color04     #87d7FF        117            4
+Color: color12     #5F87D7        68             12
 
-Color: color05     #d7d787        186
-Color: color13     #AFAF87        144
+Color: color05     #d7d787        186            5
+Color: color13     #AFAF87        144            13
 
-Color: color06     #FFD7AF        223
-Color: color14     #FF8787        210
+Color: color06     #FFD7AF        223            6
+Color: color14     #FF8787        210            14
 
-Color: color07     #666666        241
-Color: color15     #FFFFFF        231
+Color: color07     #666666        241            7
+Color: color15     #FFFFFF        231            15
 
-Color: color16     #D7875F        173
-Color: color17     #00FF00        46
+Color: color16     #D7875F        173            5
+Color: color17     #00FF00        46             2
 
-Color: Pmenu       #4A4A4A        239
+Color: Pmenu       #4A4A4A        239            8
 
-Color: colorDiffA  #005F00        22
-Color: colorDiffC  #00005F        17
-Color: colorDiffD  #5F0000        52
+Color: colorDiffA  #005F00        22             0
+Color: colorDiffC  #00005F        17             0
+Color: colorDiffD  #5F0000        52             1
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -56,40 +56,73 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ;;; chrome
 
+Variant: gui 256 16
 Normal             foreground     background
 
 EndOfBuffer        color12        none
+Variant: 16
+Statusline         color00        color07
+StatuslineNC       color08        color07
+StatuslineTerm     color00        color07
+StatuslineTermNC   color08        color07
+VertSplit          color08        color07
+Variant: gui 256
 Statusline         color00        color13
 StatuslineNC       color07        color13
 StatuslineTerm     color00        color13
 StatuslineTermNC   color07        color13
 VertSplit          color07        color13
 
-Pmenu              none           Pmenu
+Variant: 16
+PmenuSel           background     color03
+Variant: gui 256
 PmenuSel           background     color05
+Variant: gui 256 16
+Pmenu              none           Pmenu
 PmenuSbar          none           background
 PmenuThumb         none           color11
 
+Variant: 16
+TabLineSel         color00        color03
+Variant: gui 256
+TabLineSel         color00        color13
+Variant: gui 256 16
 TabLine            color07        color08
 TabLineFill        color14        color08
-TabLineSel         color00        color13
 
 ToolbarLine        none           none
+Variant: 16
+ToolbarButton      background     color03
+Variant: gui 256
 ToolbarButton      background     color05
 
+Variant: gui 256 16
 NonText            color12        none
 SpecialKey         color10        none
 
+Variant: 16
+Folded             color06        none           underline
+FoldColumn         color06        none
+CursorLine         none           none           underline
+CursorColumn       none           none           underline
+CursorLineNr       color11        none           bold,underline
+QuickFixLine       none           none           underline
+ColorColumn        foreground     color08
+Visual             color11        color02
+
+Variant: gui 256
 Folded             color07        color00
-Visual             color05        color02
-VisualNOS          color05        color02
-LineNr             color07        none
 FoldColumn         color08        color00
 CursorLine         none           color08
 CursorColumn       none           color08
 CursorLineNr       none           color08
 QuickFixLine       none           color00
+Visual             color05        color02
+
+Variant: gui 256 16
 SignColumn         none           background
+VisualNOS          color05        color02
+LineNr             color07        none
 
 Underlined         color12        none           underline
 
@@ -104,15 +137,20 @@ Todo               color01        color03
 MatchParen         color00        color11
 Search             color00        color16
 IncSearch          color00        color17
+Variant: 16
+WildMenu           background     color03
+ColorColumn        foreground     color08
+Variant: gui 256
 WildMenu           background     color05
 ColorColumn        none           color00
+Variant: gui 256 16
 Cursor             color08        color05
 lCursor            background     color09
 
 DiffAdd            none           colorDiffA
 DiffChange         none           colorDiffC
 DiffText           color06        color12
-DiffDelete         color09        colorDiffD
+DiffDelete         color03        colorDiffD
 
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color03        none           t=underline g=undercurl s=color03
@@ -121,20 +159,31 @@ SpellRare          color06        none           t=underline g=undercurl s=color
 
 
 ;;; :h group-names
+Variant: 16
+Comment            color08        none
+Variant: gui 256
 Comment            color07        none
 
+Variant: 16
+String             color14        none
+Identifier         color01        none
+Function           color11        none
+Special            color03        none
+Variant: gui 256
+String             color04        none
 Identifier         color14        none
 Function           color06        none
+Special            color05        none
+Variant: gui 256 16
 Statement          color12        none           bold
 Constant           color09        none
-String             color04        none
 PreProc            color16        none
 Type               color12        none           bold
-Special            color05        none
 Operator           color16        none
 Define             color11        none           bold
 Structure          color17        none
 
+Variant: gui 256 16
 Directory          color10        none           bold
 Conceal            color07        none
 Ignore             none           none
