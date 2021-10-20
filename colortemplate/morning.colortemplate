@@ -93,8 +93,8 @@ SignColumn         folded_fg      none
 
 Underlined         special        none           underline
 
-Error              bg0            error
-ErrorMsg           bg0            error
+Error              bg0            error          reverse
+ErrorMsg           bg0            error          reverse
 WarningMsg         type           none           bold
 MoreMsg            type           none           bold
 ModeMsg            fg0            none           bold
