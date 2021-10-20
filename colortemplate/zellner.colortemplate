@@ -1,4 +1,4 @@
-; vim: ft=colortemplate
+; vim: cc=20,35,50 vsts=19,15,15,4
 
 Full name:   zellner
 Short name:  zellner
@@ -9,121 +9,132 @@ Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
 
-Variant:    gui 256
+Variant:    gui 256 16
 Background: light
 
 
 ;;; Refined syntax colors
 
-Color: comment     #ff0000 196
-Color: constant    #ff00ff 201
-Color: identifier  #0000ff 21
-Color: statement   #a52a2a 124
-Color: preproc     #a020f0 129
-Color: type        #0000ff 21
-Color: special     #ff00ff 201
-Color: tag         #006400 22
+Color: comment     #ff0000        196            9
+Color: constant    #ff00ff        201            13
+Color: identifier  #0000ff        21             12
+Color: statement   #a52a2a        124            1
+Color: preproc     #a020f0        129            5
+Color: type        #0000ff        21             12
+Color: special     #ff00ff        201            13
+Color: tag         #006400        22             2
 
-Color: fg0         #000000 16
-Color: bg0         #ffffff 231
-Color: bg1         #a9a9a9 248
-Color: visual      #ffff00 226
-Color: folded      #d3d3d3 252
-Color: folded_fg   #00008b 18
-Color: cursorline  #e5e5e5 254
-Color: pmenu       #dadada 253
-Color: wildmenu    #ffff00 226
-Color: error       #ff0000 196
-Color: linenr      #a52a2a 124
+Color: fg0         #000000        16             0
+Color: bg0         #ffffff        231            15
+Color: bg1         #a9a9a9        248            7
+Color: status      #a9a9a9        248            8
+Color: visual      #ffff00        226            11
+Color: folded      #d3d3d3        252            0
+Color: folded_fg   #00008b        18             4
+Color: cursorline  #e5e5e5        254            0
+Color: pmenu       #dadada        253            7
+Color: wildmenu    #ffff00        226            11
+Color: error       #ff0000        196            9
+Color: linenr      #a52a2a        124            1
+Color: colorcolumn #eeeeee        255            7
 
-Color: diffadd     #d7ffd7 194
-Color: diffdelete  #ffd7d7 224
-Color: diffchange  #ffffd7 230
-Color: difftext    #ffd787 222
+Color: diffadd     #d7ffd7        194            15
+Color: diffdelete  #ffd7d7        224            7
+Color: diffchange  #ffffd7        230            15
+Color: difftext    #ffd787        222            3
 
 
 ;;; Chrome
 
-Normal           fg0        bg0
+Variant:    16
+Folded             folded_fg      none           underline,bold
+CursorLine         none           none           underline
+CursorColumn       none           none           underline
+CursorLineNr       linenr         none           underline,bold
+QuickFixLine       none           none           underline
+Variant:    gui 256
+Folded             folded_fg      folded
+CursorLine         none           cursorline
+CursorColumn       none           cursorline
+CursorLineNr       linenr         none           bold
+QuickFixLine       none           cursorline
 
-EndOfBuffer      bg1        none
-Statusline       bg1        visual    reverse
-StatuslineNC     fg0        bg0       reverse
-StatuslineTerm   type       none      reverse
-StatuslineTermNC type       none      reverse
-VertSplit        none       bg0       reverse
+Variant:    gui 256 16
+Normal             fg0            bg0
 
-Pmenu            fg0        pmenu
-PmenuSel         fg0        wildmenu
-PmenuSbar        none       bg0
-PmenuThumb       none       bg1
+EndOfBuffer        status         none
+Statusline         status         visual         reverse
+StatuslineNC       fg0            bg0            reverse
+StatuslineTerm     type           none           reverse
+StatuslineTermNC   type           none           reverse
+VertSplit          none           bg0            reverse
 
-TabLine          fg0        bg1       underline
-TabLineFill      none       none      reverse
-TabLineSel       none       none      bold
+Pmenu              fg0            pmenu
+PmenuSel           fg0            wildmenu
+PmenuSbar          none           bg0
+PmenuThumb         none           status
 
-ToolbarLine      none       folded
-ToolbarButton    none       bg1       bold
+TabLine            fg0            bg1            underline
+TabLineFill        none           none           reverse
+TabLineSel         none           none           bold
 
-NonText          bg1        none
-SpecialKey       bg1        none
+ToolbarLine        none           folded
+ToolbarButton      none           bg1            bold
 
-Folded           folded_fg  folded
-Visual           fg0        visual
-VisualNOS        none       comment
-LineNr           linenr     none
-FoldColumn       wildmenu   none
-CursorLine       none       cursorline
-CursorColumn     none       cursorline
-CursorLineNr     linenr     none      bold
-QuickFixLine     none       cursorline
-SignColumn       none       none
+NonText            bg1            none
+SpecialKey         bg1            none
 
-Underlined       preproc    none      underline
+Visual             fg0            visual
+VisualNOS          none           comment
+LineNr             linenr         none
+FoldColumn         wildmenu       none
+SignColumn         none           none
 
-Error            bg0        error
-ErrorMsg         bg0        error
-WarningMsg       preproc    bg0
-MoreMsg          fg0        bg0       bold
-ModeMsg          fg0        bg0       bold
-Question         constant   none      bold
+Underlined         preproc        none           underline
 
-Todo             bg0        wildmenu
-MatchParen       bg0        special
-Search           bg0        preproc
-IncSearch        none       none      reverse
-WildMenu         fg0        visual
-ColorColumn      none       diffdelete
-Cursor           bg0        fg0
-lCursor          fg0        constant
+Error              bg0            error
+ErrorMsg           bg0            error
+WarningMsg         preproc        bg0
+MoreMsg            fg0            bg0            bold
+ModeMsg            fg0            bg0            bold
+Question           constant       none           bold
 
-DiffAdd          none       diffadd
-DiffChange       none       diffchange
-DiffDelete       comment    diffdelete
-DiffText         fg0        difftext
+Todo               fg0            wildmenu
+MatchParen         bg0            special
+Search             bg0            preproc
+IncSearch          none           none           reverse
+WildMenu           fg0            visual
+ColorColumn        none           colorcolumn
+Cursor             bg0            fg0
+lCursor            fg0            constant
 
-SpellBad         error      none   t=underline g=undercurl s=error
-SpellCap         identifier none   t=underline g=undercurl s=identifier
-SpellLocal       statement  none   t=underline g=undercurl s=statement
-SpellRare        type       none   t=underline g=undercurl s=type
+DiffAdd            none           diffadd
+DiffChange         none           diffchange
+DiffDelete         comment        diffdelete
+DiffText           fg0            difftext
+
+SpellBad           error          none           t=underline g=undercurl s=error
+SpellCap           identifier     none           t=underline g=undercurl s=identifier
+SpellLocal         statement      none           t=underline g=undercurl s=statement
+SpellRare          type           none           t=underline g=undercurl s=type
 
 
 ;;; Syntax
 
-Comment      comment     none
-Constant     constant    none
-Identifier   identifier  none
-Statement    statement   none
-PreProc      preproc     none
-Type         type        none
-Special      special     none
-Tag          tag         none
+Comment            comment        none
+Constant           constant       none
+Identifier         identifier     none
+Statement          statement      none
+PreProc            preproc        none
+Type               type           none
+Special            special        none
+Tag                tag            none
 
-Directory    identifier  none bold
-Conceal      comment     none
-Ignore       none        none
+Directory          identifier     none           bold
+Conceal            comment        none
+Ignore             none           none
 
-Title        preproc     none bold
+Title              preproc        none           bold
 
 
 ;;; Terminal
@@ -133,6 +144,6 @@ Term colors: comment statement constant preproc identifier type special fg0
 
 
 ;;; Links
-Terminal          -> Normal
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
+Terminal        -> Normal
+LineNrAbove     -> LineNr
+LineNrBelow     -> LineNr
