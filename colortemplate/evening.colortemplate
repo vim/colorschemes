@@ -46,7 +46,7 @@ Color: xtermred      #ff5f5f           203               red
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Variant: 16
-Normal               none              none
+Normal               white             black
 ColorColumn          white             darkmagenta
 CursorLine           none              none              underline
 CursorLineNr         none              none              underline

@@ -54,9 +54,7 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ;;; chrome
 
-Variant: 16
-Normal             none           none
-Variant: gui 256
+Variant: gui 256 16
 Normal             foreground     background
 
 Variant: 16
