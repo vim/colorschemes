@@ -92,8 +92,8 @@ SignColumn         none           none
 
 Underlined         preproc        none           underline
 
-Error              bg0            error
-ErrorMsg           bg0            error
+Error              bg0            error          reverse
+ErrorMsg           bg0            error          reverse
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0            bold
 ModeMsg            fg0            bg0            bold
