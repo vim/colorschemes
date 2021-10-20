@@ -94,8 +94,8 @@ SignColumn         none           none
 
 Underlined         special        none           underline
 
-Error              fg1            error          bold
-ErrorMsg           fg1            error          bold
+Error              error          none           bold
+ErrorMsg           error          none           bold
 WarningMsg         preproc        bg0            bold
 MoreMsg            type           bg0            bold
 ModeMsg            fg0            bg0            bold
