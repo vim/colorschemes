@@ -89,8 +89,8 @@ SignColumn         none           none
 
 Underlined         preproc        none           underline
 
-Error              bg0            storage
-ErrorMsg           bg0            storage
+Error              bg0            storage        reverse
+ErrorMsg           bg0            storage        reverse
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0
 ModeMsg            fg0            bg0
