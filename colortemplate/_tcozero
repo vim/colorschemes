@@ -1,7 +1,7 @@
 ; vim: ft=colortemplate cc=16,23,31 vsts=15,7,8,4
 
 ; Template for black & white terminals
-Variant: 2
+Variant: 0
 
 ; Group        Unused Unused  Term attributes
 Normal         omit   omit
