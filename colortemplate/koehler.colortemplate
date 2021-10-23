@@ -182,3 +182,7 @@ CursorIM              none             fg
 ToolbarLine           none             none
 ToolbarButton         xterm0           xterm7            bold
 ; }}}
+
+
+;;; No color support
+Include: _tcozero

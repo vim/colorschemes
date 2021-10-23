@@ -165,3 +165,7 @@ DiffDelete            color03     colorDiffD
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
+
+
+;;; No color support
+Include: _tcozero

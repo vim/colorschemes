@@ -165,3 +165,7 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
+
+
+;;; No color support
+Include: _tcozero

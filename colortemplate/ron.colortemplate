@@ -194,3 +194,6 @@ ToolbarButton         xterm0           xterm7            bold
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 ; }}}
+
+;;; No color support
+Include: _tcozero

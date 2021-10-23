@@ -161,3 +161,7 @@ Title              color13        none           bold
 Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
+
+
+;;; No color support
+Include: _tcozero

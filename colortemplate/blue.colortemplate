@@ -146,3 +146,6 @@ Typedef           -> Type
 ;;; Terminal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
 Term colors: darkgray red green yellow xtermblue magenta cyan white
+
+;;; No color support
+Include: _tcozero

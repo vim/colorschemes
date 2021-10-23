@@ -133,3 +133,6 @@ Term colors: comment statement constant preproc identifier type special fg0
 Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
+
+;;; No color support
+Include: _tcozero

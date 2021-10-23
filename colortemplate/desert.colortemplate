@@ -194,5 +194,5 @@ LineNrAbove        ->             LineNr
 LineNrBelow        ->             LineNr
 
 
-; No color support
+;;; No color support
 Include: _tcozero
