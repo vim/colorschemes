@@ -9,7 +9,7 @@ ColorColumn    omit   omit    reverse
 Conceal        omit   omit
 Cursor         omit   omit    reverse
 CursorColumn   omit   omit
-CursorLine     omit   omit
+CursorLine     omit   omit    underline
 CursorLineNr   omit   omit    bold
 DiffAdd        omit   omit    reverse
 DiffChange     omit   omit
