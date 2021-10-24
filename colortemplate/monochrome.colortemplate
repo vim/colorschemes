@@ -80,7 +80,7 @@ ColorColumn          none              none              reverse
 Conceal              none              none
 Cursor               none              none              reverse
 CursorColumn         none              none
-CursorLine           none              none
+CursorLine           none              none              underline
 CursorLineNr         none              none              bold
 DiffAdd              none              none              reverse
 DiffChange           none              none             
@@ -138,75 +138,5 @@ CursorIM             none              none
 ToolbarLine          none              none              reverse
 ToolbarButton        none              none              bold,reverse
 
-
-; This is necessary for t_Co=0 to work.
-;
-; This was originally an include, that for some reason implies t_Co=2.
-; Adding 2 to the list of variants above does not help, my understanding is that colortemplate addresses `term` separately 
-; from the `cterm`/`gui` catch-all used in the rest of the template.
-
-Variant: 2
-
-; Default highlight groups
-; Group              Unused Unused  Term attributes
-Normal               omit   omit
-ColorColumn          omit   omit    reverse
-Conceal              omit   omit
-Cursor               omit   omit    reverse
-CursorColumn         omit   omit
-CursorLine           omit   omit
-CursorLineNr         omit   omit    bold
-DiffAdd              omit   omit    reverse
-DiffChange           omit   omit
-DiffDelete           omit   omit    reverse
-DiffText             omit   omit    reverse
-Directory            omit   omit
-EndOfBuffer          omit   omit
-ErrorMsg             omit   omit    bold,reverse
-FoldColumn           omit   omit    
-Folded               omit   omit
-IncSearch            omit   omit    reverse,bold,underline
-LineNr               omit   omit
-MatchParen           omit   omit    bold,underline
-ModeMsg              omit   omit    bold
-MoreMsg              omit   omit
-NonText              omit   omit
-Pmenu                omit   omit    reverse
-PmenuSbar            omit   omit    reverse
-PmenuSel             omit   omit    bold
-PmenuThumb           omit   omit
-Question             omit   omit    standout
-Search               omit   omit    reverse
-SignColumn           omit   omit    reverse
-SpecialKey           omit   omit    bold
-SpellBad             omit   omit    underline
-SpellCap             omit   omit    underline
-SpellLocal           omit   omit    underline
-SpellRare            omit   omit    underline
-StatusLine           omit   omit    reverse,bold
-StatusLineNC         omit   omit    bold,underline
-TabLine              omit   omit    underline,bold
-TabLineFill          omit   omit
-TabLineSel           omit   omit    reverse,bold
-Terminal             omit   omit
-Title                omit   omit
-VertSplit            omit   omit
-Visual               omit   omit    reverse
-VisualNOS            omit   omit
-WarningMsg           omit   omit    standout
-WildMenu             omit   omit    bold
-; Other conventional group names (see `:help group-name`)
-Comment              omit   omit    bold
-Constant             omit   omit
-Error                omit   omit    reverse,bold
-Identifier           omit   omit
-Ignore               omit   omit
-PreProc              omit   omit
-Special              omit   omit
-Statement            omit   omit
-Todo                 omit   omit    reverse,bold
-Type                 omit   omit
-Underlined           omit   omit    underline
-CursorIM             omit   omit
-ToolbarLine          omit   omit    reverse
-ToolbarButton        omit   omit    bold,reverse
+; glass tty support
+Include: _tcozero
