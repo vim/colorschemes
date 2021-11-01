@@ -13,7 +13,7 @@ Background: dark
 
 
 ;;; color palette
-Color: foreground     #CCCCCC     252            15
+Color: foreground     #CCCCCC     251            15
 Color: background     #000000     16             0
 
 ; shim layer that replicates default xterm colors as close as we can
@@ -46,35 +46,36 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ; This layer replicates the behaviour of 'default', no matter how broken it is.
 Color: rgbGrey40      #666666     242            7
-Color: rgbDarkGrey    #a9a9a9     242            7
-Color: rgbDarkBlue    #00008b     20             4
-Color: rgbDarkMagenta #8b008b     164            5
-Color: rgbBlue        #0000ff     63             12
-Color: rgbDarkCyan    #008b8b     44             6
-Color: Directory      #00ffff     159            14
-Color: rgbSeaGreen    #2e8b57     121            2
-Color: rgbGrey        #bebebe     248            7
-Color: Question       #00ff00     121            10
+Color: rgbDarkGrey    #a9a9a9     248            7
+Color: rgbDarkBlue    #00008b     18             4
+Color: rgbDarkMagenta #8b008b     90             5
+Color: rgbBlue        #0000ff     21             12
+Color: rgbDarkCyan    #008b8b     30             6
+Color: Directory      #00ffff     51             14
+Color: rgbSeaGreen    #2e8b57     29             2
+Color: rgbGrey        #bebebe     250            7
+Color: Question       #00ff00     46             10
 Color: SignColumn     #a9a9a9     248            0
-Color: SpecialKey     #00ffff     81             14
-Color: StatusLineTerm #90ee90     121            2
-Color: Title          #ff00ff     225            13
-Color: WarningMsg     #ff0000     224            9
-Color: ToolbarLine    #7f7f7f     242            0
-Color: ToolbarButton  #d3d3d3     254            8
+Color: SpecialKey     #00ffff     51             14
+Color: StatusLineTerm #90ee90     120            2
+Color: Title          #ff00ff     201            13
+Color: WarningMsg     #ff0000     196            9
+Color: ToolbarLine    #7f7f7f     243            0
+Color: ToolbarButton  #d3d3d3     252            8
 Color: Comment        #80a0ff     111            12
-Color: Constant       #ffa0a0     201            5
-Color: Special        #ffa500     224            1
-Color: Identifier     #40ffff     51             14
-Color: Statement      #ffff60     226            11
-Color: PreProc        #ff80ff     81             6
-Color: Type           #60ff60     121            10
-Color: Underlined     #80a0ff     81             12
+Color: Constant       #ffa0a0     217            5
+Color: Special        #ffa500     214            1
+Color: Identifier     #40ffff     87             14
+Color: Statement      #ffff60     227            11
+Color: PreProc        #ff80ff     213            6
+Color: Type           #60ff60     83             10
+Color: Underlined     #80a0ff     111            12
 
 Color: Pmenu          #303030     236            8
 Color: colorDiffA     #005F00     22             0
 Color: colorDiffC     #00005F     17             0
 Color: colorDiffD     #5F0000     52             1
+Color: rgbDarkRed     #8b0000     88             1
 
 Variant: gui 256 16
 
@@ -91,7 +92,7 @@ Special               Special     none
 Underlined            Underlined  none           t=underline g=underline
 Ignore                color00     color00
 Error                 color15     color09
-Todo                  color00     color11
+Todo                  color11     color00        reverse
 
 ; Chrome
 Variant: 16
@@ -109,7 +110,7 @@ CursorLineNr          color11     rgbGrey40
 Variant: gui 256 16
 SignColumn            color14     none
 FoldColumn            color14     none
-ColorColumn           background  rgbSeaGreen
+ColorColumn           background  rgbDarkRed
 Conceal               color07     rgbDarkGrey
 Cursor                color00     color10        g=bold
 lCursor               color00     color07
@@ -117,7 +118,7 @@ CursorIM              none        fg
 
 Title                 Title       none           g=bold
 Directory             Directory   none
-Search                color00     color09
+Search                color09     color00        reverse
 IncSearch             none        none           t=reverse g=reverse
 NonText               rgbBlue     none           g=bold
 EndOfBuffer           rgbBlue     none           g=bold
@@ -151,21 +152,19 @@ ToolbarLine           none        color00
 ToolbarButton         color00     color07        bold
 
 Pmenu                 fg          Pmenu
-PmenuSbar             none        rgbGrey
+PmenuSbar             none        none
 PmenuSel              color00     color11
-PmenuThumb            none        fg
+PmenuThumb            none        rgbGrey
 
 DiffAdd               none        colorDiffA
 DiffChange            none        colorDiffC
 DiffText              color06     color12
 DiffDelete            color03     colorDiffD
 
-
 ;;; Links
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
-
 
 ;;; No color support
 Include: _tcozero
