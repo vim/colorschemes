@@ -39,7 +39,7 @@ Such a goal can't be reached without providing colorscheme authors with a solid 
 
 ## What is the plan?
 
-1. According on a definitive list of requirements.
+1. Reach a compromise on a definitive list of requirements.
 2. Find the resources and build the necessary tools.
 3. Open a proper "call for colorschemes".
 4. Include the approved submissions in the Vim distribution, either one by one or as a whole.
@@ -50,6 +50,8 @@ Such a goal can't be reached without providing colorscheme authors with a solid 
 * [Christian Brabandt](https://github.com/chrisbra), who opened the two issues that prompted the creation of this project.
 * [Romain Lafourcade](https://github.com/romainl), colorscheme and plugin author.
 * [lifepillar](https://github.com/lifepillar), colorscheme and plugin author.
+* [Maxim Kim](https://github.com/habamax), colorscheme and plugin author.
+* [neutaaaaan](https://github.com/neutaaaaan), mysterious colorscheme author.
 * You.
 
 ## Useful links
