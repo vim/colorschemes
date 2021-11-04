@@ -95,8 +95,8 @@ SignColumn         none           none
 
 Underlined         none           none           underline
 
-Error              White          Red            reverse
-ErrorMsg           White          Red            reverse
+Error              Red            White          reverse
+ErrorMsg        -> Error
 WarningMsg         Purple         White
 MoreMsg            Black          White
 ModeMsg            Black          White
@@ -127,16 +127,16 @@ SpellRare          SeaGreen       none           t=underline g=undercurl s=SeaGr
 Identifier         DarkCyan       none
 Statement          DarkGreen      none           bold
 Constant           MutedRed       none
-Number             LightRed       none
-Float           -> Number
+Number             MutedRed       none           bold
+Float              MutedRed       none           bold
 PreProc            Purple         none
-Special            LightRed        none
+Special            DarkOrange     none
 SpecialChar        DarkBlue        none
-Tag                Purple         none
+Tag             -> Special
 Type               SeaGreen       none           bold
-Operator           Purple         none
+Operator        -> Statement
 Directory          DarkCyan       none           bold
-Comment            DarkBlue       none
+Comment            MediumGrey     none           bold
 StorageClass       Red            none           bold
 Conceal            LightGrey      DarkGrey
 Ignore             none           none
