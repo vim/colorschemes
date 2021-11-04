@@ -13,28 +13,29 @@ Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
-Color: lightmagenta  #ffafaf           217               magenta
-Color: lightyellow   #ffff5f           227               yellow
+;; imaginaires
+Color: lightmagenta  #ffa0a0           217               magenta
 Color: blue          #0000ff           21                blue
 Color: cyan          #00ffff           51                cyan
-Color: darkblue      #87afff           111               darkblue
-Color: darkcyan      #008787           30                darkcyan
-Color: darkmagenta   #870087           90                darkmagenta
-Color: green         #00ff00           46                green
-Color: lightblue     #afd7ff           153               lightblue
-Color: magenta       #ff00ff           201               darkmagenta
-Color: orange        #ffaf00           214               darkred
-Color: red           #ff0000           196               red
-Color: seagreen      #00875f           29                darkgreen
 Color: yellow        #ffff00           226               darkyellow
 Color: white         #ffffff           231               white
-Color: lightgrey     #d0d0d0           252               gray
-Color: grey          #bcbcbc           250               gray
-Color: grey20        #303030           236               gray
-Color: grey30        #4e4e4e           239               darkgray
-Color: grey40        #626262           241               darkgray
-Color: grey60        #949494           246               darkgray
 Color: black         #000000           16                black
+Color: green         #00ff00           46                green
+Color: magenta       #ff80ff           201               darkmagenta
+Color: red           #ff0000           196               red
+Color: lightyellow   #ffff60           227               yellow
+Color: darkblue      #00008b           18                darkblue
+Color: darkcyan      #008b8b           30                darkcyan
+Color: darkmagenta   #8b008b           90                darkmagenta
+Color: lightblue     #add8e6           153               lightblue
+Color: orange        #ffa500           214               darkred
+Color: seagreen      #2e8b57           29                darkgreen
+Color: lightgrey     #d3d3d3           252               gray
+Color: grey          #bebebe           250               gray
+Color: grey20        #333333           236               gray
+Color: grey30        #4d4d4d           239               darkgray
+Color: grey40        #666666           241               darkgray
+Color: grey60        #999999           246               darkgray
 Color: diffa         #005f5f           23                darkcyan
 Color: diffd         #875f00           94                darkred
 Color: diffc         #8700ff           93                magenta
@@ -42,12 +43,14 @@ Color: difft         #5f005f           53                darkmagenta
 Color: xtermblue     #0087ff           33                blue
 Color: xtermdarkblue #006faf           25                darkblue
 Color: xtermred      #ff5f5f           203               red
+Color: comment       #80a0ff           111               lightblue
+Color: darkred       #8b0000           88                darkred
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Variant: 16
 Normal               white             black
-ColorColumn          white             darkmagenta
+ColorColumn          white             darkred
 CursorLine           none              none              underline
 CursorLineNr         none              none              underline
 EndOfBuffer          lightblue         none
@@ -61,10 +64,10 @@ DiffDelete           none              diffd
 DiffText             yellow            difft
 Variant: gui 256
 Normal               white             grey20
-ColorColumn          none              darkmagenta
+ColorColumn          none              darkred
 CursorLine           none              grey40
 CursorLineNr         yellow            grey40
-EndOfBuffer          lightblue         grey20
+EndOfBuffer          lightblue         grey30
 StatusLine           white             grey20            bold,reverse
 StatusLineNC         lightgrey         grey20            reverse
 TabLineSel           white             grey20            bold,reverse
@@ -90,7 +93,7 @@ IncSearch            none              none              reverse
 MatchParen           none              darkcyan
 ModeMsg              none              none              bold
 MoreMsg              seagreen          none              t=bold
-NonText              lightblue         none
+NonText              lightblue         grey30
 Question             green             none
 Search               black             yellow
 SignColumn           darkcyan          none
@@ -105,7 +108,7 @@ TabLineFill       -> TabLine
 ToolbarButton        none              grey60            bold
 ToolbarLine          none              none
 VertSplit            white             white
-Visual               black             grey60
+Visual               white             grey60
 VisualNOS            none              none              bold,underline
 WarningMsg           red               none
 WildMenu             grey20            yellow            bold
@@ -135,8 +138,8 @@ lCursor           -> Cursor
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              darkblue          none
-Constant             lightmagenta      none
+Comment              comment           none
+Constant             lightmagenta       none
 Identifier           cyan              none
 Ignore               grey20            none
 PreProc              magenta           none
@@ -144,7 +147,7 @@ Special              orange            none
 Statement            lightyellow       none              bold
 Todo                 yellow            blue              reverse
 Type                 green             none              bold
-Underlined           none              none              underline
+Underlined           comment           none              underline
 
 Boolean           -> Constant
 Character         -> Constant
