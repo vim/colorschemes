@@ -56,7 +56,7 @@ Color: Title          #ff00ff     225            13
 Color: WarningMsg     #ff0000     224            1
 Color: ToolbarLine    #7f7f7f     242            8
 Color: ToolbarButton  #d3d3d3     254            7
-Color: Underlined     #80a0ff     81 1           2
+Color: Underlined     #80a0ff     111            2
 
 ; tweaked for the pablo
 Color: Comment        #808080     244            8
@@ -123,8 +123,8 @@ ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
 Folded                color08     Folded
 CursorColumn          none        Cursorline
-CursorLine            none        Cursorline     t=underline
-CursorLineNr          color11     Cursorline     t=underline g=bold
+CursorLine            none        Cursorline
+CursorLineNr          color11     Cursorline     g=bold
 DiffAdd               none        rgbDarkBlue
 DiffChange            none        rgbDarkMagenta
 DiffDelete            rgbBlue     rgbDarkCyan    g=bold
