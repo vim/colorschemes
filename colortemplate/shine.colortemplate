@@ -93,7 +93,7 @@ LineNr             DarkGrey       none
 FoldColumn         DarkGrey       none
 SignColumn         none           none
 
-Underlined         none           none           underline
+Underlined         Purple         none           underline
 
 Error              Red            White          reverse
 ErrorMsg        -> Error
