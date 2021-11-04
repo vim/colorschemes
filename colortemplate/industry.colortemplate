@@ -77,7 +77,7 @@ VertSplit          background     foreground
 
 Pmenu              foreground     color08
 PmenuSel           background     color11
-PmenuSbar          none           color00
+PmenuSbar          none           background
 PmenuThumb         none           color07
 
 TabLine            foreground     color08
