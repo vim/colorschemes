@@ -66,7 +66,7 @@ StatuslineTermNC   color08        color07
 VertSplit          color08        color07
 
 Variant: gui 256
-EndOfBuffer        color00        color17
+EndOfBuffer     -> NonText
 Statusline         background     color15
 StatuslineNC       color00        color15
 StatuslineTerm     background     color15
@@ -97,7 +97,7 @@ ToolbarLine        none           color07
 ToolbarButton      background     color13        bold
 
 Variant: gui 256 16
-NonText            color08        none
+NonText            color12        none
 SpecialKey         color02        none
 
 Variant: 16
