@@ -35,7 +35,7 @@ In order to provide the greatest possible user experience, we must make sure tha
 * all colorschemes must have the same features
 * all colorschemes must work out-of-the-box in every common environment (16 colors, 256 colors, true colors, GUI)
 
-Such a goal can't be reached without providing colorscheme authors with a solid toolbox and an up-to-date documentation.
+Such goals can't be reached without providing colorscheme authors with a solid toolbox and an up-to-date documentation.
 
 ## What is the plan?
 
@@ -53,6 +53,14 @@ Such a goal can't be reached without providing colorscheme authors with a solid 
 * [Maxim Kim](https://github.com/habamax), colorscheme and plugin author.
 * [neutaaaaan](https://github.com/neutaaaaan), mysterious colorscheme author.
 * You.
+
+## Install
+
+If you use Vim 8's package feature, you can simply put this directory under:
+
+    ~/.vim/pack/{whatever}/start/
+
+If you use a plugin manager, do the same as with your other plugins.
 
 ## Useful links
 
