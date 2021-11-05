@@ -39,6 +39,9 @@ Color: diffdelete  #ffd7d7        224            15
 Color: diffchange  #ffffd7        230            7
 Color: difftext    #ffd787        222            3
 
+Color: Yellow      #ffff00        226            11
+Color: SlateBlue   #6a5acd        62             12
+
 
 ;;; Chrome
 
@@ -46,8 +49,8 @@ Variant:    gui 256 16
 Normal             fg0            bg0
 
 EndOfBuffer        bg1            none
-Statusline         status_fg      statement      reverse,bold
-StatuslineNC       fg0            status_fg      reverse
+Statusline         statement      status_fg      reverse,bold
+StatuslineNC       statement      status_fg      reverse
 StatuslineTerm     type           none           reverse,bold
 StatuslineTermNC   type           none           reverse
 VertSplit          none           status_fg      reverse
@@ -78,16 +81,16 @@ CursorLineNr       linenr         none           bold
 QuickFixLine       none           folded
 SignColumn         none           none
 
-Underlined         preproc        none           underline
+Underlined         SlateBlue      none           underline
 
-Error              bg0            error          reverse
-ErrorMsg           bg0            error          reverse
+Error              error          bg0            reverse
+ErrorMsg        -> Error
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0            bold
 ModeMsg            fg0            bg0            bold
 Question           constant       none           bold
 
-Todo               bg0            wildmenu
+Todo               fg0            Yellow
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          none           none           reverse
