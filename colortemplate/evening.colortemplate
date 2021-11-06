@@ -88,7 +88,7 @@ Cursor               black             green
 Error                red               white             reverse
 ErrorMsg             white             red
 FoldColumn           darkblue          none
-Folded               grey20            darkblue          bold
+Folded               darkblue          lightgrey         bold
 IncSearch            none              none              reverse
 MatchParen           none              darkcyan
 ModeMsg              none              none              bold
