@@ -12,11 +12,11 @@ Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
-Color: white         #FFFFFF           231               0
+Color: white         #FFFFFF           231               15
 Color: black         #000000           16                0
-Color: diffc         #0087af           31                0
-Color: difft         #005f87           24                0
-Color: cursorl       #666666           59                0
+Color: diffc         #0087af           31                6
+Color: difft         #005f87           24                6
+Color: cursorl       #666666           59                7
 
 ;;; from OG
 Color: ogDeepBlue    #000040           17                0
@@ -71,7 +71,7 @@ DiffDelete           ogDeepBlue        ogDarkCyan
 DiffText             none              ogDarkCyan
 
 EndOfBuffer       -> NonText
-Error                ogRed             white             reverse
+Error                ogRed             none              reverse
 ErrorMsg          -> Error
 FoldColumn           ogGrey            none              bold
 Folded               ogGrey            none              bold
@@ -107,7 +107,7 @@ ToolbarLine          none              none
 VertSplit            black             ogGrey
 Visual               ogViolet          white             reverse
 VisualNOS            ogViolet          ogLightGrey       reverse,underline
-WarningMsg           ogDarkerRed       none
+WarningMsg           ogRed             none
 WildMenu             ogYellow          black
 debugBreakpoint      ogDeepBlue        ogDarkerRed
 debugPC              ogDeepBlue        ogBlue
@@ -138,7 +138,7 @@ Ignore               ogDeepBlue        ogLightGrey
 PreProc              ogLightMag        none
 Special              ogOrange          none
 Statement            ogYellow          none
-Todo                 ogBlue            ogDarkRed         reverse
+Todo                 none              none              reverse
 Type                 ogGreen           none
 Underlined           ogLightViolet     none              underline
 
