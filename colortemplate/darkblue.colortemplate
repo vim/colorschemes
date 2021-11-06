@@ -71,7 +71,7 @@ DiffDelete           ogDeepBlue        ogDarkCyan
 DiffText             none              ogDarkCyan
 
 EndOfBuffer       -> NonText
-Error                ogRed             none              reverse
+Error                ogLightRed        none              reverse
 ErrorMsg          -> Error
 FoldColumn           ogGrey            none              bold
 Folded               ogGrey            none              bold
