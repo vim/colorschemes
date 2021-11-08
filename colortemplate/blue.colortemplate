@@ -15,7 +15,6 @@ Background: dark
 ;;; Color palette
 Color: black         #000000           16                black
 Color: darkred       #870000           88                darkred
-Color: darkgreen     #008700           28                darkgreen
 Color: darkyellow    #878700           100               darkyellow
 Color: darkblue      #000087           18                darkblue
 Color: darkmagenta   #870087           90                darkmagenta
@@ -23,7 +22,7 @@ Color: darkcyan      #008787           30                darkcyan
 Color: gray          #bcbcbc           250               gray
 Color: darkgray      #878787           102               darkgray
 Color: red           #d70000           160               red
-Color: green         #00d75f           41                green
+Color: green         #00ff00           46                green
 Color: yellow        #ffdf00           220               yellow
 Color: blue          #005faf           25                blue
 Color: magenta       #d787d7           176               magenta
@@ -31,6 +30,11 @@ Color: cyan          #5fffff           87                cyan
 Color: white         #ffffff           15                white
 Color: xtermblue     #5fafff           75                blue
 Color: xtermdarkblue #0087af           31                darkblue
+Color: orange        #ffa500           214               darkyellow
+Color: darkgreen     #006400           22                darkgreen
+Color: coral         #ff7f50           209               red
+Color: olivedrab     #6b8e23           64                green
+Color: slateblue     #6a5acd           62                darkmagenta
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
@@ -42,18 +46,18 @@ Cursor               black             green
 CursorColumn         none              blue
 CursorIM             none              fg
 CursorLine           none              blue
-CursorLineNr         yellow            blue
-DiffAdd              darkgreen         none              reverse
-DiffChange           darkcyan          none              reverse
-DiffDelete           darkred           none              reverse
-DiffText             cyan              none              reverse
+CursorLineNr         yellow            blue              bold
+DiffAdd              none              slateblue
+DiffChange           none              darkgreen
+DiffDelete           none              coral
+DiffText             none              olivedrab
 EndOfBuffer          yellow            darkblue
 Error                red               white             reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
 IncSearch            darkmagenta       white             t=reverse g=standout
-LineNr               white             none
+LineNr               cyan              none
 MatchParen           white             magenta
 ModeMsg              darkblue          green
 MoreMsg              cyan              none
@@ -108,16 +112,17 @@ LineNrBelow       -> LineNr
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              gray              none
+Comment              gray              none              bold
 Constant             cyan              none
 Identifier           gray              none
 Ignore               darkgray          none
 PreProc              green             none
-Special              cyan              none
+Special              magenta           none
 Statement            white             none
-Todo                 darkblue          white
-Type                 green             none
+Todo                 none              none              reverse
+Type                 orange            none              bold
 Underlined           none              none              underline
+Label                yellow            none
 
 Boolean           -> Constant
 Character         -> Constant
@@ -129,10 +134,9 @@ Float             -> Constant
 Function          -> Identifier
 Include           -> PreProc
 Keyword           -> Statement
-Label             -> Statement
 Macro             -> PreProc
 Number            -> Constant
-Operator          -> Statement
+Operator          -> Type
 PreCondit         -> PreProc
 Repeat            -> Statement
 SpecialChar       -> Special
