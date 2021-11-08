@@ -39,7 +39,16 @@ Color: slateblue     #6a5acd           62                darkmagenta
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               yellow            darkblue
-Terminal             yellow            darkblue
+
+Variant:    16
+Pmenu                black             darkcyan
+PmenuSel             black             white
+
+Variant:    gui 256
+Pmenu                white             darkcyan
+PmenuSel             darkcyan          white
+
+Variant:    gui 256 16
 ColorColumn          none              darkmagenta
 Conceal              none              none
 Cursor               black             green
@@ -56,15 +65,13 @@ Error                coral             darkblue          reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
-IncSearch            coral             black             t=reverse g=standout
+IncSearch            magenta           black             t=reverse g=standout
 LineNr               cyan              none
-MatchParen           white             magenta
+MatchParen           none              none              reverse
 ModeMsg              darkblue          green
 MoreMsg              cyan              none
 NonText              magenta           none
-Pmenu                white             darkcyan
 PmenuSbar            none              none
-PmenuSel             darkcyan          white
 PmenuThumb           none              white
 Question             green             none
 Search               yellow            black             reverse
@@ -75,7 +82,7 @@ SpellCap             none              none              s=blue
 SpellLocal           none              none              s=magenta
 SpellRare            none              none              s=cyan
 StatusLine           darkblue          cyan
-StatusLineNC         cyan              darkcyan
+StatusLineNC         darkblue          darkcyan
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 TabLine           -> StatusLineNC
@@ -88,8 +95,8 @@ Visual               white             darkcyan
 VisualNOS            darkcyan          white
 WarningMsg           red               none
 WildMenu             darkblue          yellow
-debugBreakpoint      darkblue          red
-debugPC              darkblue          blue
+debugBreakpoint      green             darkblue          reverse
+debugPC              cyan              darkblue          reverse
 
 Terminal          -> Normal
 QuickFixLine      -> Search
@@ -146,6 +153,7 @@ String            -> Constant
 Structure         -> Type
 Tag               -> Special
 Typedef           -> Type
+Terminal          -> Normal
 
 ;;; Terminal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
