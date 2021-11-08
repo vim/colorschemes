@@ -54,8 +54,8 @@ ColorColumn          white             darkred
 CursorLine           none              none              underline
 CursorLineNr         none              none              underline
 EndOfBuffer          lightblue         none
-StatusLine           white             none              bold,reverse
-StatusLineNC         lightgrey         none              reverse
+StatusLine           none              white             bold
+StatusLineNC         none              lightgrey
 TabLineSel           black             white             bold
 TabLine              black             lightgrey
 DiffAdd              none              none
@@ -68,10 +68,10 @@ ColorColumn          none              darkred
 CursorLine           none              grey40
 CursorLineNr         yellow            grey40
 EndOfBuffer          lightblue         grey30
-StatusLine           white             grey20            bold,reverse
-StatusLineNC         lightgrey         grey20            reverse
-TabLineSel           white             grey20            bold,reverse
-TabLine              lightgrey         grey20            reverse
+StatusLine           grey20            white             bold
+StatusLineNC         grey20            lightgrey
+TabLineSel           grey20            white             bold
+TabLine              grey20            lightgrey
 DiffAdd              none              diffa
 DiffChange           none              diffc
 DiffDelete           none              diffd
