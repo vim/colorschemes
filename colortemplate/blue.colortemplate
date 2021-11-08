@@ -52,7 +52,7 @@ DiffChange           none              darkgreen
 DiffDelete           none              coral
 DiffText             none              olivedrab
 EndOfBuffer          yellow            darkblue
-Error                red               white             reverse
+Error                coral             darkblue          reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
@@ -67,7 +67,7 @@ PmenuSbar            none              none
 PmenuSel             darkcyan          white
 PmenuThumb           none              white
 Question             green             none
-Search               black             yellow
+Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
 SpellBad             none              none              s=red
