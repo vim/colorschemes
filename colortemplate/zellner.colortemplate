@@ -37,6 +37,7 @@ Color: wildmenu    #ffff00        226            11
 Color: error       #ff0000        196            9
 Color: linenr      #a52a2a        124            1
 Color: colorcolumn #eeeeee        255            7
+Color: slateblue   #6a5acd        62             12
 
 Color: diffadd     #d7ffd7        194            15
 Color: diffdelete  #ffd7d7        224            7
@@ -90,9 +91,9 @@ LineNr             linenr         none
 FoldColumn         wildmenu       none
 SignColumn         none           none
 
-Underlined         preproc        none           underline
+Underlined         slateblue      none           underline
 
-Error              bg0            error          reverse
+Error              error          none           reverse
 ErrorMsg           bg0            error          reverse
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0            bold
