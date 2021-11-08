@@ -56,7 +56,7 @@ Error                red               white             reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
-IncSearch            darkmagenta       white             t=reverse g=standout
+IncSearch            coral             black             t=reverse g=standout
 LineNr               cyan              none
 MatchParen           white             magenta
 ModeMsg              darkblue          green
