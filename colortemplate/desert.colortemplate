@@ -15,39 +15,39 @@ Background: dark
 
 
 ;;; Color palette
-Color: foreground  #ffffff        231            15
-Color: background  #333333        236            0
+Color: foreground  #ffffff        231            white
+Color: background  #333333        236            black
 
-Color: color00     #7f7f8c        242            0
-Color: color08     #8a7f7f        244            8
+Color: color00     #7f7f8c        242            black
+Color: color08     #8a7f7f        244            darkgrey
 
-Color: color01     #cd5c5c        167            1
-Color: color09     #ff0000        196            9
+Color: color01     #cd5c5c        167            darkred
+Color: color09     #ff0000        196            red
 
-Color: color02     #9acd32        112            2
-Color: color10     #89fb98        120            10
+Color: color02     #9acd32        112            darkgreen
+Color: color10     #89fb98        120            green
 
-Color: color03     #bdb76b        143            3
-Color: color11     #f0e68c        186            11
+Color: color03     #bdb76b        143            darkyellow
+Color: color11     #f0e68c        186            yellow
 
-Color: color04     #75a0ff        111            4
-Color: color12     #6dceeb        81             12
+Color: color04     #75a0ff        111            darkblue
+Color: color12     #6dceeb        81             blue
 
-Color: color05     #eeee00        226            5
-Color: color13     #ffde9b        222            13
+Color: color05     #eeee00        226            darkmagenta
+Color: color13     #ffde9b        222            magenta
 
-Color: color06     #cd853f        172            6
-Color: color14     #ffa0a0        217            14
+Color: color06     #cd853f        172            darkcyan
+Color: color14     #ffa0a0        217            cyan
 
-Color: color07     #666666        241            7
-Color: color15     #c2bfa5        144            15
+Color: color07     #666666        241            grey
+Color: color15     #c2bfa5        144            white
 
-Color: color16     #6b8e24        64             2
-Color: color17     #4d4d4d        239            7
+Color: color16     #6b8e24        64             darkgreen
+Color: color17     #4d4d4d        239            grey
 
-Color: colorDiffA  #005F00        22             0
-Color: colorDiffC  #00005F        17             0
-Color: colorDiffD  #5f0000        52             0
+Color: colorDiffA  #005F00        22             black
+Color: colorDiffC  #00005F        17             black
+Color: colorDiffD  #5f0000        52             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -84,7 +84,11 @@ PmenuSel           background     color11
 PmenuSbar          none           background
 PmenuThumb         none           color15
 
-Variant: gui 256 16
+Variant: 16
+TabLine            background     color07
+TabLineFill        none           color15
+TabLineSel         foreground     background     bold
+Variant: gui 256
 TabLine            background     color15
 TabLineFill        none           color15
 TabLineSel         background     color11
@@ -156,11 +160,14 @@ DiffChange         none           colorDiffC
 DiffText           color06        color12
 DiffDelete         color09        colorDiffD
 
+debugPC            color07        none           reverse
+debugBreakpoint    color14        none           reverse
+
+
 SpellBad           color09        none           t=underline g=undercurl s=color00
 SpellCap           color01        none           t=underline g=undercurl s=color01
 SpellLocal         color03        none           t=underline g=undercurl s=color03
 SpellRare          color11        none           t=underline g=undercurl s=color11
-
 
 ;;; :h group-names
 Variant: 16
