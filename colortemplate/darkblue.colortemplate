@@ -12,52 +12,51 @@ Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
-Color: white         #FFFFFF           231               15
-Color: black         #000000           16                0
-Color: diffc         #0087af           31                6
-Color: difft         #005f87           24                6
-Color: cursorl       #666666           59                7
+Color: white         #FFFFFF           231               white
+Color: black         #000000           16                black
+Color: diffc         #0087af           31                darkcyan
+Color: difft         #005f87           24                cyan
+Color: cursorl       #666666           59                darkgrey
 
 ;;; from OG
-Color: ogDeepBlue    #000040           17                0
+Color: ogDeepBlue    #000040           17                black
 
-Color: ogDarkBlue    #00008b           18                0
-Color: ogBlue        #0030ff           27                4
-Color: ogLightBlue   #287eff           33                12
+Color: ogDarkBlue    #00008b           18                darkblue
+Color: ogBlue        #0030ff           27                blue
+Color: ogLightBlue   #287eff           33                blue
 
-Color: ogDarkGrey    #a9a9a9           248               7
-Color: ogGrey        #808080           102               8
-Color: ogLightGrey   #c0c0c0           252               7
+Color: ogDarkGrey    #a9a9a9           248               grey
+Color: ogGrey        #808080           102               darkgrey
+Color: ogLightGrey   #c0c0c0           252               grey
 
-Color: ogDarkViolet  #404080           61                5
-Color: ogViolet      #8080ff           105               13
-Color: ogLightViolet #80a0ff           111               13
+Color: ogDarkViolet  #404080           61                darkblue
+Color: ogViolet      #8080ff           105               blue
+Color: ogLightViolet #80a0ff           111               blue
 
-Color: ogDarkGreen   #006400           22                2
-Color: ogGreen       #90f020           118               10
+Color: ogDarkGreen   #006400           22                darkgreen
+Color: ogGreen       #90f020           118               green
 
-Color: ogDarkCyan    #008b8b           30                6
-Color: ogCyan        #90fff0           123               14
-Color: ogLightCyan   #b0ffff           159               14
+Color: ogDarkCyan    #008b8b           30                darkcyan
+Color: ogCyan        #90fff0           123               cyan
+Color: ogLightCyan   #b0ffff           159               cyan
 
-Color: ogDarkerRed   #8b0000           88                1
-Color: ogDarkRed     #d14a14           166               1
-Color: ogRed         #ff0000           196               9
-Color: ogLightRed    #ffa0a0           217               9
+Color: ogDarkerRed   #8b0000           88                darkred
+Color: ogDarkRed     #d14a14           166               darkred
+Color: ogRed         #ff0000           196               red
+Color: ogLightRed    #ffa0a0           217               red
 
-Color: ogDarkMag     #8b008b           90                5
-Color: ogMagenta     #ff00ff           201               5
-Color: ogLightMag    #ff80ff           213               13
+Color: ogDarkMag     #8b008b           90                darkmagenta
+Color: ogMagenta     #ff00ff           201               darkmagenta
+Color: ogLightMag    #ff80ff           213               magenta
 
-Color: ogOrange      #ffa500           214               3
-Color: ogYellow      #ffff60           227               11
+Color: ogOrange      #ffa500           214               darkyellow
+Color: ogYellow      #ffff60           227               yellow
 
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               ogLightGrey       ogDeepBlue
 Terminal          -> Normal
-ColorColumn          none              ogDarkerRed
 Conceal              none              none
 Cursor               black             ogYellow
 CursorColumn      -> CursorLine
@@ -75,14 +74,14 @@ Error                ogLightRed        none              reverse
 ErrorMsg          -> Error
 FoldColumn           ogGrey            none              bold
 Folded               ogGrey            none              bold
-IncSearch            ogCyan            ogBlue            reverse
+IncSearch            white             ogBlue            reverse
 LineNr               ogGreen           none
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
 MatchParen           none              none              reverse
 ModeMsg              ogCyan            none
 MoreMsg              ogDarkGreen       none
-NonText              ogDarkBlue        none
+NonText              ogBlue            none
 Pmenu                white             ogBlue
 PmenuSbar            none              none
 PmenuSel             ogBlue            white
@@ -109,8 +108,8 @@ Visual               ogViolet          white             reverse
 VisualNOS            ogViolet          ogLightGrey       reverse,underline
 WarningMsg           ogRed             none
 WildMenu             ogYellow          black
-debugBreakpoint      ogDeepBlue        ogDarkerRed
-debugPC              ogDeepBlue        ogBlue
+debugBreakpoint      ogGreen           ogDarkBlue        reverse
+debugPC              ogCyan            ogDarkBlue        reverse
 
 Terminal          -> Normal
 QuickFixLine      -> Search
@@ -167,8 +166,16 @@ Tag               -> Special
 Typedef           -> Type
 
 ;;; Terminal
-Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkViolet ogDarkCyan ogLightGrey
-Term colors: ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogViolet     ogCyan     white
+Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkMag ogDarkCyan ogLightGrey
+Term colors: ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogMagenta    ogCyan     white
+
+
+Variant:  16
+ColorColumn          black             ogDarkerRed
+TabLineSel           white             black
+CursorLine           none              none              underline
+CursorLineNr         ogYellow          none              underline
+Search               white             ogBlue
 
 ;;; No color support
 Include: _tcozero
