@@ -108,7 +108,9 @@ Variant: 16
 Folded             color04        none           bold
 Variant: gui 256
 Folded             color05        color17
-Variant: gui 256 16
+Variant: 16
+Visual             foreground     color16
+Variant: gui 256
 Visual             color11        color16
 VisualNOS          color11        color12
 Variant: 16
