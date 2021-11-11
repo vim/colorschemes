@@ -118,9 +118,9 @@ Variant: gui 256
 LineNr             color05        none
 FoldColumn         color05        color17
 Variant: 16
-CursorLine         none           color04
+CursorLine         none           none           underline
 CursorColumn       none           color04
-CursorLineNr       none           color04
+CursorLineNr       color03        none           underline,bold
 QuickFixLine       none           color04
 Variant: gui 256
 CursorLine         none           color07
@@ -153,6 +153,8 @@ ColorColumn        foreground     color01
 Variant: gui
 Cursor             background     color11
 lCursor            background     color09
+Variant: 16
+WildMenu           background     color03
 
 Variant: gui 256 16
 DiffAdd            none           colorDiffA
