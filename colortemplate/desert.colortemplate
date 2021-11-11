@@ -58,7 +58,7 @@ Variant: gui 256 16
 Normal             foreground     background
 
 Variant: 16
-EndOfBuffer        color08        none
+EndOfBuffer     -> NonText
 Statusline         background     color07
 StatuslineNC       color08        color07
 StatuslineTerm     background     color07
