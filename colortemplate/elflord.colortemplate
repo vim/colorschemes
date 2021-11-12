@@ -48,61 +48,61 @@ Background: dark
 ; which simply cannot be relied upon.
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: xterm0         #000000          16                0
-Color: xterm1         #cd0000          160               1
-Color: xterm2         #00cd00          40                2
-Color: xterm3         #cdcd00          184               3
-Color: xterm4         #0000ee          20                4
-Color: xterm5         #cd00cd          164               5
-Color: xterm6         #00cdcd          44                6
-Color: xterm7         #e5e5e5          254               7
-Color: xterm8         #7f7f7f          102               8
-Color: xterm9         #ff0000          196               9
-Color: xterm10        #00ff00          46                10
-Color: xterm11        #ffff00          226               11
-Color: xterm12        #5c5cff          63                12
-Color: xterm13        #ff00ff          201               13
-Color: xterm14        #00ffff          51                14
-Color: xterm15        #ffffff          231               15
+Color: xterm0         #000000          16                black
+Color: xterm1         #cd0000          160               darkred
+Color: xterm2         #00cd00          40                darkgreen
+Color: xterm3         #cdcd00          184               darkyellow
+Color: xterm4         #0000ee          20                darkblue
+Color: xterm5         #cd00cd          164               darkmagenta
+Color: xterm6         #00cdcd          44                darkcyan
+Color: xterm7         #e5e5e5          254               grey
+Color: xterm8         #7f7f7f          102               darkgrey
+Color: xterm9         #ff0000          196               red
+Color: xterm10        #00ff00          46                green
+Color: xterm11        #ffff00          226               yellow
+Color: xterm12        #5c5cff          63                blue
+Color: xterm13        #ff00ff          201               magenta
+Color: xterm14        #00ffff          51                cyan
+Color: xterm15        #ffffff          231               white
 
 ; Elflord relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
 ; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
-Color: Pmenu          #444444          238               8
-Color: CursorLine     #3a3a3a          237               8
-Color: rgbGrey40      #666666          59                8
-Color: rgbDarkGrey    #a9a9a9          145               8
-Color: rgbBlue        #0000ff          21                4
-Color: rgbDarkCyan    #008b8b          30                6
-Color: Directory      #00ffff          51                14
-Color: rgbSeaGreen    #2e8b57          29                2
-Color: rgbGrey        #bebebe          250               7
-Color: Question       #00ff00          46                10
-Color: SignColumn     #a9a9a9          248               7
-Color: SpecialKey     #00ffff          51                14
-Color: StatusLineTerm #90ee90          120               2
-Color: Title          #ff00ff          201               13
-Color: WarningMsg     #ff0000          196               9
-Color: ToolbarLine    #7f7f7f          244               8
-Color: Underlined     #80a0ff          111               12
+Color: Pmenu          #444444          238               darkgrey
+Color: CursorLine     #3a3a3a          237               darkgrey
+Color: rgbGrey40      #666666          59                darkgrey
+Color: rgbDarkGrey    #a9a9a9          145               darkgrey
+Color: rgbBlue        #0000ff          21                darkblue
+Color: rgbDarkCyan    #008b8b          30                darkcyan
+Color: Directory      #00ffff          51                cyan
+Color: rgbSeaGreen    #2e8b57          29                darkgreen
+Color: rgbGrey        #bebebe          250               grey
+Color: Question       #00ff00          46                green
+Color: SignColumn     #a9a9a9          248               grey
+Color: SpecialKey     #00ffff          51                cyan
+Color: StatusLineTerm #90ee90          120               darkgreen
+Color: Title          #ff00ff          201               magenta
+Color: WarningMsg     #ff0000          196               red
+Color: ToolbarLine    #7f7f7f          244               darkgrey
+Color: Underlined     #80a0ff          111               blue
 
 ; Specific to elflord
-Color: elfComment     #80a0ff          111               12
-Color: elfIdentifier  #40ffff          87                14
-Color: elfStatement   #aa4444          131               1
-Color: elfPreProc     #ff80ff          213               13
-Color: elfType        #60ff60          83                10
-Color: elfDiffAdd     #00008b          18                4
-Color: elfDiffDelete  #008b8b          30                6
-Color: elfDiffChange  #5f005f          53                5
-Color: elfDiffText    #5f0000          52                1
-Color: elfBlue        #0000ff          21                12
+Color: elfComment     #80a0ff          111               blue
+Color: elfIdentifier  #40ffff          87                cyan
+Color: elfStatement   #aa4444          131               darkred
+Color: elfPreProc     #ff80ff          213               magenta
+Color: elfType        #60ff60          83                green
+Color: elfDiffAdd     #00008b          18                darkblue
+Color: elfDiffDelete  #008b8b          30                darkcyan
+Color: elfDiffChange  #5f005f          53                darkmagenta
+Color: elfDiffText    #5f0000          52                darkred
+Color: elfBlue        #0000ff          21                blue
 
-Color: colorDiffA     #005F00          22                0
-Color: colorDiffC     #00005F          17                0
-Color: colorDiffD     #5F0000          52                1
+Color: colorDiffA     #005F00          22                black
+Color: colorDiffC     #00005F          17                black
+Color: colorDiffD     #5F0000          52                darkred
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -116,7 +116,7 @@ ColorColumn           xterm14          xterm1
 CursorColumn          none             none              underline
 CursorLine            none             none              underline
 CursorLineNr          xterm11          none              underline,bold
-Folded                xterm4           none              underline
+Folded                xterm14          none              underline
 Variant: gui 256
 ColorColumn           none             xterm1
 CursorColumn          none             CursorLine
