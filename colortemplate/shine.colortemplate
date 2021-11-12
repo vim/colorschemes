@@ -15,37 +15,37 @@ Background: light
 
 ;;; Refined syntax colors, mostly picked from GUI
 
-Color: Black       #000000        16             0
-Color: DarkGrey    #767676        243            8
-Color: MediumGrey  #A8A8A8        248            8
-Color: LightGrey   #DADADA        253            7
-Color: White       #ffffff        231            15
+Color: Black       #000000        16             black
+Color: DarkGrey    #767676        243            darkgrey
+Color: MediumGrey  #A8A8A8        248            darkgrey
+Color: LightGrey   #DADADA        253            grey
+Color: White       #ffffff        231            white
 
-Color: Cyan        #00ffff        51             14
-Color: Magenta     #ff00ff        201            13
-Color: Red         #ff0000        196            9
-Color: Yellow      #ffff00        226            11
-Color: SeaGreen    #2e8b57        29             2
+Color: Cyan        #00ffff        51             cyan
+Color: Magenta     #ff00ff        201            magenta
+Color: Red         #ff0000        196            red
+Color: Yellow      #ffff00        226            yellow
+Color: SeaGreen    #2e8b57        29             darkgreen
 
-Color: DarkBlue    #00008b        18             4
-Color: DarkCyan    #008b8b        30             6
-Color: DarkGreen   #006400        22             2
-Color: DarkOrange  #ff8c00        208            3
-Color: DarkRed     #8b0000        88             1
+Color: DarkBlue    #00008b        18             darkblue
+Color: DarkCyan    #008b8b        30             darkcyan
+Color: DarkGreen   #006400        22             darkgreen
+Color: DarkOrange  #ff8c00        208            darkyellow
+Color: DarkRed     #8b0000        88             darkred
 
-Color: LightBlue   #add8e6        153            12
-Color: LightGreen  #90ee90        120            10
-Color: LightMagenta#ff83fa        213            13
-Color: LightRed    #ffafaf        217            9
+Color: LightBlue   #add8e6        153            blue
+Color: LightGreen  #90ee90        120            green
+Color: LightMagenta#ff83fa        213            magenta
+Color: LightRed    #ffafaf        217            red
 
-Color: MutedRed    #a07070        95             1
-Color: MutedYellow #ffff60        228            11
-Color: Purple      #6a0dad        55             5
+Color: MutedRed    #a07070        95             darkred
+Color: MutedYellow #ffff60        228            yellow
+Color: Purple      #6a0dad        55             darkmagenta
 
-Color: diffadd     #d7ffd7        194            15
-Color: diffdelete  #ffd7d7        224            7
-Color: diffchange  #ffffd7        230            15
-Color: difftext    #ffd787        222            3
+Color: diffadd     #d7ffd7        194            white
+Color: diffdelete  #ffd7d7        224            grey
+Color: diffchange  #ffffd7        230            white
+Color: difftext    #ffd787        222            darkyellow
 
 
 ;;; Chrome         fg             bg             style

@@ -13,42 +13,42 @@ Background: dark
 
 
 ;;; Color palette
-Color: foreground  #87FF87        120            10
-Color: background  #000000        16             0
+Color: foreground  #87FF87        120            green
+Color: background  #000000        16             black
 
-Color: color00     #303030        236            0
-Color: color08     #444444        238            8
+Color: color00     #303030        236            black
+Color: color08     #444444        238            darkgrey
 
-Color: color01     #FFA700        214            1
-Color: color09     #FF0000        196            9
+Color: color01     #FFA700        214            darkred
+Color: color09     #FF0000        196            red
 
-Color: color02     #005F00        22             2
-Color: color10     #00875F        29             10
+Color: color02     #005F00        22             darkgreen
+Color: color10     #00875F        29             green
 
-Color: color03     #FFD7AF        223            3
-Color: color11     #FFFF00        226            11
+Color: color03     #FFD7AF        223            darkyellow
+Color: color11     #FFFF00        226            yellow
 
-Color: color04     #00008B        18             4
-Color: color12     #0000FF        21             12
+Color: color04     #00008B        18             darkblue
+Color: color12     #0000FF        21             blue
 
-Color: color05     #FFAFAF        217            5
-Color: color13     #FF00FF        201            13
+Color: color05     #FFAFAF        217            darkmagenta
+Color: color13     #FF00FF        201            magenta
 
-Color: color06     #00AFAF        37             6
-Color: color14     #00FFFF        51             14
+Color: color06     #00AFAF        37             darkcyan
+Color: color14     #00FFFF        51             cyan
 
-Color: color07     #BCBCBC        250            7
-Color: color15     #FFFFFF        231            15
+Color: color07     #BCBCBC        250            grey
+Color: color15     #FFFFFF        231            white
 
-Color: color16     #262626        235            0
-Color: color17     #3A3A3A        237            8
+Color: color16     #262626        235            black
+Color: color17     #3A3A3A        237            darkgrey
 
-Color: colorDiffA  #005F00        22             0
-Color: colorDiffC  #00005F        17             0
-Color: colorDiffD  #5f0000        52             1
+Color: colorDiffA  #005F00        22             black
+Color: colorDiffC  #00005F        17             black
+Color: colorDiffD  #5f0000        52             darkred
 
-Color: color04t    #87AFFF        111            4
-Color: color12t    #005FFF        27             12
+Color: color04t    #87AFFF        111            darkblue
+Color: color12t    #005FFF        27             blue
 
 Term colors: color00 color01 color02 color03 color04t color05 color06 color07
 Term colors: color08 color09 color10 color11 color12t color13 color14 color15

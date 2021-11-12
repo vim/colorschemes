@@ -54,53 +54,53 @@ Background: dark
 ; which simply cannot be relied upon.
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: xterm0         #000000          16                0
-Color: xterm1         #cd0000          160               1
-Color: xterm2         #00cd00          40                2
-Color: xterm3         #cdcd00          184               3
-Color: xterm4         #0000ee          20                4
-Color: xterm5         #cd00cd          164               5
-Color: xterm6         #00cdcd          44                6
-Color: xterm7         #e5e5e5          254               7
-Color: xterm8         #7f7f7f          102               8
-Color: xterm9         #ff0000          196               9
-Color: xterm10        #00ff00          46                10
-Color: xterm11        #ffff00          226               11
-Color: xterm12        #5c5cff          63                12
-Color: xterm13        #ff00ff          201               13
-Color: xterm14        #00ffff          51                14
-Color: xterm15        #ffffff          231               15
+Color: xterm0         #000000          16                black
+Color: xterm1         #cd0000          160               darkred
+Color: xterm2         #00cd00          40                darkgreen
+Color: xterm3         #cdcd00          184               darkyellow
+Color: xterm4         #0000ee          20                darkblue
+Color: xterm5         #cd00cd          164               darkmagenta
+Color: xterm6         #00cdcd          44                darkcyan
+Color: xterm7         #e5e5e5          254               grey
+Color: xterm8         #7f7f7f          102               darkgrey
+Color: xterm9         #ff0000          196               red
+Color: xterm10        #00ff00          46                green
+Color: xterm11        #ffff00          226               yellow
+Color: xterm12        #5c5cff          63                blue
+Color: xterm13        #ff00ff          201               magenta
+Color: xterm14        #00ffff          51                cyan
+Color: xterm15        #ffffff          231               white
 
 ; This layer initially replicated the behaviour of 'default', warts and all.
 ; It has since been cleaned up, and features considerably better 256c fallbacks.
 ; rgb.txt
-Color: Pmenu          #444444          238               8
-Color: rgbGrey40      #666666          59                8
-Color: rgbDarkGrey    #a9a9a9          145               7
-Color: rgbDarkBlue    #00008b          20                4
-Color: rgbDarkMagenta #8b008b          90                5
-Color: rgbBlue        #0000ff          21                4
-Color: rgbDarkCyan    #008b8b          44                6
-Color: rgbSeaGreen    #2e8b57          29                2
-Color: rgbGrey        #bebebe          250               7
-Color: StatusLineTerm #90ee90          120               2
-Color: ToolbarLine    #7f7f7f          244               8
-Color: Comment        #80a0ff          111               12
-Color: Constant       #ffa0a0          217               1
-Color: Special        #ffa500          214               3
-Color: Identifier     #40ffff          87                14
-Color: Statement      #ffff60          227               11
-Color: PreProc        #ff80ff          213               13
-Color: Type           #60ff60          83                10
+Color: Pmenu          #444444          238               darkgrey
+Color: rgbGrey40      #666666          59                darkgrey
+Color: rgbDarkGrey    #a9a9a9          145               grey
+Color: rgbDarkBlue    #00008b          20                darkblue
+Color: rgbDarkMagenta #8b008b          90                darkmagenta
+Color: rgbBlue        #0000ff          21                darkblue
+Color: rgbDarkCyan    #008b8b          44                darkcyan
+Color: rgbSeaGreen    #2e8b57          29                darkgreen
+Color: rgbGrey        #bebebe          250               grey
+Color: StatusLineTerm #90ee90          120               darkgreen
+Color: ToolbarLine    #7f7f7f          244               darkgrey
+Color: Comment        #80a0ff          111               blue
+Color: Constant       #ffa0a0          217               darkred
+Color: Special        #ffa500          214               darkyellow
+Color: Identifier     #40ffff          87                cyan
+Color: Statement      #ffff60          227               yellow
+Color: PreProc        #ff80ff          213               magenta
+Color: Type           #60ff60          83                green
 
 ; Colors specific to koehler
-Color: koeDirectory   #cc8000          172               3
-Color: koeCursorLine  #555555          240               0
-Color: koeLightBlue   #ADD8E6          153               12
-Color: koeDarkRed     #8b0000          88                1
-Color: colorDiffA     #005F00          22                0
-Color: colorDiffC     #00005F          17                0
-Color: colorDiffD     #5F0000          52                1
+Color: koeDirectory   #cc8000          172               darkyellow
+Color: koeCursorLine  #555555          240               black
+Color: koeLightBlue   #ADD8E6          153               blue
+Color: koeDarkRed     #8b0000          88                darkred
+Color: colorDiffA     #005F00          22                black
+Color: colorDiffC     #00005F          17                black
+Color: colorDiffD     #5F0000          52                darkred
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7

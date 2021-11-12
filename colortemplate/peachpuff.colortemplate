@@ -15,34 +15,34 @@ Background: light
 
 ;;; Refined syntax colors
 
-Color: comment     #406090        25             8
-Color: constant    #c00058        161            1
-Color: identifier  #008b8b        30             6
-Color: statement   #a52a2a        124            1
-Color: preproc     #cd00cd        164            5
-Color: type        #2e8b57        29             2
-Color: special     #6a5acd        62             4
+Color: comment     #406090        25             darkgrey
+Color: constant    #c00058        161            darkred
+Color: identifier  #008b8b        30             darkcyan
+Color: statement   #a52a2a        124            darkred
+Color: preproc     #cd00cd        164            darkmagenta
+Color: type        #2e8b57        29             darkgreen
+Color: special     #6a5acd        62             darkblue
 
-Color: fg0         #000000        16             0
-Color: bg0         #ffdab9        223            15
-Color: fg1         #ffffff        231            15
-Color: bg1         #737373        243            8
-Color: visual      #cccccc        252            7
-Color: folded      #e3c1a5        252            14
-Color: folded_fg   #000000        16             0
-Color: cursorline  #f5c195        180            0
-Color: pmenu       #ffaf87        216            7
-Color: wildmenu    #ffff00        226            11
-Color: error       #ff0000        196            1
-Color: linenr      #cd0000        160            9
-Color: blue        #0000ff        21             4
-Color: red         #ff0000        196            1
-Color: colorcolumn #eeeeee        255            7
+Color: fg0         #000000        16             black
+Color: bg0         #ffdab9        223            white
+Color: fg1         #ffffff        231            white
+Color: bg1         #737373        243            darkgrey
+Color: visual      #cccccc        252            grey
+Color: folded      #e3c1a5        252            cyan
+Color: folded_fg   #000000        16             black
+Color: cursorline  #f5c195        180            black
+Color: pmenu       #ffaf87        216            grey
+Color: wildmenu    #ffff00        226            yellow
+Color: error       #ff0000        196            darkred
+Color: linenr      #cd0000        160            red
+Color: blue        #0000ff        21             darkblue
+Color: red         #ff0000        196            darkred
+Color: colorcolumn #eeeeee        255            grey
 
-Color: diffadd     #d7ffd7        194            15
-Color: diffdelete  #ffd7d7        224            7
-Color: diffchange  #ffffd7        230            15
-Color: difftext    #d75fff        171            3
+Color: diffadd     #d7ffd7        194            white
+Color: diffdelete  #ffd7d7        224            grey
+Color: diffchange  #ffffd7        230            white
+Color: difftext    #d75fff        171            darkyellow
 
 
 

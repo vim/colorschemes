@@ -14,33 +14,33 @@ Background: light
 
 ;;; Refined syntax colors
 
-Color: comment     #0000ff        21             12
-Color: constant    #ff00ff        201            13
-Color: identifier  #008787        30             6
-Color: statement   #a52a2a        124            1
-Color: preproc     #6a0dad        55             5
-Color: type        #2e8b57        29             2
-Color: special     #6a5acd        62             4
+Color: comment     #0000ff        21             blue
+Color: constant    #ff00ff        201            magenta
+Color: identifier  #008787        30             darkcyan
+Color: statement   #a52a2a        124            darkred
+Color: preproc     #6a0dad        55             darkmagenta
+Color: type        #2e8b57        29             darkgreen
+Color: special     #6a5acd        62             darkblue
 
-Color: fg0         #000000        16             0
-Color: bg0         #e4e4e4        254            7
-Color: bg1         #bcbcbc        250            15
-Color: status      #bcbcbc        250            8
-Color: bg2         #eeeeee        255            15
-Color: endofbuffer #cccccc        252            8
-Color: visual      #d0d0d0        252            15
-Color: folded      #d3d3d3        252            8
-Color: folded_fg   #00008b        18             4
-Color: pmenu       #b2b2b2        249            15
-Color: wildmenu    #ffff00        226            11
-Color: error       #ff0000        196            9
-Color: colorcolumn #ffffff        231            15
+Color: fg0         #000000        16             black
+Color: bg0         #e4e4e4        254            grey
+Color: bg1         #bcbcbc        250            white
+Color: status      #bcbcbc        250            darkgrey
+Color: bg2         #eeeeee        255            white
+Color: endofbuffer #cccccc        252            darkgrey
+Color: visual      #d0d0d0        252            white
+Color: folded      #d3d3d3        252            darkgrey
+Color: folded_fg   #00008b        18             darkblue
+Color: pmenu       #b2b2b2        249            white
+Color: wildmenu    #ffff00        226            yellow
+Color: error       #ff0000        196            red
+Color: colorcolumn #ffffff        231            white
 
 
-Color: diffadd     #d7ffd7        194            7
-Color: diffdelete  #ffd7d7        224            15
-Color: diffchange  #ffffd7        230            7
-Color: difftext    #ffd787        222            3
+Color: diffadd     #d7ffd7        194            grey
+Color: diffdelete  #ffd7d7        224            white
+Color: diffchange  #ffffd7        230            grey
+Color: difftext    #ffd787        222            darkyellow
 
 
 ;;; Chrome

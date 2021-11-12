@@ -52,60 +52,60 @@ Background: dark
 ; which simply cannot be relied upon.
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: xterm0         #000000          16                0
-Color: xterm1         #cd0000          160               1
-Color: xterm2         #00cd00          40                2
-Color: xterm3         #cdcd00          184               3
-Color: xterm4         #0000ee          20                4
-Color: xterm5         #cd00cd          164               5
-Color: xterm6         #00cdcd          44                6
-Color: xterm7         #e5e5e5          254               7
-Color: xterm8         #7f7f7f          102               8
-Color: xterm9         #ff0000          196               9
-Color: xterm10        #00ff00          46                10
-Color: xterm11        #ffff00          226               11
-Color: xterm12        #5c5cff          63                12
-Color: xterm13        #ff00ff          201               13
-Color: xterm14        #00ffff          51                14
-Color: xterm15        #ffffff          231               15
+Color: xterm0         #000000          16                black
+Color: xterm1         #cd0000          160               darkred
+Color: xterm2         #00cd00          40                darkgreen
+Color: xterm3         #cdcd00          184               darkyellow
+Color: xterm4         #0000ee          20                darkblue
+Color: xterm5         #cd00cd          164               darkmagenta
+Color: xterm6         #00cdcd          44                darkcyan
+Color: xterm7         #e5e5e5          254               grey
+Color: xterm8         #7f7f7f          102               darkgrey
+Color: xterm9         #ff0000          196               red
+Color: xterm10        #00ff00          46                green
+Color: xterm11        #ffff00          226               yellow
+Color: xterm12        #5c5cff          63                blue
+Color: xterm13        #ff00ff          201               magenta
+Color: xterm14        #00ffff          51                cyan
+Color: xterm15        #ffffff          231               white
 
 ; Ron relies heavily on 'default'.
 ; This layer initially replicated the behaviour of 'default', no matter how broken it was.
 ;
 ; Unused entries have since been removed and the 256c fallbacks have been replaced by more
 ; accurate approximations of the gui colors
-Color: rgbGrey40      #666666          59                8
-Color: rgbDarkGrey    #a9a9a9          145               7
-Color: rgbDarkBlue    #00008b          20                4
-Color: rgbBlue        #0000ff          21                4
-Color: rgbDarkCyan    #008b8b          44                6
-Color: Directory      #00ffff          51                14
-Color: rgbSeaGreen    #2e8b57          29                2
-Color: rgbGrey        #bebebe          250               7
-Color: Question       #00ff00          46                10
-Color: SignColumn     #a9a9a9          248               7
-Color: SpecialKey     #00ffff          51                14
-Color: StatusLineTerm #90ee90          120               2
-Color: ToolbarLine    #7f7f7f          244               8
-Color: Underlined     #80a0ff          111               12
+Color: rgbGrey40      #666666          59                darkgrey
+Color: rgbDarkGrey    #a9a9a9          145               grey
+Color: rgbDarkBlue    #00008b          20                darkblue
+Color: rgbBlue        #0000ff          21                darkblue
+Color: rgbDarkCyan    #008b8b          44                darkcyan
+Color: Directory      #00ffff          51                cyan
+Color: rgbSeaGreen    #2e8b57          29                darkgreen
+Color: rgbGrey        #bebebe          250               grey
+Color: Question       #00ff00          46                green
+Color: SignColumn     #a9a9a9          248               grey
+Color: SpecialKey     #00ffff          51                cyan
+Color: StatusLineTerm #90ee90          120               darkgreen
+Color: ToolbarLine    #7f7f7f          244               darkgrey
+Color: Underlined     #80a0ff          111               blue
 
 ; Specific to ron.vim
-Color: Pmenu          #444444          238               8
-Color: ron303030      #303030          236               8
-Color: ronLightBlue   #add8e6          152               6
-Color: ronPink2       #eea9b8          217               5
-Color: ronOrange      #ffa500          214               3
-Color: ronCursor      #60a060          71                10
-Color: ronSteelBlue   #4682b4          67                12
-Color: ronGold2       #eec900          220               11
-Color: ronDarkGreen   #006400          22                2
-Color: ronSlateBlue   #6a5acd          62                12
-Color: ronOliveDrab   #6b8e23          64                10
-Color: ronCoral       #ff7f50          209               9
-Color: ronGray30      #4d4d4d          239               8
-Color: colorDiffA     #005F00          22                0
-Color: colorDiffC     #00005F          17                0
-Color: colorDiffD     #5F0000          52                1
+Color: Pmenu          #444444          238               darkgrey
+Color: ron303030      #303030          236               darkgrey
+Color: ronLightBlue   #add8e6          152               darkcyan
+Color: ronPink2       #eea9b8          217               darkmagenta
+Color: ronOrange      #ffa500          214               darkyellow
+Color: ronCursor      #60a060          71                green
+Color: ronSteelBlue   #4682b4          67                blue
+Color: ronGold2       #eec900          220               yellow
+Color: ronDarkGreen   #006400          22                darkgreen
+Color: ronSlateBlue   #6a5acd          62                blue
+Color: ronOliveDrab   #6b8e23          64                green
+Color: ronCoral       #ff7f50          209               red
+Color: ronGray30      #4d4d4d          239               darkgrey
+Color: colorDiffA     #005F00          22                black
+Color: colorDiffC     #00005F          17                black
+Color: colorDiffD     #5F0000          52                darkred
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7

@@ -13,69 +13,69 @@ Background: dark
 
 
 ;;; color palette
-Color: foreground     #CCCCCC     251            15
-Color: background     #000000     16             0
+Color: foreground     #CCCCCC     251            white
+Color: background     #000000     16             black
 
 ; shim layer that replicates default xterm colors as close as we can
-Color: color00        #000000     16             0
-Color: color08        #7f7f7f     102            8
+Color: color00        #000000     16             black
+Color: color08        #7f7f7f     102            darkgrey
 
-Color: color01        #cd0000     160            1
-Color: color09        #ff0000     196            9
+Color: color01        #cd0000     160            darkred
+Color: color09        #ff0000     196            red
 
-Color: color02        #00cd00     40             2
-Color: color10        #00ff00     46             10
+Color: color02        #00cd00     40             darkgreen
+Color: color10        #00ff00     46             green
 
-Color: color03        #cdcd00     184            3
-Color: color11        #ffff00     226            11
+Color: color03        #cdcd00     184            darkyellow
+Color: color11        #ffff00     226            yellow
 
-Color: color04        #0000ee     20             4
-Color: color12        #5c5cff     63             12
+Color: color04        #0000ee     20             darkblue
+Color: color12        #5c5cff     63             blue
 
-Color: color05        #cd00cd     164            5
-Color: color13        #ff00ff     201            13
+Color: color05        #cd00cd     164            darkmagenta
+Color: color13        #ff00ff     201            magenta
 
-Color: color06        #00cdcd     44             6
-Color: color14        #00ffff     51             14
+Color: color06        #00cdcd     44             darkcyan
+Color: color14        #00ffff     51             cyan
 
-Color: color07        #e5e5e5     254            7
-Color: color15        #ffffff     231            15
+Color: color07        #e5e5e5     254            grey
+Color: color15        #ffffff     231            white
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ; This layer replicates the behaviour of 'default', no matter how broken it is.
-Color: rgbGrey40      #666666     242            7
-Color: rgbDarkGrey    #a9a9a9     248            7
-Color: rgbDarkBlue    #00008b     18             4
-Color: rgbDarkMagenta #8b008b     90             5
-Color: rgbBlue        #0000ff     21             12
-Color: rgbDarkCyan    #008b8b     30             6
-Color: Directory      #00ffff     51             14
-Color: rgbSeaGreen    #2e8b57     29             2
-Color: rgbGrey        #bebebe     250            7
-Color: Question       #00ff00     46             10
-Color: SignColumn     #a9a9a9     248            0
-Color: SpecialKey     #00ffff     51             14
-Color: StatusLineTerm #90ee90     120            2
-Color: Title          #ff00ff     201            13
-Color: WarningMsg     #ff0000     196            9
-Color: ToolbarLine    #7f7f7f     243            0
-Color: ToolbarButton  #d3d3d3     252            8
-Color: Comment        #80a0ff     111            12
-Color: Constant       #ffa0a0     217            5
-Color: Special        #ffa500     214            1
-Color: Identifier     #40ffff     87             14
-Color: Statement      #ffff60     227            11
-Color: PreProc        #ff80ff     213            6
-Color: Type           #60ff60     83             10
-Color: Underlined     #80a0ff     111            12
+Color: rgbGrey40      #666666     242            grey
+Color: rgbDarkGrey    #a9a9a9     248            grey
+Color: rgbDarkBlue    #00008b     18             darkblue
+Color: rgbDarkMagenta #8b008b     90             darkmagenta
+Color: rgbBlue        #0000ff     21             blue
+Color: rgbDarkCyan    #008b8b     30             darkcyan
+Color: Directory      #00ffff     51             cyan
+Color: rgbSeaGreen    #2e8b57     29             darkgreen
+Color: rgbGrey        #bebebe     250            grey
+Color: Question       #00ff00     46             green
+Color: SignColumn     #a9a9a9     248            black
+Color: SpecialKey     #00ffff     51             cyan
+Color: StatusLineTerm #90ee90     120            darkgreen
+Color: Title          #ff00ff     201            magenta
+Color: WarningMsg     #ff0000     196            red
+Color: ToolbarLine    #7f7f7f     243            black
+Color: ToolbarButton  #d3d3d3     252            darkgrey
+Color: Comment        #80a0ff     111            blue
+Color: Constant       #ffa0a0     217            darkmagenta
+Color: Special        #ffa500     214            darkred
+Color: Identifier     #40ffff     87             cyan
+Color: Statement      #ffff60     227            yellow
+Color: PreProc        #ff80ff     213            darkcyan
+Color: Type           #60ff60     83             green
+Color: Underlined     #80a0ff     111            blue
 
-Color: Pmenu          #303030     236            8
-Color: colorDiffA     #005F00     22             0
-Color: colorDiffC     #00005F     17             0
-Color: colorDiffD     #5F0000     52             1
-Color: rgbDarkRed     #8b0000     88             1
+Color: Pmenu          #303030     236            darkgrey
+Color: colorDiffA     #005F00     22             black
+Color: colorDiffC     #00005F     17             black
+Color: colorDiffD     #5F0000     52             darkred
+Color: rgbDarkRed     #8b0000     88             darkred
 
 Variant: gui 256 16
 
