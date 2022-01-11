@@ -93,7 +93,7 @@ Question           constant       none           bold
 Todo               fg0            Yellow
 MatchParen         bg0            special
 Search             bg0            preproc
-IncSearch          none           none           reverse
+IncSearch          constant       none           reverse
 WildMenu           status_fg      wildmenu       bold
 ColorColumn        fg0            folded
 Cursor             bg0            fg0
