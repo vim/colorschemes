@@ -103,7 +103,7 @@ Question           type           none           bold
 Todo               fg0            wildmenu
 MatchParen         bg0            special
 Search             bg0            preproc
-IncSearch          none           none           reverse
+IncSearch          type           none           reverse
 WildMenu           wildmenu       fg0            reverse,bold
 ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
