@@ -2,7 +2,7 @@
 
 As of 8.2, the collection of 18 colorschemes packaged with Vim (19 for MacVim) has been mostly stale for many years. In the mean time, two trends have been going strong, one fueling the other:
 
-* The colorscheme industry is bursting with creativity, demonstrating if need be that the default colorschemes don't quite cut the deal for a significant portion of the population.
+* The colorscheme industry is bursting with creativity, demonstrating if need be that the default colorschemes don't quite cut the deal for a significant portion of the user base.
 * Vim itself and its environment have been evolving, too, adding new features without keeping the built-in colorschemes up-to-date, making them less and less relevant over the years.
 
 Now is the time for Vim to up its colorscheme game and for *us* to help.
@@ -13,7 +13,7 @@ Our mission is essentially to modernise Vim's default colorscheme offering. This
 
 * adding new colorschemes,
 * improving existing colorschemes,
-* providing better tooling to authors.
+* providing better tooling and documentation to authors.
 
 ### Adding new colorschemes
 
@@ -27,7 +27,7 @@ Taking `$VIMRUNTIME/blue.vim` as an example, we can see that it lacks a `g:termi
 
 Adding new sleek, modern, colorschemes is certainly a good idea, but we have to take care of the existing colorschemes. Nobody wants a two-tier offering so modernising the default colorschemes will be an important part of our effort.
 
-### Providing better tooling to authors
+### Providing better tooling and documentation to authors
 
 In order to provide the greatest possible user experience, we must make sure that every colorscheme satisfies practical requirements. It is too early to make an exhaustive list but here are a few:
 
@@ -47,7 +47,7 @@ Such goals can't be reached without providing colorscheme authors with a solid t
 ## Who is in charge?
 
 * [Bram Moolenaar](https://github.com/brammool), creator and maintainer of Vim.
-* [Christian Brabandt](https://github.com/chrisbra), who opened the two issues that prompted the creation of this project.
+* [Christian Brabandt](https://github.com/chrisbra), Vim contributor who opened the two issues that prompted the creation of this project.
 * [Romain Lafourcade](https://github.com/romainl), colorscheme and plugin author.
 * [lifepillar](https://github.com/lifepillar), colorscheme and plugin author.
 * [Maxim Kim](https://github.com/habamax), colorscheme and plugin author.
