@@ -1,0 +1,143 @@
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+blue          |  `#0000ff`  |  21   |  blue         |              |
+blue          |  `#0000ff`  |  21   |  darkblue     |              |
+blue          |  `#0000ff`  |  21   |  blue         |              |
+blue          |  `#0000ff`  |  21   |  darkblue     |              |
+blue          |  `#0000ff`  |  63   |  blue         |              |
+blue          |  `#0030ff`  |  27   |  blue         |              |
+blue          |  `#005faf`  |  25   |  blue         |              |
+blue          |  `#0087ff`  |  33   |  blue         |              |
+blue          |  `#5fafff`  |  75   |  blue         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+cyan          |  `#00ffff`  |  51   |  cyan         |              |
+cyan          |  `#5fffff`  |  87   |  cyan         |              |
+cyan          |  `#90fff0`  |  123  |  cyan         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+darkblue      |  `#000087`  |  18   |  darkblue     |              |
+darkblue      |  `#00008b`  |  18   |  darkblue     |              |
+darkblue      |  `#00008b`  |  20   |  darkblue     |              |
+darkblue      |  `#006faf`  |  25   |  darkblue     |              |
+darkblue      |  `#0087af`  |  31   |  darkblue     |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+darkcyan      |  `#008787`  |  30   |  darkcyan     |              |
+darkcyan      |  `#008b8b`  |  30   |  darkcyan     |              |
+darkcyan      |  `#008b8b`  |  30   |  darkcyan     |              |
+darkcyan      |  `#008b8b`  |  44   |  darkcyan     |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+darkgray      |  `#878787`  |  102  |  darkgray     |              |
+darkgrey      |  `#767676`  |  243  |  darkgrey     |              |
+darkgrey      |  `#a9a9a9`  |  145  |  darkgrey     |              |
+darkgrey      |  `#a9a9a9`  |  145  |  grey         |              |
+darkgrey      |  `#a9a9a9`  |  248  |  grey         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+darkmag       |  `#8b008b`  |  90   |  darkmagenta  |              |
+darkmagenta   |  `#870087`  |  90   |  darkmagenta  |              |
+darkmagenta   |  `#8b008b`  |  164  |  darkmagenta  |              |
+darkmagenta   |  `#8b008b`  |  90   |  darkmagenta  |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+darkred       |  `#870000`  |  88   |  darkred      |              |
+darkred       |  `#8b0000`  |  88   |  darkred      |              |
+darkred       |  `#d14a14`  |  166  |  darkred      |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+green         |  `#00ff00`  |  46   |  green        |              |
+green         |  `#90f020`  |  118  |  green        |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+gray          |  `#bcbcbc`  |  250  |  gray         |              |
+grey          |  `#808080`  |  102  |  darkgrey     |              |
+grey          |  `#bebebe`  |  248  |  grey         |              |
+grey          |  `#bebebe`  |  250  |  grey         |              |
+grey          |  `#bebebe`  |  250  |  gray         |              |
+grey          |  `#bebebe`  |  250  |  grey         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+grey40        |  `#666666`  |  241  |  darkgray     |              |
+grey40        |  `#666666`  |  241  |  darkgrey     |              |
+grey40        |  `#666666`  |  242  |  grey         |              |
+grey40        |  `#666666`  |  59   |  darkgrey     |              |
+grey40        |  `#666666`  |  59   |  darkgrey     |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+lightblue     |  `#287eff`  |  33   |  blue         |              |
+lightblue     |  `#add8e6`  |  152  |  darkcyan     |              |
+lightblue     |  `#add8e6`  |  153  |  blue         |              |
+lightblue     |  `#add8e6`  |  153  |  lightblue    |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+lightgrey     |  `#c0c0c0`  |  252  |  grey         |              |
+lightgrey     |  `#d3d3d3`  |  252  |  gray         |              |
+lightgrey     |  `#dadada`  |  253  |  grey         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+lightmag      |  `#ff80ff`  |  213  |  magenta      |              |
+lightmagenta  |  `#ffbbff`  |  219  |  magenta      |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+lightred      |  `#ffa0a0`  |  217  |  red          |              |
+lightred      |  `#ffafaf`  |  217  |  red          |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+magenta       |  `#d787d7`  |  176  |  magenta      |              |
+magenta       |  `#ff00ff`  |  201  |  darkmagenta  |              |
+magenta       |  `#ff00ff`  |  201  |  magenta      |              |
+magenta       |  `#ff80ff`  |  201  |  darkmagenta  |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+red           |  `#d70000`  |  160  |  red          |              |
+red           |  `#ff0000`  |  196  |  darkred      |              |
+red           |  `#ff0000`  |  196  |  red          |              |
+red           |  `#ff5f5f`  |  203  |  red          |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+seagreen      |  `#2e8b57`  |  121  |  darkgreen    |              |
+seagreen      |  `#2e8b57`  |  29   |  darkgreen    |              |
+seagreen      |  `#2e8b57`  |  29   |  darkgreen    |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+slateblue     |  `#6a5acd`  |  62   |  blue         |              |
+slateblue     |  `#6a5acd`  |  62   |  darkmagenta  |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+steelblue     |  `#4682b4`  |  67   |  blue         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+violet        |  `#8080ff`  |  105  |  blue         |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+white         |  `#ffffff`  |  15   |  white        |              |
+white         |  `#ffffff`  |  231  |  white        |              |
+
+Name          | Hex         | 256c  | 16c           | 256c (fixed) | 16c (fixed)
+--------------|-------------|-------|---------------|--------------|-------------
+yellow        |  `#ffdf00`  |  220  |  yellow       |              |
+yellow        |  `#ffff00`  |  226  |  darkyellow   |              |
+yellow        |  `#ffff00`  |  226  |  yellow       |              |
+yellow        |  `#ffff60`  |  227  |  yellow       |              |

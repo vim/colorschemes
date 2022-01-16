@@ -14,7 +14,7 @@ Background: dark
 
 ;;; Color palette
 ;; imaginaires
-Color: lightmagenta  #ffa0a0           217               magenta
+Color: lightmagenta  #ffbbff           219               magenta
 Color: blue          #0000ff           21                blue
 Color: cyan          #00ffff           51                cyan
 Color: yellow        #ffff00           226               darkyellow

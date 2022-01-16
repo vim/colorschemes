@@ -1,0 +1,131 @@
+# named colors found in $VIMRUNTIME/colors/*.vim
+# name              hex                 256
+black	#000000	16
+blue	#0000ff	21
+coral	#ff7f50	209
+cyan	#00ffff	51
+darkblue	#00008b	18
+darkcyan	#008b8b	30
+darkgreen	#006400	22
+darkyellow	#cccc33	184
+gray	#bebebe	250
+gray30	#4d4d4d	239
+green	#00ff00	46
+lightgreen	#90ee90	120
+lightmagenta	#ffafff	219
+lightred	#ffafaf(#ffa0a0)	217
+magenta	#ff00ff	201
+olivedrab	#6b8e23	64
+orange	#ffa500	214
+red	#ff0000	196
+slateblue	#6a5acd	62
+white	#ffffff	231
+yellow	#ffff00	226
+aquamarine4	#458b74
+brown	#a52a2a
+cadetblue1	#98f5ff
+cadetblue3	#7ac5cd
+chartreuse4	#458b00
+cornflowerblue	#6495ed
+darkgray|darkgrey	#a9a9a9
+darkkhaki	#bdb76b
+darkmagenta	#8b008b
+darkred	#8b0000
+darkslategray	#2f4f4f
+deeppink	#ff1493
+deeppink3	#cd1076
+deeppink4	#8b0a50
+DeepSkyBlue	#00bfff
+DeepSkyBlue1	#00bfff
+DeepSkyBlue3	#009acd
+DodgerBlue3	#1874cd
+IndianRed	#cd5c5c
+LightBlue	#add8e6
+LightCyan	#e0ffff
+LightGoldenrod	#eedd82
+LightGrey	#d3d3d3
+LightSlateGrey	#778899
+LightSteelBlue1	#cae1ff
+MediumPurple1	#ab82ff
+MediumPurple4	#5d478b
+NavajoWhite	#ffdead
+PaleGreen	#98fb98
+PaleGreen1	#9aff9a
+PeachPuff	#ffdab9
+SeaGreen	#2e8b57
+SeaGreen4	#2e8b57
+SkyBlue	#87ceeb
+SkyBlue4	#4a708b
+SteelBlue	#4682b4
+SteelBlue1	#63b8ff
+firebrick2	#ee2c2c
+firebrick3	#cd2626
+gold	#ffd700
+gold2	#eec900
+goldenrod	#daa520
+goldenrod1	#ffc125
+khaki	#f0e68c
+maroon	#b03060
+medium sea green	#3cb371
+orchid	#da70d6
+peru	#cd853f
+pink	#ffc0cb
+pink2	#eea9b8
+purple	#a020f0
+purple1	#9b30ff
+royal blue	#4169e1
+salmon	#fa8072
+slate gray	#708090
+spring green	#00ff7f
+tan	#d2b48c
+wheat	#f5deb3
+web gray	#808080
+NavyBlue	#000080
+gray2	#555555
+gray3	#888888
+gray5	#dddddd
+gray19	#303030
+gray20	#333333
+gray25	#404040
+silver	#c0c0c0
+
+	#000040
+	#0030ff
+	#00aaaa
+	#00c000
+	#00c0c0
+	#1248d1
+	#1600ff
+	#2050d0
+	#22cce2
+	#287eff
+	#404080
+	#406090
+	#40ffff
+	#552a7b
+	#60a060
+	#60ff60
+	#72f7ff
+	#8080ff
+	#80a0ff
+	#90f020
+	#90fff0
+	#a07070
+	#aa4444
+	#b0ffff
+	#c00058
+	#c0c000
+	#c2bfa5
+	#cc0000
+	#cc8000
+	#d14a14
+	#e3c1a5
+	#e6e6e6
+	#edb5cd
+	#f1f5fa
+	#f6e8d0
+	#ff8060
+	#ff80ff
+	#ffff60
+
+/* vim: ts=20 sw=20
