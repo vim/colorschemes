@@ -100,7 +100,7 @@ CursorIM              none        fg
 Title                 Title       none           t=bold g=bold
 Directory             Directory   none
 Search                color00     Search
-IncSearch             none        none           t=reverse g=reverse
+IncSearch             color15     none           t=reverse g=reverse
 NonText               rgbBlue     none           g=bold
 EndOfBuffer           rgbBlue     none           g=bold
 ErrorMsg              color15     color01

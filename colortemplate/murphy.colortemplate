@@ -118,7 +118,7 @@ Question           color14        none           bold
 Todo               color12        color11
 MatchParen         color00        color03
 Search             color15        color12
-IncSearch          none           none           reverse
+IncSearch          color01        none           reverse
 WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09

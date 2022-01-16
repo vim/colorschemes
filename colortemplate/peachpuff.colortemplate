@@ -104,7 +104,7 @@ Question           constant       none           bold
 Todo               special        wildmenu
 MatchParen         bg0            special
 Search             bg0            preproc
-IncSearch          none           none           reverse
+IncSearch          type           none           reverse
 WildMenu           fg0            wildmenu       bold
 ColorColumn        none           colorcolumn
 Cursor             bg0            fg0

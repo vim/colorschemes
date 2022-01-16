@@ -89,7 +89,7 @@ Error                red               white             reverse
 ErrorMsg             white             red
 FoldColumn           darkblue          none
 Folded               darkblue          lightgrey         bold
-IncSearch            none              none              reverse
+IncSearch            green             none              reverse
 MatchParen           none              darkcyan
 ModeMsg              none              none              bold
 MoreMsg              seagreen          none              t=bold
