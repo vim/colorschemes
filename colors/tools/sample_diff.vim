@@ -36,7 +36,9 @@ let right = ["\" Substitute operator",
 			\ "nmap <silent> <Plug>(custom_substitute_operator) m':set opfunc=Substitute<CR>g@"]
 call matchadd('Error', 'urr')
 call setline(1, left)
+set ft=vim
 botright vnew
 call matchadd('Error', 'urr')
 call setline(1, right)
+set ft=vim
 windo diffthis
