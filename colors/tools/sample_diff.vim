@@ -2,7 +2,7 @@
 "     $ vim -Nu NONE -S colors/tools/sample_diff.vim +source\ colors/blue.vim
 set nocompatible
 syntax on
-let left = ["\" substitute operator",
+let left = ["\" Substitute operator",
 			\ "function! Substitute(type, ...)",
 			\ "    let cur = getpos(\"''\")",
 			\ "",
@@ -17,10 +17,9 @@ let left = ["\" substitute operator",
 			\ "    call cursor(cur[1], cur[2])",
 			\ "endfunction",
 			\ "nmap <silent> <Plug>(custom_substitute_operator) m':set opfunc=Substitute<CR>g@"]
-let right = ["\" substitute operator",
-			\ "\" Usage: place the cursor over the text to sort, then press",
-			\ "\" <key>, followed by <operator>",
-			\ "\" and here is an error.",
+let right = ["\" Substitute operator",
+			\ "\" Usage: To replace the current word with a new word,",
+			\ "\" press <key>, followed by <operator>, followed by the new word.",
 			\ "function! Substitute(type, ...)",
 			\ "    let cur = getpos(\"''\")",
 			\ "    call cursor(cur[1], cur[2])",
@@ -35,8 +34,9 @@ let right = ["\" substitute operator",
 			\ "    call cursor(cur[1], cur[2])",
 			\ "endfunction",
 			\ "nmap <silent> <Plug>(custom_substitute_operator) m':set opfunc=Substitute<CR>g@"]
+call matchadd('Error', 'urr')
 call setline(1, left)
 botright vnew
+call matchadd('Error', 'urr')
 call setline(1, right)
-match Error /here/
 windo diffthis
