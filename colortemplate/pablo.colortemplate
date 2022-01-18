@@ -109,7 +109,7 @@ SignColumn            color14     SignColumn
 
 Variant: 16
 ColorColumn           color15     rgbGrey30
-FoldColumn            none        none           underline
+FoldColumn            none        none
 Folded                rgbBlue     none           underline
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
@@ -117,7 +117,7 @@ CursorLineNr          color11     none           underline,bold
 DiffAdd               none        none
 DiffChange            color15     rgbDarkMagenta
 DiffDelete            rgbBlue     rgbDarkCyan    g=bold
-DiffText              color11     color09        t=bold g=bold
+DiffText              none        color02        t=bold g=bold
 Variant: gui 256
 ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
@@ -128,7 +128,7 @@ CursorLineNr          color11     Cursorline     g=bold
 DiffAdd               none        rgbDarkBlue
 DiffChange            none        rgbDarkMagenta
 DiffDelete            rgbBlue     rgbDarkCyan    g=bold
-DiffText              none        color09        t=bold g=bold
+DiffText              none        color02        t=bold g=bold
 
 Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
