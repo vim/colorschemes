@@ -94,8 +94,8 @@ SignColumn         none           none
 
 Underlined         special        none           underline
 
-Error              error          none           bold
-ErrorMsg           error          none           bold
+Error              error          fg1            bold,reverse
+ErrorMsg           error          fg1            bold,reverse
 WarningMsg         preproc        bg0            bold
 MoreMsg            type           bg0            bold
 ModeMsg            fg0            bg0            bold
@@ -113,7 +113,7 @@ lCursor            fg0            constant
 DiffAdd            none           diffadd
 DiffChange         none           diffchange
 DiffDelete         red            diffdelete
-DiffText           fg0            difftext
+DiffText           fg1            difftext
 
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
