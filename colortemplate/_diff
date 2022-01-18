@@ -7,7 +7,7 @@ Color: bgDiffA     #008700        28             darkgreen
 Color: bgDiffC     #878700        100            yellow
 Color: bgDiffD     #008787        30             darkcyan
 Color: bgDiffT     #00AF00        28             green
-Color: fgDiff      #000000        235            black
+Color: fgDiff      #262626        235            black
 
 DiffAdd            bgDiffA        fgDiff        reverse
 DiffChange         bgDiffC        fgDiff        reverse

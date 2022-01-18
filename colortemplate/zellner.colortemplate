@@ -87,8 +87,8 @@ SignColumn         none           none
 
 Underlined         slateblue      none           underline
 
-Error              error          none           reverse
-ErrorMsg           bg0            error          reverse
+Error              error          bg0            reverse
+ErrorMsg           error          bg0            reverse
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0            bold
 ModeMsg            fg0            bg0            bold
