@@ -50,8 +50,8 @@ ColorColumn          white             darkred
 CursorLine           none              none              underline
 CursorLineNr         none              none              underline
 EndOfBuffer          lightblue         none
-StatusLine           none              white             bold
-StatusLineNC         none              lightgrey
+StatusLine           black             white             bold
+StatusLineNC         black             lightgrey
 TabLineSel           black             white             bold
 TabLine              black             lightgrey
 Variant: gui 256
