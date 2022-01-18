@@ -131,7 +131,7 @@ DiffText              xterm6           xterm12
 DiffDelete            xterm3           colorDiffD
 Directory             koeDirectory     none
 EndOfBuffer           xterm1           none              t=bold g=bold
-ErrorMsg              xterm15          xterm9
+ErrorMsg              xterm1           xterm15           reverse
 FoldColumn            xterm6           none
 LineNr                xterm11          none
 MatchParen            none             rgbBlue
@@ -167,7 +167,7 @@ WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
 Comment               Comment          none
 Constant              Constant         none
-Error                 xterm1           none
+Error                 xterm1           xterm15           reverse
 Identifier            Identifier       none
 Ignore                xterm0           xterm0
 PreProc               PreProc          none
@@ -175,7 +175,7 @@ Special               Special          none
 Statement             Statement        none              t=bold g=bold
 Todo                  rgbBlue          xterm11
 Type                  Type             none              t=bold g=bold
-Underlined            koeLightBlue     none               t=bold,underline g=bold,underline
+Underlined            koeLightBlue     none              t=bold,underline g=bold,underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
