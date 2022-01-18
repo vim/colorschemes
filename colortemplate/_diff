@@ -1,0 +1,15 @@
+; vim: ft=colortemplate cc=20,35,50 vsts=19,15,15,4
+
+; "Standard" Diff colors for legacy colorschemes
+Variant:    gui 256 16
+
+Color: bgDiffA     #008700        28             darkgreen
+Color: bgDiffC     #878700        100            yellow
+Color: bgDiffD     #008787        30             darkcyan
+Color: bgDiffT     #00AF00        28             green
+Color: fgDiff      #000000        235            black
+
+DiffAdd            bgDiffA        fgDiff        reverse
+DiffChange         bgDiffC        fgDiff        reverse
+DiffText           bgDiffT        fgDiff        reverse
+DiffDelete         bgDiffD        fgDiff        reverse

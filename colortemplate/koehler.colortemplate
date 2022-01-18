@@ -98,9 +98,6 @@ Color: koeDirectory   #cc8000          172               darkyellow
 Color: koeCursorLine  #555555          240               black
 Color: koeLightBlue   #ADD8E6          153               blue
 Color: koeDarkRed     #8b0000          88                darkred
-Color: colorDiffA     #005F00          22                black
-Color: colorDiffC     #00005F          17                black
-Color: colorDiffD     #5F0000          52                darkred
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -125,10 +122,6 @@ Folded                xterm6           rgbGrey40
 Variant: gui 256 16
 Conceal               xterm7           rgbDarkGrey
 Cursor                xterm0           xterm10
-DiffAdd               none             colorDiffA
-DiffChange            none             colorDiffC
-DiffText              xterm6           xterm12
-DiffDelete            xterm3           colorDiffD
 Directory             koeDirectory     none
 EndOfBuffer           xterm1           none              t=bold g=bold
 ErrorMsg              xterm1           xterm15           reverse
@@ -183,6 +176,9 @@ ToolbarLine           none             none
 ToolbarButton         xterm0           xterm7            bold
 ; }}}
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

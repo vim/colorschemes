@@ -72,9 +72,6 @@ Color: Type           #60ff60     83             green
 Color: Underlined     #80a0ff     111            blue
 
 Color: Pmenu          #303030     236            darkgrey
-Color: colorDiffA     #005F00     22             black
-Color: colorDiffC     #00005F     17             black
-Color: colorDiffD     #5F0000     52             darkred
 Color: rgbDarkRed     #8b0000     88             darkred
 
 Variant: gui 256 16
@@ -156,15 +153,13 @@ PmenuSbar             none        none
 PmenuSel              color00     color11
 PmenuThumb            none        rgbGrey
 
-DiffAdd               none        colorDiffA
-DiffChange            none        colorDiffC
-DiffText              color06     color12
-DiffDelete            color03     colorDiffD
-
 ;;; Links
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

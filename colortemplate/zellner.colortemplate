@@ -39,12 +39,6 @@ Color: linenr      #a52a2a        124            darkred
 Color: colorcolumn #eeeeee        255            grey
 Color: slateblue   #6a5acd        62             blue
 
-Color: diffadd     #d7ffd7        194            white
-Color: diffdelete  #ffd7d7        224            grey
-Color: diffchange  #ffffd7        230            white
-Color: difftext    #ffd787        222            darkyellow
-
-
 ;;; Chrome
 
 Variant:    16
@@ -109,11 +103,6 @@ ColorColumn        none           colorcolumn
 Cursor             bg0            fg0
 lCursor            fg0            constant
 
-DiffAdd            none           diffadd
-DiffChange         none           diffchange
-DiffDelete         comment        diffdelete
-DiffText           fg0            difftext
-
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
 SpellLocal         statement      none           t=underline g=undercurl s=statement
@@ -149,6 +138,9 @@ Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero
