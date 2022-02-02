@@ -159,5 +159,8 @@ Terminal          -> Normal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
 Term colors: darkgray red green yellow xtermblue magenta cyan white
 
+;;; "Standard" diff colors
+Include: _diff
+
 ;;; No color support
 Include: _tcozero
