@@ -3,10 +3,10 @@
 ; "Standard" Diff colors for legacy colorschemes
 Variant:    gui 256 16
 
-Color: bgDiffA     #008700        28             darkgreen
-Color: bgDiffC     #878700        100            darkyellow
-Color: bgDiffD     #008787        30             darkcyan
-Color: bgDiffT     #00AF00        34             green
+Color: bgDiffA     #5F875F        65             darkgreen
+Color: bgDiffC     #87875F        101            darkyellow
+Color: bgDiffD     #5F8787        66             darkcyan
+Color: bgDiffT     #5FAF5F        71             green
 Color: fgDiff      #262626        235            black
 
 DiffAdd            bgDiffA        fgDiff        reverse
