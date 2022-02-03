@@ -4,9 +4,9 @@
 Variant:    gui 256 16
 
 Color: bgDiffA     #5F875F        65             darkgreen
-Color: bgDiffC     #87875F        101            darkyellow
-Color: bgDiffD     #5F8787        66             darkcyan
-Color: bgDiffT     #5FAF5F        71             green
+Color: bgDiffC     #5F87AF        67             blue
+Color: bgDiffD     #AF5FAF        133            magenta
+Color: bgDiffT     #00D700        40             green
 Color: fgDiff      #000000        16             black
 
 DiffAdd            bgDiffA        fgDiff        reverse
