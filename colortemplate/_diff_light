@@ -8,8 +8,9 @@ Color: bgDiffC     #5F87AF        67             blue
 Color: bgDiffD     #AF5FAF        133            magenta
 Color: bgDiffT     #00D700        40             green
 Color: fgDiff      #000000        16             black
+Color: fgDiffAlt   #FFFFFF        231            white
 
 DiffAdd            bgDiffA        fgDiff         reverse
-DiffChange         bgDiffC        fgDiff         reverse
+DiffChange         bgDiffC        fgDiffAlt      reverse
 DiffText           bgDiffT        fgDiff         reverse
 DiffDelete         bgDiffD        fgDiff         reverse

@@ -132,7 +132,7 @@ Variant: 16
 Visual             bg0            bg1
 
 ;;; "Standard" diff colors
-Include: _diff
+Include: _diff_light
 
 ;;; No color support
 Include: _tcozero

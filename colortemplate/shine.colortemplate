@@ -146,7 +146,7 @@ LineNrBelow     -> LineNr
 
 
 ;;; "Standard" diff colors
-Include: _diff
+Include: _diff_light
 
 ;;; No color support
 Include: _tcozero
