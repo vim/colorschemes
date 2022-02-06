@@ -2,16 +2,16 @@
 "     $ vim -Nu NONE -S colors/tools/sample_messages.vim +source\ colors/blue.vim
 function! Echoes()
 echohl ErrorMsg
-echo 'ErrorMsg'
+echo 'Sample for: ErrorMsg'
 echohl ModeMsg
-echo 'ModeMsg'
+echo 'Sample for: ModeMsg'
 echohl MoreMsg
-echo 'MoreMsg'
+echo 'Sample for: MoreMsg'
 echohl Question
-echo 'Question'
+echo 'Sample for: Question'
 echohl WarningMsg
-echo 'WarningMsg'
+echo 'Sample for: WarningMsg'
 echohl None
 endfunction
-edit README.md
+view README.md
 call feedkeys(':call Echoes()')

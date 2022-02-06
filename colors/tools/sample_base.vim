@@ -11,23 +11,15 @@ set cursorcolumn
 set colorcolumn=72
 set spell
 syntax on
-tabnew
-silent vertical help group-name
+setlocal bufhidden=wipe buftype=nofile nobuflisted noswapfile
+silent tab help group-name
+set number
 /Constant
 sign define piet text=>> texthl=Search
 execute "sign place 2 line=" . line('.') . " name=piet file=" . expand('%:p')
 ?Comment
 normal zt
-only
-silent vsplit $VIMRUNTIME/indent.vim
-nnoremenu 1.10 WinBar.Foo :echo 'Foo'<CR>
-nnoremenu 1.20 WinBar.Bar :echo 'Bar'<CR>
-nnoremenu 1.30 WinBar.Baz :echo 'Baz'<CR>
-11
-normal w
-normal zR
-split
-1
-normal zM
-autocmd! VimEnter * execute 'terminal ls -al --color' | wincmd p
-call feedkeys('V6j')
+/Constant
+botright 30vnew
+setlocal bufhidden=wipe buftype=nofile nobuflisted noswapfile
+wincmd w
