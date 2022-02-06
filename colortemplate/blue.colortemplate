@@ -41,10 +41,12 @@ Color: slateblue     #6a5acd           62                darkmagenta
 Normal               yellow            darkblue
 
 Variant:    16
+CursorLine           none              none              underline
 Pmenu                black             darkcyan
 PmenuSel             black             white
 
 Variant:    gui 256
+CursorLine           none              blue
 Pmenu                white             darkcyan
 PmenuSel             darkcyan          white
 
@@ -54,7 +56,6 @@ Conceal              none              none
 Cursor               black             green
 CursorColumn         none              blue
 CursorIM             none              fg
-CursorLine           none              blue
 CursorLineNr         yellow            blue              bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse

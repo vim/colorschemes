@@ -70,7 +70,6 @@ Visual             fg0            visual
 VisualNOS          none           comment
 LineNr             linenr         none
 FoldColumn         wildmenu       none
-CursorLine         none           folded
 CursorColumn       none           folded
 CursorLineNr       linenr         none           bold
 QuickFixLine       none           folded
@@ -128,7 +127,11 @@ Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
 
+Variant: gui 256
+CursorLine         none           folded
+
 Variant: 16
+CursorLine         none           none           underline
 Visual             bg0            bg1
 
 ;;; "Standard" diff colors
