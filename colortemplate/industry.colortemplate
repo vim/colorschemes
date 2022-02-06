@@ -53,11 +53,6 @@ Color: color14     #00FFFF        51             cyan
 Color: color07     #6C6C6C        242            grey
 Color: color15     #FFFFFF        231            white
 
-Color: colorDiffA  #005F00        22             black
-Color: colorDiffC  #00005F        17             black
-Color: colorDiffD  #5f0000        52             black
-Color: colorDiffT  #0000FF        21             darkblue
-
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
@@ -136,11 +131,6 @@ WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
 
-DiffAdd            none           colorDiffA
-DiffChange         none           colorDiffC
-DiffText           color06        colorDiffT
-DiffDelete         color09        colorDiffD
-
 SpellBad           color09        none           t=underline g=undercurl s=color09
 SpellCap           color01        none           t=underline g=undercurl s=color01
 SpellLocal         color03        none           t=underline g=undercurl s=color03
@@ -171,6 +161,9 @@ Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

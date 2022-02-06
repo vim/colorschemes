@@ -45,15 +45,10 @@ Color: color15     #c2bfa5        144            white
 Color: color16     #6b8e24        64             darkgreen
 Color: color17     #4d4d4d        239            grey
 
-Color: colorDiffA  #005F00        22             black
-Color: colorDiffC  #00005F        17             black
-Color: colorDiffD  #5f0000        52             black
-
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ;;; chrome
-
 Variant: gui 256 16
 Normal             foreground     background
 
@@ -134,8 +129,8 @@ SignColumn         none           none
 
 Underlined         color04        none           underline
 
-Error              foreground     color09
-ErrorMsg           foreground     color09
+Error              color09        foreground     reverse
+ErrorMsg           color09        foreground     reverse
 ModeMsg            color13        none           bold
 WarningMsg         color01        none           bold
 MoreMsg            color02        none           bold
@@ -159,10 +154,6 @@ Variant: 16
 WildMenu           background     color03
 
 Variant: gui 256 16
-DiffAdd            none           colorDiffA
-DiffChange         none           colorDiffC
-DiffText           color06        color12
-DiffDelete         color09        colorDiffD
 
 debugPC            color07        none           reverse
 debugBreakpoint    color14        none           reverse
@@ -204,6 +195,9 @@ Terminal           ->             Normal
 LineNrAbove        ->             LineNr
 LineNrBelow        ->             LineNr
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

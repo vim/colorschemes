@@ -37,8 +37,10 @@ let right = ["\" Substitute operator",
 call matchadd('Error', 'urr')
 call setline(1, left)
 set ft=vim
+setlocal bufhidden=wipe buftype=nofile nobuflisted noswapfile
 botright vnew
 call matchadd('Error', 'urr')
 call setline(1, right)
 set ft=vim
+setlocal bufhidden=wipe buftype=nofile nobuflisted noswapfile
 windo diffthis

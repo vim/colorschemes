@@ -56,10 +56,6 @@ CursorColumn         none              blue
 CursorIM             none              fg
 CursorLine           none              blue
 CursorLineNr         yellow            blue              bold
-DiffAdd              none              slateblue
-DiffChange           none              darkgreen
-DiffDelete           none              coral
-DiffText             none              olivedrab
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
 ErrorMsg             white             red
@@ -158,6 +154,9 @@ Terminal          -> Normal
 ;;; Terminal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
 Term colors: darkgray red green yellow xtermblue magenta cyan white
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

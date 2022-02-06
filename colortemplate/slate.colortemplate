@@ -46,10 +46,6 @@ Color: color17     #00FF00        46             darkgreen
 
 Color: Pmenu       #4A4A4A        239            darkgrey
 
-Color: colorDiffA  #005F00        22             darkgreen
-Color: colorDiffC  #00005F        17             darkblue
-Color: colorDiffD  #5F0000        52             darkred
-
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
@@ -147,11 +143,6 @@ Variant: gui 256 16
 Cursor             color08        color05
 lCursor            background     color09
 
-DiffAdd            foreground     colorDiffA
-DiffChange         foreground     colorDiffC
-DiffText           color02        color15        reverse
-DiffDelete         color03        colorDiffD
-
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color03        none           t=underline g=undercurl s=color03
 SpellLocal         color09        none           t=underline g=undercurl s=color09
@@ -196,6 +187,9 @@ Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

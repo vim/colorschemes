@@ -114,10 +114,6 @@ Folded                rgbBlue     none           underline
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           underline,bold
-DiffAdd               none        none
-DiffChange            color15     rgbDarkMagenta
-DiffDelete            rgbBlue     rgbDarkCyan    g=bold
-DiffText              none        color02        t=bold g=bold
 Variant: gui 256
 ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
@@ -125,10 +121,6 @@ Folded                color08     Folded
 CursorColumn          none        Cursorline
 CursorLine            none        Cursorline
 CursorLineNr          color11     Cursorline     g=bold
-DiffAdd               none        rgbDarkBlue
-DiffChange            none        rgbDarkMagenta
-DiffDelete            rgbBlue     rgbDarkCyan    g=bold
-DiffText              none        color02        t=bold g=bold
 
 Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
@@ -166,6 +158,9 @@ PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

@@ -36,10 +36,6 @@ Color: grey20        #333333           236               gray
 Color: grey30        #4d4d4d           239               darkgray
 Color: grey40        #666666           241               darkgray
 Color: grey60        #999999           246               darkgray
-Color: diffa         #005f5f           23                darkcyan
-Color: diffd         #875f00           94                darkred
-Color: diffc         #8700ff           93                magenta
-Color: difft         #5f005f           53                darkmagenta
 Color: xtermblue     #0087ff           33                blue
 Color: xtermdarkblue #006faf           25                darkblue
 Color: xtermred      #ff5f5f           203               red
@@ -54,14 +50,10 @@ ColorColumn          white             darkred
 CursorLine           none              none              underline
 CursorLineNr         none              none              underline
 EndOfBuffer          lightblue         none
-StatusLine           none              white             bold
-StatusLineNC         none              lightgrey
+StatusLine           black             white             bold
+StatusLineNC         black             lightgrey
 TabLineSel           black             white             bold
 TabLine              black             lightgrey
-DiffAdd              none              none
-DiffChange           blue              yellow
-DiffDelete           none              diffd
-DiffText             yellow            difft
 Variant: gui 256
 Normal               white             grey20
 ColorColumn          none              darkred
@@ -72,10 +64,6 @@ StatusLine           grey20            white             bold
 StatusLineNC         grey20            lightgrey
 TabLineSel           grey20            white             bold
 TabLine              grey20            lightgrey
-DiffAdd              none              diffa
-DiffChange           none              diffc
-DiffDelete           none              diffd
-DiffText             none              difft
 
 Variant: gui 256 16
 Pmenu                white             grey30
@@ -176,6 +164,9 @@ Typedef           -> Type
 ;;; Terminal
 Term colors: black orange seagreen yellow xtermdarkblue darkmagenta darkcyan grey
 Term colors: grey30 xtermred green lightyellow xtermblue magenta cyan white
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

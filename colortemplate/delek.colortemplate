@@ -34,11 +34,6 @@ Color: error       #ff0000        196            red
 Color: status_fg   #ffd700        220            darkyellow
 Color: linenr      #a52a2a        124            darkgrey
 
-Color: diffadd     #d7ffd7        194            grey
-Color: diffdelete  #ffd7d7        224            white
-Color: diffchange  #ffffd7        230            grey
-Color: difftext    #ffd787        222            darkyellow
-
 Color: Yellow      #ffff00        226            yellow
 Color: SlateBlue   #6a5acd        62             blue
 
@@ -99,11 +94,6 @@ ColorColumn        fg0            folded
 Cursor             bg0            fg0
 lCursor            fg0            constant
 
-DiffAdd            none           diffadd
-DiffChange         none           diffchange
-DiffDelete         comment        diffdelete
-DiffText           fg0            difftext
-
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
 SpellLocal         statement      none           t=underline g=undercurl s=statement
@@ -140,6 +130,9 @@ LineNrBelow     -> LineNr
 
 Variant: 16
 Visual             bg0            bg1
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

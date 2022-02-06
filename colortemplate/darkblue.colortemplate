@@ -177,5 +177,8 @@ CursorLine           none              none              underline
 CursorLineNr         ogYellow          none              underline
 Search               white             ogBlue
 
+;;; "Standard" diff colors
+Include: _diff
+
 ;;; No color support
 Include: _tcozero

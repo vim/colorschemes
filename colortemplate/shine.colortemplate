@@ -42,12 +42,6 @@ Color: MutedRed    #a07070        95             darkred
 Color: MutedYellow #ffff60        228            yellow
 Color: Purple      #6a0dad        55             darkmagenta
 
-Color: diffadd     #d7ffd7        194            white
-Color: diffdelete  #ffd7d7        224            grey
-Color: diffchange  #ffffd7        230            white
-Color: difftext    #ffd787        222            darkyellow
-
-
 ;;; Chrome         fg             bg             style
 Variant:    16
 Folded             DarkBlue       none           bold
@@ -111,11 +105,6 @@ ColorColumn        none           LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
-DiffAdd            none           diffadd
-DiffChange         none           diffchange
-DiffDelete         Red            diffdelete
-DiffText           Black          difftext
-
 SpellBad           Red            none           t=underline g=undercurl s=Red
 SpellCap           MutedRed       none           t=underline g=undercurl s=MutedRed
 SpellLocal         DarkGreen      none           t=underline g=undercurl s=DarkGreen
@@ -155,6 +144,9 @@ Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
 
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero

@@ -94,15 +94,8 @@ Color: elfIdentifier  #40ffff          87                cyan
 Color: elfStatement   #aa4444          131               darkred
 Color: elfPreProc     #ff80ff          213               magenta
 Color: elfType        #60ff60          83                green
-Color: elfDiffAdd     #00008b          18                darkblue
-Color: elfDiffDelete  #008b8b          30                darkcyan
-Color: elfDiffChange  #5f005f          53                darkmagenta
-Color: elfDiffText    #5f0000          52                darkred
 Color: elfBlue        #0000ff          21                blue
 
-Color: colorDiffA     #005F00          22                black
-Color: colorDiffC     #00005F          17                black
-Color: colorDiffD     #5F0000          52                darkred
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -128,10 +121,6 @@ Variant: gui 256 16
 ; Group               Foreground       Background        Attributes
 Conceal               rgbGrey40        none
 Cursor                xterm0           xterm14
-DiffAdd               none             colorDiffA
-DiffChange            none             colorDiffC
-DiffText              xterm6           xterm12
-DiffDelete            xterm3           colorDiffD
 Directory             Directory        xterm0
 EndOfBuffer           rgbBlue          xterm0            t=bold g=bold
 ErrorMsg              xterm15          xterm1
@@ -192,6 +181,9 @@ ToolbarButton         xterm0           xterm7            t=bold g=bold
 ; }}}
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
+
+;;; "Standard" diff colors
+Include: _diff
 
 ;;; No color support
 Include: _tcozero
