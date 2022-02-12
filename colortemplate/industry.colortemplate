@@ -63,10 +63,10 @@ Variant: gui 256 16
 Normal             foreground     background
 
 EndOfBuffer        color08        background
-Statusline         background     foreground     bold
-StatuslineNC       background     foreground
-StatuslineTerm     background     color02        bold
-StatuslineTermNC   background     color02
+StatusLine         background     foreground     bold
+StatusLineNC       background     foreground
+StatusLineTerm     background     color02        bold
+StatusLineTermNC   background     color02
 VertSplit          background     foreground
 
 

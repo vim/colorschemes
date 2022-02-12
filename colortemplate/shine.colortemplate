@@ -43,6 +43,9 @@ Color: MutedYellow #ffff60        228            yellow
 Color: Purple      #6a0dad        55             darkmagenta
 
 ;;; Chrome         fg             bg             style
+Variant:    gui 256 16
+Normal             Black          White
+
 Variant:    16
 Folded             DarkBlue       none           bold
 CursorLine         none           none           underline
@@ -57,13 +60,11 @@ CursorLineNr       none           LightGrey
 QuickFixLine       none           LightGrey
 
 Variant:    gui 256 16
-Normal             Black          White
-
 EndOfBuffer     -> NonText
-Statusline         White          Black          bold
-StatuslineNC       Black          MediumGrey
-StatuslineTerm     Black          LightGreen     bold
-StatuslineTermNC   Black          LightGreen
+StatusLine         White          Black          bold
+StatusLineNC       Black          MediumGrey
+StatusLineTerm     Black          LightGreen     bold
+StatusLineTermNC   Black          LightGreen
 VertSplit          MediumGrey     MediumGrey
 
 Pmenu              Black          MediumGrey

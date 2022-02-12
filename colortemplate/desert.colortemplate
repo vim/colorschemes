@@ -54,18 +54,18 @@ Normal             foreground     background
 
 Variant: 16
 EndOfBuffer     -> NonText
-Statusline         background     color07
-StatuslineNC       color08        color07
-StatuslineTerm     background     color07
-StatuslineTermNC   color08        color07
+StatusLine         background     color07
+StatusLineNC       color08        color07
+StatusLineTerm     background     color07
+StatusLineTermNC   color08        color07
 VertSplit          color08        color07
 
 Variant: gui 256
 EndOfBuffer     -> NonText
-Statusline         background     color15
-StatuslineNC       color00        color15
-StatuslineTerm     background     color15
-StatuslineTermNC   foreground     color15
+StatusLine         background     color15
+StatusLineNC       color00        color15
+StatusLineTerm     background     color15
+StatusLineTermNC   foreground     color15
 VertSplit          color00        color15
 
 Variant: 16

@@ -40,6 +40,9 @@ Color: red         #ff0000        196            darkred
 Color: colorcolumn #eeeeee        255            grey
 
 ;;; Chrome
+Variant:    gui 256 16
+Normal             fg0            bg0
+
 Variant:    16
 Folded             blue           none           bold
 CursorLine         none           none           underline
@@ -54,13 +57,11 @@ CursorLineNr       linenr         none           bold
 QuickFixLine       none           cursorline
 
 Variant:    gui 256 16
-Normal             fg0            bg0
-
 EndOfBuffer        bg1            none
-Statusline         fg1            fg0            bold
-StatuslineNC       bg0            bg1            bold
-StatuslineTerm     fg1            type           bold
-StatuslineTermNC   bg0            identifier     bold
+StatusLine         fg1            fg0            bold
+StatusLineNC       bg0            bg1            bold
+StatusLineTerm     fg1            type           bold
+StatusLineTermNC   bg0            identifier     bold
 VertSplit          bg0            bg1
 
 Pmenu              fg0            pmenu

@@ -39,6 +39,9 @@ Color: colorcolumn #ffffff        231            white
 
 ;;; Chrome
 
+Variant: gui 256 16
+Normal             fg0            bg0
+
 Variant: 16
 EndOfBuffer        comment        none           bold
 Folded             folded_fg      none           underline,bold
@@ -56,12 +59,10 @@ CursorLineNr       statement      none           bold
 QuickFixLine       none           folded
 
 Variant: gui 256 16
-Normal             fg0            bg0
-
-Statusline         none           none           reverse,bold
-StatuslineNC       none           status         reverse
-StatuslineTerm     type           none           reverse,bold
-StatuslineTermNC   type           status         reverse
+StatusLine         none           none           reverse,bold
+StatusLineNC       none           status         reverse
+StatusLineTerm     type           none           reverse,bold
+StatusLineTermNC   type           status         reverse
 VertSplit          none           status         reverse
 
 Pmenu              fg0            pmenu
