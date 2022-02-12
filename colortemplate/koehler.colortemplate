@@ -107,6 +107,8 @@ Term colors: xterm14 xterm15
 
 ; Default highlight groups {{{
 ; Group              Foreground        Background        Attributes
+Variant: gui 256 16
+Normal                xterm15          xterm0
 Variant: 16
 ColorColumn           xterm15          koeDarkRed
 CursorColumn          none             none              underline
@@ -131,7 +133,6 @@ MatchParen            none             rgbBlue
 ModeMsg               xterm15          rgbBlue           t=bold g=bold
 MoreMsg               rgbSeaGreen      none              t=bold g=bold
 NonText               xterm1           none              t=bold g=bold
-Normal                xterm15          xterm0
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             none
 PmenuSel              xterm0           xterm6

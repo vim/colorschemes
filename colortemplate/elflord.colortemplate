@@ -104,6 +104,9 @@ Term colors: xterm14 xterm15
 ; }}}
 
 ; Default highlight groups {{{
+Variant: gui 256 16
+Normal                xterm14          xterm0
+
 Variant: 16
 ColorColumn           xterm14          xterm1
 CursorColumn          none             none              underline
@@ -131,7 +134,6 @@ MatchParen            none             rgbDarkCyan
 ModeMsg               none             none              t=bold g=bold
 MoreMsg               rgbSeaGreen      none              t=bold g=bold
 NonText               rgbBlue          none              t=bold g=bold
-Normal                xterm14          xterm0
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             rgbGrey
 PmenuSel              xterm0           xterm6

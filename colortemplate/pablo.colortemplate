@@ -158,6 +158,8 @@ PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
 
+QuickFixLine       -> Search
+
 
 ;;; "Standard" diff colors
 Include: _diff

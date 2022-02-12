@@ -58,6 +58,7 @@ Color: ogYellow      #ffff60           227               yellow
 Normal               ogLightGrey       ogDeepBlue
 Terminal          -> Normal
 Conceal              none              none
+ColorColumn          black             ogDarkerRed
 Cursor               black             ogYellow
 CursorColumn      -> CursorLine
 CursorIM          -> Cursor
@@ -171,7 +172,6 @@ Term colors: ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogMagenta    ogCyan 
 
 
 Variant:  16
-ColorColumn          black             ogDarkerRed
 TabLineSel           white             black
 CursorLine           none              none              underline
 CursorLineNr         ogYellow          none              underline

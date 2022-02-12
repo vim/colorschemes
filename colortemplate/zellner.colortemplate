@@ -41,6 +41,9 @@ Color: slateblue   #6a5acd        62             blue
 
 ;;; Chrome
 
+Variant:    gui 256 16
+Normal             fg0            bg0
+
 Variant:    16
 Folded             folded_fg      none           underline,bold
 CursorLine         none           none           underline
@@ -55,13 +58,11 @@ CursorLineNr       linenr         none           bold
 QuickFixLine       none           cursorline
 
 Variant:    gui 256 16
-Normal             fg0            bg0
-
 EndOfBuffer        status         none
-Statusline         status         visual         reverse
-StatuslineNC       fg0            bg0            reverse
-StatuslineTerm     type           none           reverse
-StatuslineTermNC   type           none           reverse
+StatusLine         status         visual         reverse
+StatusLineNC       fg0            bg0            reverse
+StatusLineTerm     type           none           reverse
+StatusLineTermNC   type           none           reverse
 VertSplit          none           bg0            reverse
 
 Pmenu              fg0            pmenu
