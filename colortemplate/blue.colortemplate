@@ -27,7 +27,7 @@ Color: yellow        #ffdf00           220               yellow
 Color: blue          #005faf           25                blue
 Color: magenta       #d787d7           176               magenta
 Color: cyan          #5fffff           87                cyan
-Color: white         #ffffff           15                white
+Color: white         #ffffff           231               white
 Color: xtermblue     #5fafff           75                blue
 Color: xtermdarkblue #0087af           31                darkblue
 Color: orange        #ffa500           214               darkyellow
