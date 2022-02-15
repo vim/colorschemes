@@ -31,7 +31,6 @@ Number             -> Constant
 Operator           -> Statement
 PopupSelected      -> PmenuSel
 PreCondit          -> PreProc
-QuickFixLine       -> Search
 Repeat             -> Statement
 SpecialChar        -> Special
 SpecialComment     -> Special
@@ -122,6 +121,7 @@ CursorLine            none             koeCursorLine
 CursorLineNr          xterm11          none              t=bold g=bold
 Folded                xterm6           rgbGrey40
 Variant: gui 256 16
+QuickFixLine          xterm0           xterm13
 Conceal               xterm7           rgbDarkGrey
 Cursor                xterm0           xterm10
 Directory             koeDirectory     none

@@ -51,15 +51,14 @@ Folded             DarkBlue       none           bold
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       none           none           bold,underline
-QuickFixLine       none           none           underline
 Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
 CursorColumn       none           LightGrey
 CursorLineNr       none           LightGrey
-QuickFixLine       none           LightGrey
 
 Variant:    gui 256 16
+QuickFixLine       Black          DarkOrange
 EndOfBuffer     -> NonText
 StatusLine         White          Black          bold
 StatusLineNC       Black          MediumGrey

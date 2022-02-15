@@ -134,6 +134,7 @@ MoreMsg               rgbSeaGreen none           g=bold
 Question              Question    none           g=bold
 SpecialKey            SpecialKey  none
 WildMenu              color00     color11
+QuickFixLine          color00     color06
 
 SpellBad              none        color09        g=undercurl
 SpellCap              none        rgbBlue        g=undercurl
@@ -158,7 +159,6 @@ PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
 
-QuickFixLine       -> Search
 
 
 ;;; "Standard" diff colors

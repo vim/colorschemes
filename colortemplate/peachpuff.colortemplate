@@ -48,15 +48,14 @@ Folded             blue           none           bold
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       none           none           bold,underline
-QuickFixLine       none           none           underline
 Variant:    gui 256
 Folded             folded_fg      folded
 CursorLine         none           cursorline
 CursorColumn       none           cursorline
 CursorLineNr       linenr         none           bold
-QuickFixLine       none           cursorline
 
 Variant:    gui 256 16
+QuickFixLine       fg0            pmenu
 EndOfBuffer        bg1            none
 StatusLine         fg1            fg0            bold
 StatusLineNC       bg0            bg1            bold

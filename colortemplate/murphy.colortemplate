@@ -81,19 +81,19 @@ ToolbarButton      color15        color08        bold
 NonText            color06        none
 SpecialKey         color06        none
 
+QuickFixLine       color00        color06
+
 Variant: 16
 Folded             color06        none           underline
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       color11        none           bold,underline
-QuickFixLine       none           none           underline
 ColorColumn        foreground     color08
 Variant: gui 256
 Folded             color06        color00
 CursorLine         none           color08
 CursorColumn       none           color08
 CursorLineNr       color11        none           bold
-QuickFixLine       none           color08
 ColorColumn        none           color16
 Variant: gui 256 16
 Visual             color15        color02

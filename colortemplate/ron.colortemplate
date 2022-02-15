@@ -29,7 +29,6 @@ Macro              -> PreProc
 Number             -> Constant
 PopupSelected      -> PmenuSel
 PreCondit          -> PreProc
-QuickFixLine       -> Search
 Repeat             -> Statement
 SpecialChar        -> Special
 SpecialComment     -> Special
@@ -127,6 +126,7 @@ CursorLine            none             rgbGrey40
 CursorLineNr          xterm11          none              bold
 
 Variant: gui 256 16
+QuickFixLine          xterm0           xterm6
 Conceal               xterm7           rgbDarkGrey
 Cursor                xterm15          ronCursor
 Directory             Directory        none

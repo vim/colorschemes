@@ -129,6 +129,7 @@ Question              Question    none           g=bold
 SpecialKey            SpecialKey  none
 VisualNOS             none        color00        t=underline,bold g=underline,bold
 WildMenu              color00     color11
+QuickFixLine          color00     color06
 
 SpellBad              none        color09        g=undercurl
 SpellCap              none        rgbBlue        g=undercurl
@@ -157,7 +158,6 @@ PmenuThumb            none        rgbGrey
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
-QuickFixLine       -> Search
 
 ;;; "Standard" diff colors
 Include: _diff
