@@ -71,6 +71,7 @@ Color: PreProc        #ff80ff     213            darkcyan
 Color: Type           #60ff60     83             green
 Color: Underlined     #80a0ff     111            blue
 
+Color: FoldedBG       #3a3a3a     237            darkgrey
 Color: Pmenu          #303030     236            darkgrey
 Color: rgbDarkRed     #8b0000     88             darkred
 
@@ -93,13 +94,13 @@ Todo                  color11     color00        reverse
 
 ; Chrome
 Variant: 16
-Folded                color14     none           underline
+Folded                color06     none           underline
 Visual                color00     rgbDarkGrey    bold
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           underline,bold
 Variant: gui 256
-Folded                color14     rgbDarkGrey
+Folded                color06     FoldedBG
 Visual                color00     rgbDarkGrey    bold
 CursorColumn          none        rgbGrey40
 CursorLine            none        rgbGrey40
