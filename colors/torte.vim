@@ -30,7 +30,7 @@ hi Underlined guifg=#80a0ff guibg=NONE gui=underline cterm=underline
 hi Ignore guifg=#000000 guibg=#000000 gui=NONE cterm=NONE
 hi Error guifg=#ffffff guibg=#ff0000 gui=NONE cterm=NONE
 hi Todo guifg=#ffff00 guibg=#000000 gui=reverse cterm=reverse
-hi Folded guifg=#00ffff guibg=#a9a9a9 gui=NONE cterm=NONE
+hi Folded guifg=#00afaf guibg=#303030 gui=NONE cterm=NONE
 hi Visual guifg=#000000 guibg=#a9a9a9 gui=bold cterm=bold
 hi CursorColumn guifg=NONE guibg=#666666 gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#666666 gui=NONE cterm=NONE
@@ -98,7 +98,7 @@ if s:t_Co >= 256
   hi Ignore ctermfg=16 ctermbg=16 cterm=NONE
   hi Error ctermfg=231 ctermbg=196 cterm=NONE
   hi Todo ctermfg=226 ctermbg=16 cterm=reverse
-  hi Folded ctermfg=51 ctermbg=248 cterm=NONE
+  hi Folded ctermfg=37 ctermbg=236 cterm=NONE
   hi Visual ctermfg=16 ctermbg=248 cterm=bold
   hi CursorColumn ctermfg=NONE ctermbg=242 cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=242 cterm=NONE
@@ -169,7 +169,7 @@ if s:t_Co >= 16
   hi Ignore ctermfg=black ctermbg=black cterm=NONE
   hi Error ctermfg=white ctermbg=red cterm=NONE
   hi Todo ctermfg=yellow ctermbg=black cterm=reverse
-  hi Folded ctermfg=cyan ctermbg=NONE cterm=underline
+  hi Folded ctermfg=darkcyan ctermbg=NONE cterm=underline
   hi Visual ctermfg=black ctermbg=grey cterm=bold
   hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=underline
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
