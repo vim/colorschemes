@@ -48,7 +48,6 @@ Folded             folded_fg      none           underline,bold
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       statement      none           underline,bold
-QuickFixLine       none           none           underline
 
 Variant: gui 256
 EndOfBuffer        comment        endofbuffer    bold
@@ -56,9 +55,9 @@ Folded             folded_fg      folded
 CursorLine         none           folded
 CursorColumn       none           folded
 CursorLineNr       statement      none           bold
-QuickFixLine       none           folded
 
 Variant: gui 256 16
+QuickFixLine       fg0            wildmenu
 StatusLine         none           none           reverse,bold
 StatusLineNC       none           status         reverse
 StatusLineTerm     type           none           reverse,bold

@@ -26,7 +26,6 @@ Macro              -> PreProc
 Number             -> Constant
 PopupSelected      -> PmenuSel
 PreCondit          -> PreProc
-QuickFixLine       -> Search
 SpecialChar        -> Special
 SpecialComment     -> Special
 StatusLineTerm     -> StatusLine
@@ -106,6 +105,8 @@ Term colors: xterm14 xterm15
 ; Default highlight groups {{{
 Variant: gui 256 16
 Normal                xterm14          xterm0
+
+QuickFixLine          xterm15          rgbSeaGreen
 
 Variant: 16
 ColorColumn           xterm14          xterm1

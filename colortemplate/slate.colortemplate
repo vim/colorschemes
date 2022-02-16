@@ -95,6 +95,7 @@ ToolbarButton      background     color05
 Variant: gui 256 16
 NonText            color12        none
 SpecialKey         color10        none
+QuickFixLine       color00        color12
 
 Variant: 16
 Folded             color06        none           underline
@@ -102,7 +103,6 @@ FoldColumn         color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       color11        none           bold,underline
-QuickFixLine       none           none           underline
 ColorColumn        foreground     color08
 Visual             color11        color02
 
@@ -112,7 +112,6 @@ FoldColumn         color08        color00
 CursorLine         none           color08
 CursorColumn       none           color08
 CursorLineNr       none           color08
-QuickFixLine       none           color00
 Visual             color05        color02
 
 Variant: gui 256 16

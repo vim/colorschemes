@@ -118,13 +118,12 @@ Variant: 16
 CursorLine         none           none           underline
 CursorColumn       none           color04
 CursorLineNr       color03        none           underline,bold
-QuickFixLine       none           color04
 Variant: gui 256
 CursorLine         none           color07
 CursorColumn       none           color07
 CursorLineNr       color05        none           bold
-QuickFixLine       none           color07
 Variant: gui 256 16
+QuickFixLine       background     color11
 SignColumn         none           none
 
 Underlined         color04        none           underline

@@ -51,6 +51,7 @@ Pmenu                white             darkcyan
 PmenuSel             darkcyan          white
 
 Variant:    gui 256 16
+QuickFixLine         black             magenta
 ColorColumn          none              darkmagenta
 Conceal              none              none
 Cursor               black             green
@@ -96,9 +97,7 @@ debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
 Terminal          -> Normal
-QuickFixLine      -> Search
 Debug             -> Special
-QuickFixLine      -> Search
 diffAdded         -> String
 diffRemoved       -> WarningMsg
 diffOnly          -> WarningMsg

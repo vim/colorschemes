@@ -64,6 +64,7 @@ CursorColumn      -> CursorLine
 CursorIM          -> Cursor
 CursorLine           none              cursorl
 CursorLineNr         ogYellow          cursorl
+QuickFixLine         black             ogLightMag
 
 DiffAdd              none              ogBlue
 DiffChange           none              ogDarkViolet
@@ -113,9 +114,7 @@ debugBreakpoint      ogGreen           ogDarkBlue        reverse
 debugPC              ogCyan            ogDarkBlue        reverse
 
 Terminal          -> Normal
-QuickFixLine      -> Search
 Debug             -> Special
-QuickFixLine      -> Search
 diffAdded         -> String
 diffRemoved       -> WarningMsg
 diffOnly          -> WarningMsg
