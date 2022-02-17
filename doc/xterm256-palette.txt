@@ -7,8 +7,11 @@ License: Same as Vim
 Source of the colors:
   https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 
-Use https://github.com/chrisbra/Colorizer or similar plugins to colorize
-list of colors.
+Use >
+
+  :runtime colors/tools/colorize_xterm.vim
+
+to colorize this help buffer.
 
 
 LIST OF COLORS                                              *xterm256-palette*
