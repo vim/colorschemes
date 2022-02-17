@@ -1,4 +1,4 @@
-*xterm256-palette256.txt*          Standard colors of xterm256
+*xterm256-palette.txt*          Standard colors of xterm256
 
 Author:  Maxim Kim https://github.com/habamax
 Website: https://www.github.com/vim/colorschemes
