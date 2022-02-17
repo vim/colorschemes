@@ -22,7 +22,15 @@ if expand("%") !~ '.*xterm256-palette.txt'
     finish
 endif
 
-for line in getline(20, "$")
+
+var lnum_start = search("0 #000000", "n")
+
+if lnum_start == 0
+    echom "Can't find xterm colors!"
+    finish
+endif
+
+for line in getline(lnum_start, "$")
     if empty(line) | continue | endif
     var colors = split(line, '\s\s\+')->map((_, v) => split(trim(v), '\s\+'))
     for color in colors
