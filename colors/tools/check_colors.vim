@@ -83,6 +83,8 @@ def Test_check_colors()
         'VisualNOS',
         'WarningMsg',
         'WildMenu',
+        'debugPC',
+        'debugBreakpoint',
     ]
     var groups = {}
     for group in hi_groups
