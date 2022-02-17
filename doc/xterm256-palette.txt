@@ -11,7 +11,14 @@ Use >
 
   :runtime colors/tools/colorize_xterm.vim
 
-to colorize this help buffer.
+to highlight all xterm colors in this help buffer.
+
+To do it automatically one can setup autocmd: >
+
+  augroup xterm256 | au!
+      au BufEnter *xterm256-palette.txt runtime colors/tools/colorize_xterm.vim
+  augroup END
+
 
 
 LIST OF COLORS                                              *xterm256-palette*
