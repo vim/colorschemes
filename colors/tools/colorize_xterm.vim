@@ -1,6 +1,9 @@
 vim9script
 
-# Use to highlight xterm256 colors in :h xterm256-palette
+# Author:  Maxim Kim https://github.com/habamax
+# Website: https://www.github.com/vim/colorschemes
+# Description:
+# Highlight xterm256 colors in :h xterm256-palette
 
 def FG(bgs: string): dict<string>
     var bg = bgs->str2nr()
