@@ -29,7 +29,7 @@ LIST OF COLORS                                              *xterm256-palette*
  19 #0000af    25 #005faf    31 #0087af    37 #00afaf    43 #00d7af    49 #00ffaf
  20 #0000d7    26 #005fd7    32 #0087d7    38 #00afd7    44 #00d7d7    50 #00ffd7
  21 #0000ff    27 #005fff    33 #0087ff    39 #00afff    45 #00d7ff    51 #00ffff
- 
+
  52 #5f0000    58 #5f5f00    64 #5f8700    70 #5faf00    76 #5fd700    82 #5fff00
  53 #5f005f    59 #5f5f5f    65 #5f875f    71 #5faf5f    77 #5fd75f    83 #5fff5f
  54 #5f0087    60 #5f5f87    66 #5f8787    72 #5faf87    78 #5fd787    84 #5fff87
