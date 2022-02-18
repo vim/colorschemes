@@ -3,9 +3,6 @@ vim9script
 # Load the scheme and source this script, like this:
 #    :edit colors/desert.vim | :ru colors/tools/check_colors.vim
 
-var save_cpo = &cpo
-set cpo&vim
-
 def Test_check_colors()
     var savedview = winsaveview()
     cursor(1, 1)
@@ -205,5 +202,3 @@ def Result(err: any)
 enddef
 
 Test_check_colors()
-
-&cpo = save_cpo
