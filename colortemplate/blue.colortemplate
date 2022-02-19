@@ -75,8 +75,8 @@ Question             green             none
 Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-SpellBad             cyan              red               g=undercurl t=underline
-SpellCap             black             blue              g=undercurl t=underline
+SpellBad             white             red               g=undercurl t=underline
+SpellCap             black             green             g=undercurl t=underline
 SpellLocal           black             magenta           g=undercurl t=underline
 SpellRare            black             darkcyan          g=undercurl t=underline
 StatusLine           darkblue          cyan
