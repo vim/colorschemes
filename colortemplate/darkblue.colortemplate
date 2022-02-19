@@ -92,10 +92,10 @@ Question             ogGreen           none
 Search               ogCyan            ogBlue
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
-SpellBad             none              none              s=ogRed
-SpellCap             none              none              s=ogBlue
-SpellLocal           none              none              s=ogCyan
-SpellRare            none              none              s=ogMagenta
+SpellBad             ogRed             none              g=undercurl t=underline
+SpellCap             ogGreen           none              g=undercurl t=underline
+SpellLocal           ogCyan            none              g=undercurl t=underline
+SpellRare            ogMagenta         none              g=undercurl t=underline
 StatusLine           ogDeepBlue        ogLightGrey
 StatusLineNC         black             ogGrey
 StatusLineTerm    -> StatusLine
