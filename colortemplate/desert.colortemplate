@@ -158,10 +158,10 @@ debugPC            color07        none           reverse
 debugBreakpoint    color14        none           reverse
 
 
-SpellBad           color09        none           t=underline g=undercurl s=color00
-SpellCap           color01        none           t=underline g=undercurl s=color01
-SpellLocal         color03        none           t=underline g=undercurl s=color03
-SpellRare          color11        none           t=underline g=undercurl s=color11
+SpellBad           color01        none           t=underline g=undercurl s=color09
+SpellCap           color04        none           t=underline g=undercurl s=color04
+SpellLocal         color13        none           t=underline g=undercurl s=color13
+SpellRare          color14        none           t=underline g=undercurl s=color14
 
 ;;; :h group-names
 Variant: 16
