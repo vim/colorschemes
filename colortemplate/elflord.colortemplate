@@ -143,10 +143,10 @@ Question              Question         none              t=bold g=bold
 Search                xterm0           xterm11
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
-SpellBad              none             xterm9            g=undercurl
-SpellCap              none             rgbBlue           g=undercurl
-SpellLocal            none             xterm14           g=undercurl
-SpellRare             none             xterm13           g=undercurl
+SpellBad              xterm9           none              g=undercurl t=underline s=xterm9
+SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
+SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
+SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
 StatusLine            none             xterm0            t=reverse,bold g=reverse,bold
 StatusLineNC          none             xterm0            t=reverse g=reverse
 StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
