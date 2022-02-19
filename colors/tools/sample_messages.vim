@@ -13,5 +13,4 @@ echohl WarningMsg
 echo 'WarningMsg'
 echohl None
 endfunction
-edit README.md
 call feedkeys(':call Echoes()')
