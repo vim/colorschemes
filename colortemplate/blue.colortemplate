@@ -75,10 +75,10 @@ Question             green             none
 Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-SpellBad             none              none              s=red
-SpellCap             none              none              s=blue
-SpellLocal           none              none              s=magenta
-SpellRare            none              none              s=cyan
+SpellBad             cyan              red               g=undercurl t=underline
+SpellCap             black             blue              g=undercurl t=underline
+SpellLocal           black             magenta           g=undercurl t=underline
+SpellRare            black             darkcyan          g=undercurl t=underline
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan
 StatusLineTerm    -> StatusLine
