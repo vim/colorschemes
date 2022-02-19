@@ -163,10 +163,10 @@ VisualNOS             none             xterm0            t=underline,bold g=unde
 WarningMsg            xterm0           none
 WildMenu              xterm0           xterm11
 
-SpellBad              xterm9           none              g=undercurl t=underline
-SpellCap              rgbBlue          none              g=undercurl t=underline
-SpellLocal            xterm11          none              g=undercurl t=underline
-SpellRare             xterm13          none              g=undercurl t=underline
+SpellBad              xterm9           none              g=undercurl t=underline s=xterm9
+SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
+SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
+SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
 
 
 Variant: gui 256 16
