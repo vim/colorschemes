@@ -87,10 +87,10 @@ Question             green             none
 Search               black             yellow
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-SpellBad             none              none              s=red
-SpellCap             none              none              s=blue
-SpellLocal           none              none              s=magenta
-SpellRare            none              none              s=cyan
+SpellBad             red               none              t=underline g=undercurl s=red
+SpellCap             green             none              t=underline g=undercurl s=green
+SpellLocal           cyan              none              t=underline g=undercurl s=cyan
+SpellRare            magenta           none              t=underline g=undercurl s=magenta
 StatusLineTerm    -> StatusLine
 StatusLineTermNC  -> StatusLineNC
 TabLineFill       -> TabLine
