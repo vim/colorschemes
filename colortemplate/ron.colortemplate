@@ -148,10 +148,6 @@ Question              Question         xterm0            g=bold
 Search                xterm0           rgbDarkGrey       t=bold g=bold
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
-SpellBad              none             xterm9            g=undercurl
-SpellCap              none             rgbBlue           g=undercurl
-SpellLocal            none             xterm14           g=undercurl
-SpellRare             none             xterm13           g=undercurl
 StatusLine            xterm14          rgbBlue           t=bold g=bold
 StatusLineNC          ronLightBlue     rgbDarkBlue
 VertSplit             ronLightBlue     rgbDarkBlue
@@ -166,6 +162,15 @@ Visual                none             none              t=reverse g=reverse
 VisualNOS             none             xterm0            t=underline,bold g=underline,bold
 WarningMsg            xterm0           none
 WildMenu              xterm0           xterm11
+
+SpellBad              xterm9           none              g=undercurl t=underline s=xterm9
+SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
+SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
+SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
+
+
+Variant: gui 256 16
+
 ; Other conventional group names (see `:help group-name`)
 Comment               xterm10          none
 Constant              xterm14          none              bold

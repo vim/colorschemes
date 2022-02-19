@@ -106,9 +106,9 @@ Cursor             White          Black
 lCursor            Black          MutedRed
 
 SpellBad           Red            none           t=underline g=undercurl s=Red
-SpellCap           MutedRed       none           t=underline g=undercurl s=MutedRed
-SpellLocal         DarkGreen      none           t=underline g=undercurl s=DarkGreen
-SpellRare          SeaGreen       none           t=underline g=undercurl s=SeaGreen
+SpellCap           SeaGreen       none           t=underline g=undercurl s=SeaGreen
+SpellLocal         Magenta        none           t=underline g=undercurl s=Magenta
+SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkBlue
 
 
 ;;; Syntax

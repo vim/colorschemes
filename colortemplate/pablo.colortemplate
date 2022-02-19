@@ -136,10 +136,10 @@ SpecialKey            SpecialKey  none
 WildMenu              color00     color11
 QuickFixLine          color00     color06
 
-SpellBad              none        color09        g=undercurl
-SpellCap              none        rgbBlue        g=undercurl
-SpellLocal            none        color14        g=undercurl
-SpellRare             none        color13        g=undercurl
+SpellBad              color09     none           t=underline g=undercurl s=color09
+SpellCap              color12     none           t=underline g=undercurl s=color12
+SpellLocal            color13     none           t=underline g=undercurl s=color13
+SpellRare             color14     none           t=underline g=undercurl s=color14
 
 StatusLine            color11     color04
 StatusLineNC          none        color00        t=reverse g=reverse

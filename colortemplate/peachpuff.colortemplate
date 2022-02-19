@@ -104,8 +104,8 @@ lCursor            fg0            constant
 
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
-SpellLocal         statement      none           t=underline g=undercurl s=statement
-SpellRare          type           none           t=underline g=undercurl s=type
+SpellLocal         preproc        none           t=underline g=undercurl s=preproc
+SpellRare          special        none           t=underline g=undercurl s=special
 
 
 ;;; Syntax

@@ -132,10 +132,10 @@ VisualNOS             none        color00        t=underline,bold g=underline,bo
 WildMenu              color00     color11
 QuickFixLine          color00     color03
 
-SpellBad              none        color09        g=undercurl
-SpellCap              none        rgbBlue        g=undercurl
-SpellLocal            none        color14        g=undercurl
-SpellRare             none        color13        g=undercurl
+SpellBad              color09     none           t=underline g=undercurl s=color09
+SpellCap              color12     none           t=underline g=undercurl s=color12
+SpellLocal            color13     none           t=underline g=undercurl s=color13
+SpellRare             color14     none           t=underline g=undercurl s=color14
 
 StatusLine            color04     color15        t=reverse,bold g=reverse,bold
 StatusLineNC          none        color00        t=reverse g=reverse
