@@ -158,7 +158,7 @@ debugPC            color07        none           reverse
 debugBreakpoint    color14        none           reverse
 
 
-SpellBad           color01        none           t=underline g=undercurl s=color09
+SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color04        none           t=underline g=undercurl s=color04
 SpellLocal         color13        none           t=underline g=undercurl s=color13
 SpellRare          color14        none           t=underline g=undercurl s=color14
