@@ -96,7 +96,7 @@ lCursor            fg0            constant
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
 SpellLocal         statement      none           t=underline g=undercurl s=statement
-SpellRare          type           none           t=underline g=undercurl s=type
+SpellRare          preproc        none           t=underline g=undercurl s=preproc
 
 debugBreakpoint    Yellow         statement
 debugPC            special        statement
