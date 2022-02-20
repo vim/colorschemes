@@ -122,11 +122,11 @@ LineNr             color07        none
 Underlined         color12        none           underline
 
 Error              color01        color15        reverse
-ErrorMsg           color09        none
+ErrorMsg           color01        color00        reverse
 ModeMsg            background     color11
 WarningMsg         color14        none
 MoreMsg            color10        none
-Question           color10        none
+Question           color11        none
 
 Todo               color01        color03
 MatchParen         color00        color11
