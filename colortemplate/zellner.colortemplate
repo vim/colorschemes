@@ -82,7 +82,7 @@ SpecialKey         bg1            none
 Visual             fg0            visual
 VisualNOS          none           comment
 LineNr             linenr         none
-FoldColumn         wildmenu       none
+FoldColumn         folded_fg      none
 SignColumn         none           none
 
 Underlined         slateblue      none           underline

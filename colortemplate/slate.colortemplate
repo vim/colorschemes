@@ -108,7 +108,7 @@ Visual             color11        color02
 
 Variant: gui 256
 Folded             color07        color00
-FoldColumn         color08        color00
+FoldColumn         color12        color00
 CursorLine         none           color08
 CursorColumn       none           color08
 CursorLineNr       none           color08

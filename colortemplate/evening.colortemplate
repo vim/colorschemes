@@ -76,7 +76,7 @@ Conceal              none              none
 Cursor               black             green
 Error                red               white             reverse
 ErrorMsg             white             red
-FoldColumn           darkblue          none
+FoldColumn           lightblue         none
 Folded               darkblue          lightgrey         bold
 IncSearch            green             none              reverse
 MatchParen           none              darkcyan
