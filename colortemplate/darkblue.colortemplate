@@ -58,7 +58,7 @@ Color: ogYellow      #ffff60           227               yellow
 Normal               ogLightGrey       ogDeepBlue
 Terminal          -> Normal
 Conceal              none              none
-ColorColumn          black             ogDarkerRed
+ColorColumn          ogLightGrey       ogDarkerRed
 Cursor               black             ogYellow
 CursorColumn      -> CursorLine
 CursorIM          -> Cursor
