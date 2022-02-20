@@ -3,12 +3,7 @@
 set nocompatible
 set spell
 set spelllang=en_ca
-let &spellfile = expand("<sfile>:p:h") .. "/en.utf-8.add"
-echom &spellfile
-let s:rare_word = spellbadword("couleur")
-if s:rare_word[0] == ''
-    spellrare couleur
-endif
+set spellfile=colors/tools/en.utf-8.add
 syntax on
 setlocal bufhidden=wipe buftype=nofile nobuflisted noswapfile
 call setline(1, "Colour. colour color couleur kolour")
