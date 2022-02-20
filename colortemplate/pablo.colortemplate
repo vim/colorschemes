@@ -130,7 +130,7 @@ LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 MatchParen            none        rgbDarkCyan
 ModeMsg               none        none           t=bold g=bold
-MoreMsg               rgbSeaGreen none           g=bold
+MoreMsg               color12     none           g=bold
 Question              Question    none           g=bold
 SpecialKey            SpecialKey  none
 WildMenu              color00     color11
