@@ -89,10 +89,10 @@ Underlined         special        none           underline
 
 Error              error          bg0            reverse
 ErrorMsg           error          bg0            reverse
-WarningMsg         type           none           bold
+WarningMsg         preproc        none           bold
 MoreMsg            type           none           bold
 ModeMsg            fg0            none           bold
-Question           type           none           bold
+Question           identifier     none           bold
 
 Todo               fg0            wildmenu
 MatchParen         bg0            special
