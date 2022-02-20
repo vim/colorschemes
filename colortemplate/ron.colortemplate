@@ -160,7 +160,7 @@ Terminal              xterm14          xterm0
 Title                 rgbDarkGrey      none
 Visual                none             none              t=reverse g=reverse
 VisualNOS             none             xterm0            t=underline,bold g=underline,bold
-WarningMsg            xterm0           none
+WarningMsg            xterm11          none
 WildMenu              xterm0           xterm11
 
 SpellBad              xterm9           none              g=undercurl t=underline s=xterm9
