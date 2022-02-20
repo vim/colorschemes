@@ -92,7 +92,7 @@ Underlined         Purple         none           underline
 Error              Red            White          reverse
 ErrorMsg        -> Error
 WarningMsg         Purple         White
-MoreMsg            Black          White
+MoreMsg            DarkGreen      White
 ModeMsg            Black          White
 Question           MutedRed       none
 
