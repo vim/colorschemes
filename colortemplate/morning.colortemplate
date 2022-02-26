@@ -99,7 +99,7 @@ Todo               fg0            wildmenu
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          type           none           reverse
-WildMenu           wildmenu       fg0            reverse g=bold
+WildMenu           fg0            wildmenu       g=bold
 ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
 lCursor            bg0            statement
