@@ -78,6 +78,8 @@ Color: rgbDarkRed     #8b0000     88             darkred
 Variant: gui 256 16
 
 Normal                foreground  background
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
 
 ; Syntax
 Comment               Comment     none
@@ -139,8 +141,6 @@ SpellRare             color14     none           t=underline g=undercurl s=color
 
 StatusLine            color15     color04        g=bold
 StatusLineNC          color00     color07
-StatusLineTerm        color00     StatusLineTerm g=bold
-StatusLineTermNC      color00     StatusLineTerm
 VertSplit             color00     color07
 
 TabLine               color15     color08
