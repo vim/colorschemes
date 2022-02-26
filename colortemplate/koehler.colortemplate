@@ -149,8 +149,6 @@ SpellRare             xterm13          none              t=underline g=undercurl
 
 StatusLine            rgbBlue          xterm15           g=bold
 StatusLineNC          rgbBlue          xterm7
-StatusLineTerm        xterm0           StatusLineTerm    g=bold
-StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               rgbBlue          xterm15           g=bold
 TabLineFill           rgbBlue          xterm15           g=bold
 TabLineSel            xterm15          rgbBlue           g=bold
