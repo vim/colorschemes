@@ -142,10 +142,10 @@ SpellLocal            color13     none           t=underline g=undercurl s=color
 SpellRare             color14     none           t=underline g=undercurl s=color14
 
 StatusLine            color11     color04
-StatusLineNC          none        color00        t=reverse g=reverse
+StatusLineNC          color00     color15
 StatusLineTerm        color00     StatusLineTerm g=bold
 StatusLineTermNC      color00     StatusLineTerm
-VertSplit             none        color00        t=reverse g=reverse
+VertSplit             color00     color15
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
