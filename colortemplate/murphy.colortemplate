@@ -51,6 +51,9 @@ Term colors: color08 color09 color10 color11 color12t color13 color14 color15
 
 ;;; chrome
 
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
+
 Variant: gui 256 16
 
 Normal             foreground     background
@@ -58,8 +61,6 @@ Normal             foreground     background
 EndOfBuffer        color12        background
 StatusLine         color15        color04
 StatusLineNC       color15        color17
-StatusLineTerm     background     foreground
-StatusLineTermNC   background     color10
 VertSplit          color15        color17
 
 Pmenu              color15        color08
