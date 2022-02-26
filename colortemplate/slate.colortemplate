@@ -98,7 +98,7 @@ SpecialKey         color10        none
 QuickFixLine       color00        color12
 
 Variant: 16
-Folded             color06        none           underline
+Folded             color06        none
 FoldColumn         color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
