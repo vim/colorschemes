@@ -90,7 +90,7 @@ NonText            color06        none
 SpecialKey         color06        none
 
 Variant: 16
-Folded             color06        none           underline
+Folded             color06        none
 Visual             background     color07
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
