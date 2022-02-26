@@ -85,7 +85,7 @@ SpecialKey         color06        none
 QuickFixLine       color00        color06
 
 Variant: 16
-Folded             color06        none           underline
+Folded             color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       color11        none           underline
