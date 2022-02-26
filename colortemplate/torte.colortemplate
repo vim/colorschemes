@@ -96,7 +96,7 @@ Todo                  color11     color00        reverse
 
 ; Chrome
 Variant: 16
-Folded                color06     none           underline
+Folded                color06     none
 Visual                color00     rgbDarkGrey    g=bold
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
