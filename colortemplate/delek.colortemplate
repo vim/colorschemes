@@ -44,11 +44,11 @@ Variant:    gui 256 16
 Normal             fg0            bg0
 
 EndOfBuffer        bg1            none
-StatusLine         statement      status_fg      reverse g=bold
-StatusLineNC       statement      status_fg      reverse
-StatusLineTerm     type           none           reverse g=bold
-StatusLineTermNC   type           none           reverse
-VertSplit          none           status_fg      reverse
+StatusLine         status_fg      wildmenu       g=bold
+StatusLineNC       folded         wildmenu
+StatusLineTerm     Yellow         type           g=bold
+StatusLineTermNC   folded         type
+VertSplit          folded         wildmenu
 
 Pmenu              fg0            pmenu
 PmenuSel           bg0            wildmenu
@@ -88,7 +88,7 @@ Todo               fg0            Yellow
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          constant       none           reverse
-WildMenu           status_fg      wildmenu       g=bold
+WildMenu           wildmenu       status_fg      g=bold
 ColorColumn        fg0            folded
 Cursor             bg0            fg0
 lCursor            fg0            constant
