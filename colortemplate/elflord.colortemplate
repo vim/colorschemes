@@ -81,7 +81,6 @@ Color: rgbGrey        #bebebe          250               grey
 Color: Question       #00ff00          46                green
 Color: SignColumn     #a9a9a9          248               grey
 Color: SpecialKey     #00ffff          51                cyan
-Color: StatusLineTerm #90ee90          120               darkgreen
 Color: Title          #ff00ff          201               magenta
 Color: WarningMsg     #ff0000          196               red
 Color: ToolbarLine    #7f7f7f          244               darkgrey
@@ -149,8 +148,6 @@ SpellLocal            xterm11          none              g=undercurl t=underline
 SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
 StatusLine            xterm0           xterm14           g=bold
 StatusLineNC          xterm0           xterm6
-StatusLineTerm        xterm0           StatusLineTerm    g=bold
-StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           none             xterm0            t=reverse g=reverse
 TabLineSel            none             xterm0            g=bold
