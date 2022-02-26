@@ -76,7 +76,7 @@ TabLine            foreground     color08
 TabLineSel         color15        background
 
 ToolbarLine        none           color00
-ToolbarButton      color15        color08        bold
+ToolbarButton      color15        color08        g=bold
 
 NonText            color06        none
 SpecialKey         color06        none
@@ -87,13 +87,13 @@ Variant: 16
 Folded             color06        none           underline
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
-CursorLineNr       color11        none           bold,underline
+CursorLineNr       color11        none           underline
 ColorColumn        foreground     color08
 Variant: gui 256
 Folded             color06        color00
 CursorLine         none           color08
 CursorColumn       none           color08
-CursorLineNr       color11        none           bold
+CursorLineNr       color11        none           g=bold
 ColorColumn        none           color16
 Variant: gui 256 16
 Visual             color15        color02
@@ -106,10 +106,10 @@ Underlined         color06        none           underline
 
 Error              color15        color09
 ErrorMsg           color15        color09
-ModeMsg            foreground     none           bold
-WarningMsg         color01        none           bold
-MoreMsg            color02        none           bold
-Question           color14        none           bold
+ModeMsg            foreground     none           g=bold
+WarningMsg         color01        none           g=bold
+MoreMsg            color02        none           g=bold
+Question           color14        none           g=bold
 
 Todo               color12        color11
 MatchParen         color00        color03
@@ -145,7 +145,7 @@ Directory          color14        none
 Conceal            color07        none
 Ignore             none           none
 
-Title              color13        none           bold
+Title              color13        none           g=bold
 
 
 ;;; Links

@@ -57,7 +57,7 @@ Conceal              none              none
 Cursor               black             green
 CursorColumn         none              blue
 CursorIM             none              fg
-CursorLineNr         yellow            blue              bold
+CursorLineNr         yellow            blue              g=bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
 ErrorMsg             white             red
@@ -115,7 +115,7 @@ LineNrBelow       -> LineNr
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              gray              none              bold
+Comment              gray              none              g=bold
 Constant             cyan              none
 Identifier           gray              none
 Ignore               darkgray          none
@@ -123,7 +123,7 @@ PreProc              green             none
 Special              magenta           none
 Statement            white             none
 Todo                 none              none              reverse
-Type                 orange            none              bold
+Type                 orange            none              g=bold
 Underlined           none              none              underline
 Label                yellow            none
 

@@ -74,8 +74,8 @@ DiffText             none              ogDarkCyan
 EndOfBuffer       -> NonText
 Error                ogLightRed        none              reverse
 ErrorMsg          -> Error
-FoldColumn           ogGrey            none              bold
-Folded               ogGrey            none              bold
+FoldColumn           ogGrey            none              g=bold
+Folded               ogGrey            none              g=bold
 IncSearch            white             ogBlue            reverse
 LineNr               ogGreen           none
 LineNrAbove       -> LineNr

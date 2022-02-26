@@ -112,32 +112,32 @@ Variant: 16
 ColorColumn           xterm15          koeDarkRed
 CursorColumn          none             none              underline
 CursorLine            none             none              underline
-CursorLineNr          xterm11          none              underline,bold
+CursorLineNr          xterm11          none              underline
 Folded                xterm4           none              underline
 Variant: gui 256
 ColorColumn           none             koeDarkRed
 CursorColumn          none             koeCursorLine
 CursorLine            none             koeCursorLine
-CursorLineNr          xterm11          none              t=bold g=bold
+CursorLineNr          xterm11          none              g=bold
 Folded                xterm6           rgbGrey40
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm11
 Conceal               xterm7           rgbDarkGrey
 Cursor                xterm0           xterm10
 Directory             koeDirectory     none
-EndOfBuffer           xterm1           none              t=bold g=bold
+EndOfBuffer           xterm1           none              g=bold
 ErrorMsg              xterm1           xterm15           reverse
 FoldColumn            xterm6           none
 LineNr                xterm11          none
 MatchParen            none             rgbBlue
-ModeMsg               xterm15          rgbBlue           t=bold g=bold
-MoreMsg               rgbSeaGreen      none              t=bold g=bold
-NonText               xterm1           none              t=bold g=bold
+ModeMsg               xterm15          rgbBlue           g=bold
+MoreMsg               rgbSeaGreen      none              g=bold
+NonText               xterm1           none              g=bold
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             none
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-Question              xterm12          none              t=bold g=bold
+Question              xterm12          none              g=bold
 Search                xterm15          xterm9
 SignColumn            xterm14          none
 SpecialKey            xterm1           none
@@ -147,17 +147,17 @@ SpellCap              rgbBlue          none              t=underline g=undercurl
 SpellLocal            xterm14          none              t=underline g=undercurl s=xterm14
 SpellRare             xterm13          none              t=underline g=undercurl s=xterm13
 
-StatusLine            rgbBlue          xterm15           t=bold g=bold
+StatusLine            rgbBlue          xterm15           g=bold
 StatusLineNC          xterm15          rgbBlue           t=reverse g=reverse
-StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
+StatusLineTerm        xterm0           StatusLineTerm    g=bold
 StatusLineTermNC      xterm0           StatusLineTerm
-TabLine               rgbBlue          xterm15           t=bold g=bold
-TabLineFill           rgbBlue          xterm15           t=bold g=bold
-TabLineSel            xterm15          rgbBlue           t=bold g=bold
-Title                 xterm13          none              t=bold g=bold
+TabLine               rgbBlue          xterm15           g=bold
+TabLineFill           rgbBlue          xterm15           g=bold
+TabLineSel            xterm15          rgbBlue           g=bold
+Title                 xterm13          none              g=bold
 VertSplit             none             xterm0            t=reverse g=reverse
 Visual                none             rgbGrey40         t=reverse g=reverse
-VisualNOS             none             xterm0            t=underline,bold g=underline,bold
+VisualNOS             none             xterm0            t=underline g=underline,bold
 WarningMsg            xterm9           none
 WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
@@ -168,15 +168,15 @@ Identifier            Identifier       none
 Ignore                xterm0           xterm0
 PreProc               PreProc          none
 Special               Special          none
-Statement             Statement        none              t=bold g=bold
+Statement             Statement        none              g=bold
 Todo                  rgbBlue          xterm11
-Type                  Type             none              t=bold g=bold
-Underlined            koeLightBlue     none              t=bold,underline g=bold,underline
+Type                  Type             none              g=bold
+Underlined            koeLightBlue     none              t=underline g=bold,underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
 ToolbarLine           none             none
-ToolbarButton         xterm0           xterm7            bold
+ToolbarButton         xterm0           xterm7            g=bold
 ; }}}
 
 

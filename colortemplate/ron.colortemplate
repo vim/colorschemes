@@ -118,12 +118,12 @@ Variant: 16
 ColorColumn           xterm14          xterm1
 CursorColumn          none             none              underline
 CursorLine            none             none              underline
-CursorLineNr          xterm11          none              underline,bold
+CursorLineNr          xterm11          none              underline
 Variant: gui 256
 ColorColumn           none             xterm1
 CursorColumn          none             rgbGrey40
 CursorLine            none             rgbGrey40
-CursorLineNr          xterm11          none              bold
+CursorLineNr          xterm11          none              g=bold
 
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm6
@@ -137,7 +137,7 @@ Folded                none             ronGray30
 IncSearch             none             ronSteelBlue
 LineNr                rgbDarkGrey      none
 MatchParen            none             rgbDarkCyan
-ModeMsg               none             none              t=bold g=bold
+ModeMsg               none             none              g=bold
 MoreMsg               rgbSeaGreen      none              g=bold
 NonText               xterm11          ron303030
 Pmenu                 xterm15          Pmenu
@@ -145,21 +145,21 @@ PmenuSbar             none             xterm0
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm7
 Question              Question         xterm0            g=bold
-Search                xterm0           rgbDarkGrey       t=bold g=bold
+Search                xterm0           rgbDarkGrey       g=bold
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
-StatusLine            xterm14          rgbBlue           t=bold g=bold
+StatusLine            xterm14          rgbBlue           g=bold
 StatusLineNC          ronLightBlue     rgbDarkBlue
 VertSplit             ronLightBlue     rgbDarkBlue
-StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
+StatusLineTerm        xterm0           StatusLineTerm    g=bold
 StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           rgbDarkGrey      xterm8
-TabLineSel            none             xterm0            t=bold g=bold
+TabLineSel            none             xterm0            g=bold
 Terminal              xterm14          xterm0
 Title                 rgbDarkGrey      none
 Visual                none             none              t=reverse g=reverse
-VisualNOS             none             xterm0            t=underline,bold g=underline,bold
+VisualNOS             none             xterm0            t=underline g=underline,bold
 WarningMsg            xterm11          none
 WildMenu              xterm0           xterm11
 
@@ -173,7 +173,7 @@ Variant: gui 256 16
 
 ; Other conventional group names (see `:help group-name`)
 Comment               xterm10          none
-Constant              xterm14          none              bold
+Constant              xterm14          none              g=bold
 Error                 xterm9           xterm15           reverse
 Identifier            xterm14          none
 Ignore                xterm0           xterm0
@@ -183,13 +183,13 @@ PreProc               ronPink2         none
 Special               xterm11          none
 Statement             ronLightBlue     none
 Todo                  xterm0           ronOrange
-Type                  rgbSeaGreen      none              bold
+Type                  rgbSeaGreen      none              g=bold
 Underlined            Underlined       none              t=underline g=underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
 ToolbarLine           none             none
-ToolbarButton         xterm0           xterm7            bold
+ToolbarButton         xterm0           xterm7            g=bold
 ; Links
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr

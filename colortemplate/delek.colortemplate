@@ -44,9 +44,9 @@ Variant:    gui 256 16
 Normal             fg0            bg0
 
 EndOfBuffer        bg1            none
-StatusLine         statement      status_fg      reverse,bold
+StatusLine         statement      status_fg      reverse g=bold
 StatusLineNC       statement      status_fg      reverse
-StatusLineTerm     type           none           reverse,bold
+StatusLineTerm     type           none           reverse g=bold
 StatusLineTermNC   type           none           reverse
 VertSplit          none           status_fg      reverse
 
@@ -57,10 +57,10 @@ PmenuThumb         none           identifier
 
 TabLine            fg0            folded
 TabLineFill        none           bg1
-TabLineSel         none           none           bold
+TabLineSel         none           none           g=bold
 
 ToolbarLine        none           folded
-ToolbarButton      bg0            bg1            bold
+ToolbarButton      bg0            bg1            g=bold
 
 NonText            bg1            none
 SpecialKey         bg1            none
@@ -71,7 +71,7 @@ VisualNOS          none           comment
 LineNr             linenr         none
 FoldColumn         wildmenu       none
 CursorColumn       none           folded
-CursorLineNr       linenr         none           bold
+CursorLineNr       linenr         none           g=bold
 QuickFixLine       bg0            identifier
 SignColumn         none           none
 
@@ -80,15 +80,15 @@ Underlined         SlateBlue      none           underline
 Error              error          bg0            reverse
 ErrorMsg        -> Error
 WarningMsg         preproc        bg0
-MoreMsg            fg0            bg0            bold
-ModeMsg            fg0            bg0            bold
-Question           constant       none           bold
+MoreMsg            fg0            bg0            g=bold
+ModeMsg            fg0            bg0            g=bold
+Question           constant       none           g=bold
 
 Todo               fg0            Yellow
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          constant       none           reverse
-WildMenu           status_fg      wildmenu       bold
+WildMenu           status_fg      wildmenu       g=bold
 ColorColumn        fg0            folded
 Cursor             bg0            fg0
 lCursor            fg0            constant
@@ -106,16 +106,16 @@ debugPC            special        statement
 Comment            comment        none
 Constant           constant       none
 Identifier         identifier     none
-Statement          statement      none           bold
+Statement          statement      none           g=bold
 PreProc            preproc        none
-Type               type           none           bold
+Type               type           none           g=bold
 Special            special        none
 
-Directory          identifier     none           bold
+Directory          identifier     none           g=bold
 Conceal            comment        none
 Ignore             none           none
 
-Title              preproc        none           bold
+Title              preproc        none           g=bold
 
 ;;; Terminal
 

@@ -45,15 +45,15 @@ Variant:    gui 256 16
 Normal             fg0            bg0
 
 Variant:    16
-Folded             folded_fg      none           underline,bold
+Folded             folded_fg      none           underline g=bold
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
-CursorLineNr       linenr         none           underline,bold
+CursorLineNr       linenr         none           underline g=bold
 Variant:    gui 256
 Folded             folded_fg      folded
 CursorLine         none           cursorline
 CursorColumn       none           cursorline
-CursorLineNr       linenr         none           bold
+CursorLineNr       linenr         none           g=bold
 
 Variant:    gui 256 16
 QuickFixLine       bg0            slateblue
@@ -71,10 +71,10 @@ PmenuThumb         none           status
 
 TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
-TabLineSel         none           none           bold
+TabLineSel         none           none           g=bold
 
 ToolbarLine        none           folded
-ToolbarButton      none           bg1            bold
+ToolbarButton      none           bg1            g=bold
 
 NonText            bg1            none
 SpecialKey         bg1            none
@@ -90,9 +90,9 @@ Underlined         slateblue      none           underline
 Error              error          bg0            reverse
 ErrorMsg           error          bg0            reverse
 WarningMsg         preproc        bg0
-MoreMsg            fg0            bg0            bold
-ModeMsg            fg0            bg0            bold
-Question           constant       none           bold
+MoreMsg            fg0            bg0            g=bold
+ModeMsg            fg0            bg0            g=bold
+Question           constant       none           g=bold
 
 Todo               fg0            wildmenu
 MatchParen         bg0            special
@@ -120,11 +120,11 @@ Type               type           none
 Special            special        none
 Tag                tag            none
 
-Directory          identifier     none           bold
+Directory          identifier     none           g=bold
 Conceal            comment        none
 Ignore             none           none
 
-Title              preproc        none           bold
+Title              preproc        none           g=bold
 
 
 ;;; Terminal
