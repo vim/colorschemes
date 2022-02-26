@@ -137,11 +137,11 @@ SpellCap              color12     none           t=underline g=undercurl s=color
 SpellLocal            color13     none           t=underline g=undercurl s=color13
 SpellRare             color14     none           t=underline g=undercurl s=color14
 
-StatusLine            color04     color15        t=reverse g=reverse,bold
-StatusLineNC          none        color00        t=reverse g=reverse
+StatusLine            color15     color04        g=bold
+StatusLineNC          color00     color07
 StatusLineTerm        color00     StatusLineTerm g=bold
 StatusLineTermNC      color00     StatusLineTerm
-VertSplit             none        color00        t=reverse g=reverse
+VertSplit             color00     color07
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
