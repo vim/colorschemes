@@ -30,7 +30,7 @@ Color: bg1         #737373        243            darkgrey
 Color: visual      #cccccc        252            grey
 Color: folded      #e3c1a5        252            cyan
 Color: folded_fg   #000000        16             black
-Color: cursorline  #f5c195        180            black
+Color: cursorline  #f5c195        180            yellow
 Color: pmenu       #ffaf87        216            grey
 Color: wildmenu    #ffff00        226            yellow
 Color: error       #ff0000        196            darkred
