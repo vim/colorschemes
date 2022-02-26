@@ -112,7 +112,7 @@ SignColumn            color14     SignColumn
 Variant: 16
 ColorColumn           color15     rgbGrey30
 FoldColumn            none        none
-Folded                rgbBlue     none           underline
+Folded                rgbBlue     none
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           underline
