@@ -100,7 +100,7 @@ Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
 IncSearch          DarkCyan       Yellow         reverse
-WildMenu           Yellow         Black          reverse g=bold
+WildMenu           Black          Yellow         g=bold
 ColorColumn        none           LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
