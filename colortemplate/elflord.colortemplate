@@ -147,8 +147,8 @@ SpellBad              xterm9           none              g=undercurl t=underline
 SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
 SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
 SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
-StatusLine            none             xterm0            t=reverse g=reverse,bold
-StatusLineNC          none             xterm0            t=reverse g=reverse
+StatusLine            xterm0           xterm14           g=bold
+StatusLineNC          xterm0           xterm6
 StatusLineTerm        xterm0           StatusLineTerm    g=bold
 StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               xterm0           rgbDarkCyan
@@ -156,7 +156,7 @@ TabLineFill           none             xterm0            t=reverse g=reverse
 TabLineSel            none             xterm0            g=bold
 Terminal              xterm14          xterm0
 Title                 Title            none              g=bold
-VertSplit             none             xterm0            t=reverse g=reverse
+VertSplit             xterm0           xterm6
 Visual                xterm0           rgbDarkGrey
 VisualNOS             none             xterm0            t=underline g=underline,bold
 WarningMsg            WarningMsg       none
