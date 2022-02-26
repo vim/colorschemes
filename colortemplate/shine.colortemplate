@@ -63,7 +63,7 @@ EndOfBuffer     -> NonText
 StatusLine         White          Black          g=bold
 StatusLineNC       Black          MediumGrey
 StatusLineTerm     Black          LightGreen     g=bold
-StatusLineTermNC   MediumGrey     DarkGreen
+StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
 Pmenu              Black          MediumGrey
