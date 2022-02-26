@@ -148,14 +148,14 @@ SpellLocal            xterm14          none              t=underline g=undercurl
 SpellRare             xterm13          none              t=underline g=undercurl s=xterm13
 
 StatusLine            rgbBlue          xterm15           g=bold
-StatusLineNC          xterm15          rgbBlue           t=reverse g=reverse
+StatusLineNC          rgbBlue          xterm7
 StatusLineTerm        xterm0           StatusLineTerm    g=bold
 StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               rgbBlue          xterm15           g=bold
 TabLineFill           rgbBlue          xterm15           g=bold
 TabLineSel            xterm15          rgbBlue           g=bold
 Title                 xterm13          none              g=bold
-VertSplit             none             xterm0            t=reverse g=reverse
+VertSplit             rgbBlue          xterm7
 Visual                none             rgbGrey40         t=reverse g=reverse
 VisualNOS             none             xterm0            t=underline g=underline,bold
 WarningMsg            xterm9           none
