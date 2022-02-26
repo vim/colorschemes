@@ -151,8 +151,6 @@ SpecialKey            SpecialKey       none
 StatusLine            xterm14          rgbBlue           g=bold
 StatusLineNC          ronLightBlue     rgbDarkBlue
 VertSplit             ronLightBlue     rgbDarkBlue
-StatusLineTerm        xterm0           StatusLineTerm    g=bold
-StatusLineTermNC      xterm0           StatusLineTerm
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           rgbDarkGrey      xterm8
 TabLineSel            none             xterm0            g=bold
