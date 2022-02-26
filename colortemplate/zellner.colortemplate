@@ -58,11 +58,11 @@ CursorLineNr       linenr         none           g=bold
 Variant:    gui 256 16
 QuickFixLine       bg0            slateblue
 EndOfBuffer        status         none
-StatusLine         status         visual         reverse
-StatusLineNC       fg0            bg0            reverse
-StatusLineTerm     type           none           reverse
-StatusLineTermNC   type           none           reverse
-VertSplit          none           bg0            reverse
+StatusLine         visual         status
+StatusLineNC       bg0            fg0
+StatusLineTerm     bg0            tag
+StatusLineTermNC   bg0            type
+VertSplit          bg0            fg0
 
 Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
