@@ -47,7 +47,7 @@ Normal             fg0            bg0
 
 Variant: 16
 EndOfBuffer        comment        none
-Folded             folded_fg      none           underline
+Folded             folded_fg      none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       statement      none           underline
