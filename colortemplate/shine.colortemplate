@@ -101,7 +101,7 @@ MatchParen         White          LightRed
 Search             White          Purple
 IncSearch          DarkCyan       Yellow         reverse
 WildMenu           Black          Yellow         g=bold
-ColorColumn        none           LightRed
+ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
