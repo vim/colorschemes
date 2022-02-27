@@ -61,7 +61,7 @@ Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
 EndOfBuffer     -> NonText
 StatusLine         White          Black          g=bold
-StatusLineNC       Black          MediumGrey
+StatusLineNC       White          MediumGrey
 StatusLineTerm     Black          LightGreen     g=bold
 StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey

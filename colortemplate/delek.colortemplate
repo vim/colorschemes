@@ -44,8 +44,8 @@ Variant:    gui 256 16
 Normal             fg0            bg0
 
 EndOfBuffer        bg1            none
-StatusLine         status_fg      wildmenu       g=bold
-StatusLineNC       folded         wildmenu
+StatusLine         Yellow         wildmenu       g=bold
+StatusLineNC       status_fg      wildmenu
 StatusLineTerm     Yellow         type           g=bold
 StatusLineTermNC   folded         type
 VertSplit          folded         wildmenu

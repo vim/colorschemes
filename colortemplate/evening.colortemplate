@@ -100,7 +100,7 @@ VertSplit            white             white
 Visual               white             grey60
 VisualNOS            none              none              underline g=bold
 WarningMsg           red               none
-WildMenu             grey20            yellow            g=bold
+WildMenu             black             yellow            g=bold
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
