@@ -12,6 +12,9 @@ License:     Same as Vim
 Variant:    gui 256 16
 Background: light
 
+StatuslineTerm     -> Statusline
+StatuslineTermNC   -> StatuslineNC
+
 ;;; Refined syntax colors
 
 Color: comment     #0000ff        21             blue
@@ -43,40 +46,38 @@ Variant: gui 256 16
 Normal             fg0            bg0
 
 Variant: 16
-EndOfBuffer        comment        none           bold
-Folded             folded_fg      none           underline,bold
+EndOfBuffer        comment        none
+Folded             folded_fg      none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
-CursorLineNr       statement      none           underline,bold
+CursorLineNr       statement      none           underline
 
 Variant: gui 256
-EndOfBuffer        comment        endofbuffer    bold
+EndOfBuffer        comment        endofbuffer    g=bold
 Folded             folded_fg      folded
 CursorLine         none           folded
 CursorColumn       none           folded
-CursorLineNr       statement      none           bold
+CursorLineNr       statement      none           g=bold
 
 Variant: gui 256 16
 QuickFixLine       fg0            wildmenu
-StatusLine         none           none           reverse,bold
-StatusLineNC       none           status         reverse
-StatusLineTerm     type           none           reverse,bold
-StatusLineTermNC   type           status         reverse
-VertSplit          none           status         reverse
+StatusLine         bg2            fg0            g=bold
+StatusLineNC       status         fg0
+VertSplit          status         fg0
 
 Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           fg0
 
-TabLine            fg0            bg1         underline
+TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
-TabLineSel         none           none           bold
+TabLineSel         none           none           g=bold
 
 ToolbarLine        none           none
-ToolbarButton      none           bg1            bold
+ToolbarButton      none           bg1            g=bold
 
-NonText            comment        bg1            bold
+NonText            comment        bg1            g=bold
 SpecialKey         status         none
 
 Visual             none           visual
@@ -89,16 +90,16 @@ Underlined         special        none           underline
 
 Error              error          bg0            reverse
 ErrorMsg           error          bg0            reverse
-WarningMsg         preproc        none           bold
-MoreMsg            type           none           bold
-ModeMsg            fg0            none           bold
-Question           identifier     none           bold
+WarningMsg         preproc        none           g=bold
+MoreMsg            type           none           g=bold
+ModeMsg            fg0            none           g=bold
+Question           identifier     none           g=bold
 
 Todo               fg0            wildmenu
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          type           none           reverse
-WildMenu           wildmenu       fg0            reverse,bold
+WildMenu           fg0            wildmenu       g=bold
 ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
 lCursor            bg0            statement
@@ -114,16 +115,16 @@ SpellRare          type           none           t=underline g=undercurl s=type
 Comment            comment        none
 Constant           constant       bg2
 Identifier         identifier     none
-Statement          statement      none           bold
+Statement          statement      none           g=bold
 PreProc            preproc        none
-Type               type           none           bold
-Special            special        bg2
+Type               type           none           g=bold
+Special            special        none
 Ignore             none           none
 
-Directory          identifier     none           bold
+Directory          identifier     none           g=bold
 Conceal            comment        none
 
-Title              statement      none           bold
+Title              statement      none           g=bold
 
 
 ;;; Terminal

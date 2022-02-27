@@ -20,6 +20,7 @@ Color: darkblue      #000087           18                darkblue
 Color: darkmagenta   #870087           90                darkmagenta
 Color: darkcyan      #008787           30                darkcyan
 Color: gray          #bcbcbc           250               gray
+Color: comment       #878787           102               darkgray
 Color: darkgray      #878787           102               darkgray
 Color: red           #d70000           160               red
 Color: green         #00ff00           46                green
@@ -57,7 +58,7 @@ Conceal              none              none
 Cursor               black             green
 CursorColumn         none              blue
 CursorIM             none              fg
-CursorLineNr         yellow            blue              bold
+CursorLineNr         yellow            blue              g=bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
 ErrorMsg             white             red
@@ -115,7 +116,7 @@ LineNrBelow       -> LineNr
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              gray              none              bold
+Comment              comment           none              g=bold
 Constant             cyan              none
 Identifier           gray              none
 Ignore               darkgray          none
@@ -123,7 +124,7 @@ PreProc              green             none
 Special              magenta           none
 Statement            white             none
 Todo                 none              none              reverse
-Type                 orange            none              bold
+Type                 orange            none              g=bold
 Underlined           none              none              underline
 Label                yellow            none
 

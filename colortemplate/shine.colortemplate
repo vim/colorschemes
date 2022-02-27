@@ -47,10 +47,10 @@ Variant:    gui 256 16
 Normal             Black          White
 
 Variant:    16
-Folded             DarkBlue       none           bold
+Folded             DarkBlue       none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
-CursorLineNr       none           none           bold,underline
+CursorLineNr       none           none           underline
 Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
@@ -60,10 +60,10 @@ CursorLineNr       none           LightGrey
 Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
 EndOfBuffer     -> NonText
-StatusLine         White          Black          bold
-StatusLineNC       Black          MediumGrey
-StatusLineTerm     Black          LightGreen     bold
-StatusLineTermNC   Black          LightGreen
+StatusLine         White          Black          g=bold
+StatusLineNC       White          MediumGrey
+StatusLineTerm     Black          LightGreen     g=bold
+StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
 Pmenu              Black          MediumGrey
@@ -73,16 +73,16 @@ PmenuThumb         DarkGrey       DarkGrey
 
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
-TabLineSel         none           none           bold
+TabLineSel         none           none           g=bold
 
 ToolbarLine        none           none
-ToolbarButton      none           MediumGrey     bold
+ToolbarButton      none           MediumGrey     g=bold
 
 NonText            LightBlue      White
 SpecialKey         LightBlue      none
 
 Visual             Black          MediumGrey
-VisualNOS          none           none           underline,bold
+VisualNOS          none           none           underline g=bold
 LineNr             DarkGrey       none
 FoldColumn         DarkGrey       none
 SignColumn         none           none
@@ -100,8 +100,8 @@ Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
 IncSearch          DarkCyan       Yellow         reverse
-WildMenu           Yellow         Black          reverse,bold
-ColorColumn        none           LightRed
+WildMenu           Black          Yellow         g=bold
+ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
@@ -114,23 +114,23 @@ SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkB
 ;;; Syntax
 
 Identifier         DarkCyan       none
-Statement          DarkGreen      none           bold
+Statement          DarkGreen      none           g=bold
 Constant           MutedRed       none
-Number             MutedRed       none           bold
-Float              MutedRed       none           bold
+Number             MutedRed       none           g=bold
+Float              MutedRed       none           g=bold
 PreProc            Purple         none
 Special            DarkOrange     none
-SpecialChar        DarkBlue        none
+SpecialChar        DarkBlue       none
 Tag             -> Special
-Type               SeaGreen       none           bold
+Type               SeaGreen       none           g=bold
 Operator        -> Statement
-Directory          DarkCyan       none           bold
-Comment            MediumGrey     none           bold
-StorageClass       Red            none           bold
+Directory          DarkCyan       none           g=bold
+Comment            MediumGrey     none           g=bold
+StorageClass       Red            none           g=bold
 Conceal            LightGrey      DarkGrey
 Ignore             none           none
 
-Title              DarkGreen      none           bold
+Title              DarkGreen      none           g=bold
 
 
 ;;; Terminal

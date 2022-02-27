@@ -77,12 +77,14 @@ Variant: gui 256 16
 
 Normal                color15     color00
 Terminal           -> Normal
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
 
 ; Syntax
 Comment               Comment     none
 Constant              Constant    none
 Identifier            Identifier  none
-Statement             Statement   none           t=bold g=bold
+Statement             Statement   none           g=bold
 PreProc               PreProc     none
 Type                  Type        none
 Special               Special     none
@@ -97,7 +99,7 @@ Cursor                color00     color15
 lCursor               color00     color15
 CursorIM              none        fg
 
-Title                 Title       none           t=bold g=bold
+Title                 Title       none           g=bold
 Directory             Directory   none
 Search                color00     Search
 IncSearch             color15     none           t=reverse g=reverse
@@ -110,10 +112,10 @@ SignColumn            color14     SignColumn
 Variant: 16
 ColorColumn           color15     rgbGrey30
 FoldColumn            none        none
-Folded                rgbBlue     none           underline
+Folded                rgbBlue     none
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
-CursorLineNr          color11     none           underline,bold
+CursorLineNr          color11     none           underline
 Variant: gui 256
 ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
@@ -124,12 +126,12 @@ CursorLineNr          color11     Cursorline     g=bold
 
 Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
-VisualNOS             none        color00        t=underline,bold g=underline,bold
+VisualNOS             none        color00        t=underline g=underline,bold
 LineNr                color08     none
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 MatchParen            none        rgbDarkCyan
-ModeMsg               none        none           t=bold g=bold
+ModeMsg               none        none           g=bold
 MoreMsg               color12     none           g=bold
 Question              Question    none           g=bold
 SpecialKey            SpecialKey  none
@@ -142,17 +144,15 @@ SpellLocal            color13     none           t=underline g=undercurl s=color
 SpellRare             color14     none           t=underline g=undercurl s=color14
 
 StatusLine            color11     color04
-StatusLineNC          none        color00        t=reverse g=reverse
-StatusLineTerm        color00     StatusLineTerm t=bold g=bold
-StatusLineTermNC      color00     StatusLineTerm
-VertSplit             none        color00        t=reverse g=reverse
+StatusLineNC          color00     color15
+VertSplit             color00     color15
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
-TabLineSel            none        color00        t=bold g=bold
+TabLineSel            none        color00        g=bold
 
 ToolbarLine           none        color00
-ToolbarButton         color00     color07        bold
+ToolbarButton         color00     color07        g=bold
 
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none

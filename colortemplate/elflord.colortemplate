@@ -81,7 +81,6 @@ Color: rgbGrey        #bebebe          250               grey
 Color: Question       #00ff00          46                green
 Color: SignColumn     #a9a9a9          248               grey
 Color: SpecialKey     #00ffff          51                cyan
-Color: StatusLineTerm #90ee90          120               darkgreen
 Color: Title          #ff00ff          201               magenta
 Color: WarningMsg     #ff0000          196               red
 Color: ToolbarLine    #7f7f7f          244               darkgrey
@@ -112,8 +111,8 @@ Variant: 16
 ColorColumn           xterm14          xterm1
 CursorColumn          none             none              underline
 CursorLine            none             none              underline
-CursorLineNr          xterm11          none              underline,bold
-Folded                xterm14          none              underline
+CursorLineNr          xterm11          none              underline
+Folded                xterm6           none
 Variant: gui 256
 ColorColumn           none             xterm1
 CursorColumn          none             CursorLine
@@ -126,20 +125,20 @@ Variant: gui 256 16
 Conceal               rgbGrey40        none
 Cursor                xterm0           xterm14
 Directory             Directory        xterm0
-EndOfBuffer           rgbBlue          xterm0            t=bold g=bold
+EndOfBuffer           rgbBlue          xterm0            g=bold
 ErrorMsg              xterm15          xterm1
 FoldColumn            xterm14          none
 IncSearch             none             xterm0            t=reverse g=reverse
 LineNr                xterm11          none
 MatchParen            none             rgbDarkCyan
-ModeMsg               none             none              t=bold g=bold
-MoreMsg               rgbSeaGreen      none              t=bold g=bold
-NonText               rgbBlue          none              t=bold g=bold
+ModeMsg               none             none              g=bold
+MoreMsg               rgbSeaGreen      none              g=bold
+NonText               rgbBlue          none              g=bold
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             rgbGrey
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-Question              Question         none              t=bold g=bold
+Question              Question         none              g=bold
 Search                xterm0           xterm11
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
@@ -147,18 +146,16 @@ SpellBad              xterm9           none              g=undercurl t=underline
 SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
 SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
 SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
-StatusLine            none             xterm0            t=reverse,bold g=reverse,bold
-StatusLineNC          none             xterm0            t=reverse g=reverse
-StatusLineTerm        xterm0           StatusLineTerm    t=bold g=bold
-StatusLineTermNC      xterm0           StatusLineTerm
+StatusLine            xterm0           xterm14           g=bold
+StatusLineNC          xterm0           xterm6
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           none             xterm0            t=reverse g=reverse
-TabLineSel            none             xterm0            t=bold g=bold
+TabLineSel            none             xterm0            g=bold
 Terminal              xterm14          xterm0
-Title                 Title            none              t=bold g=bold
-VertSplit             none             xterm0            t=reverse g=reverse
+Title                 Title            none              g=bold
+VertSplit             xterm0           xterm6
 Visual                xterm0           rgbDarkGrey
-VisualNOS             none             xterm0            t=underline,bold g=underline,bold
+VisualNOS             none             xterm0            t=underline g=underline,bold
 WarningMsg            WarningMsg       none
 WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
@@ -172,15 +169,15 @@ Operator              xterm9           none
 PreProc               elfPreProc       none
 Repeat                xterm15          none
 Special               xterm9           none
-Statement             elfStatement     none              t=bold g=bold
+Statement             elfStatement     none              g=bold
 Todo                  elfBlue          xterm11
-Type                  elfType          none              t=bold g=bold
+Type                  elfType          none              g=bold
 Underlined            Underlined       none              t=underline g=underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
 ToolbarLine           none             none
-ToolbarButton         xterm0           xterm7            t=bold g=bold
+ToolbarButton         xterm0           xterm7            g=bold
 ; }}}
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
