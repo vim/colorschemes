@@ -6,10 +6,11 @@ Variant:    gui 256 16
 Color: bgDiffA     #5F875F        65             darkgreen
 Color: bgDiffC     #5F87AF        67             blue
 Color: bgDiffD     #AF5FAF        133            magenta
-Color: bgDiffT     #00D700        40             darkgreen
-Color: fgDiff      #FFFFFF        231            white
+Color: bgDiffT     #C6C6C6        251            grey
+Color: fgDiffW     #FFFFFF        231            white
+Color: fgDiffB     #000000        16             black
 
-DiffAdd            fgDiff         bgDiffA
-DiffChange         fgDiff         bgDiffC
-DiffText           fgDiff         bgDiffT
-DiffDelete         fgDiff         bgDiffD
+DiffAdd            fgDiffW        bgDiffA
+DiffChange         fgDiffW        bgDiffC
+DiffText           fgDiffB        bgDiffT
+DiffDelete         fgDiffW        bgDiffD
