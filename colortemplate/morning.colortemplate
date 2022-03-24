@@ -72,7 +72,7 @@ PmenuThumb         none           fg0
 
 TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
-TabLineSel         none           none           g=bold
+TabLineSel         fg0            bg0            g=bold
 
 ToolbarLine        none           none
 ToolbarButton      none           bg1            g=bold
