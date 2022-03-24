@@ -153,7 +153,7 @@ StatusLineNC          ronLightBlue     rgbDarkBlue
 VertSplit             ronLightBlue     rgbDarkBlue
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           rgbDarkGrey      xterm8
-TabLineSel            none             xterm0            g=bold
+TabLineSel            xterm14          xterm0            g=bold
 Terminal              xterm14          xterm0
 Title                 rgbDarkGrey      none
 Visual                none             none              t=reverse g=reverse

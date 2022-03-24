@@ -57,7 +57,7 @@ PmenuThumb         none           identifier
 
 TabLine            fg0            folded
 TabLineFill        none           bg1
-TabLineSel         none           none           g=bold
+TabLineSel         fg0            bg0            g=bold
 
 ToolbarLine        none           folded
 ToolbarButton      bg0            bg1            g=bold

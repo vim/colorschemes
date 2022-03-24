@@ -145,7 +145,7 @@ VertSplit             color00     color07
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
-TabLineSel            none        color00        g=bold
+TabLineSel            foreground  background     g=bold
 
 ToolbarLine           none        color00
 ToolbarButton         color00     color07        g=bold

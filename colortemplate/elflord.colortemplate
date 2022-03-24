@@ -150,7 +150,7 @@ StatusLine            xterm0           xterm14           g=bold
 StatusLineNC          xterm0           xterm6
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           none             xterm0            t=reverse g=reverse
-TabLineSel            none             xterm0            g=bold
+TabLineSel            xterm14          xterm0            g=bold
 Terminal              xterm14          xterm0
 Title                 Title            none              g=bold
 VertSplit             xterm0           xterm6

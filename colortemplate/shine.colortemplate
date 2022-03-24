@@ -73,7 +73,7 @@ PmenuThumb         DarkGrey       DarkGrey
 
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
-TabLineSel         none           none           g=bold
+TabLineSel         Black          White          g=bold
 
 ToolbarLine        none           none
 ToolbarButton      none           MediumGrey     g=bold
