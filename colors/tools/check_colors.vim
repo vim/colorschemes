@@ -21,6 +21,7 @@ def Test_check_colors()
         'Comment',
         'Conceal',
         'Constant',
+	'CurSearch',
         'Cursor',
         'CursorColumn',
         'CursorLine',

@@ -40,6 +40,7 @@ Structure          -> Type
 Tag                -> Special
 Typedef            -> Type
 lCursor            -> Cursor
+CurSearch          -> IncSearch
 ; }}}
 
 Background: dark
