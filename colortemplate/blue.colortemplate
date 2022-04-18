@@ -111,7 +111,7 @@ diffBDiffer       -> WarningMsg
 lCursor           -> Cursor
 LineNrAbove       -> LineNr
 LineNrBelow       -> LineNr
-CurSearch         -> IncSearch
+CurSearch         -> Search
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes

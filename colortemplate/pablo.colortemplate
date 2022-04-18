@@ -79,7 +79,7 @@ Normal                color15     color00
 Terminal           -> Normal
 StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
-CurSearch          -> IncSearch
+CurSearch          -> Search
 
 ; Syntax
 Comment               Comment     none

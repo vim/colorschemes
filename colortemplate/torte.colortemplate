@@ -159,7 +159,7 @@ PmenuThumb            none        rgbGrey
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
-CurSearch          -> IncSearch
+CurSearch          -> Search
 
 ;;; "Standard" diff colors
 Include: _diff
