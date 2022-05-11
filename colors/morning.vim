@@ -62,7 +62,7 @@ hi ColorColumn guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi Cursor guifg=#e4e4e4 guibg=#2e8b57 gui=NONE cterm=NONE
 hi lCursor guifg=#e4e4e4 guibg=#a52a2a gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
-hi SpellCap guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
+hi SpellCap guifg=#00d700 guibg=NONE guisp=#00d700 gui=undercurl cterm=underline
 hi SpellLocal guifg=#a52a2a guibg=NONE guisp=#a52a2a gui=undercurl cterm=underline
 hi SpellRare guifg=#2e8b57 guibg=NONE guisp=#2e8b57 gui=undercurl cterm=underline
 hi Comment guifg=#0000ff guibg=NONE gui=NONE cterm=NONE
@@ -130,7 +130,7 @@ if s:t_Co >= 256
   hi Cursor ctermfg=254 ctermbg=29 cterm=NONE
   hi lCursor ctermfg=254 ctermbg=124 cterm=NONE
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=201 ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=40 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=124 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=29 ctermbg=NONE cterm=underline
   hi Comment ctermfg=21 ctermbg=NONE cterm=NONE
@@ -201,7 +201,7 @@ if s:t_Co >= 16
   hi Cursor ctermfg=grey ctermbg=darkgreen cterm=NONE
   hi lCursor ctermfg=grey ctermbg=darkred cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=magenta ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=darkcyan ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=darkred ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=darkgreen ctermbg=NONE cterm=underline
   hi Comment ctermfg=blue ctermbg=NONE cterm=NONE
@@ -314,6 +314,7 @@ endif
 " Color: wildmenu    #ffff00        226            yellow
 " Color: error       #ff0000        196            red
 " Color: colorcolumn #ffffff        231            white
+" Color: spellcap    #00d700        40             green
 " Term colors: bg0     statement constant preproc identifier type special bg1
 " Term colors: comment statement constant preproc identifier type special fg0
 " Color: bgDiffA     #5F875F        65             darkgreen

@@ -48,7 +48,7 @@ hi SignColumn guifg=#008787 guibg=NONE gui=NONE cterm=NONE
 hi SpecialKey guifg=#5fffff guibg=NONE gui=NONE cterm=NONE
 hi SpellBad guifg=#d70000 guibg=NONE guisp=#d70000 gui=undercurl cterm=underline
 hi SpellCap guifg=#00ff00 guibg=NONE guisp=#00ff00 gui=undercurl cterm=underline
-hi SpellLocal guifg=#5fffff guibg=NONE guisp=#5fffff gui=undercurl cterm=underline
+hi SpellLocal guifg=#ffffff guibg=NONE guisp=#ffffff gui=undercurl cterm=underline
 hi SpellRare guifg=#d787d7 guibg=NONE guisp=#d787d7 gui=undercurl cterm=underline
 hi StatusLine guifg=#000087 guibg=#5fffff gui=NONE cterm=NONE
 hi StatusLineNC guifg=#000087 guibg=#008787 gui=NONE cterm=NONE
@@ -153,7 +153,7 @@ if s:t_Co >= 256
   hi SpecialKey ctermfg=87 ctermbg=NONE cterm=NONE
   hi SpellBad ctermfg=160 ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=46 ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=87 ctermbg=NONE cterm=underline
+  hi SpellLocal ctermfg=231 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=176 ctermbg=NONE cterm=underline
   hi StatusLine ctermfg=18 ctermbg=87 cterm=NONE
   hi StatusLineNC ctermfg=18 ctermbg=30 cterm=NONE
@@ -261,7 +261,7 @@ if s:t_Co >= 16
   hi SpecialKey ctermfg=cyan ctermbg=NONE cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=green ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=cyan ctermbg=NONE cterm=underline
+  hi SpellLocal ctermfg=white ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=magenta ctermbg=NONE cterm=underline
   hi StatusLine ctermfg=darkblue ctermbg=cyan cterm=NONE
   hi StatusLineNC ctermfg=darkblue ctermbg=darkcyan cterm=NONE

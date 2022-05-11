@@ -67,7 +67,7 @@ hi QuickFixLine guifg=#000000 guibg=#00cdcd gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
 hi SpellCap guifg=#5c5cff guibg=NONE guisp=#5c5cff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
-hi SpellRare guifg=#00ffff guibg=NONE guisp=#00ffff gui=undercurl cterm=underline
+hi SpellRare guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl cterm=underline
 hi StatusLine guifg=#ffff00 guibg=#0000ee gui=NONE cterm=NONE
 hi StatusLineNC guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi VertSplit guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
@@ -136,7 +136,7 @@ if s:t_Co >= 256
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=63 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=201 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=51 ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=226 ctermbg=NONE cterm=underline
   hi StatusLine ctermfg=226 ctermbg=20 cterm=NONE
   hi StatusLineNC ctermfg=16 ctermbg=231 cterm=NONE
   hi VertSplit ctermfg=16 ctermbg=231 cterm=NONE
@@ -208,7 +208,7 @@ if s:t_Co >= 16
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=blue ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=magenta ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=cyan ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=yellow ctermbg=NONE cterm=underline
   hi StatusLine ctermfg=yellow ctermbg=darkblue cterm=NONE
   hi StatusLineNC ctermfg=black ctermbg=white cterm=NONE
   hi VertSplit ctermfg=black ctermbg=white cterm=NONE

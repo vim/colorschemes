@@ -121,7 +121,7 @@ Cursor             background     foreground
 lCursor            background     color09
 
 SpellBad           color09        none           t=underline g=undercurl s=color09
-SpellCap           color01        none           t=underline g=undercurl s=color01
+SpellCap           color14        none           t=underline g=undercurl s=color14
 SpellLocal         color03        none           t=underline g=undercurl s=color03
 SpellRare          color11        none           t=underline g=undercurl s=color11
 

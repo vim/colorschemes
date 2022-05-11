@@ -86,7 +86,7 @@ hi VisualNOS guifg=NONE guibg=#000000 gui=bold,underline cterm=underline
 hi WarningMsg guifg=#ffff00 guibg=NONE gui=NONE cterm=NONE
 hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
-hi SpellCap guifg=#0000ff guibg=NONE guisp=#0000ff gui=undercurl cterm=underline
+hi SpellCap guifg=#ffffff guibg=NONE guisp=#ffffff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl cterm=underline
 hi SpellRare guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
 hi Comment guifg=#00ff00 guibg=NONE gui=NONE cterm=NONE
@@ -153,7 +153,7 @@ if s:t_Co >= 256
   hi WarningMsg ctermfg=226 ctermbg=NONE cterm=NONE
   hi WildMenu ctermfg=16 ctermbg=226 cterm=NONE
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=21 ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=231 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=226 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=201 ctermbg=NONE cterm=underline
   hi Comment ctermfg=46 ctermbg=NONE cterm=NONE
@@ -223,7 +223,7 @@ if s:t_Co >= 16
   hi WarningMsg ctermfg=yellow ctermbg=NONE cterm=NONE
   hi WildMenu ctermfg=black ctermbg=yellow cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=darkblue ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=white ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=yellow ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=magenta ctermbg=NONE cterm=underline
   hi Comment ctermfg=green ctermbg=NONE cterm=NONE

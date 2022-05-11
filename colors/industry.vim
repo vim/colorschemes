@@ -62,9 +62,9 @@ hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi Cursor guifg=#000000 guibg=#dadada gui=NONE cterm=NONE
 hi lCursor guifg=#000000 guibg=#ff0000 gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
-hi SpellCap guifg=#87afff guibg=NONE guisp=#87afff gui=undercurl cterm=underline
+hi SpellCap guifg=#005fff guibg=NONE guisp=#005fff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
-hi SpellRare guifg=#00ffff guibg=NONE guisp=#00ffff gui=undercurl cterm=underline
+hi SpellRare guifg=#00ff00 guibg=NONE guisp=#00ff00 gui=undercurl cterm=underline
 hi Comment guifg=#00afaf guibg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#ff00ff guibg=NONE gui=NONE cterm=NONE
 hi Function guifg=#00ff00 guibg=NONE gui=NONE cterm=NONE
@@ -132,9 +132,9 @@ if s:t_Co >= 256
   hi Cursor ctermfg=16 ctermbg=253 cterm=NONE
   hi lCursor ctermfg=16 ctermbg=196 cterm=NONE
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=111 ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=27 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=201 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=51 ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=46 ctermbg=NONE cterm=underline
   hi Comment ctermfg=37 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=201 ctermbg=NONE cterm=NONE
   hi Function ctermfg=46 ctermbg=NONE cterm=NONE
@@ -205,9 +205,9 @@ if s:t_Co >= 16
   hi Cursor ctermfg=black ctermbg=white cterm=NONE
   hi lCursor ctermfg=black ctermbg=red cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=darkblue ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=blue ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=magenta ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=cyan ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=green ctermbg=NONE cterm=underline
   hi Comment ctermfg=darkcyan ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=magenta ctermbg=NONE cterm=NONE
   hi Function ctermfg=green ctermbg=NONE cterm=NONE

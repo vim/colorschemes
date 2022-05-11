@@ -38,6 +38,9 @@ Color: error       #ff0000        196            red
 Color: linenr      #a52a2a        124            darkred
 Color: colorcolumn #eeeeee        255            grey
 Color: slateblue   #6a5acd        62             blue
+Color: darkcyan    #008787        30             darkcyan
+Color: darkgreen   #008700        28             darkgreen
+Color: darkyellow  #878700        100            darkyellow
 
 ;;; Chrome
 
@@ -105,8 +108,8 @@ lCursor            fg0            constant
 
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           type           none           t=underline g=undercurl s=type
-SpellLocal         statement      none           t=underline g=undercurl s=statement
-SpellRare          constant       none           t=underline g=undercurl s=constant
+SpellLocal         darkyellow     none           t=underline g=undercurl s=darkyellow
+SpellRare          darkcyan       none           t=underline g=undercurl s=darkcyan
 
 
 ;;; Syntax

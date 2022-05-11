@@ -66,7 +66,7 @@ hi debugBreakpoint guifg=#ffa0a0 guibg=NONE gui=reverse cterm=reverse
 hi SpellBad guifg=#cd5c5c guibg=NONE guisp=#cd5c5c gui=undercurl cterm=underline
 hi SpellCap guifg=#75a0ff guibg=NONE guisp=#75a0ff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ffde9b guibg=NONE guisp=#ffde9b gui=undercurl cterm=underline
-hi SpellRare guifg=#ffa0a0 guibg=NONE guisp=#ffa0a0 gui=undercurl cterm=underline
+hi SpellRare guifg=#9acd32 guibg=NONE guisp=#9acd32 gui=undercurl cterm=underline
 hi Comment guifg=#6dceeb guibg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#89fb98 guibg=NONE gui=NONE cterm=NONE
 hi Statement guifg=#f0e68c guibg=NONE gui=bold cterm=NONE
@@ -134,7 +134,7 @@ if s:t_Co >= 256
   hi SpellBad ctermfg=167 ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=111 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=222 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=217 ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=112 ctermbg=NONE cterm=underline
   hi Comment ctermfg=81 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=120 ctermbg=NONE cterm=NONE
   hi Statement ctermfg=186 ctermbg=NONE cterm=NONE
@@ -203,9 +203,9 @@ if s:t_Co >= 16
   hi debugPC ctermfg=grey ctermbg=NONE cterm=reverse
   hi debugBreakpoint ctermfg=cyan ctermbg=NONE cterm=reverse
   hi SpellBad ctermfg=darkred ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=darkblue ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=magenta ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=cyan ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=blue ctermbg=NONE cterm=underline
+  hi SpellLocal ctermfg=darkyellow ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=darkgreen ctermbg=NONE cterm=underline
   hi Comment ctermfg=cyan ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=green ctermbg=NONE cterm=NONE
   hi Statement ctermfg=yellow ctermbg=NONE cterm=NONE

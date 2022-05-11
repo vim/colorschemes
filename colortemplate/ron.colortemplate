@@ -163,7 +163,7 @@ WarningMsg            xterm11          none
 WildMenu              xterm0           xterm11
 
 SpellBad              xterm9           none              g=undercurl t=underline s=xterm9
-SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
+SpellCap              xterm15          none              g=undercurl t=underline s=xterm15
 SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
 SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
 

@@ -62,7 +62,7 @@ hi WildMenu guifg=#000000 guibg=#ffff00 gui=NONE cterm=NONE
 hi Cursor guifg=#000000 guibg=#87ff87 gui=NONE cterm=NONE
 hi lCursor guifg=#000000 guibg=#ff0000 gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
-hi SpellCap guifg=#ffa700 guibg=NONE guisp=#ffa700 gui=undercurl cterm=underline
+hi SpellCap guifg=#00ffff guibg=NONE guisp=#00ffff gui=undercurl cterm=underline
 hi SpellLocal guifg=#ffd7af guibg=NONE guisp=#ffd7af gui=undercurl cterm=underline
 hi SpellRare guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl cterm=underline
 hi Comment guifg=#ffa700 guibg=NONE gui=NONE cterm=NONE
@@ -130,7 +130,7 @@ if s:t_Co >= 256
   hi Cursor ctermfg=16 ctermbg=120 cterm=NONE
   hi lCursor ctermfg=16 ctermbg=196 cterm=NONE
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=214 ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=51 ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=223 ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=226 ctermbg=NONE cterm=underline
   hi Comment ctermfg=214 ctermbg=NONE cterm=NONE
@@ -201,7 +201,7 @@ if s:t_Co >= 16
   hi Cursor ctermfg=black ctermbg=green cterm=NONE
   hi lCursor ctermfg=black ctermbg=red cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
-  hi SpellCap ctermfg=darkred ctermbg=NONE cterm=underline
+  hi SpellCap ctermfg=cyan ctermbg=NONE cterm=underline
   hi SpellLocal ctermfg=darkyellow ctermbg=NONE cterm=underline
   hi SpellRare ctermfg=yellow ctermbg=NONE cterm=underline
   hi Comment ctermfg=darkred ctermbg=NONE cterm=NONE

@@ -78,7 +78,7 @@ SignColumn           darkcyan          none
 SpecialKey           cyan              none
 SpellBad             red               none              g=undercurl t=underline s=red
 SpellCap             green             none              g=undercurl t=underline s=green
-SpellLocal           cyan              none              g=undercurl t=underline s=cyan
+SpellLocal           white             none              g=undercurl t=underline s=white
 SpellRare            magenta           none              g=undercurl t=underline s=magenta
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan

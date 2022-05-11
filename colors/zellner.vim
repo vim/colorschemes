@@ -63,8 +63,8 @@ hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
 hi lCursor guifg=#000000 guibg=#ff00ff gui=NONE cterm=NONE
 hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl cterm=underline
 hi SpellCap guifg=#0000ff guibg=NONE guisp=#0000ff gui=undercurl cterm=underline
-hi SpellLocal guifg=#a52a2a guibg=NONE guisp=#a52a2a gui=undercurl cterm=underline
-hi SpellRare guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl cterm=underline
+hi SpellLocal guifg=#878700 guibg=NONE guisp=#878700 gui=undercurl cterm=underline
+hi SpellRare guifg=#008787 guibg=NONE guisp=#008787 gui=undercurl cterm=underline
 hi Comment guifg=#ff0000 guibg=NONE gui=NONE cterm=NONE
 hi Constant guifg=#ff00ff guibg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#0000ff guibg=NONE gui=NONE cterm=NONE
@@ -132,8 +132,8 @@ if s:t_Co >= 256
   hi lCursor ctermfg=16 ctermbg=201 cterm=NONE
   hi SpellBad ctermfg=196 ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=21 ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=124 ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=201 ctermbg=NONE cterm=underline
+  hi SpellLocal ctermfg=100 ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=30 ctermbg=NONE cterm=underline
   hi Comment ctermfg=196 ctermbg=NONE cterm=NONE
   hi Constant ctermfg=201 ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=21 ctermbg=NONE cterm=NONE
@@ -204,8 +204,8 @@ if s:t_Co >= 16
   hi lCursor ctermfg=black ctermbg=magenta cterm=NONE
   hi SpellBad ctermfg=red ctermbg=NONE cterm=underline
   hi SpellCap ctermfg=blue ctermbg=NONE cterm=underline
-  hi SpellLocal ctermfg=darkred ctermbg=NONE cterm=underline
-  hi SpellRare ctermfg=magenta ctermbg=NONE cterm=underline
+  hi SpellLocal ctermfg=darkyellow ctermbg=NONE cterm=underline
+  hi SpellRare ctermfg=darkcyan ctermbg=NONE cterm=underline
   hi Comment ctermfg=red ctermbg=NONE cterm=NONE
   hi Constant ctermfg=magenta ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=blue ctermbg=NONE cterm=NONE
@@ -319,6 +319,9 @@ endif
 " Color: linenr      #a52a2a        124            darkred
 " Color: colorcolumn #eeeeee        255            grey
 " Color: slateblue   #6a5acd        62             blue
+" Color: darkcyan    #008787        30             darkcyan
+" Color: darkgreen   #008700        28             darkgreen
+" Color: darkyellow  #878700        100            darkyellow
 " Term colors: bg0     statement constant preproc identifier type special bg1
 " Term colors: comment statement constant preproc identifier type special fg0
 " Color: bgDiffA     #5F875F        65             darkgreen
