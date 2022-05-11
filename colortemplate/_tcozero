@@ -54,6 +54,8 @@ CursorIM       omit   omit
 ToolbarLine    omit   omit    reverse
 ToolbarButton  omit   omit    bold,reverse
 CurSearch      omit   omit    reverse
+CursorLineFold omit   omit    underline
+CursorLineSign omit   omit    underline
 
 Comment        omit   omit    bold
 Constant       omit   omit
