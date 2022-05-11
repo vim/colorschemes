@@ -131,9 +131,9 @@ Cursor             background     foreground
 lCursor            background     color09
 
 SpellBad           color09        none           t=underline g=undercurl s=color09
-SpellCap           color04        none           t=underline g=undercurl s=color04
+SpellCap           color12        none           t=underline g=undercurl s=color12
 SpellLocal         color13        none           t=underline g=undercurl s=color13
-SpellRare          color14        none           t=underline g=undercurl s=color14
+SpellRare          color10        none           t=underline g=undercurl s=color10
 
 
 ;;; :h group-names

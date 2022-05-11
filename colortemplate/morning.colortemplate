@@ -38,6 +38,7 @@ Color: pmenu       #b2b2b2        249            white
 Color: wildmenu    #ffff00        226            yellow
 Color: error       #ff0000        196            red
 Color: colorcolumn #ffffff        231            white
+Color: spellcap    #00d700        40             green
 
 
 ;;; Chrome
@@ -104,8 +105,14 @@ ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
 lCursor            bg0            statement
 
+Variant: 16
+SpellBad           error          none           t=underline
+SpellCap           identifier     none           t=underline
+SpellLocal         statement      none           t=underline
+SpellRare          type           none           t=underline
+Variant: gui 256
 SpellBad           error          none           t=underline g=undercurl s=error
-SpellCap           constant       none           t=underline g=undercurl s=constant
+SpellCap           spellcap       none           t=underline g=undercurl s=spellcap
 SpellLocal         statement      none           t=underline g=undercurl s=statement
 SpellRare          type           none           t=underline g=undercurl s=type
 
