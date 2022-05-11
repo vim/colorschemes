@@ -120,6 +120,7 @@ diffDiffer        -> WarningMsg
 diffCommon        -> WarningMsg
 diffBDiffer       -> WarningMsg
 lCursor           -> Cursor
+CurSearch         -> Search
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes

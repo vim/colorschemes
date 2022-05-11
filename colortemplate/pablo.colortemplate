@@ -79,6 +79,7 @@ Normal                color15     color00
 Terminal           -> Normal
 StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
+CurSearch          -> Search
 
 ; Syntax
 Comment               Comment     none
@@ -158,7 +159,6 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
-
 
 
 ;;; "Standard" diff colors

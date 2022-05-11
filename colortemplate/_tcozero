@@ -53,6 +53,7 @@ WildMenu       omit   omit    bold
 CursorIM       omit   omit
 ToolbarLine    omit   omit    reverse
 ToolbarButton  omit   omit    bold,reverse
+CurSearch      omit   omit    reverse
 
 Comment        omit   omit    bold
 Constant       omit   omit

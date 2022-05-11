@@ -185,6 +185,7 @@ Title              color11        none           g=bold
 Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
+CurSearch       -> Search
 
 
 ;;; "Standard" diff colors

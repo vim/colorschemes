@@ -143,6 +143,7 @@ Term colors: DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan Whi
 Terminal        -> Normal
 LineNrAbove     -> LineNr
 LineNrBelow     -> LineNr
+CurSearch       -> Search
 
 
 ;;; "Standard" diff colors
