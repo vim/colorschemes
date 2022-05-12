@@ -146,7 +146,7 @@ SignColumn            xterm14          none
 SpecialKey            xterm1           none
 
 SpellBad              xterm9           none              t=underline g=undercurl s=xterm9
-SpellCap              Type             none              t=underline g=undercurl s=rgbBlue
+SpellCap              Type             none              t=underline g=undercurl s=Type
 SpellLocal            xterm14          none              t=underline g=undercurl s=xterm14
 SpellRare             xterm13          none              t=underline g=undercurl s=xterm13
 
