@@ -160,6 +160,8 @@ Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
 
 ;;; "Standard" diff colors
 Include: _diff

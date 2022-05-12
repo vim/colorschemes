@@ -80,6 +80,8 @@ Terminal           -> Normal
 StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
 CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
 
 ; Syntax
 Comment               Comment     none

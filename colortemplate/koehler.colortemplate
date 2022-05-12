@@ -43,6 +43,8 @@ Tag                -> Special
 Typedef            -> Type
 lCursor            -> Cursor
 CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
 ; }}}
 
 Background: dark
