@@ -119,6 +119,7 @@ SpellRare          type           none           t=underline g=undercurl s=type
 
 ;;; Syntax
 
+Variant: gui 256 16
 Comment            comment        none
 Constant           constant       bg2
 Identifier         identifier     none
