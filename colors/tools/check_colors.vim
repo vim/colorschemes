@@ -26,6 +26,8 @@ def Test_check_colors()
         'CursorColumn',
         'CursorLine',
         'CursorLineNr',
+        'CursorLineFold',
+        'CursorLineSign',
         'DiffAdd',
         'DiffChange',
         'DiffDelete',
