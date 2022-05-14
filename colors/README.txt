@@ -71,7 +71,7 @@ To see which highlight group is used where, see ":help highlight-groups" and
 
 You can use ":highlight" to find out the current colors.  Exception: the
 ctermfg and ctermbg values are numbers, which are only valid for the current
-terminal.  Use the color names instead for better portability. See
+terminal.  Use the color names instead for better portability.  See
 ":help cterm-colors".
 
 The default color settings can be found in the source file src/syntax.c.
@@ -115,18 +115,19 @@ please check the following items:
   for the same reason.
 
 - Typographic attributes (bold, italic, underline, reverse, etc.) are not
-  universally supported. Don't count on any of them.
+  universally supported.  Don't count on any of them.
 
 - Is "g:terminal_ansi_colors" set to a list of 16 #RRGGBB values?
 
 - Try to keep your color scheme simple by avoiding unnecessary logic and
-  refraining from adding options. The best color scheme is one that only
+  refraining from adding options.  The best color scheme is one that only
   requires:
 
   	colorscheme foobar
 
 The color schemes distributed with Vim are built with lifepillar/colortemplate
-(https://github.com/lifepillar/vim-colortemplate)
+(https://github.com/lifepillar/vim-colortemplate).  It is therefore highly
+recommended.
 
 If you would like your color scheme to be distributed with Vim, make sure
 that:
