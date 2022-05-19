@@ -66,4 +66,8 @@ If you use a plugin manager, do the same as with your other plugins.
 
 * [The project's wiki](https://github.com/vim/colorschemes/wiki)
 
+## Legacy
+
+The original colorschemes can be found under `legacy_colors`.
+
 [//]: # ( Vim: set spell spelllang=en: )
