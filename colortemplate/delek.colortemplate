@@ -106,7 +106,7 @@ debugPC            special        statement
 Comment            comment        none
 Constant           constant       none
 Identifier         identifier     none
-Statement          statement      none           g=bold
+Statement          statement      none           bold
 PreProc            preproc        none
 Type               type           none           g=bold
 Special            special        none
