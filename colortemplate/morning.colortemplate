@@ -123,7 +123,7 @@ Variant: gui 256 16
 Comment            comment        none
 Constant           constant       bg2
 Identifier         identifier     none
-Statement          statement      none           g=bold
+Statement          statement      none           bold
 PreProc            preproc        none
 Type               type           none           g=bold
 Special            special        none
