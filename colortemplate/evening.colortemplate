@@ -134,7 +134,7 @@ Identifier           cyan              none
 Ignore               grey20            none
 PreProc              magenta           none
 Special              orange            none
-Statement            lightyellow       none              g=bold
+Statement            lightyellow       none              bold
 Todo                 yellow            blue              reverse
 Type                 green             none              g=bold
 Underlined           comment           none              underline
