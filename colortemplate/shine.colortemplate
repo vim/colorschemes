@@ -114,7 +114,7 @@ SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkB
 ;;; Syntax
 
 Identifier         DarkCyan       none
-Statement          DarkGreen      none           g=bold
+Statement          DarkGreen      none           bold
 Constant           MutedRed       none
 Number             MutedRed       none           g=bold
 Float              MutedRed       none           g=bold
