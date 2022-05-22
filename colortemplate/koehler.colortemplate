@@ -121,26 +121,26 @@ Variant: gui 256
 ColorColumn           none             koeDarkRed
 CursorColumn          none             koeCursorLine
 CursorLine            none             koeCursorLine
-CursorLineNr          xterm11          none              g=bold
+CursorLineNr          xterm11          none              bold
 Folded                xterm6           rgbGrey40
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm11
 Conceal               xterm7           rgbDarkGrey
 Cursor                xterm0           xterm10
 Directory             koeDirectory     none
-EndOfBuffer           xterm1           none              g=bold
+EndOfBuffer           xterm1           none              bold
 ErrorMsg              xterm1           xterm15           reverse
 FoldColumn            xterm6           none
 LineNr                xterm11          none
 MatchParen            none             rgbBlue
-ModeMsg               xterm15          rgbBlue           g=bold
-MoreMsg               rgbSeaGreen      none              g=bold
-NonText               xterm1           none              g=bold
+ModeMsg               xterm15          rgbBlue           bold
+MoreMsg               rgbSeaGreen      none              bold
+NonText               xterm1           none              bold
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             none
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-Question              xterm12          none              g=bold
+Question              xterm12          none              bold
 Search                xterm15          xterm9
 SignColumn            xterm14          none
 SpecialKey            xterm1           none
@@ -150,12 +150,12 @@ SpellCap              Type             none              t=underline g=undercurl
 SpellLocal            xterm14          none              t=underline g=undercurl s=xterm14
 SpellRare             xterm13          none              t=underline g=undercurl s=xterm13
 
-StatusLine            rgbBlue          xterm15           g=bold
+StatusLine            rgbBlue          xterm15           bold
 StatusLineNC          rgbBlue          xterm7
-TabLine               rgbBlue          xterm15           g=bold
-TabLineFill           rgbBlue          xterm15           g=bold
-TabLineSel            xterm15          rgbBlue           g=bold
-Title                 xterm13          none              g=bold
+TabLine               rgbBlue          xterm15           bold
+TabLineFill           rgbBlue          xterm15           bold
+TabLineSel            xterm15          rgbBlue           bold
+Title                 xterm13          none              bold
 VertSplit             rgbBlue          xterm7
 Visual                none             rgbGrey40         t=reverse g=reverse
 VisualNOS             none             xterm0            t=underline g=underline,bold
@@ -169,15 +169,15 @@ Identifier            Identifier       none
 Ignore                xterm0           xterm0
 PreProc               PreProc          none
 Special               Special          none
-Statement             Statement        none              g=bold
+Statement             Statement        none              bold
 Todo                  rgbBlue          xterm11
-Type                  Type             none              g=bold
+Type                  Type             none              bold
 Underlined            koeLightBlue     none              t=underline g=bold,underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
 ToolbarLine           none             none
-ToolbarButton         xterm0           xterm7            g=bold
+ToolbarButton         xterm0           xterm7            bold
 ; }}}
 
 
