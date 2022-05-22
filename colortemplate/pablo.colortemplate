@@ -87,7 +87,7 @@ CursorLineSign     -> CursorLine
 Comment               Comment     none
 Constant              Constant    none
 Identifier            Identifier  none
-Statement             Statement   none           g=bold
+Statement             Statement   none           bold
 PreProc               PreProc     none
 Type                  Type        none
 Special               Special     none
@@ -102,7 +102,7 @@ Cursor                color00     color15
 lCursor               color00     color15
 CursorIM              none        fg
 
-Title                 Title       none           g=bold
+Title                 Title       none           bold
 Directory             Directory   none
 Search                color00     Search
 IncSearch             color15     none           t=reverse g=reverse
