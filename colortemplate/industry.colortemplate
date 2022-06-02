@@ -21,7 +21,7 @@ License:     Same as Vim
 ;         Industrial color scheme is by nature clear, safe and productive.
 ;         Yet, depends on the file type's syntax, it might appear incorrect.
 
-Variant: gui 256 16
+Variant: gui 256 16 8
 Background: dark
 
 
@@ -57,6 +57,85 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
 ;;; chrome
+
+Variant: 8
+Normal             color07        color00
+
+EndOfBuffer        color07        color00        bold
+StatusLine         color00        color07
+StatusLineNC       color00        color07
+StatusLineTerm     color00        color02
+StatusLineTermNC   color00        color02
+VertSplit          color00        color07
+
+
+Pmenu              color00        color07
+PmenuSel           color00        color03
+PmenuSbar          none           color00
+PmenuThumb         color00        color03
+
+TabLine            color00        color07
+TabLineFill        none           color07
+TabLineSel         color07        color00
+
+ToolbarButton      color00        color07
+ToolbarLine        none           color00
+NonText            color06        none
+SpecialKey         color06        none
+
+Folded             color06        none
+Visual             none           none           reverse
+CursorLine         none           none           underline
+CursorColumn       none           none           underline
+CursorLineNr       color03        none           bold
+ColorColumn        color00        color03
+
+QuickFixLine       color00        color05
+VisualNOS          color00        color07
+LineNr             color03        none
+FoldColumn         color06        none
+SignColumn         color06        none
+
+Underlined         none           none           underline
+
+Error              color07        color01
+ErrorMsg           color07        color01
+ModeMsg            color07        none
+WarningMsg         color01        none
+MoreMsg            color02        none
+Question           color02        none
+
+Todo               color04        color03
+MatchParen         color00        color03
+Search             color00        color03
+IncSearch          color00        color02
+WildMenu           color00        color03
+
+SpellBad           color01        none           underline
+SpellCap           color04        none           underline
+SpellLocal         color05        none           underline
+SpellRare          color02        none           underline
+
+
+;;; :h group-names
+Comment            color06        none           bold
+
+Identifier         color13        none
+Function           color02        none
+Statement          color07        none           bold
+Constant           color06        none
+PreProc            color03        none
+Type               color02        none           bold
+Special            color01        none
+Delimiter          color03        none
+
+Directory          color06        none
+Conceal            color07        none
+Ignore             none           none
+
+Title              color05        none           bold
+
+
 
 Variant: gui 256 16
 
