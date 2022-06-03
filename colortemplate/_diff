@@ -20,7 +20,7 @@ DiffDelete         fgDiffW        bgDiffD
 
 Variant:    8
 
-DiffAdd            fgDiffB        bgDiffA
-DiffChange         fgDiffB        bgDiffC8
+DiffAdd            fgDiffW        bgDiffA
+DiffChange         fgDiffW        bgDiffC8
 DiffText           fgDiffB        bgDiffT
-DiffDelete         fgDiffB        bgDiffD8
+DiffDelete         fgDiffW        bgDiffD8
