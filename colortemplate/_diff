@@ -20,7 +20,14 @@ DiffDelete         fgDiffW        bgDiffD
 
 Variant:    8
 
+<<<<<<< HEAD
 DiffAdd            fgDiffW        bgDiffA
 DiffChange         fgDiffW        bgDiffC8
 DiffText           fgDiffB        bgDiffT
 DiffDelete         fgDiffW        bgDiffD8
+=======
+DiffAdd            fgDiffB        bgDiffA
+DiffChange         fgDiffB        bgDiffC8
+DiffText           fgDiffB        bgDiffT
+DiffDelete         fgDiffB        bgDiffD8
+>>>>>>> 2b108ed (feat(8c): update diff template)
