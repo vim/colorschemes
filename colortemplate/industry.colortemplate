@@ -62,11 +62,11 @@ Variant: 8
 Normal             color07        color00
 
 EndOfBuffer        color07        color00        bold
-StatusLine         color00        color07
-StatusLineNC       color00        color07
-StatusLineTerm     color00        color02
-StatusLineTermNC   color00        color02
-VertSplit          color00        color07
+StatusLine         color07        color00        reverse,bold
+StatusLineNC       color07        color00        reverse
+StatusLineTerm     color02        color00        reverse,bold
+StatusLineTermNC   color02        color00        reverse
+VertSplit          color07        color00        reverse
 
 
 Pmenu              color00        color07
@@ -78,7 +78,7 @@ TabLine            color00        color07
 TabLineFill        none           color07
 TabLineSel         color07        color00
 
-ToolbarButton      color00        color07
+ToolbarButton      color07        color00        reverse,bold
 ToolbarLine        none           color00
 NonText            color06        none
 SpecialKey         color06        none
