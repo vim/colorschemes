@@ -185,6 +185,77 @@ ToolbarButton         xterm0           xterm7            g=bold
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 
+Variant: 8
+; Group               Foreground       Background        Attributes
+Normal                xterm6           xterm0
+
+QuickFixLine          xterm7           xterm2
+
+ColorColumn           xterm6           xterm1
+CursorColumn          none             none              underline
+CursorLine            none             none              underline
+CursorLineNr          xterm3           none              underline
+Folded                xterm6           none
+
+Conceal               xterm7           none
+Directory             xterm6           none
+EndOfBuffer           xterm4           none
+ErrorMsg              xterm7           xterm1
+FoldColumn            xterm6           none
+IncSearch             none             none              reverse
+LineNr                xterm3           none
+MatchParen            xterm0           xterm6
+ModeMsg               none             none
+MoreMsg               xterm2           none
+NonText               xterm4           none
+Pmenu                 xterm7           none
+PmenuSbar             xterm7           xterm7
+PmenuSel              xterm0           xterm6
+PmenuThumb            none             xterm6
+Question              xterm2           none
+Search                xterm0           xterm3
+SignColumn            xterm6           none
+SpecialKey            xterm6           none
+SpellBad              xterm1           none              underline
+SpellCap              xterm4           none              underline
+SpellLocal            xterm3           none              underline
+SpellRare             xterm5           none              underline
+StatusLine            xterm6           none              reverse,bold
+StatusLineNC          xterm0           xterm6
+TabLine               xterm0           xterm6
+TabLineFill           none             none              reverse
+TabLineSel            xterm6           none
+Terminal              xterm6           none
+Title                 xterm5           none
+VertSplit             xterm0           xterm6
+Visual                xterm0           xterm7
+VisualNOS             none             none              underline
+WarningMsg            xterm1           none
+WildMenu              xterm0           xterm3
+; Other conventional group names (see `:help group-name`)
+Comment               xterm4           none
+Constant              xterm5           none
+Error                 xterm7           xterm1
+Function              xterm7           none
+Identifier            xterm6           none
+Ignore                xterm0           none
+Operator              xterm1           none
+PreProc               xterm5           none
+Repeat                xterm7           none
+Special               xterm1           none
+Statement             xterm1           none
+Todo                  xterm4           xterm3
+Type                  xterm2           none
+Underlined            xterm4           none              underline
+; See `:help CursorIM`
+CursorIM              none             fg
+; See `:help window-toolbar`
+ToolbarLine           none             none
+ToolbarButton         xterm0           xterm7
+; }}}
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+
 ;;; "Standard" diff colors
 Include: _diff
 
