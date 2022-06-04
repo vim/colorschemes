@@ -73,6 +73,89 @@ Color: Pmenu          #303030     236            darkgrey
 Color: Folded         #303030     236            darkgrey
 Color: Cursorline     #3a3a3a     237            darkgrey
 
+
+
+Variant: 8
+Normal                color07     color00
+
+EndOfBuffer           color07     color00        bold
+StatusLine            color04     color07        reverse
+StatusLineNC          color07     color00        reverse
+StatusLineTerm        color04     color07        reverse
+StatusLineTermNC      color07     color00        reverse
+VertSplit             color07     color00        reverse
+
+
+Pmenu                 color00     color07
+PmenuSel              color00     color03
+PmenuSbar             none        color00
+PmenuThumb            color00     color03
+
+TabLine               color00     color07
+TabLineFill           none        color07
+TabLineSel            color07     color00
+
+ToolbarButton         color07     color00        reverse,bold
+ToolbarLine           none        color00
+NonText               color06     none
+SpecialKey            color06     none
+
+Folded                color06     none
+Visual                none        none           reverse
+CursorLine            none        none           underline
+CursorColumn          none        none           underline
+CursorLineNr          color03     none           bold
+ColorColumn           color00     color03
+
+QuickFixLine          color00     color05
+VisualNOS             color00     color07
+LineNr                color03     none
+FoldColumn            color06     none
+SignColumn            color06     none
+
+Underlined            none        none           underline
+
+Error                 color07     color01
+ErrorMsg              color07     color01
+ModeMsg               color07     none
+WarningMsg            color01     none
+MoreMsg               color02     none
+Question              color02     none
+
+Todo                  color00     Todo
+MatchParen            color00     color06
+Search                color00     Search
+IncSearch             color00     color02
+WildMenu              color00     color03
+
+SpellBad              color01     none           underline
+SpellCap              color04     none           underline
+SpellLocal            color05     none           underline
+SpellRare             color02     none           underline
+
+
+;;; :h group-names
+Comment               color07     none           bold
+
+Comment               Comment     none
+Constant              color06     none           bold
+Identifier            color06     none
+Statement             color03     none           bold
+PreProc               color02     none
+Type                  color02     none           bold
+Special               color04     none
+Underlined            none        none           underline
+Ignore                none        none
+Error                 color07     color01
+Todo                  color00     color03
+
+Directory             color02     none           bold
+Conceal               color07     none
+
+Title                 color05     none           bold
+
+
+
 Variant: gui 256 16
 
 Normal                color15     color00
