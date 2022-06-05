@@ -9,7 +9,6 @@ Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
 Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
-Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
@@ -37,8 +36,12 @@ Color: coral         #ff7f50           209               red
 Color: olivedrab     #6b8e23           64                green
 Color: slateblue     #6a5acd           62                darkmagenta
 
-;;; Chrome
+;;; Terminal
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
+Term colors: darkgray red green yellow xtermblue magenta cyan white
+
 ;;; Group            Foreground        Background        Attributes
+Variant:    gui 256 16
 Normal               yellow            darkblue
 
 Variant:    16
@@ -57,7 +60,7 @@ ColorColumn          none              darkmagenta
 Conceal              none              none
 Cursor               black             green
 CursorColumn         none              blue
-CursorIM             none              fg
+CursorIM             black             yellow
 CursorLineNr         yellow            blue              g=bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
@@ -82,11 +85,6 @@ SpellLocal           white             none              g=undercurl t=underline
 SpellRare            magenta           none              g=undercurl t=underline s=magenta
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan
-StatusLineTerm    -> StatusLine
-StatusLineTermNC  -> StatusLineNC
-TabLine           -> StatusLineNC
-TabLineFill       -> StatusLineNC
-TabLineSel        -> StatusLine
 ToolbarButton        white             blue
 ToolbarLine          none              none
 VertSplit            darkcyan          none
@@ -96,24 +94,6 @@ WarningMsg           red               none
 WildMenu             darkblue          yellow
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
-
-Terminal          -> Normal
-Debug             -> Special
-diffAdded         -> String
-diffRemoved       -> WarningMsg
-diffOnly          -> WarningMsg
-diffNoEOL         -> WarningMsg
-diffIsA           -> WarningMsg
-diffIdentical     -> WarningMsg
-diffDiffer        -> WarningMsg
-diffCommon        -> WarningMsg
-diffBDiffer       -> WarningMsg
-lCursor           -> Cursor
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
-CurSearch         -> Search
-CursorLineFold    -> CursorLine
-CursorLineSign    -> CursorLine
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
@@ -131,6 +111,98 @@ Type                 orange            none              g=bold
 Underlined           none              none              underline
 Label                yellow            none
 
+Variant: 8
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Normal               darkyellow        blue
+
+CursorLine           none              none              underline
+Pmenu                black             cyan
+PmenuSel             black             gray
+
+QuickFixLine         black             magenta
+ColorColumn          none              magenta
+Conceal              none              none
+Cursor               black             green
+CursorColumn         blue              yellow            reverse,bold
+CursorIM             black             yellow
+EndOfBuffer          yellow            blue
+Error                red               blue              reverse
+ErrorMsg             gray              red
+FoldColumn           cyan              none
+Folded               blue              yellow
+IncSearch            magenta           black             reverse
+LineNr               cyan              none
+MatchParen           none              none              reverse
+ModeMsg              blue              green
+MoreMsg              cyan              none
+NonText              magenta           none
+PmenuSbar            none              none
+PmenuThumb           none              white
+Question             green             none
+Search               yellow            black             reverse
+SignColumn           cyan              none
+SpecialKey           cyan              none
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           gray              none              underline
+SpellRare            magenta           none              underline
+StatusLine           cyan              blue              reverse,bold
+StatusLineNC         blue              cyan
+ToolbarButton        blue              gray              reverse,bold
+ToolbarLine          none              none
+VertSplit            cyan              none
+Visual               gray              cyan
+VisualNOS            cyan              gray
+WarningMsg           red               none
+WildMenu             blue              yellow
+debugBreakpoint      green             blue              reverse
+debugPC              cyan              blue              reverse
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory            cyan              none
+Title                magenta           none
+Comment              black             none              bold
+Constant             cyan              none
+Identifier           gray              none
+Ignore               gray              none
+PreProc              green             none
+Special              magenta           none
+Statement            gray              none
+Todo                 none              none              reverse
+Type                 red               none
+Underlined           none              none              underline
+Label                yellow            none
+
+Variant: gui 256 16 8
+;;; Links
+;;; Chrome
+Terminal          -> Normal
+Debug             -> Special
+diffAdded         -> String
+diffRemoved       -> WarningMsg
+diffOnly          -> WarningMsg
+diffNoEOL         -> WarningMsg
+diffIsA           -> WarningMsg
+diffIdentical     -> WarningMsg
+diffDiffer        -> WarningMsg
+diffCommon        -> WarningMsg
+diffBDiffer       -> WarningMsg
+lCursor           -> Cursor
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
+CurSearch         -> Search
+CursorLineNr      -> CursorLine
+CursorLineFold    -> CursorLine
+CursorLineSign    -> CursorLine
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+TabLine           -> StatusLineNC
+TabLineFill       -> StatusLineNC
+TabLineSel        -> StatusLine
+
+;;; Syntax
 Boolean           -> Constant
 Character         -> Constant
 Conditional       -> Statement
@@ -154,10 +226,6 @@ Structure         -> Type
 Tag               -> Special
 Typedef           -> Type
 Terminal          -> Normal
-
-;;; Terminal
-Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
-Term colors: darkgray red green yellow xtermblue magenta cyan white
 
 ;;; "Standard" diff colors
 Include: _diff
