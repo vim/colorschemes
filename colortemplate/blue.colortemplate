@@ -152,7 +152,7 @@ StatusLineNC         blue              cyan
 ToolbarButton        blue              gray              reverse,bold
 ToolbarLine          none              none
 VertSplit            cyan              none
-Visual               gray              cyan
+Visual               black             cyan
 VisualNOS            cyan              gray
 WarningMsg           red               none
 WildMenu             blue              yellow
