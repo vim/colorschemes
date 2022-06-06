@@ -8,7 +8,6 @@ Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
 
-Variant:    gui 256 16
 Background: dark
 
 
@@ -75,11 +74,89 @@ Color: FoldedBG       #3a3a3a     237            darkgrey
 Color: Pmenu          #303030     236            darkgrey
 Color: rgbDarkRed     #8b0000     88             darkred
 
+;;; Links
+Terminal           -> Normal
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
+StatusLineTerm     -> StatusLine
+StatusLineTermNC   -> StatusLineNC
+
+
+
+Variant: 8
+
+Normal                color07     color00
+
+; Syntax
+Comment               color04     none
+Constant              color05     none
+Identifier            color06     none
+Statement             color03     none           bold
+PreProc               color06     none           bold
+Type                  color02     none
+Special               color01     none
+Underlined            none        none           underline
+Ignore                color00     color00
+Error                 color07     color01
+Todo                  color03     color00        reverse
+
+; Chrome
+Folded                color06     none
+Visual                none        none           reverse
+CursorColumn          none        none           underline
+CursorLine            none        none           underline
+CursorLineNr          color03     none           underline,bold
+SignColumn            color06     none
+FoldColumn            color06     none
+ColorColumn           foreground  color01
+Conceal               color07     none
+
+Title                 color05     none           bold
+Directory             color06     none           bold
+Search                color01     color00        reverse,bold
+IncSearch             color02     color00        reverse
+NonText               color04     none           bold
+EndOfBuffer           color04     none           bold
+ErrorMsg              color07     color01
+WarningMsg            color01     none
+LineNr                color07     none           bold
+MatchParen            color07     color06
+ModeMsg               none        none           bold
+MoreMsg               color02     none           bold
+Question              color02     none           bold
+SpecialKey            color06     none
+VisualNOS             none        color00        underline
+WildMenu              color00     color03
+QuickFixLine          color00     color03
+
+SpellBad              color01     none           underline
+SpellCap              color04     none           underline
+SpellLocal            color05     none           underline
+SpellRare             color06     none           underline
+
+StatusLine            color07     color04        bold
+StatusLineNC          color00     color07
+VertSplit             color00     color07
+
+TabLine               color00     color07
+TabLineFill           none        color00        reverse
+TabLineSel            foreground  background     bold
+
+ToolbarLine           none        none
+ToolbarButton         color07     color00        reverse,bold
+
+Pmenu                 color00     color06
+PmenuSbar             none        none
+PmenuSel              color00     color03
+PmenuThumb            none        color05
+
+
 Variant: gui 256 16
 
 Normal                foreground  background
-StatusLineTerm     -> StatusLine
-StatusLineTermNC   -> StatusLineNC
 
 ; Syntax
 Comment               Comment     none
@@ -154,14 +231,6 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color11
 PmenuThumb            none        rgbGrey
-
-;;; Links
-Terminal           -> Normal
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
-CurSearch          -> Search
-CursorLineFold     -> CursorLine
-CursorLineSign     -> CursorLine
 
 ;;; "Standard" diff colors
 Include: _diff
