@@ -144,7 +144,7 @@ Directory             xterm6           none              bold
 EndOfBuffer           xterm2           none
 ErrorMsg              xterm1           xterm7            reverse
 FoldColumn            xterm7           none
-Folded                xterm6           xterm7            reverse
+Folded                xterm6           xterm0            reverse
 IncSearch             xterm3           xterm4
 LineNr                xterm7           none              bold
 MatchParen            none             xterm6            bold
@@ -159,8 +159,8 @@ Question              xterm2           xterm0            bold
 Search                xterm0           xterm7
 SignColumn            xterm6           none
 SpecialKey            xterm6           none
-StatusLine            xterm4           xterm0            reverse,bold
-StatusLineNC          xterm4           xterm0            reverse
+StatusLine            xterm4           xterm7            reverse,bold
+StatusLineNC          xterm4           xterm7            reverse
 VertSplit             xterm4           xterm4
 TabLine               xterm0           xterm6
 TabLineFill           xterm4           xterm4
