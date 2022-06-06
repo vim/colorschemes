@@ -109,13 +109,19 @@ Term colors: xterm14 xterm15
 
 ; Default highlight groups {{{
 ; Group              Foreground        Background        Attributes
+Variant: 8
+Normal                xterm7           xterm0
 Variant: gui 256 16
 Normal                xterm15          xterm0
+Variant: 8
+ColorColumn           xterm7           xterm1
+CursorLineNr          xterm3           none              underline
 Variant: 16
 ColorColumn           xterm15          koeDarkRed
+CursorLineNr          xterm11          none              underline
+Variant: 16 8
 CursorColumn          none             none              underline
 CursorLine            none             none              underline
-CursorLineNr          xterm11          none              underline
 Folded                xterm4           none
 Variant: gui 256
 ColorColumn           none             koeDarkRed
@@ -123,6 +129,57 @@ CursorColumn          none             koeCursorLine
 CursorLine            none             koeCursorLine
 CursorLineNr          xterm11          none              bold
 Folded                xterm6           rgbGrey40
+Variant: 8
+QuickFixLine          xterm0           xterm3
+Conceal               xterm7           none
+Directory             koeDirectory     none
+EndOfBuffer           xterm1           none              bold
+ErrorMsg              xterm1           xterm7            reverse,bold
+FoldColumn            xterm6           none
+LineNr                xterm3           none
+MatchParen            none             xterm4
+ModeMsg               xterm15          xterm4            bold
+MoreMsg               xterm2           none              bold
+NonText               xterm1           none              bold
+Pmenu                 xterm7           Pmenu
+PmenuSbar             none             xterm7
+PmenuSel              xterm0           xterm6
+PmenuThumb            none             xterm6
+Question              xterm4           none              bold
+Search                xterm7           xterm1
+SignColumn            xterm6           none
+SpecialKey            xterm1           none
+
+SpellBad              xterm1           none              underline
+SpellCap              xterm2           none              underline
+SpellLocal            xterm6           none              underline
+SpellRare             xterm5           none              underline
+
+StatusLine            xterm7           xterm4            reverse,bold
+StatusLineNC          xterm7           xterm4            reverse
+TabLine               xterm7           xterm4            reverse,bold
+TabLineFill           xterm4           xterm7            bold
+TabLineSel            xterm7           xterm4            bold
+Title                 xterm5           none              bold
+VertSplit             xterm4           xterm7
+Visual                none             none              reverse
+VisualNOS             none             xterm0            underline
+WarningMsg            xterm1           none
+WildMenu              xterm0           xterm3
+; Other conventional group names (see `:help group-name`)
+Comment               xterm4           none
+Constant              xterm1           none
+Error                 xterm1           xterm7            reverse
+Identifier            xterm6           none
+Ignore                xterm0           xterm0
+PreProc               xterm5           none
+Special               xterm3           none
+Statement             xterm3           none              bold
+Todo                  xterm4           xterm3
+Type                  xterm2           none              bold
+Underlined            none             none              underline
+ToolbarLine           none             none
+ToolbarButton         xterm7           xterm0            reverse,bold
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm11
 Conceal               xterm7           rgbDarkGrey
