@@ -9,8 +9,6 @@ Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
 
-Variant:    gui 256 16
-
 Background: dark
 
 
@@ -48,26 +46,45 @@ Color: color17     #4d4d4d        239            grey
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
+;;; Links
+Terminal           ->             Normal
+LineNrAbove        ->             LineNr
+LineNrBelow        ->             LineNr
+CurSearch          ->             Search
+CursorLineFold     ->             CursorLine
+CursorLineSign     ->             CursorLine
+EndOfBuffer        ->             NonText
+
 ;;; chrome
 Variant: gui 256 16
 Normal             foreground     background
+Variant: 8
+Normal             color07        color00
 
+Variant: 8
+StatusLine         color07        color00        reverse,bold
+StatusLineNC       color07        color00        reverse
+StatusLineTerm     color07        color00        reverse,bold
+StatusLineTermNC   color07        color00        reverse
+VertSplit          color07        color00        reverse
 Variant: 16
-EndOfBuffer     -> NonText
 StatusLine         background     color07
 StatusLineNC       color08        color07
 StatusLineTerm     background     color07
 StatusLineTermNC   color08        color07
 VertSplit          color08        color07
-
 Variant: gui 256
-EndOfBuffer     -> NonText
 StatusLine         background     color15
 StatusLineNC       color00        color15
 StatusLineTerm     background     color15
 StatusLineTermNC   foreground     color15
 VertSplit          color00        color15
 
+Variant: 8
+Pmenu              color00        color06
+PmenuSel           color00        color03
+PmenuSbar          none           color00
+PmenuThumb         none           color07
 Variant: 16
 Pmenu              none           color08
 PmenuSel           background     color11
@@ -79,6 +96,10 @@ PmenuSel           background     color11
 PmenuSbar          none           background
 PmenuThumb         none           color15
 
+Variant: 8
+TabLine            background     color07
+TabLineFill        none           color07
+TabLineSel         color07        color00
 Variant: 16
 TabLine            background     color07
 TabLineFill        none           color15
@@ -88,6 +109,9 @@ TabLine            background     color15
 TabLineFill        none           color15
 TabLineSel         background     color11
 
+Variant: 8
+ToolbarLine        none           none
+ToolbarButton      color07        color00        reverse,bold
 Variant: 16
 ToolbarLine        none           none
 ToolbarButton      background     color03
@@ -95,33 +119,58 @@ Variant: gui 256
 ToolbarLine        none           color07
 ToolbarButton      background     color13        g=bold
 
+Variant: 8
+NonText            color04        none           bold
+SpecialKey         color02        none
 Variant: gui 256 16
 NonText            color12        none
 SpecialKey         color02        none
 
-Variant: 16
+Variant: 16 8
 Folded             color04        none
 Variant: gui 256
 Folded             color05        color17
+Variant: 8
+Visual             none           none           reverse
+VisualNOS          none           none           underline
 Variant: 16
 Visual             foreground     color16
+VisualNOS          none           none           underline
 Variant: gui 256
 Visual             color11        color16
 VisualNOS          color11        color12
+Variant: 8
+LineNr             color03        none
+FoldColumn         color03        none
 Variant: 16
 LineNr             color03        none
 FoldColumn         color03        color08
 Variant: gui 256
 LineNr             color05        none
 FoldColumn         color05        color17
-Variant: 16
+Variant: 16 8
 CursorLine         none           none           underline
-CursorColumn       none           color04
-CursorLineNr       color03        none           underline g=bold
+CursorColumn       none           none
+CursorLineNr       color03        none           bold
 Variant: gui 256
 CursorLine         none           color07
 CursorColumn       none           color07
 CursorLineNr       color05        none           g=bold
+Variant: 8
+QuickFixLine       color00        color03
+SignColumn         none           none
+
+Underlined         none           none           underline
+
+Error              color01        color07        reverse
+ErrorMsg           color01        color07        reverse
+ModeMsg            color05        none           bold
+WarningMsg         color01        none           bold
+MoreMsg            color02        none           bold
+Question           color02        none           bold
+
+Todo               color01        color05
+MatchParen         color00        color03
 Variant: gui 256 16
 QuickFixLine       background     color11
 SignColumn         none           none
@@ -137,32 +186,38 @@ Question           color10        none           g=bold
 
 Todo               color09        color05
 MatchParen         color00        color03
+Variant: 8
+Search             color00        color02
+IncSearch          color00        color03
 Variant: 16
 Search             background     color02
 IncSearch          background     color11
 Variant: gui 256
 Search             color11        color00
 IncSearch          color11        color06
+Variant: 8
+WildMenu           color00        color05
+ColorColumn        color07        color01
 Variant: gui 256 16
 WildMenu           background     color05
 ColorColumn        foreground     color01
 Variant: gui
 Cursor             background     color11
 lCursor            background     color09
-Variant: 16
-WildMenu           background     color03
 
+Variant: 8
+debugPC            color07        none           reverse
+debugBreakpoint    color06        none           reverse
 Variant: gui 256 16
-
 debugPC            color07        none           reverse
 debugBreakpoint    color14        none           reverse
 
 
-Variant: 16
-SpellBad           color01        none           t=underline
-SpellCap           color12        none           t=underline
-SpellLocal         color03        none           t=underline
-SpellRare          color02        none           t=underline
+Variant: 16 8
+SpellBad           color01        none           underline
+SpellCap           color04        none           underline
+SpellLocal         color03        none           underline
+SpellRare          color02        none           underline
 Variant: gui 256
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color04        none           t=underline g=undercurl s=color04
@@ -170,38 +225,40 @@ SpellLocal         color13        none           t=underline g=undercurl s=color
 SpellRare          color02        none           t=underline g=undercurl s=color02
 
 ;;; :h group-names
+Variant: 8
+Comment            color06        none           bold
 Variant: 16
 Comment            color14        none
 Variant: gui 256
 Comment            color12        none
 
+Variant: 8
+Identifier         color02        none
+Statement          color03        none           bold
 Variant: gui 256 16
 Identifier         color10        none
-Statement          color11        none           g=bold
-Variant: 16
+Statement          color11        none           bold
+Variant: 16 8
 Constant           color05        none
 Variant: gui 256
 Constant           color14        none
-Variant: gui 256 16
+Variant: gui 256 16 8
 PreProc            color01        none
-Type               color03        none           g=bold
+Type               color03        none           bold
+Variant: 8
+Special            color05        none           bold
+Variant: gui 256 16
 Special            color13        none
 
+Variant: 8
+Directory          color04        none           bold
 Variant: gui 256 16
 Directory          color12        none
+Variant: gui 256 16 8
 Conceal            color07        none
 Ignore             none           none
 
-Title              color01        none
-
-
-;;; Links
-Terminal           ->             Normal
-LineNrAbove        ->             LineNr
-LineNrBelow        ->             LineNr
-CurSearch          ->             Search
-CursorLineFold     ->             CursorLine
-CursorLineSign     ->             CursorLine
+Title              color01        none           bold
 
 
 ;;; "Standard" diff colors
