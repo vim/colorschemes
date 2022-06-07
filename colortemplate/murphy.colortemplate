@@ -8,7 +8,6 @@ Maintainer:  Original maintainer Ron Aaron <ron@ronware.org>.
 Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
-Variant: gui 256 16
 Background: dark
 
 
@@ -51,39 +50,74 @@ Term colors: color08 color09 color10 color11 color12t color13 color14 color15
 
 ;;; chrome
 
+;;; Links
+Terminal        -> Normal
+LineNrAbove     -> LineNr
+LineNrBelow     -> LineNr
+CurSearch       -> Search
+CursorLineFold  -> CursorLine
+CursorLineSign  -> CursorLine
 StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
 
+Variant: 8
+Normal             color02        color00
 Variant: gui 256 16
-
 Normal             foreground     background
 
+Variant: 8
+EndOfBuffer        color04        none           bold
+StatusLine         color04        color07        reverse,bold
+StatusLineNC       color07        color00        reverse
+VertSplit          color07        color00        reverse
+Variant: gui 256 16
 EndOfBuffer        color12        background
 StatusLine         color15        color04
 StatusLineNC       color15        color17
 VertSplit          color15        color17
 
+Variant: 8
+Pmenu              color00        color06
+PmenuSel           color00        color03
+PmenuSbar          none           color00
+PmenuThumb         none           color07
+Variant: gui 256 16
 Pmenu              color15        color08
 PmenuSel           background     color11
 PmenuSbar          none           color00
 PmenuThumb         none           color07
 
-Variant: 16
+Variant: 16 8
 TabLineFill        none           color07
 Variant: gui 256
 TabLineFill        none           color00
+Variant: 8
+TabLine            color07        color00        reverse
+TabLineSel         color07        color00
 Variant: gui 256 16
 TabLine            foreground     color08
 TabLineSel         color15        background
 
+Variant: 8
+ToolbarLine        none           color00
+ToolbarButton      color07        color00        reverse,bold
+Variant: gui 256 16
 ToolbarLine        none           color00
 ToolbarButton      color15        color08        g=bold
 
+Variant: gui 256 16 8
 NonText            color06        none
 SpecialKey         color06        none
 
 QuickFixLine       color00        color06
 
+Variant: 8
+Folded             color06        none
+CursorLine         none           none           underline
+CursorColumn       none           none           underline
+CursorLineNr       color03        none           bold
+ColorColumn        color07        color01
+Underlined         none           none           underline
 Variant: 16
 Folded             color06        none
 CursorLine         none           none           underline
@@ -119,20 +153,56 @@ IncSearch          color01        none           reverse
 WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
+Variant: 8
+Visual             none           none           reverse
+VisualNOS          none           none           reverse,underline
+LineNr             color03        none
+FoldColumn         color06        none
+SignColumn         color06        none
 
+Underlined         none           none           underline
+
+Error              color07        color01
+ErrorMsg           color07        color01
+ModeMsg            color07        none           bold
+WarningMsg         color01        none           bold
+MoreMsg            color02        none           bold
+Question           color06        none           bold
+
+Todo               color04        color03
+MatchParen         color00        color03
+Search             color07        color04
+IncSearch          color01        none           reverse
+WildMenu           color00        color03
+
+Variant: gui 256 16
 SpellBad           color09        none           t=underline g=undercurl s=color09
 SpellCap           color14        none           t=underline g=undercurl s=color14
 SpellLocal         color03        none           t=underline g=undercurl s=color03
 SpellRare          color11        none           t=underline g=undercurl s=color11
+Variant: 8
+SpellBad           color01        none           underline
+SpellCap           color06        none           underline
+SpellLocal         color03        none           underline
+SpellRare          color05        none           underline
 
 
 ;;; :h group-names
+Variant: gui 256 16
 Comment            color01        none
+Variant: 8
+Comment            color01        none           bold
 
+Variant: 8
+Identifier         color06        none
+Statement          color03        none
+Constant           color07        none           bold
 Variant: gui 256 16
 Identifier         color14        none
 Statement          color11        none
 Constant           color15        none
+Variant: 8
+PreProc            color05        none           bold
 Variant: 16
 PreProc            color05        none
 Variant: gui 256
@@ -140,22 +210,25 @@ PreProc            color03        none
 Variant: gui 256 16
 Type               color07        none
 Special            color13        none
+Variant: 8
+Type               color07        none
+Special            color05        none
+
+Variant: 8
+Directory          color06        none
+Conceal            color07        none
+Ignore             none           none
+
+Title              color05        none           bold
 
 Variant: gui 256 16
 Directory          color14        none
 Conceal            color07        none
 Ignore             none           none
 
-Title              color13        none           g=bold
+Title              color13        none           bold
 
 
-;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
 
 
 ;;; "Standard" diff colors
