@@ -69,7 +69,7 @@ Variant:    16 8
 Folded             DarkBlue       none
 CursorLine         none           none           underline
 CursorColumn       none           none
-CursorLineNr       DarkOrange     none           bold
+CursorLineNr       none           none           bold
 Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
@@ -128,7 +128,7 @@ SpecialKey         LightBlue      none
 Variant:    8
 Visual             none           none           reverse
 VisualNOS          none           none           underline g=bold
-LineNr             LightGrey      none           bold
+LineNr             none           none           bold
 FoldColumn         LightGrey      none           bold
 SignColumn         none           none
 Variant:    gui 256 16
