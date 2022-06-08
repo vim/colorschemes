@@ -9,7 +9,6 @@ Website:     https://github.com/vim/colorschemes
 License:     Same as Vim
 
 
-Variant:    gui 256 16
 Background: light
 
 
@@ -42,60 +41,129 @@ Color: MutedRed    #a07070        95             darkred
 Color: MutedYellow #ffff60        228            yellow
 Color: Purple      #6a0dad        55             darkmagenta
 
+;;; Terminal
+
+Term colors: Black DarkRed DarkGreen Yellow DarkBlue Purple DarkCyan LightGrey
+Term colors: DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan White
+
+;;; Links
+Terminal        -> Normal
+LineNrAbove     -> LineNr
+LineNrBelow     -> LineNr
+CurSearch       -> Search
+CursorLineFold  -> CursorLine
+CursorLineSign  -> CursorLine
+EndOfBuffer     -> NonText
+ErrorMsg        -> Error
+Tag             -> Special
+Operator        -> Statement
+
+
 ;;; Chrome         fg             bg             style
+Variant:    8
+Normal             Black          LightGrey
 Variant:    gui 256 16
 Normal             Black          White
 
-Variant:    16
+Variant:    16 8
 Folded             DarkBlue       none
 CursorLine         none           none           underline
-CursorColumn       none           none           underline
-CursorLineNr       none           none           underline
+CursorColumn       none           none
+CursorLineNr       DarkOrange     none           bold
 Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
 CursorColumn       none           LightGrey
 CursorLineNr       none           LightGrey
 
+Variant:    8
+QuickFixLine       Black          DarkOrange
+StatusLine         Black          LightGrey      reverse,bold
+StatusLineNC       Black          LightGrey      reverse
+StatusLineTerm     Black          DarkGreen      reverse,bold
+StatusLineTermNC   LightGrey      DarkGreen      reverse
+VertSplit          Black          LightGrey      reverse
 Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
-EndOfBuffer     -> NonText
 StatusLine         White          Black          g=bold
 StatusLineNC       White          MediumGrey
 StatusLineTerm     Black          LightGreen     g=bold
 StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
+Variant:    8
+Pmenu              Black          DarkCyan
+PmenuSel           Black          DarkOrange
+PmenuSbar          LightGrey      LightGrey
+PmenuThumb         Black          Black
+Variant:    gui 256 16
 Pmenu              Black          MediumGrey
 PmenuSel           Black          MutedYellow
 PmenuSbar          White          White
 PmenuThumb         DarkGrey       DarkGrey
 
+Variant:    8
+TabLine            Black          LightGrey      reverse
+TabLineFill        none           none           reverse
+TabLineSel         LightGrey      Black          reverse
+Variant:    gui 256 16
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
 TabLineSel         Black          White          g=bold
 
+Variant:    8
+ToolbarLine        none           none
+ToolbarButton      Black          LightGrey      reverse,bold
+Variant:    gui 256 16
 ToolbarLine        none           none
 ToolbarButton      none           MediumGrey     g=bold
 
+Variant:    8
+NonText            DarkBlue       none
+SpecialKey         DarkBlue       none
+Variant:    gui 256 16
 NonText            LightBlue      White
 SpecialKey         LightBlue      none
 
+Variant:    8
+Visual             none           none           reverse
+VisualNOS          none           none           underline g=bold
+LineNr             LightGrey      none           bold
+FoldColumn         LightGrey      none           bold
+SignColumn         none           none
+Variant:    gui 256 16
 Visual             Black          MediumGrey
 VisualNOS          none           none           underline g=bold
 LineNr             DarkGrey       none
 FoldColumn         DarkGrey       none
 SignColumn         none           none
 
+Variant:    8
+Underlined         none           none           underline
+Variant:    gui 256 16
 Underlined         Purple         none           underline
 
+Variant:    8
+Error              DarkRed        none           reverse,bold
+WarningMsg         Purple         none
+MoreMsg            DarkGreen      none
+ModeMsg            Black          none
+Question           DarkRed        none
+Variant:    gui 256 16
 Error              Red            White          reverse
-ErrorMsg        -> Error
 WarningMsg         Purple         White
 MoreMsg            DarkGreen      White
 ModeMsg            Black          White
 Question           MutedRed       none
 
+Variant:    8
+Todo               Black          DarkOrange
+MatchParen         LightGrey      DarkRed
+Search             LightGrey      Purple
+IncSearch          DarkCyan       DarkOrange     reverse
+WildMenu           Black          DarkOrange     bold
+ColorColumn        Black          DarkRed
+Variant:    gui 256 16
 Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
@@ -105,6 +173,12 @@ ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
+Variant:    8
+SpellBad           DarkRed        none           underline
+SpellCap           DarkGreen      none           underline
+SpellLocal         Purple         none           underline
+SpellRare          DarkBlue       none           underline
+Variant:    gui 256 16
 SpellBad           Red            none           t=underline g=undercurl s=Red
 SpellCap           SeaGreen       none           t=underline g=undercurl s=SeaGreen
 SpellLocal         Magenta        none           t=underline g=undercurl s=Magenta
@@ -112,40 +186,28 @@ SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkB
 
 
 ;;; Syntax
-
+Variant:    8
+Comment            Black          none           bold
+StorageClass       DarkRed        none           bold
+Conceal            none           none
+Variant:    gui 256 16
+Comment            MediumGrey     none           bold
+StorageClass       Red            none           bold
+Conceal            LightGrey      DarkGrey
+Variant:    gui 256 16 8
 Identifier         DarkCyan       none
 Statement          DarkGreen      none           bold
 Constant           MutedRed       none
-Number             MutedRed       none           g=bold
-Float              MutedRed       none           g=bold
+Number             MutedRed       none           bold
+Float              MutedRed       none           bold
 PreProc            Purple         none
 Special            DarkOrange     none
 SpecialChar        DarkBlue       none
-Tag             -> Special
-Type               SeaGreen       none           g=bold
-Operator        -> Statement
-Directory          DarkCyan       none           g=bold
-Comment            MediumGrey     none           g=bold
-StorageClass       Red            none           g=bold
-Conceal            LightGrey      DarkGrey
+Type               SeaGreen       none           bold
+Directory          DarkCyan       none           bold
 Ignore             none           none
 
-Title              DarkGreen      none           g=bold
-
-
-;;; Terminal
-
-Term colors: Black DarkRed DarkGreen Yellow DarkBlue Purple DarkCyan LightGrey
-Term colors: DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan White
-
-
-;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
+Title              DarkGreen      none           bold
 
 
 ;;; "Standard" diff colors
