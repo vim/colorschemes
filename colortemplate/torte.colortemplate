@@ -132,10 +132,10 @@ VisualNOS             none        color00        underline
 WildMenu              color00     color03
 QuickFixLine          color00     color03
 
-SpellBad              color01     none           underline
-SpellCap              color04     none           underline
-SpellLocal            color05     none           underline
-SpellRare             color06     none           underline
+SpellBad              color01     color03        reverse
+SpellCap              color04     color03        reverse
+SpellLocal            color05     color03        reverse
+SpellRare             color06     none           reverse
 
 StatusLine            color07     color04        bold
 StatusLineNC          color00     color07
