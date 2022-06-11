@@ -198,10 +198,10 @@ Cursor             color08        color05
 lCursor            background     color09
 
 Variant: 8
-SpellBad           color01        none           underline
-SpellCap           color03        none           underline
-SpellLocal         color05        none           underline
-SpellRare          color06        none           underline
+SpellBad           color01        color03        reverse
+SpellCap           color03        none           reverse
+SpellLocal         color05        color03        reverse
+SpellRare          color06        none           reverse
 Variant: gui 256 16
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color03        none           t=underline g=undercurl s=color03
