@@ -184,10 +184,10 @@ Cursor             bg0            type
 lCursor            bg0            statement
 
 Variant: 8
-SpellBad           darkred        none           underline
-SpellCap           darkcyan       none           underline
-SpellLocal         darkmagenta    none           underline
-SpellRare          darkgreen      none           underline
+SpellBad           darkred        none           reverse
+SpellCap           darkcyan       none           reverse
+SpellLocal         darkmagenta    none           reverse
+SpellRare          darkgreen      none           reverse
 Variant: 16
 SpellBad           error          none           underline
 SpellCap           identifier     none           underline
