@@ -143,10 +143,10 @@ Question             green             none
 Search               yellow            black             reverse
 SignColumn           cyan              none
 SpecialKey           cyan              none
-SpellBad             red               none              underline
-SpellCap             green             none              underline
-SpellLocal           gray              none              underline
-SpellRare            magenta           none              underline
+SpellBad             red               yellow            reverse
+SpellCap             green             none              reverse
+SpellLocal           gray              none              reverse
+SpellRare            magenta           yellow            reverse
 StatusLine           cyan              blue              reverse,bold
 StatusLineNC         blue              cyan
 ToolbarButton        blue              gray              reverse,bold
