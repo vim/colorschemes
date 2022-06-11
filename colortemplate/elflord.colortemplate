@@ -216,10 +216,10 @@ Question              xterm2           none
 Search                xterm0           xterm3
 SignColumn            xterm6           none
 SpecialKey            xterm6           none
-SpellBad              xterm1           none              underline
-SpellCap              xterm4           none              underline
-SpellLocal            xterm3           none              underline
-SpellRare             xterm5           none              underline
+SpellBad              xterm1           xterm3            reverse
+SpellCap              xterm4           xterm3            reverse
+SpellLocal            xterm3           none              reverse
+SpellRare             xterm5           xterm3            reverse
 StatusLine            xterm6           none              reverse,bold
 StatusLineNC          xterm0           xterm6
 TabLine               xterm0           xterm6
