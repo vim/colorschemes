@@ -172,10 +172,10 @@ Cursor             bg0            fg0
 lCursor            fg0            constant
 
 Variant:    8
-SpellBad           darkred        none           underline
-SpellCap           darkcyan       none           underline
-SpellLocal         darkblue       none           underline
-SpellRare          darkmagenta    none           underline
+SpellBad           darkred        none           reverse
+SpellCap           darkcyan       black          reverse
+SpellLocal         darkblue       none           reverse
+SpellRare          darkmagenta    none           reverse
 Variant:    gui 256 16
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           identifier     none           t=underline g=undercurl s=identifier
