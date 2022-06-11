@@ -111,10 +111,10 @@ Search             color00        color03
 IncSearch          color00        color02
 WildMenu           color00        color03
 
-SpellBad           color01        none           underline
-SpellCap           color04        none           underline
-SpellLocal         color05        none           underline
-SpellRare          color02        none           underline
+SpellBad           color01        color03        reverse
+SpellCap           color04        color03        reverse
+SpellLocal         color05        color03        reverse
+SpellRare          color02        none           reverse
 
 
 ;;; :h group-names
