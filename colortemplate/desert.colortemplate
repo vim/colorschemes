@@ -214,10 +214,10 @@ debugBreakpoint    color14        none           reverse
 
 
 Variant: 16 8
-SpellBad           color01        none           underline
-SpellCap           color04        none           underline
-SpellLocal         color03        none           underline
-SpellRare          color02        none           underline
+SpellBad           color01        color03        reverse
+SpellCap           color04        color07        reverse
+SpellLocal         color03        none           reverse
+SpellRare          color02        none           reverse
 Variant: gui 256
 SpellBad           color01        none           t=underline g=undercurl s=color01
 SpellCap           color04        none           t=underline g=undercurl s=color04
