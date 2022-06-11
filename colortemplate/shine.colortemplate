@@ -174,10 +174,10 @@ Cursor             White          Black
 lCursor            Black          MutedRed
 
 Variant:    8
-SpellBad           DarkRed        none           underline
-SpellCap           DarkGreen      none           underline
-SpellLocal         Purple         none           underline
-SpellRare          DarkBlue       none           underline
+SpellBad           DarkRed        none           reverse
+SpellCap           DarkGreen      none           reverse
+SpellLocal         Purple         none           reverse
+SpellRare          DarkBlue       none           reverse
 Variant:    gui 256 16
 SpellBad           Red            none           t=underline g=undercurl s=Red
 SpellCap           SeaGreen       none           t=underline g=undercurl s=SeaGreen
