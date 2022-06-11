@@ -190,10 +190,10 @@ debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
 Variant: 8
-SpellBad             darkred           none              underline
-SpellCap             seagreen          none              underline
-SpellLocal           darkcyan          none              underline
-SpellRare            darkmagenta       none              underline
+SpellBad             darkred           yellow            reverse
+SpellCap             seagreen          none              reverse
+SpellLocal           darkcyan          none              reverse
+SpellRare            darkmagenta       yellow            reverse
 Variant: gui 256 16
 SpellBad             red               none              t=underline g=undercurl s=red
 SpellCap             green             none              t=underline g=undercurl s=green
