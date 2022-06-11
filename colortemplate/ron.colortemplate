@@ -172,10 +172,10 @@ VisualNOS             none             xterm0            underline
 WarningMsg            xterm2           none
 WildMenu              xterm0           xterm2
 
-SpellBad              xterm1           none              underline
-SpellCap              xterm3           none              underline
-SpellLocal            xterm2           none              underline
-SpellRare             xterm5           none              underline
+SpellBad              xterm1           xterm3            reverse
+SpellCap              xterm3           none              reverse
+SpellLocal            xterm2           none              reverse
+SpellRare             xterm5           xterm3            reverse
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm6
 Conceal               xterm7           rgbDarkGrey
