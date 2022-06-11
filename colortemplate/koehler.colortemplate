@@ -150,10 +150,10 @@ Search                xterm7           xterm1
 SignColumn            xterm6           none
 SpecialKey            xterm1           none
 
-SpellBad              xterm1           none              underline
-SpellCap              xterm2           none              underline
-SpellLocal            xterm6           none              underline
-SpellRare             xterm5           none              underline
+SpellBad              xterm1           xterm3            reverse
+SpellCap              xterm2           none              reverse
+SpellLocal            xterm6           none              reverse
+SpellRare             xterm5           xterm3            reverse
 
 StatusLine            xterm7           xterm4            reverse,bold
 StatusLineNC          xterm7           xterm4            reverse
