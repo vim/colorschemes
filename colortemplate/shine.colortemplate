@@ -187,23 +187,25 @@ SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkB
 
 ;;; Syntax
 Variant:    8
+Statement          DarkGreen      none
+Type               DarkGreen      none
 Comment            Black          none           bold
 StorageClass       DarkRed        none           bold
 Conceal            none           none
 Variant:    gui 256 16
+Statement          SeaGreen       none           bold
+Type               SeaGreen       none           bold
 Comment            MediumGrey     none           bold
 StorageClass       Red            none           bold
 Conceal            LightGrey      DarkGrey
 Variant:    gui 256 16 8
 Identifier         DarkCyan       none
-Statement          DarkGreen      none           bold
 Constant           MutedRed       none
 Number             MutedRed       none           bold
 Float              MutedRed       none           bold
 PreProc            Purple         none
 Special            DarkOrange     none
 SpecialChar        DarkBlue       none
-Type               SeaGreen       none           bold
 Directory          DarkCyan       none           bold
 Ignore             none           none
 
