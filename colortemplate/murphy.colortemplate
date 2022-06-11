@@ -181,10 +181,10 @@ SpellCap           color14        none           t=underline g=undercurl s=color
 SpellLocal         color03        none           t=underline g=undercurl s=color03
 SpellRare          color11        none           t=underline g=undercurl s=color11
 Variant: 8
-SpellBad           color01        none           underline
-SpellCap           color06        none           underline
-SpellLocal         color03        none           underline
-SpellRare          color05        none           underline
+SpellBad           color01        color03        reverse
+SpellCap           color06        none           reverse
+SpellLocal         color03        none           reverse
+SpellRare          color05        color03        reverse
 
 
 ;;; :h group-names
