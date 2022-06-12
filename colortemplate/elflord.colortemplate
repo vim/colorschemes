@@ -120,7 +120,7 @@ Variant: gui 256
 ColorColumn           none             xterm1
 CursorColumn          none             CursorLine
 CursorLine            none             CursorLine
-CursorLineNr          xterm11          none              t=underline g=bold
+CursorLineNr          xterm11          none              bold
 Folded                xterm14          rgbGrey40
 
 Variant: gui 256 16
@@ -131,17 +131,17 @@ Directory             Directory        xterm0
 EndOfBuffer           rgbBlue          xterm0            g=bold
 ErrorMsg              xterm15          xterm1
 FoldColumn            xterm14          none
-IncSearch             none             xterm0            t=reverse g=reverse
+IncSearch             none             xterm0            reverse
 LineNr                xterm11          none
 MatchParen            none             rgbDarkCyan
-ModeMsg               none             none              g=bold
-MoreMsg               rgbSeaGreen      none              g=bold
-NonText               rgbBlue          none              g=bold
+ModeMsg               none             none              bold
+MoreMsg               rgbSeaGreen      none              bold
+NonText               rgbBlue          none              bold
 Pmenu                 xterm15          Pmenu
 PmenuSbar             none             rgbGrey
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-Question              Question         none              g=bold
+Question              Question         none              bold
 Search                xterm0           xterm11
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
@@ -149,13 +149,13 @@ SpellBad              xterm9           none              g=undercurl t=underline
 SpellCap              rgbBlue          none              g=undercurl t=underline s=rgbBlue
 SpellLocal            xterm11          none              g=undercurl t=underline s=xterm11
 SpellRare             xterm13          none              g=undercurl t=underline s=xterm13
-StatusLine            xterm0           xterm14           g=bold
+StatusLine            xterm0           xterm14           bold
 StatusLineNC          xterm0           xterm6
 TabLine               xterm0           rgbDarkCyan
-TabLineFill           none             xterm0            t=reverse g=reverse
-TabLineSel            xterm14          xterm0            g=bold
+TabLineFill           none             xterm0            reverse
+TabLineSel            xterm14          xterm0            bold
 Terminal              xterm14          xterm0
-Title                 Title            none              g=bold
+Title                 Title            none              bold
 VertSplit             xterm0           xterm6
 Visual                xterm0           rgbDarkGrey
 VisualNOS             none             xterm0            t=underline g=underline,bold
@@ -172,15 +172,15 @@ Operator              xterm9           none
 PreProc               elfPreProc       none
 Repeat                xterm15          none
 Special               xterm9           none
-Statement             elfStatement     none              g=bold
+Statement             elfStatement     none              bold
 Todo                  elfBlue          xterm11
-Type                  elfType          none              g=bold
-Underlined            Underlined       none              t=underline g=underline
+Type                  elfType          none              bold
+Underlined            Underlined       none              underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
 ToolbarLine           none             none
-ToolbarButton         xterm0           xterm7            g=bold
+ToolbarButton         xterm0           xterm7            bold
 ; }}}
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
