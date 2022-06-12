@@ -77,12 +77,12 @@ Variant:    16
 Folded             folded_fg      none           bold
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
-CursorLineNr       linenr         none           underline g=bold
+CursorLineNr       linenr         none           bold
 Variant:    gui 256
 Folded             folded_fg      folded
 CursorLine         none           cursorline
 CursorColumn       none           cursorline
-CursorLineNr       linenr         none           g=bold
+CursorLineNr       linenr         none           bold
 
 Variant:    8
 QuickFixLine       gray           darkblue
@@ -119,14 +119,14 @@ TabLineSel         gray           black          reverse,bold
 Variant:    gui 256 16
 TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
-TabLineSel         fg0            bg0            g=bold
+TabLineSel         fg0            bg0            bold
 
 Variant:    8
 ToolbarLine        none           none
 ToolbarButton      black          gray           reverse,bold
 Variant:    gui 256 16
 ToolbarLine        none           folded
-ToolbarButton      none           bg1            g=bold
+ToolbarButton      none           bg1            bold
 
 Variant:    8
 NonText            gray           none           bold
@@ -163,9 +163,9 @@ Variant:    gui 256 16
 Error              error          bg0            reverse
 ErrorMsg           error          bg0            reverse
 WarningMsg         preproc        bg0
-MoreMsg            fg0            bg0            g=bold
-ModeMsg            fg0            bg0            g=bold
-Question           constant       none           g=bold
+MoreMsg            fg0            bg0            bold
+ModeMsg            fg0            bg0            bold
+Question           constant       none           bold
 
 Variant:    8
 Todo               black          darkyellow
@@ -222,11 +222,11 @@ Type               type           none
 Special            special        none
 Tag                tag            none
 
-Directory          identifier     none           g=bold
+Directory          identifier     none           bold
 Conceal            comment        none
 Ignore             none           none
 
-Title              preproc        none           g=bold
+Title              preproc        none           bold
 
 
 ;;; "Standard" diff colors
