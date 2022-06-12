@@ -90,10 +90,10 @@ VertSplit          black          gray           reverse
 Variant:    gui 256 16
 QuickFixLine       fg0            pmenu
 EndOfBuffer        bg1            none
-StatusLine         fg1            fg0            g=bold
-StatusLineNC       bg0            bg1            g=bold
-StatusLineTerm     fg1            type           g=bold
-StatusLineTermNC   bg0            identifier     g=bold
+StatusLine         fg1            fg0            bold
+StatusLineNC       bg0            bg1            bold
+StatusLineTerm     fg1            type           bold
+StatusLineTermNC   bg0            identifier     bold
 VertSplit          bg0            bg1
 
 Variant:    8
@@ -103,7 +103,7 @@ PmenuSbar          none           none
 PmenuThumb         none           darkgreen
 Variant:    gui 256 16
 Pmenu              fg0            pmenu
-PmenuSel           fg0            cursorline     g=bold
+PmenuSel           fg0            cursorline     bold
 PmenuSbar          none           bg0
 PmenuThumb         none           bg1
 
@@ -114,14 +114,14 @@ TabLineSel         fg0            bg0
 Variant:    gui 256 16
 TabLine            bg0            bg1            underline
 TabLineFill        none           none           reverse
-TabLineSel         fg0            bg0            g=bold
+TabLineSel         fg0            bg0            bold
 
 Variant:    8
 ToolbarLine        none           none
 ToolbarButton      black          gray           reverse,bold
 Variant:    gui 256 16
 ToolbarLine        none           none
-ToolbarButton      bg0            bg1            g=bold
+ToolbarButton      bg0            bg1            bold
 
 Variant:    8
 NonText            darkblue       none           bold
@@ -162,18 +162,18 @@ ColorColumn        black          darkred
 Variant:    gui 256 16
 Underlined         special        none           underline
 
-Error              error          fg1            reverse g=bold
-ErrorMsg           error          fg1            reverse g=bold
-WarningMsg         preproc        bg0            g=bold
-MoreMsg            type           bg0            g=bold
-ModeMsg            fg0            bg0            g=bold
-Question           constant       none           g=bold
+Error              error          fg1            reverse bold
+ErrorMsg           error          fg1            reverse bold
+WarningMsg         preproc        bg0            bold
+MoreMsg            type           bg0            bold
+ModeMsg            fg0            bg0            bold
+Question           constant       none           bold
 
 Todo               special        wildmenu
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          type           none           reverse
-WildMenu           fg0            wildmenu       g=bold
+WildMenu           fg0            wildmenu       bold
 ColorColumn        none           colorcolumn
 Cursor             bg0            fg0
 lCursor            fg0            constant
@@ -210,16 +210,16 @@ Variant:    gui 256 16
 Comment            comment        none
 Constant           constant       none
 Identifier         identifier     none
-Statement          statement      none           g=bold
+Statement          statement      none           bold
 PreProc            preproc        none
-Type               type           none           g=bold
+Type               type           none           bold
 Special            special        none
 
-Directory          identifier     none           g=bold
+Directory          identifier     none           bold
 Conceal            comment        none
 Ignore             none           none
 
-Title              preproc        none           g=bold
+Title              preproc        none           bold
 
 
 ;;; "Standard" diff colors
