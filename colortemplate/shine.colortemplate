@@ -85,9 +85,9 @@ StatusLineTermNC   LightGrey      DarkGreen      reverse
 VertSplit          Black          LightGrey      reverse
 Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
-StatusLine         White          Black          g=bold
+StatusLine         White          Black          bold
 StatusLineNC       White          MediumGrey
-StatusLineTerm     Black          LightGreen     g=bold
+StatusLineTerm     Black          LightGreen     bold
 StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
@@ -109,14 +109,14 @@ TabLineSel         LightGrey      Black          reverse
 Variant:    gui 256 16
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
-TabLineSel         Black          White          g=bold
+TabLineSel         Black          White          bold
 
 Variant:    8
 ToolbarLine        none           none
 ToolbarButton      Black          LightGrey      reverse,bold
 Variant:    gui 256 16
 ToolbarLine        none           none
-ToolbarButton      none           MediumGrey     g=bold
+ToolbarButton      none           MediumGrey     bold
 
 Variant:    8
 NonText            DarkBlue       none
@@ -168,7 +168,7 @@ Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
 IncSearch          DarkCyan       Yellow         reverse
-WildMenu           Black          Yellow         g=bold
+WildMenu           Black          Yellow         bold
 ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
@@ -195,7 +195,7 @@ Conceal            none           none
 Variant:    gui 256 16
 Statement          SeaGreen       none           bold
 Type               SeaGreen       none           bold
-Comment            MediumGrey     none           bold
+Comment            MediumGrey     none           gui=bold
 StorageClass       Red            none           bold
 Conceal            LightGrey      DarkGrey
 Variant:    gui 256 16 8
