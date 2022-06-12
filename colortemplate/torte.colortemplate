@@ -177,7 +177,7 @@ Folded                color06     none
 Visual                color00     rgbDarkGrey    g=bold
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
-CursorLineNr          color11     none           underline g=bold
+CursorLineNr          color11     none           bold
 Variant: gui 256
 Folded                color06     FoldedBG
 Visual                color00     rgbDarkGrey    g=bold
@@ -193,7 +193,7 @@ Cursor                color00     color10        g=bold
 lCursor               color00     color07
 CursorIM              none        fg
 
-Title                 Title       none           g=bold
+Title                 Title       none           bold
 Directory             Directory   none
 Search                color09     color00        reverse
 IncSearch             color02     color00        t=reverse g=reverse
@@ -203,9 +203,9 @@ ErrorMsg              color15     color01
 WarningMsg            WarningMsg  none
 LineNr                color08     none
 MatchParen            none        rgbDarkCyan
-ModeMsg               none        none           g=bold
-MoreMsg               rgbSeaGreen none           g=bold
-Question              Question    none           g=bold
+ModeMsg               none        none           bold
+MoreMsg               rgbSeaGreen none           bold
+Question              Question    none           bold
 SpecialKey            SpecialKey  none
 VisualNOS             none        color00        t=underline g=underline,bold
 WildMenu              color00     color11
@@ -216,16 +216,16 @@ SpellCap              color12     none           t=underline g=undercurl s=color
 SpellLocal            color13     none           t=underline g=undercurl s=color13
 SpellRare             color14     none           t=underline g=undercurl s=color14
 
-StatusLine            color15     color04        g=bold
+StatusLine            color15     color04        bold
 StatusLineNC          color00     color07
 VertSplit             color00     color07
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
-TabLineSel            foreground  background     g=bold
+TabLineSel            foreground  background     bold
 
 ToolbarLine           none        color00
-ToolbarButton         color00     color07        g=bold
+ToolbarButton         color00     color07        bold
 
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
