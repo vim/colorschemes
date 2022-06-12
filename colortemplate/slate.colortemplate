@@ -135,7 +135,7 @@ FoldColumn         color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 Variant: 16
-CursorLineNr       color11        none           underline g=bold
+CursorLineNr       color11        none           bold
 ColorColumn        foreground     color08
 Visual             color11        color02
 Variant: 8
@@ -241,12 +241,12 @@ Operator           color05        none
 Define             color03        none           bold
 Structure          color02        none
 Variant: gui 256 16
-Statement          color12        none           g=bold
+Statement          color12        none           bold
 Constant           color09        none
 PreProc            color16        none
-Type               color12        none           g=bold
+Type               color12        none           bold
 Operator           color16        none
-Define             color11        none           g=bold
+Define             color11        none           bold
 Structure          color17        none
 
 Variant: 8
@@ -255,10 +255,10 @@ Conceal            color07        none
 Ignore             none           none
 Title              color03        none           bold
 Variant: gui 256 16
-Directory          color10        none           g=bold
+Directory          color10        none           bold
 Conceal            color07        none
 Ignore             none           none
-Title              color11        none           g=bold
+Title              color11        none           bold
 
 
 
