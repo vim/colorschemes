@@ -189,8 +189,8 @@ Title                 Title       none           bold
 Directory             Directory   none
 Search                color00     Search
 IncSearch             color15     none           t=reverse g=reverse
-NonText               rgbBlue     none           g=bold
-EndOfBuffer           rgbBlue     none           g=bold
+NonText               rgbBlue     none           bold
+EndOfBuffer           rgbBlue     none           bold
 ErrorMsg              color15     color01
 WarningMsg            WarningMsg  none
 SignColumn            color14     SignColumn
@@ -208,7 +208,7 @@ FoldColumn            color08     Folded
 Folded                color08     Folded
 CursorColumn          none        Cursorline
 CursorLine            none        Cursorline
-CursorLineNr          color11     Cursorline     g=bold
+CursorLineNr          color11     Cursorline     bold
 
 Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
@@ -217,9 +217,9 @@ LineNr                color08     none
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 MatchParen            none        rgbDarkCyan
-ModeMsg               none        none           g=bold
-MoreMsg               color12     none           g=bold
-Question              Question    none           g=bold
+ModeMsg               none        none           bold
+MoreMsg               color12     none           bold
+Question              Question    none           bold
 SpecialKey            SpecialKey  none
 WildMenu              color00     color11
 QuickFixLine          color00     color06
@@ -235,10 +235,10 @@ VertSplit             color00     color15
 
 TabLine               color15     color08
 TabLineFill           none        color00        t=reverse g=reverse
-TabLineSel            color15     color00        g=bold
+TabLineSel            color15     color00        bold
 
 ToolbarLine           none        color00
-ToolbarButton         color00     color07        g=bold
+ToolbarButton         color00     color07        bold
 
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
