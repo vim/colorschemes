@@ -124,9 +124,9 @@ ColorColumn          none              darkred
 CursorLine           none              grey40
 CursorLineNr         yellow            grey40
 EndOfBuffer          lightblue         grey30
-StatusLine           grey20            white             g=bold
+StatusLine           grey20            white             bold
 StatusLineNC         grey20            lightgrey
-TabLineSel           grey20            white             g=bold
+TabLineSel           grey20            white             bold
 TabLine              grey20            lightgrey
 
 Variant: 8
@@ -143,7 +143,7 @@ FoldColumn           darkblue          none
 Folded               darkblue          grey
 IncSearch            seagreen          none              reverse
 MatchParen           none              darkcyan
-ModeMsg              none              none              g=bold
+ModeMsg              none              none              bold
 MoreMsg              seagreen          none
 NonText              blue              none              bold
 Question             seagreen          none              bold
@@ -170,22 +170,22 @@ ErrorMsg             white             red
 LineNr               yellow            none
 Conceal              none              none
 FoldColumn           lightblue         none
-Folded               darkblue          lightgrey         g=bold
+Folded               darkblue          lightgrey         bold
 IncSearch            green             none              reverse
 MatchParen           none              darkcyan
-ModeMsg              none              none              g=bold
+ModeMsg              none              none              bold
 MoreMsg              seagreen          none
 NonText              lightblue         grey30
 Question             green             none
 Search               black             yellow
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-ToolbarButton        none              grey60            g=bold
+ToolbarButton        none              grey60            bold
 ToolbarLine          none              none
 Visual               white             grey60
-VisualNOS            none              none              underline g=bold
+VisualNOS            none              none              underline bold
 WarningMsg           darkred           none
-WildMenu             black             yellow            g=bold
+WildMenu             black             yellow            bold
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
