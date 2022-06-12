@@ -76,9 +76,9 @@ StatusLineTermNC   darkblue       darkyellow     reverse
 VertSplit          darkblue       darkyellow     reverse
 Variant:    gui 256 16
 EndOfBuffer        bg1            none
-StatusLine         Yellow         wildmenu       g=bold
+StatusLine         Yellow         wildmenu       bold
 StatusLineNC       status_fg      wildmenu
-StatusLineTerm     Yellow         type           g=bold
+StatusLineTerm     Yellow         type           bold
 StatusLineTermNC   folded         type
 VertSplit          folded         wildmenu
 
@@ -100,14 +100,14 @@ TabLineSel         black          gray
 Variant:    gui 256 16
 TabLine            fg0            folded
 TabLineFill        none           bg1
-TabLineSel         fg0            bg0            g=bold
+TabLineSel         fg0            bg0            bold
 
 Variant:    8
 ToolbarLine        none           none
 ToolbarButton      black          gray           reverse,bold
 Variant:    gui 256 16
 ToolbarLine        none           folded
-ToolbarButton      bg0            bg1            g=bold
+ToolbarButton      bg0            bg1            bold
 
 Variant:    8
 NonText            darkblue       none
@@ -133,7 +133,7 @@ VisualNOS          none           comment
 LineNr             linenr         none
 FoldColumn         wildmenu       none
 CursorColumn       none           folded
-CursorLineNr       linenr         none           g=bold
+CursorLineNr       linenr         none           bold
 QuickFixLine       bg0            identifier
 SignColumn         none           none
 
@@ -158,15 +158,15 @@ ColorColumn        black          darkred
 Variant:    gui 256 16
 Error              error          bg0            reverse
 WarningMsg         preproc        bg0
-MoreMsg            fg0            bg0            g=bold
-ModeMsg            fg0            bg0            g=bold
-Question           constant       none           g=bold
+MoreMsg            fg0            bg0            bold
+ModeMsg            fg0            bg0            bold
+Question           constant       none           bold
 
 Todo               fg0            Yellow
 MatchParen         bg0            special
 Search             bg0            preproc
 IncSearch          constant       none           reverse
-WildMenu           wildmenu       status_fg      g=bold
+WildMenu           wildmenu       status_fg      bold
 ColorColumn        fg0            folded
 Cursor             bg0            fg0
 lCursor            fg0            constant
@@ -212,14 +212,14 @@ Constant           constant       none
 Identifier         identifier     none
 Statement          statement      none           bold
 PreProc            preproc        none
-Type               type           none           g=bold
+Type               type           none           bold
 Special            special        none
 
-Directory          identifier     none           g=bold
+Directory          identifier     none           bold
 Conceal            comment        none
 Ignore             none           none
 
-Title              preproc        none           g=bold
+Title              preproc        none           bold
 
 
 Variant: gui 256
