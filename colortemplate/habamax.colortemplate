@@ -1,0 +1,318 @@
+; vim: cc=25,40,55 vsts=24,15,15,4
+Full name: habamax
+Short name: habamax
+Description: Hubba hubba hubba.
+Author: Maxim Kim <habamax@gmail.com>
+
+Background: dark
+
+;;; Color palette
+Color: color00          #1C1C1C        234            black
+Color: color08          #767676        243            darkgray
+
+Color: color01          #D75F5F        167            darkred
+Color: color09          #DF875F        173            red
+
+Color: color02          #87AF87        108            darkgreen
+Color: color10          #AFD7AF        151            green
+
+Color: color03          #AFAF87        144            darkyellow
+Color: color11          #DFDF87        186            yellow
+
+Color: color04          #5F87AF        67             blue
+Color: color12          #87AFD7        110            blue
+
+Color: color05          #AF87AF        139            darkmagenta
+Color: color13          #DFAFDF        182            magenta
+
+Color: color06          #5F8787        66             darkcyan
+Color: color14          #87AFAF        109            cyan
+
+Color: color07          #9E9E9E        247            gray
+Color: color15          #BCBCBC        250            white
+
+Color: colorLine        #303030        236            darkgrey
+Color: colorB           #262626        235            darkgrey
+Color: colorNonT        #585858        240            darkgrey
+Color: colorC           #FFAF5F        215            red
+Color: colorlC          #5FFF00        ~
+Color: colorV           #1F3F5F        109            cyan
+
+Color: diffAdd          #87AF87        108            darkgreen
+Color: diffDelete       #af875f        137            darkyellow
+Color: diffChange       #AFAFAF        145            darkgray
+Color: diffText         #DFDFDF        254            lightgrey
+Color: black            #000000        16             black
+Color: white            #FFFFFF        231            white
+
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+
+;;; ft&plug links
+javaScriptFunction                     -> Statement
+javaScriptIdentifier                   -> Statement
+sqlKeyword                             -> Statement
+yamlBlockMappingKey                    -> Statement
+rubyMacro                              -> Statement
+rubyDefine                             -> Statement
+vimVar                                 -> Normal
+vimOper                                -> Normal
+vimSep                                 -> Normal
+vimParenSep                            -> Normal
+vimCommentString                       -> Comment
+gitCommitSummary                       -> Title
+markdownUrl                            -> String
+elixirOperator                         -> Statement
+elixirKeyword                          -> Statement
+elixirBlockDefinition                  -> Statement
+elixirDefine                           -> Statement
+elixirPrivateDefine                    -> Statement
+elixirGuard                            -> Statement
+elixirPrivateGuard                     -> Statement
+elixirModuleDefine                     -> Statement
+elixirProtocolDefine                   -> Statement
+elixirImplDefine                       -> Statement
+elixirRecordDefine                     -> Statement
+elixirPrivateRecordDefine              -> Statement
+elixirMacroDefine                      -> Statement
+elixirPrivateMacroDefine               -> Statement
+elixirDelegateDefine                   -> Statement
+elixirOverridableDefine                -> Statement
+elixirExceptionDefine                  -> Statement
+elixirCallbackDefine                   -> Statement
+elixirStructDefine                     -> Statement
+elixirExUnitMacro                      -> Statement
+elixirInclude                          -> Statement
+elixirAtom                             -> PreProc
+elixirDocTest                          -> String
+
+
+;;; plug defs
+Variant: gui 256 16
+ALEErrorSign            color01        none
+ALEInfoSign             color11        none
+ALEWarningSign          color05        none
+
+ALEError                color00        color01
+ALEVirtualTextError     color00        color01
+ALEWarning              color00        color05
+ALEVirtualTextWarning   color00        color05
+ALEInfo                 color11        none
+ALEVirtualTextInfo      color11        none
+
+
+;;; chrome
+Variant: 8
+Normal                  color07        color00
+Variant: gui 256 16
+Normal                  color15        color00
+
+Variant: gui
+;; bug in gvim on windows, links are cleared for some reason
+Terminal                color15        color00
+Variant: 256 16 8
+Terminal                -> Normal
+
+Variant: 8
+Statusline              color07        color00        reverse,bold
+StatuslineNC            color07        color00        reverse
+StatuslineTerm          color07        color00        reverse,bold
+StatuslineTermNC        color07        color00        reverse
+VertSplit               color07        color00        reverse
+Variant: gui 256 16
+Statusline              color00        color07
+StatuslineNC            color00        color08
+StatuslineTerm          color00        color07
+StatuslineTermNC        color00        color08
+VertSplit               color08        color08
+
+Variant: 8
+TabLine                 color00        color07
+TabLineFill             color00        color07
+TabLineSel              none           none
+Variant: gui 256 16
+TabLine                 color00        color08
+TabLineFill             color00        color08
+TabLineSel              none           none           bold
+
+Variant: 8
+ToolbarLine             none           none
+ToolbarButton           color07        color00        reverse,bold
+QuickFixLine            color00        color04
+Variant: gui 256 16
+ToolbarLine             none           none
+ToolbarButton           color07        color00        reverse,bold
+QuickFixLine            color00        color04
+
+Variant: 8
+CursorLineNr            color03        none           bold
+LineNr                  color07        none           bold
+LineNrAbove             color07        none           bold
+LineNrBelow             color07        none           bold
+NonText                 color07        none           bold
+EndOfBuffer             color07        none           bold
+SpecialKey              color07        none           bold
+FoldColumn              color07        none           bold
+Variant: gui 256 16
+CursorLineNr            colorC         none           bold
+LineNr                  colorNonT      none
+LineNrAbove             colorNonT      none
+LineNrBelow             colorNonT      none
+NonText                 colorNonT      none
+EndOfBuffer             colorNonT      none
+SpecialKey              colorNonT      none
+FoldColumn              colorNonT      none
+
+Variant: 8
+Visual                  none           none           reverse
+VisualNOS               none           none           reverse
+Variant: gui 256 16
+Visual                  color00        color14
+VisualNOS               color00        color06
+
+Variant: 8
+Pmenu                   color00        color07
+PmenuThumb              color07        color00
+PmenuSbar               none           color07
+PmenuSel                color00        color03
+Variant: gui 256 16
+Pmenu                   none           colorB
+PmenuThumb              none           color08
+PmenuSbar               none           none
+PmenuSel                color00        color03
+
+Variant: 8
+SignColumn              none           none
+Error                   color01        color07        bold,reverse
+ErrorMsg                color01        color07        bold,reverse
+ModeMsg                 color00        color03
+MoreMsg                 color02        none
+Question                color03        none
+WarningMsg              color01        none
+Variant: gui 256 16
+SignColumn              none           none
+Error                   color01        color00        reverse
+ErrorMsg                color01        color00        reverse
+ModeMsg                 color00        color11
+MoreMsg                 color02        none
+Question                color03        none
+WarningMsg              color09        none
+
+Variant: 8
+Todo                    color03        color00        reverse
+MatchParen              color06        color00        reverse
+Search                  color00        color02
+IncSearch               color00        color03
+CurSearch               color00        color03
+WildMenu                color00        color03
+Variant: gui 256 16
+Todo                    color11        color00        reverse
+MatchParen              color06        color00        reverse
+Search                  color00        color02
+IncSearch               color00        colorC
+CurSearch               color00        color03
+WildMenu                color00        color11
+
+Variant: 8
+debugPC                 color00        color04
+debugBreakpoint         color00        color06
+Variant: gui 256 16
+debugPC                 color00        color04
+debugBreakpoint         color00        color09
+
+Variant: gui
+Cursor                  color00        colorC
+lCursor                 color00        colorlC
+
+Variant: 8
+CursorLine              none           none           underline
+CursorColumn            color00        color03
+Folded                  color00        color03
+ColorColumn             color00        color03
+Variant: 16
+CursorLine              none           none           underline
+CursorColumn            color00        color03
+Folded                  color00        color03
+ColorColumn             color00        color03
+Variant: gui 256
+CursorLine              none           colorLine
+CursorColumn            none           colorLine
+Folded                  color07        colorB
+ColorColumn             none           colorB
+
+Variant: 8
+SpellBad                color01        color07        reverse
+SpellCap                color04        color07        reverse
+SpellLocal              color02        color00        reverse
+SpellRare               color05        color07        reverse
+Variant: 256 16
+SpellBad                color01        none           t=underline g=undercurl s=color01
+SpellCap                color04        none           t=underline g=undercurl s=color04
+SpellLocal              color02        none           t=underline g=undercurl s=color02
+SpellRare               color13        none           t=underline g=undercurl s=color13
+Variant: gui
+SpellBad                none           none           t=underline g=undercurl s=color01
+SpellCap                none           none           t=underline g=undercurl s=color04
+SpellLocal              none           none           t=underline g=undercurl s=color02
+SpellRare               none           none           t=underline g=undercurl s=color13
+
+
+;;; :h group-names
+Variant: 8
+Comment                 color07        none           bold
+Constant                color02        none
+String                  color02        none
+Character               color02        none
+Identifier              color07        none
+Variant: gui 256 16
+Comment                 color08        none
+Constant                color09        none
+String                  color02        none
+Character               color10        none
+Identifier              color14        none
+
+Variant: 8
+Statement               color05        none
+PreProc                 color03        none
+Type                    color04        none
+Special                 color06        none
+Variant: gui 256 16
+Statement               color05        none
+PreProc                 color03        none
+Type                    color12        none
+Special                 color06        none
+
+Variant: 8
+Underlined              none           none           underline
+Title                   color03        none           bold
+Directory               color06        none           bold
+Conceal                 color07        none
+Ignore                  none           none
+Debug                   color06        none
+Variant: gui 256 16
+Underlined              none           none           underline
+Title                   color11        none           bold
+Directory               color14        none           bold
+Conceal                 color08        none
+Ignore                  none           none
+Debug                   color06        none
+
+
+Variant:                gui 256 16 8
+DiffAdd                 black          diffAdd
+DiffDelete              diffDelete     none
+diffAdded               color02        none
+diffRemoved             color01        none
+diffSubname             color05        none
+Variant:                8
+DiffText                white          black          reverse,bold
+DiffChange              black          white
+Variant:                gui 256 16
+DiffText                black          diffText
+DiffChange              black          diffChange
+
+
+; No color support
+Include: _tcozero
