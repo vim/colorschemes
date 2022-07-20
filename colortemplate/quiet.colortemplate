@@ -54,44 +54,26 @@ Background: dark
 ; Color name                GUI                  Base256    Base16 (optional)
 Color: black                #080808                ~
 Color: linenrblack          #444444                ~
-Color: brightblack          #6c6c6c                ~          
 
-Color: white                #dcdcdc                ~          
+Color: white                #dadada                ~          
 Color: brightwhite          #ffffff                ~          
 
-Color: xterm0        #000000                   16        0
-Color: xterm1        #cd0000                   160       1
-Color: xterm2        #00cd00                   40        2
-Color: xterm3        #cdcd00                   184       3
-Color: xterm4        #0000ee                   20        4
-Color: xterm5        #cd00cd                   164       5
-Color: xterm6        #00cdcd                   44        6
-Color: xterm7        #e5e5e5                   254       7
-Color: xterm8        #7f7f7f                   102       8
-Color: xterm9        #ff0000                   196       9
-Color: xterm10       #00ff00                   46       10
-Color: xterm11       #ffff00                   226      11
-Color: xterm12       #5c5cff                   63       12
-Color: xterm13       #ff00ff                   201      13
-Color: xterm14       #00ffff                   51       14
-Color: xterm15       #ffffff                   231      15
-
-Color: dark0         #080808                     ~
-Color: dark1         #d7005f                     ~
-Color: dark2         #00af5f                     ~
-Color: dark3         #d78700                     ~
-Color: dark4         #0087d7                     ~
-Color: dark5         #d787d7                     ~
-Color: dark6         #00afaf                     ~
-Color: dark7         #dddddd                     ~
-Color: dark8         #707070                     ~
-Color: dark9         #ff005f                     ~
-Color: dark10        #00d75f                     ~
-Color: dark11        #ffaf00                     ~
-Color: dark12        #5fafff                     ~
-Color: dark13        #ff87ff                     ~
-Color: dark14        #00d7d7                     ~
-Color: dark15        #ffffff                     ~
+Color: dark0         #080808                       ~     0
+Color: dark1         #d7005f                       ~     1
+Color: dark2         #00af5f                       ~     2
+Color: dark3         #d78700                       ~     3
+Color: dark4         #0087d7                       ~     4
+Color: dark5         #d787d7                       ~     5
+Color: dark6         #00afaf                       ~     6
+Color: dark7         #dadada                       ~     7
+Color: dark8         #707070                       ~     8
+Color: dark9         #ff005f                       ~     9
+Color: dark10        #00d75f                       ~    10
+Color: dark11        #ffaf00                       ~    11
+Color: dark12        #5fafff                       ~    12
+Color: dark13        #ff87ff                       ~    13
+Color: dark14        #00d7d7                       ~    14
+Color: dark15        #ffffff                       ~    15
 
 Color: diffred              #d75f5f                ~          
 Color: diffgreen            #00af00                ~          
@@ -134,16 +116,16 @@ DiffText             diffpink          black             reverse
 Directory            white             black
 EndOfBuffer          white             black
 ErrorMsg             white             black             reverse
-FoldColumn           brightblack       black
-Folded               brightblack       black             
+FoldColumn           dark8             black
+Folded               dark8             black             
 IncSearch            uiamber           black             reverse
 LineNr               linenrblack       black
 MatchParen           uipink            black             bold
 ModeMsg              white             black             bold
 MoreMsg              white             black
-NonText              brightblack       black
+NonText              dark8             black
 Pmenu                black             diffblue
-PmenuSbar            white             brightblack
+PmenuSbar            white             dark8
 PmenuSel             black             diffpink
 PmenuThumb           white             diffpink
 Question             white             black
@@ -155,18 +137,18 @@ SpellCap             uiblue            black             underline
 SpellLocal           uipurple          black             underline
 SpellRare            uiteal            black             underline
 StatusLine           black             white             bold
-StatusLineNC         brightblack       black             underline
-TabLine              brightblack       black             underline
+StatusLineNC         dark8             black             underline
+TabLine              dark8             black             underline
 TabLineFill          white             none
 TabLineSel           black             white             bold
 Title                white             black
-VertSplit            brightblack       black
+VertSplit            dark8             black
 Visual               none              none              reverse
 VisualNOS            none              uiblack
 WarningMsg           white             black
 WildMenu             uiblue            black             bold
 ; Other conventional group names (see `:help group-name`)
-Comment              brightblack       black             bold
+Comment              dark8             black             bold
 Constant             white             none
 Error                errorred          black             reverse,bold
 Identifier           white             none
@@ -194,16 +176,16 @@ Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
 CursorLineNr         none              none              bold
-DiffAdd              xterm2            xterm0            reverse
-DiffChange           xterm4            xterm0            reverse
-DiffDelete           xterm1            xterm0            reverse
-DiffText             xterm5            xterm0            reverse
+DiffAdd              dark2             dark0            reverse
+DiffChange           dark4             dark0            reverse
+DiffDelete           dark1             dark0            reverse
+DiffText             dark5             dark0            reverse
 Directory            none              none
 EndOfBuffer          none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
 Folded               none              none
-IncSearch            xterm3            xterm0            reverse,bold,underline
+IncSearch            dark3             dark0            reverse,bold,underline
 LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
@@ -214,13 +196,13 @@ PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
-Search               xterm6            xterm0            reverse
+Search               dark6             dark0            reverse
 SignColumn           none              none              reverse
 SpecialKey           none              none              bold
-SpellBad             none              none              underline
-SpellCap             none              none              underline
-SpellLocal           none              none              underline
-SpellRare            none              none              underline
+SpellBad             dark1             none              underline
+SpellCap             dark4             none              underline
+SpellLocal           dark5             none              underline
+SpellRare            dark6             none              underline
 StatusLine           none              none              bold,reverse
 StatusLineNC         none              none              bold,underline
 TabLine              none              none              bold,underline
@@ -256,44 +238,26 @@ Background: light
 ; Color palette for light variant {{{
 ; Color name                GUI                  Base256    Base16 (optional)
 Color: black                #080808                ~   
-Color: brightblack          #606060                ~   
 
 Color: white                #d7d7d7                ~   
 Color: brightwhite          #eeeeee                ~   
 
-Color: xterm0        #000000                   16        0
-Color: xterm1        #cd0000                   160       1
-Color: xterm2        #00cd00                   40        2
-Color: xterm3        #cdcd00                   184       3
-Color: xterm4        #0000ee                   20        4
-Color: xterm5        #cd00cd                   164       5
-Color: xterm6        #00cdcd                   44        6
-Color: xterm7        #e5e5e5                   254       7
-Color: xterm8        #7f7f7f                   102       8
-Color: xterm9        #ff0000                   196       9
-Color: xterm10       #00ff00                   46       10
-Color: xterm11       #ffff00                   226      11
-Color: xterm12       #5c5cff                   63       12
-Color: xterm13       #ff00ff                   201      13
-Color: xterm14       #00ffff                   51       14
-Color: xterm15       #ffffff                   231      15
-
-Color: light0        #080808           ~
-Color: light1        #9f003f           ~
-Color: light2        #00673f           ~
-Color: light3        #9f4f00           ~
-Color: light4        #004faf           ~
-Color: light5        #77008f           ~
-Color: light6        #00779f           ~
-Color: light7        #d7d7d7           ~
-Color: light8        #626262           ~
-Color: light9        #bf005f           ~
-Color: light10       #00875f           ~
-Color: light11       #bf6f00           ~
-Color: light12       #006fcf           ~
-Color: light13       #9700af           ~
-Color: light14       #0097bf           ~
-Color: light15       #ffffff           ~
+Color: light0        #080808                       ~     0
+Color: light1        #af0000                       ~     1
+Color: light2        #005f00                       ~     2
+Color: light3        #af5f00                       ~     3
+Color: light4        #005faf                       ~     4
+Color: light5        #870087                       ~     5
+Color: light6        #008787                       ~     6
+Color: light7        #d7d7d7                       ~     7
+Color: light8        #626262                       ~     8
+Color: light9        #d70000                       ~     9
+Color: light10       #008700                       ~    10
+Color: light11       #d78700                       ~    11
+Color: light12       #0087d7                       ~    12
+Color: light13       #af00af                       ~    13
+Color: light14       #00afaf                       ~    14
+Color: light15       #ffffff                       ~    15
 
 Color: diffred              #d78787                ~   
 Color: diffgreen            #87d787                ~   
@@ -335,16 +299,16 @@ DiffText             diffpink          black             reverse
 Directory            black             white
 EndOfBuffer          black             white
 ErrorMsg             black             white             reverse
-FoldColumn           brightblack       white
-Folded               brightblack       white             
+FoldColumn           light8             white
+Folded               light8             white             
 IncSearch            uiamber           black             reverse
 LineNr               invisigrey        white
 MatchParen           uipink            white             bold
 ModeMsg              black             white             bold
 MoreMsg              black             white
-NonText              brightblack       white
+NonText              light8             white
 Pmenu                black             diffblue
-PmenuSbar            black             brightblack
+PmenuSbar            black             light8
 PmenuSel             black             diffpink
 PmenuThumb           black             diffpink
 Question             black             white
@@ -361,7 +325,7 @@ TabLine              black             invisigrey
 TabLineFill          black             white
 TabLineSel           brightwhite       black             bold
 Title                black             white
-VertSplit            brightblack       white
+VertSplit            light8             white
 Visual               none              none              reverse
 VisualNOS            none              brightwhite
 WarningMsg           black             white
@@ -395,16 +359,16 @@ Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
 CursorLineNr         none              none              bold
-DiffAdd              xterm2            xterm0            reverse
-DiffChange           xterm4            xterm0            reverse
-DiffDelete           xterm1            xterm0            reverse
-DiffText             xterm5            xterm0            reverse
+DiffAdd              light2            light0            reverse
+DiffChange           light4            light0            reverse
+DiffDelete           light1            light0            reverse
+DiffText             light5            light0            reverse
 Directory            none              none
 EndOfBuffer          none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
 Folded               none              none
-IncSearch            xterm3            xterm0            reverse,bold,underline
+IncSearch            light3            light0            reverse,bold,underline
 LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
@@ -415,13 +379,13 @@ PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
-Search               xterm6            xterm0            reverse
+Search               light6            light0            reverse
 SignColumn           none              none              reverse
 SpecialKey           none              none              bold
-SpellBad             none              none              underline
-SpellCap             none              none              underline
-SpellLocal           none              none              underline
-SpellRare            none              none              underline
+SpellBad             light1            none              underline
+SpellCap             light4            none              underline
+SpellLocal           light5            none              underline
+SpellRare            light6            none              underline
 StatusLine           none              none              bold,reverse
 StatusLineNC         none              none              bold,underline
 TabLine              none              none              bold,underline
