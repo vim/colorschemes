@@ -1,8 +1,10 @@
 ; vim: cc=25,40,55 vsts=24,15,15,4
-Full name: habamax
-Short name: habamax
+Full name:   habamax
+Short name:  habamax
 Description: Hubba hubba hubba.
-Author: Maxim Kim <habamax@gmail.com>
+Author:      Maxim Kim <habamax@gmail.com>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
 
 Background: dark
 
