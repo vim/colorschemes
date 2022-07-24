@@ -14,7 +14,7 @@ License:       Vim License (see `:help license`)`
 
 
 ; Global definitions - put at the top of the colorscheme {{{
-QuickFixLine         -> Search
+; QuickFixLine         -> Search
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Boolean              -> Constant
@@ -124,6 +124,7 @@ PmenuSbar            dark7             dark8
 PmenuSel             dark0             diffpink
 PmenuThumb           dark7             diffpink
 Question             dark7             dark0
+QuickFixLine         diffpink          dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             dark0
 SpecialKey           dark7             dark0
@@ -191,6 +192,7 @@ PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
+QuickFixLine         dark5             dark0             reverse
 Search               dark6             dark0             reverse
 SignColumn           none              none              reverse
 SpecialKey           none              none              bold
@@ -305,6 +307,7 @@ PmenuSbar            light0            light8
 PmenuSel             light0            diffpink
 PmenuThumb           light0            diffpink
 Question             light0            light7
+QuickFixLine         diffpink          light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            light7
 SpecialKey           light0            light7
@@ -372,6 +375,7 @@ PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
+QuickFixLine         light5            light0            reverse
 Search               light6            light0            reverse
 SignColumn           none              none              reverse
 SpecialKey           none              none              bold
