@@ -128,10 +128,10 @@ QuickFixLine         diffpink          dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             dark0
 SpecialKey           dark7             dark0
-SpellBad             uipink            dark0             underline
-SpellCap             uiblue            dark0             underline
-SpellLocal           uipurple          dark0             underline
-SpellRare            uiteal            dark0             underline
+SpellBad             dark1             dark0             t=underline g=undercurl s=dark1
+SpellCap             dark4             dark0             t=underline g=undercurl s=dark4
+SpellLocal           dark5             dark0             t=underline g=undercurl s=dark5
+SpellRare            dark6             dark0             t=underline g=undercurl s=dark6
 StatusLine           dark0             dark7             bold
 StatusLineNC         dark8             dark0             underline
 TabLine              dark8             dark0             underline
@@ -311,10 +311,10 @@ QuickFixLine         diffpink          light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            light7
 SpecialKey           light0            light7
-SpellBad             uipink            light7            underline
-SpellCap             uiblue            light7            underline
-SpellLocal           uipurple          light7            underline
-SpellRare            uiteal            light7            underline
+SpellBad             light1            light7            t=underline g=undercurl s=light1
+SpellCap             light4            light7            t=underline g=undercurl s=light4
+SpellLocal           light5            light7            t=underline g=undercurl s=light5
+SpellRare            light6            light7            t=underline g=undercurl s=light6
 StatusLine           brightwhite       light0            bold
 StatusLineNC         light0            invisigrey
 TabLine              light0            invisigrey
