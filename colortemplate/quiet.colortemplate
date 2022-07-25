@@ -118,7 +118,7 @@ LineNr               linenrblack       dark0
 MatchParen           uipink            dark0             bold
 ModeMsg              dark7             dark0             bold
 MoreMsg              dark7             dark0
-NonText              dark8             dark0
+NonText              dark8             none
 Pmenu                dark0             diffblue
 PmenuSbar            dark7             dark8
 PmenuSel             dark0             diffpink
@@ -301,7 +301,7 @@ LineNr               invisigrey        light7
 MatchParen           uipink            light7            bold
 ModeMsg              light0            light7            bold
 MoreMsg              light0            light7
-NonText              light8            light7
+NonText              light8            none
 Pmenu                light0            diffblue
 PmenuSbar            light0            light8
 PmenuSel             light0            diffpink
