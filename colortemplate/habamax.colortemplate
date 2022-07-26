@@ -51,6 +51,10 @@ Color: white            #FFFFFF        231            white
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 
+;;; links
+Terminal                -> Normal
+StatuslineTerm          -> Statusline
+StatuslineTermNC        -> StatuslineNC
 
 ;;; ft&plug links
 javaScriptFunction                     -> Statement
@@ -111,23 +115,13 @@ Normal                  color07        color00
 Variant: gui 256 16
 Normal                  color15        color00
 
-Variant: gui
-;; bug in gvim on windows, links are cleared for some reason
-Terminal                color15        color00
-Variant: 256 16 8
-Terminal                -> Normal
-
 Variant: 8
 Statusline              color07        color00        reverse,bold
 StatuslineNC            color07        color00        reverse
-StatuslineTerm          color07        color00        reverse,bold
-StatuslineTermNC        color07        color00        reverse
 VertSplit               color07        color00        reverse
 Variant: gui 256 16
 Statusline              color00        color07
 StatuslineNC            color00        color08
-StatuslineTerm          color00        color07
-StatuslineTermNC        color00        color08
 VertSplit               color08        color08
 
 Variant: 8
