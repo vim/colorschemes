@@ -229,8 +229,6 @@ Ignore             none           none
 Title              color13        none           bold
 
 
-
-
 ;;; "Standard" diff colors
 Include: _diff
 
