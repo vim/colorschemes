@@ -13,19 +13,19 @@ Color: color00          #1C1C1C        234            black
 Color: color08          #767676        243            darkgray
 
 Color: color01          #D75F5F        167            darkred
-Color: color09          #DF875F        173            red
+Color: color09          #D7875F        173            red
 
 Color: color02          #87AF87        108            darkgreen
 Color: color10          #AFD7AF        151            green
 
 Color: color03          #AFAF87        144            darkyellow
-Color: color11          #DFDF87        186            yellow
+Color: color11          #D7D787        186            yellow
 
 Color: color04          #5F87AF        67             blue
 Color: color12          #87AFD7        110            blue
 
 Color: color05          #AF87AF        139            darkmagenta
-Color: color13          #DFAFDF        182            magenta
+Color: color13          #D7AFD7        182            magenta
 
 Color: color06          #5F8787        66             darkcyan
 Color: color14          #87AFAF        109            cyan
@@ -37,13 +37,13 @@ Color: colorLine        #303030        236            darkgrey
 Color: colorB           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #FFAF5F        215            red
-Color: colorlC          #5FFF00        ~
+Color: colorlC          #5FFF00        82             green
 Color: colorV           #1F3F5F        109            cyan
 
 Color: diffAdd          #87AF87        108            darkgreen
 Color: diffDelete       #af875f        137            darkyellow
 Color: diffChange       #AFAFAF        145            darkgray
-Color: diffText         #DFDFDF        254            lightgrey
+Color: diffText         #D7D7D7        188            lightgrey
 Color: black            #000000        16             black
 Color: white            #FFFFFF        231            white
 
