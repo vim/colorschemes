@@ -162,8 +162,8 @@ ToolbarButton        dark7             dark0             bold
 ; }}}
 
 Variant: 16 8
-    Normal           none              none
-    Terminal         none              none
+Normal               none              none
+Terminal             none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
@@ -346,8 +346,8 @@ ToolbarButton        light0            light7            bold
 ; }}}
 
 Variant: 16 8
-    Normal           none              none
-    Terminal         none              none
+Normal               none              none
+Terminal             none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
