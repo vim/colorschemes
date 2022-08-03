@@ -1,4 +1,4 @@
-; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
 
 ; Information {{{
 ; Mandatory
@@ -14,7 +14,6 @@ License:       Vim License (see `:help license`)`
 
 
 ; Global definitions - put at the top of the colorscheme {{{
-; QuickFixLine         -> Search
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Boolean              -> Constant
@@ -51,40 +50,40 @@ debugPC              -> CursorLine
 Background: dark
 
 ; Color palette for dark variant {{{
-; Color name                GUI                  Base256    Base16 (optional)
-Color: dark0         #080808                       ~     0
-Color: dark1         #d7005f                       ~     1
-Color: dark2         #00af5f                       ~     2
-Color: dark3         #d78700                       ~     3
-Color: dark4         #0087d7                       ~     4
-Color: dark5         #d787d7                       ~     5
-Color: dark6         #00afaf                       ~     6
-Color: dark7         #dadada                       ~     7
-Color: dark8         #707070                       ~     8
-Color: dark9         #ff005f                       ~     9
-Color: dark10        #00d75f                       ~    10
-Color: dark11        #ffaf00                       ~    11
-Color: dark12        #5fafff                       ~    12
-Color: dark13        #ff87ff                       ~    13
-Color: dark14        #00d7d7                       ~    14
-Color: dark15        #ffffff                       ~    15
+; Color name         GUI               Base256           Base16 (optional)
+Color: dark0         #080808           232               black
+Color: dark1         #d7005f           161               darkred
+Color: dark2         #00af5f           35                darkgreen
+Color: dark3         #d78700           172               darkyellow
+Color: dark4         #0087d7           32                darkblue
+Color: dark5         #d787d7           176               darkmagenta
+Color: dark6         #00afaf           37                darkcyan
+Color: dark7         #dadada           253               grey
+Color: dark8         #707070           242               darkgrey
+Color: dark9         #ff005f           197               red
+Color: dark10        #00d75f           41                green
+Color: dark11        #ffaf00           214               yellow
+Color: dark12        #5fafff           75                blue
+Color: dark13        #ff87ff           213               magenta
+Color: dark14        #00d7d7           44                cyan
+Color: dark15        #ffffff           231               white
 
-Color: diffred              #d75f5f                ~          
-Color: diffgreen            #00af00                ~          
-Color: diffblue             #87afd7                ~          
-Color: diffpink 	          #d787d7                ~
-                                                                
-Color: uipink               #ff00af                ~          
-Color: uilime               #afff00                ~          
-Color: uiteal               #00ffaf                ~                                      
-Color: uiblue               #00afff                ~          
-Color: uipurple             #af00ff                ~          
-Color: uiamber              #ffaf00                ~          
-Color: uiblack              #303030                ~          
-Color: yasogrey             #1c1c1c                ~
-Color: linenrblack          #444444                ~
+Color: diffred       #d75f5f           167               darkred
+Color: diffgreen     #00af00           34                darkgreen
+Color: diffblue      #87afd7           110               darkblue
+Color: diffpink 	   #d787d7           176               darkmagenta
 
-Color: errorred             #ff005f                ~
+Color: uipink        #ff00af           199               magenta
+Color: uilime        #afff00           154               green
+Color: uiteal        #00ffaf           49                green
+Color: uiblue        #00afff           39                blue
+Color: uipurple      #af00ff           129               darkmagenta
+Color: uiamber       #ffaf00           214               darkyellow
+Color: uiblack       #303030           236               darkgrey
+Color: yasogrey      #1c1c1c           234               black
+Color: linenrblack   #444444           238               darkgrey
+
+Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 ; }}}
 
@@ -93,9 +92,9 @@ Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
 Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
-Variant: gui 256 
-    Normal           dark7             dark0
-    Terminal         dark7             dark0
+Variant: gui 256
+Normal               dark7             dark0
+Terminal             dark7             dark0
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
@@ -112,7 +111,7 @@ Directory            dark7             dark0
 EndOfBuffer          dark7             dark0
 ErrorMsg             dark7             dark0             reverse
 FoldColumn           dark8             dark0
-Folded               dark8             dark0             
+Folded               dark8             dark0
 IncSearch            uiamber           dark0             reverse
 LineNr               linenrblack       dark0
 MatchParen           uipink            dark0             bold
@@ -233,42 +232,42 @@ ToolbarButton        none              none              bold,reverse
 Background: light
 
 ; Color palette for light variant {{{
-; Color name                GUI                  Base256    Base16 (optional)
+; Color name         GUI               Base256           Base16 (optional)
 
-Color: brightwhite          #eeeeee                ~   
+Color: brightwhite   #eeeeee           255               grey
 
-Color: light0        #080808                       ~     0
-Color: light1        #af0000                       ~     1
-Color: light2        #005f00                       ~     2
-Color: light3        #af5f00                       ~     3
-Color: light4        #005faf                       ~     4
-Color: light5        #870087                       ~     5
-Color: light6        #008787                       ~     6
-Color: light7        #d7d7d7                       ~     7
-Color: light8        #626262                       ~     8
-Color: light9        #d70000                       ~     9
-Color: light10       #008700                       ~    10
-Color: light11       #d78700                       ~    11
-Color: light12       #0087d7                       ~    12
-Color: light13       #af00af                       ~    13
-Color: light14       #00afaf                       ~    14
-Color: light15       #ffffff                       ~    15
+Color: light0        #080808           232               black
+Color: light1        #af0000           124               darkred
+Color: light2        #005f00           22                darkgreen
+Color: light3        #af5f00           130               darkyellow
+Color: light4        #005faf           25                darkblue
+Color: light5        #870087           90                darkmagenta
+Color: light6        #008787           30                darkcyan
+Color: light7        #d7d7d7           188               grey
+Color: light8        #626262           241               darkgrey
+Color: light9        #d70000           160               red
+Color: light10       #008700           28                green
+Color: light11       #d78700           172               yellow
+Color: light12       #0087d7           32                blue
+Color: light13       #af00af           127               magenta
+Color: light14       #00afaf           37                cyan
+Color: light15       #ffffff           231               white
 
-Color: diffred              #d78787                ~   
-Color: diffgreen            #87d787                ~   
-Color: diffblue             #afafd7                ~   
-Color: diffpink 	          #d787d7                ~
+Color: diffred       #d78787           174               red
+Color: diffgreen     #87d787           114               green
+Color: diffblue      #afafd7           146               blue
+Color: diffpink      #d787d7           176               magenta
 
-Color: uipink               #ff00af                ~          
-Color: uilime               #afff00                ~          
-Color: uiteal               #00ffaf                ~                                      
-Color: uiblue               #00afff                ~          
-Color: uipurple             #af00ff                ~          
-Color: uiamber              #ffaf00                ~          
-Color: invisigrey           #a8a8a8                ~   
-Color: yasogrey             #e4e4e4                ~
+Color: uipink        #ff00af           199               magenta
+Color: uilime        #afff00           154               green
+Color: uiteal        #00ffaf           49                cyan
+Color: uiblue        #00afff           39                blue
+Color: uipurple      #af00ff           129               darkmagenta
+Color: uiamber       #ffaf00           214               yellow
+Color: invisigrey    #a8a8a8           248               darkgrey
+Color: yasogrey      #e4e4e4           254               grey
 
-Color: errorred             #ff005f                ~
+Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 ; }}}
 
@@ -277,9 +276,9 @@ Term colors: light0 light1 light2 light3 light4 light5 light6 light7
 Term colors: light8 light9 light10 light11 light12 light13 light14 light15
 ; }}}
 
-Variant: gui 256 
-    Normal           light0             light7
-    Terminal         light0             light7
+Variant: gui 256
+Normal               light0            light7
+Terminal             light0            light7
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
@@ -296,7 +295,7 @@ Directory            light0            light7
 EndOfBuffer          light0            light7
 ErrorMsg             light0            light7            reverse
 FoldColumn           light8            light7
-Folded               light8            light7             
+Folded               light8            light7
 IncSearch            uiamber           light0            reverse
 LineNr               invisigrey        light7
 MatchParen           uipink            light7            bold
