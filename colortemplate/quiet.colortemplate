@@ -243,7 +243,7 @@ Color: light3        #af5f00           130               darkyellow
 Color: light4        #005faf           25                darkblue
 Color: light5        #870087           90                darkmagenta
 Color: light6        #008787           30                darkcyan
-Color: light7        #dadada           253               grey
+Color: light7        #d7d7d7           188               grey
 Color: light8        #626262           241               darkgrey
 Color: light9        #d70000           160               red
 Color: light10       #008700           28                green
