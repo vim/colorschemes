@@ -23,7 +23,7 @@ Color: comment       #878787           102               darkgray
 Color: darkgray      #878787           102               darkgray
 Color: red           #d70000           160               red
 Color: green         #00ff00           46                green
-Color: yellow        #ffdf00           220               yellow
+Color: yellow        #ffd700           220               yellow
 Color: blue          #005faf           25                blue
 Color: magenta       #d787d7           176               magenta
 Color: cyan          #5fffff           87                cyan
