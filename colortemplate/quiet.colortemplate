@@ -14,6 +14,7 @@ License:       Vim License (see `:help license`)`
 
 
 ; Global definitions - put at the top of the colorscheme {{{
+Terminal             -> Normal
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Boolean              -> Constant
@@ -94,7 +95,6 @@ Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 
 Variant: gui 256
 Normal               dark7             dark0
-Terminal             dark7             dark0
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
@@ -110,40 +110,40 @@ DiffText             diffpink          dark0             reverse
 Directory            dark7             dark0
 EndOfBuffer          dark7             dark0
 ErrorMsg             dark7             dark0             reverse
-FoldColumn           dark8             dark0
+FoldColumn           dark8             none
 Folded               dark8             dark0
 IncSearch            uiamber           dark0             reverse
-LineNr               linenrblack       dark0
-MatchParen           uipink            dark0             bold
-ModeMsg              dark7             dark0             bold
-MoreMsg              dark7             dark0
+LineNr               linenrblack       none
+MatchParen           uipink            none              bold
+ModeMsg              dark7             none              bold
+MoreMsg              dark7             none
 NonText              dark8             none
 Pmenu                dark0             diffblue
 PmenuSbar            dark7             dark8
 PmenuSel             dark0             diffpink
 PmenuThumb           dark7             diffpink
-Question             dark7             dark0
+Question             dark7             none
 QuickFixLine         diffpink          dark0             reverse
 Search               uiblue            dark0             reverse
-SignColumn           dark7             dark0
-SpecialKey           dark7             dark0
-SpellBad             dark1             dark0             t=underline g=undercurl s=dark1
-SpellCap             dark4             dark0             t=underline g=undercurl s=dark4
-SpellLocal           dark5             dark0             t=underline g=undercurl s=dark5
-SpellRare            dark6             dark0             t=underline g=undercurl s=dark6
+SignColumn           dark7             none
+SpecialKey           dark7             none
+SpellBad             dark1             none              t=underline g=undercurl s=dark1
+SpellCap             dark4             none              t=underline g=undercurl s=dark4
+SpellLocal           dark5             none              t=underline g=undercurl s=dark5
+SpellRare            dark6             none              t=underline g=undercurl s=dark6
 StatusLine           dark0             dark7             bold
 StatusLineNC         dark8             dark0             underline
 TabLine              dark8             dark0             underline
 TabLineFill          dark7             none
 TabLineSel           dark0             dark7             bold
-Title                dark7             dark0
+Title                dark7             none
 VertSplit            dark8             dark0
 Visual               none              none              reverse
 VisualNOS            none              uiblack
-WarningMsg           dark7             dark0
+WarningMsg           dark7             none
 WildMenu             uiblue            dark0             bold
 ; Other conventional group names (see `:help group-name`)
-Comment              dark8             dark0             bold
+Comment              dark8             none              bold
 Constant             dark7             none
 Error                errorred          dark0             reverse,bold
 Identifier           dark7             none
@@ -163,7 +163,6 @@ ToolbarButton        dark7             dark0             bold
 
 Variant: 16 8
 Normal               none              none
-Terminal             none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
@@ -278,7 +277,6 @@ Term colors: light8 light9 light10 light11 light12 light13 light14 light15
 
 Variant: gui 256
 Normal               light0            light7
-Terminal             light0            light7
 
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
@@ -291,26 +289,26 @@ DiffAdd              diffgreen         light0            reverse
 DiffChange           diffblue          light0            reverse
 DiffDelete           diffred           light0            reverse
 DiffText             diffpink          light0            reverse
-Directory            light0            light7
-EndOfBuffer          light0            light7
+Directory            light0            none
+EndOfBuffer          light0            none
 ErrorMsg             light0            light7            reverse
-FoldColumn           light8            light7
+FoldColumn           light8            none
 Folded               light8            light7
 IncSearch            uiamber           light0            reverse
-LineNr               invisigrey        light7
+LineNr               invisigrey        none
 MatchParen           uipink            light7            bold
-ModeMsg              light0            light7            bold
-MoreMsg              light0            light7
+ModeMsg              light0            none              bold
+MoreMsg              light0            none
 NonText              light8            none
 Pmenu                light0            diffblue
 PmenuSbar            light0            light8
 PmenuSel             light0            diffpink
 PmenuThumb           light0            diffpink
-Question             light0            light7
+Question             light0            none
 QuickFixLine         diffpink          light0            reverse
 Search               uiblue            light0            reverse
-SignColumn           light0            light7
-SpecialKey           light0            light7
+SignColumn           light0            none
+SpecialKey           light0            none
 SpellBad             light1            light7            t=underline g=undercurl s=light1
 SpellCap             light4            light7            t=underline g=undercurl s=light4
 SpellLocal           light5            light7            t=underline g=undercurl s=light5
@@ -320,14 +318,14 @@ StatusLineNC         light0            invisigrey
 TabLine              light0            invisigrey
 TabLineFill          light0            light7
 TabLineSel           brightwhite       light0            bold
-Title                light0            light7
+Title                light0            none
 VertSplit            light8            light7
 Visual               none              none              reverse
 VisualNOS            none              brightwhite
-WarningMsg           light0            light7
+WarningMsg           light0            none
 WildMenu             light0            brightwhite       bold
 ; Other conventional group names (see `:help group-name`)
-Comment              light0            light7            bold
+Comment              light0            none              bold
 Constant             light0            none
 Error                errorred          light0            reverse,bold
 Identifier           light0            none
@@ -347,7 +345,6 @@ ToolbarButton        light0            light7            bold
 
 Variant: 16 8
 Normal               none              none
-Terminal             none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
