@@ -1,4 +1,4 @@
-; vim: cc=20,35,50 vsts=19,15,15,4
+;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
 
 Full name:   slate
 Short name:  slate
@@ -11,254 +11,273 @@ License:     Same as Vim
 
 Background: dark
 
+Color: x_black       #000000           16                black
+Color: x_darkred     #cd0000           160               darkred
+Color: x_darkgreen   #00cd00           40                darkgreen
+Color: x_darkyellow  #cdcd00           184               darkyellow
+Color: x_darkblue    #0000ee           21                darkblue
+Color: x_darkmagenta #cd00cd           164               darkmagenta
+Color: x_darkcyan    #00cdcd           44                darkcyan
+Color: x_gray        #e5e5e5           254               gray
+Color: x_darkgray    #7f7f7f           244               darkgray
+Color: x_red         #ff0000           196               red
+Color: x_green       #00ff00           46                green
+Color: x_yellow      #ffff00           226               yellow
+Color: x_blue        #5c5cff           63                blue
+Color: x_magenta     #ff00ff           201               magenta
+Color: x_cyan        #00ffff           51                cyan
+Color: x_white       #ffffff           231               white
+
 
 ;;; color palette
-Color: foreground  #FFFFFF        231            white
-Color: background  #262626        235            black
+Color: foreground    #FFFFFF           231               white
+Color: background    #262626           235               black
 
-Color: color00     #000000        16             black
-Color: color08     #333333        236            darkgrey
+Color: color00       #000000           16                black
+Color: color08       #333333           236               darkgrey
 
-Color: color01     #FF0000        196            darkred
-Color: color09     #FFAFAF        217            red
+Color: color01       #FF0000           196               darkred
+Color: color09       #FFAFAF           217               red
 
-Color: color02     #5F8700        64             darkgreen
-Color: color10     #00875F        29             green
+Color: color02       #5F8700           64                darkgreen
+Color: color10       #00875F           29                green
 
-Color: color03     #ffff00        226            darkyellow
-Color: color11     #FFD700        220            yellow
+Color: color03       #ffff00           226               darkyellow
+Color: color11       #FFD700           220               yellow
 
-Color: color04     #87d7FF        117            darkblue
-Color: color12     #5F87D7        68             blue
+Color: color04       #87d7FF           117               darkblue
+Color: color12       #5F87D7           68                blue
 
-Color: color05     #d7d787        186            darkmagenta
-Color: color13     #AFAF87        144            magenta
+Color: color05       #d7d787           186               darkmagenta
+Color: color13       #AFAF87           144               magenta
 
-Color: color06     #FFD7AF        223            darkcyan
-Color: color14     #FF8787        210            cyan
+Color: color06       #FFD7AF           223               darkcyan
+Color: color14       #FF8787           210               cyan
 
-Color: color07     #666666        241            grey
-Color: color15     #FFFFFF        231            white
+Color: color07       #666666           241               grey
+Color: color15       #FFFFFF           231               white
 
-Color: color16     #D7875F        173            darkmagenta
-Color: color17     #00FF00        46             darkgreen
+Color: color16       #D7875F           173               darkmagenta
+Color: color17       #00FF00           46                darkgreen
 
-Color: Pmenu       #4A4A4A        239            darkgrey
+Color: Pmenu         #4A4A4A           239               darkgrey
 
-Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+
+;;; Terminal
+Term colors: x_black    x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta x_darkcyan x_gray
+Term colors: x_darkgray x_red     x_green     x_yellow     x_blue     x_magenta     x_cyan     x_white
 
 
 ;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
+Terminal             -> Normal
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
+CurSearch            -> Search
+CursorLineFold       -> CursorLine
+CursorLineSign       -> CursorLine
 
 
 ;;; chrome
 
-Variant: gui 256 16
-Normal             foreground     background
-EndOfBuffer        color12        none
-Variant: 8
-Normal             color07        color00
-EndOfBuffer        color04        none           bold
+Variant: gui 256
+Normal               foreground        background
+EndOfBuffer          color12           none
+Variant: 16 8
+Normal               color07           color00
+EndOfBuffer          color04           none              bold
 
 Variant: 8
-StatusLine         color07        color00        reverse,bold
-StatusLineNC       color07        color00        reverse
-StatusLineTerm     color07        color00        reverse,bold
-StatusLineTermNC   color07        color00        reverse
-VertSplit          color07        color00        reverse
+StatusLine           color07           color00           reverse,bold
+StatusLineNC         color07           color00           reverse
+StatusLineTerm       color07           color00           reverse,bold
+StatusLineTermNC     color07           color00           reverse
+VertSplit            color07           color00           reverse
 Variant: 16
-StatusLine         color00        color07
-StatusLineNC       color08        color07
-StatusLineTerm     color00        color07
-StatusLineTermNC   color08        color07
-VertSplit          color08        color07
+StatusLine           color00           color07
+StatusLineNC         color08           color07
+StatusLineTerm       color00           color07
+StatusLineTermNC     color08           color07
+VertSplit            color08           color07
 Variant: gui 256
-StatusLine         color00        color13
-StatusLineNC       color07        color13
-StatusLineTerm     color00        color13
-StatusLineTermNC   color07        color13
-VertSplit          color07        color13
+StatusLine           color00           color13
+StatusLineNC         color07           color13
+StatusLineTerm       color00           color13
+StatusLineTermNC     color07           color13
+VertSplit            color07           color13
 
 Variant: 8
-PmenuSel           color00        color03
+PmenuSel             color00           color03
 Variant: 16
-PmenuSel           background     color03
+PmenuSel             background        color03
 Variant: gui 256
-PmenuSel           background     color05
+PmenuSel             background        color05
 Variant: 8
-Pmenu              color00        color06
-PmenuSbar          none           color00
-PmenuThumb         none           color03
+Pmenu                color00           color06
+PmenuSbar            none              color00
+PmenuThumb           none              color03
 Variant: gui 256 16
-Pmenu              none           Pmenu
-PmenuSbar          none           background
-PmenuThumb         none           color11
+Pmenu                none              Pmenu
+PmenuSbar            none              background
+PmenuThumb           none              color11
 
 Variant: 16 8
-TabLineSel         color00        color03
+TabLineSel           color00           color03
 Variant: gui 256
-TabLineSel         color00        color13
+TabLineSel           color00           color13
 Variant: 8
-TabLine            color07        color00        reverse
-TabLineFill        color07        color00        reverse
+TabLine              color07           color00           reverse
+TabLineFill          color07           color00           reverse
 Variant: gui 256 16
-TabLine            color07        color08
-TabLineFill        color14        color08
+TabLine              color07           color08
+TabLineFill          color14           color08
 
-ToolbarLine        none           none
+ToolbarLine          none              none
 Variant: 8
-ToolbarButton      color07        color00        reverse,bold
+ToolbarButton        color07           color00           reverse,bold
 Variant: 16
-ToolbarButton      background     color03
+ToolbarButton        background        color03
 Variant: gui 256
-ToolbarButton      background     color05
+ToolbarButton        background        color05
 
 Variant: 8
-NonText            color04        none           bold
-SpecialKey         color02        none           bold
-QuickFixLine       color00        color04
+NonText              color04           none              bold
+SpecialKey           color02           none              bold
+QuickFixLine         color00           color04
 Variant: gui 256 16
-NonText            color12        none
-SpecialKey         color10        none
-QuickFixLine       color00        color12
+NonText              color12           none
+SpecialKey           color10           none
+QuickFixLine         color00           color12
 
 Variant: 16 8
-Folded             color06        none
-FoldColumn         color06        none
-CursorLine         none           none           underline
-CursorColumn       none           none           underline
+Folded               color06           none
+FoldColumn           color06           none
+CursorLine           none              none              underline
+CursorColumn         none              none              underline
 Variant: 16
-CursorLineNr       color11        none           bold
-ColorColumn        foreground     color08
-Visual             color11        color02
+CursorLineNr         color11           none              bold
+ColorColumn          foreground        color08
+Visual               color11           color02
 Variant: 8
-CursorLineNr       color03        none           bold
-ColorColumn        color07        color01
-Visual             none           none           reverse
+CursorLineNr         color03           none              bold
+ColorColumn          color07           color01
+Visual               none              none              reverse
 Variant: gui 256
-Folded             color07        color00
-FoldColumn         color12        color00
-CursorLine         none           color08
-CursorColumn       none           color08
-ColorColumn        none           color00
-CursorLineNr       none           color08
-Visual             color05        color02
+Folded               color07           color00
+FoldColumn           color12           color00
+CursorLine           none              color08
+CursorColumn         none              color08
+ColorColumn          none              color00
+CursorLineNr         none              color08
+Visual               color05           color02
 
 Variant: 8
-SignColumn         none           none
-VisualNOS          color05        color02        underline
-LineNr             color07        none           bold
+SignColumn           none              none
+VisualNOS            color05           color02           underline
+LineNr               color07           none              bold
 
-Underlined         none           none           underline
+Underlined           none              none              underline
 
-Error              color01        color07        reverse
-ErrorMsg           color01        color00        reverse
-ModeMsg            none           color03
-WarningMsg         color06        none
-MoreMsg            color02        none
-Question           color03        none
+Error                color01           color07           reverse
+ErrorMsg             color01           color00           reverse
+ModeMsg              none              color03
+WarningMsg           color06           none
+MoreMsg              color02           none
+Question             color03           none
 
-Todo               color01        color03
-MatchParen         color00        color03
-Search             color00        color05
-IncSearch          color00        color02
+MatchParen           color00           color03
+Search               color00           color05
+IncSearch            color00           color02
 Variant: gui 256 16
-SignColumn         none           background
-VisualNOS          color05        color02
-LineNr             color07        none
+SignColumn           none              background
+VisualNOS            color05           color02
+LineNr               color07           none
 
-Underlined         color12        none           underline
+Error                color01           color15           reverse
+ErrorMsg             color01           color00           reverse
+ModeMsg              background        color11
+WarningMsg           color14           none
+MoreMsg              color10           none
+Question             color11           none
 
-Error              color01        color15        reverse
-ErrorMsg           color01        color00        reverse
-ModeMsg            background     color11
-WarningMsg         color14        none
-MoreMsg            color10        none
-Question           color11        none
-
-Todo               color01        color03
-MatchParen         color00        color11
-Search             color00        color16
-IncSearch          color00        color17
+MatchParen           color00           color11
+Search               color00           color16
+IncSearch            color00           color17
 Variant: 8
-WildMenu           color00        color03
+Todo                 x_black           x_yellow
+WildMenu             color00           color03
+Underlined           x_blue            none              underline
+
 Variant: 16
-WildMenu           background     color03
+Todo                 x_black           x_yellow
+WildMenu             background        color03
+Underlined           color12           none              underline
+
 Variant: gui 256
-WildMenu           background     color05
+Todo                 color01           color03
+WildMenu             background        color05
+Underlined           color12           none              underline
+
 Variant: gui
-Cursor             color08        color05
-lCursor            background     color09
+Cursor               color08           color05
+lCursor              background        color09
 
 Variant: 8
-SpellBad           color01        color03        reverse
-SpellCap           color03        none           reverse
-SpellLocal         color05        color03        reverse
-SpellRare          color06        none           reverse
+SpellBad             color01           color03           reverse
+SpellCap             color03           none              reverse
+SpellLocal           color05           color03           reverse
+SpellRare            color06           none              reverse
 Variant: gui 256 16
-SpellBad           color01        none           t=underline g=undercurl s=color01
-SpellCap           color03        none           t=underline g=undercurl s=color03
-SpellLocal         color09        none           t=underline g=undercurl s=color09
-SpellRare          color06        none           t=underline g=undercurl s=color06
+SpellBad             color01           none              t=underline g=undercurl s=color01
+SpellCap             color03           none              t=underline g=undercurl s=color03
+SpellLocal           color09           none              t=underline g=undercurl s=color09
+SpellRare            color06           none              t=underline g=undercurl s=color06
 
 
 ;;; :h group-names
 Variant: 8
-Comment            color07        none           bold
+Statement            x_blue            none              bold
+Comment              x_yellow          none              bold
+Operator             x_red             none              bold
+PreProc              x_red             none              bold
+Structure            x_green           none              bold
+Define               x_darkyellow      none              bold
 Variant: 16
-Comment            color08        none
-Variant: gui 256
-Comment            color07        none
+Statement            x_blue            none
+Comment              x_yellow          none
+Operator             x_red             none
+PreProc              x_red             none
+Structure            x_green           none
+Define               x_yellow          none
+Variant: 8 16
+Constant             x_darkyellow      none
+String               x_darkcyan        none
+Identifier           x_red             none              bold
+Function             x_darkyellow      none
+Type                 x_darkgreen       none
+Special              x_darkyellow      none
 
-Variant: 8
-String             color06        none
-Identifier         color01        none
-Function           color03        none
-Special            color03        none
-Variant: 16
-String             color14        none
-Identifier         color01        none
-Function           color11        none
-Special            color03        none
+Directory            color02           none              bold
+Conceal              color07           none
+Ignore               none              none
+Title                color03           none              bold
 Variant: gui 256
-String             color04        none
-Identifier         color14        none
-Function           color06        none
-Special            color05        none
-Variant: 8
-Statement          color04        none           bold
-Constant           color01        none           bold
-PreProc            color05        none
-Type               color04        none           bold
-Operator           color05        none
-Define             color03        none           bold
-Structure          color02        none
-Variant: gui 256 16
-Statement          color12        none           bold
-Constant           color09        none
-PreProc            color16        none
-Type               color12        none           bold
-Operator           color16        none
-Define             color11        none           bold
-Structure          color17        none
+Comment              color07           none
+String               color04           none
+Identifier           color14           none
+Function             color06           none
+Special              color05           none
+Statement            color12           none              bold
+Constant             color09           none
+PreProc              color16           none
+Type                 color12           none              bold
+Operator             color16           none
+Define               color11           none              bold
+Structure            color17           none
 
-Variant: 8
-Directory          color02        none           bold
-Conceal            color07        none
-Ignore             none           none
-Title              color03        none           bold
-Variant: gui 256 16
-Directory          color10        none           bold
-Conceal            color07        none
-Ignore             none           none
-Title              color11        none           bold
+Directory            color10           none              bold
+Conceal              color07           none
+Ignore               none              none
+Title                color11           none              bold
 
 
 
