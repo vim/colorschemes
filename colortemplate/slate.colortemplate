@@ -93,10 +93,10 @@ StatusLineTerm       color07           color00           reverse,bold
 StatusLineTermNC     color07           color00           reverse
 VertSplit            color07           color00           reverse
 Variant: 16
-StatusLine           color00           color07
-StatusLineNC         color08           color07
-StatusLineTerm       color00           color07
-StatusLineTermNC     color08           color07
+StatusLine           color15           color00           reverse,bold
+StatusLineNC         color00           color07
+StatusLineTerm       color15           color00           reverse,bold
+StatusLineTermNC     color00           color07
 VertSplit            color08           color07
 Variant: gui 256
 StatusLine           color00           color13
@@ -235,25 +235,28 @@ SpellRare            color06           none              t=underline g=undercurl
 
 ;;; :h group-names
 Variant: 8
-Statement            x_blue            none              bold
-Comment              x_yellow          none              bold
-Operator             x_red             none              bold
-PreProc              x_red             none              bold
-Structure            x_green           none              bold
+Statement            x_darkblue        none              bold
+Identifier           x_darkred         none              bold
+Comment              x_darkgray        none              bold
+Operator             x_darkred         none              bold
+PreProc              x_darkred         none              bold
+Structure            x_darkgreen       none              bold
+Function             x_darkyellow      none              bold
+Type                 x_darkblue        none              bold
 Define               x_darkyellow      none              bold
 Variant: 16
-Statement            x_blue            none
-Comment              x_yellow          none
+Statement            x_blue            none              bold
+Identifier           x_red             none              bold
+Comment              x_darkgray        none
 Operator             x_red             none
 PreProc              x_red             none
 Structure            x_green           none
-Define               x_yellow          none
+Function             x_yellow          none
+Type                 x_blue            none              bold
+Define               x_yellow          none              bold
 Variant: 8 16
 Constant             x_darkyellow      none
 String               x_darkcyan        none
-Identifier           x_red             none              bold
-Function             x_darkyellow      none
-Type                 x_darkgreen       none
 Special              x_darkyellow      none
 
 Directory            color02           none              bold
