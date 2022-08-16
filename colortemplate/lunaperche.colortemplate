@@ -1,7 +1,7 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
 Full name: Perchè il sole a Milano? Portofino? Dimmi la luna perchè?
 Short name: lunaperche
-Description: White(perchè il sole)/Black(la luna perchè?) background colorscheme with not so many colors.
+Description: White(perchè il sole)/Black(la luna perchè?) background colorscheme with a few colors.
 Author: Maxim Kim <habamax@gmail.com>
 
 Background: any
@@ -104,15 +104,17 @@ Color: color15                 #FFFFFF        231            white
 
 Color: colorLine               #262626        235            darkgrey
 Color: colorB                  #1C1C1C        234            darkgrey
-Color: colorNonT               #585858        240            darkgrey
+Color: colorNonT               #585858        240            grey
 Color: colorTab                #585858        240            grey
 Color: colorC                  #FFFFFF        231            white
 Color: colorlC                 #FF5FFF        207            magenta
 Color: colorV                  #005F87        24             darkblue
 Color: colorMP                 #C5E7C5        30             darkcyan
+Color: colorPMenuSel           #005F00        22             darkgreen
+Color: colorDim                #878787        102            grey
 
 ; Diff colors
-Color: diffAdd                 #5FAF5F        71             darkgreen
+Color: diffAdd                 #D7AFD7        182            darkmagenta
 Color: diffDelete              #D78787        174            darkred
 Color: diffChange              #D0D0D0        252            lightgray
 Color: diffText                #B0B0B0        145            darkgray
@@ -131,9 +133,13 @@ Statusline                     color00        color07
 StatuslineNC                   color00        color08
 VertSplit                      color08        color08
 
+Variant: gui 256
+TabLine                        color07        colorTab
+Variant: 16
 TabLine                        color00        colorTab
+Variant: gui 256 16
 TabLineFill                    none           color08
-TabLineSel                     color07        color00        bold
+TabLineSel                     color15        color00        bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color00        color15
@@ -148,12 +154,13 @@ SpecialKey                     colorNonT      none
 
 variant: gui 256
 Pmenu                          none           colorB
+PmenuSel                       none           colorPMenuSel
 variant: 16
 Pmenu                          color00        colorB
+PmenuSel                       color00        colorPMenuSel
 variant: gui 256 16
 PmenuThumb                     none           color07
 PmenuSbar                      none           none
-PmenuSel                       color00        color02
 
 SignColumn                     none           none
 
@@ -239,6 +246,7 @@ diffAdded                      color10        none
 diffRemoved                    diffDelete     none
 diffSubname                    color13        none
 
+Variant: gui 256
 ; other ftplugins
 dirType                        color05        none
 dirPermissionUser              color02        none
@@ -249,10 +257,12 @@ dirGroup                       color08        none
 dirTime                        color08        none
 dirSize                        color11        none
 dirSizeMod                     color05        none
-FilterMenuDirectorySubtle      color08        none
-dirFilterMenuBookmarkPath      color08        none
-dirFilterMenuHistoryPath       color08        none
-FilterMenuLineNr               color08        none
+FilterMenuDirectorySubtle      colorDim       none
+dirFilterMenuBookmarkPath      colorDim       none
+dirFilterMenuHistoryPath       colorDim       none
+FilterMenuLineNr               colorDim       none
+CocMenuSel                     none           colorPMenuSel
+CocSearch                      color11        none
 
 
 
@@ -281,7 +291,7 @@ SpecialKey                     color00        none
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
-PmenuSel                       color00        color02
+PmenuSel                       color00        colorPMenuSel
 
 SignColumn                     none           none
 
@@ -351,7 +361,7 @@ Color: color01                 #870000        88             darkred
 Color: color09                 #D70000        160            red
 
 Color: color02                 #008700        28             darkgreen
-Color: color10                 #5FAF5F        71             green
+Color: color10                 #87D787        114            green
 
 Color: color03                 #875F00        94             darkyellow
 Color: color11                 #D7D787        186            yellow
@@ -370,15 +380,18 @@ Color: color15                 #FFFFFF        231            white
 
 Color: colorLine               #E4E4E4        254            grey
 Color: colorB                  #EEEEEE        255            grey
-Color: colorNonT               #9E9E9E        247            grey
+Color: colorNonT               #9E9E9E        247            darkgrey
 Color: colorTab                #B2B2B2        247            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #5F87AF        67             darkblue
 Color: colorMP                 #C5E7C5        30             darkcyan
+Color: colorPMenuSel           #AFD7AF        151            darkgreen
+Color: colorDim                #626262        241            darkgrey
+
 
 ; Diff colors
-Color: diffAdd                 #AFD7AF        151            darkgreen
+Color: diffAdd                 #D7AFD7        182            darkmagenta
 Color: diffDelete              #870000        88             darkred
 Color: diffChange              #D0D0D0        252            lightgray
 Color: diffText                #BCBCBC        250            darkgray
@@ -414,10 +427,11 @@ SpecialKey                     colorNonT      none
 
 variant: gui 256
 Pmenu                          none           colorB
-PmenuSel                       color15        color02
+PmenuSel                       none           colorPMenuSel
 variant: 16
 Pmenu                          color00        colorB
-PmenuSel                       color00        color02
+PmenuSel                       color00        colorPMenuSel
+
 variant: gui 256 16
 PmenuThumb                     none           color08
 PmenuSbar                      none           none
@@ -497,7 +511,6 @@ Directory                      color06        none           bold
 Conceal                        none           none
 Ignore                         none           none
 
-Variant: gui 256 16
 DiffAdd                        fgDiff         diffAdd
 DiffChange                     fgDiff         diffChange
 DiffText                       fgDiff         diffText
@@ -506,6 +519,7 @@ diffAdded                      color02        none
 diffRemoved                    color09        none
 diffSubname                    color05        none
 
+Variant: gui 256
 ; other ftplugins
 dirType                        color06        none
 dirPermissionUser              color03        none
@@ -517,10 +531,12 @@ dirTime                        color07        none
 dirSize                        color01        none
 dirSizeMod                     color06        none
 dirLink                        color02        none           bold
-dirFilterMenuBookmarkPath      color08        none
-dirFilterMenuHistoryPath       color08        none
-FilterMenuDirectorySubtle      color08        none
-FilterMenuLineNr               color08        none
+dirFilterMenuBookmarkPath      colorDim       none
+dirFilterMenuHistoryPath       colorDim       none
+FilterMenuDirectorySubtle      colorDim       none
+FilterMenuLineNr               colorDim       none
+CocMenuSel                     none           colorPMenuSel
+CocSearch                      color01        none
 
 
 
@@ -549,7 +565,7 @@ SpecialKey                     color00        none
 Pmenu                          color07        color00
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
-PmenuSel                       color00        color02
+PmenuSel                       color00        colorPMenuSel
 
 SignColumn                     none           none
 
@@ -606,7 +622,6 @@ DiffAdd                        fgDiff         color05
 DiffChange                     fgDiff         color06
 DiffText                       color07        color00
 DiffDelete                     color01        none
-
 
 
 Background: any
