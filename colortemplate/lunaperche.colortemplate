@@ -20,7 +20,7 @@ fugitiveUnstagedModifier       -> PreProc
 fugitiveHash                   -> Constant
 diffFile                       -> PreProc
 markdownHeadingDelimiter       -> Special
-rstSectionDelimiter            -> Title
+rstSectionDelimiter            -> PreProc
 rstDirective                   -> Special
 rstHyperlinkReference          -> Special
 rstFieldName                   -> Special
@@ -79,7 +79,7 @@ Background: dark
 
 ;;; Color palette
 Color: color00                 #000000        16             black
-Color: color08                 #878787        102            darkgrey
+Color: color08                 #767676        243            darkgrey
 
 Color: color01                 #AF5F5F        131            darkred
 Color: color09                 #FF5F5F        203            red
@@ -97,7 +97,7 @@ Color: color05                 #D787AF        175            darkmagenta
 Color: color13                 #FFAFD7        218            magenta
 
 Color: color06                 #5FAFAF        73             darkcyan
-Color: color14                 #87D7D7        116            cyan
+Color: color14                 #5FD7D7        116            cyan
 
 Color: color07                 #C6C6C6        251            grey
 Color: color15                 #FFFFFF        231            white
@@ -114,10 +114,10 @@ Color: colorPMenuSel           #005F00        22             darkgreen
 Color: colorDim                #878787        102            grey
 
 ; Diff colors
-Color: diffAdd                 #D7AFD7        182            darkmagenta
+Color: diffAdd                 #AF87AF        139            darkmagenta
 Color: diffDelete              #D78787        174            darkred
 Color: diffChange              #D0D0D0        252            lightgray
-Color: diffText                #B0B0B0        145            darkgray
+Color: diffText                #5FD7D7        80             cyan
 Color: fgDiff                  #000000        16             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
@@ -129,7 +129,7 @@ Variant: gui 256 16
 
 Normal                         color07        color00
 
-Statusline                     color00        color07
+Statusline                     color00        color07        bold
 StatuslineNC                   color00        color08
 VertSplit                      color08        color08
 
@@ -175,7 +175,7 @@ Todo                           color14        color00        reverse
 Search                         color00        color11
 IncSearch                      color00        color10
 CurSearch                      color00        color10
-WildMenu                       color00        color11
+WildMenu                       color00        color11        bold
 
 debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
@@ -357,7 +357,7 @@ Background: light
 Color: color00                 #000000        16             black
 Color: color08                 #626262        241            darkgrey
 
-Color: color01                 #870000        88             darkred
+Color: color01                 #AF0000        124            darkred
 Color: color09                 #D70000        160            red
 
 Color: color02                 #008700        28             darkgreen
@@ -373,7 +373,7 @@ Color: color05                 #870087        90             darkmagenta
 Color: color13                 #AF00AF        133            magenta
 
 Color: color06                 #005F5F        23             darkcyan
-Color: color14                 #5fAFAF        73             cyan
+Color: color14                 #008787        30             cyan
 
 Color: color07                 #808080        244            grey
 Color: color15                 #FFFFFF        231            white
@@ -394,7 +394,7 @@ Color: colorDim                #626262        241            darkgrey
 Color: diffAdd                 #D7AFD7        182            darkmagenta
 Color: diffDelete              #870000        88             darkred
 Color: diffChange              #D0D0D0        252            lightgray
-Color: diffText                #BCBCBC        250            darkgray
+Color: diffText                #5FD7D7        80             cyan
 Color: fgDiff                  #000000        16             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
@@ -502,7 +502,7 @@ Statement                      color00        none           bold
 Type                           color02        none           bold
 
 PreProc                        color03        none
-Special                        color08        none
+Special                        color07        none
 Underlined                     none           none           underline
 
 Title                          color00        none           bold
