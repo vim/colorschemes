@@ -67,6 +67,14 @@ elixirInclude                  -> Statement
 elixirVariable                 -> Special
 elixirAtom                     -> Constant
 elixirDocTest                  -> String
+shQuote                        -> Constant
+shNoQuote                      -> Normal
+shTestOpr                      -> Normal
+shOperator                     -> Normal
+shSetOption                    -> Normal
+shOption                       -> Normal
+shCommandSub                   -> Normal
+shDeref                        -> Type
 
 ; default links
 Terminal                       -> Normal
