@@ -84,8 +84,8 @@ Color: color08                 #767676        243            darkgrey
 Color: color01                 #AF5F5F        131            darkred
 Color: color09                 #FF5F5F        203            red
 
-Color: color02                 #5FD75F        77             darkgreen
-Color: color10                 #87FF5F        119            green
+Color: color02                 #5FAF5F        71             darkgreen
+Color: color10                 #87D75F        113            green
 
 Color: color03                 #AF875F        137            darkyellow
 Color: color11                 #FFD787        222            yellow
@@ -102,6 +102,7 @@ Color: color14                 #5FD7D7        116            cyan
 Color: color07                 #C6C6C6        251            grey
 Color: color15                 #FFFFFF        231            white
 
+Color: colorDimWhite           #EEEEEE        255            grey
 Color: colorLine               #262626        235            darkgrey
 Color: colorB                  #1C1C1C        234            darkgrey
 Color: colorNonT               #585858        240            grey
@@ -133,11 +134,8 @@ Statusline                     color00        color07        bold
 StatuslineNC                   color00        color08
 VertSplit                      color08        color08
 
-Variant: gui 256
-TabLine                        color07        colorTab
-Variant: 16
-TabLine                        color00        colorTab
 Variant: gui 256 16
+TabLine                        color00        color07
 TabLineFill                    none           color08
 TabLineSel                     color15        color00        bold
 
@@ -224,14 +222,14 @@ Comment                        color12        none
 Constant                       color11        none
 Identifier                     none           none
 
-Statement                      color15        none           bold
+Statement                      colorDimWhite  none           bold
 Type                           color10        none           bold
 
 PreProc                        color03        none
 Special                        color06        none
 Underlined                     none           none           underline
 
-Title                          color15        none           bold
+Title                          none           none           bold
 Directory                      color14        none           bold
 
 Conceal                        none           none
@@ -269,7 +267,7 @@ CocSearch                      color11        none
 Variant: 8
 Normal                         color07        color00
 
-Statusline                     color00        color07        bold
+Statusline                     color07        color00        reverse,bold
 StatuslineNC                   color00        color07
 VertSplit                      color07        color07
 
@@ -334,10 +332,10 @@ Statement                      color00        none           bold
 Type                           color02        none           bold
 
 PreProc                        color03        none
-Special                        none           none
+Special                        color06        none
 Underlined                     none           none           underline
 
-Title                          color00        none           bold
+Title                          none           none           bold
 Directory                      color06        none           bold
 
 Conceal                        none           none
@@ -355,9 +353,9 @@ Background: light
 
 ;;; Color palette
 Color: color00                 #000000        16             black
-Color: color08                 #626262        241            darkgrey
+Color: color08                 #767676        243            darkgrey
 
-Color: color01                 #870000        88            darkred
+Color: color01                 #870000        88             darkred
 Color: color09                 #D70000        160            red
 
 Color: color02                 #008700        28             darkgreen
@@ -381,7 +379,7 @@ Color: color15                 #FFFFFF        231            white
 Color: colorLine               #E4E4E4        254            grey
 Color: colorB                  #EEEEEE        255            grey
 Color: colorNonT               #9E9E9E        247            darkgrey
-Color: colorTab                #B2B2B2        247            lightgrey
+Color: colorTab                #BCBCBC        250            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #5F87AF        67             darkblue
@@ -412,7 +410,7 @@ VertSplit                      color08        color08
 
 TabLine                        color00        colorTab
 TabLineFill                    none           color08
-TabLineSel                     color00        color15        bold
+TabLineSel                     color15        color00        reverse,bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color15        color00
@@ -505,7 +503,7 @@ PreProc                        color03        none
 Special                        color06        none
 Underlined                     none           none           underline
 
-Title                          color00        none           bold
+Title                          none           none           bold
 Directory                      color04        none           bold
 
 Conceal                        none           none
@@ -608,7 +606,7 @@ Statement                      color00        none           bold
 Type                           color02        none           bold
 
 PreProc                        color03        none
-Special                        none           none
+Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          color00        none           bold
