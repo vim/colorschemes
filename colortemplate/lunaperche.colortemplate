@@ -228,7 +228,7 @@ Statement                      color15        none           bold
 Type                           color10        none           bold
 
 PreProc                        color03        none
-Special                        color08        none
+Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          color15        none           bold
@@ -357,7 +357,7 @@ Background: light
 Color: color00                 #000000        16             black
 Color: color08                 #626262        241            darkgrey
 
-Color: color01                 #AF0000        124            darkred
+Color: color01                 #870000        88            darkred
 Color: color09                 #D70000        160            red
 
 Color: color02                 #008700        28             darkgreen
@@ -372,8 +372,8 @@ Color: color12                 #0087D7        32             blue
 Color: color05                 #870087        90             darkmagenta
 Color: color13                 #AF00AF        133            magenta
 
-Color: color06                 #005F5F        23             darkcyan
-Color: color14                 #008787        30             cyan
+Color: color06                 #008787        30             darkcyan
+Color: color14                 #00AFAF        37             cyan
 
 Color: color07                 #808080        244            grey
 Color: color15                 #FFFFFF        231            white
@@ -502,11 +502,11 @@ Statement                      color00        none           bold
 Type                           color02        none           bold
 
 PreProc                        color03        none
-Special                        color07        none
+Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          color00        none           bold
-Directory                      color06        none           bold
+Directory                      color04        none           bold
 
 Conceal                        none           none
 Ignore                         none           none
