@@ -74,6 +74,8 @@ shOperator                     -> Normal
 shSetOption                    -> Normal
 shOption                       -> Normal
 shCommandSub                   -> Normal
+shDerefPattern                 -> shQuote
+shDerefOp                      -> Special
 
 ; default links
 Terminal                       -> Normal
