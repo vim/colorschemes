@@ -109,7 +109,7 @@ ToolbarLine          none              none
 VertSplit            darkcyan          none
 Visual               white             darkcyan
 VisualNOS            darkcyan          white
-WarningMsg           red               none
+WarningMsg           magenta           none
 WildMenu             darkblue          yellow
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
@@ -197,54 +197,56 @@ Label                yellow            none
 Variant: gui 256 16 8
 ;;; Links
 ;;; Chrome
-Terminal          -> Normal
-Debug             -> Special
-diffAdded         -> String
-diffRemoved       -> WarningMsg
-diffOnly          -> WarningMsg
-diffNoEOL         -> WarningMsg
-diffIsA           -> WarningMsg
-diffIdentical     -> WarningMsg
-diffDiffer        -> WarningMsg
-diffCommon        -> WarningMsg
-diffBDiffer       -> WarningMsg
-lCursor           -> Cursor
-LineNrAbove       -> LineNr
-LineNrBelow       -> LineNr
-CurSearch         -> Search
-CursorLineNr      -> CursorLine
-CursorLineFold    -> CursorLine
-CursorLineSign    -> CursorLine
-StatusLineTerm    -> StatusLine
-StatusLineTermNC  -> StatusLineNC
-TabLine           -> StatusLineNC
-TabLineFill       -> StatusLineNC
-TabLineSel        -> StatusLine
+Terminal             -> Normal
+Debug                -> Special
+diffAdded            -> String
+diffRemoved          -> WarningMsg
+diffOnly             -> WarningMsg
+diffNoEOL            -> WarningMsg
+diffIsA              -> WarningMsg
+diffIdentical        -> WarningMsg
+diffDiffer           -> WarningMsg
+diffCommon           -> WarningMsg
+diffBDiffer          -> WarningMsg
+lCursor              -> Cursor
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
+CurSearch            -> Search
+CursorLineNr         -> CursorLine
+CursorLineFold       -> CursorLine
+CursorLineSign       -> CursorLine
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+TabLine              -> StatusLineNC
+TabLineFill          -> StatusLineNC
+TabLineSel           -> StatusLine
 
 ;;; Syntax
-Boolean           -> Constant
-Character         -> Constant
-Conditional       -> Statement
-Define            -> PreProc
-Delimiter         -> Special
-Exception         -> Statement
-Float             -> Constant
-Function          -> Identifier
-Include           -> PreProc
-Keyword           -> Statement
-Macro             -> PreProc
-Number            -> Constant
-Operator          -> Type
-PreCondit         -> PreProc
-Repeat            -> Statement
-SpecialChar       -> Special
-SpecialComment    -> Special
-StorageClass      -> Type
-String            -> Constant
-Structure         -> Type
-Tag               -> Special
-Typedef           -> Type
-Terminal          -> Normal
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+Define               -> PreProc
+Delimiter            -> Special
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Macro                -> PreProc
+Number               -> Constant
+Operator             -> Type
+PreCondit            -> PreProc
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StorageClass         -> Type
+String               -> Constant
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+Terminal             -> Normal
+MessageWindow        -> Pmenu
+PopupNotification    -> Pmenu
 
 ;;; "Standard" diff colors
 Include: _diff
