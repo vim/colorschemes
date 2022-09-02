@@ -51,14 +51,16 @@ Term colors: color08 color09 color10 color11 color12t color13 color14 color15
 ;;; chrome
 
 ;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
+Terminal           -> Normal
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
 StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
+MessageWindow      -> Pmenu
+PopupNotification  -> Todo
 
 Variant: 8
 Normal             color02        color00
