@@ -75,6 +75,8 @@ LineNrBelow          -> LineNr
 CurSearch            -> Search
 CursorLineFold       -> CursorLine
 CursorLineSign       -> CursorLine
+MessageWindow        -> Pmenu
+PopupNotification    -> Todo
 
 
 ;;; chrome
