@@ -83,6 +83,8 @@ StatuslineTerm                 -> Statusline
 StatuslineTermNC               -> StatuslineNC
 LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
+MessageWindow                  -> PMenu
+PopupNotification              -> Todo
 
 
 Background: dark
@@ -121,8 +123,10 @@ Color: colorC                  #FFFFFF        231            white
 Color: colorlC                 #FF5FFF        207            magenta
 Color: colorV                  #005F87        24             darkblue
 Color: colorMP                 #C5E7C5        30             darkcyan
-Color: colorPMenuSel           #005F00        22             darkgreen
+Color: colorPMenuSel           #444444        238            darkcyan
 Color: colorDim                #878787        102            grey
+
+
 
 ; Diff colors
 Color: diffAdd                 #AF87AF        139            darkmagenta
@@ -254,7 +258,7 @@ diffAdded                      color10        none
 diffRemoved                    diffDelete     none
 diffSubname                    color13        none
 
-Variant: gui 256
+Variant: gui 256 16
 ; other ftplugins
 dirType                        color05        none
 dirPermissionUser              color02        none
@@ -269,9 +273,8 @@ FilterMenuDirectorySubtle      colorDim       none
 dirFilterMenuBookmarkPath      colorDim       none
 dirFilterMenuHistoryPath       colorDim       none
 FilterMenuLineNr               colorDim       none
-CocMenuSel                     none           colorPMenuSel
 CocSearch                      color11        none
-
+CocPumShortcut                 none           none
 
 
 Variant: 8
@@ -338,7 +341,7 @@ Comment                        color04        none
 Constant                       color01        none
 Identifier                     none           none
 
-Statement                      color00        none           bold
+Statement                      color07        none           bold
 Type                           color02        none           bold
 
 PreProc                        color03        none
@@ -394,7 +397,7 @@ Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #5F87AF        67             darkblue
 Color: colorMP                 #C5E7C5        30             darkcyan
-Color: colorPMenuSel           #AFD7AF        151            darkgreen
+Color: colorPMenuSel           #C6C6C6        251            darkcyan
 Color: colorDim                #626262        241            darkgrey
 
 
@@ -527,7 +530,7 @@ diffAdded                      color02        none
 diffRemoved                    color09        none
 diffSubname                    color05        none
 
-Variant: gui 256
+Variant: gui 256 16
 ; other ftplugins
 dirType                        color06        none
 dirPermissionUser              color03        none
@@ -543,8 +546,8 @@ dirFilterMenuBookmarkPath      colorDim       none
 dirFilterMenuHistoryPath       colorDim       none
 FilterMenuDirectorySubtle      colorDim       none
 FilterMenuLineNr               colorDim       none
-CocMenuSel                     none           colorPMenuSel
 CocSearch                      color01        none
+CocPumShortcut                 none           none
 
 
 
