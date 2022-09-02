@@ -235,12 +235,15 @@ Title              color13        none           bold
 
 
 ;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
+Terminal           -> Normal
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
+MessageWindow      -> Pmenu
+PopupNotification  -> Todo
+
 
 
 ;;; "Standard" diff colors
