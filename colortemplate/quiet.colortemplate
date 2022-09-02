@@ -17,6 +17,8 @@ License:       Vim License (see `:help license`)`
 Terminal             -> Normal
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
+MessageWindow        -> Pmenu
+PopupNotification    -> Todo
 Boolean              -> Constant
 Character            -> Constant
 Conditional          -> Statement
