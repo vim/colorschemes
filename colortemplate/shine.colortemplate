@@ -47,16 +47,18 @@ Term colors: Black DarkRed DarkGreen Yellow DarkBlue Purple DarkCyan LightGrey
 Term colors: DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan White
 
 ;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
-EndOfBuffer     -> NonText
-ErrorMsg        -> Error
-Tag             -> Special
-Operator        -> Statement
+Terminal           -> Normal
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
+EndOfBuffer        -> NonText
+ErrorMsg           -> Error
+Tag                -> Special
+Operator           -> Statement
+MessageWindow      -> Pmenu
+PopupNotification  -> Todo
 
 
 ;;; Chrome         fg             bg             style
