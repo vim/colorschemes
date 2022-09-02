@@ -10,41 +10,44 @@ Website:    https://www.github.com/vim/colorschemes
 License:    Same as Vim
 
 ; Common linked groups {{{
-Terminal           -> Normal
-Boolean            -> Constant
-Character          -> Constant
-Conditional        -> Statement
-Debug              -> Special
-Define             -> PreProc
-Delimiter          -> Special
-Exception          -> Statement
-Float              -> Number
-Function           -> Identifier
-Include            -> PreProc
-IncSearch          -> Visual
-Keyword            -> Statement
-Label              -> Statement
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
-Macro              -> PreProc
-Number             -> Constant
-Operator           -> Statement
-PopupSelected      -> PmenuSel
-PreCondit          -> PreProc
-Repeat             -> Statement
-SpecialChar        -> Special
-SpecialComment     -> Special
-StatusLineTerm     -> StatusLine
-StatusLineTermNC   -> StatusLineNC
-StorageClass       -> Type
-String             -> Constant
-Structure          -> Type
-Tag                -> Special
-Typedef            -> Type
-lCursor            -> Cursor
-CurSearch          -> Search
-CursorLineFold     -> CursorLine
-CursorLineSign     -> CursorLine
+Terminal              -> Normal
+Boolean               -> Constant
+Character             -> Constant
+Conditional           -> Statement
+Debug                 -> Special
+Define                -> PreProc
+Delimiter             -> Special
+Exception             -> Statement
+Float                 -> Number
+Function              -> Identifier
+Include               -> PreProc
+IncSearch             -> Visual
+Keyword               -> Statement
+Label                 -> Statement
+LineNrAbove           -> LineNr
+LineNrBelow           -> LineNr
+Macro                 -> PreProc
+Number                -> Constant
+Operator              -> Statement
+PopupSelected         -> PmenuSel
+PreCondit             -> PreProc
+Repeat                -> Statement
+SpecialChar           -> Special
+SpecialComment        -> Special
+StatusLineTerm        -> StatusLine
+StatusLineTermNC      -> StatusLineNC
+StorageClass          -> Type
+String                -> Constant
+Structure             -> Type
+Tag                   -> Special
+Typedef               -> Type
+lCursor               -> Cursor
+CurSearch             -> Search
+CursorLineFold        -> CursorLine
+CursorLineSign        -> CursorLine
+MessageWindow         -> Pmenu
+PopupNotification     -> Todo
+
 ; }}}
 
 Background: dark
