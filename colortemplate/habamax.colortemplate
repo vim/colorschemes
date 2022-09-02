@@ -55,6 +55,8 @@ Term colors: color08 color09 color10 color11 color12 color13 color14 color15
 Terminal                -> Normal
 StatuslineTerm          -> Statusline
 StatuslineTermNC        -> StatuslineNC
+MessageWindow           -> Pmenu
+PopupNotification       -> Todo
 
 ;;; ft&plug links
 javaScriptFunction                     -> Statement
