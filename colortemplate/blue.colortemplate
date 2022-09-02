@@ -245,7 +245,8 @@ Structure            -> Type
 Tag                  -> Special
 Typedef              -> Type
 Terminal             -> Normal
-PopupNotification    -> Pmenu
+MessageWindow        -> Pmenu
+PopupNotification    -> Todo
 
 ;;; "Standard" diff colors
 Include: _diff
