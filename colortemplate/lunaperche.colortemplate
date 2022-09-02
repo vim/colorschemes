@@ -76,6 +76,16 @@ shOption                       -> Normal
 shCommandSub                   -> Normal
 shDerefPattern                 -> shQuote
 shDerefOp                      -> Special
+phpStorageClass                -> Statement
+phpStructure                   -> Statement
+phpInclude                     -> Statement
+phpDefine                      -> Statement
+phpSpecialFunction             -> Normal
+phpParent                      -> Normal
+phpComparison                  -> Normal
+phpOperator                    -> Normal
+phpVarSelector                 -> Special
+phpMemberSelector              -> Special
 
 ; default links
 Terminal                       -> Normal
