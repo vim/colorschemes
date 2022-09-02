@@ -54,6 +54,8 @@ CurSearch          ->             Search
 CursorLineFold     ->             CursorLine
 CursorLineSign     ->             CursorLine
 EndOfBuffer        ->             NonText
+MessageWindow      ->             Pmenu
+PopupNotification  ->             Todo
 
 ;;; chrome
 Variant: gui 256 16
