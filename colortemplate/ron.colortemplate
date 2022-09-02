@@ -13,38 +13,40 @@ License:    Same as Vim
 
 
 ; Common linked groups {{{
-Terminal           -> Normal
-Boolean            -> Constant
-Character          -> Constant
-Conditional        -> Statement
-Debug              -> Special
-Define             -> PreProc
-Delimiter          -> Special
-Exception          -> Statement
-Float              -> Constant
-Function           -> Identifier
-Include            -> PreProc
-Keyword            -> Statement
-Macro              -> PreProc
-Number             -> Constant
-PopupSelected      -> PmenuSel
-PreCondit          -> PreProc
-Repeat             -> Statement
-SpecialChar        -> Special
-SpecialComment     -> Special
-StatusLineTerm     -> StatusLine
-StatusLineTermNC   -> StatusLineNC
-StorageClass       -> Type
-String             -> Constant
-Structure          -> Type
-Tag                -> Special
-Typedef            -> Type
-lCursor            -> Cursor
-CurSearch          -> Search
-CursorLineFold     -> CursorLine
-CursorLineSign     -> CursorLine
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
+Terminal              -> Normal
+Boolean               -> Constant
+Character             -> Constant
+Conditional           -> Statement
+Debug                 -> Special
+Define                -> PreProc
+Delimiter             -> Special
+Exception             -> Statement
+Float                 -> Constant
+Function              -> Identifier
+Include               -> PreProc
+Keyword               -> Statement
+Macro                 -> PreProc
+Number                -> Constant
+PopupSelected         -> PmenuSel
+PreCondit             -> PreProc
+Repeat                -> Statement
+SpecialChar           -> Special
+SpecialComment        -> Special
+StatusLineTerm        -> StatusLine
+StatusLineTermNC      -> StatusLineNC
+StorageClass          -> Type
+String                -> Constant
+Structure             -> Type
+Tag                   -> Special
+Typedef               -> Type
+lCursor               -> Cursor
+CurSearch             -> Search
+CursorLineFold        -> CursorLine
+CursorLineSign        -> CursorLine
+LineNrAbove           -> LineNr
+LineNrBelow           -> LineNr
+MessageWindow         -> Pmenu
+PopupNotification     -> Todo
 ; }}}
 
 Background: dark
