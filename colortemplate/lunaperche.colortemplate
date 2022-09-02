@@ -86,6 +86,7 @@ phpComparison                  -> Normal
 phpOperator                    -> Normal
 phpVarSelector                 -> Special
 phpMemberSelector              -> Special
+phpDocCustomTags               -> phpDocTags
 
 ; default links
 Terminal                       -> Normal
