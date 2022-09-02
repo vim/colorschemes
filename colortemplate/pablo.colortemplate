@@ -74,6 +74,15 @@ Color: Folded         #303030     236            darkgrey
 Color: Cursorline     #3a3a3a     237            darkgrey
 
 
+Terminal              -> Normal
+StatusLineTerm        -> StatusLine
+StatusLineTermNC      -> StatusLineNC
+CurSearch             -> Search
+CursorLineFold        -> CursorLine
+CursorLineSign        -> CursorLine
+MessageWindow         -> Pmenu
+PopupNotification     -> Todo
+
 
 Variant: 8
 Normal                color07     color00
@@ -155,16 +164,9 @@ Conceal               color07     none
 Title                 color05     none           bold
 
 
-
 Variant: gui 256 16
 
 Normal                color15     color00
-Terminal           -> Normal
-StatusLineTerm     -> StatusLine
-StatusLineTermNC   -> StatusLineNC
-CurSearch          -> Search
-CursorLineFold     -> CursorLine
-CursorLineSign     -> CursorLine
 
 ; Syntax
 Comment               Comment     none
