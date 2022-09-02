@@ -75,14 +75,16 @@ Color: Pmenu          #303030     236            darkgrey
 Color: rgbDarkRed     #8b0000     88             darkred
 
 ;;; Links
-Terminal           -> Normal
-LineNrAbove        -> LineNr
-LineNrBelow        -> LineNr
-CurSearch          -> Search
-CursorLineFold     -> CursorLine
-CursorLineSign     -> CursorLine
-StatusLineTerm     -> StatusLine
-StatusLineTermNC   -> StatusLineNC
+Terminal              -> Normal
+LineNrAbove           -> LineNr
+LineNrBelow           -> LineNr
+CurSearch             -> Search
+CursorLineFold        -> CursorLine
+CursorLineSign        -> CursorLine
+StatusLineTerm        -> StatusLine
+StatusLineTermNC      -> StatusLineNC
+MessageWindow         -> Pmenu
+PopupNotification     -> Todo
 
 
 
