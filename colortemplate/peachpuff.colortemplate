@@ -54,12 +54,14 @@ Term colors: comment statement constant preproc identifier type special fg0
 
 
 ;;; Links
-Terminal        -> Normal
-LineNrAbove     -> LineNr
-LineNrBelow     -> LineNr
-CurSearch       -> Search
-CursorLineFold  -> CursorLine
-CursorLineSign  -> CursorLine
+Terminal           -> Normal
+LineNrAbove        -> LineNr
+LineNrBelow        -> LineNr
+CurSearch          -> Search
+CursorLineFold     -> CursorLine
+CursorLineSign     -> CursorLine
+MessageWindow      -> Pmenu
+PopupNotification  -> Todo
 
 
 ;;; Chrome
