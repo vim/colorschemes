@@ -274,7 +274,6 @@ dirFilterMenuBookmarkPath      colorDim       none
 dirFilterMenuHistoryPath       colorDim       none
 FilterMenuLineNr               colorDim       none
 CocSearch                      color11        none
-CocPumShortcut                 none           none
 
 
 Variant: 8
@@ -547,7 +546,6 @@ dirFilterMenuHistoryPath       colorDim       none
 FilterMenuDirectorySubtle      colorDim       none
 FilterMenuLineNr               colorDim       none
 CocSearch                      color01        none
-CocPumShortcut                 none           none
 
 
 
