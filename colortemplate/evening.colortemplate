@@ -36,15 +36,31 @@ Color: grey20        #333333           236               gray
 Color: grey30        #4d4d4d           239               darkgray
 Color: grey40        #666666           241               darkgray
 Color: grey60        #999999           246               darkgray
-Color: xtermblue     #0087ff           33                blue
-Color: xtermdarkblue #006faf           25                darkblue
-Color: xtermred      #ff5f5f           203               red
 Color: comment       #80a0ff           111               lightblue
 Color: darkred       #8b0000           88                darkred
 
+
+Color: x_black       #000000           16                black
+Color: x_darkred     #cd0000           160               darkred
+Color: x_darkgreen   #00cd00           40                darkgreen
+Color: x_darkyellow  #cdcd00           184               darkyellow
+Color: x_darkblue_m  #0087ff           33                darkblue
+Color: x_darkmagenta #cd00cd           164               darkmagenta
+Color: x_darkcyan    #00cdcd           44                darkcyan
+Color: x_gray        #e5e5e5           254               gray
+Color: x_darkgray    #7f7f7f           244               darkgray
+Color: x_red         #ff0000           196               red
+Color: x_green       #00ff00           46                green
+Color: x_yellow      #ffff00           226               yellow
+Color: x_blue        #5c5cff           63                blue
+Color: x_magenta     #ff00ff           201               magenta
+Color: x_cyan        #00ffff           51                cyan
+Color: x_white       #ffffff           231               white
+
+
 ;;; Terminal
-Term colors: black orange seagreen yellow xtermdarkblue darkmagenta darkcyan grey
-Term colors: grey30 xtermred green lightyellow xtermblue magenta cyan white
+Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue_m x_darkmagenta x_darkcyan x_gray
+Term colors: x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 
 VertSplit            -> StatusLineNC
@@ -186,7 +202,7 @@ ToolbarButton        none              grey60            bold
 ToolbarLine          none              none
 Visual               white             grey60
 VisualNOS            none              none              underline bold
-WarningMsg           darkred           none
+WarningMsg           red               none
 WildMenu             black             yellow            bold
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
