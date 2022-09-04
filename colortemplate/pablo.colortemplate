@@ -53,7 +53,7 @@ Color: SignColumn     #a9a9a9     248            black
 Color: SpecialKey     #00ffff     81             cyan
 Color: StatusLineTerm #90ee90     121            darkgreen
 Color: Title          #ff00ff     225            magenta
-Color: WarningMsg     #ff0000     224            darkred
+Color: WarningMsg     #ff0000     196            red
 Color: ToolbarLine    #7f7f7f     242            darkgrey
 Color: ToolbarButton  #d3d3d3     254            grey
 Color: Underlined     #80a0ff     111            darkgreen
