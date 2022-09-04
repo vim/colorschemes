@@ -197,7 +197,7 @@ Underlined         color04        none           underline
 Error              color15        color09
 ErrorMsg           color15        color09
 ModeMsg            color15        none           bold
-WarningMsg         color01        none           bold
+WarningMsg         color09        none           bold
 MoreMsg            color02        none           bold
 Question           color10        none           bold
 
