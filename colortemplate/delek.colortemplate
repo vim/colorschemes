@@ -162,7 +162,7 @@ Error              error          bg0            reverse
 WarningMsg         preproc        bg0
 MoreMsg            fg0            bg0            bold
 ModeMsg            fg0            bg0            bold
-Question           constant       none           bold
+Question           darkgreen      none           bold
 
 Todo               fg0            Yellow
 MatchParen         bg0            special
