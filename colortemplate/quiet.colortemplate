@@ -74,7 +74,7 @@ Color: dark15        #ffffff           231               white
 Color: diffred       #d75f5f           167               darkred
 Color: diffgreen     #00af00           34                darkgreen
 Color: diffblue      #87afd7           110               darkblue
-Color: diffpink 	   #d787d7           176               darkmagenta
+Color: diffpink      #d787d7           176               darkmagenta
 
 Color: uipink        #ff00af           199               magenta
 Color: uilime        #afff00           154               green
@@ -134,13 +134,13 @@ SpellCap             dark4             none              t=underline g=undercurl
 SpellLocal           dark5             none              t=underline g=undercurl s=dark5
 SpellRare            dark6             none              t=underline g=undercurl s=dark6
 StatusLine           dark0             dark7             bold
-StatusLineNC         dark8             dark0             underline
-TabLine              dark8             dark0             underline
+StatusLineNC         dark8             dark0             reverse
+TabLine              dark8             dark0             reverse
 TabLineFill          dark7             none
 TabLineSel           dark0             dark7             bold
-Title                dark7             none
+Title                none              none
 VertSplit            dark8             dark0
-Visual               none              none              reverse
+Visual               uiamber           dark0             reverse
 VisualNOS            none              uiblack
 WarningMsg           dark7             none
 WildMenu             uiblue            dark0             bold
@@ -207,7 +207,7 @@ TabLineFill          none              none
 TabLineSel           none              none              reverse,bold
 Title                none              none
 VertSplit            none              none
-Visual               none              none              reverse
+Visual               uiamber           dark0             reverse
 VisualNOS            none              none
 WarningMsg           none              none              standout
 WildMenu             none              none              bold
@@ -320,9 +320,9 @@ StatusLineNC         light0            invisigrey
 TabLine              light0            invisigrey
 TabLineFill          light0            light7
 TabLineSel           brightwhite       light0            bold
-Title                light0            none
+Title                none              none
 VertSplit            light8            light7
-Visual               none              none              reverse
+Visual               uiamber           light0            reverse
 VisualNOS            none              brightwhite
 WarningMsg           light0            none
 WildMenu             light0            brightwhite       bold
@@ -389,7 +389,7 @@ TabLineFill          none              none
 TabLineSel           none              none              reverse,bold
 Title                none              none
 VertSplit            none              none
-Visual               none              none              reverse
+Visual               light3            light0            reverse
 VisualNOS            none              none
 WarningMsg           none              none              standout
 WildMenu             none              none              bold
