@@ -205,7 +205,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Variant: gui
-Cursor                         color15        color00        reverse
+Cursor                         none           none           reverse
 lCursor                        colorlC        color00        reverse
 Visual                         color15        colorV
 MatchParen                     colorMP        color00        reverse
@@ -477,7 +477,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Variant: gui
-Cursor                         colorC         color15        reverse
+Cursor                         none           none           reverse
 lCursor                        colorlC        color00        reverse
 Visual                         color15        colorV
 MatchParen                     none           colorMP
