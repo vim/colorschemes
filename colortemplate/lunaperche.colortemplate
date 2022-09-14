@@ -114,10 +114,10 @@ Color: color03                 #AF875F        137            darkyellow
 Color: color11                 #FFD787        222            yellow
 
 Color: color04                 #5F87AF        67             darkblue
-Color: color12                 #87AFD7        110            blue
+Color: color12                 #5FAFFF        75             blue
 
 Color: color05                 #D787AF        175            darkmagenta
-Color: color13                 #FFAFD7        218            magenta
+Color: color13                 #D787D7        213            magenta
 
 Color: color06                 #5FAFAF        73             darkcyan
 Color: color14                 #5FD7D7        116            cyan
@@ -248,7 +248,7 @@ Constant                       color11        none
 Identifier                     none           none
 
 Statement                      colorDimWhite  none           bold
-Type                           color10        none           bold
+Type                           color10        none
 
 PreProc                        color03        none
 Special                        color06        none
@@ -352,7 +352,7 @@ Constant                       color01        none
 Identifier                     none           none
 
 Statement                      color07        none           bold
-Type                           color02        none           bold
+Type                           color02        none
 
 PreProc                        color03        none
 Special                        color06        none
@@ -520,7 +520,7 @@ Constant                       color01        none
 Identifier                     none           none
 
 Statement                      color00        none           bold
-Type                           color02        none           bold
+Type                           color02        none
 
 PreProc                        color03        none
 Special                        color06        none
@@ -625,7 +625,7 @@ Constant                       color01        none
 Identifier                     none           none
 
 Statement                      color00        none           bold
-Type                           color02        none           bold
+Type                           color02        none
 
 PreProc                        color03        none
 Special                        color06        none
