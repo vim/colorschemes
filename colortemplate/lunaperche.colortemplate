@@ -309,7 +309,7 @@ FoldColumn                     color00        none
 EndOfBuffer                    color00        none
 SpecialKey                     color00        none
 
-Pmenu                          color00        color07
+Pmenu                          none           color07
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
 PmenuSel                       color00        colorPMenuSel
@@ -582,10 +582,10 @@ FoldColumn                     color00        none
 EndOfBuffer                    color00        none
 SpecialKey                     color00        none
 
-Pmenu                          color07        color00
+Pmenu                          none           color00
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
-PmenuSel                       color00        colorPMenuSel
+PmenuSel                       none           colorPMenuSel
 
 SignColumn                     none           none
 
