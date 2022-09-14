@@ -146,7 +146,6 @@ SpellRare             color02     none           reverse
 ;;; :h group-names
 Comment               color07     none           bold
 
-Comment               Comment     none
 Constant              color06     none           bold
 Identifier            color06     none
 Statement             color03     none           bold
