@@ -255,7 +255,7 @@ Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
-Directory                      color14        none           bold
+Directory                      color12        none           bold
 
 Conceal                        none           none
 Ignore                         none           none
