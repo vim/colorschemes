@@ -125,7 +125,7 @@ Color: color14                 #5FD7D7        116            cyan
 Color: color07                 #C6C6C6        251            grey
 Color: color15                 #FFFFFF        231            white
 
-Color: colorDimWhite           #EEEEEE        255            grey
+Color: colorDimWhite           #E4E4E4        254            grey
 Color: colorLine               #262626        235            darkgrey
 Color: colorB                  #1C1C1C        234            darkgrey
 Color: colorNonT               #585858        240            grey
