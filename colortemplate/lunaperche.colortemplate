@@ -333,7 +333,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         color00        colorV
+Visual                         none           none           reverse
 MatchParen                     colorMP        color00        reverse
 
 VisualNOS                      color00        color06
@@ -606,7 +606,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         color07        colorV
+Visual                         none           none           reverse
 MatchParen                     colorMP        color07        reverse
 
 VisualNOS                      color00        color06
