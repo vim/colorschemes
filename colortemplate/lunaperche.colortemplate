@@ -88,6 +88,12 @@ phpOperator                    -> Normal
 phpVarSelector                 -> Special
 phpMemberSelector              -> Special
 phpDocCustomTags               -> phpDocTags
+javaExternal                   -> Statement
+javaType                       -> Statement
+javaScopeDecl                  -> Statement
+javaClassDecl                  -> Statement
+javaStorageClass               -> Statement
+javaDocParam                   -> PreProc
 
 ; default links
 Terminal                       -> Normal
