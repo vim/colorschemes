@@ -94,6 +94,14 @@ javaScopeDecl                  -> Statement
 javaClassDecl                  -> Statement
 javaStorageClass               -> Statement
 javaDocParam                   -> PreProc
+csStorage                      -> Statement
+csAccessModifier               -> Statement
+csClass                        -> Statement
+csModifier                     -> Statement
+csAsyncModifier                -> Statement
+csLogicSymbols                 -> Normal
+csClassType                    -> Normal
+csType                         -> Statement
 
 ; default links
 Terminal                       -> Normal
