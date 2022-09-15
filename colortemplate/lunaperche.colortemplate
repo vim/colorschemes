@@ -410,7 +410,7 @@ Color: color05                 #AF00AF        127            darkmagenta
 Color: color13                 #FF00FF        133            magenta
 
 Color: color06                 #005F5F        23             darkcyan
-Color: color14                 #00AFAF        37             cyan
+Color: color14                 #008787        30             cyan
 
 Color: color07                 #808080        244            grey
 Color: color15                 #FFFFFF        231            white
@@ -482,7 +482,7 @@ MoreMsg                        color02        none           bold
 Question                       color05        none           bold
 WarningMsg                     color09        none           bold
 
-Todo                           color06        color15        reverse
+Todo                           color14        color15        reverse
 Search                         color00        color11
 IncSearch                      color00        color10
 CurSearch                      color00        color10
@@ -540,7 +540,7 @@ Statement                      color00        none           bold
 Type                           color02        none
 
 PreProc                        color06        none
-Special                        color06        none
+Special                        color14        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
