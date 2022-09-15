@@ -244,7 +244,8 @@ SpellRare                      color13        none           underline
 ;;; :h group-names
 Variant: gui 256 16
 Comment                        color12        none
-Constant                       color11        none
+Constant                       color13        none
+String                         color11        none
 Identifier                     none           none
 
 Statement                      colorDimWhite  none           bold
@@ -378,20 +379,20 @@ Background: light
 Color: color00                 #000000        16             black
 Color: color08                 #767676        243            darkgrey
 
-Color: color01                 #870000        88             darkred
+Color: color01                 #AF0000        124            darkred
 Color: color09                 #D70000        160            red
 
 Color: color02                 #008700        28             darkgreen
 Color: color10                 #87D787        114            green
 
 Color: color03                 #875F00        94             darkyellow
-Color: color11                 #D7D787        186            yellow
+Color: color11                 #FFD787        222            yellow
 
-Color: color04                 #005FAF        25             darkblue
+Color: color04                 #005FD7        26             darkblue
 Color: color12                 #0087D7        32             blue
 
-Color: color05                 #870087        90             darkmagenta
-Color: color13                 #AF00AF        133            magenta
+Color: color05                 #AF00AF        127            darkmagenta
+Color: color13                 #FF00FF        133            magenta
 
 Color: color06                 #005F5F        23             darkcyan
 Color: color14                 #00AFAF        37             cyan
@@ -516,7 +517,8 @@ SpellRare                      color13        none           underline
 ;;; :h group-names
 Variant: gui 256 16
 Comment                        color04        none
-Constant                       color01        none
+Constant                       color05        none
+String                         color01        none
 Identifier                     none           none
 
 Statement                      color00        none           bold
