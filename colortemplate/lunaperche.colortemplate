@@ -27,6 +27,7 @@ rstHyperlinkReference          -> Special
 rstFieldName                   -> Special
 rstDelimiter                   -> Special
 rstInterpretedText             -> Special
+rstCodeBlock                   -> Normal
 colortemplateKey               -> Statement
 xmlTagName                     -> Statement
 javaScriptFunction             -> Statement
@@ -251,7 +252,7 @@ Identifier                     none           none
 Statement                      colorDimWhite  none           bold
 Type                           color10        none
 
-PreProc                        color03        none
+PreProc                        color14        none
 Special                        color06        none
 Underlined                     none           none           underline
 
@@ -355,12 +356,12 @@ Identifier                     none           none
 Statement                      color07        none           bold
 Type                           color02        none
 
-PreProc                        color03        none
+PreProc                        color06        none
 Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
-Directory                      color06        none           bold
+Directory                      color04        none           bold
 
 Conceal                        none           none
 Ignore                         none           none
@@ -385,7 +386,7 @@ Color: color09                 #D70000        160            red
 Color: color02                 #008700        28             darkgreen
 Color: color10                 #87D787        114            green
 
-Color: color03                 #875F00        94             darkyellow
+Color: color03                 #AF5F00        130            darkyellow
 Color: color11                 #FFD787        222            yellow
 
 Color: color04                 #005FD7        26             darkblue
@@ -518,13 +519,13 @@ SpellRare                      color13        none           underline
 Variant: gui 256 16
 Comment                        color04        none
 Constant                       color05        none
-String                         color01        none
+String                         color03        none
 Identifier                     none           none
 
 Statement                      color00        none           bold
 Type                           color02        none
 
-PreProc                        color03        none
+PreProc                        color06        none
 Special                        color06        none
 Underlined                     none           none           underline
 
@@ -629,12 +630,12 @@ Identifier                     none           none
 Statement                      color00        none           bold
 Type                           color02        none
 
-PreProc                        color03        none
+PreProc                        color06        none
 Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          color00        none           bold
-Directory                      color06        none           bold
+Directory                      color04        none           bold
 
 Conceal                        none           none
 Ignore                         none           none
