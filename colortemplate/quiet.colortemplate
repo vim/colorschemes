@@ -109,8 +109,8 @@ DiffAdd              diffgreen         dark0             reverse
 DiffChange           diffblue          dark0             reverse
 DiffDelete           diffred           dark0             reverse
 DiffText             diffpink          dark0             reverse
-Directory            dark7             dark0
-EndOfBuffer          dark7             dark0
+Directory            dark7             none
+EndOfBuffer          dark7             none
 ErrorMsg             dark7             dark0             reverse
 FoldColumn           dark8             none
 Folded               dark8             dark0
