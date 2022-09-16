@@ -21,13 +21,14 @@ fugitiveUnstagedModifier       -> PreProc
 fugitiveHash                   -> Constant
 diffFile                       -> PreProc
 markdownHeadingDelimiter       -> Special
-rstSectionDelimiter            -> PreProc
-rstDirective                   -> Special
+rstSectionDelimiter            -> Statement
+rstDirective                   -> PreProc
 rstHyperlinkReference          -> Special
-rstFieldName                   -> Special
+rstFieldName                   -> Constant
 rstDelimiter                   -> Special
 rstInterpretedText             -> Special
 rstCodeBlock                   -> Normal
+rstLiteralBlock                -> rstCodeBlock
 colortemplateKey               -> Statement
 xmlTagName                     -> Statement
 javaScriptFunction             -> Statement
