@@ -159,10 +159,10 @@ ModeMsg                        yellow         none           bold
 MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
 Search                         yellow         bg0            reverse
-SpellBad                       red            none           italic t=underline g=undercurl s=red
-SpellCap                       blue           none           italic t=underline g=undercurl s=blue
-SpellLocal                     aqua           none           italic t=underline g=undercurl s=aqua
-SpellRare                      purple         none           italic t=underline g=undercurl s=purple
+SpellBad                       red            none           t=underline g=undercurl s=red
+SpellCap                       blue           none           t=underline g=undercurl s=blue
+SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
+SpellRare                      purple         none           t=underline g=undercurl s=purple
 Title                          green          none           bold
 WarningMsg                     red            none           bold
 ; Other conventional group names (see `:help group-name`)
@@ -337,10 +337,10 @@ ModeMsg                        fg1            none           bold
 MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
 Search                         yellow         bg0            reverse
-SpellBad                       red            none           italic t=underline g=undercurl s=red
-SpellCap                       blue           none           italic t=underline g=undercurl s=blue
-SpellLocal                     aqua           none           italic t=underline g=undercurl s=aqua
-SpellRare                      purple         none           italic t=underline g=undercurl s=purple
+SpellBad                       red            none           t=underline g=undercurl s=red
+SpellCap                       blue           none           t=underline g=undercurl s=blue
+SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
+SpellRare                      purple         none           t=underline g=undercurl s=purple
 Title                          green          none           bold
 WarningMsg                     red            none           bold
 ; Other conventional group names (see `:help group-name`)
