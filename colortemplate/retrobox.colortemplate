@@ -1,8 +1,8 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
-Full name: Gruvbox 8
-Short name: gruvbox8
-Description: Retro groove color scheme originally designed by morhetz <morhetz@gmail.com>
-Author: Lifepillar <lifepillar@lifepillar.me>, ported by Maxim Kim <habamax@gmail.com>
+Full name: Retro Box
+Short name: retrobox
+Description: Retro groove color scheme similar to gruvbox originally designed by morhetz <morhetz@gmail.com>
+Author: Maxim Kim <habamax@gmail.com>, ported from gruvbox8 of Lifepillar <lifepillar@lifepillar.me>
 Website: https://www.github.com/vim/colorschemes
 
 
