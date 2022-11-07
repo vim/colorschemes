@@ -31,7 +31,7 @@ Color: bg1                     #3c3836        237           DarkGray
 Color: bg2                     #504945        239
 Color: bg3                     #665c54        59
 Color: bg4                     #7c6f64        243
-Color: fg0                     #fbf1c7        230
+Color: fg0                     #fbf1c7        230            White
 Color: fg1                     #ebdbb2        187            White
 Color: fg2                     #d5c4a1        187
 Color: fg3                     #bdae93        144
@@ -107,7 +107,7 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         bg0            bg1
+Visual                         fg0            bg1
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
@@ -283,12 +283,12 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         bg0            bg1
+Visual                         fg1            bg1
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
 Variant: 8
-Normal                         fg4            none
+Normal                         fg1            none
 ColorColumn                    bg0            fg4
 Comment                        fg4            none
 CursorLine                     none           none           underline
@@ -329,8 +329,8 @@ DiffText                       yellow         bg0            reverse
 Directory                      green          none           bold
 EndOfBuffer                    bg0            none
 IncSearch                      orange         bg0            reverse
-ModeMsg                        yellow         none           bold
-MoreMsg                        yellow         none           bold
+ModeMsg                        fg1            none           bold
+MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
 Search                         yellow         bg0            reverse
 SpellBad                       red            none           italic t=underline g=undercurl s=red
