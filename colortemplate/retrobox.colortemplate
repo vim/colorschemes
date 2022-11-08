@@ -7,7 +7,6 @@ Website: https://www.github.com/vim/colorschemes
 
 
 CursorColumn                   -> CursorLine
-QuickFixLine                   -> Search
 StatusLineTerm                 -> StatusLine
 StatusLineTermNC               -> StatusLineNC
 VisualNOS                      -> Visual
@@ -160,6 +159,7 @@ ModeMsg                        yellow         none           bold
 MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
 Search                         yellow         bg0            reverse
+QuickFixLine                   aqua           bg0            reverse
 SpellBad                       red            none           t=underline g=undercurl s=red
 SpellCap                       blue           none           t=underline g=undercurl s=blue
 SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
@@ -340,6 +340,7 @@ ModeMsg                        fg1            none           bold
 MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
 Search                         yellow         bg0            reverse
+QuickFixLine                   aqua           bg0            reverse
 SpellBad                       red            none           t=underline g=undercurl s=red
 SpellCap                       blue           none           t=underline g=undercurl s=blue
 SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
