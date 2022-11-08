@@ -68,9 +68,9 @@ Folded                         grey           bg6
 LineNr                         bg4            none
 MatchParen                     none           bg2            bold,underline
 NonText                        bg2            none
-Pmenu                          fg1            bg2
-PmenuSbar                      none           bg2
-PmenuSel                       bg2            blue           bold
+Pmenu                          fg1            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
 StatusLine                     bg2            fg1            reverse
