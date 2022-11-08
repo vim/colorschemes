@@ -26,7 +26,7 @@ Color: neutralorange           #d65d0e        166            LightRed
 Variant: gui 256 16 8
 
 Background: dark
-Color: bg0                     #282828        235            Black
+Color: bg0                     #1d2021        234            Black
 Color: bg1                     #3c3836        237            DarkGray
 Color: bg2                     #504945        239
 Color: bg3                     #665c54        59
@@ -44,7 +44,6 @@ Color: blue                    #83a598        109            Blue
 Color: purple                  #d3869b        175            Magenta
 Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
-
 
 Term colors: bg0  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
 Term colors: grey red        green        yellow        blue        purple        aqua        fg1
@@ -203,11 +202,12 @@ CursorIM                       none           none           reverse
 
 
 
-
 Background: light
+
 Color: bg0                     #fbf1c7        230            White
-Color: bg1                     #ebdbb2        188            Grey
-Color: bg2                     #d5c4a1        187
+Color: bg1                     #ebdbb2        251            Grey
+Color: bg2                     #d5c4a1        180
+
 Color: bg3                     #bdae93        144
 Color: bg4                     #a89984        137
 Color: fg0                     #282828        235            DarkGray
