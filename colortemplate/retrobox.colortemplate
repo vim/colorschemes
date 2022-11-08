@@ -29,8 +29,10 @@ Background: dark
 Color: bg0                     #1c1c1c        234            Black
 Color: bg1                     #3c3836        237            DarkGray
 Color: bg2                     #504945        239
-Color: bg3                     #665c54        59
+Color: bg3                     #665c54        236
 Color: bg4                     #7c6f64        243
+Color: bg5                     #000000        16             DarkGray
+Color: bg6                     #121212        233            DarkGray
 Color: fg0                     #fbf1c7        230            White
 Color: fg1                     #ebdbb2        187            White
 Color: fg2                     #d5c4a1        187
@@ -58,12 +60,12 @@ CursorLineNr                   yellow         bg1
 FoldColumn                     grey           bg1   # FIXME
 SignColumn                     fg1            bg1
 VertSplit                      bg3            bg0
-ColorColumn                    none           bg1
+ColorColumn                    none           bg5
 Comment                        grey           none
-CursorLine                     none           bg1
+CursorLine                     none           bg3
 Error                          red            bg0            bold,reverse
 ErrorMsg                       bg0            red            bold
-Folded                         grey           bg1
+Folded                         grey           bg6
 LineNr                         bg4            none
 MatchParen                     none           bg2            bold,underline
 NonText                        bg2            none
@@ -79,12 +81,12 @@ TabLineFill                    bg4            bg1
 TabLineSel                     green          bg1
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
-Visual                         none           bg3
+Visual                         bg0            aqua
 WildMenu                       blue           bg2            bold
 
 ; 16-color specific {{{
 Variant: 16
-ColorColumn                    bg0            bg1
+ColorColumn                    bg0            neutralyellow
 Comment                        grey           none
 CursorLine                     none           none           underline
 CursorLineNr                   yellow         none
@@ -109,7 +111,7 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         fg0            bg1
+Visual                         bg0            aqua
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
@@ -140,7 +142,7 @@ TabLineSel                     fg4            bg0            underline
 ToolbarButton                  bg0            fg4            bold
 ToolbarLine                    none           fg4
 VertSplit                      bg0            fg4
-Visual                         bg0            fg4
+Visual                         bg0            aqua
 WildMenu                       blue           bg1            bold
 
 ; Common {{{
@@ -205,11 +207,12 @@ CursorIM                       none           none           reverse
 Background: light
 
 Color: bg0                     #fbf1c7        230            White
-Color: bg1                     #ebdbb2        251            Grey
-Color: bg2                     #d5c4a1        180
-
+Color: bg1                     #ebdbb2        187            Grey
+Color: bg2                     #d5c4a1        187
 Color: bg3                     #bdae93        144
 Color: bg4                     #a89984        137
+Color: bg5                     #ebe1b7        229            Grey
+Color: bg6                     #ffffd7        231            Grey
 Color: fg0                     #282828        235            DarkGray
 Color: fg1                     #3c3836        237            Black
 Color: fg2                     #503836        237
@@ -237,12 +240,12 @@ CursorLineNr                   yellow         bg1
 FoldColumn                     grey           bg1   # FIXME
 SignColumn                     fg1            bg1
 VertSplit                      bg3            bg0
-ColorColumn                    none           bg1
+ColorColumn                    none           bg5
 Comment                        grey           none
-CursorLine                     none           bg1
+CursorLine                     none           bg2
 Error                          red            bg0            bold,reverse
 ErrorMsg                       bg0            red            bold
-Folded                         grey           bg1
+Folded                         grey           bg6
 LineNr                         bg4            none
 MatchParen                     none           bg2            bold,underline
 NonText                        bg2            none
@@ -251,14 +254,14 @@ PmenuSbar                      none           bg2
 PmenuSel                       bg2            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg2            fg1            reverse
+StatusLine                     bg3            fg1            reverse
 StatusLineNC                   bg1            fg4            reverse
 TabLine                        bg4            bg1
 TabLineFill                    bg4            bg1
 TabLineSel                     green          bg1
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
-Visual                         none           bg3
+Visual                         bg0            aqua
 WildMenu                       blue           bg2            bold
 
 ; 16-color specific {{{
@@ -288,7 +291,7 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         fg1            bg1
+Visual                         bg0            aqua
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
@@ -319,7 +322,7 @@ TabLineSel                     fg4            bg0            underline
 ToolbarButton                  bg0            fg4            bold
 ToolbarLine                    none           fg4
 VertSplit                      bg0            fg4
-Visual                         bg0            fg4
+Visual                         bg0            aqua
 WildMenu                       blue           bg1            bold
 
 ; Common {{{
