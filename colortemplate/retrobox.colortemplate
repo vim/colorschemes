@@ -81,7 +81,7 @@ TabLineFill                    bg4            bg1
 TabLineSel                     green          bg1
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 
 ; 16-color specific {{{
@@ -111,7 +111,7 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
@@ -142,7 +142,7 @@ TabLineSel                     fg4            bg0            underline
 ToolbarButton                  bg0            fg4            bold
 ToolbarLine                    none           fg4
 VertSplit                      bg0            fg4
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       blue           bg1            bold
 
 ; Common {{{
@@ -261,7 +261,7 @@ TabLineFill                    bg4            bg1
 TabLineSel                     green          bg1
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 
 ; 16-color specific {{{
@@ -291,7 +291,7 @@ TabLineSel                     bg1            bg0            underline
 ToolbarButton                  fg1            bg1            bold
 ToolbarLine                    none           bg1
 VertSplit                      bg0            bg1
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       fg1            bg0            bold
 
 ; 8-color specific {{{
@@ -322,7 +322,7 @@ TabLineSel                     fg4            bg0            underline
 ToolbarButton                  bg0            fg4            bold
 ToolbarLine                    none           fg4
 VertSplit                      bg0            fg4
-Visual                         bg0            aqua
+Visual                         bg0            blue
 WildMenu                       blue           bg1            bold
 
 ; Common {{{
