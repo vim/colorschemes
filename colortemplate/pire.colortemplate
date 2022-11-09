@@ -2,7 +2,7 @@
 Full name: vim-pire
 Short name: pire
 Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/vim/colorschemes
+Website: https://www.github.com/habamax/vim-pire
 
 Background: any
 
@@ -291,6 +291,7 @@ Color: color07                 #8a8a8a        245            grey
 Color: color15                 #ffffff        231            white
 
 Color: color16                 #8700ff        93             darkmagenta
+Color: colorCm                 #8a8a8a        245            darkgrey
 
 Color: colorLine               #E4E4E4        254            grey
 Color: colorB                  #EEEEEE        255            white
@@ -399,7 +400,7 @@ SpellRare                      color13        color15        reverse
 
 ;;; :h group-names
 Variant: gui 256 16
-Comment                        color07        none
+Comment                        colorCm        none
 Constant                       color01        none
 String                         color02        none
 Identifier                     color05        none
