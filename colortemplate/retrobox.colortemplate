@@ -12,6 +12,10 @@ StatusLineTermNC               -> StatusLineNC
 VisualNOS                      -> Visual
 Tag                            -> Special
 lCursor                        -> Cursor
+MessageWindow                  -> PMenu
+PopupNotification              -> Todo
+CurSearch                      -> Search
+
 
 ; Neutral colors
 Color: neutralred              #cc241d        160            DarkRed
