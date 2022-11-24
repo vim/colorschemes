@@ -78,10 +78,10 @@ PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
 StatusLine                     bg2            fg1            reverse
-StatusLineNC                   bg1            fg4            reverse
+StatusLineNC                   bg1            bg4            reverse
 TabLine                        bg4            bg1
 TabLineFill                    bg4            bg1
-TabLineSel                     green          bg1
+TabLineSel                     fg0            bg0
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
 Visual                         bg0            blue
@@ -164,7 +164,7 @@ IncSearch                      orange         bg0            reverse
 ModeMsg                        yellow         none           bold
 MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
-Search                         yellow         bg0            reverse
+Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
 SpellBad                       red            none           t=underline g=undercurl s=red
 SpellCap                       blue           none           t=underline g=undercurl s=blue
@@ -226,12 +226,13 @@ Color: fg3                     #665c54        59
 Color: fg4                     #7c6f64        243            Black
 Color: grey                    #928374        102            DarkGray
 Color: red                     #9d0006        124            Red
-Color: green                   #79740e        100            Green
+Color: green                   #79740e        64             Green
 Color: yellow                  #b57614        172            Yellow
 Color: blue                    #076678        23             Blue
 Color: purple                  #8f3f71        126            Magenta
 Color: aqua                    #427b58        29             Cyan
-Color: orange                  #af3a03        124            Magenta
+; Color: orange                  #af3a03        124            Magenta
+Color: orange                  #ff5f00        202            Magenta
 
 Term colors: fg1  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
 Term colors: grey red        green        yellow        blue        purple        aqua        bg0
@@ -262,9 +263,9 @@ PmenuThumb                     none           bg4
 SpecialKey                     grey           none
 StatusLine                     bg3            fg1            reverse
 StatusLineNC                   bg1            fg4            reverse
-TabLine                        bg4            bg1
+TabLine                        fg4            bg1
 TabLineFill                    bg4            bg1
-TabLineSel                     green          bg1
+TabLineSel                     fg0            bg0
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
 Visual                         bg0            blue
@@ -347,7 +348,7 @@ IncSearch                      orange         bg0            reverse
 ModeMsg                        fg1            none           bold
 MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
-Search                         yellow         bg0            reverse
+Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
 SpellBad                       red            none           t=underline g=undercurl s=red
 SpellCap                       blue           none           t=underline g=undercurl s=blue
