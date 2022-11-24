@@ -78,10 +78,10 @@ PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
 StatusLine                     bg2            fg1            reverse
-StatusLineNC                   bg1            bg4            reverse
-TabLine                        bg4            bg1
-TabLineFill                    bg4            bg1
-TabLineSel                     fg0            bg0
+StatusLineNC                   bg1            fg4            reverse
+TabLine                        fg4            bg1
+TabLineFill                    fg4            bg1
+TabLineSel                     fg1            bg1
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
 Visual                         bg0            blue
