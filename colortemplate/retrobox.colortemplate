@@ -1,0 +1,398 @@
+; vim: cc=32,47,62 vsts=31,15,15,4
+Full name: Retro Box
+Short name: retrobox
+Description: Retro groove color scheme similar to gruvbox originally designed by morhetz <morhetz@gmail.com>
+Author: Maxim Kim <habamax@gmail.com>, ported from gruvbox8 of Lifepillar <lifepillar@lifepillar.me>
+Website: https://www.github.com/vim/colorschemes
+
+
+CursorColumn                   -> CursorLine
+StatusLineTerm                 -> StatusLine
+StatusLineTermNC               -> StatusLineNC
+VisualNOS                      -> Visual
+Tag                            -> Special
+lCursor                        -> Cursor
+MessageWindow                  -> PMenu
+PopupNotification              -> Todo
+CurSearch                      -> Search
+
+
+; Neutral colors
+Color: neutralred              #cc241d        160            DarkRed
+Color: neutralgreen            #98971a        100            DarkGreen
+Color: neutralyellow           #d79921        172            DarkYellow
+Color: neutralblue             #458588        66             DarkBlue
+Color: neutralpurple           #b16286        132            DarkMagenta
+Color: neutralaqua             #689d6a        71             DarkCyan
+Color: neutralorange           #d65d0e        166            LightRed
+
+Variant: gui 256 16 8
+
+Background: dark
+Color: bg0                     #1c1c1c        234            Black
+Color: bg1                     #3c3836        237            DarkGray
+Color: bg2                     #504945        239            DarkGray
+Color: bg3                     #303030        236
+Color: bg4                     #7c6f64        243
+Color: bg5                     #000000        16             DarkGray
+Color: bg6                     #121212        233            DarkGray
+Color: fg0                     #fbf1c7        230            White
+Color: fg1                     #ebdbb2        187            White
+Color: fg2                     #d5c4a1        187
+Color: fg3                     #bdae93        144
+Color: fg4                     #a89984        137            gray
+Color: grey                    #928374        102            DarkGray
+Color: red                     #fb4934        203            Red
+Color: green                   #b8bb26        142            Green
+Color: yellow                  #fabd2f        214            Yellow
+Color: blue                    #83a598        109            Blue
+Color: purple                  #d3869b        175            Magenta
+Color: aqua                    #8ec07c        107            Cyan
+Color: orange                  #fe8019        208            Magenta
+
+Term colors: bg0  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
+Term colors: grey red        green        yellow        blue        purple        aqua        fg1
+
+
+Variant: gui 256 16
+Normal                         fg1            bg0
+
+; GUI & 256-color specific
+Variant: gui 256
+CursorLineNr                   yellow         bg3
+FoldColumn                     grey           bg1   # FIXME
+SignColumn                     fg1            bg1
+VertSplit                      bg3            bg0
+ColorColumn                    none           bg5
+Comment                        grey           none
+CursorLine                     none           bg3
+Error                          red            bg0            bold,reverse
+ErrorMsg                       bg0            red            bold
+Folded                         grey           bg6
+LineNr                         bg4            none
+MatchParen                     none           bg2            bold,underline
+NonText                        bg2            none
+Pmenu                          fg1            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg1            blue           bold
+PmenuThumb                     none           bg4
+SpecialKey                     grey           none
+StatusLine                     bg2            yellow            reverse
+StatusLineNC                   bg1            fg1            reverse
+TabLine                        fg1            bg1
+TabLineFill                    fg1            bg1
+TabLineSel                     yellow         bg0
+ToolbarButton                  fg0            bg3            bold
+ToolbarLine                    none           bg3
+Visual                         bg0            blue
+WildMenu                       blue           bg2            bold
+EndOfBuffer                    bg2            none
+
+; 16-color specific {{{
+Variant: 16
+ColorColumn                    bg0            neutralyellow
+Comment                        grey           none
+CursorLine                     none           none           underline
+CursorLineNr                   yellow         none
+Error                          red            bg0            reverse
+ErrorMsg                       bg0            red
+FoldColumn                     bg1            none
+Folded                         bg1            none
+LineNr                         bg1            none
+MatchParen                     none           bg0            bold,underline
+NonText                        bg2            none
+Pmenu                          bg0            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg0            blue
+PmenuThumb                     none           blue
+SignColumn                     bg1            none
+SpecialKey                     bg1            none
+StatusLine                     bg1            fg1            reverse
+StatusLineNC                   bg1            bg0            reverse
+TabLine                        bg0            bg1
+TabLineFill                    bg0            bg1
+TabLineSel                     bg1            bg0            underline
+ToolbarButton                  fg1            bg1            bold
+ToolbarLine                    none           bg1
+VertSplit                      bg0            bg1
+Visual                         bg0            blue
+WildMenu                       fg1            bg0            bold
+EndOfBuffer                    bg2            none
+
+; 8-color specific {{{
+Variant: 8
+Normal                         fg4            bg0
+ColorColumn                    bg0            fg4
+Comment                        fg4            none           bold
+CursorLine                     none           none           underline
+CursorLineNr                   yellow         none
+Error                          red            bg0            reverse
+ErrorMsg                       bg0            red
+FoldColumn                     fg4            none
+Folded                         fg4            none
+LineNr                         fg4            none
+MatchParen                     fg4            none           bold,underline
+NonText                        fg4            none
+Pmenu                          fg1            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg0            blue
+PmenuThumb                     none           blue
+SignColumn                     fg4            none
+SpecialKey                     fg4            none
+StatusLine                     fg4            bg0            reverse,bold
+StatusLineNC                   fg4            bg0            reverse
+TabLine                        bg0            fg4
+TabLineFill                    bg0            fg4
+TabLineSel                     fg4            bg0            underline
+ToolbarButton                  bg0            fg4            bold
+ToolbarLine                    none           fg4
+VertSplit                      bg0            fg4
+Visual                         bg0            blue
+WildMenu                       blue           bg1            bold
+EndOfBuffer                    none           none
+
+; Common {{{
+Variant: gui 256 16 8
+Conceal                        blue           none
+Cursor                         none           none           reverse
+DiffAdd                        green          bg0            reverse
+DiffChange                     aqua           bg0            reverse
+DiffDelete                     red            bg0            reverse
+DiffText                       yellow         bg0            reverse
+Directory                      green          none           bold
+IncSearch                      orange         bg0            reverse
+ModeMsg                        yellow         none           bold
+MoreMsg                        yellow         none           bold
+Question                       orange         none           bold
+Search                         neutralgreen   bg0            reverse
+QuickFixLine                   aqua           bg0            reverse
+SpellBad                       red            none           t=underline g=undercurl s=red
+SpellCap                       blue           none           t=underline g=undercurl s=blue
+SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
+SpellRare                      purple         none           t=underline g=undercurl s=purple
+Title                          green          none           bold
+WarningMsg                     red            none           bold
+; Other conventional group names (see `:help group-name`)
+Boolean                        purple         none
+Character                      purple         none
+Conditional                    red            none
+Constant                       purple         none
+Define                         aqua           none
+Debug                          red            none
+Delimiter                      orange         none
+Error                          red            bg0            bold,reverse
+Exception                      red            none
+Float                          purple         none
+Function                       green          none           bold
+Identifier                     blue           none
+Ignore                         fg             none
+Include                        aqua           none
+Keyword                        red            none
+Label                          red            none
+Macro                          aqua           none
+Number                         purple         none
+Operator                       aqua           none
+PreCondit                      aqua           none
+PreProc                        aqua           none
+Repeat                         red            none
+SpecialChar                    red            none
+SpecialComment                 red            none
+Statement                      red            none
+StorageClass                   orange         none
+Special                        orange         none
+String                         green          none
+Structure                      aqua           none
+Todo                           fg             bg0            bold
+Type                           yellow         none
+Typedef                        yellow         none
+Underlined                     blue           none           underline s=blue
+CursorIM                       none           none           reverse
+
+
+
+Background: light
+
+Color: bg0                     #fbf1c7        230            White
+Color: bg1                     #ebdbb2        187            Grey
+Color: bg2                     #e5d4b1        188            Grey
+Color: bg3                     #bdae93        144
+Color: bg4                     #a89984        137
+Color: bg5                     #ebe1b7        229            Grey
+Color: bg6                     #ffffd7        231            Grey
+Color: fg0                     #282828        235            DarkGray
+Color: fg1                     #3c3836        237            Black
+Color: fg2                     #503836        237
+Color: fg3                     #665c54        59
+Color: fg4                     #7c6f64        243            Black
+Color: grey                    #928374        102            DarkGray
+Color: red                     #9d0006        124            Red
+Color: green                   #79740e        64             Green
+Color: yellow                  #b57614        172            Yellow
+Color: blue                    #076678        23             Blue
+Color: purple                  #8f3f71        126            Magenta
+Color: aqua                    #427b58        29             Cyan
+; Color: orange                  #af3a03        124            Magenta
+Color: orange                  #ff5f00        202            Magenta
+
+Term colors: fg1  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
+Term colors: grey red        green        yellow        blue        purple        aqua        bg0
+
+
+Variant: gui 256 16
+Normal                         fg1            bg0
+
+; GUI & 256-color specific
+Variant: gui 256
+CursorLineNr                   yellow         bg2
+FoldColumn                     grey           bg1   # FIXME
+SignColumn                     fg1            bg1
+VertSplit                      bg3            bg0
+ColorColumn                    none           bg5
+Comment                        grey           none
+CursorLine                     none           bg2
+Error                          red            bg0            bold,reverse
+ErrorMsg                       bg0            red            bold
+Folded                         grey           bg6
+LineNr                         bg4            none
+MatchParen                     none           bg2            bold,underline
+NonText                        bg2            none
+Pmenu                          fg1            bg2
+PmenuSbar                      none           bg2
+PmenuSel                       bg2            blue           bold
+PmenuThumb                     none           bg4
+SpecialKey                     grey           none
+StatusLine                     bg3            fg1            reverse
+StatusLineNC                   bg1            fg1            reverse
+TabLine                        fg1            bg1
+TabLineFill                    bg1            bg1
+TabLineSel                     fg0            bg0
+ToolbarButton                  fg0            bg3            bold
+ToolbarLine                    none           bg3
+Visual                         bg0            blue
+WildMenu                       blue           bg2            bold
+EndOfBuffer                    bg2            none
+
+; 16-color specific {{{
+Variant: 16
+ColorColumn                    bg0            bg1
+Comment                        grey           none
+CursorLine                     none           none           underline
+CursorLineNr                   yellow         none
+Error                          red            bg0            reverse
+ErrorMsg                       bg0            red
+FoldColumn                     bg1            none
+Folded                         bg1            none
+LineNr                         bg1            none
+MatchParen                     none           bg0            bold,underline
+NonText                        bg2            none
+Pmenu                          bg0            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg0            blue
+PmenuThumb                     none           blue
+SignColumn                     bg1            none
+SpecialKey                     bg1            none
+StatusLine                     bg1            fg1            reverse
+StatusLineNC                   bg1            bg0            reverse
+TabLine                        bg0            bg1
+TabLineFill                    bg0            bg1
+TabLineSel                     bg1            bg0            underline
+ToolbarButton                  fg1            bg1            bold
+ToolbarLine                    none           bg1
+VertSplit                      bg0            bg1
+Visual                         bg0            blue
+WildMenu                       fg1            bg0            bold
+EndOfBuffer                    bg2            none
+
+; 8-color specific {{{
+Variant: 8
+Normal                         fg1            bg1
+ColorColumn                    bg0            fg4
+Comment                        fg4            none           bold
+CursorLine                     none           none           underline
+CursorLineNr                   yellow         none
+Error                          red            bg0            reverse
+ErrorMsg                       bg0            red
+FoldColumn                     fg4            none
+Folded                         fg4            none
+LineNr                         fg4            none
+MatchParen                     fg4            none           bold,underline
+NonText                        fg4            none
+Pmenu                          fg1            bg1
+PmenuSbar                      none           bg1
+PmenuSel                       bg0            blue
+PmenuThumb                     none           blue
+SignColumn                     fg4            none
+SpecialKey                     fg4            none
+StatusLine                     fg4            bg0            reverse,bold
+StatusLineNC                   fg4            bg0            reverse
+TabLine                        bg0            fg4
+TabLineFill                    bg0            fg4
+TabLineSel                     fg4            bg0            underline
+ToolbarButton                  bg0            fg4            bold
+ToolbarLine                    none           fg4
+VertSplit                      bg0            fg4
+Visual                         bg0            blue
+WildMenu                       blue           bg1            bold
+EndOfBuffer                    none           none
+
+; Common {{{
+Variant: gui 256 16 8
+Conceal                        blue           none
+Cursor                         none           none           reverse
+DiffAdd                        green          bg0            reverse
+DiffChange                     aqua           bg0            reverse
+DiffDelete                     red            bg0            reverse
+DiffText                       yellow         bg0            reverse
+Directory                      green          none           bold
+IncSearch                      orange         bg0            reverse
+ModeMsg                        fg1            none           bold
+MoreMsg                        fg1            none           bold
+Question                       orange         none           bold
+Search                         neutralgreen   bg0            reverse
+QuickFixLine                   aqua           bg0            reverse
+SpellBad                       red            none           t=underline g=undercurl s=red
+SpellCap                       blue           none           t=underline g=undercurl s=blue
+SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
+SpellRare                      purple         none           t=underline g=undercurl s=purple
+Title                          green          none           bold
+WarningMsg                     red            none           bold
+; Other conventional group names (see `:help group-name`)
+Boolean                        purple         none
+Character                      purple         none
+Conditional                    red            none
+Constant                       purple         none
+Define                         aqua           none
+Debug                          red            none
+Delimiter                      orange         none
+Error                          red            bg0            bold,reverse
+Exception                      red            none
+Float                          purple         none
+Function                       green          none           bold
+Identifier                     blue           none
+Ignore                         fg             none
+Include                        aqua           none
+Keyword                        red            none
+Label                          red            none
+Macro                          aqua           none
+Number                         purple         none
+Operator                       aqua           none
+PreCondit                      aqua           none
+PreProc                        aqua           none
+Repeat                         red            none
+SpecialChar                    red            none
+SpecialComment                 red            none
+Statement                      red            none
+StorageClass                   orange         none
+Special                        orange         none
+String                         green          none
+Structure                      aqua           none
+Todo                           fg             bg0            bold
+Type                           yellow         none
+Typedef                        yellow         none
+Underlined                     blue           none           underline s=blue
+CursorIM                       none           none           reverse
+
+
+Background: any
+
+Include: _tcozero
