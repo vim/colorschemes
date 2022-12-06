@@ -57,13 +57,15 @@ Color: colorMP                 #c5e7c5        30             darkcyan
 Color: colorDim                #878787        102            grey
 
 
-
 ; Diff colors
-Color: diffAdd                 #AF87AF        139            darkmagenta
-Color: diffDelete              #D78787        174            darkred
-Color: diffChange              #D0D0D0        252            lightgray
-Color: diffText                #5FD7D7        80             cyan
-Color: fgDiff                  #000000        16             black
+Color: diffAdd                 #1C3A1C        65             darkmagenta
+Color: diffAddFg               #afffaf        157            black
+Color: diffDelete              #875f5f        95             darkred
+Color: diffDeleteFg            #000000        16             black
+Color: diffChange              #303030        59             lightgray
+Color: diffChangeFg            #d0d0d0        252            black
+Color: diffText                #5f5f3f        101            cyan
+Color: diffTextFg              #ffffaf        229            black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -170,12 +172,20 @@ Directory                      color12        none           bold
 Conceal                        none           none
 Ignore                         none           none
 
-DiffAdd                        fgDiff         diffAdd
-DiffChange                     fgDiff         diffChange
-DiffText                       fgDiff         diffText
-DiffDelete                     diffDelete     none
 diffAdded                      color02        none
 diffRemoved                    color01        none
+
+DiffDelete                     diffDeleteFg   diffDelete
+
+Variant: gui
+DiffAdd                        none           diffAdd
+DiffChange                     none           diffChange
+DiffText                       none           diffText
+
+Variant: 256 16
+DiffAdd                        diffAddFg      diffAdd
+DiffChange                     diffChangeFg   diffChange
+DiffText                       diffTextFg     diffText
 
 
 Variant: 8
@@ -256,8 +266,8 @@ Conceal                        none           none
 Ignore                         none           none
 
 
-DiffAdd                        fgDiff         color05
-DiffChange                     fgDiff         color06
+DiffAdd                        color00        color05
+DiffChange                     color00        color06
 DiffText                       color00        color07
 DiffDelete                     color01        none
 
@@ -307,11 +317,14 @@ Color: colorSt                 #5f5f5f        59             darkgrey
 
 
 ; Diff colors
-Color: diffAdd                 #D7AFD7        182            darkmagenta
-Color: diffDelete              #870000        88             darkred
-Color: diffChange              #D0D0D0        252            lightgray
-Color: diffText                #5FD7D7        80             cyan
-Color: fgDiff                  #000000        16             black
+Color: diffAdd                 #d0dfd0        151            darkmagenta
+Color: diffAddFg               #005f00        22             black
+Color: diffDelete              #ffe0e0        224            darkred
+Color: diffDeleteFg            #b79797        52             black
+Color: diffChange              #dadada        253            lightgray
+Color: diffChangeFg            #262626        235            black
+Color: diffText                #f2dfaf        187            cyan
+Color: diffTextFg              #875f00        94             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -418,12 +431,20 @@ Directory                      color04        none           bold
 Conceal                        none           none
 Ignore                         none           none
 
-DiffAdd                        fgDiff         diffAdd
-DiffChange                     fgDiff         diffChange
-DiffText                       fgDiff         diffText
-DiffDelete                     diffDelete     none
 diffAdded                      color02        none
 diffRemoved                    color09        none
+
+DiffDelete                     diffDeleteFg   diffDelete
+
+Variant: gui
+DiffAdd                        none           diffAdd
+DiffChange                     none           diffChange
+DiffText                       none           diffText
+
+Variant: 256 16
+DiffAdd                        diffAddFg      diffAdd
+DiffChange                     diffChangeFg   diffChange
+DiffText                       diffTextFg     diffText
 
 
 Variant: 8
@@ -504,8 +525,8 @@ Conceal                        none           none
 Ignore                         none           none
 
 
-DiffAdd                        fgDiff         color05
-DiffChange                     fgDiff         color06
+DiffAdd                        color00        color05
+DiffChange                     color00        color06
 DiffText                       color07        color00
 DiffDelete                     color01        none
 
