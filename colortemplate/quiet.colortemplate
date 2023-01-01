@@ -85,6 +85,7 @@ Color: uiamber       #ffaf00           214               darkyellow
 Color: uiblack       #303030           236               darkgrey
 Color: yasogrey      #1c1c1c           234               black
 Color: linenrblack   #444444           238               darkgrey
+Color: uicursearch   #ff5fff           207               magenta
 
 Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -101,6 +102,7 @@ Normal               dark7             dark0
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
 Conceal              none              none
+CurSearch            uicursearch       dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              uiblack
 CursorLine           none              uiblack
@@ -120,10 +122,10 @@ MatchParen           uipink            none              bold
 ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
-Pmenu                dark0             diffblue
+Pmenu                dark0             uiblue
 PmenuSbar            dark7             dark8
-PmenuSel             dark0             diffpink
-PmenuThumb           dark7             diffpink
+PmenuSel             dark0             uicursearch
+PmenuThumb           dark7             uicursearch
 Question             dark7             none
 QuickFixLine         diffpink          dark0             reverse
 Search               uiblue            dark0             reverse
@@ -168,6 +170,7 @@ Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
+CurSearch            dark5             dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -267,6 +270,7 @@ Color: uipurple      #af00ff           129               darkmagenta
 Color: uiamber       #ffaf00           214               yellow
 Color: invisigrey    #a8a8a8           248               darkgrey
 Color: yasogrey      #e4e4e4           254               grey
+Color: uicursearch   #ff5fff           207               magenta
 
 Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -283,6 +287,7 @@ Normal               light0            light7
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
 Conceal              none              none
+CurSearch            uicursearch       light0            reverse
 Cursor               none              none              reverse
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
@@ -302,10 +307,10 @@ MatchParen           uipink            light7            bold
 ModeMsg              light0            none              bold
 MoreMsg              light0            none
 NonText              light8            none
-Pmenu                light0            diffblue
+Pmenu                light0            uiblue
 PmenuSbar            light0            light8
-PmenuSel             light0            diffpink
-PmenuThumb           light0            diffpink
+PmenuSel             light0            uicursearch
+PmenuThumb           light0            uicursearch
 Question             light0            none
 QuickFixLine         diffpink          light0            reverse
 Search               uiblue            light0            reverse
@@ -350,6 +355,7 @@ Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
+CurSearch            light5            light0            reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
