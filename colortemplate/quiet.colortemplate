@@ -127,7 +127,7 @@ PmenuSbar            dark7             dark8
 PmenuSel             dark0             uicursearch
 PmenuThumb           dark7             uicursearch
 Question             dark7             none
-QuickFixLine         diffpink          dark0             reverse
+QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
 SpecialKey           dark7             none
@@ -312,7 +312,7 @@ PmenuSbar            light0            light8
 PmenuSel             light0            uicursearch
 PmenuThumb           light0            uicursearch
 Question             light0            none
-QuickFixLine         diffpink          light0            reverse
+QuickFixLine         uicursearch       light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            none
 SpecialKey           light0            none
