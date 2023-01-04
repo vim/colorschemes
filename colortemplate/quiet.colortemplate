@@ -217,7 +217,7 @@ WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
 Comment              none              none              bold
 Constant             none              none
-Error                none              none              reverse,bold
+Error                dark1             dark0             reverse,bold
 Identifier           none              none
 Ignore               none              none
 PreProc              none              none
@@ -402,7 +402,7 @@ WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
 Comment              none              none              bold
 Constant             none              none
-Error                none              none              reverse,bold
+Error                light1            light0            reverse,bold
 Identifier           none              none
 Ignore               none              none
 PreProc              none              none
