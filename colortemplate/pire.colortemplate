@@ -2,7 +2,7 @@
 Full name: vim-pire
 Short name: pire
 Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/vim/colorschemes
+Website: https://www.github.com/habamax/vim-pire
 
 Background: any
 
@@ -58,14 +58,14 @@ Color: colorDim                #878787        102            grey
 
 
 ; Diff colors
-Color: diffAdd                 #1C3A1C        65             darkmagenta
+Color: diffAdd                 #5f875f        65             darkmagenta
 Color: diffAddFg               #afffaf        157            black
 Color: diffDelete              #875f5f        95             darkred
-Color: diffDeleteFg            #000000        16             black
-Color: diffChange              #303030        59             lightgray
+Color: diffDeleteFg            #ffafaf        217            black
+Color: diffChange              #5f5f5f        59             lightgray
 Color: diffChangeFg            #d0d0d0        252            black
-Color: diffText                #5f5f3f        101            cyan
-Color: diffTextFg              #ffffaf        229            black
+Color: diffText                #5f8787        66             cyan
+Color: diffTextFg              #afffff        159            black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -172,20 +172,12 @@ Directory                      color12        none           bold
 Conceal                        none           none
 Ignore                         none           none
 
-diffAdded                      color02        none
-diffRemoved                    color01        none
-
-DiffDelete                     diffDeleteFg   diffDelete
-
-Variant: gui
-DiffAdd                        none           diffAdd
-DiffChange                     none           diffChange
-DiffText                       none           diffText
-
-Variant: 256 16
 DiffAdd                        diffAddFg      diffAdd
 DiffChange                     diffChangeFg   diffChange
 DiffText                       diffTextFg     diffText
+DiffDelete                     diffDeleteFg   diffDelete
+diffAdded                      color02        none
+diffRemoved                    color01        none
 
 
 Variant: 8
@@ -317,14 +309,14 @@ Color: colorSt                 #5f5f5f        59             darkgrey
 
 
 ; Diff colors
-Color: diffAdd                 #d0dfd0        151            darkmagenta
+Color: diffAdd                 #afd7af        151            darkmagenta
 Color: diffAddFg               #005f00        22             black
-Color: diffDelete              #ffe0e0        224            darkred
-Color: diffDeleteFg            #b79797        52             black
+Color: diffDelete              #ffd7d7        224            darkred
+Color: diffDeleteFg            #875f5f        95             black
 Color: diffChange              #dadada        253            lightgray
 Color: diffChangeFg            #262626        235            black
-Color: diffText                #f2dfaf        187            cyan
-Color: diffTextFg              #875f00        94             black
+Color: diffText                #afd7d7        152            cyan
+Color: diffTextFg              #005f5f        23             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -431,20 +423,12 @@ Directory                      color04        none           bold
 Conceal                        none           none
 Ignore                         none           none
 
-diffAdded                      color02        none
-diffRemoved                    color09        none
-
-DiffDelete                     diffDeleteFg   diffDelete
-
-Variant: gui
-DiffAdd                        none           diffAdd
-DiffChange                     none           diffChange
-DiffText                       none           diffText
-
-Variant: 256 16
 DiffAdd                        diffAddFg      diffAdd
 DiffChange                     diffChangeFg   diffChange
 DiffText                       diffTextFg     diffText
+DiffDelete                     diffDeleteFg   diffDelete
+diffAdded                      color02        none
+diffRemoved                    color09        none
 
 
 Variant: 8
