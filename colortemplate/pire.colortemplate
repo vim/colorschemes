@@ -225,7 +225,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         none           none           reverse
+Visual                         color00        color04
 MatchParen                     colorMP        color00        reverse
 
 VisualNOS                      color00        color04
@@ -476,7 +476,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         none           none           reverse
+Visual                         color07        color04
 MatchParen                     colorMP        color07        reverse
 
 VisualNOS                      color00        color04
