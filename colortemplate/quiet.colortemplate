@@ -84,8 +84,9 @@ Color: uipurple      #af00ff           129               darkmagenta
 Color: uiamber       #ffaf00           214               darkyellow
 Color: uiblack       #303030           236               darkgrey
 Color: yasogrey      #1c1c1c           234               black
-Color: linenrblack   #444444           238               darkgrey
+Color: linenrblack   #585858           240               darkgrey
 Color: uicursearch   #ff5fff           207               magenta
+Color: invisigrey    #a8a8a8           248               darkgrey
 
 Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -122,10 +123,10 @@ MatchParen           uipink            none              bold
 ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
-Pmenu                dark0             uiblue
-PmenuSbar            dark7             dark8
-PmenuSel             dark0             uicursearch
-PmenuThumb           dark7             uicursearch
+Pmenu                dark0             invisigrey
+PmenuSbar            dark8             linenrblack
+PmenuSel             dark0             dark7
+PmenuThumb           dark7             dark7
 Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
@@ -307,10 +308,10 @@ MatchParen           uipink            light7            bold
 ModeMsg              light0            none              bold
 MoreMsg              light0            none
 NonText              light8            none
-Pmenu                light0            uiblue
-PmenuSbar            light0            light8
-PmenuSel             light0            uicursearch
-PmenuThumb           light0            uicursearch
+Pmenu                light0            invisigrey
+PmenuSbar            light0            yasogrey
+PmenuSel             light7            light0
+PmenuThumb           light0            light0
 Question             light0            none
 QuickFixLine         uicursearch       light0            reverse
 Search               uiblue            light0            reverse
