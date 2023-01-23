@@ -49,7 +49,7 @@ Color: color15                 #ffffff        231            white
 Color: color16                 #875fff        99             darkmagenta
 
 Color: colorLine               #262626        235            darkgrey
-Color: colorB                  #1c1c1c        234            darkgrey
+Color: colorB                  #303030        236            darkgrey
 Color: colorNonT               #585858        240            grey
 Color: colorTab                #585858        240            grey
 Color: colorC                  #ffffff        231            white
