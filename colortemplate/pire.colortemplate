@@ -296,8 +296,8 @@ Color: color15                 #ffffff        231            white
 Color: color16                 #8700ff        93             darkmagenta
 Color: colorCm                 #8a8a8a        245            darkgrey
 
-Color: colorLine               #E4E4E4        254            grey
-Color: colorB                  #EEEEEE        255            grey
+Color: colorLine               #EEEEEE        255            grey
+Color: colorB                  #E4E4E4        254            grey
 
 Color: colorNonT               #b2b2b2        249            darkgrey
 Color: colorTab                #d0d0d0        252            lightgrey
