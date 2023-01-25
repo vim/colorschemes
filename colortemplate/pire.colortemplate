@@ -125,8 +125,8 @@ lCursor                        colorlC        color00        reverse
 
 
 Variant: gui 256 16
-Visual                         color00        color12
-VisualNOS                      color00        color04
+Visual                         color00        color04
+VisualNOS                      color00        color12
 MatchParen                     colorMP        color00        reverse
 
 
