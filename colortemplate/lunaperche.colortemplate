@@ -159,10 +159,10 @@ Color: colorDim                #878787        102            grey
 ; Diff colors
 Color: diffAdd                 #875f87        96             darkmagenta
 Color: diffDelete              #D78787        174            darkred
-Color: diffChange              #5f5f5f        59             lightgray
+Color: diffChange              #5f5f5f        59             darkgreen
 Color: diffText                #5f8787        66             cyan
 Color: fgDiffText              #afffff        159            black
-Color: fgDiff                  #C6C6C6        251            grey
+Color: fgDiff                  #C6C6C6        251            white
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Term colors: color08 color09 color10 color11 color12 color13 color14 color15
@@ -385,7 +385,7 @@ Ignore                         none           none
 
 
 DiffAdd                        fgDiff         color05
-DiffChange                     fgDiff         color06
+DiffChange                     fgDiff         color02
 DiffText                       color00        color07
 DiffDelete                     color01        none
 
