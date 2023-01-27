@@ -144,14 +144,14 @@ Color: color15                 #FFFFFF        231            white
 
 Color: colorDimWhite           #E4E4E4        254            grey
 Color: colorLine               #262626        235            darkgrey
-Color: colorB                  #1C1C1C        234            darkgrey
+Color: colorB                  #303030        236            darkgrey
 Color: colorNonT               #585858        240            grey
 Color: colorTab                #585858        240            grey
 Color: colorC                  #FFFFFF        231            white
 Color: colorlC                 #FF5FFF        207            magenta
 Color: colorV                  #005F87        24             darkblue
 Color: colorMP                 #C5E7C5        30             darkcyan
-Color: colorPMenuSel           #444444        238            darkcyan
+Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
 
 
@@ -417,8 +417,8 @@ Color: color14                 #008787        30             cyan
 Color: color07                 #808080        244            grey
 Color: color15                 #FFFFFF        231            white
 
-Color: colorLine               #E4E4E4        254            grey
-Color: colorB                  #EEEEEE        255            grey
+Color: colorLine               #EEEEEE        255            grey
+Color: colorB                  #E4E4E4        254            grey
 Color: colorNonT               #9E9E9E        247            darkgrey
 Color: colorTab                #BCBCBC        250            lightgrey
 Color: colorC                  #000000        16             black
