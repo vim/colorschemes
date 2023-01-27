@@ -41,12 +41,12 @@ Color: colorC           #FFAF5F        215            red
 Color: colorlC          #5FFF00        82             green
 Color: colorV           #1F3F5F        109            cyan
 
-Color: diffAdd          #87AF87        108            darkgreen
+Color: diffAdd          #5f875f        65             darkgreen
 Color: diffDelete       #af875f        137            darkyellow
-Color: diffChange       #AFAFAF        145            darkgray
-Color: diffText         #D7D7D7        188            lightgrey
+Color: diffChange       #5f5f5f        59             darkgray
+Color: diffText         #878787        188            lightgrey
 Color: black            #000000        16             black
-Color: white            #FFFFFF        231            white
+Color: white            #dadada        253            white
 
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
@@ -300,7 +300,7 @@ Debug                   color06        none
 
 
 Variant:                gui 256 16 8
-DiffAdd                 black          diffAdd
+DiffAdd                 white          diffAdd
 DiffDelete              diffDelete     none
 diffAdded               color02        none
 diffRemoved             color01        none
@@ -309,8 +309,8 @@ Variant:                8
 DiffText                white          black          reverse,bold
 DiffChange              black          white
 Variant:                gui 256 16
-DiffText                black          diffText
-DiffChange              black          diffChange
+DiffText                white        diffText
+DiffChange              color15        diffChange
 
 
 ; No color support
