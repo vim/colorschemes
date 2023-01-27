@@ -34,7 +34,8 @@ Color: color07          #9E9E9E        247            gray
 Color: color15          #BCBCBC        250            white
 
 Color: colorLine        #303030        236            darkgrey
-Color: colorB           #262626        235            darkgrey
+Color: colorB           #3a3a3a        237            darkgrey
+Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #FFAF5F        215            red
 Color: colorlC          #5FFF00        82             green
@@ -237,7 +238,7 @@ ColorColumn             color00        color03
 Variant: gui 256
 CursorLine              none           colorLine
 CursorColumn            none           colorLine
-Folded                  color07        colorB
+Folded                  color07        colorF
 ColorColumn             none           colorB
 
 Variant: 8
