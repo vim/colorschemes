@@ -54,7 +54,7 @@ Background: dark
 
 ; Color palette for dark variant {{{
 ; Color name         GUI               Base256           Base16 (optional)
-Color: dark0         #080808           232               black
+Color: dark0         #000000           16                black
 Color: dark1         #d7005f           161               darkred
 Color: dark2         #00af5f           35                darkgreen
 Color: dark3         #d78700           172               darkyellow
@@ -84,7 +84,9 @@ Color: uipurple      #af00ff           129               darkmagenta
 Color: uiamber       #ffaf00           214               darkyellow
 Color: uiblack       #303030           236               darkgrey
 Color: yasogrey      #1c1c1c           234               black
-Color: linenrblack   #444444           238               darkgrey
+Color: linenrblack   #585858           240               darkgrey
+Color: uicursearch   #ff5fff           207               magenta
+Color: invisigrey    #a8a8a8           248               darkgrey
 
 Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -101,6 +103,7 @@ Normal               dark7             dark0
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
 Conceal              none              none
+CurSearch            uicursearch       dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              uiblack
 CursorLine           none              uiblack
@@ -120,12 +123,12 @@ MatchParen           uipink            none              bold
 ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
-Pmenu                dark0             diffblue
-PmenuSbar            dark7             dark8
-PmenuSel             dark0             diffpink
-PmenuThumb           dark7             diffpink
+Pmenu                dark0             invisigrey
+PmenuSbar            dark8             linenrblack
+PmenuSel             dark0             dark7
+PmenuThumb           dark7             dark7
 Question             dark7             none
-QuickFixLine         diffpink          dark0             reverse
+QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
 SpecialKey           dark7             none
@@ -168,6 +171,7 @@ Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
+CurSearch            dark5             dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -214,7 +218,7 @@ WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
 Comment              none              none              bold
 Constant             none              none
-Error                none              none              reverse,bold
+Error                dark1             dark0             reverse,bold
 Identifier           none              none
 Ignore               none              none
 PreProc              none              none
@@ -237,7 +241,7 @@ Background: light
 
 Color: brightwhite   #eeeeee           255               grey
 
-Color: light0        #080808           232               black
+Color: light0        #000000           16                black
 Color: light1        #af0000           124               darkred
 Color: light2        #005f00           22                darkgreen
 Color: light3        #af5f00           130               darkyellow
@@ -267,6 +271,7 @@ Color: uipurple      #af00ff           129               darkmagenta
 Color: uiamber       #ffaf00           214               yellow
 Color: invisigrey    #a8a8a8           248               darkgrey
 Color: yasogrey      #e4e4e4           254               grey
+Color: uicursearch   #ff5fff           207               magenta
 
 Color: errorred      #ff005f           197               red
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
@@ -283,6 +288,7 @@ Normal               light0            light7
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              yasogrey
 Conceal              none              none
+CurSearch            uicursearch       light0            reverse
 Cursor               none              none              reverse
 CursorColumn         none              brightwhite
 CursorLine           none              brightwhite
@@ -302,12 +308,12 @@ MatchParen           uipink            light7            bold
 ModeMsg              light0            none              bold
 MoreMsg              light0            none
 NonText              light8            none
-Pmenu                light0            diffblue
-PmenuSbar            light0            light8
-PmenuSel             light0            diffpink
-PmenuThumb           light0            diffpink
+Pmenu                light0            invisigrey
+PmenuSbar            light0            yasogrey
+PmenuSel             light7            light0
+PmenuThumb           light0            light0
 Question             light0            none
-QuickFixLine         diffpink          light0            reverse
+QuickFixLine         uicursearch       light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            none
 SpecialKey           light0            none
@@ -350,6 +356,7 @@ Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
+CurSearch            light5            light0            reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -396,7 +403,7 @@ WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
 Comment              none              none              bold
 Constant             none              none
-Error                none              none              reverse,bold
+Error                light1            light0            reverse,bold
 Identifier           none              none
 Ignore               none              none
 PreProc              none              none
