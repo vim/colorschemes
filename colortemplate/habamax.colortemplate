@@ -44,7 +44,7 @@ Color: colorV           #1F3F5F        109            cyan
 Color: diffAdd          #5f875f        65             darkgreen
 Color: diffDelete       #af875f        137            darkyellow
 Color: diffChange       #5f5f5f        59             darkgray
-Color: diffText         #878787        188            lightgrey
+Color: diffText         #878787        102            lightgrey
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
 
