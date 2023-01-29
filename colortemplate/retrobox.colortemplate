@@ -60,8 +60,8 @@ Normal                         fg1            bg0
 ; GUI & 256-color specific
 Variant: gui 256
 CursorLineNr                   yellow         bg3
-FoldColumn                     grey           bg1   # FIXME
-SignColumn                     fg1            bg1
+FoldColumn                     grey           bg0
+SignColumn                     grey           bg0
 VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
@@ -77,7 +77,7 @@ PmenuSbar                      none           bg1
 PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg2            yellow            reverse
+StatusLine                     bg2            yellow         reverse
 StatusLineNC                   bg1            fg1            reverse
 TabLine                        fg1            bg1
 TabLineFill                    fg1            bg1
@@ -244,8 +244,8 @@ Normal                         fg1            bg0
 ; GUI & 256-color specific
 Variant: gui 256
 CursorLineNr                   yellow         bg2
-FoldColumn                     grey           bg1   # FIXME
-SignColumn                     fg1            bg1
+FoldColumn                     grey           bg0
+SignColumn                     fg1            bg0
 VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
