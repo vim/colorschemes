@@ -77,11 +77,11 @@ PmenuSbar                      none           bg1
 PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg2            yellow         reverse
-StatusLineNC                   bg1            fg1            reverse
-TabLine                        fg1            bg1
+StatusLine                     bg2            fg1            bold,reverse
+StatusLineNC                   bg1            fg4            reverse
+TabLine                        fg4            bg1
 TabLineFill                    fg1            bg1
-TabLineSel                     yellow         bg0
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
 Visual                         bg0            blue
@@ -107,7 +107,7 @@ PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
-StatusLine                     bg1            fg1            reverse
+StatusLine                     bg1            fg1            bold,reverse
 StatusLineNC                   bg1            bg0            reverse
 TabLine                        bg0            bg1
 TabLineFill                    bg0            bg1
@@ -261,11 +261,11 @@ PmenuSbar                      none           bg2
 PmenuSel                       bg2            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg3            fg1            reverse
+StatusLine                     bg3            fg1            bold,reverse
 StatusLineNC                   bg1            fg1            reverse
-TabLine                        fg1            bg1
+TabLine                        fg3            bg1
 TabLineFill                    bg1            bg1
-TabLineSel                     fg0            bg0
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           bg3
 Visual                         bg0            blue
