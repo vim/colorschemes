@@ -83,7 +83,7 @@ TabLine                        fg4            bg1
 TabLineFill                    fg1            bg1
 TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
-ToolbarLine                    none           bg3
+ToolbarLine                    none           none
 Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
@@ -113,7 +113,7 @@ TabLine                        bg0            bg1
 TabLineFill                    bg0            bg1
 TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg1            bg1            bold
-ToolbarLine                    none           bg0
+ToolbarLine                    none           none
 VertSplit                      bg0            fg4
 Visual                         bg0            blue
 WildMenu                       fg1            bg0            bold
@@ -267,7 +267,7 @@ TabLine                        fg3            bg1
 TabLineFill                    bg1            bg1
 TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
-ToolbarLine                    none           bg3
+ToolbarLine                    none           none
 Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
