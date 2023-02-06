@@ -1,6 +1,6 @@
-;;; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
 
-;;; Information
+; Information
 Full name:   zaibatsu
 Short name:  zaibatsu
 Description: "We monitor many frequencies. We listen always. Came a voice, out of the babel of tongues, speaking to us. It played us a mighty dub." ― William Gibson, Neuromancer
@@ -10,9 +10,7 @@ License:     Same as Vim
 
 Background: dark
 
-;;; Color palette
-
-;bg black
+; Color palette
 Color: black         #0f001f           16                black
 Color: darkred       #510039           52                darkred
 Color: darkgreen     #00af5f           35                darkgreen
@@ -20,8 +18,6 @@ Color: darkyellow    #ffaf00           214               darkyellow
 Color: darkblue      #5f00d7           56                darkblue
 Color: darkmagenta   #d700ff           165               darkmagenta
 Color: darkcyan      #5fd7d7           80                darkcyan
-Color: gray          #dfdfdf           188               gray
-Color: darkgray      #878787           102               darkgray
 Color: red           #d75F87           168               red
 Color: green         #5fff87           84                green
 Color: yellow        #ffff5f           227               yellow
@@ -37,32 +33,51 @@ Color: neutral4      #766d7f           243               darkgray
 Color: neutral5      #54495f           240               darkgray
 Color: neutral6      #31243F           237               darkgray
 
-;;; Terminal
-Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan gray
-Term colors: darkgray red green yellow blue magenta cyan white
+; Terminal
+Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan neutral1
+Term colors: neutral4 red green yellow blue magenta cyan white
 
-;;; Group            Foreground        Background        Attributes
-Variant:    gui 256 16
+Variant: gui 256 16 ; {{{
+; Chrome
+; Group              Foreground        Background        Attributes
 Normal               white             black
 
-Variant:    16
+Variant: 16
+; Group              Foreground        Background        Attributes
 CursorLine           none              none              underline
-Pmenu                black             blue
-PmenuSel             white             black
+CursorColumn         none              blue
+Pmenu                black             white
+PmenuSel             white             blue
+WildMenu             white             blue
 
-Variant:    gui 256
+Variant: gui 256
+; Group              Foreground        Background        Attributes
 CursorLine           none              neutral6
-;;; Pmenu                white             neutral5
-;;; PmenuSel             neutral5          white
+CursorColumn         none              neutral6
 Pmenu                black             white
 PmenuSel             black             blue
+WildMenu             black             blue
 
-Variant:    gui 256 16
+Variant: 256 16
+; Group              Foreground        Background        Attributes
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           white             none              underline
+SpellRare            magenta           none              underline
+
+Variant: gui
+; Group              Foreground        Background        Attributes
+SpellBad             none              none              undercurl s=red
+SpellCap             none              none              undercurl s=green
+SpellLocal           none              none              undercurl s=white
+SpellRare            none              none              undercurl s=magenta
+
+Variant: gui 256 16
+; Group              Foreground        Background        Attributes
 QuickFixLine         black             magenta
 ColorColumn          none              darkred
 Conceal              none              none
 Cursor               black             yellow
-CursorColumn         none              blue
 CursorIM             black             yellow
 CursorLineNr         white             neutral6
 EndOfBuffer          blue              black
@@ -76,16 +91,12 @@ MatchParen           none              none              reverse
 ModeMsg              black             green
 MoreMsg              cyan              none
 NonText              white             black
-PmenuSbar            none              white
+PmenuSbar            none              neutral1
 PmenuThumb           none              blue
 Question             green             none
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
 SpecialKey           neutral4          none
-SpellBad             red               none              g=undercurl t=underline s=red
-SpellCap             green             none              g=undercurl t=underline s=green
-SpellLocal           white             none              g=undercurl t=underline s=white
-SpellRare            magenta           none              g=undercurl t=underline s=magenta
 StatusLine           black             white
 StatusLineNC         black             neutral3
 ToolbarButton        white             neutral5
@@ -94,12 +105,11 @@ VertSplit            blue              none
 Visual               black             darkcyan
 VisualNOS            darkcyan          white
 WarningMsg           magenta           none
-WildMenu             black             blue
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
 
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
+; Syntax
+; Group              Foreground        Background        Attributes
 Directory            cyan              none
 Title                none              none
 Comment              blue              none
@@ -112,75 +122,73 @@ Statement            magenta           none
 Todo                 none              none              reverse
 Type                 red               none
 Underlined           none              none              underline
+; }}}
 
-Variant: 8 ;;;{{{
-;;; Chrome
-;;; Group            Foreground        Background        Attributes
-Normal               darkyellow        blue
-
-CursorLine           none              none              underline
-Pmenu                black             cyan
-PmenuSel             black             gray
-
-QuickFixLine         black             magenta
-ColorColumn          none              magenta
+Variant: 8 ; {{{
+; Chrome
+; Group              Foreground        Background        Attributes
+Normal               white             black
+ColorColumn          white             darkred
 Conceal              none              none
-Cursor               black             green
-CursorColumn         blue              yellow            reverse,bold
+Cursor               black             yellow
+CursorColumn         none              blue
 CursorIM             black             yellow
-EndOfBuffer          yellow            blue
-Error                red               blue              reverse
-ErrorMsg             gray              red
-FoldColumn           cyan              none
-Folded               black             yellow
+CursorLine           none              none              underline
+CursorLineNr         white             neutral6
+EndOfBuffer          blue              black
+Error                red               white             reverse
+ErrorMsg             white             red
+FoldColumn           darkcyan          none
+Folded               black             darkyellow
 IncSearch            magenta           black             reverse
-LineNr               cyan              none
+LineNr               blue              none
 MatchParen           none              none              reverse
-ModeMsg              blue              green
+ModeMsg              black             green
 MoreMsg              cyan              none
-NonText              magenta           none
-PmenuSbar            none              none
-PmenuThumb           none              white
+NonText              white             black
+Pmenu                black             white
+PmenuSbar            none              neutral1
+PmenuSel             white             blue
+PmenuThumb           none              blue
 Question             green             none
-Search               yellow            black             reverse
-SignColumn           cyan              none
-SpecialKey           gray              none
-SpellBad             red               yellow            reverse
-SpellCap             green             none              reverse
-SpellLocal           gray              none              reverse
-SpellRare            magenta           yellow            reverse
-StatusLine           blue              white             reverse,bold
-StatusLineNC         blue              cyan
-ToolbarButton        blue              gray              reverse,bold
+QuickFixLine         black             magenta
+Search               cyan              black             reverse
+SignColumn           darkcyan          none
+SpecialKey           neutral4          none
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           white             none              underline
+SpellRare            magenta           none              underline
+StatusLine           black             white
+StatusLineNC         white             black
+ToolbarButton        white             darkblue
 ToolbarLine          none              none
-VertSplit            cyan              none
-Visual               black             cyan
-VisualNOS            cyan              gray
-WarningMsg           red               none
-WildMenu             blue              yellow
-debugBreakpoint      green             blue              reverse
-debugPC              cyan              blue              reverse
+VertSplit            blue              none
+Visual               black             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           magenta           none
+WildMenu             white             blue
+debugBreakpoint      green             darkblue          reverse
+debugPC              cyan              darkblue          reverse
 
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
+; Syntax
+; Group              Foreground        Background        Attributes
 Directory            cyan              none
 Title                none              none
-Comment              black             none
-Constant             cyan              none
-Identifier           gray              none
-Ignore               gray              none
-PreProc              green             none
-Special              magenta           none
-Statement            gray              none
+Comment              blue              none
+Constant             yellow            none
+Identifier           cyan              none
+Ignore               neutral4          none
+PreProc              darkcyan          none
+Special              green             none
+Statement            magenta           none
 Todo                 none              none              reverse
 Type                 red               none
 Underlined           none              none              underline
-Label                yellow            none
-;;;}}}
+;}}}
 
-Variant: gui 256 16 8
-;;; Links
-;;; Chrome
+Variant: gui 256 16 8 ; Global links {{{
+; Chrome
 Terminal             -> Normal
 Debug                -> Special
 diffAdded            -> String
@@ -205,7 +213,7 @@ TabLine              -> StatusLineNC
 TabLineFill          -> StatusLineNC
 TabLineSel           -> StatusLine
 
-;;; Syntax
+; Syntax
 Boolean              -> Constant
 Character            -> Constant
 Conditional          -> Statement
@@ -233,17 +241,18 @@ Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 
-;;; htmlTagName          -> Statement
-;;; htmlEndTag           -> htmlTagName
-;;; htmlLink             -> Function
-;;; htmlSpecialTagName   -> htmlTagName
-;;; htmlTag              -> htmlTagName
-;;; htmlBold             -> Normal
-;;; htmlItalic           -> Normal
-;;; htmlArg              -> htmlTagName
+; htmlTagName          -> Statement
+; htmlEndTag           -> htmlTagName
+; htmlLink             -> Function
+; htmlSpecialTagName   -> htmlTagName
+; htmlTag              -> htmlTagName
+; htmlBold             -> Normal
+; htmlItalic           -> Normal
+; htmlArg              -> htmlTagName
+; }}}
 
-;;; "Standard" diff colors
+; "Standard" diff colors
 Include: _diff
 
-;;; No color support
+; No color support
 Include: _tcozero
