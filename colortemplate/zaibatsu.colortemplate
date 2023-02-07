@@ -17,21 +17,23 @@ Color: darkgreen     #00af5f           35                darkgreen
 Color: darkyellow    #ffaf00           214               darkyellow
 Color: darkblue      #5f00d7           56                darkblue
 Color: darkmagenta   #d700ff           165               darkmagenta
-Color: darkcyan      #5fd7d7           80                darkcyan
-Color: red           #d75F87           168               red
-Color: green         #5fff87           84                green
+Color: darkcyan      #00afff           80                darkcyan
+Color: red           #ff5faf           205               red
+Color: green         #5fff5f           84                green
 Color: yellow        #ffff5f           227               yellow
 Color: blue          #afafff           147               blue
 Color: magenta       #ffafff           219               magenta
-Color: cyan          #5fffff           87                cyan
+Color: cyan          #00ffff           87                cyan
 Color: white         #ffffff           231               white
 
-Color: neutral1      #dddbdf           252               gray
-Color: neutral2      #bab6bf           249               gray
-Color: neutral3      #98929f           246               gray
-Color: neutral4      #766d7f           243               darkgray
-Color: neutral5      #54495f           240               darkgray
-Color: neutral6      #31243F           237               darkgray
+Color: neutral1      #dddbdf           189               gray
+Color: neutral2      #bab6bf           249               gray ; Not used
+Color: neutral3      #98929f           146               gray
+Color: neutral4      #766d7f           146               darkgray
+Color: neutral5      #54495f           103               darkgray
+Color: neutral6      #31243F           60                darkgray
+
+Color: error         #d70000           160               red
 
 ; Terminal
 Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan neutral1
@@ -81,7 +83,7 @@ Cursor               black             yellow
 CursorIM             black             yellow
 CursorLineNr         white             neutral6
 EndOfBuffer          blue              black
-Error                red               white             reverse
+Error                error             white             reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               black             darkyellow
