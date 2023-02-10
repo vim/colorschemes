@@ -13,17 +13,17 @@ Background: dark
 ; Color palette {{{
 Color: black         #0f001f           16                black
 Color: darkred       #510039           52                darkred
-Color: darkgreen     #00af5f           35                darkgreen
+Color: darkgreen     #5faf00           70                darkgreen
 Color: darkyellow    #ffaf00           214               darkyellow
 Color: darkblue      #5f00d7           56                darkblue
 Color: darkmagenta   #d700ff           165               darkmagenta
-Color: darkcyan      #00afff           39                darkcyan
+Color: darkcyan      #5fd7ff           81                darkcyan
 Color: red           #ff5faf           205               red
-Color: green         #5fff5f           84                green
+Color: green         #afff00           154               green
 Color: yellow        #ffff5f           227               yellow
 Color: blue          #afafff           147               blue
 Color: magenta       #ffafff           219               magenta
-Color: cyan          #00ffff           87                cyan
+Color: cyan          #87ffff           123               cyan
 Color: white         #ffffff           231               white
 
 Color: neutral1      #bab6bf           189               gray
