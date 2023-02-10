@@ -10,7 +10,7 @@ License:     Same as Vim
 
 Background: dark
 
-; Color palette
+; Color palette {{{
 Color: black         #0f001f           16                black
 Color: darkred       #510039           52                darkred
 Color: darkgreen     #00af5f           35                darkgreen
@@ -26,18 +26,22 @@ Color: magenta       #ffafff           219               magenta
 Color: cyan          #00ffff           87                cyan
 Color: white         #ffffff           231               white
 
-Color: neutral1      #dddbdf           189               gray
-Color: neutral2      #bab6bf           249               gray ; Not used
-Color: neutral3      #98929f           146               gray
-Color: neutral4      #766d7f           146               darkgray
-Color: neutral5      #54495f           103               darkgray
-Color: neutral6      #31243F           60                darkgray
+Color: neutral1      #bab6bf           189               gray
+Color: neutral2      #98929f           146               gray
+Color: neutral3      #766d7f           103               darkgray
+Color: neutral4      #54495f           60                darkgray
+Color: neutral5      #31243F           237               darkgray
 
 Color: error         #d70000           160               red
 
-; Terminal
-Term colors: black darkred darkgreen darkyellow darkblue darkmagenta darkcyan neutral1
-Term colors: neutral4 red green yellow blue magenta cyan white
+Color: term1         #87005f           89                darkred
+Color: term4         #5f5fff           63                blue
+; }}}
+
+; Terminal {{{
+Term colors: black term1 darkgreen darkyellow term4 darkmagenta darkcyan neutral3
+Term colors: neutral1 red green yellow blue magenta cyan white
+; }}}
 
 Variant: gui 256 16 ; {{{
 ; Chrome
@@ -54,8 +58,8 @@ WildMenu             white             blue
 
 Variant: gui 256
 ; Group              Foreground        Background        Attributes
-CursorLine           none              neutral6
-CursorColumn         none              neutral6
+CursorLine           none              neutral5
+CursorColumn         none              neutral5
 Pmenu                black             white
 PmenuSel             black             blue
 WildMenu             black             blue
@@ -81,12 +85,11 @@ ColorColumn          none              darkred
 Conceal              none              none
 Cursor               black             yellow
 CursorIM             black             yellow
-CursorLineNr         white             neutral6
 EndOfBuffer          blue              black
 Error                error             white             reverse
-ErrorMsg             white             red
+ErrorMsg             white             error
 FoldColumn           darkcyan          none
-Folded               black             darkyellow
+Folded               darkyellow        black             reverse
 IncSearch            magenta           black             reverse
 LineNr               blue              none
 MatchParen           none              none              reverse
@@ -98,10 +101,12 @@ PmenuThumb           none              blue
 Question             green             none
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
-SpecialKey           neutral4          none
+SpecialKey           neutral3          none
 StatusLine           black             white
-StatusLineNC         black             neutral3
-ToolbarButton        white             neutral5
+StatusLineNC         black             neutral2
+StatusLineTerm       black             green
+StatusLineTermNC     black             darkgreen
+ToolbarButton        white             neutral4
 ToolbarLine          none              none
 VertSplit            blue              none
 Visual               black             darkcyan
@@ -117,7 +122,7 @@ Title                none              none
 Comment              blue              none
 Constant             yellow            none
 Identifier           cyan              none
-Ignore               neutral4          none
+Ignore               neutral3          none
 PreProc              darkcyan          none
 Special              green             none
 Statement            magenta           none
@@ -136,10 +141,9 @@ Cursor               black             yellow
 CursorColumn         none              blue
 CursorIM             black             yellow
 CursorLine           none              none              underline
-CursorLineNr         white             neutral6
 EndOfBuffer          blue              black
-Error                red               white             reverse
-ErrorMsg             white             red
+Error                error             white             reverse
+ErrorMsg             white             error
 FoldColumn           darkcyan          none
 Folded               black             darkyellow
 IncSearch            magenta           black             reverse
@@ -156,13 +160,15 @@ Question             green             none
 QuickFixLine         black             magenta
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
-SpecialKey           neutral4          none
+SpecialKey           neutral3          none
 SpellBad             red               none              underline
 SpellCap             green             none              underline
 SpellLocal           white             none              underline
 SpellRare            magenta           none              underline
 StatusLine           black             white
 StatusLineNC         white             black
+StatusLineTerm       black             green
+StatusLineTermNC     black             darkgreen
 ToolbarButton        white             darkblue
 ToolbarLine          none              none
 VertSplit            blue              none
@@ -180,7 +186,7 @@ Title                none              none
 Comment              blue              none
 Constant             yellow            none
 Identifier           cyan              none
-Ignore               neutral4          none
+Ignore               neutral3          none
 PreProc              darkcyan          none
 Special              green             none
 Statement            magenta           none
@@ -209,8 +215,6 @@ CurSearch            -> Search
 CursorLineNr         -> CursorLine
 CursorLineFold       -> CursorLine
 CursorLineSign       -> CursorLine
-StatusLineTerm       -> StatusLine
-StatusLineTermNC     -> StatusLineNC
 TabLine              -> StatusLineNC
 TabLineFill          -> StatusLineNC
 TabLineSel           -> StatusLine
@@ -242,15 +246,6 @@ Typedef              -> Type
 Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
-
-; htmlTagName          -> Statement
-; htmlEndTag           -> htmlTagName
-; htmlLink             -> Function
-; htmlSpecialTagName   -> htmlTagName
-; htmlTag              -> htmlTagName
-; htmlBold             -> Normal
-; htmlItalic           -> Normal
-; htmlArg              -> htmlTagName
 ; }}}
 
 ; "Standard" diff colors
