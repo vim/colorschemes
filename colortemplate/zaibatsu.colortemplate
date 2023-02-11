@@ -19,7 +19,7 @@ Color: darkblue      #5f00d7           56                darkblue
 Color: darkmagenta   #d700ff           165               darkmagenta
 Color: darkcyan      #5fd7ff           81                darkcyan
 Color: red           #ff5faf           205               red
-Color: green         #afff00           154               green
+Color: green         #87ff00           118               green
 Color: yellow        #ffff5f           227               yellow
 Color: blue          #afafff           147               blue
 Color: magenta       #ffafff           219               magenta
@@ -34,7 +34,7 @@ Color: neutral5      #362B49           237               darkgray
 
 Color: error         #d70000           160               red
 
-Color: term1         #87005f           89                darkred
+Color: term1         #d7005f           161               darkred
 Color: term4         #5f5fff           63                blue
 ; }}}
 
@@ -61,7 +61,7 @@ Variant: gui 256
 ; Group              Foreground        Background        Attributes
 CursorLine           none              neutral5
 CursorColumn         none              neutral5
-IncSearch            red               black             reverse
+IncSearch            white             black             reverse
 Pmenu                black             white
 PmenuSel             black             neutral2
 WildMenu             black             neutral2
