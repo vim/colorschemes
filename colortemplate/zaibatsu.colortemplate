@@ -11,7 +11,7 @@ License:     Same as Vim
 Background: dark
 
 ; Color palette {{{
-Color: black         #0f001f           16                black
+Color: black         #0e0024           16                black
 Color: darkred       #510039           52                darkred
 Color: darkgreen     #5faf00           70                darkgreen
 Color: darkyellow    #ffaf00           214               darkyellow
@@ -26,11 +26,11 @@ Color: magenta       #ffafff           219               magenta
 Color: cyan          #87ffff           123               cyan
 Color: white         #ffffff           231               white
 
-Color: neutral1      #bab6bf           189               gray
-Color: neutral2      #98929f           146               gray
-Color: neutral3      #766d7f           103               darkgray
-Color: neutral4      #54495f           60                darkgray
-Color: neutral5      #31243F           237               darkgray
+Color: neutral1      #D7D5DB           189               gray
+Color: neutral2      #AFAAB6           146               gray
+Color: neutral3      #878092           103               darkgray
+Color: neutral4      #5E556D           60                darkgray
+Color: neutral5      #362B49           237               darkgray
 
 Color: error         #d70000           160               red
 
@@ -52,6 +52,7 @@ Variant: 16
 ; Group              Foreground        Background        Attributes
 CursorLine           none              none              underline
 CursorColumn         none              blue
+IncSearch            white             black             reverse
 Pmenu                black             white
 PmenuSel             white             blue
 WildMenu             white             blue
@@ -60,9 +61,10 @@ Variant: gui 256
 ; Group              Foreground        Background        Attributes
 CursorLine           none              neutral5
 CursorColumn         none              neutral5
+IncSearch            red               black             reverse
 Pmenu                black             white
-PmenuSel             black             blue
-WildMenu             black             blue
+PmenuSel             black             neutral2
+WildMenu             black             neutral2
 
 Variant: 256 16
 ; Group              Foreground        Background        Attributes
@@ -80,7 +82,6 @@ SpellRare            none              none              undercurl s=magenta
 
 Variant: gui 256 16
 ; Group              Foreground        Background        Attributes
-QuickFixLine         black             magenta
 ColorColumn          none              darkred
 Conceal              none              none
 Cursor               black             yellow
@@ -90,15 +91,15 @@ Error                error             white             reverse
 ErrorMsg             white             error
 FoldColumn           darkcyan          none
 Folded               darkyellow        black             reverse
-IncSearch            magenta           black             reverse
 LineNr               blue              none
 MatchParen           none              none              reverse
 ModeMsg              black             green
 MoreMsg              cyan              none
 NonText              white             black
 PmenuSbar            none              neutral1
-PmenuThumb           none              blue
+PmenuThumb           none              neutral3
 Question             green             none
+QuickFixLine         magenta           black             reverse
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
 SpecialKey           neutral3          none
@@ -157,7 +158,7 @@ PmenuSbar            none              neutral1
 PmenuSel             white             blue
 PmenuThumb           none              blue
 Question             green             none
-QuickFixLine         black             magenta
+QuickFixLine         magenta           black             reverse
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
 SpecialKey           neutral3          none
