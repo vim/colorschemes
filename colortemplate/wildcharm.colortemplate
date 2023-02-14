@@ -47,7 +47,7 @@ Color: color14                 #00d7d7        44             cyan
 Color: color07                 #d0d0d0        252            grey
 Color: color15                 #ffffff        231            white
 
-Color: color16                 #875fff        99             darkmagenta
+Color: color16                 #875fff        99             darkred
 
 Color: colorLine               #262626        235            darkgrey
 Color: colorB                  #303030        236            darkgrey
@@ -56,6 +56,7 @@ Color: colorTab                #585858        240            grey
 Color: colorC                  #ffffff        231            white
 Color: colorlC                 #ff5fff        207            magenta
 Color: colorDim                #878787        102            grey
+Color: colorMP                 #ff00af        199            magenta
 
 
 ; Diff colors
@@ -127,7 +128,6 @@ lCursor                        colorlC        color00        reverse
 Variant: gui 256 16
 Visual                         color00        color04
 VisualNOS                      color00        color12
-MatchParen                     none           none           reverse
 
 
 Variant: 16
@@ -135,12 +135,14 @@ CursorLine                     none           none           underline
 CursorColumn                   color00        color11
 Folded                         color00        none           bold
 ColorColumn                    color00        color03
+MatchParen                     none           none           bold,underline
 
 Variant: gui 256
 CursorLine                     none           colorLine
 CursorColumn                   none           colorLine
 Folded                         color08        colorB
 ColorColumn                    none           colorB
+MatchParen                     colorMP        none           bold
 
 Variant: gui
 SpellBad                       none           none           g=undercurl s=color09
@@ -227,7 +229,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Visual                         color00        color04
-MatchParen                     none           none           reverse
+MatchParen                     none           none           bold,underline
 
 VisualNOS                      color00        color04
 CursorLine                     none           none           underline
@@ -293,7 +295,7 @@ Color: color14                 #00afaf        37             cyan
 Color: color07                 #8a8a8a        245            grey
 Color: color15                 #ffffff        231            white
 
-Color: color16                 #8700ff        93             darkmagenta
+Color: color16                 #8700ff        93             darkred
 Color: colorCm                 #8a8a8a        245            darkgrey
 
 Color: colorLine               #EEEEEE        255            grey
@@ -306,6 +308,7 @@ Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #5F87AF        67             darkblue
 Color: colorDim                #626262        241            darkgrey
 Color: colorSt                 #5f5f5f        59             darkgrey
+Color: colorMP                 #ff00af        199            magenta
 
 
 ; Diff colors
@@ -377,7 +380,6 @@ lCursor                        colorlC        color00        reverse
 Variant: gui 256 16
 Visual                         color15        color12
 VisualNOS                      color15        color04
-MatchParen                     none           none           reverse
 
 
 Variant: 16
@@ -385,12 +387,14 @@ CursorLine                     none           none           underline
 CursorColumn                   color00        color11
 Folded                         color00        none           bold
 ColorColumn                    color00        color03
+MatchParen                     none           none           bold,underline
 
 Variant: gui 256
 CursorLine                     none           colorLine
 CursorColumn                   none           colorLine
 Folded                         color08        colorB
 ColorColumn                    none           colorB
+MatchParen                     colorMP        none           bold
 
 Variant: gui
 SpellBad                       none           none           g=undercurl s=color01
@@ -477,7 +481,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Visual                         color07        color04
-MatchParen                     none           none           reverse
+MatchParen                     none           none           bold,underline
 
 VisualNOS                      color00        color04
 CursorLine                     none           none           underline
