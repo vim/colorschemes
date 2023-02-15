@@ -43,19 +43,12 @@ Term colors: black term1 darkgreen darkyellow term4 darkmagenta darkcyan neutral
 Term colors: neutral3 red green yellow blue magenta cyan white
 ; }}}
 
-Variant: gui ; {{{
+Variant: gui 256 16 ; {{{
 ; Chrome
 ; Group              Foreground        Background        Attributes
 Normal               white             black
 EndOfBuffer          blue              black
 NonText              white             black
-
-Variant: 256 16 ; {{{
-; Chrome
-; Group              Foreground        Background        Attributes
-Normal               white             none
-EndOfBuffer          blue              none
-NonText              white             none
 
 Variant: 16
 ; Group              Foreground        Background        Attributes
@@ -140,14 +133,14 @@ Underlined           none              none              underline
 Variant: 8 ; {{{
 ; Chrome
 ; Group              Foreground        Background        Attributes
-Normal               white             none
+Normal               white             black
 ColorColumn          white             darkred
 Conceal              none              none
 Cursor               black             yellow
 CursorColumn         none              blue
 CursorIM             black             yellow
 CursorLine           none              none              underline
-EndOfBuffer          blue              none
+EndOfBuffer          blue              black
 Error                error             white             reverse
 ErrorMsg             white             error
 FoldColumn           darkcyan          none
@@ -157,7 +150,7 @@ LineNr               blue              none
 MatchParen           none              none              reverse
 ModeMsg              black             green
 MoreMsg              cyan              none
-NonText              white             none
+NonText              white             black
 Pmenu                black             white
 PmenuSbar            neutral1          neutral1
 PmenuSel             white             blue
