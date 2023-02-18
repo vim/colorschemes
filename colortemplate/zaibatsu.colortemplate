@@ -66,16 +66,59 @@ Term colors: Xbrightcyan
 Term colors: white
 ; }}}
 
-Variant: gui 256 16 8 ; {{{
-; Chrome
+; Basics {{{
+Variant: gui 256 16 8
 ; Group              Foreground        Background        Attributes
 Normal               white             black
 EndOfBuffer          blue              black
 NonText              white             black
 ; }}}
 
-Variant: 16 8 ; {{{
-; Chrome
+; Spelling {{{
+Variant: gui
+; Group              Foreground        Background        Attributes
+SpellBad             none              none              undercurl s=red
+SpellCap             none              none              undercurl s=green
+SpellLocal           none              none              undercurl s=white
+SpellRare            none              none              undercurl s=magenta
+
+Variant: 256 16 8
+; Group              Foreground        Background        Attributes
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           white             none              underline
+SpellRare            magenta           none              underline
+; }}}
+
+; StatusLine {{{
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+StatusLine           black             white             bold
+StatusLineNC         black             neutral2
+
+Variant: 16 8
+; Group              Foreground        Background        Attributes
+StatusLine           white             black             reverse
+
+Variant: 16
+; Group              Foreground        Background        Attributes
+StatusLineNC         neutral3          neutral1          reverse
+
+Variant: 8
+; Group              Foreground        Background        Attributes
+StatusLineNC         neutral3          neutral1          reverse,bold
+; }}}
+
+; Various specifics {{{
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+CursorLine           none              neutral5
+CursorColumn         none              neutral5
+Pmenu                black             white
+PmenuSel             black             neutral2
+WildMenu             black             neutral2
+
+Variant: 16 8
 ; Group              Foreground        Background        Attributes
 ColorColumn          white             darkred
 CursorLine           none              none              underline
@@ -85,35 +128,8 @@ PmenuSel             white             blue
 WildMenu             white             blue
 ; }}}
 
-Variant: gui 256 ; {{{
-; Chrome
-; Group              Foreground        Background        Attributes
-CursorLine           none              neutral5
-CursorColumn         none              neutral5
-Pmenu                black             white
-PmenuSel             black             neutral2
-WildMenu             black             neutral2
-; }}}
-
-Variant: 256 16 8 ; {{{
-; Chrome
-; Group              Foreground        Background        Attributes
-SpellBad             red               none              underline
-SpellCap             green             none              underline
-SpellLocal           white             none              underline
-SpellRare            magenta           none              underline
-; }}}
-
-Variant: gui ; {{{
-; Chrome
-; Group              Foreground        Background        Attributes
-SpellBad             none              none              undercurl s=red
-SpellCap             none              none              undercurl s=green
-SpellLocal           none              none              undercurl s=white
-SpellRare            none              none              undercurl s=magenta
-; }}}
-
-Variant: gui 256 16 8 ; {{{
+; Generics {{{
+Variant: gui 256 16 8
 ; Chrome
 ; Group              Foreground        Background        Attributes
 Conceal              none              none
@@ -135,8 +151,6 @@ QuickFixLine         magenta           black             reverse
 Search               cyan              black             reverse
 SignColumn           darkcyan          none
 SpecialKey           neutral3          none
-StatusLine           black             white             bold
-StatusLineNC         black             neutral2
 ToolbarButton        white             neutral4
 ToolbarLine          none              none
 VertSplit            blue              none
