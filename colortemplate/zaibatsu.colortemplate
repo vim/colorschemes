@@ -17,7 +17,7 @@ Color: darkgreen     #5faf00           70                darkgreen
 Color: darkyellow    #ffaf00           214               darkyellow
 Color: darkblue      #5f00d7           56                darkblue
 Color: darkmagenta   #d700ff           165               darkmagenta
-Color: darkcyan      #5fd7ff           81                darkcyan
+Color: darkcyan      #00afff           39                darkcyan
 Color: red           #ff5faf           205               red
 Color: green         #87ff00           118               green
 Color: yellow        #ffff5f           227               yellow
@@ -33,6 +33,7 @@ Color: neutral4      #5E556D           60                darkgray
 Color: neutral5      #362B49           237               darkgray
 
 Color: error         #d70000           160               red
+Color: visual        #5FD7FF           81                darkcyan
 
 Color: Xdarkred      #d7005f           ~
 Color: Xdarkgreen    #00af5f           ~
@@ -46,7 +47,7 @@ Color: Xbrightmagenta #ff87ff          ~
 Color: Xbrightcyan   #00ffff           ~
 ; }}}
 
-; Terminal {{{
+; Terminal palette {{{
 Term colors: black
 Term colors: Xdarkred
 Term colors: Xdarkgreen
@@ -65,48 +66,56 @@ Term colors: Xbrightcyan
 Term colors: white
 ; }}}
 
-Variant: gui 256 16 ; {{{
+Variant: gui 256 16 8 ; {{{
 ; Chrome
 ; Group              Foreground        Background        Attributes
 Normal               white             black
 EndOfBuffer          blue              black
 NonText              white             black
+; }}}
 
-Variant: 16
+Variant: 16 8 ; {{{
+; Chrome
 ; Group              Foreground        Background        Attributes
+ColorColumn          white             darkred
 CursorLine           none              none              underline
 CursorColumn         none              blue
-IncSearch            white             black             reverse
 Pmenu                black             white
 PmenuSel             white             blue
 WildMenu             white             blue
+; }}}
 
-Variant: gui 256
+Variant: gui 256 ; {{{
+; Chrome
 ; Group              Foreground        Background        Attributes
 CursorLine           none              neutral5
 CursorColumn         none              neutral5
-IncSearch            white             black             reverse
 Pmenu                black             white
 PmenuSel             black             neutral2
 WildMenu             black             neutral2
+; }}}
 
-Variant: 256 16
+Variant: 256 16 8 ; {{{
+; Chrome
 ; Group              Foreground        Background        Attributes
 SpellBad             red               none              underline
 SpellCap             green             none              underline
 SpellLocal           white             none              underline
 SpellRare            magenta           none              underline
+; }}}
 
-Variant: gui
+Variant: gui ; {{{
+; Chrome
 ; Group              Foreground        Background        Attributes
 SpellBad             none              none              undercurl s=red
 SpellCap             none              none              undercurl s=green
 SpellLocal           none              none              undercurl s=white
 SpellRare            none              none              undercurl s=magenta
+; }}}
 
-Variant: gui 256 16
+Variant: gui 256 16 8 ; {{{
+; Chrome
 ; Group              Foreground        Background        Attributes
-ColorColumn          none              darkred
 Conceal              none              none
 Cursor               black             yellow
 CursorIM             black             yellow
@@ -114,6 +123,7 @@ Error                error             white             reverse
 ErrorMsg             white             error
 FoldColumn           darkcyan          none
 Folded               darkyellow        black             reverse
+IncSearch            darkyellow        black             reverse
 LineNr               blue              none
 MatchParen           none              none              reverse
 ModeMsg              black             green
@@ -130,7 +140,7 @@ StatusLineNC         black             neutral2
 ToolbarButton        white             neutral4
 ToolbarLine          none              none
 VertSplit            blue              none
-Visual               black             darkcyan
+Visual               black             visual
 VisualNOS            black             white
 WarningMsg           magenta           none
 debugBreakpoint      green             darkblue          reverse
@@ -152,71 +162,9 @@ Type                 red               none
 Underlined           none              none              underline
 ; }}}
 
-Variant: 8 ; {{{
+; Global links {{{
 ; Chrome
-; Group              Foreground        Background        Attributes
-Normal               white             black
-ColorColumn          white             darkred
-Conceal              none              none
-Cursor               black             yellow
-CursorColumn         none              blue
-CursorIM             black             yellow
-CursorLine           none              none              underline
-EndOfBuffer          blue              black
-Error                error             white             reverse
-ErrorMsg             white             error
-FoldColumn           darkcyan          none
-Folded               black             darkyellow
-IncSearch            magenta           black             reverse
-LineNr               blue              none
-MatchParen           none              none              reverse
-ModeMsg              black             green
-MoreMsg              cyan              none
-NonText              white             black
-Pmenu                black             white
-PmenuSbar            neutral1          neutral1
-PmenuSel             white             blue
-PmenuThumb           blue              blue
-Question             green             none
-QuickFixLine         magenta           black             reverse
-Search               cyan              black             reverse
-SignColumn           darkcyan          none
-SpecialKey           neutral3          none
-SpellBad             red               none              underline
-SpellCap             green             none              underline
-SpellLocal           white             none              underline
-SpellRare            magenta           none              underline
-StatusLine           black             white
-StatusLineNC         white             black
-ToolbarButton        white             darkblue
-ToolbarLine          none              none
-VertSplit            blue              none
-Visual               black             darkcyan
-VisualNOS            black             white
-WarningMsg           magenta           none
-WildMenu             white             blue
-debugBreakpoint      green             darkblue          reverse
-debugPC              cyan              darkblue          reverse
-
-; Syntax
-; Group              Foreground        Background        Attributes
-Directory            cyan              none
-Title                none              none
-Comment              blue              none
-Constant             yellow            none
-Identifier           cyan              none
-Ignore               neutral3          none
-PreProc              darkcyan          none
-Special              green             none
-Statement            magenta           none
-Todo                 none              none              reverse
-Type                 red               none
-Underlined           none              none              underline
-;}}}
-
-Variant: gui 256 16 8 ; Global links {{{
-; Chrome
-CurSearch            -> Search
+CurSearch            -> IncSearch
 CursorLineFold       -> CursorLine
 CursorLineNr         -> CursorLine
 CursorLineSign       -> CursorLine
