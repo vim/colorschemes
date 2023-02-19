@@ -17,7 +17,7 @@ LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 MessageWindow                  -> PMenu
 PopupNotification              -> Todo
-CurSearch                      -> Search
+CurSearch                      -> IncSearch
 
 
 Background: dark
