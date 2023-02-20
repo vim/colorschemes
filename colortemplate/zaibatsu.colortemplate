@@ -247,10 +247,8 @@ MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 ; }}}
 
-; "Standard" diff colors {{{
+; Diff colors {{{
 Color: bgDiffA       #5F875F           65                darkgreen
-Color: bgDiffC       #5F87AF           67                blue
-Color: bgDiffD       #AF5FAF           133               magenta
 Color: bgDiffT       #C6C6C6           251               grey
 Color: fgDiffW       #FFFFFF           231               white
 Color: fgDiffB       #000000           16                black
@@ -258,14 +256,14 @@ Color: fgDiffB       #000000           16                black
 Color: bgDiffC8      #5F87AF           67                darkblue
 Color: bgDiffD8      #AF5FAF           133               darkmagenta
 
-Variant: gui 256 16
+Variant: gui 256
 ; Group              Foreground        Background        Attributes
-DiffAdd              bgDiffA           fgDiffW           reverse
-DiffChange           bgDiffC           fgDiffW           reverse
-DiffText             bgDiffT           fgDiffB           reverse
-DiffDelete           bgDiffD           fgDiffW           reverse
+DiffAdd              green             neutral5          reverse
+DiffChange           blue              neutral5          reverse
+DiffText             cyan              neutral5          reverse
+DiffDelete           red               neutral5          reverse
 
-Variant: 8
+Variant: 8 16
 ; Group              Foreground        Background        Attributes
 DiffAdd              bgDiffA           fgDiffW           reverse
 DiffChange           bgDiffC8          fgDiffW           reverse
