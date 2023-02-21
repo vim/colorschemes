@@ -260,7 +260,7 @@ Variant: gui 256
 ; Group              Foreground        Background        Attributes
 DiffAdd              green             neutral5          reverse
 DiffChange           blue              neutral5          reverse
-DiffText             cyan              neutral5          reverse
+DiffText             neutral1          neutral5          reverse
 DiffDelete           red               neutral5          reverse
 
 Variant: 8 16
