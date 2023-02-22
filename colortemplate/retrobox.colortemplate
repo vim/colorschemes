@@ -205,7 +205,7 @@ Structure                      aqua           none
 Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
-Underlined                     blue           none           underline s=blue
+Underlined                     blue           none           underline
 CursorIM                       none           none           reverse
 
 
@@ -389,7 +389,7 @@ Structure                      aqua           none
 Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
-Underlined                     blue           none           underline s=blue
+Underlined                     blue           none           underline
 CursorIM                       none           none           reverse
 
 
