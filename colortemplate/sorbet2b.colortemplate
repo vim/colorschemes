@@ -2,13 +2,13 @@
 
 ; Information {{{
 ; Mandatory
-Full name:     cold2a
-Short name:    cold2a
+Full name:     sorbet2b
+Short name:    sorbet2b
 Author:        neutaaaaan <neutaaaaan-gh@protonmail.com>
 ; Optional
 Maintainer:    neutaaaaan <neutaaaaan-gh@protonmail.com>
 Website:       https://github.com/vim/colorschemes
-Description:   Screaming at the moon, another past time.
+Description:   Your name like ice, into my heart.
 License:       Vim License (see `:help license`)`
 ; }}}
 
@@ -54,6 +54,8 @@ Background: dark
 ; Color palette for dark variant {{{
 ; Color name         GUI               Base256           Base16 (optional)
 Color: guibg         #161821           233               black
+Color: statusline    #161821           189               white
+Color: statuslineNC  #161821           103               grey
 Color: dark0         #000000           16                black
 Color: dark1         #d75f5f           167               darkred
 Color: dark2         #87d75f           113               darkgreen
@@ -136,13 +138,13 @@ SpellBad             dark1             none              t=underline g=undercurl
 SpellCap             dark4             none              t=underline g=undercurl s=dark4
 SpellLocal           dark5             none              t=underline g=undercurl s=dark5
 SpellRare            dark6             none              t=underline g=undercurl s=dark6
-StatusLine           dark0             dark7             bold
-StatusLineNC         dark8             dark0             reverse
+StatusLine           dark0             statusline        bold
+StatusLineNC         statuslineNC      dark0             reverse
 TabLine              dark8             dark0             reverse
 TabLineFill          dark7             none
 TabLineSel           dark0             dark7             bold
 Title                none              none
-VertSplit            dark8             dark0
+VertSplit            statuslineNC      dark0
 Visual               uiamber           dark0             reverse
 VisualNOS            none              uiblack
 WarningMsg           dark7             none
@@ -154,9 +156,9 @@ Error                errorred          dark0             reverse,bold
 Identifier           dark7             none
 Ignore               dark7             none
 PreProc              dark4             none
-Special              dark3             none
+Special              dark1             none
 Statement            dark4             none
-String               dark1             none
+String               dark3             none
 Todo                 uiteal            none              reverse,bold
 Type                 dark4             none
 Underlined           dark7             none              underline
