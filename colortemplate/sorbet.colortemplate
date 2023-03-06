@@ -82,13 +82,13 @@ Color: diffpink      #ff87ff           213               darkmagenta
 Color: uipink        #ff00af           199               magenta
 Color: uilime        #afff00           154               green
 Color: uiteal        #5fffaf           85                green
-Color: uiblue        #5fafff           75                blue
+Color: uiblue        #00afff           39                blue
 Color: uipurple      #af00ff           129               darkmagenta
-Color: uiamber       #ffaf5f           215               darkyellow
-Color: uiblack       #303030           236               darkgrey
-Color: yasogrey      #1c1c1c           234               black
+Color: uiamber       #ffaf00           214               darkyellow
+Color: uiblack       #363841           237               darkgrey
+Color: yasogrey      #262831           235               black
 Color: linenrblack   #585858           240               darkgrey
-Color: uicursearch   #ff87ff           213               magenta
+Color: uicursearch   #ff5fff           207               magenta
 Color: invisigrey    #a8a8a8           248               darkgrey
 
 Color: errorred      #ff5f5f           203               red
@@ -110,23 +110,23 @@ CurSearch            uicursearch       dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              uiblack
 CursorLine           none              uiblack
-CursorLineNr         dark7             uiblack
+CursorLineNr         statusline        uiblack
 DiffAdd              diffgreen         dark0             reverse
 DiffChange           diffblue          dark0             reverse
 DiffDelete           diffred           dark0             reverse
 DiffText             diffpink          dark0             reverse
 Directory            dark7             none
-EndOfBuffer          dark7             none
+EndOfBuffer          darkuipurple      none
 ErrorMsg             dark7             dark0             reverse
 FoldColumn           dark8             none
 Folded               dark8             dark0
 IncSearch            uiamber           dark0             reverse
-LineNr               linenrblack       none
+LineNr               darkuipurple      none
 MatchParen           uipink            none              bold
 ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
-Pmenu                dark0             statuslineNC
+Pmenu                dark0             invisigrey
 PmenuSbar            dark8             darkuipurple
 PmenuSel             dark0             dark7
 PmenuThumb           dark7             dark7
@@ -145,7 +145,7 @@ TabLine              statuslineNC      dark0             reverse
 TabLineFill          dark7             none
 TabLineSel           dark0             statusline        bold
 Title                none              none
-VertSplit            statuslineNC      none
+VertSplit            darkuipurple      none
 Visual               uiamber           dark0             reverse
 VisualNOS            none              uiblack
 WarningMsg           dark7             none
