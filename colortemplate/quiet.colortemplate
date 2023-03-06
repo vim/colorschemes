@@ -4,11 +4,11 @@
 ; Mandatory
 Full name:     quiet
 Short name:    quiet
-Author:        neutaaaaan <neutaaaaan-gh@protonmail.com>
+Author:        Maxence Weynans <neutaaaaan@gmail.com>
 ; Optional
-Maintainer:    neutaaaaan <neutaaaaan-gh@protonmail.com>
+Maintainer:    Maxence Weynans <neutaaaaan@gmail.com>
 Website:       https://github.com/vim/colorschemes
-Description:   `monochrome`, but less ugly, with diffs, searches, a few other niceties, and both light and dark versions.
+Description:   A mostly monochrome colorscheme, with a few niceties.
 License:       Vim License (see `:help license`)`
 ; }}}
 
