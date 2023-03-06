@@ -4,9 +4,9 @@
 ; Mandatory
 Full name:     sorbet
 Short name:    sorbet
-Author:        neutaaaaan <neutaaaaan-gh@protonmail.com>
+Author:        Maxence Weynans <neutaaaaan@gmail.com>
 ; Optional
-Maintainer:    neutaaaaan <neutaaaaan-gh@protonmail.com>
+Maintainer:    Maxence Weynans <neutaaaaan@gmail.com>
 Website:       https://github.com/vim/colorschemes
 Description:   A shallow grave, a monument to the ruined age.
 License:       Vim License (see `:help license`)`
@@ -128,8 +128,8 @@ MoreMsg              dark7             none
 NonText              dark8             none
 Pmenu                dark0             invisigrey
 PmenuSbar            dark8             darkuipurple
-PmenuSel             dark0             dark7
-PmenuThumb           dark7             dark7
+PmenuSel             dark0             statusline
+PmenuThumb           dark7             statusline
 Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
