@@ -25,6 +25,7 @@ Conditional          -> Statement
 Define               -> PreProc
 Debug                -> Special
 Delimiter            -> Special
+ErrorMsg             -> Error
 Exception            -> Statement
 Float                -> Constant
 Function             -> Identifier
@@ -117,7 +118,6 @@ DiffDelete           diffred           dark0             reverse
 DiffText             diffpink          dark0             reverse
 Directory            dark7             none
 EndOfBuffer          darkuipurple      none
-ErrorMsg             dark7             dark0             reverse
 FoldColumn           dark8             none
 Folded               dark8             dark0
 IncSearch            uiamber           dark0             reverse
@@ -134,7 +134,7 @@ Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
-SpecialKey           dark7             none
+SpecialKey           darkuipurple      none
 SpellBad             dark1             none              t=underline g=undercurl s=dark1
 SpellCap             dark4             none              t=underline g=undercurl s=dark4
 SpellLocal           dark5             none              t=underline g=undercurl s=dark5
@@ -186,7 +186,6 @@ DiffDelete           dark1             dark0             reverse
 DiffText             dark5             dark0             reverse
 Directory            none              none
 EndOfBuffer          none              none
-ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
 Folded               none              none
 IncSearch            dark3             dark0             reverse,bold,underline
