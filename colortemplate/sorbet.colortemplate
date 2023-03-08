@@ -170,12 +170,19 @@ ToolbarLine          none              dark0
 ToolbarButton        dark7             dark0             bold
 ; }}}
 
+Variant: 16
+CurSearch            dark13            dark0             reverse
+IncSearch            dark11            dark0             reverse,bold,underline
+Search               dark14            dark0             reverse
+Variant: 8
+CurSearch            dark5             dark0             reverse
+IncSearch            dark3             dark0             reverse,bold,underline
+Search               dark6             dark0             reverse
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
-CurSearch            dark5             dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -188,7 +195,6 @@ Directory            none              none
 EndOfBuffer          none              none
 FoldColumn           none              none
 Folded               none              none
-IncSearch            dark3             dark0             reverse,bold,underline
 LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
@@ -200,7 +206,6 @@ PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
-Search               dark6             dark0             reverse
 SignColumn           none              none              reverse
 SpecialKey           none              none              bold
 SpellBad             dark1             none              underline
@@ -228,7 +233,7 @@ PreProc              dark4             none
 Special              dark6             none
 Statement            dark4             none
 String               dark3             none
-Todo                 none              none              reverse,bold
+Todo                 dark2             dark0             reverse,bold
 Type                 dark4             none
 Underlined           none              none              underline
 ; See `:help CursorIM`
