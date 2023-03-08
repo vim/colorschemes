@@ -131,7 +131,7 @@ Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
-SpecialKey           dark7             none
+SpecialKey           dark8             none              bold
 SpellBad             dark1             none              t=underline g=undercurl s=dark1
 SpellCap             dark4             none              t=underline g=undercurl s=dark4
 SpellLocal           dark5             none              t=underline g=undercurl s=dark5
@@ -166,12 +166,21 @@ ToolbarLine          none              dark0
 ToolbarButton        dark7             dark0             bold
 ; }}}
 
+Variant: 16
+CurSearch            dark13            dark0             reverse
+IncSearch            dark11            dark0             reverse,bold,underline
+Search               dark14            dark0             reverse
+SpecialKey           dark8             none              bold
+Variant: 8
+CurSearch            dark5             dark0             reverse
+IncSearch            dark3             dark0             reverse,bold,underline
+Search               dark6             dark0             reverse
+SpecialKey           none              none              bold
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
-CurSearch            dark5             dark0             reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -185,7 +194,6 @@ EndOfBuffer          none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
 Folded               none              none
-IncSearch            dark3             dark0             reverse,bold,underline
 LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
@@ -197,9 +205,7 @@ PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
-Search               dark6             dark0             reverse
 SignColumn           none              none              reverse
-SpecialKey           none              none              bold
 SpellBad             dark1             none              underline
 SpellCap             dark4             none              underline
 SpellLocal           dark5             none              underline
@@ -316,7 +322,7 @@ Question             light0            none
 QuickFixLine         uicursearch       light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            none
-SpecialKey           light0            none
+SpecialKey           light8            none              bold
 SpellBad             light1            light7            t=underline g=undercurl s=light1
 SpellCap             light4            light7            t=underline g=undercurl s=light4
 SpellLocal           light5            light7            t=underline g=undercurl s=light5
@@ -351,12 +357,21 @@ ToolbarLine          none              light7
 ToolbarButton        light0            light7            bold
 ; }}}
 
+Variant: 16
+CurSearch            light13           light0            reverse
+IncSearch            light11           light0            reverse,bold,underline
+Search               light14           light0            reverse
+SpecialKey           light8            none              bold
+Variant: 8
+CurSearch            light5            light0            reverse
+IncSearch            light3            light0            reverse,bold,underline
+Search               light6            light0            reverse
+SpecialKey           none              none              bold
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
 Conceal              none              none
-CurSearch            light5            light0            reverse
 Cursor               none              none              reverse
 CursorColumn         none              none
 CursorLine           none              none
@@ -370,7 +385,6 @@ EndOfBuffer          none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
 Folded               none              none
-IncSearch            light3            light0            reverse,bold,underline
 LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
@@ -382,9 +396,7 @@ PmenuSel             none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         light5            light0            reverse
-Search               light6            light0            reverse
 SignColumn           none              none              reverse
-SpecialKey           none              none              bold
 SpellBad             light1            none              underline
 SpellCap             light4            none              underline
 SpellLocal           light5            none              underline
