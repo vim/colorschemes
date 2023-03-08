@@ -134,7 +134,7 @@ Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
-SpecialKey           darkuipurple      none
+SpecialKey           darkuipurple      none              bold
 SpellBad             dark1             none              t=underline g=undercurl s=dark1
 SpellCap             dark4             none              t=underline g=undercurl s=dark4
 SpellLocal           dark5             none              t=underline g=undercurl s=dark5
