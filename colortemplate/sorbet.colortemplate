@@ -118,8 +118,8 @@ DiffDelete           diffred           dark0             reverse
 DiffText             diffpink          dark0             reverse
 Directory            dark7             none
 EndOfBuffer          darkuipurple      none
-FoldColumn           dark8             none
-Folded               dark8             dark0
+FoldColumn           statuslineNC      none
+Folded               darkuipurple      guibg
 IncSearch            uiamber           dark0             reverse
 LineNr               darkuipurple      none
 MatchParen           uipink            none              bold
