@@ -40,7 +40,7 @@ Color: fg0                     #fbf1c7        230            White
 Color: fg1                     #ebdbb2        187            White
 Color: fg2                     #d5c4a1        187
 Color: fg3                     #bdae93        144
-Color: fg4                     #a89984        137            gray
+Color: fg4                     #a89984        102            gray
 Color: grey                    #928374        102            DarkGray
 Color: red                     #fb4934        203            Red
 Color: green                   #b8bb26        142            Green
@@ -60,8 +60,8 @@ Normal                         fg1            bg0
 ; GUI & 256-color specific
 Variant: gui 256
 CursorLineNr                   yellow         bg3
-FoldColumn                     grey           bg1   # FIXME
-SignColumn                     fg1            bg1
+FoldColumn                     grey           bg0
+SignColumn                     grey           bg0
 VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
@@ -77,13 +77,13 @@ PmenuSbar                      none           bg1
 PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg2            yellow            reverse
-StatusLineNC                   bg1            fg1            reverse
-TabLine                        fg1            bg1
+StatusLine                     bg2            fg1            bold,reverse
+StatusLineNC                   bg1            fg4            reverse
+TabLine                        fg4            bg1
 TabLineFill                    fg1            bg1
-TabLineSel                     yellow         bg0
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
-ToolbarLine                    none           bg3
+ToolbarLine                    none           none
 Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
@@ -101,20 +101,20 @@ Folded                         bg1            none
 LineNr                         bg1            none
 MatchParen                     none           bg0            bold,underline
 NonText                        bg2            none
-Pmenu                          bg0            bg1
+Pmenu                          fg1            bg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
-StatusLine                     bg1            fg1            reverse
-StatusLineNC                   bg1            bg0            reverse
+StatusLine                     fg4            bg0            reverse,bold
+StatusLineNC                   fg4            bg0            reverse
 TabLine                        bg0            bg1
 TabLineFill                    bg0            bg1
-TabLineSel                     bg1            bg0            underline
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg1            bg1            bold
-ToolbarLine                    none           bg1
-VertSplit                      bg0            bg1
+ToolbarLine                    none           none
+VertSplit                      bg0            fg4
 Visual                         bg0            blue
 WildMenu                       fg1            bg0            bold
 EndOfBuffer                    bg2            none
@@ -133,7 +133,7 @@ Folded                         fg4            none
 LineNr                         fg4            none
 MatchParen                     fg4            none           bold,underline
 NonText                        fg4            none
-Pmenu                          fg1            bg1
+Pmenu                          bg1            fg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
@@ -143,9 +143,9 @@ StatusLine                     fg4            bg0            reverse,bold
 StatusLineNC                   fg4            bg0            reverse
 TabLine                        bg0            fg4
 TabLineFill                    bg0            fg4
-TabLineSel                     fg4            bg0            underline
+TabLineSel                     fg4            bg0
 ToolbarButton                  bg0            fg4            bold
-ToolbarLine                    none           fg4
+ToolbarLine                    none           none
 VertSplit                      bg0            fg4
 Visual                         bg0            blue
 WildMenu                       blue           bg1            bold
@@ -205,7 +205,7 @@ Structure                      aqua           none
 Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
-Underlined                     blue           none           underline s=blue
+Underlined                     blue           none           underline
 CursorIM                       none           none           reverse
 
 
@@ -244,8 +244,8 @@ Normal                         fg1            bg0
 ; GUI & 256-color specific
 Variant: gui 256
 CursorLineNr                   yellow         bg2
-FoldColumn                     grey           bg1   # FIXME
-SignColumn                     fg1            bg1
+FoldColumn                     grey           bg0
+SignColumn                     fg1            bg0
 VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
@@ -261,13 +261,13 @@ PmenuSbar                      none           bg2
 PmenuSel                       bg2            blue           bold
 PmenuThumb                     none           bg4
 SpecialKey                     grey           none
-StatusLine                     bg3            fg1            reverse
+StatusLine                     bg3            fg1            bold,reverse
 StatusLineNC                   bg1            fg1            reverse
-TabLine                        fg1            bg1
+TabLine                        fg3            bg1
 TabLineFill                    bg1            bg1
-TabLineSel                     fg0            bg0
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
-ToolbarLine                    none           bg3
+ToolbarLine                    none           none
 Visual                         bg0            blue
 WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
@@ -285,20 +285,20 @@ Folded                         bg1            none
 LineNr                         bg1            none
 MatchParen                     none           bg0            bold,underline
 NonText                        bg2            none
-Pmenu                          bg0            bg1
+Pmenu                          fg1            bg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
-StatusLine                     bg1            fg1            reverse
-StatusLineNC                   bg1            bg0            reverse
-TabLine                        bg0            bg1
+StatusLine                     fg0            bg0            bold,reverse
+StatusLineNC                   bg1            fg0            reverse
+TabLine                        fg0            bg1
 TabLineFill                    bg0            bg1
-TabLineSel                     bg1            bg0            underline
+TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg1            bg1            bold
-ToolbarLine                    none           bg1
-VertSplit                      bg0            bg1
+ToolbarLine                    none           none
+VertSplit                      fg0            bg1
 Visual                         bg0            blue
 WildMenu                       fg1            bg0            bold
 EndOfBuffer                    bg2            none
@@ -317,7 +317,7 @@ Folded                         fg4            none
 LineNr                         fg4            none
 MatchParen                     fg4            none           bold,underline
 NonText                        fg4            none
-Pmenu                          fg1            bg1
+Pmenu                          bg1            fg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
@@ -327,9 +327,9 @@ StatusLine                     fg4            bg0            reverse,bold
 StatusLineNC                   fg4            bg0            reverse
 TabLine                        bg0            fg4
 TabLineFill                    bg0            fg4
-TabLineSel                     fg4            bg0            underline
+TabLineSel                     fg1            bg0
 ToolbarButton                  bg0            fg4            bold
-ToolbarLine                    none           fg4
+ToolbarLine                    none           none
 VertSplit                      bg0            fg4
 Visual                         bg0            blue
 WildMenu                       blue           bg1            bold
@@ -389,7 +389,7 @@ Structure                      aqua           none
 Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
-Underlined                     blue           none           underline s=blue
+Underlined                     blue           none           underline
 CursorIM                       none           none           reverse
 
 

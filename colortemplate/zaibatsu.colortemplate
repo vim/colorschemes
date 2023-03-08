@@ -1,0 +1,275 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
+
+; Information
+Full name:   zaibatsu
+Short name:  zaibatsu
+Description: "If you believe the journalists, he's the single wealthiest individual, period. As rich as some zaibatsu. But there's the catch, really: is he an individual? In the sense that you are, or I am? No." -- William Gibson, Count Zero
+Author:      Romain Lafourcade <romainlafourcade@gmail.com>
+Website:     https://github.com/vim/colorschemes
+License:     Same as Vim
+
+Background: dark
+
+; Color palette {{{
+Color: background    #0e0024           16                black
+Color: darkred       #510039           52                darkred
+Color: darkgreen     #5faf00           70                darkgreen
+Color: darkyellow    #ffaf00           214               darkyellow
+Color: darkblue      #5f00d7           56                darkblue
+Color: darkmagenta   #d700ff           165               darkmagenta
+Color: darkcyan      #00afff           39                darkcyan
+Color: red           #ff5faf           205               red
+Color: green         #87ff00           118               green
+Color: yellow        #ffff5f           227               yellow
+Color: blue          #afafff           147               blue
+Color: magenta       #ffafff           219               magenta
+Color: cyan          #87ffff           123               cyan
+Color: white         #ffffff           231               white
+
+Color: neutral1      #D7D5DB           189               gray
+Color: neutral2      #AFAAB6           146               gray
+Color: neutral3      #878092           103               darkgray
+Color: neutral4      #5E556D           60                darkgray
+Color: neutral5      #362B49           237               darkgray
+
+Color: error         #d70000           160               red
+Color: visual        #5FD7FF           81                darkcyan
+
+Color: Xdarkred      #d7005f           ~
+Color: Xdarkgreen    #00af5f           ~
+Color: Xdarkblue     #5f5fff           ~
+Color: Xdarkwhite    #d7d5db           ~
+Color: Xgrey         #878092           ~
+Color: Xbrightgreen  #00d700           ~
+Color: Xbrightyellow #ffd700           ~
+Color: Xbrightblue   #8787ff           ~
+Color: Xbrightmagenta #ff87ff          ~
+Color: Xbrightcyan   #00ffff           ~
+; }}}
+
+; Terminal palette {{{
+Term colors: background
+Term colors: Xdarkred
+Term colors: Xdarkgreen
+Term colors: darkyellow
+Term colors: Xdarkblue
+Term colors: darkmagenta
+Term colors: darkcyan
+Term colors: neutral1
+Term colors: neutral3
+Term colors: red
+Term colors: Xbrightgreen
+Term colors: Xbrightyellow
+Term colors: Xbrightblue
+Term colors: Xbrightmagenta
+Term colors: Xbrightcyan
+Term colors: white
+; }}}
+
+; Basics {{{
+Variant: gui 256 16
+; Group              Foreground        Background        Attributes
+Normal               white             background
+EndOfBuffer          blue              background
+NonText              neutral3          background
+
+Variant: 8
+; Group              Foreground        Background        Attributes
+Normal               neutral1          background
+EndOfBuffer          blue              background
+NonText              neutral3          background
+; }}}
+
+; Spelling {{{
+Variant: gui
+; Group              Foreground        Background        Attributes
+SpellBad             none              none              undercurl s=red
+SpellCap             none              none              undercurl s=green
+SpellLocal           none              none              undercurl s=white
+SpellRare            none              none              undercurl s=magenta
+
+Variant: 256 16 8
+; Group              Foreground        Background        Attributes
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           white             none              underline
+SpellRare            magenta           none              underline
+; }}}
+
+; StatusLine {{{
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+StatusLine           background        white
+StatusLineNC         background        neutral2
+
+Variant: 16 8
+; Group              Foreground        Background        Attributes
+StatusLine           white             background        reverse
+
+Variant: 16
+; Group              Foreground        Background        Attributes
+StatusLineNC         neutral3          neutral1          reverse
+
+Variant: 8
+; Group              Foreground        Background        Attributes
+StatusLineNC         neutral3          neutral1          reverse,bold
+; }}}
+
+; Popup menu {{{
+Variant: gui 256 16
+; Group              Foreground        Background        Attributes
+Pmenu                background        white
+PmenuSbar            neutral1          neutral1
+PmenuSel             background        blue
+PmenuThumb           neutral3          neutral3
+
+Variant: 8
+; Group              Foreground        Background        Attributes
+Pmenu                background        white
+PmenuSbar            white             white
+PmenuSel             white             blue
+PmenuThumb           blue              blue
+; }}}
+
+; Various specifics {{{
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+ColorColumn          none              darkred
+CursorLine           none              neutral5
+CursorColumn         none              neutral5
+WildMenu             background        blue
+
+Variant: 16 8
+; Group              Foreground        Background        Attributes
+ColorColumn          white             darkred
+CursorLine           none              none              underline
+CursorColumn         none              blue
+WildMenu             white             blue
+; }}}
+
+; Generics {{{
+Variant: gui 256 16 8
+; Chrome
+; Group              Foreground        Background        Attributes
+Conceal              none              none
+Cursor               background        yellow
+CursorIM             background        yellow
+Error                error             white             reverse
+ErrorMsg             white             error
+FoldColumn           darkcyan          none
+Folded               darkyellow        background        reverse
+IncSearch            darkyellow        background        reverse
+LineNr               blue              none
+MatchParen           none              none              reverse
+ModeMsg              background        green
+MoreMsg              cyan              none
+Question             green             none
+QuickFixLine         magenta           background        reverse
+Search               cyan              background        reverse
+SignColumn           darkcyan          none
+SpecialKey           neutral3          none
+ToolbarButton        white             neutral4
+ToolbarLine          none              none
+VertSplit            blue              none
+Visual               background        visual
+VisualNOS            background        white
+WarningMsg           magenta           none
+debugBreakpoint      green             darkblue          reverse
+debugPC              cyan              darkblue          reverse
+
+; Syntax
+; Group              Foreground        Background        Attributes
+Directory            cyan              none
+Title                none              none
+Comment              blue              none
+Constant             yellow            none
+Identifier           cyan              none
+Ignore               neutral3          none
+PreProc              darkcyan          none
+Special              green             none
+Statement            magenta           none
+Todo                 none              none              reverse
+Type                 red               none
+Underlined           none              none              underline
+; }}}
+
+; Global links {{{
+; Chrome
+CurSearch            -> IncSearch
+CursorLineFold       -> CursorLine
+CursorLineNr         -> CursorLine
+CursorLineSign       -> CursorLine
+Debug                -> Special
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+TabLine              -> StatusLineNC
+TabLineFill          -> StatusLineNC
+TabLineSel           -> StatusLine
+Terminal             -> Normal
+diffAdded            -> String
+diffBDiffer          -> WarningMsg
+diffCommon           -> WarningMsg
+diffDiffer           -> WarningMsg
+diffIdentical        -> WarningMsg
+diffIsA              -> WarningMsg
+diffNoEOL            -> WarningMsg
+diffOnly             -> WarningMsg
+diffRemoved          -> WarningMsg
+lCursor              -> Cursor
+
+; Syntax
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+Define               -> PreProc
+Delimiter            -> Special
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Label                -> Statement
+Macro                -> PreProc
+Number               -> Constant
+Operator             -> Statement
+PreCondit            -> PreProc
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StorageClass         -> Type
+String               -> Constant
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+Terminal             -> Normal
+MessageWindow        -> Pmenu
+PopupNotification    -> Todo
+; }}}
+; Diff colors {{{
+Color: bgDiffA       #5F875F           65                darkgreen
+Color: bgDiffT       #C6C6C6           251               grey
+Color: fgDiffW       #FFFFFF           231               white
+Color: fgDiffB       #000000           16                black
+
+Color: bgDiffC8      #5F87AF           67                darkblue
+Color: bgDiffD8      #AF5FAF           133               darkmagenta
+
+Variant: gui 256
+; Group              Foreground        Background        Attributes
+DiffAdd              green             neutral5          reverse
+DiffChange           blue              neutral5          reverse
+DiffText             neutral1          neutral5          reverse
+DiffDelete           red               neutral5          reverse
+
+Variant: 8 16
+; Group              Foreground        Background        Attributes
+DiffAdd              bgDiffA           fgDiffW           reverse
+DiffChange           bgDiffC8          fgDiffW           reverse
+DiffText             bgDiffT           fgDiffB           reverse
+DiffDelete           bgDiffD8          fgDiffW           reverse
+; }}}
+
+; No color support
+Include: _tcozero
