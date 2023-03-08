@@ -174,10 +174,12 @@ Variant: 16
 CurSearch            dark13            dark0             reverse
 IncSearch            dark11            dark0             reverse,bold,underline
 Search               dark14            dark0             reverse
+SpecialKey           dark8             none              bold
 Variant: 8
 CurSearch            dark5             dark0             reverse
 IncSearch            dark3             dark0             reverse,bold,underline
 Search               dark6             dark0             reverse
+SpecialKey           none              none              bold
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
@@ -207,7 +209,6 @@ PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
 SignColumn           none              none              reverse
-SpecialKey           none              none              bold
 SpellBad             dark1             none              underline
 SpellCap             dark4             none              underline
 SpellLocal           dark5             none              underline
