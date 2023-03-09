@@ -172,12 +172,12 @@ ToolbarButton        dark7             dark0             bold
 
 Variant: 16
 CurSearch            dark13            dark0             reverse
-IncSearch            dark11            dark0             reverse,bold,underline
+IncSearch            dark11            dark0             reverse
 Search               dark14            dark0             reverse
 SpecialKey           dark8             none              bold
 Variant: 8
 CurSearch            dark5             dark0             reverse
-IncSearch            dark3             dark0             reverse,bold,underline
+IncSearch            dark3             dark0             reverse
 Search               dark6             dark0             reverse
 SpecialKey           none              none              bold
 Variant: 16 8
