@@ -40,6 +40,7 @@ Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #FFAF5F        215            red
 Color: colorlC          #5FFF00        82             green
 Color: colorV           #1F3F5F        109            cyan
+Color: colorMP          #ff00af        199            magenta
 
 Color: diffAdd          #5f875f        65             darkgreen
 Color: diffDelete       #af875f        137            darkyellow
@@ -201,14 +202,14 @@ WarningMsg              color09        none
 
 Variant: 8
 Todo                    color03        color00        reverse
-MatchParen              color06        color00        reverse
+MatchParen              colorMP        none           bold
 Search                  color00        color02
 IncSearch               color00        color03
 CurSearch               color00        color03
 WildMenu                color00        color03
 Variant: gui 256 16
 Todo                    color11        color00        reverse
-MatchParen              color06        color00        reverse
+MatchParen              colorMP        none           bold
 Search                  color00        color02
 IncSearch               color00        colorC
 CurSearch               color00        color03
