@@ -363,14 +363,14 @@ Variant: 16
 EndOfBuffer          light8            none
 NonText              light8            none
 CurSearch            light13           light0            reverse
-IncSearch            light11           light0            reverse,bold,underline
+IncSearch            light11           light0            reverse
 Search               light14           light0            reverse
 SpecialKey           light8            none              bold
 Variant: 8
 EndOfBuffer          none              none
 NonText              none              none
 CurSearch            light5            light0            reverse
-IncSearch            light3            light0            reverse,bold,underline
+IncSearch            light3            light0            reverse
 Search               light6            light0            reverse
 SpecialKey           none              none              bold
 Variant: 16 8
