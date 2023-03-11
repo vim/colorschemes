@@ -127,8 +127,12 @@ ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
 Pmenu                dark0             invisigrey
+PmenuExtra           dark0             invisigrey
+PmenuKind            dark0             invisigrey        bold
 PmenuSbar            dark8             darkuipurple
 PmenuSel             dark0             statusline
+PmenuExtraSel        dark0             statusline
+PmenuKindSel         dark0             statusline        bold
 PmenuThumb           dark7             statusline
 Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
@@ -206,8 +210,12 @@ ModeMsg              none              none              bold
 MoreMsg              none              none
 NonText              none              none
 Pmenu                none              none              reverse
+PmenuExtra           none              none              reverse
+PmenuKind            none              none              reverse,bold
 PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
+PmenuExtraSel        none              none              bold
+PmenuKindSel         none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
