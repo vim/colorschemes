@@ -94,14 +94,35 @@ CursorLineNr                   color15        none           bold
 LineNr                         colorNonT      none
 NonText                        colorNonT      none
 FoldColumn                     colorNonT      none
-EndOfBuffer                    colorNonT      none
 SpecialKey                     colorNonT      none
 
+Variant: gui 256
+EndOfBuffer                    colorNonT      none
+Variant: gui 256 16
+EndOfBuffer                    color08        none
+
+
+Variant: gui 256
 Pmenu                          color07        colorB
 PmenuSel                       color00        color11
 PmenuThumb                     none           color07
 PmenuSbar                      none           none
+PmenuKind                      color09        colorB
+PmenuKindSel                   color01        color11
+PmenuExtra                     color08        colorB
+PmenuExtraSel                  color00        color11
+Variant: 16
+Pmenu                          color00        color07
+PmenuThumb                     none           color02
+PmenuSbar                      none           none
+PmenuSel                       color00        color03
+PmenuKind                      color01        color07
+PmenuKindSel                   color01        color03
+PmenuExtra                     color08        color07
+PmenuExtraSel                  color00        color03
 
+
+Variant: gui 256 16
 SignColumn                     none           none
 
 Error                          color15        color01
@@ -202,13 +223,17 @@ CursorLineNr                   color00        none           bold
 LineNr                         color03        none
 NonText                        color00        none
 FoldColumn                     color00        none
-EndOfBuffer                    color00        none
+EndOfBuffer                    color07        none
 SpecialKey                     color00        none
 
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
 PmenuSel                       color00        color03
+PmenuKind                      color01        color07
+PmenuKindSel                   color01        color03
+PmenuExtra                     color00        color07
+PmenuExtraSel                  color00        color03
 
 SignColumn                     none           none
 
@@ -349,10 +374,28 @@ FoldColumn                     colorNonT      none
 EndOfBuffer                    colorNonT      none
 SpecialKey                     colorNonT      none
 
+Variant: gui 256
 Pmenu                          color00        colorB
 PmenuSel                       color15        color11
 PmenuThumb                     none           color08
 PmenuSbar                      none           none
+PmenuKind                      color09        colorB
+PmenuKindSel                   color01        color11
+PmenuExtra                     color08        colorB
+PmenuExtraSel                  color15        color11
+Variant: 16
+Pmenu                          color00        color07
+PmenuThumb                     none           color02
+PmenuSbar                      none           none
+PmenuSel                       color00        color03
+PmenuKind                      color01        color07
+PmenuKindSel                   color01        color03
+PmenuExtra                     color08        color07
+PmenuExtraSel                  color00        color03
+
+
+
+
 
 SignColumn                     none           none
 
@@ -461,6 +504,12 @@ Pmenu                          color07        color00
 PmenuThumb                     none           color02
 PmenuSbar                      none           none
 PmenuSel                       none           color03
+PmenuKind                      color01        color00
+PmenuKindSel                   color01        color03
+PmenuExtra                     color07        color00
+PmenuExtraSel                  color00        color03
+
+
 
 SignColumn                     none           none
 
