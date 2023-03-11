@@ -177,11 +177,28 @@ Pmenu                   color00        color07
 PmenuThumb              color07        color00
 PmenuSbar               none           color07
 PmenuSel                color00        color03
-Variant: gui 256 16
+PmenuKind               color01        color07
+PmenuKindSel            color01        color03
+PmenuExtra              color00        color07
+PmenuExtraSel           color00        color03
+Variant: 16
+Pmenu                   color00        color07
+PmenuThumb              color07        color00
+PmenuSbar               none           color07
+PmenuSel                color00        color03
+PmenuKind               color01        color07
+PmenuKindSel            color01        color03
+PmenuExtra              color08        color07
+PmenuExtraSel           color00        color03
+Variant: gui 256
 Pmenu                   none           colorB
 PmenuThumb              none           color08
 PmenuSbar               none           none
 PmenuSel                color00        color03
+PmenuKind               color09        colorB
+PmenuKindSel            color01        color03
+PmenuExtra              color08        colorB
+PmenuExtraSel           color00        color03
 
 Variant: 8
 SignColumn              none           none
