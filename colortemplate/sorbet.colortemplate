@@ -149,7 +149,7 @@ VertSplit            darkuipurple      none
 Visual               uiamber           dark0             reverse
 VisualNOS            none              uiblack
 WarningMsg           dark7             none
-WildMenu             uiblue            dark0             bold
+WildMenu             uiblue            guibg             bold
 ; Other conventional group names (see `:help group-name`)
 Comment              dark5             none
 Constant             dark1             none
@@ -168,6 +168,9 @@ CursorIM             dark0             uilime
 ; See `:help window-toolbar`
 ToolbarLine          none              dark0
 ToolbarButton        dark7             dark0             bold
+
+; Syntax overrides
+DiffRemoved          dark1             none
 ; }}}
 
 Variant: 16
@@ -242,6 +245,9 @@ CursorIM             none              none
 ; See `:help window-toolbar`
 ToolbarLine          none              none              reverse
 ToolbarButton        none              none              bold,reverse
+
+; Syntax overrides
+DiffRemoved          dark1             none
 
 
 ; Template for black & white terminals
