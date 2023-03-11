@@ -153,7 +153,7 @@ VertSplit            darkuipurple      none
 Visual               uiamber           dark0             reverse
 VisualNOS            none              uiblack
 WarningMsg           dark7             none
-WildMenu             uiblue            guibg             bold
+WildMenu             statusline        guibg             bold
 ; Other conventional group names (see `:help group-name`)
 Comment              dark5             none
 Constant             dark1             none
