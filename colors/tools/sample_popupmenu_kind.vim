@@ -7,7 +7,7 @@ func s:CompleteFunc( findstart, base )
     endif
     return {
           \ 'words': [
-          \ { 'word': 'Compelete me now', 'menu': 'Something to complete', 'kind': 'W', },
+          \ { 'word': 'Complete me now', 'menu': 'Something to complete', 'kind': 'W', },
           \ { 'word': 'Not me! Not me!', 'menu': 'Please, not again!', 'kind': 'f', },
           \ { 'word': 'Right, use me then!', 'menu': 'At your command', 'kind': 'd', },
           \]}
