@@ -124,8 +124,12 @@ ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
 Pmenu                dark0             invisigrey
+PmenuExtra           dark0             invisigrey
+PmenuKind            dark0             invisigrey        bold
 PmenuSbar            dark8             linenrblack
 PmenuSel             dark0             dark7
+PmenuExtraSel        dark0             dark7
+PmenuKindSel         dark0             dark7             bold
 PmenuThumb           dark7             dark7
 Question             dark7             none
 QuickFixLine         uicursearch       dark0             reverse
@@ -202,8 +206,12 @@ MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
+PmenuExtra           none              none              reverse
+PmenuKind            none              none              reverse,bold
 PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
+PmenuExtraSel        none              none              bold
+PmenuKindSel         none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
@@ -317,8 +325,12 @@ ModeMsg              light0            none              bold
 MoreMsg              light0            none
 NonText              light8            none
 Pmenu                light0            invisigrey
+PmenuExtra           light0            invisigrey
+PmenuKind            light0            invisigrey        bold
 PmenuSbar            light0            yasogrey
 PmenuSel             light7            light0
+PmenuExtraSel        light7            light0
+PmenuKindSel         light7            light0            bold
 PmenuThumb           light0            light0
 Question             light0            none
 QuickFixLine         uicursearch       light0            reverse
@@ -395,8 +407,12 @@ MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
+PmenuExtra           none              none              reverse
+PmenuKind            none              none              reverse,bold
 PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
+PmenuExtraSel        none              none              bold
+PmenuKindSel         none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         light5            light0            reverse
