@@ -76,6 +76,10 @@ Pmenu                          fg1            bg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg1            blue           bold
 PmenuThumb                     none           bg4
+PmenuKind                      red            bg1
+PmenuKindSel                   red            blue
+PmenuExtra                     fg4            bg1
+PmenuExtraSel                  bg3            blue
 SpecialKey                     grey           none
 StatusLine                     bg2            fg1            bold,reverse
 StatusLineNC                   bg1            fg4            reverse
@@ -105,6 +109,10 @@ Pmenu                          fg1            bg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
+PmenuKind                      neutralred     bg1
+PmenuKindSel                   neutralred     blue
+PmenuExtra                     fg4            bg1
+PmenuExtraSel                  bg0            blue
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
 StatusLine                     fg4            bg0            reverse,bold
@@ -137,6 +145,10 @@ Pmenu                          bg1            fg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
+PmenuKind                      red            fg1
+PmenuKindSel                   red            blue
+PmenuExtra                     bg1            fg1
+PmenuExtraSel                  bg1            blue
 SignColumn                     fg4            none
 SpecialKey                     fg4            none
 StatusLine                     fg4            bg0            reverse,bold
@@ -260,6 +272,10 @@ Pmenu                          fg1            bg2
 PmenuSbar                      none           bg2
 PmenuSel                       bg2            blue           bold
 PmenuThumb                     none           bg4
+PmenuKind                      red            bg2
+PmenuKindSel                   red            blue
+PmenuExtra                     fg4            bg2
+PmenuExtraSel                  bg3            blue
 SpecialKey                     grey           none
 StatusLine                     bg3            fg1            bold,reverse
 StatusLineNC                   bg1            fg1            reverse
@@ -289,6 +305,10 @@ Pmenu                          fg1            bg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
+PmenuKind                      neutralred     bg1
+PmenuKindSel                   neutralred     blue
+PmenuExtra                     fg0            bg1
+PmenuExtraSel                  bg0            blue
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
 StatusLine                     fg0            bg0            bold,reverse
@@ -321,6 +341,10 @@ Pmenu                          bg1            fg1
 PmenuSbar                      none           bg1
 PmenuSel                       bg0            blue
 PmenuThumb                     none           blue
+PmenuKind                      red            fg1
+PmenuKindSel                   red            blue
+PmenuExtra                     bg1            fg1
+PmenuExtraSel                  bg1            blue
 SignColumn                     fg4            none
 SpecialKey                     fg4            none
 StatusLine                     fg4            bg0            reverse,bold
