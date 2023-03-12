@@ -47,11 +47,11 @@ Such goals can't be reached without providing colorscheme authors with a solid t
 ## Who is in charge?
 
 * [Bram Moolenaar](https://github.com/brammool), creator and maintainer of Vim.
-* [Christian Brabandt](https://github.com/chrisbra), Vim contributor who opened the two issues that prompted the creation of this project.
+* [Christian Brabandt](https://github.com/chrisbra), core Vim contributor who opened the two issues that prompted the creation of this project.
 * [Romain Lafourcade](https://github.com/romainl), colorscheme and plugin author.
 * [lifepillar](https://github.com/lifepillar), colorscheme and plugin author.
 * [Maxim Kim](https://github.com/habamax), colorscheme and plugin author.
-* [neutaaaaan](https://github.com/neutaaaaan), mysterious colorscheme author.
+* [Maxence Weynans](https://github.com/neutaaaaan), colorscheme author.
 * You.
 
 ## Install
