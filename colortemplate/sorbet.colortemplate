@@ -1,0 +1,262 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
+
+; Information {{{
+; Mandatory
+Full name:     sorbet
+Short name:    sorbet
+Author:        Maxence Weynans <neutaaaaan@gmail.com>
+; Optional
+Maintainer:    Maxence Weynans <neutaaaaan@gmail.com>
+Website:       https://github.com/vim/colorschemes
+Description:   A shallow grave, a monument to the ruined age.
+License:       Vim License (see `:help license`)`
+; }}}
+
+
+; Global definitions - put at the top of the colorscheme {{{
+Terminal             -> Normal
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+MessageWindow        -> Pmenu
+PopupNotification    -> Todo
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+Define               -> PreProc
+Debug                -> Special
+Delimiter            -> Special
+ErrorMsg             -> Error
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Label                -> Statement
+Macro                -> PreProc
+Number               -> Constant
+Operator             -> Statement
+PreCondit            -> PreProc
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StorageClass         -> Type
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+; See `:help lCursor`
+lCursor              -> Cursor
+; Custom
+debugBreakpoint      -> ModeMsg
+debugPC              -> CursorLine
+; }}}
+
+Background: dark
+
+; Color palette for dark variant {{{
+; Color name         GUI               Base256           Base16 (optional)
+Color: guibg         #161821           233               black
+Color: statusline    #d7d7ff           189               white
+Color: statuslineNC  #8787af           103               grey
+Color: darkuipurple  #5f5f87           60                grey
+Color: dark0         #000000           16                black
+Color: dark1         #d75f5f           167               darkred
+Color: dark2         #87d75f           113               darkgreen
+Color: dark3         #d7af5f           179               darkyellow
+Color: dark4         #87afd7           110               darkblue
+Color: dark5         #af87d7           140               darkmagenta
+Color: dark6         #5fafaf           73                darkcyan
+Color: dark7         #dadada           253               grey
+Color: dark8         #707070           242               darkgrey
+Color: dark9         #ff5f5f           203               red
+Color: dark10        #87ff5f           119               green
+Color: dark11        #ffd75f           221               yellow
+Color: dark12        #87d7ff           117               blue
+Color: dark13        #d787ff           177               magenta
+Color: dark14        #5fd7d7           80                cyan
+Color: dark15        #ffffff           231               white
+
+Color: diffred       #d7005f           161               darkred
+Color: diffgreen     #00af5f           35                darkgreen
+Color: diffblue      #87afff           111               darkblue
+Color: diffpink      #ff87ff           213               darkmagenta
+
+Color: uipink        #ff00af           199               magenta
+Color: uilime        #afff00           154               green
+Color: uiteal        #5fffaf           85                green
+Color: uiblue        #00afff           39                blue
+Color: uipurple      #af00ff           129               darkmagenta
+Color: uiamber       #ffaf00           214               darkyellow
+Color: uiblack       #363841           237               darkgrey
+Color: yasogrey      #262831           235               black
+Color: linenrblack   #585858           240               darkgrey
+Color: uicursearch   #ff5fff           207               magenta
+Color: invisigrey    #a6a8b1           248               darkgrey
+
+Color: errorred      #ff5f5f           203               red
+; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
+; }}}
+
+; Terminal colors for dark variant {{{
+Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
+Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
+; }}}
+
+Variant: gui 256
+Normal               dark7             guibg
+
+; Group              Foreground        Background        Attributes
+ColorColumn          none              yasogrey
+Conceal              none              none
+CurSearch            uicursearch       dark0             reverse
+Cursor               none              none              reverse
+CursorColumn         none              uiblack
+CursorLine           none              uiblack
+CursorLineNr         statusline        uiblack
+DiffAdd              diffgreen         dark0             reverse
+DiffChange           diffblue          dark0             reverse
+DiffDelete           diffred           dark0             reverse
+DiffText             diffpink          dark0             reverse
+Directory            dark7             none
+EndOfBuffer          darkuipurple      none
+FoldColumn           statuslineNC      none
+Folded               darkuipurple      guibg
+IncSearch            uiamber           dark0             reverse
+LineNr               darkuipurple      none
+MatchParen           uipink            none              bold
+ModeMsg              dark7             none              bold
+MoreMsg              dark7             none
+NonText              dark8             none
+Pmenu                dark0             invisigrey
+PmenuExtra           dark0             invisigrey
+PmenuKind            dark0             invisigrey        bold
+PmenuSbar            dark8             darkuipurple
+PmenuSel             dark0             statusline
+PmenuExtraSel        dark0             statusline
+PmenuKindSel         dark0             statusline        bold
+PmenuThumb           dark7             statusline
+Question             dark7             none
+QuickFixLine         uicursearch       dark0             reverse
+Search               uiblue            dark0             reverse
+SignColumn           dark7             none
+SpecialKey           darkuipurple      none              bold
+SpellBad             dark1             none              t=underline g=undercurl s=dark1
+SpellCap             dark4             none              t=underline g=undercurl s=dark4
+SpellLocal           dark5             none              t=underline g=undercurl s=dark5
+SpellRare            dark6             none              t=underline g=undercurl s=dark6
+StatusLine           dark0             statusline        bold
+StatusLineNC         statuslineNC      dark0             reverse
+TabLine              statuslineNC      dark0             reverse
+TabLineFill          dark7             none
+TabLineSel           dark0             statusline        bold
+Title                none              none
+VertSplit            darkuipurple      none
+Visual               uiamber           dark0             reverse
+VisualNOS            none              uiblack
+WarningMsg           dark7             none
+WildMenu             statusline        guibg             bold
+; Other conventional group names (see `:help group-name`)
+Comment              dark5             none
+Constant             dark1             none
+Error                errorred          dark0             reverse,bold
+Identifier           dark2             none
+Ignore               dark7             none
+PreProc              dark4             none
+Special              dark6             none
+Statement            dark4             none
+String               dark3             none
+Todo                 uiteal            none              reverse,bold
+Type                 dark4             none
+Underlined           dark7             none              underline
+; See `:help CursorIM`
+CursorIM             dark0             uilime
+; See `:help window-toolbar`
+ToolbarLine          none              dark0
+ToolbarButton        dark7             dark0             bold
+
+; Syntax overrides
+DiffRemoved          dark1             none
+; }}}
+
+Variant: 16
+CurSearch            dark13            dark0             reverse
+IncSearch            dark11            dark0             reverse
+Search               dark14            dark0             reverse
+SpecialKey           dark8             none              bold
+Variant: 8
+CurSearch            dark5             dark0             reverse
+IncSearch            dark3             dark0             reverse
+Search               dark6             dark0             reverse
+SpecialKey           none              none              bold
+Variant: 16 8
+Normal               none              none
+; Group              Foreground        Background        Attributes
+ColorColumn          none              none              reverse
+Conceal              none              none
+Cursor               none              none              reverse
+CursorColumn         none              none
+CursorLine           none              none
+CursorLineNr         none              none              bold
+DiffAdd              dark2             dark0             reverse
+DiffChange           dark4             dark0             reverse
+DiffDelete           dark1             dark0             reverse
+DiffText             dark5             dark0             reverse
+Directory            none              none
+EndOfBuffer          none              none
+FoldColumn           none              none
+Folded               none              none
+LineNr               none              none
+MatchParen           none              none              bold,underline
+ModeMsg              none              none              bold
+MoreMsg              none              none
+NonText              none              none
+Pmenu                none              none              reverse
+PmenuExtra           none              none              reverse
+PmenuKind            none              none              reverse,bold
+PmenuSbar            none              none              reverse
+PmenuSel             none              none              bold
+PmenuExtraSel        none              none              bold
+PmenuKindSel         none              none              bold
+PmenuThumb           none              none
+Question             none              none              standout
+QuickFixLine         dark5             dark0             reverse
+SignColumn           none              none              reverse
+SpellBad             dark1             none              underline
+SpellCap             dark4             none              underline
+SpellLocal           dark5             none              underline
+SpellRare            dark6             none              underline
+StatusLine           none              none              bold,reverse
+StatusLineNC         none              none              bold,underline
+TabLine              none              none              bold,underline
+TabLineFill          none              none
+TabLineSel           none              none              reverse,bold
+Title                none              none
+VertSplit            none              none
+Visual               uiamber           dark0             reverse
+VisualNOS            none              none
+WarningMsg           none              none              standout
+WildMenu             none              none              bold
+; Other conventional group names (see `:help group-name`)
+Comment              dark5             none
+Constant             dark1             none
+Error                dark1             dark0             reverse,bold
+Identifier           dark2             none
+Ignore               none              none
+PreProc              dark4             none
+Special              dark6             none
+Statement            dark4             none
+String               dark3             none
+Todo                 dark2             dark0             reverse,bold
+Type                 dark4             none
+Underlined           none              none              underline
+; See `:help CursorIM`
+CursorIM             none              none
+; See `:help window-toolbar`
+ToolbarLine          none              none              reverse
+ToolbarButton        none              none              bold,reverse
+
+; Syntax overrides
+DiffRemoved          dark1             none
+
+
+; Template for black & white terminals
+Include: _tcozero
