@@ -46,7 +46,6 @@ Typedef              -> Type
 ; See `:help lCursor`
 lCursor              -> Cursor
 ; Custom
-debugBreakpoint      -> ModeMsg
 debugPC              -> CursorLine
 ; }}}
 
@@ -82,7 +81,7 @@ Color: diffpink      #ff87ff           213               darkmagenta
 
 Color: uipink        #ff00af           199               magenta
 Color: uilime        #afff00           154               green
-Color: uiteal        #5fffaf           85                green
+Color: uiteal        #5fd7af           79                green
 Color: uiblue        #00afff           39                blue
 Color: uipurple      #af00ff           129               darkmagenta
 Color: uiamber       #ffaf00           214               darkyellow
@@ -175,6 +174,7 @@ ToolbarButton        dark7             dark0             bold
 
 ; Syntax overrides
 DiffRemoved          dark1             none
+debugBreakpoint      statuslineNC      dark0             reverse,bold
 ; }}}
 
 Variant: 16
@@ -219,7 +219,7 @@ PmenuKindSel         none              none              bold
 PmenuThumb           none              none
 Question             none              none              standout
 QuickFixLine         dark5             dark0             reverse
-SignColumn           none              none              reverse
+SignColumn           none              none
 SpellBad             dark1             none              underline
 SpellCap             dark4             none              underline
 SpellLocal           dark5             none              underline
@@ -256,7 +256,7 @@ ToolbarButton        none              none              bold,reverse
 
 ; Syntax overrides
 DiffRemoved          dark1             none
-
+debugBreakpoint      none              none              reverse,bold
 
 ; Template for black & white terminals
 Include: _tcozero
