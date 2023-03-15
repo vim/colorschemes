@@ -179,14 +179,30 @@ debugBreakpoint      statuslineNC      dark0             reverse,bold
 
 Variant: 16
 CurSearch            dark13            dark0             reverse
+EndOfBuffer          dark8             none
+Folded               dark8             none
 IncSearch            dark11            dark0             reverse
+LineNr               dark8             none
+NonText              dark8             none
+PmenuSbar            dark8             none              reverse
 Search               dark14            dark0             reverse
 SpecialKey           dark8             none              bold
+StatusLineNC         dark8             none              reverse
+TabLine              dark8             none              reverse
+VertSplit            dark8             none
 Variant: 8
 CurSearch            dark5             dark0             reverse
+EndOfBuffer          none              none
+Folded               none              none
 IncSearch            dark3             dark0             reverse
+LineNr               none              none
+NonText              none              none
+PmenuSbar            none              none              reverse
 Search               dark6             dark0             reverse
 SpecialKey           none              none              bold
+StatusLineNC         none              none              bold,underline
+TabLine              none              none              bold,underline
+VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
@@ -201,18 +217,13 @@ DiffChange           dark4             dark0             reverse
 DiffDelete           dark1             dark0             reverse
 DiffText             dark5             dark0             reverse
 Directory            none              none
-EndOfBuffer          none              none
 FoldColumn           none              none
-Folded               none              none
-LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
-NonText              none              none
 Pmenu                none              none              reverse
 PmenuExtra           none              none              reverse
 PmenuKind            none              none              reverse,bold
-PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuExtraSel        none              none              bold
 PmenuKindSel         none              none              bold
@@ -225,12 +236,9 @@ SpellCap             dark4             none              underline
 SpellLocal           dark5             none              underline
 SpellRare            dark6             none              underline
 StatusLine           none              none              bold,reverse
-StatusLineNC         none              none              bold,underline
-TabLine              none              none              bold,underline
 TabLineFill          none              none
 TabLineSel           none              none              reverse,bold
 Title                none              none
-VertSplit            none              none
 Visual               uiamber           dark0             reverse
 VisualNOS            none              none
 WarningMsg           none              none              standout
