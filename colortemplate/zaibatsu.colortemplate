@@ -38,8 +38,8 @@ Color: visual        #5FD7FF           81                darkcyan
 Color: Xdarkred      #d7005f           ~
 Color: Xdarkgreen    #00af5f           ~
 Color: Xdarkblue     #5f5fff           ~
-Color: Xdarkwhite    #d7d5db           ~
-Color: Xgrey         #878092           ~
+Color: Xdarkwhite    #d7d7d7           ~
+Color: Xgrey         #878787           ~
 Color: Xbrightgreen  #00d700           ~
 Color: Xbrightyellow #ffd700           ~
 Color: Xbrightblue   #8787ff           ~
@@ -116,12 +116,27 @@ StatusLineNC         neutral3          neutral1          reverse,bold
 ; }}}
 
 ; Popup menu {{{
-Variant: gui 256 16
+Variant: gui 256
 ; Group              Foreground        Background        Attributes
 Pmenu                background        white
 PmenuSbar            neutral1          neutral1
 PmenuSel             background        blue
 PmenuThumb           neutral3          neutral3
+PmenuExtra           neutral3          white
+PmenuExtraSel        -> PmenuSel
+PmenuKind            neutral3          white
+PmenuKindSel         -> PmenuSel
+
+Variant: 16
+; Group              Foreground        Background        Attributes
+Pmenu                background        white
+PmenuSbar            neutral1          neutral1
+PmenuSel             white             blue
+PmenuThumb           neutral3          neutral3
+PmenuExtra           neutral3          white
+PmenuExtraSel        -> PmenuSel
+PmenuKind            neutral3          white
+PmenuKindSel         -> PmenuSel
 
 Variant: 8
 ; Group              Foreground        Background        Attributes
@@ -129,6 +144,10 @@ Pmenu                background        white
 PmenuSbar            white             white
 PmenuSel             white             blue
 PmenuThumb           blue              blue
+PmenuExtra           -> Pmenu
+PmenuExtraSel        -> PmenuSel
+PmenuKind            -> Pmenu
+PmenuKindSel         -> PmenuSel
 ; }}}
 
 ; Various specifics {{{
@@ -147,7 +166,7 @@ CursorColumn         none              blue
 WildMenu             white             blue
 ; }}}
 
-; Generics {{{
+; Generic groups {{{
 Variant: gui 256 16 8
 ; Chrome
 ; Group              Foreground        Background        Attributes
@@ -199,7 +218,6 @@ CurSearch            -> IncSearch
 CursorLineFold       -> CursorLine
 CursorLineNr         -> CursorLine
 CursorLineSign       -> CursorLine
-Debug                -> Special
 LineNrAbove          -> LineNr
 LineNrBelow          -> LineNr
 StatusLineTerm       -> StatusLine
@@ -208,15 +226,6 @@ TabLine              -> StatusLineNC
 TabLineFill          -> StatusLineNC
 TabLineSel           -> StatusLine
 Terminal             -> Normal
-diffAdded            -> String
-diffBDiffer          -> WarningMsg
-diffCommon           -> WarningMsg
-diffDiffer           -> WarningMsg
-diffIdentical        -> WarningMsg
-diffIsA              -> WarningMsg
-diffNoEOL            -> WarningMsg
-diffOnly             -> WarningMsg
-diffRemoved          -> WarningMsg
 lCursor              -> Cursor
 
 ; Syntax
@@ -247,6 +256,7 @@ Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 ; }}}
+
 ; Diff colors {{{
 Color: bgDiffA       #5F875F           65                darkgreen
 Color: bgDiffT       #C6C6C6           251               grey
