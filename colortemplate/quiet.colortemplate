@@ -171,19 +171,33 @@ ToolbarButton        dark7             dark0             bold
 ; }}}
 
 Variant: 16
-EndOfBuffer          dark8             none
-NonText              dark8             none
+Comment              dark8             none              bold
 CurSearch            dark13            dark0             reverse
-IncSearch            dark11            dark0             reverse,bold,underline
+EndOfBuffer          dark8             none
+Folded               dark8             none
+IncSearch            dark11            dark0             reverse
+LineNr               dark8             none
+NonText              dark8             none
+PmenuSbar            dark8             none              reverse
 Search               dark14            dark0             reverse
 SpecialKey           dark8             none              bold
+StatusLineNC         dark8             none              reverse
+TabLine              dark8             none              reverse
+VertSplit            dark8             none
 Variant: 8
-EndOfBuffer          none              none
-NonText              none              none
+Comment              none              none              bold
 CurSearch            dark5             dark0             reverse
-IncSearch            dark3             dark0             reverse,bold,underline
+EndOfBuffer          none              none
+Folded               none              none
+IncSearch            dark3             dark0             reverse
+LineNr               none              none
+NonText              none              none
+PmenuSbar            none              none              reverse
 Search               dark6             dark0             reverse
 SpecialKey           none              none              bold
+StatusLineNC         none              none              bold,underline
+TabLine              none              none              bold,underline
+VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
@@ -200,15 +214,12 @@ DiffText             dark5             dark0             reverse
 Directory            none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
-Folded               none              none
-LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
 PmenuExtra           none              none              reverse
 PmenuKind            none              none              reverse,bold
-PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuExtraSel        none              none              bold
 PmenuKindSel         none              none              bold
@@ -221,18 +232,14 @@ SpellCap             dark4             none              underline
 SpellLocal           dark5             none              underline
 SpellRare            dark6             none              underline
 StatusLine           none              none              bold,reverse
-StatusLineNC         none              none              bold,underline
-TabLine              none              none              bold,underline
 TabLineFill          none              none
 TabLineSel           none              none              reverse,bold
 Title                none              none
-VertSplit            none              none
 Visual               uiamber           dark0             reverse
 VisualNOS            none              none
 WarningMsg           none              none              standout
 WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
-Comment              none              none              bold
 Constant             none              none
 Error                dark1             dark0             reverse,bold
 Identifier           none              none
@@ -372,19 +379,31 @@ ToolbarButton        light0            light7            bold
 ; }}}
 
 Variant: 16
-EndOfBuffer          light8            none
-NonText              light8            none
 CurSearch            light13           light0            reverse
+EndOfBuffer          light8            none
+Folded               light8            none
 IncSearch            light11           light0            reverse
+LineNr               light8            none
+NonText              light8            none
+PmenuSbar            light8            none              reverse
 Search               light14           light0            reverse
 SpecialKey           light8            none              bold
+StatusLineNC         light8            none              reverse
+TabLine              light8            none              reverse
+VertSplit            light8            none
 Variant: 8
-EndOfBuffer          none              none
-NonText              none              none
 CurSearch            light5            light0            reverse
+EndOfBuffer          none              none
+Folded               none              none
 IncSearch            light3            light0            reverse
+LineNr               none              none
+NonText              none              none
+PmenuSbar            none              none              reverse
 Search               light6            light0            reverse
 SpecialKey           none              none              bold
+StatusLineNC         none              none              bold,underline
+TabLine              none              none              bold,underline
+VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
@@ -401,15 +420,12 @@ DiffText             light5            light0            reverse
 Directory            none              none
 ErrorMsg             none              none              reverse,bold
 FoldColumn           none              none
-Folded               none              none
-LineNr               none              none
 MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
 PmenuExtra           none              none              reverse
 PmenuKind            none              none              reverse,bold
-PmenuSbar            none              none              reverse
 PmenuSel             none              none              bold
 PmenuExtraSel        none              none              bold
 PmenuKindSel         none              none              bold
@@ -422,12 +438,9 @@ SpellCap             light4            none              underline
 SpellLocal           light5            none              underline
 SpellRare            light6            none              underline
 StatusLine           none              none              bold,reverse
-StatusLineNC         none              none              bold,underline
-TabLine              none              none              bold,underline
 TabLineFill          none              none
 TabLineSel           none              none              reverse,bold
 Title                none              none
-VertSplit            none              none
 Visual               light3            light0            reverse
 VisualNOS            none              none
 WarningMsg           none              none              standout
