@@ -171,10 +171,11 @@ ToolbarButton        dark7             dark0             bold
 ; }}}
 
 Variant: 16
+Comment              dark8             none              bold
 CurSearch            dark13            dark0             reverse
 EndOfBuffer          dark8             none
 Folded               dark8             none
-IncSearch            dark11            dark0             reverse,bold,underline
+IncSearch            dark11            dark0             reverse
 LineNr               dark8             none
 NonText              dark8             none
 PmenuSbar            dark8             none              reverse
@@ -184,10 +185,11 @@ StatusLineNC         dark8             none              reverse
 TabLine              dark8             none              reverse
 VertSplit            dark8             none
 Variant: 8
+Comment              none              none              bold
 CurSearch            dark5             dark0             reverse
 EndOfBuffer          none              none
 Folded               none              none
-IncSearch            dark3             dark0             reverse,bold,underline
+IncSearch            dark3             dark0             reverse
 LineNr               none              none
 NonText              none              none
 PmenuSbar            none              none              reverse
@@ -238,7 +240,6 @@ VisualNOS            none              none
 WarningMsg           none              none              standout
 WildMenu             none              none              bold
 ; Other conventional group names (see `:help group-name`)
-Comment              none              none              bold
 Constant             none              none
 Error                dark1             dark0             reverse,bold
 Identifier           none              none
