@@ -60,58 +60,6 @@ StatuslineTermNC        -> StatuslineNC
 MessageWindow           -> Pmenu
 PopupNotification       -> Todo
 
-;;; ft&plug links
-javaScriptFunction                     -> Statement
-javaScriptIdentifier                   -> Statement
-sqlKeyword                             -> Statement
-yamlBlockMappingKey                    -> Statement
-rubyMacro                              -> Statement
-rubyDefine                             -> Statement
-vimVar                                 -> Normal
-vimOper                                -> Normal
-vimSep                                 -> Normal
-vimParenSep                            -> Normal
-vimCommentString                       -> Comment
-gitCommitSummary                       -> Title
-markdownUrl                            -> String
-elixirOperator                         -> Statement
-elixirKeyword                          -> Statement
-elixirBlockDefinition                  -> Statement
-elixirDefine                           -> Statement
-elixirPrivateDefine                    -> Statement
-elixirGuard                            -> Statement
-elixirPrivateGuard                     -> Statement
-elixirModuleDefine                     -> Statement
-elixirProtocolDefine                   -> Statement
-elixirImplDefine                       -> Statement
-elixirRecordDefine                     -> Statement
-elixirPrivateRecordDefine              -> Statement
-elixirMacroDefine                      -> Statement
-elixirPrivateMacroDefine               -> Statement
-elixirDelegateDefine                   -> Statement
-elixirOverridableDefine                -> Statement
-elixirExceptionDefine                  -> Statement
-elixirCallbackDefine                   -> Statement
-elixirStructDefine                     -> Statement
-elixirExUnitMacro                      -> Statement
-elixirInclude                          -> Statement
-elixirAtom                             -> PreProc
-elixirDocTest                          -> String
-
-
-;;; plug defs
-Variant: gui 256 16
-ALEErrorSign            color01        none
-ALEInfoSign             color11        none
-ALEWarningSign          color05        none
-
-ALEError                color00        color01
-ALEVirtualTextError     color00        color01
-ALEWarning              color00        color05
-ALEVirtualTextWarning   color00        color05
-ALEInfo                 color11        none
-ALEVirtualTextInfo      color11        none
-
 
 ;;; chrome
 Variant: 8
