@@ -60,6 +60,21 @@ StatuslineTermNC        -> StatuslineNC
 MessageWindow           -> Pmenu
 PopupNotification       -> Todo
 
+;;; ft&plug links
+javaScriptFunction                     -> Statement
+javaScriptIdentifier                   -> Statement
+sqlKeyword                             -> Statement
+yamlBlockMappingKey                    -> Statement
+rubyMacro                              -> Statement
+rubyDefine                             -> Statement
+vimVar                                 -> Normal
+vimOper                                -> Normal
+vimSep                                 -> Normal
+vimParenSep                            -> Normal
+vimCommentString                       -> Comment
+gitCommitSummary                       -> Title
+markdownUrl                            -> String
+
 
 ;;; chrome
 Variant: 8
