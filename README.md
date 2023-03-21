@@ -1,3 +1,20 @@
+Table of Contents
+=================
+
+* [Vim's colorscheme incubator](#vims-colorscheme-incubator)
+   * [What is our mission?](#what-is-our-mission)
+      * [Adding new colorschemes](#adding-new-colorschemes)
+      * [Improving existing colorschemes](#improving-existing-colorschemes)
+      * [Providing better tooling and documentation to authors](#providing-better-tooling-and-documentation-to-authors)
+   * [What is the plan?](#what-is-the-plan)
+   * [Show me](#show-me)
+   * [Who is in charge?](#who-is-in-charge)
+   * [Install](#install)
+   * [Useful links](#useful-links)
+   * [Legacy](#legacy)
+
+<!-- Created by https://github.com/ekalinin/github-markdown-toc -->
+
 # Vim's colorscheme incubator
 
 As of 8.2, the collection of 18 colorschemes packaged with Vim (19 for MacVim) has been mostly stale for many years. In the mean time, two trends have been going strong, one fueling the other:
@@ -43,6 +60,10 @@ Such goals can't be reached without providing colorscheme authors with a solid t
 2. Find the resources and build the necessary tools.
 3. Open a proper "call for colorschemes".
 4. Include the approved submissions in the Vim distribution, either one by one or as a whole.
+
+## Show me
+
+Have a look at the [gallery](ScreenShots.md)
 
 ## Who is in charge?
 
