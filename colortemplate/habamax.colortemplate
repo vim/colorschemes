@@ -129,8 +129,8 @@ SpecialKey              colorNonT      none
 FoldColumn              colorNonT      none
 
 Variant: 8
-Visual                  none           none           reverse
-VisualNOS               none           none           reverse
+Visual                  color00        color06
+VisualNOS               color00        color06
 Variant: gui 256 16
 Visual                  color00        color14
 VisualNOS               color00        color06
