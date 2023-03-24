@@ -428,14 +428,12 @@ putty with 'termguicolors'
 putty without 'termguicolors' and 256 colors
 ![grafik](https://user-images.githubusercontent.com/244927/227454558-6ce1c21b-1c2a-453c-b7a5-35f7ec87c8f2.png)
 
-
 ## [elflord](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/elflord.vim)
 putty with 'termguicolors'
 ![grafik](https://user-images.githubusercontent.com/244927/227453469-7fc73382-5d87-4926-8ce8-08be50bfd685.png)
 
 putty without 'termguicolors' and 256 colors
 ![grafik](https://user-images.githubusercontent.com/244927/227454596-97616756-064a-4bd8-84c2-f56d24a0eac2.png)
-
 
 ## [evening](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/evening.vim)
 putty with 'termguicolors'
@@ -458,7 +456,6 @@ putty with 'termguicolors'
 putty without 'termguicolors' and 256 colors
 ![grafik](https://user-images.githubusercontent.com/244927/227454693-342737ed-6b3d-49ee-a394-c7f2689d4abb.png)
 
-
 ## [koehler](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/koehler.vim)
 putty with 'termguicolors'
 ![grafik](https://user-images.githubusercontent.com/244927/227453590-a682174f-2d49-41c6-9039-66e411b0f279.png)
@@ -472,7 +469,6 @@ putty with 'termguicolors'
 
 putty without 'termguicolors' and 256 colors
 ![grafik](https://user-images.githubusercontent.com/244927/227454752-7d5eff06-04b8-4cde-aba6-e093c10eeadf.png)
-
 
 ## [morning](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/morning.vim)
 putty with 'termguicolors'
@@ -591,10 +587,10 @@ putty without 'termguicolors' and 256 colors
 
 ## [delek](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/delek.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://user-images.githubusercontent.com/244927/227461283-563684ae-cf56-4c24-bbaa-44f4343a3971.png)
+![grafik](https://i.imgur.com/uPiJLGk.png)
 
-putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/227457979-721d11b6-d0e9-4e59-b652-41ca1bc40b92.png)
+putty without 'termguicolors' and 256 colors and 'light' background
+![grafik](https://i.imgur.com/8C4nBiC.png)
 
 ## [desert](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/desert.vim)
 putty with 'termguicolors'
@@ -647,9 +643,10 @@ putty without 'termguicolors' and 256 colors
 
 ## [morning](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/morning.vim)
 putty with 'termguicolors' and 'light' background
+![grafik](https://i.imgur.com/snIvJkZ.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
-
+![grafik](https://i.imgur.com/ZbmQz5i.png)
 
 ## [murphy](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/murphy.vim)
 putty with 'termguicolors'
@@ -667,8 +664,10 @@ putty without 'termguicolors' and 256 colors
 
 ## [peachpuff](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/peachpuff.vim)
 putty with 'termguicolors' and 'light' background
+![grafik](https://i.imgur.com/PYfrNej.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
+![grafik](https://i.imgur.com/QELw3yo.png)
 
 ## [quiet](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/quiet.vim)
 putty with 'termguicolors'
@@ -693,9 +692,10 @@ putty without 'termguicolors' and 256 colors
 
 ## [shine](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/shine.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://user-images.githubusercontent.com/244927/227457405-be5d55ad-d9eb-442c-8876-6273fd997209.png)
+![grafik](https://i.imgur.com/WNunaVJ.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
+![grafik](https://i.imgur.com/blIGLHG.png)
 
 ## [slate](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/slate.vim)
 putty with 'termguicolors'
@@ -734,5 +734,7 @@ putty without 'termguicolors' and 256 colors
 
 ## [zellner](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/zellner.vim)
 putty with 'termguicolors' and 'light' background
+![grafik](https://i.imgur.com/SAIdZ7M.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
+![grafik](https://i.imgur.com/ExtF8MY.png)
