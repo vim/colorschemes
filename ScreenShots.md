@@ -15,172 +15,171 @@ Displaying [check_colors.vim](https://github.com/vim/colorschemes/blob/c8f5b1f04
 
 ## [blue](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/blue.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226674769-6d69a424-a87a-44b6-965e-9c9584b4e1d7.png)
+![grafik](![grafik](https://user-images.githubusercontent.com/244927/228226998-4c9e231d-17c5-41ba-86e5-2df78b20e1e1.png))
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226842696-62febd29-9eec-4ad9-86e7-eb1c2ba9a0e3.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231739-9fe967ea-1549-484c-a8fa-5f734a147e89.png)
 
 ## [darkblue](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/darkblue.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226674886-ee590186-ac57-41fd-a42f-ad2823a705e3.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227245-31414d3b-a897-4902-b150-3cbe5066c2da.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843553-a27c203f-3c17-42a8-909f-4859e01417d5.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231799-12b1d42d-54d8-4203-9dda-0d0ca6ca7b4d.png)
 
 ## [delek](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/delek.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://i.imgur.com/fIxcOit.png)
+![grafik](https://user-images.githubusercontent.com/244927/228229972-50784127-5167-4981-83b7-120d831705d6.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
-![grafik](https://i.imgur.com/2NadD2Y.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231175-08030a75-33e9-4d92-a297-ee8c2380e64a.png)
 
 ## [desert](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/desert.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226675186-b4d1bb19-afdd-471a-97e0-8797c2a085f9.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227338-10240e85-0657-49b0-a815-8c55b951653c.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843661-33afe7e8-2d9b-4262-bd1a-3e9d7a4b524d.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231932-e12ee1e1-8fae-4f57-b06a-affd21768704.png)
 
 ## [elflord](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/elflord.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226675509-bf88ab9b-26e1-41ad-969b-0e8203408afb.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227419-cd3d8357-f8c1-4cf4-8658-f8dc855f19dd.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843727-2a36bad6-6e21-4691-9e88-aa563719c87c.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231994-4ddf1aab-3505-4ec1-9238-0f5fafca6a38.png)
 
 ## [evening](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/evening.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226675647-9ee5133d-70dc-449a-997e-ac29ea196d03.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227467-e301a486-e97c-4693-b574-0739874e9b00.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843778-b271e77c-6f95-4eaf-be67-da9cc1ca17da.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232031-7c6ffada-1872-4749-8886-cd903d297198.png)
 
 ## [habamax](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/habamax.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226675967-935b4737-7578-412b-b766-18cd223b5f8f.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227512-fcb78010-61f7-4a30-8f0a-840ebcc8965f.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843826-7f9452fa-0745-4ae6-8c9f-51b5517da5d8.png)
-
+![grafik](https://user-images.githubusercontent.com/244927/228232069-ec658590-404e-4972-ad10-a9da482733c9.png)
 
 ## [industry](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/industry.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226676104-7598a515-4738-44be-8e85-dd9799980ad6.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227571-73bca3dd-0d7a-4f1e-8e28-8649d6347541.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843879-a36c5e6f-8685-400f-9182-454d4dbfe6dd.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232108-847825a8-be5c-447a-b4b3-7e858a05819d.png)
 
 ## [koehler](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/koehler.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226676243-2511c865-410b-420a-a21f-08f5274beff0.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227643-9a0d8102-5562-4588-9720-aed9a429fb71.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843935-52ff27a9-4065-482e-9cc2-9bdc6342e461.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232159-51187730-8ad6-4ac6-9f3d-e82d2f2e169f.png)
 
 ## [lunaperch](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/lunaperch.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226676420-b889d005-f7ad-48f7-aa84-5f90b7920fcb.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227693-3afc2153-d04c-43ed-932a-96a460683653.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226843971-82f34c20-4ce0-44d8-8b5f-c457c3e371e5.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232240-bfa4af27-da63-479f-bd0f-356cef444fa7.png)
 
 ## [morning](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/morning.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://i.imgur.com/Kn0O6Om.png)
+![grafik](https://user-images.githubusercontent.com/244927/228230046-300e6b6b-384c-4609-8c4d-d2a5ac68c78c.png)
 
-putty without 'termguicolors' and 256 colors and 'ligth' background
-![grafik](https://i.imgur.com/FnIb16o.png)
+putty without 'termguicolors' and 256 colors and 'light' background
+![grafik](https://user-images.githubusercontent.com/244927/228231237-cad7f099-7811-433a-ae2c-7b9dca77b783.png)
 
 ## [murphy](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/murphy.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226676750-af7db29b-3d5b-4d0f-a3dd-ac4b2cc38235.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227776-dbb6d8ef-33e5-4b76-b5e3-a68383785fc4.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844059-642728a7-f688-4e3d-b0d4-34552dae6af8.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232275-7fb92f45-5028-46f5-b265-c52cf3525d00.png)
 
 ## [pablo](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/pablo.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226676918-503c1455-7877-404c-97e1-f656fd095d27.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227822-6d835982-e62b-43a5-bfd9-05fef8e72ce0.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844117-fbaae4ca-afdb-4104-aacf-a5d3ca88a230.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232316-1a9f1758-7368-4628-8633-7beda91f42fd.png)
 
 ## [peachpuff](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/peachpuff.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://i.imgur.com/kP9yqBR.png)
+![grafik](https://user-images.githubusercontent.com/244927/228230073-7b22f324-3eee-4580-8a43-5b720ad11c3e.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
-![grafik](https://i.imgur.com/1h20sBy.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231308-93fc470e-15f0-4075-b10c-cc004764535a.png)
 
 ## [quiet](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/quiet.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677247-c2adef84-8d3a-49cf-898e-35b2cecb787d.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227848-3b3572b4-0bcc-46ad-92da-bd40f2699ba1.png)
 
 putty without 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226844239-35d18954-fcaf-453b-8f44-4a19e20ac305.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232351-7481822d-bd04-48ec-a68e-3c1e21b71017.png)
 
 ## [retrobox](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/retrobox.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677397-02196d0c-4297-472f-98c4-4d9d2ac3fafb.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227893-483ee148-6324-4d41-867f-cbcc2df09ad6.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844296-8e91a260-b7ca-4f40-91ff-c621d9e54c6f.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232397-7b70fa5c-cb65-4d6f-94be-f34d770080a6.png)
 
 ## [ron](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/ron.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677520-62509ecf-dfd9-40eb-bb8c-593f842a9f32.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227936-73c46bfd-fbb0-411a-a6e0-c6e0cc93662b.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844368-5bccade8-8b04-4e20-9ca3-b7ce5ce31b1a.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232466-ae924a45-18fc-4370-a58a-903ad8db260e.png)
 
 ## [shine](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/shine.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://i.imgur.com/8BHR90d.png)
+![grafik](https://user-images.githubusercontent.com/244927/228230139-9c5210dd-3527-4e22-9ac1-ae6833d2ce86.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
-![grafik](https://imgur.com/0Mjfcm1.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231356-d77f4109-682d-4005-a3d7-88c774326dfa.png)
 
 ## [slate](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/slate.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677764-483652b9-5bc5-4832-9b75-028135f1bf10.png)
+![grafik](https://user-images.githubusercontent.com/244927/228227970-24bf79ee-211b-4655-8363-00530eda4f0a.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844552-2363dcc9-639e-4916-a339-497b87032899.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232507-1f489015-0fa7-4a4c-b06d-75aaf4d8efbb.png)
 
 ## [sorbet](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/sorbet.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677896-5dab2a0a-ceb2-4e3b-88df-1e7f922a0e74.png)
+![grafik](https://user-images.githubusercontent.com/244927/228228048-ce448cc3-6e95-44a2-832d-c48f41da0d16.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844644-ae8ade37-6d4a-4801-a4e1-f3a6594e3ebe.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232544-02b8cc80-5459-48ef-983a-2178fcd80048.png)
 
 ## [torte](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/torte.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226677994-d07cb4a3-2436-4909-a7cb-dcbaf71e535a.png)
+![grafik](https://user-images.githubusercontent.com/244927/228228093-34aa2d73-9b1b-4e79-832b-fc34a7fd5b2d.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844809-e293829e-0881-4d0d-9d20-699ffa882dba.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232576-c29d6bc5-92ce-432d-bcb2-3eb1281bb70e.png)
 
 ## [wildcharm](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/wildcharm.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226678080-40adf59e-1b9b-48bc-aac2-3551e6fb69ba.png)
+![grafik](https://user-images.githubusercontent.com/244927/228228175-1befb3e3-7e4b-4d17-a8a5-6f68224b2813.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844911-f21f1bb6-751f-4ea0-ad45-5654ef200cff.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232618-59ab6c93-fbc6-456c-8ac8-681deea24fa6.png)
 
 ## [zaibatsu](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/zaibatsu.vim)
 putty with 'termguicolors'
-![grafik](https://user-images.githubusercontent.com/244927/226678222-4efc274f-b774-4783-a69b-085588d3c3e1.png)
+![grafik](https://user-images.githubusercontent.com/244927/228228215-9d8ae4cc-88da-43e8-808f-6e78fedc7df4.png)
 
 putty without 'termguicolors' and 256 colors
-![grafik](https://user-images.githubusercontent.com/244927/226844986-d181ebff-4375-4d5f-bd7e-a6f04ecfa744.png)
+![grafik](https://user-images.githubusercontent.com/244927/228232660-d0d30e3d-9436-4843-b76d-d9123cd8482e.png)
 
 ## [zellner](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/zellner.vim)
 putty with 'termguicolors' and 'light' background
-![grafik](https://i.imgur.com/xx2kxUL.png)
+![grafik](https://user-images.githubusercontent.com/244927/228230187-ef019fe6-907e-4e0f-b95c-5f4d83ec7227.png)
 
 putty without 'termguicolors' and 256 colors and 'light' background
-![grafik](https://imgur.com/KmQpuuN.png)
+![grafik](https://user-images.githubusercontent.com/244927/228231404-1ded5452-f1cf-4b44-904c-816db7cde0f8.png)
 
 # Python File
 Displaying [test_channel.py](https://github.com/vim/vim/blob/890c77203637626b1005db818667084d11e653e7/src/testdir/test_channel.py)
