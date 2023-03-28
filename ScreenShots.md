@@ -8,7 +8,7 @@
 
 ## Tooling
 All screenshots were made with putty, in a 29x107 size large terminal with a dark backround (configured with termguicolors or 256 colors).
-Font: DejaVu Sans Mono for Powerline, 10pt
+Font: DejaVu Sans Mono for Powerline, 12pt
 
 # Vim9 File
 Displaying [check_colors.vim](https://github.com/vim/colorschemes/blob/c8f5b1f0429313439d3bc0762cdddb3aa6aaf4f3/colors/tools/check_colors.vim)
