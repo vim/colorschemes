@@ -6,10 +6,11 @@ Short name:  evening
 Description: This color scheme uses a dark grey background.
 Author:      Original author Bram Moolenaar <Bram@vim.org>
 Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 
-Variant:    gui 256 16
+Options:    backend=legacy
+Variants:   256 16 8 0
 Background: dark
 
 ;;; Color palette
@@ -59,8 +60,8 @@ Color: x_white       #ffffff           231               white
 
 
 ;;; Terminal
-Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue_m x_darkmagenta x_darkcyan x_gray
-Term colors: x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
+Term colors: x_black    x_darkred x_darkgreen x_darkyellow x_darkblue_m x_darkmagenta x_darkcyan x_gray
+             x_darkgray x_red     x_green     x_yellow     x_blue       x_magenta     x_cyan     x_white
 
 
 VertSplit            -> StatusLineNC
@@ -116,27 +117,6 @@ PopupNotification    -> Todo
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
-Variant: 8
-Normal               grey              black
-ColorColumn          grey              darkred
-CursorLine           none              none              underline
-CursorLineNr         yellow            none              bold
-EndOfBuffer          blue              none              bold
-StatusLine           grey              black             reverse,bold
-StatusLineNC         grey              black             reverse
-TabLineSel           grey              black             reverse,bold
-TabLine              grey              black             reverse
-Variant: 16
-Normal               white             black
-ColorColumn          white             darkred
-CursorLine           none              none              underline
-CursorLineNr         none              none              underline
-EndOfBuffer          lightblue         none
-StatusLine           black             white
-StatusLineNC         black             lightgrey
-TabLineSel           black             white
-TabLine              black             lightgrey
-Variant: gui 256
 Normal               white             grey20
 ColorColumn          none              darkred
 CursorLine           none              grey40
@@ -147,36 +127,26 @@ StatusLineNC         grey20            lightgrey
 TabLineSel           grey20            white             bold
 TabLine              grey20            lightgrey
 
-Variant: 8
-Pmenu                black             darkcyan
-PmenuSbar            none              grey
-PmenuSel             black             grey
-PmenuThumb           none              black
-QuickFixLine         grey              darkmagenta
-Error                red               grey              reverse
-ErrorMsg             grey              red
-LineNr               yellow            none
-Conceal              none              none
-FoldColumn           darkblue          none
-Folded               darkblue          grey
-IncSearch            seagreen          none              reverse
-MatchParen           none              darkcyan
-ModeMsg              none              none              bold
-MoreMsg              seagreen          none
-NonText              blue              none              bold
-Question             seagreen          none              bold
-Search               black             yellow
-SignColumn           darkcyan          none
-SpecialKey           darkcyan          none
-ToolbarButton        grey              black             reverse,bold
-ToolbarLine          none              none
-Visual               none              none              reverse
-VisualNOS            none              none              underline
-WarningMsg           darkred           none
-WildMenu             black             yellow
-debugBreakpoint      darkblue          darkred
-debugPC              darkblue          yellow
-Variant: gui 256 16
+Normal           /16 white             black
+ColorColumn      /16 white             darkred
+CursorLine       /16 none              none              underline
+CursorLineNr     /16 none              none              underline
+EndOfBuffer      /16 lightblue         none
+StatusLine       /16 black             white
+StatusLineNC     /16 black             lightgrey
+TabLineSel       /16 black             white
+TabLine          /16 black             lightgrey
+
+Normal            /8 grey              black
+ColorColumn       /8 grey              darkred
+CursorLine        /8 none              none              underline
+CursorLineNr      /8 yellow            none              bold
+EndOfBuffer       /8 blue              none              bold
+StatusLine        /8 grey              black             reverse,bold
+StatusLineNC      /8 grey              black             reverse
+TabLineSel        /8 grey              black             reverse,bold
+TabLine           /8 grey              black             reverse
+
 Pmenu                white             grey30
 PmenuSbar            none              none
 PmenuSel             black             grey
@@ -201,40 +171,58 @@ SpecialKey           cyan              none
 ToolbarButton        none              grey60            bold
 ToolbarLine          none              none
 Visual               white             grey60
-VisualNOS            none              none              underline bold
+VisualNOS            none              none              underline,bold
 WarningMsg           red               none
 WildMenu             black             yellow            bold
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
-Variant: 8
-SpellBad             darkred           yellow            reverse
-SpellCap             seagreen          none              reverse
-SpellLocal           darkcyan          none              reverse
-SpellRare            darkmagenta       yellow            reverse
-Variant: gui 256 16
-SpellBad             red               none              t=underline g=undercurl s=red
-SpellCap             green             none              t=underline g=undercurl s=green
-SpellLocal           cyan              none              t=underline g=undercurl s=cyan
-SpellRare            magenta           none              t=underline g=undercurl s=magenta
+Pmenu             /8 black             darkcyan
+PmenuSbar         /8 none              grey
+PmenuSel          /8 black             grey
+PmenuThumb        /8 none              black
+QuickFixLine      /8 grey              darkmagenta
+Error             /8 red               grey              reverse
+ErrorMsg          /8 grey              red
+LineNr            /8 yellow            none
+Conceal           /8 none              none
+FoldColumn        /8 darkblue          none
+Folded            /8 darkblue          grey
+IncSearch         /8 seagreen          none              reverse
+MatchParen        /8 none              darkcyan
+ModeMsg           /8 none              none              bold
+MoreMsg           /8 seagreen          none
+NonText           /8 blue              none              bold
+Question          /8 seagreen          none              bold
+Search            /8 black             yellow
+SignColumn        /8 darkcyan          none
+SpecialKey        /8 darkcyan          none
+ToolbarButton     /8 grey              black             reverse,bold
+ToolbarLine       /8 none              none
+Visual            /8 none              none              reverse
+VisualNOS         /8 none              none              underline
+WarningMsg        /8 darkred           none
+WildMenu          /8 black             yellow
+debugBreakpoint   /8 darkblue          darkred
+debugPC           /8 darkblue          yellow
+
+SpellBad             red               none              underline
+SpellCap             green             none              underline
+SpellLocal           cyan              none              underline
+SpellRare            magenta           none              underline
+SpellBad        /gui red               none   s=red      undercurl
+SpellCap        /gui green             none   s=green    undercurl
+SpellLocal      /gui cyan              none   s=cyan     undercurl
+SpellRare       /gui magenta           none   s=magenta  undercurl
+
+SpellBad          /8 darkred           yellow            reverse
+SpellCap          /8 seagreen          none              reverse
+SpellLocal        /8 darkcyan          none              reverse
+SpellRare         /8 darkmagenta       yellow            reverse
 
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
-Variant: 8
-Directory            darkcyan          none
-Title                magenta           none
-Comment              darkblue          none              bold
-Constant             magenta           none
-Identifier           darkcyan          none
-Ignore               grey              none
-PreProc              magenta           none              bold
-Special              orange            none
-Statement            yellow            none              bold
-Todo                 yellow            blue              reverse
-Type                 seagreen          none              bold
-Underlined           none              none              underline
-Variant: gui 256 16
 Directory            cyan              none
 Title                magenta           none
 Comment              comment           none
@@ -248,6 +236,18 @@ Todo                 yellow            blue              reverse
 Type                 green             none              bold
 Underlined           comment           none              underline
 
+Directory         /8 darkcyan          none
+Title             /8 magenta           none
+Comment           /8 darkblue          none              bold
+Constant          /8 magenta           none
+Identifier        /8 darkcyan          none
+Ignore            /8 grey              none
+PreProc           /8 magenta           none              bold
+Special           /8 orange            none
+Statement         /8 yellow            none              bold
+Todo              /8 yellow            blue              reverse
+Type              /8 seagreen          none              bold
+Underlined        /8 none              none              underline
 
 
 ;;; "Standard" diff colors

@@ -5,10 +5,11 @@ Short name:  morning
 Description: Colorscheme with light grey background.
 Author:      Original author Bram Moolenaar <Bram@vim.org>
 Maintainer:  Original maintainer Bram Moolenaar <Bram@vim.org>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 
-
+Options:    backend=legacy
+Variants:   256 16 8 0
 Background: light
 
 ;;; Refined syntax colors
@@ -49,7 +50,7 @@ Color: gray        #878787        102            gray
 ;;; Terminal
 
 Term colors: bg0     statement constant preproc identifier type special bg1
-Term colors: comment statement constant preproc identifier type special fg0
+             comment statement constant preproc identifier type special fg0
 
 
 ;;; Links
@@ -67,106 +68,79 @@ PopupNotification  -> Todo
 
 ;;; Chrome
 
-Variant: 8
-Normal             black          gray
-Variant: gui 256 16
 Normal             fg0            bg0
+Normal          /8 black          gray
 
-Variant: 8
-EndOfBuffer        darkblue       none
-Folded             darkblue       none
-CursorLine         none           none           underline
-CursorColumn       none           none
-CursorLineNr       none           none           bold
-Variant: 16
-EndOfBuffer        comment        none
-Folded             folded_fg      none
-CursorLine         none           none           underline
-CursorColumn       none           none           underline
-CursorLineNr       statement      none           underline
-
-Variant: gui 256
 EndOfBuffer        comment        endofbuffer    bold
 Folded             folded_fg      folded
 CursorLine         none           folded
 CursorColumn       none           folded
 CursorLineNr       statement      none           bold
 
-Variant: 8
-QuickFixLine       black          darkyellow
-StatusLine         black          gray           reverse,bold
-StatusLineNC       black          gray           reverse
-VertSplit          black          gray           reverse
-Variant: gui 256 16
+EndOfBuffer    /16 comment        none
+Folded         /16 folded_fg      none
+CursorLine     /16 none           none           underline
+CursorColumn   /16 none           none           underline
+CursorLineNr   /16 statement      none           underline
+
+EndOfBuffer     /8 darkblue       none
+Folded          /8 darkblue       none
+CursorLine      /8 none           none           underline
+CursorColumn    /8 none           none
+CursorLineNr    /8 none           none           bold
+
 QuickFixLine       fg0            wildmenu
 StatusLine         bg2            fg0            bold
 StatusLineNC       status         fg0
 VertSplit          status         fg0
 
-Variant: 8
-Pmenu              black          darkcyan
-PmenuSel           black          darkyellow
-PmenuSbar          none           none
-PmenuThumb         none           darkgreen
-Variant: gui 256 16
+QuickFixLine    /8 black          darkyellow
+StatusLine      /8 black          gray           reverse,bold
+StatusLineNC    /8 black          gray           reverse
+VertSplit       /8 black          gray           reverse
+
 Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           fg0
 
-Variant: 8
-TabLine            gray           black
-TabLineFill        none           none           reverse
-TabLineSel         black          gray
-Variant: gui 256 16
+Pmenu           /8 black          darkcyan
+PmenuSel        /8 black          darkyellow
+PmenuSbar       /8 none           none
+PmenuThumb      /8 none           darkgreen
+
 TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
 TabLineSel         fg0            bg0            bold
 
-Variant: 8
-ToolbarLine        none           none
-ToolbarButton      black          gray           reverse,bold
-Variant: gui 256 16
+TabLine         /8 gray           black
+TabLineFill     /8 none           none           reverse
+TabLineSel      /8 black          gray
+
 ToolbarLine        none           none
 ToolbarButton      none           bg1            bold
 
-Variant: 8
-NonText            darkblue       none           bold
-SpecialKey         darkblue       none           bold
-Variant: gui 256 16
+ToolbarLine     /8 none           none
+ToolbarButton   /8 black          gray           reverse,bold
+
 NonText            comment        bg1            bold
 SpecialKey         status         none
 
-Variant: 8
-Visual             none           none           reverse
-VisualNOS          none           none           underline
-LineNr             none           none           bold
-FoldColumn         none           none
-SignColumn         none           none
-Variant: gui 256 16
+NonText         /8 darkblue       none           bold
+SpecialKey      /8 darkblue       none           bold
+
 Visual             none           visual
 VisualNOS          none           comment
 LineNr             statement      none
 FoldColumn         folded_fg      none
 SignColumn         folded_fg      none
 
-Variant: 8
-Underlined         none           none           underline
+Visual          /8 none           none           reverse
+VisualNOS       /8 none           none           underline
+LineNr          /8 none           none           bold
+FoldColumn      /8 none           none
+SignColumn      /8 none           none
 
-Error              darkred        gray           reverse
-ErrorMsg           darkred        gray           reverse
-WarningMsg         darkmagenta    none
-MoreMsg            darkgreen      none
-ModeMsg            none           none
-Question           darkcyan       none
-
-Todo               black          darkyellow
-MatchParen         gray           darkblue
-Search             gray           darkmagenta
-IncSearch          darkgreen      none           reverse
-WildMenu           fg0            darkyellow
-ColorColumn        black          darkred
-Variant: gui 256 16
 Underlined         special        none           underline
 
 Error              error          bg0            reverse
@@ -184,41 +158,46 @@ WildMenu           fg0            wildmenu       bold
 ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
 lCursor            bg0            statement
+CursorIM -> omit ; FIXME: Added by Lifepillar, untested
 
-Variant: 8
-SpellBad           darkred        none           reverse
-SpellCap           darkcyan       none           reverse
-SpellLocal         darkmagenta    none           reverse
-SpellRare          darkgreen      none           reverse
-Variant: 16
-SpellBad           error          none           underline
-SpellCap           identifier     none           underline
-SpellLocal         statement      none           underline
-SpellRare          type           none           underline
-Variant: gui 256
-SpellBad           error          none           t=underline g=undercurl s=error
-SpellCap           spellcap       none           t=underline g=undercurl s=spellcap
-SpellLocal         statement      none           t=underline g=undercurl s=statement
-SpellRare          type           none           t=underline g=undercurl s=type
+Underlined      /8 none           none           underline
+
+Error           /8 darkred        gray           reverse
+ErrorMsg        /8 darkred        gray           reverse
+WarningMsg      /8 darkmagenta    none
+MoreMsg         /8 darkgreen      none
+ModeMsg         /8 none           none
+Question        /8 darkcyan       none
+
+Todo            /8 black          darkyellow
+MatchParen      /8 gray           darkblue
+Search          /8 gray           darkmagenta
+IncSearch       /8 darkgreen      none           reverse
+WildMenu        /8 fg0            darkyellow
+ColorColumn     /8 black          darkred
+
+SpellBad           error          none s=error   undercurl
+SpellCap           spellcap       none s=spellcap undercurl
+SpellLocal         statement      none s=statement undercurl
+SpellRare          type           none s=type    undercurl
+SpellBad      /256 error          none           underline
+SpellCap      /256 spellcap       none           underline
+SpellLocal    /256 statement      none           underline
+SpellRare     /256 type           none           underline
+
+SpellBad       /16 error          none           underline
+SpellCap       /16 identifier     none           underline
+SpellLocal     /16 statement      none           underline
+SpellRare      /16 type           none           underline
+
+SpellBad        /8 darkred        none           reverse
+SpellCap        /8 darkcyan       none           reverse
+SpellLocal      /8 darkmagenta    none           reverse
+SpellRare       /8 darkgreen      none           reverse
 
 
 ;;; Syntax
 
-Variant: 8
-Comment            darkblue       none           bold
-Constant           darkmagenta    none           bold
-Identifier         darkcyan       none
-Statement          darkred        none           bold
-PreProc            darkmagenta    none
-Type               darkgreen      none
-Special            darkblue       none
-Ignore             none           none
-
-Directory          darkcyan       none           bold
-Conceal            none           none
-
-Title              darkred        none           bold
-Variant: gui 256 16
 Comment            comment        none
 Constant           constant       bg2
 Identifier         identifier     none
@@ -232,6 +211,20 @@ Directory          identifier     none           bold
 Conceal            comment        none
 
 Title              statement      none           bold
+
+Comment         /8 darkblue       none           bold
+Constant        /8 darkmagenta    none           bold
+Identifier      /8 darkcyan       none
+Statement       /8 darkred        none           bold
+PreProc         /8 darkmagenta    none
+Type            /8 darkgreen      none
+Special         /8 darkblue       none
+Ignore          /8 none           none
+
+Directory       /8 darkcyan       none           bold
+Conceal         /8 none           none
+
+Title           /8 darkred        none           bold
 
 
 ;;; "Standard" diff colors
