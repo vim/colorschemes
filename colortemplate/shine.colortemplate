@@ -5,10 +5,11 @@ Short name:  shine
 Description: Light colorscheme inspired by normal text editors.
 Author:      Original author is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
 Maintainer:  Original maintainer is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 
-
+Options:    backend=legacy
+Variants:   256 16 8 0
 Background: light
 
 
@@ -44,7 +45,7 @@ Color: Purple      #6a0dad        55             darkmagenta
 ;;; Terminal
 
 Term colors: Black DarkRed DarkGreen Yellow DarkBlue Purple DarkCyan LightGrey
-Term colors: DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan White
+             DarkGrey LightRed LightGreen MutedYellow LightBlue Magenta Cyan White
 
 ;;; Links
 Terminal           -> Normal
@@ -62,30 +63,19 @@ PopupNotification  -> Todo
 
 
 ;;; Chrome         fg             bg             style
-Variant:    8
-Normal             Black          LightGrey
-Variant:    gui 256 16
 Normal             Black          White
+Normal          /8 Black          LightGrey
 
-Variant:    16 8
-Folded             DarkBlue       none
-CursorLine         none           none           underline
-CursorColumn       none           none
-CursorLineNr       none           none           bold
-Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
 CursorColumn       none           LightGrey
 CursorLineNr       none           LightGrey
 
-Variant:    8
-QuickFixLine       Black          DarkOrange
-StatusLine         Black          LightGrey      reverse,bold
-StatusLineNC       Black          LightGrey      reverse
-StatusLineTerm     Black          DarkGreen      reverse,bold
-StatusLineTermNC   LightGrey      DarkGreen      reverse
-VertSplit          Black          LightGrey      reverse
-Variant:    gui 256 16
+Folded       /16/8 DarkBlue       none
+CursorLine   /16/8 none           none           underline
+CursorColumn /16/8 none           none
+CursorLineNr /16/8 none           none           bold
+
 QuickFixLine       Black          DarkOrange
 StatusLine         White          Black          bold
 StatusLineNC       White          MediumGrey
@@ -93,79 +83,72 @@ StatusLineTerm     Black          LightGreen     bold
 StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
-Variant:    8
-Pmenu              Black          DarkCyan
-PmenuSel           Black          DarkOrange
-PmenuSbar          LightGrey      LightGrey
-PmenuThumb         Black          Black
-Variant:    gui 256 16
+QuickFixLine    /8 Black          DarkOrange
+StatusLine      /8 Black          LightGrey      reverse,bold
+StatusLineNC    /8 Black          LightGrey      reverse
+StatusLineTerm  /8 Black          DarkGreen      reverse,bold
+StatusLineTermNC/8 LightGrey      DarkGreen      reverse
+VertSplit       /8 Black          LightGrey      reverse
+
 Pmenu              Black          MediumGrey
 PmenuSel           Black          MutedYellow
 PmenuSbar          White          White
 PmenuThumb         DarkGrey       DarkGrey
 
-Variant:    8
-TabLine            Black          LightGrey      reverse
-TabLineFill        none           none           reverse
-TabLineSel         LightGrey      Black          reverse
-Variant:    gui 256 16
+Pmenu           /8 Black          DarkCyan
+PmenuSel        /8 Black          DarkOrange
+PmenuSbar       /8 LightGrey      LightGrey
+PmenuThumb      /8 Black          Black
+
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
 TabLineSel         Black          White          bold
 
-Variant:    8
-ToolbarLine        none           none
-ToolbarButton      Black          LightGrey      reverse,bold
-Variant:    gui 256 16
+TabLine         /8 Black          LightGrey      reverse
+TabLineFill     /8 none           none           reverse
+TabLineSel      /8 LightGrey      Black          reverse
+
 ToolbarLine        none           none
 ToolbarButton      none           MediumGrey     bold
 
-Variant:    8
-NonText            DarkBlue       none
-SpecialKey         DarkBlue       none
-Variant:    gui 256 16
+ToolbarLine     /8 none           none
+ToolbarButton   /8 Black          LightGrey      reverse,bold
+
 NonText            LightBlue      White
 SpecialKey         LightBlue      none
 
-Variant:    8
-Visual             none           none           reverse
-VisualNOS          none           none           underline g=bold
-LineNr             none           none           bold
-FoldColumn         LightGrey      none           bold
-SignColumn         none           none
-Variant:    gui 256 16
+NonText         /8 DarkBlue       none
+SpecialKey      /8 DarkBlue       none
+
 Visual             Black          MediumGrey
-VisualNOS          none           none           underline g=bold
+VisualNOS          none           none           underline,bold
+VisualNOS  /256/16 none           none           underline
 LineNr             DarkGrey       none
 FoldColumn         DarkGrey       none
 SignColumn         none           none
 
-Variant:    8
-Underlined         none           none           underline
-Variant:    gui 256 16
+Visual          /8 none           none           reverse
+VisualNOS       /8 none           none           underline
+LineNr          /8 none           none           bold
+FoldColumn      /8 LightGrey      none           bold
+SignColumn      /8 none           none
+
 Underlined         Purple         none           underline
 
-Variant:    8
-Error              DarkRed        none           reverse,bold
-WarningMsg         Purple         none
-MoreMsg            DarkGreen      none
-ModeMsg            Black          none
-Question           DarkRed        none
-Variant:    gui 256 16
+Underlined      /8 none           none           underline
+
 Error              Red            White          reverse
 WarningMsg         Purple         White
 MoreMsg            DarkGreen      White
 ModeMsg            Black          White
 Question           MutedRed       none
 
-Variant:    8
-Todo               Black          DarkOrange
-MatchParen         LightGrey      DarkRed
-Search             LightGrey      Purple
-IncSearch          DarkCyan       DarkOrange     reverse
-WildMenu           Black          DarkOrange     bold
-ColorColumn        Black          DarkRed
-Variant:    gui 256 16
+Error           /8 DarkRed        none           reverse,bold
+WarningMsg      /8 Purple         none
+MoreMsg         /8 DarkGreen      none
+ModeMsg         /8 Black          none
+Question        /8 DarkRed        none
+
 Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
@@ -174,33 +157,44 @@ WildMenu           Black          Yellow         bold
 ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
+CursorIM -> omit ; FIXME: Added by Lifepillar, untested
 
-Variant:    8
-SpellBad           DarkRed        none           reverse
-SpellCap           DarkGreen      none           reverse
-SpellLocal         Purple         none           reverse
-SpellRare          DarkBlue       none           reverse
-Variant:    gui 256 16
-SpellBad           Red            none           t=underline g=undercurl s=Red
-SpellCap           SeaGreen       none           t=underline g=undercurl s=SeaGreen
-SpellLocal         Magenta        none           t=underline g=undercurl s=Magenta
-SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkBlue
+Todo            /8 Black          DarkOrange
+MatchParen      /8 LightGrey      DarkRed
+Search          /8 LightGrey      Purple
+IncSearch       /8 DarkCyan       DarkOrange     reverse
+WildMenu        /8 Black          DarkOrange     bold
+ColorColumn     /8 Black          DarkRed
+
+SpellBad           Red            none s=Red     undercurl
+SpellCap           SeaGreen       none s=SeaGreen undercurl
+SpellLocal         Magenta        none s=Magenta undercurl
+SpellRare          DarkBlue       none s=DarkBlue undercurl
+SpellBad   /256/16 Red            none           underline
+SpellCap   /256/16 SeaGreen       none           underline
+SpellLocal /256/16 Magenta        none           underline
+SpellRare  /256/16 DarkBlue       none           underline
+
+SpellBad        /8 DarkRed        none           reverse
+SpellCap        /8 DarkGreen      none           reverse
+SpellLocal      /8 Purple         none           reverse
+SpellRare       /8 DarkBlue       none           reverse
 
 
 ;;; Syntax
-Variant:    8
-Statement          DarkGreen      none
-Type               DarkGreen      none
-Comment            Black          none           bold
-StorageClass       DarkRed        none           bold
-Conceal            none           none
-Variant:    gui 256 16
 Statement          SeaGreen       none           bold
 Type               SeaGreen       none           bold
-Comment            MediumGrey     none           gui=bold
+Comment            MediumGrey     none           bold
+Comment    /256/16 MediumGrey     none
 StorageClass       Red            none           bold
 Conceal            LightGrey      DarkGrey
-Variant:    gui 256 16 8
+
+Statement       /8 DarkGreen      none
+Type            /8 DarkGreen      none
+Comment         /8 Black          none           bold
+StorageClass    /8 DarkRed        none           bold
+Conceal         /8 none           none
+
 Identifier         DarkCyan       none
 Constant           MutedRed       none
 Number             MutedRed       none           bold

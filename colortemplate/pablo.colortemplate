@@ -4,10 +4,11 @@ Full name:  pablo
 Short name: pablo
 Author:     Ron Aaron <ron@ronware.org>
 Maintainer: Original maintainerRon Aaron <ron@ronware.org>
-Website:    https://github.com/vim/colorschemes
+URL:        https://github.com/vim/colorschemes
 License:    Same as Vim
 
-
+Options:    backend=legacy
+Variants: 256 16 8 0
 Background: dark
 
 ; shim layer that replicates default xterm colors as close as we can
@@ -36,7 +37,7 @@ Color: color07        #e5e5e5     254            grey
 Color: color15        #ffffff     231            white
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+             color08 color09 color10 color11 color12 color13 color14 color15
 
 ; This layer replicates the behaviour of 'default', no matter how broken it is.
 Color: rgbGrey30      #4d4d4d     239            darkgrey
@@ -74,97 +75,6 @@ Color: Folded         #303030     236            darkgrey
 Color: Cursorline     #3a3a3a     237            darkgrey
 
 
-Terminal              -> Normal
-StatusLineTerm        -> StatusLine
-StatusLineTermNC      -> StatusLineNC
-CurSearch             -> Search
-CursorLineFold        -> CursorLine
-CursorLineSign        -> CursorLine
-MessageWindow         -> Pmenu
-PopupNotification     -> Todo
-
-
-Variant: 8
-Normal                color07     color00
-
-EndOfBuffer           color07     color00        bold
-StatusLine            color04     color07        reverse
-StatusLineNC          color07     color00        reverse
-StatusLineTerm        color04     color07        reverse
-StatusLineTermNC      color07     color00        reverse
-VertSplit             color07     color00        reverse
-
-
-Pmenu                 color00     color07
-PmenuSel              color00     color03
-PmenuSbar             none        color00
-PmenuThumb            color00     color03
-
-TabLine               color00     color07
-TabLineFill           none        color07
-TabLineSel            color07     color00
-
-ToolbarButton         color07     color00        reverse,bold
-ToolbarLine           none        color00
-NonText               color06     none
-SpecialKey            color06     none
-
-Folded                color06     none
-Visual                none        none           reverse
-CursorLine            none        none           underline
-CursorColumn          none        none           underline
-CursorLineNr          color03     none           bold
-ColorColumn           color00     color03
-
-QuickFixLine          color00     color05
-VisualNOS             color00     color07
-LineNr                color03     none
-FoldColumn            color06     none
-SignColumn            color06     none
-
-Underlined            none        none           underline
-
-Error                 color07     color01
-ErrorMsg              color07     color01
-ModeMsg               color07     none
-WarningMsg            color01     none
-MoreMsg               color02     none
-Question              color02     none
-
-Todo                  color00     Todo
-MatchParen            color00     color06
-Search                color00     Search
-IncSearch             color00     color02
-WildMenu              color00     color03
-
-SpellBad              color01     color03        reverse
-SpellCap              color04     color03        reverse
-SpellLocal            color05     color03        reverse
-SpellRare             color02     none           reverse
-
-
-;;; :h group-names
-Comment               color07     none           bold
-
-Constant              color06     none           bold
-Identifier            color06     none
-Statement             color03     none           bold
-PreProc               color02     none
-Type                  color02     none           bold
-Special               color04     none
-Underlined            none        none           underline
-Ignore                none        none
-Error                 color07     color01
-Todo                  color00     color03
-
-Directory             color02     none           bold
-Conceal               color07     none
-
-Title                 color05     none           bold
-
-
-Variant: gui 256 16
-
 Normal                color15     color00
 
 ; Syntax
@@ -175,7 +85,7 @@ Statement             Statement   none           bold
 PreProc               PreProc     none
 Type                  Type        none
 Special               Special     none
-Underlined            Underlined  none           t=underline g=underline
+Underlined            Underlined  none           underline
 Ignore                color00     color00
 Error                 color15     color09
 Todo                  color00     Todo
@@ -189,21 +99,23 @@ CursorIM              none        fg
 Title                 Title       none           bold
 Directory             Directory   none
 Search                color00     Search
-IncSearch             color15     none           t=reverse g=reverse
+IncSearch             color15     none           reverse
 NonText               rgbBlue     none           bold
 EndOfBuffer           rgbBlue     none           bold
 ErrorMsg              color15     color01
 WarningMsg            WarningMsg  none
 SignColumn            color14     SignColumn
 
-Variant: 16
-ColorColumn           color15     rgbGrey30
-FoldColumn            none        none
-Folded                rgbBlue     none
-CursorColumn          none        none           underline
-CursorLine            none        none           underline
-CursorLineNr          color11     none           underline
-Variant: gui 256
+Terminal              -> Normal
+StatusLineTerm        -> StatusLine
+StatusLineTermNC      -> StatusLineNC
+CurSearch             -> Search
+CursorLineFold        -> CursorLine
+CursorLineSign        -> CursorLine
+MessageWindow         -> Pmenu
+PopupNotification     -> Todo
+
+
 ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
 Folded                color08     Folded
@@ -211,9 +123,9 @@ CursorColumn          none        Cursorline
 CursorLine            none        Cursorline
 CursorLineNr          color11     Cursorline     bold
 
-Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
-VisualNOS             none        color00        t=underline g=underline,bold
+VisualNOS             none        color00        underline,bold
+VisualNOS     /256/16 none        color00        underline
 LineNr                color08     none
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
@@ -225,17 +137,21 @@ SpecialKey            SpecialKey  none
 WildMenu              color00     color11
 QuickFixLine          color00     color06
 
-SpellBad              color09     none           t=underline g=undercurl s=color09
-SpellCap              color12     none           t=underline g=undercurl s=color12
-SpellLocal            color13     none           t=underline g=undercurl s=color13
-SpellRare             color11     none           t=underline g=undercurl s=color11
+SpellBad              color09     none s=color09 undercurl
+SpellCap              color12     none s=color12 undercurl
+SpellLocal            color13     none s=color13 undercurl
+SpellRare             color11     none s=color11 undercurl
+SpellBad      /256/16 color09     none           underline
+SpellCap      /256/16 color12     none           underline
+SpellLocal    /256/16 color13     none           underline
+SpellRare     /256/16 color11     none           underline
 
 StatusLine            color11     color04
 StatusLineNC          color00     color15
 VertSplit             color00     color15
 
 TabLine               color15     color08
-TabLineFill           none        color00        t=reverse g=reverse
+TabLineFill           none        color00        reverse
 TabLineSel            color15     color00        bold
 
 ToolbarLine           none        color00
@@ -245,6 +161,88 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
+
+ColorColumn       /16 color15     rgbGrey30
+FoldColumn        /16 none        none
+Folded            /16 rgbBlue     none
+CursorColumn      /16 none        none           underline
+CursorLine        /16 none        none           underline
+CursorLineNr      /16 color11     none           underline
+
+
+Normal             /8 color07     color00
+
+EndOfBuffer        /8 color07     color00        bold
+StatusLine         /8 color04     color07        reverse
+StatusLineNC       /8 color07     color00        reverse
+StatusLineTerm     /8 color04     color07        reverse
+StatusLineTermNC   /8 color07     color00        reverse
+VertSplit          /8 color07     color00        reverse
+
+
+Pmenu              /8 color00     color07
+PmenuSel           /8 color00     color03
+PmenuSbar          /8 none        color00
+PmenuThumb         /8 color00     color03
+
+TabLine            /8 color00     color07
+TabLineFill        /8 none        color07
+TabLineSel         /8 color07     color00
+
+ToolbarButton      /8 color07     color00        reverse,bold
+ToolbarLine        /8 none        color00
+NonText            /8 color06     none
+SpecialKey         /8 color06     none
+
+Folded             /8 color06     none
+Visual             /8 none        none           reverse
+CursorLine         /8 none        none           underline
+CursorColumn       /8 none        none           underline
+CursorLineNr       /8 color03     none           bold
+ColorColumn        /8 color00     color03
+
+QuickFixLine       /8 color00     color05
+VisualNOS          /8 color00     color07
+LineNr             /8 color03     none
+FoldColumn         /8 color06     none
+SignColumn         /8 color06     none
+
+Error              /8 color07     color01
+ErrorMsg           /8 color07     color01
+ModeMsg            /8 color07     none
+WarningMsg         /8 color01     none
+MoreMsg            /8 color02     none
+Question           /8 color02     none
+
+; Todo               /8 color00     Todo ; FIXME: conflicting with def. below
+MatchParen         /8 color00     color06
+Search             /8 color00     Search
+IncSearch          /8 color00     color02
+WildMenu           /8 color00     color03
+
+SpellBad           /8 color01     color03        reverse
+SpellCap           /8 color04     color03        reverse
+SpellLocal         /8 color05     color03        reverse
+SpellRare          /8 color02     none           reverse
+
+
+;;; :h group-names
+Comment            /8 color07     none           bold
+
+Constant           /8 color06     none           bold
+Identifier         /8 color06     none
+Statement          /8 color03     none           bold
+PreProc            /8 color02     none
+Type               /8 color02     none           bold
+Special            /8 color04     none
+Underlined         /8 none        none           underline
+Ignore             /8 none        none
+Todo               /8 color00     color03
+
+Directory          /8 color02     none           bold
+Conceal            /8 color07     none
+
+Title              /8 color05     none           bold
 
 
 ;;; "Standard" diff colors

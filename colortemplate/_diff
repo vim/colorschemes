@@ -11,16 +11,12 @@ Color: fgDiffB     #000000        16             black
 Color: bgDiffC8    #5F87AF        67             darkblue
 Color: bgDiffD8    #AF5FAF        133            darkmagenta
 
-Variant:    gui 256 16
-
 DiffAdd            fgDiffW        bgDiffA
 DiffChange         fgDiffW        bgDiffC
 DiffText           fgDiffB        bgDiffT
 DiffDelete         fgDiffW        bgDiffD
 
-Variant:    8
-
-DiffAdd            fgDiffW        bgDiffA
-DiffChange         fgDiffW        bgDiffC8
-DiffText           fgDiffB        bgDiffT
-DiffDelete         fgDiffW        bgDiffD8
+DiffAdd     /8     fgDiffW        bgDiffA
+DiffChange  /8     fgDiffW        bgDiffC8
+DiffText    /8     fgDiffB        bgDiffT
+DiffDelete  /8     fgDiffW        bgDiffD8

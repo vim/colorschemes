@@ -6,9 +6,11 @@ Short name:  blue
 Description: Colorscheme with a blue background
 Author:      Original author Steven Vertigan <steven@vertigan.wattle.id.au>
 Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 
+Options:    backend=legacy
+Variants:   256 16 8 0
 Background: dark
 
 ;;; Color palette
@@ -56,145 +58,9 @@ Color: olivedrab     #6b8e23           64                green
 Color: slateblue     #6a5acd           62                darkmagenta
 
 ;;; Terminal
-Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta x_darkcyan x_gray
-Term colors: x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
+Term colors: x_black    x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta x_darkcyan x_gray
+             x_darkgray x_red     x_green     x_yellow     x_blue     x_magenta     x_cyan     x_white
 
-;;; Group            Foreground        Background        Attributes
-Variant:    gui 256 16
-Normal               yellow            darkblue
-
-Variant:    16
-CursorLine           none              none              underline
-Pmenu                black             darkcyan
-PmenuSel             black             white
-
-Variant:    gui 256
-CursorLine           none              blue
-Pmenu                white             darkcyan
-PmenuSel             darkcyan          white
-
-Variant:    gui 256 16
-QuickFixLine         black             magenta
-ColorColumn          none              darkmagenta
-Conceal              none              none
-Cursor               black             green
-CursorColumn         none              blue
-CursorIM             black             yellow
-CursorLineNr         yellow            blue              g=bold
-EndOfBuffer          yellow            darkblue
-Error                coral             darkblue          reverse
-ErrorMsg             white             red
-FoldColumn           darkcyan          none
-Folded               darkblue          darkyellow
-IncSearch            magenta           black             t=reverse g=standout
-LineNr               cyan              none
-MatchParen           none              none              reverse
-ModeMsg              darkblue          green
-MoreMsg              cyan              none
-NonText              magenta           none
-PmenuSbar            none              none
-PmenuThumb           none              white
-Question             green             none
-Search               yellow            black             reverse
-SignColumn           darkcyan          none
-SpecialKey           cyan              none
-SpellBad             red               none              g=undercurl t=underline s=red
-SpellCap             green             none              g=undercurl t=underline s=green
-SpellLocal           white             none              g=undercurl t=underline s=white
-SpellRare            magenta           none              g=undercurl t=underline s=magenta
-StatusLine           darkblue          cyan
-StatusLineNC         darkblue          darkcyan
-ToolbarButton        white             blue
-ToolbarLine          none              none
-VertSplit            darkcyan          none
-Visual               white             darkcyan
-VisualNOS            darkcyan          white
-WarningMsg           magenta           none
-WildMenu             darkblue          yellow
-debugBreakpoint      green             darkblue          reverse
-debugPC              cyan              darkblue          reverse
-
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
-Directory            cyan              none
-Title                magenta           none
-Comment              comment           none              g=bold
-Constant             cyan              none
-Identifier           gray              none
-Ignore               darkgray          none
-PreProc              green             none
-Special              magenta           none
-Statement            white             none
-Todo                 none              none              reverse
-Type                 orange            none              g=bold
-Underlined           none              none              underline
-Label                yellow            none
-
-Variant: 8
-;;; Chrome
-;;; Group            Foreground        Background        Attributes
-Normal               darkyellow        blue
-
-CursorLine           none              none              underline
-Pmenu                black             cyan
-PmenuSel             black             gray
-
-QuickFixLine         black             magenta
-ColorColumn          none              magenta
-Conceal              none              none
-Cursor               black             green
-CursorColumn         blue              yellow            reverse,bold
-CursorIM             black             yellow
-EndOfBuffer          yellow            blue
-Error                red               blue              reverse
-ErrorMsg             gray              red
-FoldColumn           cyan              none
-Folded               blue              yellow
-IncSearch            magenta           black             reverse
-LineNr               cyan              none
-MatchParen           none              none              reverse
-ModeMsg              blue              green
-MoreMsg              cyan              none
-NonText              magenta           none
-PmenuSbar            none              none
-PmenuThumb           none              white
-Question             green             none
-Search               yellow            black             reverse
-SignColumn           cyan              none
-SpecialKey           cyan              none
-SpellBad             red               yellow            reverse
-SpellCap             green             none              reverse
-SpellLocal           gray              none              reverse
-SpellRare            magenta           yellow            reverse
-StatusLine           cyan              blue              reverse,bold
-StatusLineNC         blue              cyan
-ToolbarButton        blue              gray              reverse,bold
-ToolbarLine          none              none
-VertSplit            cyan              none
-Visual               black             cyan
-VisualNOS            cyan              gray
-WarningMsg           red               none
-WildMenu             blue              yellow
-debugBreakpoint      green             blue              reverse
-debugPC              cyan              blue              reverse
-
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
-Directory            cyan              none
-Title                magenta           none
-Comment              black             none              bold
-Constant             cyan              none
-Identifier           gray              none
-Ignore               gray              none
-PreProc              green             none
-Special              magenta           none
-Statement            gray              none
-Todo                 none              none              reverse
-Type                 red               none
-Underlined           none              none              underline
-Label                yellow            none
-
-Variant: gui 256 16 8
 ;;; Links
 ;;; Chrome
 Terminal             -> Normal
@@ -244,9 +110,146 @@ String               -> Constant
 Structure            -> Type
 Tag                  -> Special
 Typedef              -> Type
-Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
+
+;;; Group            Foreground        Background        Attributes
+Normal               yellow            darkblue
+
+CursorLine           none              blue
+Pmenu                white             darkcyan
+PmenuSel             darkcyan          white
+
+CursorLine  /16      none              none              underline
+Pmenu       /16      black             darkcyan
+PmenuSel    /16      black             white
+
+QuickFixLine         black             magenta
+ColorColumn          none              darkmagenta
+Conceal              none              none
+Cursor               black             green
+CursorColumn         none              blue
+CursorIM             black             yellow
+; CursorLineNr         yellow            blue
+CursorLineNr/gui     yellow            blue              bold
+EndOfBuffer          yellow            darkblue
+Error                coral             darkblue          reverse
+ErrorMsg             white             red
+FoldColumn           darkcyan          none
+Folded               darkblue          darkyellow
+IncSearch            magenta           black             reverse
+IncSearch  /256/16   magenta           black             standout
+LineNr               cyan              none
+MatchParen           none              none              reverse
+ModeMsg              darkblue          green
+MoreMsg              cyan              none
+NonText              magenta           none
+PmenuSbar            none              none
+PmenuThumb           none              white
+Question             green             none
+Search               yellow            black             reverse
+SignColumn           darkcyan          none
+SpecialKey           cyan              none
+SpellBad             red               none  s=red       undercurl
+SpellBad   /256/16   red               none              underline
+SpellCap             green             none  s=green     undercurl
+SpellCap   /256/16   green             none              underline
+SpellLocal           white             none  s=white     undercurl
+SpellLocal /256/16   white             none              underline
+SpellRare            magenta           none  s=magenta   undercurl
+SpellRare  /256/16   magenta           none              underline
+StatusLine           darkblue          cyan
+StatusLineNC         darkblue          darkcyan
+ToolbarButton        white             blue
+ToolbarLine          none              none
+VertSplit            darkcyan          none
+Visual               white             darkcyan
+VisualNOS            darkcyan          white
+WarningMsg           magenta           none
+WildMenu             darkblue          yellow
+debugBreakpoint      green             darkblue          reverse
+debugPC              cyan              darkblue          reverse
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory            cyan              none
+Title                magenta           none
+Comment              comment           none
+Comment    /gui      comment           none              bold
+Constant             cyan              none
+Identifier           gray              none
+Ignore               darkgray          none
+PreProc              green             none
+Special              magenta           none
+Statement            white             none
+Todo                 none              none              reverse
+Type                 orange            none
+Type      /gui       orange            none              bold
+Underlined           none              none              underline
+Label                yellow            none
+
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Normal          /8   darkyellow        blue
+
+CursorLine      /8   none              none              underline
+Pmenu           /8   black             cyan
+PmenuSel        /8   black             gray
+
+QuickFixLine    /8   black             magenta
+ColorColumn     /8   none              magenta
+Conceal         /8   none              none
+Cursor          /8   black             green
+CursorColumn    /8   blue              yellow            reverse,bold
+CursorIM        /8   black             yellow
+EndOfBuffer     /8   yellow            blue
+Error           /8   red               blue              reverse
+ErrorMsg        /8   gray              red
+FoldColumn      /8   cyan              none
+Folded          /8   blue              yellow
+IncSearch       /8   magenta           black             reverse
+LineNr          /8   cyan              none
+MatchParen      /8   none              none              reverse
+ModeMsg         /8   blue              green
+MoreMsg         /8   cyan              none
+NonText         /8   magenta           none
+PmenuSbar       /8   none              none
+PmenuThumb      /8   none              white
+Question        /8   green             none
+Search          /8   yellow            black             reverse
+SignColumn      /8   cyan              none
+SpecialKey      /8   cyan              none
+SpellBad        /8   red               yellow            reverse
+SpellCap        /8   green             none              reverse
+SpellLocal      /8   gray              none              reverse
+SpellRare       /8   magenta           yellow            reverse
+StatusLine      /8   cyan              blue              reverse,bold
+StatusLineNC    /8   blue              cyan
+ToolbarButton   /8   blue              gray              reverse,bold
+ToolbarLine     /8   none              none
+VertSplit       /8   cyan              none
+Visual          /8   black             cyan
+VisualNOS       /8   cyan              gray
+WarningMsg      /8   red               none
+WildMenu        /8   blue              yellow
+debugBreakpoint /8   green             blue              reverse
+debugPC         /8   cyan              blue              reverse
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory       /8   cyan              none
+Title           /8   magenta           none
+Comment         /8   black             none              bold
+Constant        /8   cyan              none
+Identifier      /8   gray              none
+Ignore          /8   gray              none
+PreProc         /8   green             none
+Special         /8   magenta           none
+Statement       /8   gray              none
+Todo            /8   none              none              reverse
+Type            /8   red               none
+Underlined      /8   none              none              underline
+Label           /8   yellow            none
 
 ;;; "Standard" diff colors
 Include: _diff

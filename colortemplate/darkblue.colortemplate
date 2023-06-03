@@ -5,9 +5,11 @@ Full name:   darkblue
 Short name:  darkblue
 Description: For those who prefer dark background
 Author:      Original author Bohdan Vlasyuk <bohdan@vstu.edu.ua>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 
+Options:    backend=legacy
+Variants:   256 16 8 0
 Background: dark
 
 ;;; Color palette
@@ -54,7 +56,7 @@ Color: ogYellow      #ffff60           227               yellow
 
 ;;; Terminal
 Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkMag ogDarkCyan ogLightGrey
-Term colors: ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogMagenta    ogCyan     white
+             ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogMagenta    ogCyan     white
 
 
 Terminal             -> Normal
@@ -108,82 +110,21 @@ MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 
 
-
-Variant:    8
-;;; Chrome
-;;; Group            Foreground        Background        Attributes
-Normal               ogLightGrey       black
-Conceal              none              none
-ColorColumn          ogLightGrey       ogDarkerRed
-CursorLine           none              none              underline
-CursorLineNr         ogOrange          none              bold
-QuickFixLine         ogLightGrey       ogMagenta
-
-Error                ogDarkRed         ogLightGrey       reverse
-FoldColumn           none              none              g=bold
-Folded               ogDarkBlue        none              reverse,bold
-IncSearch            ogLightGrey       ogDarkBlue        reverse
-LineNr               ogGreen           none              bold
-MatchParen           none              none              reverse
-ModeMsg              ogDarkCyan        none
-MoreMsg              ogDarkGreen       none
-NonText              ogBlue            none
-Pmenu                ogLightGrey       ogBlue
-PmenuSbar            none              none
-PmenuSel             ogBlue            ogLightGrey
-PmenuThumb           none              ogLightGrey
-Question             ogDarkGreen       none              bold
-Search               ogDarkCyan        ogBlue
-SignColumn           ogLightGrey       none
-SpecialKey           ogDarkCyan        none
-SpellBad             ogDarkRed         ogOrange          reverse
-SpellCap             ogDarkGreen       none              reverse
-SpellLocal           ogDarkCyan        none              reverse
-SpellRare            ogMagenta         ogOrange          reverse
-StatusLine           ogDarkBlue        ogLightGrey       reverse,bold
-StatusLineNC         ogLightGrey       black             reverse
-VertSplit            ogLightGrey       black             reverse
-TabLine              ogLightGrey       black             reverse
-TabLineSel           ogDarkBlue        ogLightGrey       reverse,bold
-ToolbarButton        ogDarkBlue        ogLightGrey       reverse,bold
-ToolbarLine          none              none
-Visual               ogViolet          ogLightGrey       reverse
-VisualNOS            ogViolet          ogLightGrey       reverse,underline
-WarningMsg           ogDarkRed         none
-WildMenu             ogYellow          black
-debugBreakpoint      ogDarkGreen       ogDarkBlue        reverse
-debugPC              ogDarkCyan        ogDarkBlue        reverse
-
-;;; Syntax
-;;; Group            Foreground        Background        Attributes
-Directory            ogDarkCyan        none
-Title                ogMagenta         none
-Comment              ogDarkBlue        none              bold
-Constant             ogDarkRed         none              bold
-Identifier           ogDarkCyan        none
-Ignore               none              none
-PreProc              ogMagenta         none              bold
-Special              ogOrange          none
-Statement            ogOrange          none              bold
-Todo                 none              none              reverse
-Type                 ogDarkGreen           none
-Underlined           none              none              underline
-
-
-
-Variant:    gui 256 16
-
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               ogLightGrey       ogDeepBlue
 Conceal              none              none
 ColorColumn          ogLightGrey       ogDarkerRed
 Cursor               black             ogYellow
+CursorLine           none              cursorl
+CursorLineNr         ogYellow          cursorl
 QuickFixLine         black             ogLightMag
 
 Error                ogLightRed        none              reverse
-FoldColumn           ogGrey            none              g=bold
-Folded               ogGrey            none              g=bold
+FoldColumn           ogGrey            none              bold
+FoldColumn   /256/16 ogGrey            none
+Folded               ogGrey            none              bold
+Folded       /256/16 ogGrey            none
 IncSearch            white             ogBlue            reverse
 LineNr               ogGreen           none
 MatchParen           none              none              reverse
@@ -195,15 +136,21 @@ PmenuSbar            none              none
 PmenuSel             ogBlue            white
 PmenuThumb           none              white
 Question             ogGreen           none
+Search               ogCyan            ogBlue
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
-SpellBad             ogRed             none              g=undercurl t=underline s=ogRed
-SpellCap             ogGreen           none              g=undercurl t=underline s=ogGreen
-SpellLocal           ogCyan            none              g=undercurl t=underline s=ogCyan
-SpellRare            ogMagenta         none              g=undercurl t=underline s=ogMagenta
+SpellBad             ogRed             none  s=ogRed     undercurl 
+SpellBad     /256/16 ogRed             none              underline
+SpellCap             ogGreen           none  s=ogGreen   undercurl
+SpellCap     /256/16 ogGreen           none              underline
+SpellLocal           ogCyan            none  s=ogCyan    undercurl
+SpellLocal   /256/16 ogCyan            none              underline
+SpellRare            ogMagenta         none  s=ogMagenta undercurl
+SpellRare    /256/16 ogMagenta         none              underline
 StatusLine           ogDeepBlue        ogLightGrey
 StatusLineNC         black             ogGrey
 TabLine              black             ogGrey
+TabLineSel           ogDeepBlue        ogLightGrey
 ToolbarButton        white             ogBlue
 ToolbarLine          none              none
 VertSplit            black             ogGrey
@@ -213,6 +160,7 @@ WarningMsg           ogRed             none
 WildMenu             ogYellow          black
 debugBreakpoint      ogGreen           ogDarkBlue        reverse
 debugPC              ogCyan            ogDarkBlue        reverse
+
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
@@ -230,16 +178,70 @@ Type                 ogGreen           none
 Underlined           ogLightViolet     none              underline
 
 
-Variant:  16
-TabLineSel           white             black
-CursorLine           none              none              underline
-CursorLineNr         ogYellow          none              underline
-Search               white             ogBlue
-Variant:  gui 256
-TabLineSel           ogDeepBlue        ogLightGrey
-CursorLine           none              cursorl
-CursorLineNr         ogYellow          cursorl
-Search               ogCyan            ogBlue
+
+;;; Chrome
+;;; Group            Foreground        Background        Attributes
+Normal          /8   ogLightGrey       black
+Conceal         /8   none              none
+ColorColumn     /8   ogLightGrey       ogDarkerRed
+CursorLine      /8   none              none              underline
+CursorLineNr    /8   ogOrange          none              bold
+QuickFixLine    /8   ogLightGrey       ogMagenta
+
+Error           /8   ogDarkRed         ogLightGrey       reverse
+FoldColumn      /8   none              none
+Folded          /8   ogDarkBlue        none              reverse,bold
+IncSearch       /8   ogLightGrey       ogDarkBlue        reverse
+LineNr          /8   ogGreen           none              bold
+MatchParen      /8   none              none              reverse
+ModeMsg         /8   ogDarkCyan        none
+MoreMsg         /8   ogDarkGreen       none
+NonText         /8   ogBlue            none
+Pmenu           /8   ogLightGrey       ogBlue
+PmenuSbar       /8   none              none
+PmenuSel        /8   ogBlue            ogLightGrey
+PmenuThumb      /8   none              ogLightGrey
+Question        /8   ogDarkGreen       none              bold
+Search          /8   ogDarkCyan        ogBlue
+SignColumn      /8   ogLightGrey       none
+SpecialKey      /8   ogDarkCyan        none
+SpellBad        /8   ogDarkRed         ogOrange          reverse
+SpellCap        /8   ogDarkGreen       none              reverse
+SpellLocal      /8   ogDarkCyan        none              reverse
+SpellRare       /8   ogMagenta         ogOrange          reverse
+StatusLine      /8   ogDarkBlue        ogLightGrey       reverse,bold
+StatusLineNC    /8   ogLightGrey       black             reverse
+VertSplit       /8   ogLightGrey       black             reverse
+TabLine         /8   ogLightGrey       black             reverse
+TabLineSel      /8   ogDarkBlue        ogLightGrey       reverse,bold
+ToolbarButton   /8   ogDarkBlue        ogLightGrey       reverse,bold
+ToolbarLine     /8   none              none
+Visual          /8   ogViolet          ogLightGrey       reverse
+VisualNOS       /8   ogViolet          ogLightGrey       reverse,underline
+WarningMsg      /8   ogDarkRed         none
+WildMenu        /8   ogYellow          black
+debugBreakpoint /8   ogDarkGreen       ogDarkBlue        reverse
+debugPC         /8   ogDarkCyan        ogDarkBlue        reverse
+
+;;; Syntax
+;;; Group            Foreground        Background        Attributes
+Directory       /8   ogDarkCyan        none
+Title           /8   ogMagenta         none
+Comment         /8   ogDarkBlue        none              bold
+Constant        /8   ogDarkRed         none              bold
+Identifier      /8   ogDarkCyan        none
+Ignore          /8   none              none
+PreProc         /8   ogMagenta         none              bold
+Special         /8   ogOrange          none
+Statement       /8   ogOrange          none              bold
+Todo            /8   none              none              reverse
+Type            /8   ogDarkGreen           none
+Underlined      /8   none              none              underline
+
+TabLineSel      /16  white             black
+CursorLine      /16  none              none              underline
+CursorLineNr    /16  ogYellow          none              underline
+Search          /16  white             ogBlue
 
 
 ;;; "Standard" diff colors
