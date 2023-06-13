@@ -1,0 +1,218 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
+
+; Information {{{
+; Mandatory
+Full name:           Fortnight
+Short name:          fortnight
+Author:              C.D. MacEachern <craig.daniel.maceachern@gmail.com>
+; Optional
+Maintainer:          C.D. MacEachern <craig.daniel.maceachern@gmail.com>
+Website:             https://github.com/vim/colorschemes
+Description:         "a period of 14 days : two weeks" - Merriam Webster
+License:             Public domain
+; Prefix for options: short name is used if this key is not present:
+Option Prefix:       fortnight
+Neovim:              yes
+Colortemplate Options: timestamp=0
+; }}}
+
+; Documentation {{{
+; Include: _help.colortemplate
+; }}}
+
+; Common linked groups {{{
+Boolean              -> Constant
+Character            -> Constant
+Conditional          -> Statement
+CurSearch            -> IncSearch
+CursorIM             -> Cursor
+CursorLineFold       -> FoldColumn
+CursorLineSign       -> SignColumn
+Debug                -> Special
+Define               -> PreProc
+Delimiter            -> Special
+Exception            -> Statement
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+lCursor              -> Cursor
+Label                -> Statement
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
+Macro                -> PreProc
+; default was WarningMsg
+MessageWindow        -> Pmenu
+Number               -> Constant
+Operator             -> Statement
+PmenuKind            -> Pmenu
+PmenuKindSel         -> PmenuSel
+PmenuExtra           -> Pmenu
+PmenuExtraSel        -> PmenuSel
+PopupNotification    -> WarningMsg
+PopupSelected        -> PmenuSel
+PreCondit            -> PreProc
+; default was Search
+QuickFixLine         -> PmenuSel
+Repeat               -> Statement
+SpecialChar          -> Special
+SpecialComment       -> Special
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+StorageClass         -> Type
+String               -> Constant
+Structure            -> Type
+Tag                  -> Special
+Terminal             -> Normal
+Typedef              -> Type
+; }}}
+
+Background: dark
+
+; Color palette {{{
+; Color: name        GUI               Base256
+Color: black         #262626           235
+Color: red           #CB8988           174
+Color: green         #8FAE8A           108
+Color: yellow        #AFAF87           144
+Color: blue          #98B1C8           110
+Color: magenta       #AF87AF           139
+Color: cyan          #87AFAF           109
+Color: white         #D0D0D0           252
+Color: brightblack   #A8A8A8           145
+Color: brightred     #CB8988           174
+Color: brightgreen   #8FAE8A           108
+Color: brightyellow  #EED090           144
+Color: brightblue    #98B1C8           110
+Color: brightmagenta #BCA7C5           182
+Color: brightcyan    #A4C8C4           152
+Color: brightwhite   #D0D0D0           252
+
+; Define some 16-255 index colors:
+Color: cursorlngray  #303030           236
+Color: foldedgray    #3a3a3a           237
+Color: stlyellow     #afaf87           144
+Color: stlNCgray     #444444           238
+Color: colorcol      #3a3a3a           237
+Color: orange        #d7af5f           179
+Color: comment       #6c6c6c           242
+Color: pmenublack    #303030           236
+; }}}
+
+; Terminal colors {{{
+Term colors: black red green yellow blue magenta cyan white
+Term colors: brightblack brightred brightgreen brightyellow
+Term colors: brightblue brightmagenta brightcyan brightwhite
+; }}}
+
+; Default highlight groups {{{
+; GroupName          fg                bg                attributes
+; Normal must be defined first
+Normal               white             black
+
+ColorColumn          none              colorcol
+Conceal              brightblack       none
+Cursor               black             white
+CursorColumn         none              cursorlngray
+CursorLine           none              cursorlngray
+CursorLineNr         magenta           none
+debugPC              black             blue
+debugBreakpoint      black             orange
+DiffAdd              green             black             reverse
+DiffChange           blue              black             reverse
+DiffDelete           red               black             reverse
+DiffText             white             black             reverse
+Directory            blue              none
+EndOfBuffer          brightblack       none
+ErrorMsg             red               black             reverse
+Folded               white             foldedgray
+FoldColumn           foldedgray        black
+IncSearch            red               black             reverse
+LineNr               comment           none
+MatchParen           orange            none
+ModeMsg              green             black             reverse
+MoreMsg              cyan              none
+NonText              brightblack       none
+Pmenu                white             pmenublack
+PmenuSbar            white             pmenublack
+PmenuSel             magenta           black             reverse
+PmenuThumb           white             pmenublack
+Question             green             none
+Search               black             yellow
+SignColumn           foldedgray        black
+SpecialKey           brightblack       none
+SpellBad             red               none              s=red undercurl
+SpellCap             blue              none              s=blue undercurl
+SpellLocal           magenta           none              s=magenta undercurl
+SpellRare            cyan              none              s=cyan undercurl
+StatusLine           black             stlyellow
+StatusLineNC         stlyellow         stlNCgray
+TabLine              stlyellow         stlNCgray
+TabLineFill          stlNCgray         stlNCgray
+TabLineSel           black             stlyellow
+; required none none here to pickup tablinesel/tabline colors
+Title                none              none
+VertSplit            white             black
+Visual               none              none              reverse
+VisualNOS            none              none              underline
+WarningMsg           orange            none
+WildMenu             black             magenta
+
+Comment              comment           none
+Constant             magenta           none
+Error                red               black             reverse
+Identifier           green             none
+Ignore               none              none
+PreProc              yellow            none
+Special              cyan              none
+Statement            blue              none
+Todo                 yellow            black             reverse
+Type                 blue              none
+Underlined           none              none              underline
+ToolbarLine          white             stlNCgray
+ToolbarButton        black             white
+; }}}
+
+; Additional highlight groups {{{
+; Neovim-only section: groups altered from the shipped defaults
+; to fit our theme and/or make them more usable
+
+; These were setup with 0-15 cterm values, and gui named colors
+; like Orange and LightGreen, let's do better
+DiagnosticError      red               none
+DiagnosticWarn       orange            none
+DiagnosticInfo       blue              none
+DiagnosticHint       brightblack       none
+DiagnosticOk         green             none
+DiagnosticUnderlineError  red          none              underline s=red
+DiagnosticUnderlineWarn   orange       none              underline s=orange
+DiagnosticUnderlineInfo   blue         none              underline s=blue
+DiagnosticUnderlineHint   brightblack  none              underline s=brightblack
+DiagnosticUnderlineOk     green        none              underline s=green
+DiagnosticDeprecated      none         none              strikethrough s=red
+; default was unreadable red fg on red bg
+NvimInternalError    black             red
+RedrawDebugNormal    none              none              reverse
+RedrawDebugClear     none              yellow
+RedrawDebugComposed  none              green
+; default was ctermbg=9 guibg=Red
+RedrawDebugRecompose none              red
+; highlight from builtin :checkhealth buffer, adjust green to ours
+healthSuccess        black             green
+
+; default was link to StatusLine, looks bad with e.g.,
+; set fillchars=msgsep:─
+; without msgsep set it will be just a blank line which is ok too
+MsgSeparator         -> WinSeparator
+; default cleared
+NormalNC             -> Normal
+; default is reversed which make caret hard to spot when using visual mode
+TerminalCursor       -> Cursor
+TerminalCursorNC     -> Cursor
+; default was cterm=bold gui=bold
+WinBar               -> Pmenu
+; }}}
+
+; B/W variant {{{
+Include: _tcozero
+; }}}
