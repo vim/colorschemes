@@ -58,7 +58,7 @@ hi! link Terminal Normal
 hi! link Typedef Type
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#262626', '#cb8988', '#8fae8a', '#afaf87', '#98b1c8', '#af87af', '#87afaf', '#d0d0d0', '#a8a8a8', '#cb8988', '#8fae8a', '#eed090', '#98b1c8', '#bca7c5', '#a4c8c4', '#d0d0d0']
+  let g:terminal_ansi_colors = ['#262626', '#cb8988', '#8fae8a', '#afaf87', '#98b1c8', '#af87af', '#87afaf', '#d0d0d0', '#a8a8a8', '#cb8988', '#8fae8a', '#afaf87', '#98b1c8', '#af87af', '#87afaf', '#d0d0d0']
 endif
 if has('nvim')
   let g:terminal_color_0 = '#262626'
@@ -72,10 +72,10 @@ if has('nvim')
   let g:terminal_color_8 = '#a8a8a8'
   let g:terminal_color_9 = '#cb8988'
   let g:terminal_color_10 = '#8fae8a'
-  let g:terminal_color_11 = '#eed090'
+  let g:terminal_color_11 = '#afaf87'
   let g:terminal_color_12 = '#98b1c8'
-  let g:terminal_color_13 = '#bca7c5'
-  let g:terminal_color_14 = '#a4c8c4'
+  let g:terminal_color_13 = '#af87af'
+  let g:terminal_color_14 = '#87afaf'
   let g:terminal_color_15 = '#d0d0d0'
 endif
 hi Normal guifg=#d0d0d0 guibg=#262626 gui=NONE cterm=NONE
@@ -328,10 +328,10 @@ endif
 " Color: brightblack   #A8A8A8           145
 " Color: brightred     #CB8988           174
 " Color: brightgreen   #8FAE8A           108
-" Color: brightyellow  #EED090           144
+" Color: brightyellow  #AFAF87           144
 " Color: brightblue    #98B1C8           110
-" Color: brightmagenta #BCA7C5           182
-" Color: brightcyan    #A4C8C4           152
+" Color: brightmagenta #AF87AF           182
+" Color: brightcyan    #87AFAF           152
 " Color: brightwhite   #D0D0D0           252
 " Color: cursorlngray  #303030           236
 " Color: foldedgray    #3a3a3a           237

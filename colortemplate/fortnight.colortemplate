@@ -82,10 +82,10 @@ Color: white         #D0D0D0           252
 Color: brightblack   #A8A8A8           145
 Color: brightred     #CB8988           174
 Color: brightgreen   #8FAE8A           108
-Color: brightyellow  #EED090           144
+Color: brightyellow  #AFAF87           144
 Color: brightblue    #98B1C8           110
-Color: brightmagenta #BCA7C5           182
-Color: brightcyan    #A4C8C4           152
+Color: brightmagenta #AF87AF           182
+Color: brightcyan    #87AFAF           152
 Color: brightwhite   #D0D0D0           252
 
 ; Define some 16-255 index colors:
