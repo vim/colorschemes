@@ -89,11 +89,11 @@ Color: brightcyan    #87AFAF           152
 Color: brightwhite   #D0D0D0           252
 
 ; Define some 16-255 index colors:
-Color: cursorlngray  #303030           236
+Color: cursorlngray  #3a3a3a           237
 Color: foldedgray    #3a3a3a           237
 Color: stlyellow     #afaf87           144
 Color: stlNCgray     #444444           238
-Color: colorcol      #3a3a3a           237
+Color: colorcol      #1c1c1c           234
 Color: orange        #d7af5f           179
 Color: comment       #6c6c6c           242
 Color: pmenublack    #303030           236

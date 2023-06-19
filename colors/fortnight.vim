@@ -79,11 +79,11 @@ if has('nvim')
   let g:terminal_color_15 = '#d0d0d0'
 endif
 hi Normal guifg=#d0d0d0 guibg=#262626 gui=NONE cterm=NONE
-hi ColorColumn guifg=NONE guibg=#3a3a3a gui=NONE cterm=NONE
+hi ColorColumn guifg=NONE guibg=#1c1c1c gui=NONE cterm=NONE
 hi Conceal guifg=#a8a8a8 guibg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#262626 guibg=#d0d0d0 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE guibg=#303030 gui=NONE cterm=NONE
-hi CursorLine guifg=NONE guibg=#303030 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE guibg=#3a3a3a gui=NONE cterm=NONE
+hi CursorLine guifg=NONE guibg=#3a3a3a gui=NONE cterm=NONE
 hi CursorLineNr guifg=#af87af guibg=NONE gui=NONE cterm=NONE
 hi debugPC guifg=#262626 guibg=#98b1c8 gui=NONE cterm=NONE
 hi debugBreakpoint guifg=#262626 guibg=#d7af5f gui=NONE cterm=NONE
@@ -163,11 +163,11 @@ hi! link WinBar Pmenu
 
 if s:t_Co >= 256
   hi Normal ctermfg=252 ctermbg=235 cterm=NONE
-  hi ColorColumn ctermfg=NONE ctermbg=237 cterm=NONE
+  hi ColorColumn ctermfg=NONE ctermbg=234 cterm=NONE
   hi Conceal ctermfg=145 ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=235 ctermbg=252 cterm=NONE
-  hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE
-  hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE
+  hi CursorColumn ctermfg=NONE ctermbg=237 cterm=NONE
+  hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE
   hi CursorLineNr ctermfg=139 ctermbg=NONE cterm=NONE
   hi debugPC ctermfg=235 ctermbg=110 cterm=NONE
   hi debugBreakpoint ctermfg=235 ctermbg=179 cterm=NONE
@@ -333,11 +333,11 @@ endif
 " Color: brightmagenta #AF87AF           182
 " Color: brightcyan    #87AFAF           152
 " Color: brightwhite   #D0D0D0           252
-" Color: cursorlngray  #303030           236
+" Color: cursorlngray  #3a3a3a           237
 " Color: foldedgray    #3a3a3a           237
 " Color: stlyellow     #afaf87           144
 " Color: stlNCgray     #444444           238
-" Color: colorcol      #3a3a3a           237
+" Color: colorcol      #1c1c1c           234
 " Color: orange        #d7af5f           179
 " Color: comment       #6c6c6c           242
 " Color: pmenublack    #303030           236
