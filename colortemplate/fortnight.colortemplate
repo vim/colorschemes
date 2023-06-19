@@ -96,7 +96,7 @@ Color: stlNCgray     #444444           238
 Color: colorcol      #1c1c1c           234
 Color: orange        #d7af5f           179
 Color: comment       #6c6c6c           242
-Color: pmenublack    #303030           236
+Color: pmenu         #afafd7           146
 ; }}}
 
 ; Terminal colors {{{
@@ -133,10 +133,10 @@ MatchParen           orange            none
 ModeMsg              green             black             reverse
 MoreMsg              cyan              none
 NonText              brightblack       none
-Pmenu                white             pmenublack
-PmenuSbar            white             pmenublack
+Pmenu                black             pmenu
+PmenuSbar            black             pmenu
 PmenuSel             magenta           black             reverse
-PmenuThumb           white             pmenublack
+PmenuThumb           black             pmenu
 Question             green             none
 Search               black             yellow
 SignColumn           foldedgray        black

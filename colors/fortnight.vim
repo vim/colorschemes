@@ -102,10 +102,10 @@ hi MatchParen guifg=#d7af5f guibg=NONE gui=NONE cterm=NONE
 hi ModeMsg guifg=#8fae8a guibg=#262626 gui=reverse cterm=reverse
 hi MoreMsg guifg=#87afaf guibg=NONE gui=NONE cterm=NONE
 hi NonText guifg=#a8a8a8 guibg=NONE gui=NONE cterm=NONE
-hi Pmenu guifg=#d0d0d0 guibg=#303030 gui=NONE cterm=NONE
-hi PmenuSbar guifg=#d0d0d0 guibg=#303030 gui=NONE cterm=NONE
+hi Pmenu guifg=#262626 guibg=#afafd7 gui=NONE cterm=NONE
+hi PmenuSbar guifg=#262626 guibg=#afafd7 gui=NONE cterm=NONE
 hi PmenuSel guifg=#af87af guibg=#262626 gui=reverse cterm=reverse
-hi PmenuThumb guifg=#d0d0d0 guibg=#303030 gui=NONE cterm=NONE
+hi PmenuThumb guifg=#262626 guibg=#afafd7 gui=NONE cterm=NONE
 hi Question guifg=#8fae8a guibg=NONE gui=NONE cterm=NONE
 hi Search guifg=#262626 guibg=#afaf87 gui=NONE cterm=NONE
 hi SignColumn guifg=#3a3a3a guibg=#262626 gui=NONE cterm=NONE
@@ -186,10 +186,10 @@ if s:t_Co >= 256
   hi ModeMsg ctermfg=108 ctermbg=235 cterm=reverse
   hi MoreMsg ctermfg=109 ctermbg=NONE cterm=NONE
   hi NonText ctermfg=145 ctermbg=NONE cterm=NONE
-  hi Pmenu ctermfg=252 ctermbg=236 cterm=NONE
-  hi PmenuSbar ctermfg=252 ctermbg=236 cterm=NONE
+  hi Pmenu ctermfg=235 ctermbg=146 cterm=NONE
+  hi PmenuSbar ctermfg=235 ctermbg=146 cterm=NONE
   hi PmenuSel ctermfg=139 ctermbg=235 cterm=reverse
-  hi PmenuThumb ctermfg=252 ctermbg=236 cterm=NONE
+  hi PmenuThumb ctermfg=235 ctermbg=146 cterm=NONE
   hi Question ctermfg=108 ctermbg=NONE cterm=NONE
   hi Search ctermfg=235 ctermbg=144 cterm=NONE
   hi SignColumn ctermfg=237 ctermbg=235 cterm=NONE
@@ -340,7 +340,7 @@ endif
 " Color: colorcol      #1c1c1c           234
 " Color: orange        #d7af5f           179
 " Color: comment       #6c6c6c           242
-" Color: pmenublack    #303030           236
+" Color: pmenu         #afafd7           146
 " Term colors: black red green yellow blue magenta cyan white
 " Term colors: brightblack brightred brightgreen brightyellow
 " Term colors: brightblue brightmagenta brightcyan brightwhite
