@@ -125,8 +125,8 @@ PmenuExtraSel                  color00        color03
 Variant: gui 256 16
 SignColumn                     none           none
 
-Error                          color15        color01
-ErrorMsg                       color15        color01
+Error                          color01        color15        reverse
+ErrorMsg                       color01        color15        reverse
 ModeMsg                        none           none           bold
 MoreMsg                        color10        none
 Question                       color13        none
@@ -147,7 +147,7 @@ lCursor                        colorlC        color00        reverse
 
 
 Variant: gui 256 16
-Visual                         color00        color04
+Visual                         color04        color00        reverse
 VisualNOS                      color00        color12
 
 
@@ -253,7 +253,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         color00        color04
+Visual                         color04        color00        reverse
 MatchParen                     none           none           bold,underline
 
 VisualNOS                      color00        color04
@@ -396,8 +396,8 @@ PmenuExtraSel                  color00        color03
 Variant: gui 256 16
 SignColumn                     none           none
 
-Error                          color15        color09
-ErrorMsg                       color15        color09
+Error                          color09        color15        reverse
+ErrorMsg                       color09        color15        reverse
 ModeMsg                        none           none           bold
 MoreMsg                        color02        none
 Question                       color05        none
@@ -418,7 +418,7 @@ lCursor                        colorlC        color00        reverse
 
 
 Variant: gui 256 16
-Visual                         color15        color12
+Visual                         color12        color15        reverse
 VisualNOS                      color15        color04
 
 
@@ -526,7 +526,7 @@ debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
 
-Visual                         color07        color04
+Visual                         color04        color07        reverse
 MatchParen                     none           none           bold,underline
 
 VisualNOS                      color00        color04
@@ -568,3 +568,4 @@ DiffDelete                     color01        none
 Background: any
 
 Include: _tcozero
+
