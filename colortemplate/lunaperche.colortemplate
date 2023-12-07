@@ -126,7 +126,7 @@ Color: colorTab                #585858        240            grey
 Color: colorC                  #FFFFFF        231            white
 Color: colorlC                 #FF5FFF        207            magenta
 Color: colorV                  #005F87        24             darkblue
-Color: colorMP                 #C5E7C5        30             darkcyan
+Color: colorMP                 #ff00af        199            magenta
 Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
 
@@ -216,16 +216,15 @@ debugBreakpoint                color06        none           reverse
 Variant: gui
 Cursor                         none           none           reverse
 lCursor                        colorlC        color00        reverse
-Visual                         color15        colorV
-MatchParen                     colorMP        color00        reverse
 
 
-Variant: 256 16
+Variant: gui 256
 Visual                         color15        colorV
-MatchParen                     colorMP        color00        reverse
+MatchParen                     colorMP        none           bold
 
 
 Variant: 16
+MatchParen                     none           none           bold,underline
 VisualNOS                      color00        color06
 CursorLine                     none           none           underline
 CursorColumn                   color00        color11
@@ -348,7 +347,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Visual                         none           none           reverse
-MatchParen                     colorMP        color00        reverse
+MatchParen                     colorMP        none           bold
 
 VisualNOS                      color00        color06
 CursorLine                     none           none           underline
@@ -420,7 +419,7 @@ Color: colorTab                #BCBCBC        250            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #5F87AF        67             darkblue
-Color: colorMP                 #C5E7C5        30             darkcyan
+Color: colorMP                 #ff00af        199            magenta
 Color: colorPMenuSel           #C6C6C6        251            darkcyan
 Color: colorDim                #626262        241            darkgrey
 
@@ -502,16 +501,16 @@ debugBreakpoint                color06        none           reverse
 Variant: gui
 Cursor                         none           none           reverse
 lCursor                        colorlC        color00        reverse
-Visual                         color15        colorV
-MatchParen                     none           colorMP
 
 
-Variant: 256 16
+Variant: gui 256
 Visual                         color15        colorV
-MatchParen                     colorMP        color15        reverse
+MatchParen                     colorMP        none           bold
 
 
 Variant: 16
+Visual                         color15        colorV
+MatchParen                     none           none           bold,underline
 VisualNOS                      color00        color14
 CursorLine                     none           none           underline
 CursorColumn                   color00        color11
@@ -635,7 +634,7 @@ debugBreakpoint                color06        none           reverse
 
 
 Visual                         none           none           reverse
-MatchParen                     colorMP        color07        reverse
+MatchParen                     colorMP        none           bold
 
 VisualNOS                      color00        color06
 CursorLine                     none           none           underline
