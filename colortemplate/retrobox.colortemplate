@@ -166,7 +166,7 @@ EndOfBuffer                    none           none
 ; Common {{{
 Variant: gui 256 16 8
 Conceal                        blue           none
-Cursor                         none           none           reverse
+Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse
 DiffChange                     aqua           bg0            reverse
 DiffDelete                     red            bg0            reverse
@@ -218,7 +218,7 @@ Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
 Underlined                     blue           none           underline
-CursorIM                       none           none           reverse
+CursorIM                       bg0            fg0
 
 
 
@@ -362,7 +362,7 @@ EndOfBuffer                    none           none
 ; Common {{{
 Variant: gui 256 16 8
 Conceal                        blue           none
-Cursor                         none           none           reverse
+Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse
 DiffChange                     aqua           bg0            reverse
 DiffDelete                     red            bg0            reverse
@@ -414,7 +414,7 @@ Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
 Underlined                     blue           none           underline
-CursorIM                       none           none           reverse
+CursorIM                       bg0            fg0
 
 
 Background: any
