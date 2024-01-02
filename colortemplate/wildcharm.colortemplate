@@ -287,9 +287,9 @@ Ignore                         none           none
 
 
 DiffAdd                        color00        color02
-DiffChange                     color00        color07
-DiffText                       color00        color06
-DiffDelete                     color01        none
+DiffChange                     color00        color04
+DiffText                       color00        color05
+DiffDelete                     color00        color01
 
 
 
@@ -560,9 +560,9 @@ Ignore                         none           none
 
 
 DiffAdd                        color00        color02
-DiffChange                     color07        color00
-DiffText                       color00        color06
-DiffDelete                     color01        none
+DiffChange                     color00        color04
+DiffText                       color00        color05
+DiffDelete                     color00        color01
 
 
 Background: any
