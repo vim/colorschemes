@@ -60,7 +60,7 @@ Color: colorMP                 #ff00af        199            magenta
 
 
 ; Diff colors
-Color: diffAdd                 #5f875f        65             darkmagenta
+Color: diffAdd                 #5f875f        65             darkgreen
 Color: diffAddFg               #afffaf        157            black
 Color: diffDelete              #875f5f        95             darkred
 Color: diffDeleteFg            #ffafaf        217            black
@@ -270,13 +270,13 @@ SpellRare                      color05        none           reverse
 Comment                        none           none           bold
 Constant                       color01        none
 String                         color02        none
-Identifier                     none           none
+Identifier                     color05        none
 
 Statement                      color04        none           bold
 Type                           color03        none
 
 PreProc                        color06        none
-Special                        color06        none
+Special                        color05        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
@@ -286,9 +286,9 @@ Conceal                        none           none
 Ignore                         none           none
 
 
-DiffAdd                        color00        color05
-DiffChange                     color00        color06
-DiffText                       color00        color07
+DiffAdd                        color00        color02
+DiffChange                     color00        color07
+DiffText                       color00        color06
 DiffDelete                     color01        none
 
 
@@ -337,7 +337,7 @@ Color: colorMP                 #ff00af        199            magenta
 
 
 ; Diff colors
-Color: diffAdd                 #afd7af        151            darkmagenta
+Color: diffAdd                 #afd7af        151            darkgreen
 Color: diffAddFg               #005f00        22             black
 Color: diffDelete              #ffd7d7        224            darkred
 Color: diffDeleteFg            #875f5f        95             black
@@ -543,13 +543,13 @@ SpellRare                      color05        color00        reverse
 Comment                        none           none           bold
 Constant                       color01        none
 String                         color02        none
-Identifier                     none           none
+Identifier                     color05        none
 
 Statement                      color04        none           bold
 Type                           color03        none
 
 PreProc                        color06        none
-Special                        color06        none
+Special                        color05        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
@@ -559,9 +559,9 @@ Conceal                        none           none
 Ignore                         none           none
 
 
-DiffAdd                        color00        color05
-DiffChange                     color00        color06
-DiffText                       color07        color00
+DiffAdd                        color00        color02
+DiffChange                     color07        color00
+DiffText                       color00        color06
 DiffDelete                     color01        none
 
 
