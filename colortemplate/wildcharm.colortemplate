@@ -259,7 +259,7 @@ MatchParen                     none           none           bold,underline
 VisualNOS                      color00        color04
 CursorLine                     none           none           underline
 CursorColumn                   color00        color03
-Folded                         color00        none           bold
+Folded                         color07        none           bold
 ColorColumn                    color00        color03
 
 SpellBad                       color01        none           reverse
@@ -272,7 +272,7 @@ Constant                       color01        none
 String                         color02        none
 Identifier                     color05        none
 
-Statement                      color04        none           bold
+Statement                      color04        none
 Type                           color03        none
 
 PreProc                        color06        none
@@ -545,7 +545,7 @@ Constant                       color01        none
 String                         color02        none
 Identifier                     color05        none
 
-Statement                      color04        none           bold
+Statement                      color04        none
 Type                           color03        none
 
 PreProc                        color06        none
