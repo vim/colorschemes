@@ -70,4 +70,6 @@ If you use a plugin manager, do the same as with your other plugins.
 
 The original colorschemes can be found under `legacy_colors`.
 
+If you prefer them over the remakes, they have been packaged as a plugin for your convenience here:  https://github.com/romainl/vim-legacy-colorschemes.
+
 [//]: # ( Vim: set spell spelllang=en: )
