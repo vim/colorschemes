@@ -61,6 +61,7 @@ StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+Added              -> Constant
 
 Variant: 8
 Normal             color02        color00
