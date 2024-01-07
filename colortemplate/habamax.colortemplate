@@ -284,6 +284,7 @@ Variant:                gui 256 16 8
 DiffAdd                 white          diffAdd
 DiffDelete              diffDelete     none
 diffAdded               color02        none
+diffChanged             color06        none
 diffRemoved             color01        none
 diffSubname             color05        none
 Variant:                8
