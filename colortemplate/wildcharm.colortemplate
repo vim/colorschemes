@@ -201,6 +201,7 @@ DiffChange                     diffChangeFg   diffChange
 DiffText                       diffTextFg     diffText
 DiffDelete                     diffDeleteFg   diffDelete
 diffAdded                      color02        none
+diffChanged                    color04        none
 diffRemoved                    color01        none
 
 
@@ -471,7 +472,8 @@ DiffAdd                        diffAddFg      diffAdd
 DiffChange                     diffChangeFg   diffChange
 DiffText                       diffTextFg     diffText
 DiffDelete                     diffDeleteFg   diffDelete
-diffAdded                      color02        none
+diffAdded                      color10        none
+diffChanged                    color12        none
 diffRemoved                    color09        none
 
 
