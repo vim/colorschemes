@@ -275,6 +275,7 @@ DiffChange                     fgDiff         diffChange
 DiffText                       fgDiffText     diffText
 DiffDelete                     diffDelete     none
 diffAdded                      color10        none
+diffChanged                    color12        none
 diffRemoved                    diffDelete     none
 diffSubname                    color13        none
 
@@ -560,6 +561,7 @@ DiffChange                     fgDiff         diffChange
 DiffText                       fgDiff         diffText
 DiffDelete                     diffDelete     none
 diffAdded                      color02        none
+diffChanged                    color04        none
 diffRemoved                    color09        none
 diffSubname                    color05        none
 
