@@ -73,8 +73,8 @@ CursorIM             -> Cursor
 LineNrAbove          -> LineNr
 LineNrBelow          -> LineNr
 Debug                -> Special
-diffAdded            -> String
-diffRemoved          -> WarningMsg
+Added                -> String
+Removed              -> WarningMsg
 diffOnly             -> WarningMsg
 diffNoEOL            -> WarningMsg
 diffIsA              -> WarningMsg
