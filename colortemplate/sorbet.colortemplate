@@ -104,6 +104,9 @@ Variant: gui 256
 Normal               dark7             guibg
 
 ; Group              Foreground        Background        Attributes
+Added                dark2             none
+Changed              dark4             none
+Removed              dark1             none
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       dark0             reverse
@@ -173,7 +176,6 @@ ToolbarLine          none              dark0
 ToolbarButton        dark7             dark0             bold
 
 ; Syntax overrides
-DiffRemoved          dark1             none
 debugBreakpoint      statuslineNC      dark0             reverse,bold
 ; }}}
 
@@ -206,6 +208,9 @@ VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
+Added                dark2             none
+Changed              dark4             none
+Removed              dark1             none
 ColorColumn          none              none              reverse
 Conceal              none              none
 Cursor               none              none              reverse
@@ -263,7 +268,6 @@ ToolbarLine          none              none              reverse
 ToolbarButton        none              none              bold,reverse
 
 ; Syntax overrides
-DiffRemoved          dark1             none
 debugBreakpoint      none              none              reverse,bold
 
 ; Template for black & white terminals
