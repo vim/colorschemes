@@ -14,6 +14,9 @@ License:       Vim License (see `:help license`)`
 
 
 ; Global definitions - put at the top of the colorscheme {{{
+Added                -> Normal
+Changed              -> Normal
+Removed              -> Normal
 Terminal             -> Normal
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
@@ -101,9 +104,6 @@ Variant: gui 256
 Normal               dark7             dark0
 
 ; Group              Foreground        Background        Attributes
-Added                dark2             none
-Changed              dark4             none
-Removed              dark1             none
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       dark0             reverse
@@ -204,9 +204,6 @@ VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
-Added                dark2             none
-Changed              dark4             none
-Removed              dark1             none
 ColorColumn          none              none              reverse
 Conceal              none              none
 Cursor               none              none              reverse
@@ -315,9 +312,6 @@ Variant: gui 256
 Normal               light0            light7
 
 ; Group              Foreground        Background        Attributes
-Added                light2            none
-Changed              light4            none
-Removed              light1            none
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       light0            reverse
@@ -416,9 +410,6 @@ VertSplit            none              none
 Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
-Added                light2            none
-Changed              light4            none
-Removed              light1            none
 ColorColumn          none              none              reverse
 Conceal              none              none
 Cursor               none              none              reverse
