@@ -171,10 +171,10 @@ SpellCap                       none           none           g=undercurl s=color
 SpellLocal                     none           none           g=undercurl s=color02
 SpellRare                      none           none           g=undercurl s=color13
 Variant: 256 16
-SpellBad                       color01        color15        reverse
-SpellCap                       color06        color00        reverse
-SpellLocal                     color10        color00        reverse
-SpellRare                      color13        color00        reverse
+SpellBad                       color01        none           underline
+SpellCap                       color06        none           underline
+SpellLocal                     color10        none           underline
+SpellRare                      color13        none           underline
 
 ;;; :h group-names
 Variant: gui 256 16
@@ -443,10 +443,10 @@ SpellCap                       none           none           g=undercurl s=color
 SpellLocal                     none           none           g=undercurl s=color02
 SpellRare                      none           none           g=undercurl s=color13
 Variant: 256 16
-SpellBad                       color09        color15        reverse
-SpellCap                       color06        color15        reverse
-SpellLocal                     color02        color15        reverse
-SpellRare                      color13        color15        reverse
+SpellBad                       color09        none           underline
+SpellCap                       color06        none           underline
+SpellLocal                     color02        none           underline
+SpellRare                      color13        none           underline
 
 ;;; :h group-names
 Variant: gui 256 16
