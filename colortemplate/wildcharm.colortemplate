@@ -193,7 +193,7 @@ Underlined                     none           none           underline
 Title                          none           none           bold
 Directory                      color12        none           bold
 
-Conceal                        none           none
+Conceal                        colorNonT      none
 Ignore                         none           none
 
 DiffAdd                        diffAddFg      diffAdd
@@ -465,7 +465,7 @@ Underlined                     none           none           underline
 Title                          none           none           bold
 Directory                      color04        none           bold
 
-Conceal                        none           none
+Conceal                        colorNonT      none
 Ignore                         none           none
 
 DiffAdd                        diffAddFg      diffAdd
