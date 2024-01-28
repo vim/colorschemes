@@ -78,16 +78,16 @@ Variant: gui 256 16
 
 Normal                         color07        color00
 
-Statusline                     color07        color00        reverse
+Statusline                     color07        color00        reverse,bold
 StatuslineNC                   color08        color00        reverse
 VertSplit                      color08        color08
 
-TabLine                        color00        color07
-TabLineFill                    none           color08
-TabLineSel                     color15        color00
+TabLine                        color00        color08
+TabLineFill                    none           color00
+TabLineSel                     color00        color07        bold
 
 ToolbarLine                    none           none
-ToolbarButton                  color00        color15
+ToolbarButton                  color00        color07
 
 QuickFixLine                   color00        color13
 CursorLineNr                   color15        none           bold
@@ -212,9 +212,9 @@ Statusline                     color07        color00        reverse,bold
 StatuslineNC                   color00        color07
 VertSplit                      color07        color07
 
-TabLine                        color07        color00        reverse
-TabLineFill                    none           color07
-TabLineSel                     color07        color00
+TabLine                        color07        color00
+TabLineFill                    color07        none
+TabLineSel                     color07        color00        reverse,bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color07        color00        reverse,bold
@@ -356,16 +356,16 @@ Variant: gui 256 16
 
 Normal                         color00        color15
 
-Statusline                     color15        colorSt
+Statusline                     color15        colorSt        bold
 StatuslineNC                   color00        colorTab
 VertSplit                      colorTab       colorTab
 
 TabLine                        color00        colorTab
-TabLineFill                    none           color08
-TabLineSel                     color15        color00        reverse
+TabLineFill                    none           none
+TabLineSel                     colorSt        color15        reverse,bold
 
 ToolbarLine                    none           none
-ToolbarButton                  color15        color00
+ToolbarButton                  color15        colorSt
 
 QuickFixLine                   color15        color05
 CursorLineNr                   colorC         none           bold
@@ -484,9 +484,9 @@ Statusline                     color07        color00        bold
 StatuslineNC                   color07        color08
 VertSplit                      color00        color00
 
-TabLine                        color00        color07        reverse
-TabLineFill                    none           color08
-TabLineSel                     color00        color07
+TabLine                        color00        color07
+TabLineFill                    none           none
+TabLineSel                     color07        color00        bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color07        color00        bold
