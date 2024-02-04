@@ -189,7 +189,7 @@ LineNrBelow        -> LineNr
 
 Variant: 8
 ; Group               Foreground       Background        Attributes
-Normal                xterm6           xterm0
+Normal                xterm7           xterm0
 
 QuickFixLine          xterm7           xterm2
 
@@ -235,19 +235,19 @@ VisualNOS             none             none              underline
 WarningMsg            xterm1           none
 WildMenu              xterm0           xterm3
 ; Other conventional group names (see `:help group-name`)
-Comment               xterm4           none
-Constant              xterm5           none
+Comment               xterm6           none
+Constant              xterm5           none		 bold
 Error                 xterm7           xterm1
-Function              xterm7           none
-Identifier            xterm6           none
+Function              xterm15          none		 bold
+Identifier            xterm14          none		 bold
 Ignore                xterm0           none
-Operator              xterm1           none
-PreProc               xterm5           none
-Repeat                xterm7           none
-Special               xterm1           none
-Statement             xterm1           none
+Operator              xterm9           none 		 bold
+PreProc               xterm12          none		 bold
+Repeat                xterm15          none		 bold
+Special               xterm5           none
+Statement             xterm11          none		 bold
 Todo                  xterm4           xterm3
-Type                  xterm2           none
+Type                  xterm10          none		 bold
 Underlined            xterm4           none              underline
 ; See `:help CursorIM`
 CursorIM              none             fg
