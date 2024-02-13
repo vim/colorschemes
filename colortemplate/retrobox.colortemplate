@@ -165,7 +165,7 @@ EndOfBuffer                    none           none
 
 ; Common {{{
 Variant: gui 256 16 8
-Conceal                        blue           none
+Conceal                        bg2            none
 Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse
 DiffChange                     aqua           bg0            reverse
@@ -228,7 +228,7 @@ Color: bg0                     #fbf1c7        230            White
 Color: bg1                     #ebdbb2        187            Grey
 Color: bg2                     #e5d4b1        188            Grey
 Color: bg3                     #bdae93        144
-Color: bg4                     #a89984        137
+Color: bg4                     #a89984        137            Grey
 Color: bg5                     #ebe1b7        229            Grey
 Color: bg6                     #ffffd7        231            Grey
 Color: fg0                     #282828        235            DarkGray
@@ -361,7 +361,7 @@ EndOfBuffer                    none           none
 
 ; Common {{{
 Variant: gui 256 16 8
-Conceal                        blue           none
+Conceal                        bg4            none
 Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse
 DiffChange                     aqua           bg0            reverse
