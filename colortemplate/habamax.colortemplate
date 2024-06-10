@@ -85,11 +85,11 @@ Normal                  color15        color00
 Variant: 8
 Statusline              color07        color00        reverse,bold
 StatuslineNC            color07        color00        reverse
-VertSplit               color07        color00        reverse
+VertSplit               color07        none
 Variant: gui 256 16
 Statusline              color00        color07
 StatuslineNC            color00        color08
-VertSplit               color08        color08
+VertSplit               color08        none
 
 Variant: 8
 TabLine                 color00        color07
