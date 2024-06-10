@@ -63,7 +63,7 @@ StatuslineTermNC        -> StatuslineNC
 MessageWindow           -> Pmenu
 PopupNotification       -> Todo
 
-;;; ft&plug links
+;;; ft links
 javaScriptFunction                     -> Statement
 javaScriptIdentifier                   -> Statement
 sqlKeyword                             -> Statement
@@ -231,14 +231,14 @@ SpellCap                color04        color07        reverse
 SpellLocal              color02        color00        reverse
 SpellRare               color05        color07        reverse
 Variant: 256 16
-SpellBad                color01        none           t=underline g=undercurl s=color01
-SpellCap                color04        none           t=underline g=undercurl s=color04
-SpellLocal              color02        none           t=underline g=undercurl s=color02
+SpellBad                Removed        none           t=underline g=undercurl s=Removed
+SpellCap                Changed        none           t=underline g=undercurl s=Changed
+SpellLocal              Added          none           t=underline g=undercurl s=Added
 SpellRare               color13        none           t=underline g=undercurl s=color13
 Variant: gui
-SpellBad                none           none           t=underline g=undercurl s=color01
-SpellCap                none           none           t=underline g=undercurl s=color04
-SpellLocal              none           none           t=underline g=undercurl s=color02
+SpellBad                none           none           t=underline g=undercurl s=Removed
+SpellCap                none           none           t=underline g=undercurl s=Changed
+SpellLocal              none           none           t=underline g=undercurl s=Added
 SpellRare               none           none           t=underline g=undercurl s=color13
 
 
