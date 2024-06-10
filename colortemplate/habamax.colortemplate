@@ -93,20 +93,20 @@ VertSplit               color08        none
 
 Variant: 8
 TabLine                 color00        color07
-TabLineFill             color00        color07
-TabLineSel              none           none
+TabLineFill             none           none
+TabLineSel              color00        color07        bold
 Variant: gui 256 16
 TabLine                 color00        color08
-TabLineFill             color00        color08
-TabLineSel              none           none           bold
+TabLineFill             color00        none
+TabLineSel              color00        color07        bold
 
 Variant: 8
 ToolbarLine             none           none
-ToolbarButton           color07        color00        reverse,bold
+ToolbarButton           color07        color00        reverse
 QuickFixLine            color00        color04
 Variant: gui 256 16
 ToolbarLine             none           none
-ToolbarButton           color07        color00        reverse,bold
+ToolbarButton           color08        color00        reverse,bold
 QuickFixLine            color00        color04
 
 Variant: 8
