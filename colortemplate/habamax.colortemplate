@@ -203,7 +203,7 @@ debugPC                 color00        color04
 debugBreakpoint         color00        color09
 
 Variant: gui
-Cursor                  color00        colorC
+Cursor                  black          white
 lCursor                 color00        colorlC
 
 Variant: 8
