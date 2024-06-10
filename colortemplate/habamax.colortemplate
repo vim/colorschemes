@@ -119,7 +119,7 @@ EndOfBuffer             color07        none           bold
 SpecialKey              color07        none           bold
 FoldColumn              color07        none           bold
 Variant: gui 256 16
-CursorLineNr            colorC         none           bold
+CursorLineNr            white          none           bold
 LineNr                  colorNonT      none
 LineNrAbove             colorNonT      none
 LineNrBelow             colorNonT      none
