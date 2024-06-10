@@ -192,7 +192,7 @@ Todo                    color11        color00        reverse
 MatchParen              colorMP        none           bold
 Search                  color00        color02
 IncSearch               color00        colorC
-CurSearch               color00        color03
+CurSearch               color00        colorC
 WildMenu                color00        color11
 
 Variant: 8
