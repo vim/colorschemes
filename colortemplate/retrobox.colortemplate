@@ -81,6 +81,8 @@ PmenuKind                      red            bg1
 PmenuKindSel                   red            blue
 PmenuExtra                     fg4            bg1
 PmenuExtraSel                  bg3            blue
+PmenuMatch                     neutralpurple  bg1
+PmenuMatchSel                  neutralpurple  blue           bold
 SpecialKey                     grey           none
 StatusLine                     bg2            fg1            bold,reverse
 StatusLineNC                   bg1            fg4            reverse
@@ -243,6 +245,7 @@ Color: green                   #79740e        64             Green
 Color: yellow                  #b57614        172            Yellow
 Color: blue                    #076678        23             Blue
 Color: purple                  #8f3f71        126            Magenta
+Color: lightpurple             #d3869b        175            Magenta
 Color: aqua                    #427b58        29             Cyan
 ; Color: orange                  #af3a03        124            Magenta
 Color: orange                  #ff5f00        202            Magenta
@@ -277,6 +280,8 @@ PmenuKind                      red            bg2
 PmenuKindSel                   red            blue
 PmenuExtra                     fg4            bg2
 PmenuExtraSel                  bg3            blue
+PmenuMatch                     purple         bg2
+PmenuMatchSel                  lightpurple    blue           bold
 SpecialKey                     grey           none
 StatusLine                     bg3            fg1            bold,reverse
 StatusLineNC                   bg1            fg1            reverse
