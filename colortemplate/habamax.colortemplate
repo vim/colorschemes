@@ -165,6 +165,8 @@ PmenuKind               color09        colorB
 PmenuKindSel            color01        color03
 PmenuExtra              color08        colorB
 PmenuExtraSel           color00        color03
+PmenuMatch              colorC         colorB
+PmenuMatchSel           colorMP        color03
 
 Variant: 8
 SignColumn              none           none
