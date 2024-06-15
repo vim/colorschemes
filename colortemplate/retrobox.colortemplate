@@ -15,6 +15,7 @@ lCursor                        -> Cursor
 MessageWindow                  -> PMenu
 PopupNotification              -> Todo
 CurSearch                      -> Search
+Terminal                       -> Normal
 
 
 ; Neutral colors
