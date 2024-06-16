@@ -60,7 +60,7 @@ Normal                         fg1            bg0
 
 ; GUI & 256-color specific
 Variant: gui 256
-CursorLineNr                   yellow         bg3
+CursorLineNr                   yellow         bg0            bold
 FoldColumn                     grey           bg0
 SignColumn                     grey           bg0
 VertSplit                      bg3            bg0
@@ -259,7 +259,7 @@ Normal                         fg1            bg0
 
 ; GUI & 256-color specific
 Variant: gui 256
-CursorLineNr                   yellow         bg2
+CursorLineNr                   yellow         bg0            bold
 FoldColumn                     grey           bg0
 SignColumn                     fg1            bg0
 VertSplit                      bg3            bg0
