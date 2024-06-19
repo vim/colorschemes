@@ -38,6 +38,7 @@ Color: colorB           #3a3a3a        237            darkgrey
 Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #ffaf5f        215            red
+Color: colorP           #af5f00        130            red
 Color: colorlC          #5fff00        82             green
 Color: colorV           #1f3f5f        109            cyan
 Color: colorMP          #ff00af        199            magenta
@@ -166,7 +167,7 @@ PmenuKindSel            color01        color03
 PmenuExtra              color08        colorB
 PmenuExtraSel           color00        color03
 PmenuMatch              colorC         colorB
-PmenuMatchSel           colorMP        color03
+PmenuMatchSel           colorP         color03
 
 Variant: 8
 SignColumn              none           none
