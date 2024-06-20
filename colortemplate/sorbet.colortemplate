@@ -129,10 +129,12 @@ ModeMsg              dark7             none              bold
 MoreMsg              dark7             none
 NonText              dark8             none
 Pmenu                dark0             invisigrey
+PmenuMatch           diffred           invisigrey
 PmenuExtra           dark0             invisigrey
 PmenuKind            dark0             invisigrey        bold
 PmenuSbar            dark8             darkuipurple
 PmenuSel             dark0             statusline
+PmenuMatchSel        diffred           statusline        bold
 PmenuExtraSel        dark0             statusline
 PmenuKindSel         dark0             statusline        bold
 PmenuThumb           dark7             statusline
@@ -227,9 +229,11 @@ MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
+PmenuMatch           none              dark1             reverse
 PmenuExtra           none              none              reverse
 PmenuKind            none              none              reverse,bold
 PmenuSel             none              none              bold
+PmenuMatchSel        dark1             none              bold
 PmenuExtraSel        none              none              bold
 PmenuKindSel         none              none              bold
 PmenuThumb           none              none
