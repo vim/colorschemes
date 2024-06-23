@@ -339,10 +339,12 @@ ModeMsg              light0            none              bold
 MoreMsg              light0            none
 NonText              light8            none
 Pmenu                light0            invisigrey
+PmenuMatch           light9            invisigrey
 PmenuExtra           light0            invisigrey
 PmenuKind            light0            invisigrey        bold
 PmenuSbar            light0            yasogrey
 PmenuSel             light7            light0
+PmenuMatchSel        light9            light0            bold
 PmenuExtraSel        light7            light0
 PmenuKindSel         light7            light0            bold
 PmenuThumb           light0            light0
@@ -431,9 +433,11 @@ MatchParen           none              none              bold,underline
 ModeMsg              none              none              bold
 MoreMsg              none              none
 Pmenu                none              none              reverse
+PmenuMatch           none              light1            reverse
 PmenuExtra           none              none              reverse
 PmenuKind            none              none              reverse,bold
 PmenuSel             none              none              bold
+PmenuMatchSel        light1            none              bold
 PmenuExtraSel        none              none              bold
 PmenuKindSel         none              none              bold
 PmenuThumb           none              none
