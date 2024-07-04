@@ -57,6 +57,8 @@ Color: colorC                  #ffffff        231            white
 Color: colorlC                 #ff5fff        207            magenta
 Color: colorDim                #878787        102            grey
 Color: colorMP                 #ff00af        199            magenta
+Color: colorV                  #5fd7ff        81             cyan
+Color: colorSt                 #9e9e9e        247            grey
 
 
 ; Diff colors
@@ -78,13 +80,13 @@ Variant: gui 256 16
 
 Normal                         color07        color00
 
-Statusline                     color07        color00        reverse,bold
+Statusline                     colorSt        color00        reverse,bold
 StatuslineNC                   color08        color00        reverse
-VertSplit                      color08        color08
+VertSplit                      color08        none
 
 TabLine                        color00        color08
 TabLineFill                    none           color00
-TabLineSel                     color00        color07        bold
+TabLineSel                     color00        colorSt        bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color00        color07
@@ -147,7 +149,7 @@ lCursor                        color00        colorlC
 
 
 Variant: gui 256 16
-Visual                         color04        color00        reverse
+Visual                         colorV         color00        reverse
 VisualNOS                      color00        color12
 
 
@@ -210,7 +212,7 @@ Normal                         color07        color00
 
 Statusline                     color07        color00        reverse,bold
 StatuslineNC                   color00        color07
-VertSplit                      color07        color07
+VertSplit                      color07        none
 
 TabLine                        color07        color00
 TabLineFill                    color07        none
@@ -321,7 +323,7 @@ Color: color14                 #00afaf        37             cyan
 Color: color07                 #8a8a8a        245            grey
 Color: color15                 #ffffff        231            white
 
-Color: color16                 #8700ff        93             darkred
+Color: color16                 #5f00d7        56             blue
 Color: colorCm                 #8a8a8a        245            darkgrey
 
 Color: colorLine               #EEEEEE        255            grey
@@ -331,7 +333,7 @@ Color: colorNonT               #b2b2b2        249            darkgrey
 Color: colorTab                #d0d0d0        252            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
-Color: colorV                  #5F87AF        67             darkblue
+Color: colorV                  #0087af        31             darkcyan
 Color: colorDim                #626262        241            darkgrey
 Color: colorSt                 #5f5f5f        59             darkgrey
 Color: colorMP                 #ff00af        199            magenta
@@ -358,7 +360,7 @@ Normal                         color00        color15
 
 Statusline                     color15        colorSt        bold
 StatuslineNC                   color00        colorTab
-VertSplit                      colorTab       colorTab
+VertSplit                      colorSt        none
 
 TabLine                        color00        colorTab
 TabLineFill                    none           none
@@ -482,7 +484,7 @@ Normal                         color00        color07
 
 Statusline                     color07        color00        bold
 StatuslineNC                   color07        color08
-VertSplit                      color00        color00
+VertSplit                      color00        none
 
 TabLine                        color00        color07
 TabLineFill                    none           none
