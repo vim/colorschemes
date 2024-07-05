@@ -38,7 +38,6 @@ Color: colorB           #3a3a3a        237            darkgrey
 Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #ffaf5f        215            red
-Color: colorP           #af5f00        130            red
 Color: colorlC          #5fff00        82             green
 Color: colorV           #1f3f5f        109            cyan
 Color: colorMP          #ff00af        199            magenta
@@ -161,13 +160,13 @@ Variant: gui 256
 Pmenu                   none           colorB
 PmenuThumb              none           color08
 PmenuSbar               none           none
-PmenuSel                color00        color03
+PmenuSel                none           colorNonT
 PmenuKind               color09        colorB
-PmenuKindSel            color01        color03
+PmenuKindSel            color09        colorNonT
 PmenuExtra              color08        colorB
-PmenuExtraSel           color00        color03
+PmenuExtraSel           color08        colorNonT
 PmenuMatch              colorC         colorB
-PmenuMatchSel           colorP         color03
+PmenuMatchSel           colorC         colorNonT
 
 Variant: 8
 SignColumn              none           none
