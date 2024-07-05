@@ -106,13 +106,15 @@ EndOfBuffer                    color08        none
 
 Variant: gui 256
 Pmenu                          color07        colorB
-PmenuSel                       color00        color11
+PmenuSel                       color07        colorNonT
 PmenuThumb                     none           color07
 PmenuSbar                      none           none
 PmenuKind                      color09        colorB
-PmenuKindSel                   color01        color11
+PmenuKindSel                   color09        colorNonT
 PmenuExtra                     color08        colorB
-PmenuExtraSel                  color00        color11
+PmenuExtraSel                  color08        colorNonT
+PmenuMatch                     color05        colorB
+PmenuMatchSel                  color05        colorNonT
 Variant: 16
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
@@ -379,13 +381,15 @@ SpecialKey                     colorNonT      none
 
 Variant: gui 256
 Pmenu                          color00        colorB
-PmenuSel                       color15        color11
+PmenuSel                       color00        colorNonT
 PmenuThumb                     none           color08
 PmenuSbar                      none           none
 PmenuKind                      color09        colorB
-PmenuKindSel                   color01        color11
+PmenuKindSel                   color09        colorNonT
 PmenuExtra                     color08        colorB
-PmenuExtraSel                  color15        color11
+PmenuExtraSel                  color08        colorNonT
+PmenuMatch                     color05        colorB
+PmenuMatchSel                  color05        colorNonT
 Variant: 16
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
