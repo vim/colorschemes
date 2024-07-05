@@ -182,6 +182,8 @@ PmenuKind                      color09        colorB
 PmenuKindSel                   color09        colorPMenuSel
 PmenuExtra                     color08        colorB
 PmenuExtraSel                  color08        colorPMenuSel
+PmenuMatch                     color05        colorB
+PmenuMatchSel                  color05        colorPMenuSel
 Variant: 16
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
@@ -469,6 +471,8 @@ PmenuKind                      color01        colorB
 PmenuKindSel                   color01        colorPMenuSel
 PmenuExtra                     color08        colorB
 PmenuExtraSel                  color08        colorPMenuSel
+PmenuMatch                     color05        colorB
+PmenuMatchSel                  color05        colorPMenuSel
 Variant: 16
 Pmenu                          color00        color07
 PmenuThumb                     none           color02
