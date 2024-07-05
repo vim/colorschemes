@@ -15,8 +15,8 @@ Color: color08          #767676        243            darkgray
 Color: color01          #d75f5f        167            darkred
 Color: color09          #d7875f        173            red
 
-Color: color02          #87af87        108            darkgreen
-Color: color10          #afd7af        151            green
+Color: color02          #5faf5f        71             darkgreen
+Color: color10          #87d787        114            green
 
 Color: color03          #afaf87        144            darkyellow
 Color: color11          #d7d787        186            yellow
@@ -49,7 +49,7 @@ Color: diffChange       #5f5f5f        59             darkgray
 Color: diffText         #878787        102            lightgrey
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
-Color: Added            #5faf5f        77             darkgreen
+Color: Added            #5fd75f        77             darkgreen
 Color: Changed          #ffaf5f        215            darkyellow
 Color: Removed          #d75f5f        167            darkred
 
@@ -267,7 +267,7 @@ Special                 color06        none
 Variant: gui 256 16
 Statement               color05        none
 PreProc                 color03        none
-Type                    color12        none
+Type                    color04        none
 Special                 color06        none
 
 Variant: 8
