@@ -161,10 +161,10 @@ Pmenu                   none           colorB
 PmenuThumb              none           color08
 PmenuSbar               none           none
 PmenuSel                none           colorNonT
-PmenuKind               color09        colorB
-PmenuKindSel            color09        colorNonT
+PmenuKind               color06        colorB
+PmenuKindSel            color06        colorNonT
 PmenuExtra              color08        colorB
-PmenuExtraSel           color08        colorNonT
+PmenuExtraSel           color07        colorNonT
 PmenuMatch              colorC         colorB
 PmenuMatchSel           colorC         colorNonT
 
