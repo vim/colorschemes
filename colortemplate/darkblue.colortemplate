@@ -194,6 +194,8 @@ Pmenu                white             ogBlue
 PmenuSbar            none              none
 PmenuSel             ogBlue            white
 PmenuThumb           none              white
+PmenuMatch           ogLightMag        ogBlue
+PmenuMatchSel        ogMagenta         white
 Question             ogGreen           none
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
