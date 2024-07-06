@@ -181,6 +181,8 @@ Pmenu                white             grey30
 PmenuSbar            none              none
 PmenuSel             black             grey
 PmenuThumb           none              white
+PmenuMatch           magenta           grey30
+PmenuMatchSel        darkmagenta       grey
 QuickFixLine         white             darkmagenta
 Cursor               black             green
 Error                red               white             reverse
