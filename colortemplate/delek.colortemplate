@@ -44,6 +44,7 @@ Color: darkblue    #000087        18             darkblue
 Color: darkmagenta #870087        18             darkmagenta
 Color: darkcyan    #008787        30             darkcyan
 Color: gray        #878787        102            gray
+Color: magenta     #ff87ff        213            magenta
 
 ;;; Terminal
 
@@ -94,6 +95,8 @@ Pmenu              fg0            pmenu
 PmenuSel           bg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           identifier
+PmenuMatch         preproc        pmenu
+PmenuMatchSel      magenta        wildmenu
 
 Variant:    8
 TabLine            gray           black
