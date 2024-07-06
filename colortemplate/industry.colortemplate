@@ -153,6 +153,8 @@ Pmenu              foreground     color08
 PmenuSel           background     color11
 PmenuSbar          none           background
 PmenuThumb         none           color07
+PmenuMatch         color13        color08
+PmenuMatchSel      color13        color11
 
 TabLine            foreground     color08
 TabLineFill        none           color07
