@@ -271,14 +271,14 @@ Special                 color06        none
 
 Variant: 8
 Underlined              none           none           underline
-Title                   color03        none           bold
+Title                   none           none           bold
 Directory               color06        none           bold
 Conceal                 color07        none
 Ignore                  none           none
 Debug                   color06        none
 Variant: gui 256 16
 Underlined              none           none           underline
-Title                   color11        none           bold
+Title                   none           none           bold
 Directory               color14        none           bold
 Conceal                 colorNonT      none
 Ignore                  none           none
