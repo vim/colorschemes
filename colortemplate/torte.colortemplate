@@ -233,6 +233,8 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color11
 PmenuThumb            none        rgbGrey
+PmenuMatch            color13     Pmenu
+PmenuMatchSel         color13     color11
 
 ;;; "Standard" diff colors
 Include: _diff
