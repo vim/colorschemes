@@ -103,6 +103,8 @@ Pmenu              Black          MediumGrey
 PmenuSel           Black          MutedYellow
 PmenuSbar          White          White
 PmenuThumb         DarkGrey       DarkGrey
+PmenuMatch         Red            MediumGrey
+PmenuMatchSel      Red            MutedYellow
 
 Variant:    8
 TabLine            Black          LightGrey      reverse
