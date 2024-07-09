@@ -89,6 +89,8 @@ Pmenu              color15        color08
 PmenuSel           background     color11
 PmenuSbar          none           color00
 PmenuThumb         none           color07
+PmenuMatch         color13        color08
+PmenuMatchSel      color13        color11
 
 Variant: 16 8
 TabLineFill        none           color07
