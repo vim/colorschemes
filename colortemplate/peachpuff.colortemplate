@@ -108,6 +108,8 @@ Pmenu              fg0            pmenu
 PmenuSel           fg0            cursorline     bold
 PmenuSbar          none           bg0
 PmenuThumb         none           bg1
+PmenuMatch         statement      pmenu
+PmenuMatchSel      statement      cursorline     bold
 
 Variant:    8
 TabLine            gray           black
