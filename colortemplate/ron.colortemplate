@@ -197,6 +197,8 @@ Pmenu                 xterm15          Pmenu
 PmenuSbar             none             xterm0
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm7
+PmenuMatch            xterm13          Pmenu
+PmenuMatchSel         xterm13          xterm6
 Question              Question         xterm0            g=bold
 Search                xterm0           rgbDarkGrey       g=bold
 SignColumn            xterm14          none
