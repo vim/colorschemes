@@ -126,6 +126,8 @@ PmenuExtra           neutral3          white
 PmenuExtraSel        -> PmenuSel
 PmenuKind            neutral3          white
 PmenuKindSel         -> PmenuSel
+PmenuMatch           darkmagenta       white
+PmenuMatchSel        darkmagenta       blue
 
 Variant: 16
 ; Group              Foreground        Background        Attributes
@@ -137,6 +139,8 @@ PmenuExtra           neutral3          white
 PmenuExtraSel        -> PmenuSel
 PmenuKind            neutral3          white
 PmenuKindSel         -> PmenuSel
+PmenuMatch           darkmagenta       white
+PmenuMatchSel        darkmagenta       blue
 
 Variant: 8
 ; Group              Foreground        Background        Attributes
@@ -148,6 +152,8 @@ PmenuExtra           -> Pmenu
 PmenuExtraSel        -> PmenuSel
 PmenuKind            -> Pmenu
 PmenuKindSel         -> PmenuSel
+PmenuMatch           -> Pmenu
+PmenuMatchSel        -> PmenuSel
 ; }}}
 
 ; Various specifics {{{
