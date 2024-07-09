@@ -200,7 +200,7 @@ Pmenu                 xterm15          Pmenu
 PmenuSbar             none             none
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-PmenuMatch            xterm13           Pmenu
+PmenuMatch            xterm13          Pmenu
 PmenuMatchSel         xterm9           xterm6
 Question              xterm12          none              bold
 Search                xterm15          xterm9
