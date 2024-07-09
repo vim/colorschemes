@@ -113,6 +113,8 @@ Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           fg0
+PmenuMatch         statement      pmenu
+PmenuMatchSel      statement      wildmenu
 
 Variant: 8
 TabLine            gray           black
