@@ -38,7 +38,7 @@ Color: bg4                     #7c6f64        243
 Color: bg5                     #000000        16             DarkGray
 Color: bg6                     #121212        233            DarkGray
 Color: fg0                     #fbf1c7        230            White
-Color: fg1                     #ebdbb2        187            White
+Color: fg1                     #ebdbb2        252            White
 Color: fg2                     #d5c4a1        187
 Color: fg3                     #bdae93        144
 Color: fg4                     #a89984        102            gray
