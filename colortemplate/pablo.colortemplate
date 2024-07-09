@@ -245,6 +245,8 @@ Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color07
 PmenuThumb            none        color15
+PmenuMatch            color13     Pmenu
+PmenuMatchSel         color13     color07
 
 
 ;;; "Standard" diff colors
