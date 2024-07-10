@@ -231,7 +231,7 @@ Special            special        none
 Ignore             none           none
 
 Directory          identifier     none           bold
-Conceal            comment        none
+Conceal            gray           none
 
 Title              statement      none           bold
 
