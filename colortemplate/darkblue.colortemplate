@@ -176,7 +176,7 @@ Variant:    gui 256 16
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               ogLightGrey       ogDeepBlue
-Conceal              none              none
+Conceal              ogDarkCyan        none
 ColorColumn          ogLightGrey       ogDarkerRed
 Cursor               black             ogYellow
 QuickFixLine         black             ogLightMag
