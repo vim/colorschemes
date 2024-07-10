@@ -181,7 +181,7 @@ Error                 color15     color09
 Todo                  color00     Todo
 
 ; Chrome
-Conceal               color07     rgbDarkGrey
+Conceal               rgbGrey40   none
 Cursor                color00     color15
 lCursor               color00     color15
 CursorIM              none        fg
