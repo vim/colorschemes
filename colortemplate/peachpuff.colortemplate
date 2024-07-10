@@ -220,7 +220,7 @@ Type               type           none           bold
 Special            special        none
 
 Directory          identifier     none           bold
-Conceal            comment        none
+Conceal            bg1            none
 Ignore             none           none
 
 Title              preproc        none           bold
