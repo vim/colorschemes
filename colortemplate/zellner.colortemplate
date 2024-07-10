@@ -212,7 +212,7 @@ Type               darkblue       none           bold
 Special            darkgreen      none
 
 Directory          darkblue       none           bold
-Conceal            darkred        none
+Conceal            none           none
 Ignore             none           none
 
 Title              darkmagenta    none           bold
@@ -227,7 +227,7 @@ Special            special        none
 Tag                tag            none
 
 Directory          identifier     none           bold
-Conceal            comment        none
+Conceal            bg1            none
 Ignore             none           none
 
 Title              preproc        none           bold
