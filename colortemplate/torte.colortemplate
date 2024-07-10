@@ -190,7 +190,7 @@ Variant: gui 256 16
 SignColumn            color14     none
 FoldColumn            color14     none
 ColorColumn           foreground  rgbDarkRed
-Conceal               color07     rgbDarkGrey
+Conceal               rgbGrey40   none
 Cursor                color00     color10        g=bold
 lCursor               color00     color07
 CursorIM              none        fg
