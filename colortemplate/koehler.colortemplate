@@ -185,7 +185,7 @@ ToolbarLine           none             none
 ToolbarButton         xterm7           xterm0            reverse,bold
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm11
-Conceal               xterm7           rgbDarkGrey
+Conceal               rgbGrey40        none
 Cursor                xterm0           xterm10
 Directory             koeDirectory     none
 EndOfBuffer           xterm1           none              bold
