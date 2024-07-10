@@ -180,7 +180,7 @@ SpellLocal            xterm2           none              reverse
 SpellRare             xterm5           xterm3            reverse
 Variant: gui 256 16
 QuickFixLine          xterm0           xterm6
-Conceal               xterm7           rgbDarkGrey
+Conceal               rgbGrey40        none
 Cursor                xterm15          ronCursor
 Directory             Directory        none
 EndOfBuffer           xterm11          ron303030
