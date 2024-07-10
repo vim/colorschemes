@@ -188,7 +188,7 @@ Cursor               black             green
 Error                red               white             reverse
 ErrorMsg             white             red
 LineNr               yellow            none
-Conceal              none              none
+Conceal              grey40              none
 FoldColumn           lightblue         none
 Folded               darkblue          lightgrey         bold
 IncSearch            green             none              reverse
