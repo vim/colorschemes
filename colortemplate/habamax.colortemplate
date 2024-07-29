@@ -42,10 +42,16 @@ Color: colorlC          #5fff00        82             green
 Color: colorV           #1f3f5f        109            cyan
 Color: colorMP          #ff00af        199            magenta
 
-Color: diffAdd          #5f87af        67             darkblue
+Color: diffAdd          #5faf5f        71             darkgreen
 Color: diffDelete       #af5f5f        131            darkred
-Color: diffChange       #af87af        139            darkmagenta
-Color: diffText         #5f87af        67             darkblue
+Color: diffChange       #5f87af        67             darkblue
+Color: diffText         #af87af        139            darkmagenta
+
+; Color: diffAdd          #5f87af        67             darkblue
+; Color: diffDelete       #af5f5f        131            darkred
+; Color: diffChange       #af87af        139            darkmagenta
+; Color: diffText         #5f87af        67             darkblue
+
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
 Color: Added            #5fd75f        77             darkgreen
@@ -188,14 +194,14 @@ WarningMsg              color09        none
 Variant: 8
 Todo                    color03        color00        reverse
 MatchParen              colorMP        none           bold
-Search                  color00        color02
+Search                  color00        color04
 IncSearch               color00        color03
 CurSearch               color00        color03
 WildMenu                color00        color03
 Variant: gui 256 16
 Todo                    color11        color00        reverse
 MatchParen              colorMP        none           bold
-Search                  color02        color00        reverse
+Search                  color12        color00        reverse
 IncSearch               colorC         color00        reverse
 CurSearch               colorC         color00        reverse
 WildMenu                color00        color11        bold
@@ -291,17 +297,9 @@ DiffChange              diffChange     none           reverse
 DiffText                diffText       none           reverse
 DiffDelete              diffDelete     none           reverse
 
-; DiffAdd                 white          diffAdd
-; DiffDelete              diffDelete     none
 Added                   Added          none
 Changed                 Changed        none
 Removed                 Removed        none
-; Variant:                8
-; DiffText                white          black          reverse,bold
-; DiffChange              black          white
-; Variant:                gui 256 16
-; DiffText                white          diffText
-; DiffChange              color15        diffChange
 
 
 ; No color support
