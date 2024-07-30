@@ -192,14 +192,14 @@ Question                color11        none
 WarningMsg              color09        none
 
 Variant: 8
-Todo                    color03        color00        reverse
+Todo                    color05        color00        reverse
 MatchParen              colorMP        none           bold
 Search                  color00        color04
 IncSearch               color00        color03
 CurSearch               color00        color03
 WildMenu                color00        color03
 Variant: gui 256 16
-Todo                    color11        color00        reverse
+Todo                    color13        color00        reverse
 MatchParen              colorMP        none           bold
 Search                  color12        color00        reverse
 IncSearch               colorC         color00        reverse
