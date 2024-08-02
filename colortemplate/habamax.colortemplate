@@ -47,11 +47,6 @@ Color: diffDelete       #af5f5f        131            darkred
 Color: diffChange       #5f87af        67             darkblue
 Color: diffText         #af87af        139            darkmagenta
 
-; Color: diffAdd          #5f87af        67             darkblue
-; Color: diffDelete       #af5f5f        131            darkred
-; Color: diffChange       #af87af        139            darkmagenta
-; Color: diffText         #5f87af        67             darkblue
-
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
 Color: Added            #5fd75f        77             darkgreen
