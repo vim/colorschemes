@@ -39,7 +39,7 @@ hi Statusline guifg=#1c1c1c guibg=#9e9e9e gui=NONE cterm=NONE
 hi StatuslineNC guifg=#1c1c1c guibg=#767676 gui=NONE cterm=NONE
 hi VertSplit guifg=#767676 guibg=#767676 gui=NONE cterm=NONE
 hi TabLine guifg=#1c1c1c guibg=#767676 gui=NONE cterm=NONE
-hi TabLineFill guifg=#1c1c1c guibg=NONE gui=NONE cterm=NONE
+hi TabLineFill guifg=#1c1c1c guibg=#767676 gui=NONE cterm=NONE
 hi TabLineSel guifg=#1c1c1c guibg=#9e9e9e gui=bold cterm=bold
 hi ToolbarLine guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ToolbarButton guifg=#767676 guibg=#1c1c1c gui=bold,reverse cterm=bold,reverse
@@ -134,7 +134,7 @@ if s:t_Co >= 256
   hi StatuslineNC ctermfg=234 ctermbg=243 cterm=NONE
   hi VertSplit ctermfg=243 ctermbg=243 cterm=NONE
   hi TabLine ctermfg=234 ctermbg=243 cterm=NONE
-  hi TabLineFill ctermfg=234 ctermbg=NONE cterm=NONE
+  hi TabLineFill ctermfg=234 ctermbg=243 cterm=NONE
   hi TabLineSel ctermfg=234 ctermbg=247 cterm=bold
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
   hi ToolbarButton ctermfg=243 ctermbg=234 cterm=bold,reverse
@@ -214,7 +214,7 @@ if s:t_Co >= 16
   hi StatuslineNC ctermfg=black ctermbg=darkgray cterm=NONE
   hi VertSplit ctermfg=darkgray ctermbg=darkgray cterm=NONE
   hi TabLine ctermfg=black ctermbg=darkgray cterm=NONE
-  hi TabLineFill ctermfg=black ctermbg=NONE cterm=NONE
+  hi TabLineFill ctermfg=black ctermbg=darkgray cterm=NONE
   hi TabLineSel ctermfg=black ctermbg=gray cterm=bold
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
   hi ToolbarButton ctermfg=darkgray ctermbg=black cterm=bold,reverse
