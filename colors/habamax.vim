@@ -292,7 +292,7 @@ if s:t_Co >= 8
   hi StatuslineNC ctermfg=gray ctermbg=black cterm=reverse
   hi VertSplit ctermfg=gray ctermbg=gray cterm=NONE
   hi TabLine ctermfg=black ctermbg=gray cterm=NONE
-  hi TabLineFill ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi TabLineFill ctermfg=gray ctermbg=gray cterm=NONE
   hi TabLineSel ctermfg=black ctermbg=gray cterm=bold
   hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
   hi ToolbarButton ctermfg=gray ctermbg=black cterm=reverse
