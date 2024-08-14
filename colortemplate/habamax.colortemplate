@@ -246,7 +246,7 @@ SpellRare               none           none           t=underline g=undercurl s=
 ;;; :h group-names
 Variant: 8
 Comment                 color07        none           bold
-Constant                color02        none
+Constant                color01        none
 String                  color02        none
 Character               color02        none
 Identifier              color07        none

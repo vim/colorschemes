@@ -339,7 +339,7 @@ if s:t_Co >= 8
   hi SpellLocal ctermfg=darkgreen ctermbg=black cterm=reverse
   hi SpellRare ctermfg=darkmagenta ctermbg=gray cterm=reverse
   hi Comment ctermfg=gray ctermbg=NONE cterm=bold
-  hi Constant ctermfg=darkgreen ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
   hi String ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=gray ctermbg=NONE cterm=NONE
