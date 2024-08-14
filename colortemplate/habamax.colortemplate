@@ -75,7 +75,7 @@ vimOper                                -> Normal
 vimSep                                 -> Normal
 vimParenSep                            -> Normal
 vimCommentString                       -> Comment
-gitCommitSummary                       -> Title
+; gitCommitSummary                       -> Title
 markdownUrl                            -> String
 
 
