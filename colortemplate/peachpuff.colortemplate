@@ -103,13 +103,20 @@ Pmenu              black          darkcyan
 PmenuSel           black          darkyellow
 PmenuSbar          none           none
 PmenuThumb         none           darkgreen
+PmenuMatch         black          darkcyan       bold
+PmenuMatchSel      black          darkyellow     bold
 Variant:    gui 256 16
 Pmenu              fg0            pmenu
-PmenuSel           fg0            cursorline     bold
 PmenuSbar          none           bg0
 PmenuThumb         none           bg1
+Variant:    gui 256
+PmenuSel           fg0            cursorline     bold
 PmenuMatch         statement      pmenu
 PmenuMatchSel      statement      cursorline     bold
+Variant:    16
+PmenuSel           fg0            cursorline
+PmenuMatch         fg0            pmenu          bold
+PmenuMatchSel      fg0            cursorline     bold
 
 Variant:    8
 TabLine            gray           black
