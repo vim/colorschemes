@@ -148,6 +148,8 @@ Pmenu                 xterm7           Pmenu
 PmenuSbar             none             xterm7
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm6
+PmenuMatch            xterm7           Pmenu             bold
+PmenuMatchSel         xterm0           xterm6            bold
 Question              xterm4           none              bold
 Search                xterm7           xterm1
 SignColumn            xterm6           none
@@ -200,8 +202,13 @@ Pmenu                 xterm15          Pmenu
 PmenuSbar             none             none
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
+Variant: gui 256
 PmenuMatch            xterm13          Pmenu
 PmenuMatchSel         xterm9           xterm6
+Variant: 16
+PmenuMatch            xterm15          Pmenu             bold
+PmenuMatchSel         xterm0           xterm6            bold
+Variant: gui 256 16
 Question              xterm12          none              bold
 Search                xterm15          xterm9
 SignColumn            xterm14          none
