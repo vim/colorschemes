@@ -193,6 +193,8 @@ PmenuKind                      color01        color07
 PmenuKindSel                   color01        colorPMenuSel
 PmenuExtra                     color00        color07
 PmenuExtraSel                  color00        colorPMenuSel
+PmenuMatch                     color00        color07        bold
+PmenuMatchSel                  color00        colorPMenuSel  bold
 
 
 Variant: gui 256 16
@@ -329,6 +331,8 @@ PmenuKind                      color01        color07
 PmenuKindSel                   color01        colorPMenuSel
 PmenuExtra                     color00        color07
 PmenuExtraSel                  color00        colorPMenuSel
+PmenuMatch                     color00        color07        bold
+PmenuMatchSel                  color00        colorPMenuSel  bold
 
 SignColumn                     none           none
 
