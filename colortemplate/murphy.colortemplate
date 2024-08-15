@@ -84,13 +84,19 @@ Pmenu              color00        color06
 PmenuSel           color00        color03
 PmenuSbar          none           color00
 PmenuThumb         none           color07
+PmenuMatch         color00        color06        bold
+PmenuMatchSel      color00        color03        bold
 Variant: gui 256 16
 Pmenu              color15        color08
 PmenuSel           background     color11
 PmenuSbar          none           color00
 PmenuThumb         none           color07
+Variant: gui 256
 PmenuMatch         color13        color08
 PmenuMatchSel      color13        color11
+Variant: 16
+PmenuMatch         color15        color08        bold
+PmenuMatchSel      background     color11        bold
 
 Variant: 16 8
 TabLineFill        none           color07
