@@ -152,6 +152,8 @@ Pmenu                black             darkcyan
 PmenuSbar            none              grey
 PmenuSel             black             grey
 PmenuThumb           none              black
+PmenuMatch           black             darkcyan            bold
+PmenuMatchSel        black             grey              bold
 QuickFixLine         grey              darkmagenta
 Error                red               grey              reverse
 ErrorMsg             grey              red
@@ -176,13 +178,17 @@ WarningMsg           darkred           none
 WildMenu             black             yellow
 debugBreakpoint      darkblue          darkred
 debugPC              darkblue          yellow
+Variant: 16
+PmenuMatch           white             grey30            bold
+PmenuMatchSel        black             grey              bold
+Variant: gui 256
+PmenuMatch           magenta           grey30
+PmenuMatchSel        darkmagenta       grey
 Variant: gui 256 16
 Pmenu                white             grey30
 PmenuSbar            none              none
 PmenuSel             black             grey
 PmenuThumb           none              white
-PmenuMatch           magenta           grey30
-PmenuMatchSel        darkmagenta       grey
 QuickFixLine         white             darkmagenta
 Cursor               black             green
 Error                red               white             reverse
