@@ -132,6 +132,8 @@ Pmenu                ogLightGrey       ogBlue
 PmenuSbar            none              none
 PmenuSel             ogBlue            ogLightGrey
 PmenuThumb           none              ogLightGrey
+PmenuMatch           ogLightGrey       ogBlue            bold
+PmenuMatchSel        ogBlue            ogLightGrey       bold
 Question             ogDarkGreen       none              bold
 Search               ogDarkCyan        ogBlue
 SignColumn           ogLightGrey       none
