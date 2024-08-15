@@ -154,6 +154,8 @@ Pmenu                 color00     color06
 PmenuSbar             none        none
 PmenuSel              color00     color03
 PmenuThumb            none        color05
+PmenuMatch            color00     color06        bold
+PmenuMatchSel         color00     color03        bold
 
 
 Variant: gui 256 16
@@ -229,12 +231,17 @@ TabLineSel            foreground  background     bold
 ToolbarLine           none        color00
 ToolbarButton         color00     color07        bold
 
+Variant: 16
+PmenuMatch            fg          Pmenu          bold
+PmenuMatchSel         color00     color11        bold
+Variant: gui 256
+PmenuMatch            color13     Pmenu
+PmenuMatchSel         color13     color11
+Variant: gui 256 16
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color11
 PmenuThumb            none        rgbGrey
-PmenuMatch            color13     Pmenu
-PmenuMatchSel         color13     color11
 
 ;;; "Standard" diff colors
 Include: _diff
