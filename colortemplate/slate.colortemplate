@@ -109,21 +109,26 @@ StatusLineTermNC     color07           color13
 VertSplit            color07           color13
 
 Variant: 8
-PmenuSel             color00           color03
-Variant: 16
-PmenuSel             background        color03
-Variant: gui 256
-PmenuSel             background        color05
-PmenuMatchSel        color16           color05
-Variant: 8
 Pmenu                color00           color06
+PmenuSel             color00           color03
 PmenuSbar            none              color00
 PmenuThumb           none              color03
-Variant: gui 256 16
+PmenuMatch           color00           color06           bold
+PmenuMatchSel        color00           color03           bold
+Variant: 16
 Pmenu                none              Pmenu
+PmenuSel             background        color05
+PmenuSbar            none              background
+PmenuThumb           none              color11
+PmenuMatch           color00           Pmenu             bold
+PmenuMatchSel        color00           color05           bold
+Variant: gui 256
+Pmenu                none              Pmenu
+PmenuSel             background        color05
 PmenuSbar            none              background
 PmenuThumb           none              color11
 PmenuMatch           color16           Pmenu
+PmenuMatchSel        color16           color05
 
 Variant: 16 8
 TabLineSel           color00           color03
