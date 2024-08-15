@@ -116,6 +116,8 @@ PmenuKind                      neutralred     bg1
 PmenuKindSel                   neutralred     blue
 PmenuExtra                     fg4            bg1
 PmenuExtraSel                  bg0            blue
+PmenuMatch                     fg1            bg1            bold
+PmenuMatchSel                  bg0            blue           bold
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
 StatusLine                     fg4            bg0            reverse,bold
@@ -152,6 +154,8 @@ PmenuKind                      red            fg1
 PmenuKindSel                   red            blue
 PmenuExtra                     bg1            fg1
 PmenuExtraSel                  bg1            blue
+PmenuMatch                     bg1            fg1            bold
+PmenuMatchSel                  bg0            blue           bold
 SignColumn                     fg4            none
 SpecialKey                     fg4            none
 StatusLine                     fg4            bg0            reverse,bold
@@ -315,6 +319,8 @@ PmenuKind                      neutralred     bg1
 PmenuKindSel                   neutralred     blue
 PmenuExtra                     fg0            bg1
 PmenuExtraSel                  bg0            blue
+PmenuMatch                     fg1            bg1            bold
+PmenuMatchSel                  bg0            blue           bold
 SignColumn                     bg1            none
 SpecialKey                     bg1            none
 StatusLine                     fg0            bg0            bold,reverse
@@ -351,6 +357,8 @@ PmenuKind                      red            fg1
 PmenuKindSel                   red            blue
 PmenuExtra                     bg1            fg1
 PmenuExtraSel                  bg1            blue
+PmenuMatch                     bg1            fg1            bold
+PmenuMatchSel                  bg0            blue           bold
 SignColumn                     fg4            none
 SpecialKey                     fg4            none
 StatusLine                     fg4            bg0            reverse,bold
