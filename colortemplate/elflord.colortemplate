@@ -143,8 +143,8 @@ Pmenu                 xterm15          Pmenu
 PmenuSbar             none             rgbGrey
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm15
-PmenuMatch            xterm13          Pmenu
-PmenuMatchSel         xterm13          xterm6
+PmenuMatch            xterm13          Pmenu             bold
+PmenuMatchSel         xterm13          xterm6            bold
 Question              Question         none              bold
 Search                xterm0           xterm11
 SignColumn            xterm14          none
@@ -216,6 +216,8 @@ Pmenu                 xterm7           none
 PmenuSbar             xterm7           xterm7
 PmenuSel              xterm0           xterm6
 PmenuThumb            none             xterm6
+PmenuMatch            xterm7           none              bold
+PmenuMatchSel         xterm0           xterm6            bold
 Question              xterm2           none
 Search                xterm0           xterm3
 SignColumn            xterm6           none
