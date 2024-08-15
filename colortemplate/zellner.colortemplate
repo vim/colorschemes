@@ -108,13 +108,19 @@ Pmenu              black          darkcyan
 PmenuSel           black          darkyellow
 PmenuSbar          none           black
 PmenuThumb         none           darkmagenta
+PmenuMatch         black          darkcyan       bold
+PmenuMatchSel      black          darkyellow     bold
 Variant:    gui 256 16
 Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           status
+Variant:    gui 256
 PmenuMatch         statement      pmenu
 PmenuMatchSel      statement      wildmenu
+Variant:    16
+PmenuMatch         fg0            pmenu          bold
+PmenuMatchSel      fg0            wildmenu       bold
 
 Variant:    8
 TabLine            black          gray           reverse
