@@ -433,6 +433,8 @@ if s:t_Co >= 16
     hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
     hi PmenuExtra ctermfg=darkgrey ctermbg=grey cterm=NONE
     hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
+    hi PmenuMatch ctermfg=black ctermbg=grey cterm=bold
+    hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Error ctermfg=red ctermbg=white cterm=reverse
     hi ErrorMsg ctermfg=red ctermbg=white cterm=reverse
@@ -577,6 +579,8 @@ if s:t_Co >= 8
     hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
     hi PmenuExtra ctermfg=grey ctermbg=black cterm=NONE
     hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
+    hi PmenuMatch ctermfg=grey ctermbg=black cterm=bold
+    hi PmenuMatchSel ctermfg=NONE ctermbg=darkyellow cterm=bold
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Error ctermfg=white ctermbg=darkred cterm=NONE
     hi ErrorMsg ctermfg=white ctermbg=darkred cterm=NONE
