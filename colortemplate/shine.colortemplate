@@ -98,13 +98,19 @@ Pmenu              Black          DarkCyan
 PmenuSel           Black          DarkOrange
 PmenuSbar          LightGrey      LightGrey
 PmenuThumb         Black          Black
+PmenuMatch         Black          DarkCyan       bold
+PmenuMatchSel      Black          DarkOrange     bold
 Variant:    gui 256 16
 Pmenu              Black          MediumGrey
 PmenuSel           Black          MutedYellow
 PmenuSbar          White          White
 PmenuThumb         DarkGrey       DarkGrey
+Variant:    gui 256
 PmenuMatch         Red            MediumGrey
 PmenuMatchSel      Red            MutedYellow
+Variant:    16
+PmenuMatch         Black          MediumGrey     bold
+PmenuMatchSel      Black          MutedYellow    bold
 
 Variant:    8
 TabLine            Black          LightGrey      reverse
