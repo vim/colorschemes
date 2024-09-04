@@ -34,7 +34,7 @@ def Test_check_colors()
         'Comment',
         'Conceal',
         'Constant',
-	'CurSearch',
+        'CurSearch',
         'Cursor',
         'CursorColumn',
         'CursorLine',
@@ -66,6 +66,8 @@ def Test_check_colors()
         'PmenuSbar',
         'PmenuSel',
         'PmenuThumb',
+        'PopupNotification',
+        'PopupSelected',
         'PreProc',
         'Question',
         'QuickFixLine',
@@ -156,7 +158,7 @@ def Test_check_colors()
     cursor(1, 1)
 
     # 4) Check, that t_Co is checked
-    var pat = '[&]t_Co\s*\%(\%([<>=]=\?\)\|??\)\s*\d\+'
+    var pat = '[&]t_Co)\?\s*\%(\%([<>=]=\?\)\|??\)\s*\d\+'
     if search(pat, 'ncW') == 0
         err['t_Co'] = 'Does not check terminal for capable colors'
     endif
