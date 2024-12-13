@@ -10,7 +10,7 @@ Background: dark
 
 ;;; Color palette
 Color: color00               #282923        235            black
-Color: color08               #74705d        242            darkgray
+Color: color08               #74705d        244            darkgray
 
 Color: color01               #c61e5c        125            darkred
 Color: color09               #f92672        197            red
@@ -276,13 +276,12 @@ Special                      color06        none
 Statement                    color09        none           bold
 
 Variant: 8
-Title                        color07        none           bold
 Underlined                   color04        none           underline
 Variant: gui 256 16
-Title                        color15        none           bold
 Underlined                   color12        none           underline
 
 Variant: gui 256 16 8
+Title                        none           none           bold
 Debug                        color06        none
 Ignore                       none           none
 
