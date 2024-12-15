@@ -183,8 +183,8 @@ Question                     color03        none
 WarningMsg                   color01        none
 Variant: gui 256 16
 SignColumn                   none           none
-Error                        color01        color00        reverse
-ErrorMsg                     color01        color00        reverse
+Error                        color09        black          reverse
+ErrorMsg                     color09        black          reverse
 ModeMsg                      none           none           bold
 MoreMsg                      color02        none
 Question                     color11        none
