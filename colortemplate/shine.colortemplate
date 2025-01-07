@@ -59,6 +59,7 @@ Tag                -> Special
 Operator           -> Statement
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+PopupSelected      -> PmenuSel
 
 
 ;;; Chrome         fg             bg             style

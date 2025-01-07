@@ -61,6 +61,7 @@ StatusLineTerm     -> StatusLine
 StatusLineTermNC   -> StatusLineNC
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+PopupSelected      -> PmenuSel
 Added              -> Constant
 
 Variant: 8

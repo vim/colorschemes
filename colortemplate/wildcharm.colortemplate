@@ -17,6 +17,7 @@ LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 MessageWindow                  -> PMenu
 PopupNotification              -> Todo
+PopupSelected                  -> PmenuSel
 CurSearch                      -> IncSearch
 
 

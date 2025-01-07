@@ -63,6 +63,7 @@ StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+PopupSelected      -> PmenuSel
 
 
 ;;; Chrome

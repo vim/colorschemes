@@ -56,6 +56,7 @@ CursorLineSign     ->             CursorLine
 EndOfBuffer        ->             NonText
 MessageWindow      ->             Pmenu
 PopupNotification  ->             Todo
+PopupSelected      ->             PmenuSel
 
 ;;; chrome
 Variant: gui 256 16

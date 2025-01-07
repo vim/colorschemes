@@ -53,6 +53,7 @@ Term colors: comment statement constant preproc identifier type special fg0
 
 ;;; Links
 Terminal           -> Normal
+PopupSelected      -> PmenuSel
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 CurSearch          -> Search

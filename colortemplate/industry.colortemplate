@@ -245,6 +245,7 @@ Title              color13        none           bold
 
 ;;; Links
 Terminal           -> Normal
+PopupSelected      -> PmenuSel
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr
 CurSearch          -> Search

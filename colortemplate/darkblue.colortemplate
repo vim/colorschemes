@@ -58,6 +58,7 @@ Term colors: ogGrey ogLightRed  ogGreen ogYellow ogBlue     ogMagenta    ogCyan 
 
 
 Terminal             -> Normal
+PopupSelected        -> PmenuSel
 CursorColumn         -> CursorLine
 CursorIM             -> Cursor
 EndOfBuffer          -> NonText
