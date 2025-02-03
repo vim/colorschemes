@@ -43,8 +43,8 @@ if &background ==# 'dark'
   hi SpecialKey guifg=#585858 guibg=NONE gui=NONE cterm=NONE
   hi EndOfBuffer guifg=#585858 guibg=NONE gui=NONE cterm=NONE
   hi EndOfBuffer guifg=#767676 guibg=NONE gui=NONE cterm=NONE
-  hi Pmenu guifg=#d0d0d0 guibg=#303030 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#d0d0d0 guibg=#585858 gui=NONE cterm=NONE
+  hi Pmenu guifg=NONE guibg=#303030 gui=NONE cterm=NONE
+  hi PmenuSel guifg=NONE guibg=#585858 gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#d0d0d0 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi PmenuKind guifg=#ff5f87 guibg=#303030 gui=NONE cterm=NONE
@@ -120,8 +120,8 @@ else
   hi FoldColumn guifg=#b2b2b2 guibg=NONE gui=NONE cterm=NONE
   hi EndOfBuffer guifg=#b2b2b2 guibg=NONE gui=NONE cterm=NONE
   hi SpecialKey guifg=#b2b2b2 guibg=NONE gui=NONE cterm=NONE
-  hi Pmenu guifg=#000000 guibg=#e4e4e4 gui=NONE cterm=NONE
-  hi PmenuSel guifg=#000000 guibg=#b2b2b2 gui=NONE cterm=NONE
+  hi Pmenu guifg=NONE guibg=#e4e4e4 gui=NONE cterm=NONE
+  hi PmenuSel guifg=NONE guibg=#b2b2b2 gui=NONE cterm=NONE
   hi PmenuThumb guifg=NONE guibg=#808080 gui=NONE cterm=NONE
   hi PmenuSbar guifg=NONE guibg=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
   hi PmenuKind guifg=#d70000 guibg=#e4e4e4 gui=NONE cterm=NONE
@@ -206,8 +206,8 @@ if s:t_Co >= 256
     hi SpecialKey ctermfg=240 ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=240 ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=243 ctermbg=NONE cterm=NONE
-    hi Pmenu ctermfg=252 ctermbg=236 cterm=NONE
-    hi PmenuSel ctermfg=252 ctermbg=240 cterm=NONE
+    hi Pmenu ctermfg=NONE ctermbg=236 cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=240 cterm=NONE
     hi PmenuThumb ctermfg=NONE ctermbg=252 cterm=NONE
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuKind ctermfg=204 ctermbg=236 cterm=NONE
@@ -278,8 +278,8 @@ if s:t_Co >= 256
     hi FoldColumn ctermfg=249 ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=249 ctermbg=NONE cterm=NONE
     hi SpecialKey ctermfg=249 ctermbg=NONE cterm=NONE
-    hi Pmenu ctermfg=16 ctermbg=254 cterm=NONE
-    hi PmenuSel ctermfg=16 ctermbg=249 cterm=NONE
+    hi Pmenu ctermfg=NONE ctermbg=254 cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=249 cterm=NONE
     hi PmenuThumb ctermfg=NONE ctermbg=240 cterm=NONE
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuKind ctermfg=160 ctermbg=254 cterm=NONE
