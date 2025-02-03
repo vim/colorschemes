@@ -83,10 +83,10 @@ Normal                         color07        color00
 
 Statusline                     colorSt        color00        reverse,bold
 StatuslineNC                   color08        color00        reverse
-VertSplit                      color08        none
+VertSplit                      color08        color08
 
 TabLine                        color00        color08
-TabLineFill                    none           color00
+TabLineFill                    color00        color08
 TabLineSel                     color00        colorSt        bold
 
 ToolbarLine                    none           none
@@ -217,10 +217,10 @@ Normal                         color07        color00
 
 Statusline                     color07        color00        reverse,bold
 StatuslineNC                   color00        color07
-VertSplit                      color07        none
+VertSplit                      color07        color07
 
-TabLine                        color07        color00
-TabLineFill                    color07        none
+TabLine                        color00        color07
+TabLineFill                    color07        color07
 TabLineSel                     color07        color00        reverse,bold
 
 ToolbarLine                    none           none
@@ -367,10 +367,10 @@ Normal                         color00        color15
 
 Statusline                     color15        colorSt        bold
 StatuslineNC                   color00        colorTab
-VertSplit                      colorSt        none
+VertSplit                      colorTab       colorTab
 
 TabLine                        color00        colorTab
-TabLineFill                    none           none
+TabLineFill                    colorTab       colorTab
 TabLineSel                     colorSt        color15        reverse,bold
 
 ToolbarLine                    none           none
@@ -494,12 +494,12 @@ Variant: 8
 Normal                         color00        color07
 
 Statusline                     color07        color00        bold
-StatuslineNC                   color07        color08
-VertSplit                      color00        none
+StatuslineNC                   color07        color00
+VertSplit                      color00        color00
 
-TabLine                        color00        color07
-TabLineFill                    none           none
-TabLineSel                     color07        color00        bold
+TabLine                        color07        color00
+TabLineFill                    color00        color00
+TabLineSel                     color00        color07        reverse,bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color07        color00        bold
