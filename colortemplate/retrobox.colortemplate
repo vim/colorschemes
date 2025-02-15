@@ -291,7 +291,7 @@ SpecialKey                     grey           none
 StatusLine                     bg3            fg1            bold,reverse
 StatusLineNC                   bg1            fg1            reverse
 TabLine                        fg3            bg1
-TabLineFill                    bg1            bg1
+TabLineFill                    fg1            bg1
 TabLineSel                     fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
 ToolbarLine                    none           none
