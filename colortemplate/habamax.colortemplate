@@ -62,7 +62,6 @@ Terminal                               -> Normal
 StatuslineTerm                         -> Statusline
 StatuslineTermNC                       -> StatuslineNC
 MessageWindow                          -> Pmenu
-PopupSelected                          -> PmenuSel
 
 ;;; ft links
 javaScriptFunction                     -> Statement

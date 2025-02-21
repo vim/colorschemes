@@ -27,7 +27,6 @@ Include               -> PreProc
 Keyword               -> Statement
 Macro                 -> PreProc
 Number                -> Constant
-PopupSelected         -> PmenuSel
 PreCondit             -> PreProc
 Repeat                -> Statement
 SpecialChar           -> Special

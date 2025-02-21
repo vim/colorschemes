@@ -82,7 +82,6 @@ CursorLineFold        -> CursorLine
 CursorLineSign        -> CursorLine
 MessageWindow         -> Pmenu
 PopupNotification     -> Todo
-PopupSelected         -> PmenuSel
 
 
 Variant: 8

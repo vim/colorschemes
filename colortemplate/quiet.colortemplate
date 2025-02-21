@@ -22,7 +22,6 @@ StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
-PopupSelected        -> PmenuSel
 Boolean              -> Constant
 Character            -> Constant
 Conditional          -> Statement

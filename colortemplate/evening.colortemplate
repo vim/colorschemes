@@ -64,7 +64,6 @@ Term colors: x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 
 VertSplit            -> StatusLineNC
-PopupSelected        -> PmenuSel
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 TabLineFill          -> TabLine

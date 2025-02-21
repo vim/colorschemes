@@ -61,7 +61,6 @@ CursorLineFold     -> CursorLine
 CursorLineSign     -> CursorLine
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
-PopupSelected      -> PmenuSel
 
 
 ;;; Chrome
