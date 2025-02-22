@@ -61,7 +61,6 @@ CursorLineFold               -> FoldColumn
 CursorLineSign               -> SignColumn
 MessageWindow                -> Pmenu
 PopupNotification            -> Todo
-PopupSelected                -> PmenuSel
 StatusLineTerm               -> StatusLine
 StatusLineTermNC             -> StatusLineNC
 Terminal                     -> Normal

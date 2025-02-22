@@ -24,7 +24,6 @@ Keyword               -> Statement
 Label                 -> Statement
 Macro                 -> PreProc
 Number                -> Constant
-PopupSelected         -> PmenuSel
 PreCondit             -> PreProc
 SpecialChar           -> Special
 SpecialComment        -> Special

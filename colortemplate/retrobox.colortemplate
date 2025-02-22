@@ -14,7 +14,6 @@ Tag                            -> Special
 lCursor                        -> Cursor
 MessageWindow                  -> PMenu
 PopupNotification              -> Todo
-PopupSelected                  -> PmenuSel
 CurSearch                      -> IncSearch
 Terminal                       -> Normal
 

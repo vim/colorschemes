@@ -67,7 +67,6 @@ def Test_check_colors()
         'PmenuSel',
         'PmenuThumb',
         'PopupNotification',
-        'PopupSelected',
         'PreProc',
         'Question',
         'QuickFixLine',

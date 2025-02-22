@@ -233,7 +233,6 @@ TabLineFill          -> StatusLineNC
 TabLineSel           -> StatusLine
 Terminal             -> Normal
 lCursor              -> Cursor
-PopupSelected        -> PmenuSel
 
 ; Syntax
 Boolean              -> Constant

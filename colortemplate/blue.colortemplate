@@ -204,7 +204,6 @@ Variant: gui 256 16 8
 ;;; Links
 ;;; Chrome
 Terminal             -> Normal
-PopupSelected        -> PmenuSel
 Debug                -> Special
 Added                -> String
 Removed              -> WarningMsg

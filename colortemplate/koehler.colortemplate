@@ -29,7 +29,6 @@ LineNrBelow           -> LineNr
 Macro                 -> PreProc
 Number                -> Constant
 Operator              -> Statement
-PopupSelected         -> PmenuSel
 PreCondit             -> PreProc
 Repeat                -> Statement
 SpecialChar           -> Special
