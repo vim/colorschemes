@@ -62,6 +62,8 @@ Terminal                               -> Normal
 StatuslineTerm                         -> Statusline
 StatuslineTermNC                       -> StatuslineNC
 MessageWindow                          -> Pmenu
+TabPanelFill                           -> Normal
+TabPanel                               -> Normal
 
 ;;; ft links
 javaScriptFunction                     -> Statement
