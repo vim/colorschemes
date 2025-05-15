@@ -111,6 +111,8 @@ Tag                  -> Special
 Typedef              -> Type
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
+TabPanelFill         -> EndOfBuffer
+TabPanel             -> Normal
 
 
 
