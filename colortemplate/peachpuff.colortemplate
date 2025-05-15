@@ -62,7 +62,8 @@ CursorLineFold     -> CursorLine
 CursorLineSign     -> CursorLine
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
-
+TabPanelFill       -> EndOfBuffer
+TabPanel           -> Normal
 
 ;;; Chrome
 Variant:    8
