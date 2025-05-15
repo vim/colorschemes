@@ -252,6 +252,8 @@ CursorLineFold     -> CursorLine
 CursorLineSign     -> CursorLine
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+TabPanelFill       -> Normal
+TabPanel           -> Normal
 
 
 
