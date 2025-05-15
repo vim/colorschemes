@@ -62,6 +62,8 @@ StatusLineTermNC   -> StatusLineNC
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
 Added              -> Constant
+TabPanelFill       -> EndOfBuffer
+TabPanel           -> Normal
 
 Variant: 8
 Normal             color02        color00
