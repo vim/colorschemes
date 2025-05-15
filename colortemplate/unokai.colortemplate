@@ -64,6 +64,8 @@ PopupNotification            -> Todo
 StatusLineTerm               -> StatusLine
 StatusLineTermNC             -> StatusLineNC
 Terminal                     -> Normal
+TabPanelFill                 -> Normal
+TabPanel                     -> Normal
 
 ;;; Syntax links
 Delimiter                    -> PreProc
