@@ -59,6 +59,8 @@ Tag                -> Special
 Operator           -> Statement
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+TabPanelFill       -> EndOfBuffer
+TabPanel           -> Normal
 
 
 ;;; Chrome         fg             bg             style
