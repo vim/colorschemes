@@ -85,6 +85,8 @@ csType                         -> Statement
 Terminal                       -> Normal
 StatuslineTerm                 -> Statusline
 StatuslineTermNC               -> StatuslineNC
+TabPanelFill                   -> Normal
+TabPanel                       -> Normal
 LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 MessageWindow                  -> PMenu
