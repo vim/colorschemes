@@ -46,6 +46,9 @@ LineNrAbove           -> LineNr
 LineNrBelow           -> LineNr
 MessageWindow         -> Pmenu
 PopupNotification     -> Todo
+TabPanelFill          -> EndOfBuffer
+TabPanel              -> EndOfBuffer
+TabPanelSel           -> TabLineSel
 ; }}}
 
 Background: dark
