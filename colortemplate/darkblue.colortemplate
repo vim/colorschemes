@@ -106,6 +106,8 @@ lCursor              -> Cursor
 CurSearch            -> Search
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
+TabPanelFill         -> Normal
+TabPanel             -> Normal
 
 
 
