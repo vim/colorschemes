@@ -63,6 +63,8 @@ StatuslineTerm     -> Statusline
 StatuslineTermNC   -> StatuslineNC
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
+TabPanelFill       -> EndOfBuffer
+TabPanel           -> Normal
 
 
 ;;; Chrome
