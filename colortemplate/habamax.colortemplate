@@ -60,6 +60,9 @@ Color: Removed          #d75f5f        167            darkred
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
+CursorLineFold -> omit  ; TODO: TBD
+CursorLineSign -> omit  ; TODO: TBD
+
 ;;; links
 Terminal                               -> Normal
 StatuslineTerm                         -> Statusline
@@ -85,46 +88,46 @@ markdownUrl                            -> String
 
 ;;; chrome
 ; Variant: 8
-Normal                  color07        color00
+Normal             /8   color07        color00
 ; Variant: gui 256 16
 Normal                  color15        color00
 
 ; Variant: 8
-Statusline              color07        color00        reverse,bold
-StatuslineNC            color07        color00        reverse
-VertSplit               color07        color07
+StatusLine         /8   color07        color00        reverse,bold
+StatusLineNC       /8   color07        color00        reverse
+VertSplit          /8   color07        color07
 ; Variant: gui 256 16
-Statusline              color00        color07
-StatuslineNC            color00        color08
+StatusLine              color00        color07
+StatusLineNC            color00        color08
 VertSplit               color08        color08
 
 ; Variant: 8
-TabLine                 color00        color07
-TabLineFill             color07        color07
-TabLineSel              color00        color07        bold
+TabLine            /8   color00        color07
+TabLineFill        /8   color07        color07
+TabLineSel         /8   color00        color07        bold
 ; Variant: gui 256 16
 TabLine                 color00        color08
 TabLineFill             color00        color08
 TabLineSel              color00        color07        bold
 
 ; Variant: 8
-ToolbarLine             none           none
-ToolbarButton           color07        color00        reverse
-QuickFixLine            color00        color04
+ToolbarLine        /8   none           none
+ToolbarButton      /8   color07        color00        reverse
+QuickFixLine       /8   color00        color04
 ; Variant: gui 256 16
 ToolbarLine             none           none
 ToolbarButton           color08        color00        reverse,bold
 QuickFixLine            color00        color04
 
 ; Variant: 8
-CursorLineNr            color03        none           bold
-LineNr                  color07        none           bold
-LineNrAbove             color07        none           bold
-LineNrBelow             color07        none           bold
-NonText                 color07        none           bold
-EndOfBuffer             color07        none           bold
-SpecialKey              color07        none           bold
-FoldColumn              color07        none           bold
+CursorLineNr       /8   color03        none           bold
+LineNr             /8   color07        none           bold
+LineNrAbove        /8   color07        none           bold
+LineNrBelow        /8   color07        none           bold
+NonText            /8   color07        none           bold
+EndOfBuffer        /8   color07        none           bold
+SpecialKey         /8   color07        none           bold
+FoldColumn         /8   color07        none           bold
 ; Variant: gui 256 16
 CursorLineNr            white          none           bold
 LineNr                  colorNonT      none
@@ -136,34 +139,34 @@ SpecialKey              colorNonT      none
 FoldColumn              colorNonT      none
 
 ; Variant: 8
-Visual                  color00        color06
-VisualNOS               color00        color06
+Visual             /8   color00        color06
+VisualNOS          /8   color00        color06
 ; Variant: gui 256 16
 Visual                  color14        color00        reverse
 VisualNOS               color00        color06
 
 ; Variant: 8
-Pmenu                   color00        color07
-PmenuThumb              color07        color00
-PmenuSbar               none           color07
-PmenuSel                color00        color03
-PmenuKind               color01        color07
-PmenuKindSel            color01        color03
-PmenuExtra              color00        color07
-PmenuExtraSel           color00        color03
-PmenuMatch              color00        color07        bold
-PmenuMatchSel           color00        color03        bold
+Pmenu              /8   color00        color07
+PmenuThumb         /8   color07        color00
+PmenuSbar          /8   none           color07
+PmenuSel           /8   color00        color03
+PmenuKind          /8   color01        color07
+PmenuKindSel       /8   color01        color03
+PmenuExtra         /8   color00        color07
+PmenuExtraSel      /8   color00        color03
+PmenuMatch         /8   color00        color07        bold
+PmenuMatchSel      /8   color00        color03        bold
 ; Variant: 16
-Pmenu                   color00        color07
-PmenuThumb              color07        color00
-PmenuSbar               none           color07
-PmenuSel                color00        color03
-PmenuKind               color01        color07
-PmenuKindSel            color01        color03
-PmenuExtra              color08        color07
-PmenuExtraSel           color00        color03
-PmenuMatch              color00        color07        bold
-PmenuMatchSel           color00        color03        bold
+Pmenu              /16  color00        color07
+PmenuThumb         /16  color07        color00
+PmenuSbar          /16  none           color07
+PmenuSel           /16  color00        color03
+PmenuKind          /16  color01        color07
+PmenuKindSel       /16  color01        color03
+PmenuExtra         /16  color08        color07
+PmenuExtraSel      /16  color00        color03
+PmenuMatch         /16  color00        color07        bold
+PmenuMatchSel      /16  color00        color03        bold
 ; Variant: gui 256
 Pmenu                   none           colorB
 PmenuThumb              none           color08
@@ -177,13 +180,13 @@ PmenuMatch              colorC         colorB
 PmenuMatchSel           colorC         colorNonT
 
 ; Variant: 8
-SignColumn              none           none
-Error                   color01        color07        bold,reverse
-ErrorMsg                color01        color07        bold,reverse
-ModeMsg                 none           none           bold
-MoreMsg                 color02        none
-Question                color03        none
-WarningMsg              color01        none
+SignColumn         /8   none           none
+Error              /8   color01        color07        bold,reverse
+ErrorMsg           /8   color01        color07        bold,reverse
+ModeMsg            /8   none           none           bold
+MoreMsg            /8   color02        none
+Question           /8   color03        none
+WarningMsg         /8   color01        none
 ; Variant: gui 256 16
 SignColumn              none           none
 Error                   color01        color00        reverse
@@ -194,12 +197,12 @@ Question                color11        none
 WarningMsg              color09        none
 
 ; Variant: 8
-Todo                    color07        none           bold
-MatchParen              colorMP        none           bold
-Search                  color00        color04
-IncSearch               color00        color03
-CurSearch               color00        color03
-WildMenu                color00        color03
+Todo               /8   color07        none           bold
+MatchParen         /8   colorMP        none           bold
+Search             /8   color00        color04
+IncSearch          /8   color00        color03
+CurSearch          /8   color00        color03
+WildMenu           /8   color00        color03
 ; Variant: gui 256 16
 Todo                    white          none           bold
 MatchParen              colorMP        none           bold
@@ -209,26 +212,30 @@ CurSearch               colorC         color00        reverse
 WildMenu                color00        color11        bold
 
 ; Variant: 8
-debugPC                 color00        color04
-debugBreakpoint         color00        color06
+debugPC            /8   color00        color04
+debugBreakpoint    /8   color00        color06
 ; Variant: gui 256 16
 debugPC                 color00        color04
 debugBreakpoint         color00        color09
 
+Cursor   -> omit   ; Defined only for GUI
+lCursor  -> omit   ; Defined only for GUI
+CursorIM -> omit   ; Defined only for GUI
+
 ; Variant: gui
-Cursor                  black          white
-lCursor                 color00        colorlC
+Cursor             /gui black          white
+lCursor            /gui color00        colorlC
 
 ; Variant: 8
-CursorLine              none           none           underline
-CursorColumn            color00        color03
-Folded                  color00        color03
-ColorColumn             color00        color03
+CursorLine         /8   none           none           underline
+CursorColumn       /8   color00        color03
+Folded             /8   color00        color03
+ColorColumn        /8   color00        color03
 ; Variant: 16
-CursorLine              none           none           underline
-CursorColumn            color00        color03
-Folded                  color00        color03
-ColorColumn             color00        color03
+CursorLine         /16  none           none           underline
+CursorColumn       /16  color00        color03
+Folded             /16  color00        color03
+ColorColumn        /16  color00        color03
 ; Variant: gui 256
 CursorLine              none           colorLine
 CursorColumn            none           colorLine
@@ -236,29 +243,29 @@ Folded                  color07        colorF
 ColorColumn             none           colorB
 
 ; Variant: 8
-SpellBad                color01        color07        reverse
-SpellCap                color04        color07        reverse
-SpellLocal              color02        color00        reverse
-SpellRare               color05        color07        reverse
+SpellBad           /8   color01        color07        reverse
+SpellCap           /8   color04        color07        reverse
+SpellLocal         /8   color02        color00        reverse
+SpellRare          /8   color05        color07        reverse
 ; Variant: 256 16
-SpellBad                Removed        none           t=underline g=undercurl s=Removed
-SpellCap                Changed        none           t=underline g=undercurl s=Changed
-SpellLocal              Added          none           t=underline g=undercurl s=Added
-SpellRare               color13        none           t=underline g=undercurl s=color13
+SpellBad                Removed        none           s=Removed underline
+SpellCap                Changed        none           s=Changed underline
+SpellLocal              Added          none           s=Added   underline
+SpellRare               color13        none           s=color13 underline
 ; Variant: gui
-SpellBad                none           none           t=underline g=undercurl s=Removed
-SpellCap                none           none           t=underline g=undercurl s=Changed
-SpellLocal              none           none           t=underline g=undercurl s=Added
-SpellRare               none           none           t=underline g=undercurl s=color13
+SpellBad           /gui none           none           s=Removed undercurl
+SpellCap           /gui none           none           s=Changed undercurl
+SpellLocal         /gui none           none           s=Added   undercurl
+SpellRare          /gui none           none           s=color13 undercurl
 
 
 ;;; :h group-names
 ; Variant: 8
-Comment                 color07        none           bold
-Constant                color01        none
-String                  color02        none
-Character               color02        none
-Identifier              color07        none
+Comment            /8   color07        none           bold
+Constant           /8   color01        none
+String             /8   color02        none
+Character          /8   color02        none
+Identifier         /8   color07        none
 ; Variant: gui 256 16
 Comment                 color08        none
 Constant                color09        none
@@ -267,10 +274,10 @@ Character               color10        none
 Identifier              color14        none
 
 ; Variant: 8
-Statement               color05        none
-PreProc                 color03        none
-Type                    color04        none
-Special                 color06        none
+Statement          /8   color05        none
+PreProc            /8   color03        none
+Type               /8   color04        none
+Special            /8   color06        none
 ; Variant: gui 256 16
 Statement               color05        none
 PreProc                 color03        none
@@ -278,12 +285,12 @@ Type                    color04        none
 Special                 color06        none
 
 ; Variant: 8
-Underlined              none           none           underline
-Title                   none           none           bold
-Directory               color06        none           bold
-Conceal                 color07        none
-Ignore                  none           none
-Debug                   color06        none
+Underlined         /8   none           none           underline
+Title              /8   none           none           bold
+Directory          /8   color06        none           bold
+Conceal            /8   color07        none
+Ignore             /8   none           none
+Debug              /8   color06        none
 ; Variant: gui 256 16
 Underlined              none           none           underline
 Title                   none           none           bold
