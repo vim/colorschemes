@@ -17,6 +17,12 @@ Environments: gui 256 16 8 0
 
 Background: any
 
+; TODO: missing definitions
+CursorLineFold -> omit  ; TODO: TBD
+CursorLineSign -> omit  ; TODO: TBD
+LineNrAbove    -> omit  ; TODO: TBD
+LineNrBelow    -> omit  ; TODO: TBD
+
 ; Global definitions - put at the top of the colorscheme {{{
 Added                -> Normal
 Changed              -> Normal
@@ -145,10 +151,10 @@ QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
 SpecialKey           dark8             none              bold
-SpellBad             dark1             none              t=underline g=undercurl s=dark1
-SpellCap             dark4             none              t=underline g=undercurl s=dark4
-SpellLocal           dark5             none              t=underline g=undercurl s=dark5
-SpellRare            dark6             none              t=underline g=undercurl s=dark6
+SpellBad             dark1             none              s=dark1 underline /gui omit omit s=omit undercurl
+SpellCap             dark4             none              s=dark4 underline /gui omit omit s=omit undercurl
+SpellLocal           dark5             none              s=dark5 underline /gui omit omit s=omit undercurl
+SpellRare            dark6             none              s=dark6 underline /gui omit omit s=omit undercurl
 StatusLine           dark0             dark7             bold
 StatusLineNC         dark8             dark0             reverse
 TabLine              dark8             dark0             reverse
@@ -180,92 +186,92 @@ ToolbarButton        dark7             dark0             bold
 ; }}}
 
 ; Variant: 16
-Comment              dark8             none              bold
-CurSearch            dark13            dark0             reverse
-EndOfBuffer          dark8             none
-Folded               dark8             none
-IncSearch            dark11            dark0             reverse
-LineNr               dark8             none
-NonText              dark8             none
-PmenuSbar            dark8             none              reverse
-Search               dark14            dark0             reverse
-SpecialKey           dark8             none              bold
-StatusLineNC         dark8             none              reverse
-TabLine              dark8             none              reverse
-VertSplit            dark8             none
+Comment         /16  dark8             none              bold
+CurSearch       /16  dark13            dark0             reverse
+EndOfBuffer     /16  dark8             none
+Folded          /16  dark8             none
+IncSearch       /16  dark11            dark0             reverse
+LineNr          /16  dark8             none
+NonText         /16  dark8             none
+PmenuSbar       /16  dark8             none              reverse
+Search          /16  dark14            dark0             reverse
+SpecialKey      /16  dark8             none              bold
+StatusLineNC    /16  dark8             none              reverse
+TabLine         /16  dark8             none              reverse
+VertSplit       /16  dark8             none
 ; Variant: 8
-Comment              none              none              bold
-CurSearch            dark5             dark0             reverse
-EndOfBuffer          none              none
-Folded               none              none
-IncSearch            dark3             dark0             reverse
-LineNr               none              none
-NonText              none              none
-PmenuSbar            none              none              reverse
-Search               dark6             dark0             reverse
-SpecialKey           none              none              bold
-StatusLineNC         none              none              bold,underline
-TabLine              none              none              bold,underline
-VertSplit            none              none
+Comment         /8   none              none              bold
+CurSearch       /8   dark5             dark0             reverse
+EndOfBuffer     /8   none              none
+Folded          /8   none              none
+IncSearch       /8   dark3             dark0             reverse
+LineNr          /8   none              none
+NonText         /8   none              none
+PmenuSbar       /8   none              none              reverse
+Search          /8   dark6             dark0             reverse
+SpecialKey      /8   none              none              bold
+StatusLineNC    /8   none              none              bold,underline
+TabLine         /8   none              none              bold,underline
+VertSplit       /8   none              none
 ; Variant: 16 8
-Normal               none              none
+Normal       /16/8   none              none
 ; Group              Foreground        Background        Attributes
-ColorColumn          none              none              reverse
-Conceal              none              none
-Cursor               none              none              reverse
-CursorColumn         none              none
-CursorLine           none              none
-CursorLineNr         none              none              bold
-DiffAdd              dark2             dark0             reverse
-DiffChange           dark4             dark0             reverse
-DiffDelete           dark1             dark0             reverse
-DiffText             dark5             dark0             reverse
-Directory            none              none
-ErrorMsg             none              none              reverse,bold
-FoldColumn           none              none
-MatchParen           none              none              bold,underline
-ModeMsg              none              none              bold
-MoreMsg              none              none
-Pmenu                none              none              reverse
-PmenuMatch           none              dark1             reverse
-PmenuExtra           none              none              reverse
-PmenuKind            none              none              reverse,bold
-PmenuSel             none              none              bold
-PmenuMatchSel        dark1             none              bold
-PmenuExtraSel        none              none              bold
-PmenuKindSel         none              none              bold
-PmenuThumb           none              none
-Question             none              none              standout
-QuickFixLine         dark5             dark0             reverse
-SignColumn           none              none              reverse
-SpellBad             dark1             none              underline
-SpellCap             dark4             none              underline
-SpellLocal           dark5             none              underline
-SpellRare            dark6             none              underline
-StatusLine           none              none              bold,reverse
-TabLineFill          none              none
-TabLineSel           none              none              reverse,bold
-Title                none              none
-Visual               uiamber           dark0             reverse
-VisualNOS            none              none
-WarningMsg           none              none              standout
-WildMenu             none              none              bold
+ColorColumn  /16/8   none              none              reverse
+Conceal      /16/8   none              none
+Cursor       /16/8   none              none              reverse
+CursorColumn /16/8   none              none
+CursorLine   /16/8   none              none
+CursorLineNr /16/8   none              none              bold
+DiffAdd      /16/8   dark2             dark0             reverse
+DiffChange   /16/8   dark4             dark0             reverse
+DiffDelete   /16/8   dark1             dark0             reverse
+DiffText     /16/8   dark5             dark0             reverse
+Directory    /16/8   none              none
+ErrorMsg     /16/8   none              none              reverse,bold
+FoldColumn   /16/8   none              none
+MatchParen   /16/8   none              none              bold,underline
+ModeMsg      /16/8   none              none              bold
+MoreMsg      /16/8   none              none
+Pmenu        /16/8   none              none              reverse
+PmenuMatch   /16/8   none              dark1             reverse
+PmenuExtra   /16/8   none              none              reverse
+PmenuKind    /16/8   none              none              reverse,bold
+PmenuSel     /16/8   none              none              bold
+PmenuMatchSel/16/8   dark1             none              bold
+PmenuExtraSel/16/8   none              none              bold
+PmenuKindSel /16/8   none              none              bold
+PmenuThumb   /16/8   none              none
+Question     /16/8   none              none              standout
+QuickFixLine /16/8   dark5             dark0             reverse
+SignColumn   /16/8   none              none              reverse
+SpellBad     /16/8   dark1             none              underline
+SpellCap     /16/8   dark4             none              underline
+SpellLocal   /16/8   dark5             none              underline
+SpellRare    /16/8   dark6             none              underline
+StatusLine   /16/8   none              none              bold,reverse
+TabLineFill  /16/8   none              none
+TabLineSel   /16/8   none              none              reverse,bold
+Title        /16/8   none              none
+Visual       /16/8   uiamber           dark0             reverse
+VisualNOS    /16/8   none              none
+WarningMsg   /16/8   none              none              standout
+WildMenu     /16/8   none              none              bold
 ; Other conventional group names (see `:help group-name`)
-Constant             none              none
-Error                dark1             dark0             reverse,bold
-Identifier           none              none
-Ignore               none              none
-PreProc              none              none
-Special              none              none
-Statement            none              none
-Todo                 none              none              reverse,bold
-Type                 none              none
-Underlined           none              none              underline
+Constant     /16/8   none              none
+Error        /16/8   dark1             dark0             reverse,bold
+Identifier   /16/8   none              none
+Ignore       /16/8   none              none
+PreProc      /16/8   none              none
+Special      /16/8   none              none
+Statement    /16/8   none              none
+Todo         /16/8   none              none              reverse,bold
+Type         /16/8   none              none
+Underlined   /16/8   none              none              underline
 ; See `:help CursorIM`
-CursorIM             none              none
+CursorIM     /16/8   none              none
 ; See `:help window-toolbar`
-ToolbarLine          none              none              reverse
-ToolbarButton        none              none              bold,reverse
+ToolbarLine  /16/8   none              none              reverse
+ToolbarButton/16/8   none              none              bold,reverse
 
 
 Background: light
@@ -357,10 +363,10 @@ QuickFixLine         uicursearch       light0            reverse
 Search               uiblue            light0            reverse
 SignColumn           light0            none
 SpecialKey           light8            none              bold
-SpellBad             light1            light7            t=underline g=undercurl s=light1
-SpellCap             light4            light7            t=underline g=undercurl s=light4
-SpellLocal           light5            light7            t=underline g=undercurl s=light5
-SpellRare            light6            light7            t=underline g=undercurl s=light6
+SpellBad             light1            light7            s=light1 underline /gui omit omit s=omit undercurl
+SpellCap             light4            light7            s=light4 underline /gui omit omit s=omit undercurl
+SpellLocal           light5            light7            s=light5 underline /gui omit omit s=omit undercurl
+SpellRare            light6            light7            s=light6 underline /gui omit omit s=omit undercurl
 StatusLine           brightwhite       light0            bold
 StatusLineNC         light0            invisigrey
 TabLine              light0            invisigrey
@@ -392,91 +398,91 @@ ToolbarButton        light0            light7            bold
 ; }}}
 
 ; Variant: 16
-CurSearch            light13           light0            reverse
-EndOfBuffer          light8            none
-Folded               light8            none
-IncSearch            light11           light0            reverse
-LineNr               light8            none
-NonText              light8            none
-PmenuSbar            light8            none              reverse
-Search               light14           light0            reverse
-SpecialKey           light8            none              bold
-StatusLineNC         light8            none              reverse
-TabLine              light8            none              reverse
-VertSplit            light8            none
+CurSearch       /16  light13           light0            reverse
+EndOfBuffer     /16  light8            none
+Folded          /16  light8            none
+IncSearch       /16  light11           light0            reverse
+LineNr          /16  light8            none
+NonText         /16  light8            none
+PmenuSbar       /16  light8            none              reverse
+Search          /16  light14           light0            reverse
+SpecialKey      /16  light8            none              bold
+StatusLineNC    /16  light8            none              reverse
+TabLine         /16  light8            none              reverse
+VertSplit       /16  light8            none
 ; Variant: 8
-CurSearch            light5            light0            reverse
-EndOfBuffer          none              none
-Folded               none              none
-IncSearch            light3            light0            reverse
-LineNr               none              none
-NonText              none              none
-PmenuSbar            none              none              reverse
-Search               light6            light0            reverse
-SpecialKey           none              none              bold
-StatusLineNC         none              none              bold,underline
-TabLine              none              none              bold,underline
-VertSplit            none              none
+CurSearch       /8   light5            light0            reverse
+EndOfBuffer     /8   none              none
+Folded          /8   none              none
+IncSearch       /8   light3            light0            reverse
+LineNr          /8   none              none
+NonText         /8   none              none
+PmenuSbar       /8   none              none              reverse
+Search          /8   light6            light0            reverse
+SpecialKey      /8   none              none              bold
+StatusLineNC    /8   none              none              bold,underline
+TabLine         /8   none              none              bold,underline
+VertSplit       /8   none              none
 ; Variant: 16 8
-Normal               none              none
+Normal       /16/8   none              none
 ; Group              Foreground        Background        Attributes
-ColorColumn          none              none              reverse
-Conceal              none              none
-Cursor               none              none              reverse
-CursorColumn         none              none
-CursorLine           none              none
-CursorLineNr         none              none              bold
-DiffAdd              light2            light0            reverse
-DiffChange           light4            light0            reverse
-DiffDelete           light1            light0            reverse
-DiffText             light5            light0            reverse
-Directory            none              none
-ErrorMsg             none              none              reverse,bold
-FoldColumn           none              none
-MatchParen           none              none              bold,underline
-ModeMsg              none              none              bold
-MoreMsg              none              none
-Pmenu                none              none              reverse
-PmenuMatch           none              light1            reverse
-PmenuExtra           none              none              reverse
-PmenuKind            none              none              reverse,bold
-PmenuSel             none              none              bold
-PmenuMatchSel        light1            none              bold
-PmenuExtraSel        none              none              bold
-PmenuKindSel         none              none              bold
-PmenuThumb           none              none
-Question             none              none              standout
-QuickFixLine         light5            light0            reverse
-SignColumn           none              none              reverse
-SpellBad             light1            none              underline
-SpellCap             light4            none              underline
-SpellLocal           light5            none              underline
-SpellRare            light6            none              underline
-StatusLine           none              none              bold,reverse
-TabLineFill          none              none
-TabLineSel           none              none              reverse,bold
-Title                none              none
-Visual               light3            light0            reverse
-VisualNOS            none              none
-WarningMsg           none              none              standout
-WildMenu             none              none              bold
+ColorColumn  /16/8   none              none              reverse
+Conceal      /16/8   none              none
+Cursor       /16/8   none              none              reverse
+CursorColumn /16/8   none              none
+CursorLine   /16/8   none              none
+CursorLineNr /16/8   none              none              bold
+DiffAdd      /16/8   light2            light0            reverse
+DiffChange   /16/8   light4            light0            reverse
+DiffDelete   /16/8   light1            light0            reverse
+DiffText     /16/8   light5            light0            reverse
+Directory    /16/8   none              none
+ErrorMsg     /16/8   none              none              reverse,bold
+FoldColumn   /16/8   none              none
+MatchParen   /16/8   none              none              bold,underline
+ModeMsg      /16/8   none              none              bold
+MoreMsg      /16/8   none              none
+Pmenu        /16/8   none              none              reverse
+PmenuMatch   /16/8   none              light1            reverse
+PmenuExtra   /16/8   none              none              reverse
+PmenuKind    /16/8   none              none              reverse,bold
+PmenuSel     /16/8   none              none              bold
+PmenuMatchSel/16/8   light1            none              bold
+PmenuExtraSel/16/8   none              none              bold
+PmenuKindSel /16/8   none              none              bold
+PmenuThumb   /16/8   none              none
+Question     /16/8   none              none              standout
+QuickFixLine /16/8   light5            light0            reverse
+SignColumn   /16/8   none              none              reverse
+SpellBad     /16/8   light1            none              underline
+SpellCap     /16/8   light4            none              underline
+SpellLocal   /16/8   light5            none              underline
+SpellRare    /16/8   light6            none              underline
+StatusLine   /16/8   none              none              bold,reverse
+TabLineFill  /16/8   none              none
+TabLineSel   /16/8   none              none              reverse,bold
+Title        /16/8   none              none
+Visual       /16/8   light3            light0            reverse
+VisualNOS    /16/8   none              none
+WarningMsg   /16/8   none              none              standout
+WildMenu     /16/8   none              none              bold
 ; Other conventional group names (see `:help group-name`)
-Comment              none              none              bold
-Constant             none              none
-Error                light1            light0            reverse,bold
-Identifier           none              none
-Ignore               none              none
-PreProc              none              none
-Special              none              none
-Statement            none              none
-Todo                 none              none              reverse,bold
-Type                 none              none
-Underlined           none              none              underline
+Comment      /16/8   none              none              bold
+Constant     /16/8   none              none
+Error        /16/8   light1            light0            reverse,bold
+Identifier   /16/8   none              none
+Ignore       /16/8   none              none
+PreProc      /16/8   none              none
+Special      /16/8   none              none
+Statement    /16/8   none              none
+Todo         /16/8   none              none              reverse,bold
+Type         /16/8   none              none
+Underlined   /16/8   none              none              underline
 ; See `:help CursorIM`
-CursorIM             none              none
+CursorIM     /16/8   none              none
 ; See `:help window-toolbar`
-ToolbarLine          none              none              reverse
-ToolbarButton        none              none              bold,reverse
+ToolbarLine  /16/8   none              none              reverse
+ToolbarButton/16/8   none              none              bold,reverse
 
 Background: any
 
