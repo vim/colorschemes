@@ -8,6 +8,14 @@ Options:     backend=viml
 
 Environments: gui 256 16 8 0
 
+Background: any
+
+; TODO: missing definitions
+CursorLineFold -> omit  ; TODO: TBD
+CursorLineSign -> omit  ; TODO: TBD
+LineNrAbove    -> omit  ; TODO: TBD
+LineNrBelow    -> omit  ; TODO: TBD
+
 CursorColumn                   -> CursorLine
 StatusLineTerm                 -> StatusLine
 StatusLineTermNC               -> StatusLineNC
@@ -69,7 +77,7 @@ VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
 CursorLine                     none           bg3
-Error                          red            bg0            bold,reverse
+; Error                          red            bg0            bold,reverse ; TODO: commented out because redefined below
 ErrorMsg                       bg0            red            bold
 Folded                         grey           bg6
 LineNr                         bg4            none
@@ -99,78 +107,78 @@ EndOfBuffer                    bg2            none
 
 ; 16-color specific {{{
 ; Variant: 16
-ColorColumn                    bg0            neutralyellow
-Comment                        grey           none
-CursorLine                     none           none           underline
-CursorLineNr                   yellow         none
-Error                          red            bg0            reverse
-ErrorMsg                       bg0            red
-FoldColumn                     bg1            none
-Folded                         bg1            none
-LineNr                         bg1            none
-MatchParen                     none           bg0            bold,underline
-NonText                        bg2            none
-Pmenu                          fg1            bg1
-PmenuSbar                      none           bg1
-PmenuSel                       bg0            blue
-PmenuThumb                     none           blue
-PmenuKind                      neutralred     bg1
-PmenuKindSel                   neutralred     blue
-PmenuExtra                     fg4            bg1
-PmenuExtraSel                  bg0            blue
-PmenuMatch                     fg1            bg1            bold
-PmenuMatchSel                  bg0            blue           bold
-SignColumn                     bg1            none
-SpecialKey                     bg1            none
-StatusLine                     fg4            bg0            reverse,bold
-StatusLineNC                   fg4            bg0            reverse
-TabLine                        bg0            bg1
-TabLineFill                    bg0            bg1
-TabLineSel                     fg0            bg0            bold
-ToolbarButton                  fg1            bg1            bold
-ToolbarLine                    none           none
-VertSplit                      bg0            fg4
-Visual                         bg0            blue
-WildMenu                       fg1            bg0            bold
-EndOfBuffer                    bg2            none
+ColorColumn             /16    bg0            neutralyellow
+Comment                 /16    grey           none
+CursorLine              /16    none           none           underline
+CursorLineNr            /16    yellow         none
+Error                   /16    red            bg0            reverse
+ErrorMsg                /16    bg0            red
+FoldColumn              /16    bg1            none
+Folded                  /16    bg1            none
+LineNr                  /16    bg1            none
+MatchParen              /16    none           bg0            bold,underline
+NonText                 /16    bg2            none
+Pmenu                   /16    fg1            bg1
+PmenuSbar               /16    none           bg1
+PmenuSel                /16    bg0            blue
+PmenuThumb              /16    none           blue
+PmenuKind               /16    neutralred     bg1
+PmenuKindSel            /16    neutralred     blue
+PmenuExtra              /16    fg4            bg1
+PmenuExtraSel           /16    bg0            blue
+PmenuMatch              /16    fg1            bg1            bold
+PmenuMatchSel           /16    bg0            blue           bold
+SignColumn              /16    bg1            none
+SpecialKey              /16    bg1            none
+StatusLine              /16    fg4            bg0            reverse,bold
+StatusLineNC            /16    fg4            bg0            reverse
+TabLine                 /16    bg0            bg1
+TabLineFill             /16    bg0            bg1
+TabLineSel              /16    fg0            bg0            bold
+ToolbarButton           /16    fg1            bg1            bold
+ToolbarLine             /16    none           none
+VertSplit               /16    bg0            fg4
+Visual                  /16    bg0            blue
+WildMenu                /16    fg1            bg0            bold
+EndOfBuffer             /16    bg2            none
 
 ; 8-color specific {{{
 ; Variant: 8
-Normal                         fg4            bg0
-ColorColumn                    bg0            fg4
-Comment                        fg4            none           bold
-CursorLine                     none           none           underline
-CursorLineNr                   yellow         none
-Error                          red            bg0            reverse
-ErrorMsg                       bg0            red
-FoldColumn                     fg4            none
-Folded                         fg4            none
-LineNr                         fg4            none
-MatchParen                     fg4            none           bold,underline
-NonText                        fg4            none
-Pmenu                          bg1            fg1
-PmenuSbar                      none           bg1
-PmenuSel                       bg0            blue
-PmenuThumb                     none           blue
-PmenuKind                      red            fg1
-PmenuKindSel                   red            blue
-PmenuExtra                     bg1            fg1
-PmenuExtraSel                  bg1            blue
-PmenuMatch                     bg1            fg1            bold
-PmenuMatchSel                  bg0            blue           bold
-SignColumn                     fg4            none
-SpecialKey                     fg4            none
-StatusLine                     fg4            bg0            reverse,bold
-StatusLineNC                   fg4            bg0            reverse
-TabLine                        bg0            fg4
-TabLineFill                    bg0            fg4
-TabLineSel                     fg4            bg0
-ToolbarButton                  bg0            fg4            bold
-ToolbarLine                    none           none
-VertSplit                      bg0            fg4
-Visual                         bg0            blue
-WildMenu                       blue           bg1            bold
-EndOfBuffer                    none           none
+Normal                  /8     fg4            bg0
+ColorColumn             /8     bg0            fg4
+Comment                 /8     fg4            none           bold
+CursorLine              /8     none           none           underline
+CursorLineNr            /8     yellow         none
+Error                   /8     red            bg0            reverse
+ErrorMsg                /8     bg0            red
+FoldColumn              /8     fg4            none
+Folded                  /8     fg4            none
+LineNr                  /8     fg4            none
+MatchParen              /8     fg4            none           bold,underline
+NonText                 /8     fg4            none
+Pmenu                   /8     bg1            fg1
+PmenuSbar               /8     none           bg1
+PmenuSel                /8     bg0            blue
+PmenuThumb              /8     none           blue
+PmenuKind               /8     red            fg1
+PmenuKindSel            /8     red            blue
+PmenuExtra              /8     bg1            fg1
+PmenuExtraSel           /8     bg1            blue
+PmenuMatch              /8     bg1            fg1            bold
+PmenuMatchSel           /8     bg0            blue           bold
+SignColumn              /8     fg4            none
+SpecialKey              /8     fg4            none
+StatusLine              /8     fg4            bg0            reverse,bold
+StatusLineNC            /8     fg4            bg0            reverse
+TabLine                 /8     bg0            fg4
+TabLineFill             /8     bg0            fg4
+TabLineSel              /8     fg4            bg0
+ToolbarButton           /8     bg0            fg4            bold
+ToolbarLine             /8     none           none
+VertSplit               /8     bg0            fg4
+Visual                  /8     bg0            blue
+WildMenu                /8     blue           bg1            bold
+EndOfBuffer             /8     none           none
 
 ; Common {{{
 ; Variant: gui 256 16 8
@@ -187,10 +195,10 @@ MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
 Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
-SpellBad                       red            none           t=underline g=undercurl s=red
-SpellCap                       blue           none           t=underline g=undercurl s=blue
-SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
-SpellRare                      purple         none           t=underline g=undercurl s=purple
+SpellBad                       red            none           s=red    underline /gui omit omit s=omit undercurl
+SpellCap                       blue           none           s=blue   underline /gui omit omit s=omit undercurl
+SpellLocal                     aqua           none           s=aqua   underline /gui omit omit s=omit undercurl
+SpellRare                      purple         none           s=purple underline /gui omit omit s=omit undercurl
 Title                          green          none           bold
 WarningMsg                     red            none           bold
 ; Other conventional group names (see `:help group-name`)
@@ -272,7 +280,7 @@ VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
 CursorLine                     none           bg2
-Error                          red            bg0            bold,reverse
+; Error                          red            bg0            bold,reverse  ; TODO: commented out because redefined below
 ErrorMsg                       bg0            red            bold
 Folded                         grey           bg6
 LineNr                         bg4            none
@@ -302,78 +310,78 @@ EndOfBuffer                    bg2            none
 
 ; 16-color specific {{{
 ; Variant: 16
-ColorColumn                    bg0            bg1
-Comment                        grey           none
-CursorLine                     none           none           underline
-CursorLineNr                   yellow         none
-Error                          red            bg0            reverse
-ErrorMsg                       bg0            red
-FoldColumn                     bg1            none
-Folded                         bg1            none
-LineNr                         bg1            none
-MatchParen                     none           bg0            bold,underline
-NonText                        bg2            none
-Pmenu                          fg1            bg1
-PmenuSbar                      none           bg1
-PmenuSel                       bg0            blue
-PmenuThumb                     none           blue
-PmenuKind                      neutralred     bg1
-PmenuKindSel                   neutralred     blue
-PmenuExtra                     fg0            bg1
-PmenuExtraSel                  bg0            blue
-PmenuMatch                     fg1            bg1            bold
-PmenuMatchSel                  bg0            blue           bold
-SignColumn                     bg1            none
-SpecialKey                     bg1            none
-StatusLine                     fg0            bg0            bold,reverse
-StatusLineNC                   bg1            fg0            reverse
-TabLine                        fg0            bg1
-TabLineFill                    bg0            bg1
-TabLineSel                     fg0            bg0            bold
-ToolbarButton                  fg1            bg1            bold
-ToolbarLine                    none           none
-VertSplit                      fg0            bg1
-Visual                         bg0            blue
-WildMenu                       fg1            bg0            bold
-EndOfBuffer                    bg2            none
+ColorColumn             /16    bg0            bg1
+Comment                 /16    grey           none
+CursorLine              /16    none           none           underline
+CursorLineNr            /16    yellow         none
+Error                   /16    red            bg0            reverse
+ErrorMsg                /16    bg0            red
+FoldColumn              /16    bg1            none
+Folded                  /16    bg1            none
+LineNr                  /16    bg1            none
+MatchParen              /16    none           bg0            bold,underline
+NonText                 /16    bg2            none
+Pmenu                   /16    fg1            bg1
+PmenuSbar               /16    none           bg1
+PmenuSel                /16    bg0            blue
+PmenuThumb              /16    none           blue
+PmenuKind               /16    neutralred     bg1
+PmenuKindSel            /16    neutralred     blue
+PmenuExtra              /16    fg0            bg1
+PmenuExtraSel           /16    bg0            blue
+PmenuMatch              /16    fg1            bg1            bold
+PmenuMatchSel           /16    bg0            blue           bold
+SignColumn              /16    bg1            none
+SpecialKey              /16    bg1            none
+StatusLine              /16    fg0            bg0            bold,reverse
+StatusLineNC            /16    bg1            fg0            reverse
+TabLine                 /16    fg0            bg1
+TabLineFill             /16    bg0            bg1
+TabLineSel              /16    fg0            bg0            bold
+ToolbarButton           /16    fg1            bg1            bold
+ToolbarLine             /16    none           none
+VertSplit               /16    fg0            bg1
+Visual                  /16    bg0            blue
+WildMenu                /16    fg1            bg0            bold
+EndOfBuffer             /16    bg2            none
 
 ; 8-color specific {{{
 ; Variant: 8
-Normal                         fg1            bg1
-ColorColumn                    bg0            fg4
-Comment                        fg4            none           bold
-CursorLine                     none           none           underline
-CursorLineNr                   yellow         none
-Error                          red            bg0            reverse
-ErrorMsg                       bg0            red
-FoldColumn                     fg4            none
-Folded                         fg4            none
-LineNr                         fg4            none
-MatchParen                     fg4            none           bold,underline
-NonText                        fg4            none
-Pmenu                          bg1            fg1
-PmenuSbar                      none           bg1
-PmenuSel                       bg0            blue
-PmenuThumb                     none           blue
-PmenuKind                      red            fg1
-PmenuKindSel                   red            blue
-PmenuExtra                     bg1            fg1
-PmenuExtraSel                  bg1            blue
-PmenuMatch                     bg1            fg1            bold
-PmenuMatchSel                  bg0            blue           bold
-SignColumn                     fg4            none
-SpecialKey                     fg4            none
-StatusLine                     fg4            bg0            reverse,bold
-StatusLineNC                   fg4            bg0            reverse
-TabLine                        bg0            fg4
-TabLineFill                    bg0            fg4
-TabLineSel                     fg1            bg0
-ToolbarButton                  bg0            fg4            bold
-ToolbarLine                    none           none
-VertSplit                      bg0            fg4
-Visual                         bg0            blue
-WildMenu                       blue           bg1            bold
-EndOfBuffer                    none           none
+Normal                  /8     fg1            bg1
+ColorColumn             /8     bg0            fg4
+Comment                 /8     fg4            none           bold
+CursorLine              /8     none           none           underline
+CursorLineNr            /8     yellow         none
+Error                   /8     red            bg0            reverse
+ErrorMsg                /8     bg0            red
+FoldColumn              /8     fg4            none
+Folded                  /8     fg4            none
+LineNr                  /8     fg4            none
+MatchParen              /8     fg4            none           bold,underline
+NonText                 /8     fg4            none
+Pmenu                   /8     bg1            fg1
+PmenuSbar               /8     none           bg1
+PmenuSel                /8     bg0            blue
+PmenuThumb              /8     none           blue
+PmenuKind               /8     red            fg1
+PmenuKindSel            /8     red            blue
+PmenuExtra              /8     bg1            fg1
+PmenuExtraSel           /8     bg1            blue
+PmenuMatch              /8     bg1            fg1            bold
+PmenuMatchSel           /8     bg0            blue           bold
+SignColumn              /8     fg4            none
+SpecialKey              /8     fg4            none
+StatusLine              /8     fg4            bg0            reverse,bold
+StatusLineNC            /8     fg4            bg0            reverse
+TabLine                 /8     bg0            fg4
+TabLineFill             /8     bg0            fg4
+TabLineSel              /8     fg1            bg0
+ToolbarButton           /8     bg0            fg4            bold
+ToolbarLine             /8     none           none
+VertSplit               /8     bg0            fg4
+Visual                  /8     bg0            blue
+WildMenu                /8     blue           bg1            bold
+EndOfBuffer             /8     none           none
 
 ; Common {{{
 ; Variant: gui 256 16 8
@@ -390,10 +398,10 @@ MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
 Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
-SpellBad                       red            none           t=underline g=undercurl s=red
-SpellCap                       blue           none           t=underline g=undercurl s=blue
-SpellLocal                     aqua           none           t=underline g=undercurl s=aqua
-SpellRare                      purple         none           t=underline g=undercurl s=purple
+SpellBad                       red            none           s=red    underline /gui omit omit s=omit undercurl
+SpellCap                       blue           none           s=blue   underline /gui omit omit s=omit undercurl
+SpellLocal                     aqua           none           s=aqua   underline /gui omit omit s=omit undercurl
+SpellRare                      purple         none           s=purple underline /gui omit omit s=omit undercurl
 Title                          green          none           bold
 WarningMsg                     red            none           bold
 ; Other conventional group names (see `:help group-name`)
