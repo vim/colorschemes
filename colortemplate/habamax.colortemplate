@@ -60,8 +60,11 @@ Color: Removed          #d75f5f        167            darkred
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
-CursorLineFold -> omit  ; TODO: TBD
-CursorLineSign -> omit  ; TODO: TBD
+CursorLineFold    -> omit  ; TODO: TBD
+CursorLineSign    -> omit  ; TODO: TBD
+PopupNotification -> omit  ; TODO: TBD
+StatusLineTerm    -> omit  ; TODO: TBD
+StatusLineTermNC  -> omit  ; TODO: TBD
 
 ;;; links
 Terminal                               -> Normal
