@@ -7,8 +7,20 @@ URL:         https://www.github.com/vim/colorschemes
 Options:     backend=viml
 
 Environments: gui 256 16 8 0
-   
+
 Background: any
+
+; TODO: missing definitions
+Cursor -> omit           ; TODO: TBD
+CursorIM -> omit         ; TODO: TBD
+CursorLineFold -> omit   ; TODO: TBD
+CursorLineSign -> omit   ; TODO: TBD
+StatusLine -> omit       ; TODO: TBD
+StatusLineNC -> omit     ; TODO: TBD
+StatusLineTerm -> omit   ; TODO: TBD
+StatusLineTermNC -> omit ; TODO: TBD
+lCursor -> omit          ; TODO: TBD
+
 
 ; links
 helpVim                        -> Title
@@ -175,7 +187,7 @@ SpecialKey                     colorNonT      none
 ; Variant: gui 256
 EndOfBuffer                    colorNonT      none
 ; Variant: 16
-EndOfBuffer                    color08        none
+EndOfBuffer              /16   color08        none
 
 
 ; Variant: gui 256
@@ -190,16 +202,16 @@ PmenuExtraSel                  color08        colorPMenuSel
 PmenuMatch                     color05        colorB
 PmenuMatchSel                  color05        colorPMenuSel
 ; Variant: 16
-Pmenu                          color00        color07
-PmenuThumb                     none           color02
-PmenuSbar                      none           none
-PmenuSel                       color00        colorPMenuSel
-PmenuKind                      color01        color07
-PmenuKindSel                   color01        colorPMenuSel
-PmenuExtra                     color00        color07
-PmenuExtraSel                  color00        colorPMenuSel
-PmenuMatch                     color00        color07        bold
-PmenuMatchSel                  color00        colorPMenuSel  bold
+Pmenu                    /16   color00        color07
+PmenuThumb               /16   none           color02
+PmenuSbar                /16   none           none
+PmenuSel                 /16   color00        colorPMenuSel
+PmenuKind                /16   color01        color07
+PmenuKindSel             /16   color01        colorPMenuSel
+PmenuExtra               /16   color00        color07
+PmenuExtraSel            /16   color00        colorPMenuSel
+PmenuMatch               /16   color00        color07        bold
+PmenuMatchSel            /16   color00        colorPMenuSel  bold
 
 
 ; Variant: gui 256 16
@@ -223,8 +235,8 @@ debugBreakpoint                color06        none           reverse
 
 
 ; Variant: gui
-Cursor                         color00        color15
-lCursor                        colorlC        color00        reverse
+Cursor                   /gui  color00        color15
+lCursor                  /gui  colorlC        color00        reverse
 
 
 ; Variant: gui 256
@@ -233,12 +245,12 @@ MatchParen                     colorMP        none           bold
 
 
 ; Variant: 16
-MatchParen                     none           none           bold,underline
-VisualNOS                      color00        color06
-CursorLine                     none           none           underline
-CursorColumn                   color00        color11
-Folded                         color00        color03
-ColorColumn                    color00        color03
+MatchParen               /16   none           none           bold,underline
+VisualNOS                /16   color00        color06
+CursorLine               /16   none           none           underline
+CursorColumn             /16   color00        color11
+Folded                   /16   color00        color03
+ColorColumn              /16   color00        color03
 
 ; Variant: gui 256
 VisualNOS                      color00        color06
@@ -248,10 +260,10 @@ Folded                         color08        colorB
 ColorColumn                    none           colorB
 
 ; Variant: gui
-SpellBad                       none           none           g=undercurl s=color09
-SpellCap                       none           none           g=undercurl s=color06
-SpellLocal                     none           none           g=undercurl s=color02
-SpellRare                      none           none           g=undercurl s=color13
+SpellBad                 /gui  none           none           s=color09 undercurl
+SpellCap                 /gui  none           none           s=color06 undercurl
+SpellLocal               /gui  none           none           s=color02 undercurl
+SpellRare                /gui  none           none           s=color13 undercurl
 ; Variant: 256 16
 SpellBad                       color09        none           underline
 SpellCap                       color06        none           underline
@@ -307,93 +319,93 @@ CocSearch                      color11        none
 
 
 ; Variant: 8
-Normal                         color07        color00
+Normal                   /8    color07        color00
 
-Statusline                     color07        color00        reverse,bold
-StatuslineNC                   color00        color07
-VertSplit                      color07        color07
+Statusline               /8    color07        color00        reverse,bold
+StatuslineNC             /8    color00        color07
+VertSplit                /8    color07        color07
 
-TabLine                        color07        color00        reverse
-TabLineFill                    none           color07
-TabLineSel                     color07        color00
+TabLine                  /8    color07        color00        reverse
+TabLineFill              /8    none           color07
+TabLineSel               /8    color07        color00
 
-ToolbarLine                    none           none
-ToolbarButton                  color07        color00        reverse,bold
+ToolbarLine              /8    none           none
+ToolbarButton            /8    color07        color00        reverse,bold
 
-QuickFixLine                   color07        color04        bold
-CursorLineNr                   color00        none           bold
-LineNr                         color03        none
-NonText                        color07        none
-FoldColumn                     color07        none
-EndOfBuffer                    color07        none
-SpecialKey                     color07        none
+QuickFixLine             /8    color07        color04        bold
+CursorLineNr             /8    color00        none           bold
+LineNr                   /8    color03        none
+NonText                  /8    color07        none
+FoldColumn               /8    color07        none
+EndOfBuffer              /8    color07        none
+SpecialKey               /8    color07        none
 
-Pmenu                          color00        color07
-PmenuThumb                     none           color02
-PmenuSbar                      none           none
-PmenuSel                       color00        colorPMenuSel
-PmenuKind                      color01        color07
-PmenuKindSel                   color01        colorPMenuSel
-PmenuExtra                     color00        color07
-PmenuExtraSel                  color00        colorPMenuSel
-PmenuMatch                     color00        color07        bold
-PmenuMatchSel                  color00        colorPMenuSel  bold
+Pmenu                    /8    color00        color07
+PmenuThumb               /8    none           color02
+PmenuSbar                /8    none           none
+PmenuSel                 /8    color00        colorPMenuSel
+PmenuKind                /8    color01        color07
+PmenuKindSel             /8    color01        colorPMenuSel
+PmenuExtra               /8    color00        color07
+PmenuExtraSel            /8    color00        colorPMenuSel
+PmenuMatch               /8    color00        color07        bold
+PmenuMatchSel            /8    color00        colorPMenuSel  bold
 
-SignColumn                     none           none
+SignColumn               /8    none           none
 
-Error                          color07        color01
-ErrorMsg                       color07        color01
-ModeMsg                        color03        color00        reverse
-MoreMsg                        color02        none
-Question                       color05        none
-WarningMsg                     color01        none
+Error                    /8    color07        color01
+ErrorMsg                 /8    color07        color01
+ModeMsg                  /8    color03        color00        reverse
+MoreMsg                  /8    color02        none
+Question                 /8    color05        none
+WarningMsg               /8    color01        none
 
-Todo                           color06        color00        reverse
-Search                         color03        color00        reverse
-IncSearch                      color02        color00        reverse
-CurSearch                      color02        color00        reverse
-WildMenu                       color00        color03        bold
+Todo                     /8    color06        color00        reverse
+Search                   /8    color03        color00        reverse
+IncSearch                /8    color02        color00        reverse
+CurSearch                /8    color02        color00        reverse
+WildMenu                 /8    color00        color03        bold
 
-debugPC                        color04        none           reverse
-debugBreakpoint                color06        none           reverse
-
-
-Visual                         none           none           reverse
-MatchParen                     colorMP        none           bold
-
-VisualNOS                      color00        color06
-CursorLine                     none           none           underline
-CursorColumn                   color00        color03
-Folded                         color00        color03
-ColorColumn                    color00        color03
-
-SpellBad                       color01        none           underline,reverse
-SpellCap                       color06        none           underline,reverse
-SpellLocal                     color02        color00        underline,reverse
-SpellRare                      color05        none           underline,reverse
-
-Comment                        color04        none
-Constant                       color01        none
-Identifier                     none           none
-
-Statement                      color07        none           bold
-Type                           color02        none
-
-PreProc                        color06        none
-Special                        color06        none
-Underlined                     none           none           underline
-
-Title                          none           none           bold
-Directory                      color04        none           bold
-
-Conceal                        none           none
-Ignore                         none           none
+debugPC                  /8    color04        none           reverse
+debugBreakpoint          /8    color06        none           reverse
 
 
-DiffAdd                        fgDiff         color05
-DiffChange                     fgDiff         color02
-DiffText                       color00        color07
-DiffDelete                     color01        none
+Visual                   /8    none           none           reverse
+MatchParen               /8    colorMP        none           bold
+
+VisualNOS                /8    color00        color06
+CursorLine               /8    none           none           underline
+CursorColumn             /8    color00        color03
+Folded                   /8    color00        color03
+ColorColumn              /8    color00        color03
+
+SpellBad                 /8    color01        none           underline,reverse
+SpellCap                 /8    color06        none           underline,reverse
+SpellLocal               /8    color02        color00        underline,reverse
+SpellRare                /8    color05        none           underline,reverse
+
+Comment                  /8    color04        none
+Constant                 /8    color01        none
+Identifier               /8    none           none
+
+Statement                /8    color07        none           bold
+Type                     /8    color02        none
+
+PreProc                  /8    color06        none
+Special                  /8    color06        none
+Underlined               /8    none           none           underline
+
+Title                    /8    none           none           bold
+Directory                /8    color04        none           bold
+
+Conceal                  /8    none           none
+Ignore                   /8    none           none
+
+
+DiffAdd                  /8    fgDiff         color05
+DiffChange               /8    fgDiff         color02
+DiffText                 /8    color00        color07
+DiffDelete               /8    color01        none
 
 
 
@@ -483,14 +495,14 @@ PmenuExtraSel                  color08        colorPMenuSel
 PmenuMatch                     color05        colorB
 PmenuMatchSel                  color05        colorPMenuSel
 ; Variant: 16
-Pmenu                          color00        color07
-PmenuThumb                     none           color02
-PmenuSbar                      none           none
-PmenuSel                       color00        colorPMenuSel
-PmenuKind                      color01        color07
-PmenuKindSel                   color01        colorPMenuSel
-PmenuExtra                     color00        color07
-PmenuExtraSel                  color00        colorPMenuSel
+Pmenu                    /16   color00        color07
+PmenuThumb               /16   none           color02
+PmenuSbar                /16   none           none
+PmenuSel                 /16   color00        colorPMenuSel
+PmenuKind                /16   color01        color07
+PmenuKindSel             /16   color01        colorPMenuSel
+PmenuExtra               /16   color00        color07
+PmenuExtraSel            /16   color00        colorPMenuSel
 
 ; Variant: gui 256 16
 SignColumn                     none           none
@@ -513,8 +525,8 @@ debugBreakpoint                color06        none           reverse
 
 
 ; Variant: gui
-Cursor                         color15        color00
-lCursor                        colorlC        color00        reverse
+Cursor                   /gui  color15        color00
+lCursor                  /gui  colorlC        color00        reverse
 
 
 ; Variant: gui 256
@@ -523,13 +535,13 @@ MatchParen                     colorMP        none           bold
 
 
 ; Variant: 16
-Visual                         color15        colorV
-MatchParen                     none           none           bold,underline
-VisualNOS                      color00        color14
-CursorLine                     none           none           underline
-CursorColumn                   color00        color11
-Folded                         color00        color03
-ColorColumn                    color00        color03
+Visual                   /16   color15        colorV
+MatchParen               /16   none           none           bold,underline
+VisualNOS                /16   color00        color14
+CursorLine               /16   none           none           underline
+CursorColumn             /16   color00        color11
+Folded                   /16   color00        color03
+ColorColumn              /16   color00        color03
 
 ; Variant: gui 256
 VisualNOS                      color15        color14
@@ -539,10 +551,10 @@ Folded                         color08        colorB
 ColorColumn                    none           colorB
 
 ; Variant: gui
-SpellBad                       none           none           g=undercurl s=color01
-SpellCap                       none           none           g=undercurl s=color06
-SpellLocal                     none           none           g=undercurl s=color02
-SpellRare                      none           none           g=undercurl s=color13
+SpellBad                 /gui  none           none           s=color01 undercurl
+SpellCap                 /gui  none           none           s=color06 undercurl
+SpellLocal               /gui  none           none           s=color02 undercurl
+SpellRare                /gui  none           none           s=color13 undercurl
 ; Variant: 256 16
 SpellBad                       color01        none           underline
 SpellCap                       color06        none           underline
@@ -599,91 +611,91 @@ CocSearch                      color01        none
 
 
 ; Variant: 8
-Normal                         color00        color07
+Normal                   /8    color00        color07
 
-Statusline                     color07        color00        bold
-StatuslineNC                   color07        color08
-VertSplit                      color00        color00
+Statusline               /8    color07        color00        bold
+StatuslineNC             /8    color07        color08
+VertSplit                /8    color00        color00
 
-TabLine                        color00        color07        reverse
-TabLineFill                    none           color08
-TabLineSel                     color00        color07
+TabLine                  /8    color00        color07        reverse
+TabLineFill              /8    none           color08
+TabLineSel               /8    color00        color07
 
-ToolbarLine                    none           none
-ToolbarButton                  color07        color00        bold
+ToolbarLine              /8    none           none
+ToolbarButton            /8    color07        color00        bold
 
-QuickFixLine                   color07        color04        bold
-CursorLineNr                   color00        none           bold
-LineNr                         color03        none
-NonText                        color00        none
-FoldColumn                     color00        none
-EndOfBuffer                    color00        none
-SpecialKey                     color00        none
+QuickFixLine             /8    color07        color04        bold
+CursorLineNr             /8    color00        none           bold
+LineNr                   /8    color03        none
+NonText                  /8    color00        none
+FoldColumn               /8    color00        none
+EndOfBuffer              /8    color00        none
+SpecialKey               /8    color00        none
 
-Pmenu                          color07        color00
-PmenuThumb                     none           color02
-PmenuSbar                      none           none
-PmenuSel                       none           colorPMenuSel
-PmenuKind                      color01        color00
-PmenuKindSel                   color01        colorPMenuSel
-PmenuExtra                     color07        color00
-PmenuExtraSel                  color00        colorPMenuSel
+Pmenu                    /8    color07        color00
+PmenuThumb               /8    none           color02
+PmenuSbar                /8    none           none
+PmenuSel                 /8    none           colorPMenuSel
+PmenuKind                /8    color01        color00
+PmenuKindSel             /8    color01        colorPMenuSel
+PmenuExtra               /8    color07        color00
+PmenuExtraSel            /8    color00        colorPMenuSel
 
-SignColumn                     none           none
+SignColumn               /8    none           none
 
-Error                          color07        color01
-ErrorMsg                       color07        color01
-ModeMsg                        color03        color00        reverse
-MoreMsg                        color02        none
-Question                       color05        none
-WarningMsg                     color01        none
+Error                    /8    color07        color01
+ErrorMsg                 /8    color07        color01
+ModeMsg                  /8    color03        color00        reverse
+MoreMsg                  /8    color02        none
+Question                 /8    color05        none
+WarningMsg               /8    color01        none
 
-Todo                           color06        color00        reverse
-Search                         color00        color03
-IncSearch                      color00        color02
-CurSearch                      color00        color02
-WildMenu                       color00        color03        bold
+Todo                     /8    color06        color00        reverse
+Search                   /8    color00        color03
+IncSearch                /8    color00        color02
+CurSearch                /8    color00        color02
+WildMenu                 /8    color00        color03        bold
 
-debugPC                        color04        none           reverse
-debugBreakpoint                color06        none           reverse
-
-
-Visual                         none           none           reverse
-MatchParen                     colorMP        none           bold
-
-VisualNOS                      color00        color06
-CursorLine                     none           none           underline
-CursorColumn                   color00        color03
-Folded                         color00        color03
-ColorColumn                    color00        color03
-
-SpellBad                       color01        none           underline,reverse
-SpellCap                       color06        none           underline,reverse
-SpellLocal                     color02        color00        underline,reverse
-SpellRare                      color05        none           underline,reverse
-
-Comment                        color04        none
-Constant                       color01        none
-Identifier                     none           none
-
-Statement                      color00        none           bold
-Type                           color02        none
-
-PreProc                        color06        none
-Special                        color06        none
-Underlined                     none           none           underline
-
-Title                          color00        none           bold
-Directory                      color04        none           bold
-
-Conceal                        none           none
-Ignore                         none           none
+debugPC                  /8    color04        none           reverse
+debugBreakpoint          /8    color06        none           reverse
 
 
-DiffAdd                        fgDiff         color05
-DiffChange                     fgDiff         color06
-DiffText                       color07        color00
-DiffDelete                     color01        none
+Visual                   /8    none           none           reverse
+MatchParen               /8    colorMP        none           bold
+
+VisualNOS                /8    color00        color06
+CursorLine               /8    none           none           underline
+CursorColumn             /8    color00        color03
+Folded                   /8    color00        color03
+ColorColumn              /8    color00        color03
+
+SpellBad                 /8    color01        none           underline,reverse
+SpellCap                 /8    color06        none           underline,reverse
+SpellLocal               /8    color02        color00        underline,reverse
+SpellRare                /8    color05        none           underline,reverse
+
+Comment                  /8    color04        none
+Constant                 /8    color01        none
+Identifier               /8    none           none
+
+Statement                /8    color00        none           bold
+Type                     /8    color02        none
+
+PreProc                  /8    color06        none
+Special                  /8    color06        none
+Underlined               /8    none           none           underline
+
+Title                    /8    color00        none           bold
+Directory                /8    color04        none           bold
+
+Conceal                  /8    none           none
+Ignore                   /8    none           none
+
+
+DiffAdd                  /8    fgDiff         color05
+DiffChange               /8    fgDiff         color06
+DiffText                 /8    color07        color00
+DiffDelete               /8    color01        none
 
 
 Background: any
