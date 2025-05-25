@@ -9,6 +9,8 @@ URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
+
 Background: dark
 
 ; Color palette {{{
@@ -50,21 +52,21 @@ Color: Xbrightcyan   #00ffff           ~
 
 ; Terminal palette {{{
 Term colors: background
-Term colors: Xdarkred
-Term colors: Xdarkgreen
-Term colors: darkyellow
-Term colors: Xdarkblue
-Term colors: darkmagenta
-Term colors: darkcyan
-Term colors: neutral1
-Term colors: neutral3
-Term colors: red
-Term colors: Xbrightgreen
-Term colors: Xbrightyellow
-Term colors: Xbrightblue
-Term colors: Xbrightmagenta
-Term colors: Xbrightcyan
-Term colors: white
+             Xdarkred
+             Xdarkgreen
+             darkyellow
+             Xdarkblue
+             darkmagenta
+             darkcyan
+             neutral1
+             neutral3
+             red
+             Xbrightgreen
+             Xbrightyellow
+             Xbrightblue
+             Xbrightmagenta
+             Xbrightcyan
+             white
 ; }}}
 
 ; Basics {{{

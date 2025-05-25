@@ -7,6 +7,7 @@ Author:      k-37 <60838818+k-37@users.noreply.github.com>
 URL:         https://github.com/vim/colorschemes
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
 
 Background: dark
 
@@ -56,7 +57,7 @@ Color: Changed               #ffaf5f        215            darkyellow
 Color: Removed               #d75f5f        167            darkred
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+             color08 color09 color10 color11 color12 color13 color14 color15
 
 ;;; Links
 CursorLineFold               -> FoldColumn

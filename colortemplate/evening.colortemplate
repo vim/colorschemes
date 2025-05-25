@@ -10,6 +10,8 @@ URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
+
 Variant:    gui 256 16
 Background: dark
 
@@ -61,7 +63,7 @@ Color: x_white       #ffffff           231               white
 
 ;;; Terminal
 Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue_m x_darkmagenta x_darkcyan x_gray
-Term colors: x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
+             x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 
 VertSplit            -> StatusLineNC

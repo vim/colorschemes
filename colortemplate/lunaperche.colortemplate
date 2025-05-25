@@ -6,6 +6,7 @@ Author:      Maxim Kim <habamax@gmail.com>
 URL:         https://www.github.com/vim/colorschemes
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
    
 Background: any
 
@@ -145,7 +146,7 @@ Color: fgDiffText              #afffff        159            black
 Color: fgDiff                  #C6C6C6        251            white
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+             color08 color09 color10 color11 color12 color13 color14 color15
 
 
 ;;; chrome
@@ -443,7 +444,7 @@ Color: diffText                #5FD7D7        80             cyan
 Color: fgDiff                  #000000        16             black
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
-Term colors: color08 color09 color10 color11 color12 color13 color14 color15
+             color08 color09 color10 color11 color12 color13 color14 color15
 
 
 ;;; chrome

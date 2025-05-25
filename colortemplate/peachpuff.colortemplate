@@ -9,6 +9,8 @@ URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
+
 
 Background: light
 
@@ -51,7 +53,7 @@ Color: gray        #878787        102            gray
 ;;; Terminal
 
 Term colors: bg0     statement constant preproc identifier type special bg1
-Term colors: comment statement constant preproc identifier type special fg0
+             comment statement constant preproc identifier type special fg0
 
 
 ;;; Links

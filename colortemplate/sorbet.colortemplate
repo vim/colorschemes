@@ -11,6 +11,8 @@ URL:           https://github.com/vim/colorschemes
 Description:   A shallow grave, a monument to the ruined age.
 License:       Vim License (see `:help license`)`
 Options:       backend=viml
+
+Environments: gui 256 16 8 0
 ; }}}
 
 
@@ -98,7 +100,7 @@ Color: errorred      #ff5f5f           203               red
 
 ; Terminal colors for dark variant {{{
 Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
-Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
+             dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
 Variant: gui 256

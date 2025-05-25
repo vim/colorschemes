@@ -10,6 +10,8 @@ Maintainer: original maintainer Ron Aaron <ron@ronware.org>
 URL:        https://www.github.com/vim/colorschemes
 License:    Same as Vim
 Options:    backend=viml
+
+Environments: gui 256 16 8 0
 ; }}}
 
 ; Common linked groups {{{
@@ -114,8 +116,8 @@ Color: ronGray30      #4d4d4d          239               darkgrey
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
-Term colors: xterm8 xterm9 xterm10 xterm11 xterm12 xterm13
-Term colors: xterm14 xterm15
+             xterm8 xterm9 xterm10 xterm11 xterm12 xterm13
+             xterm14 xterm15
 ; }}}
 
 ; Default highlight groups {{{

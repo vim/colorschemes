@@ -11,6 +11,8 @@ URL:           https://github.com/vim/colorschemes
 Description:   A mostly monochrome colorscheme, with a few niceties.
 License:       Vim License (see `:help license`)`
 Options:       backend=viml
+
+Environments: gui 256 16 8 0
 ; }}}
 
 
@@ -98,7 +100,7 @@ Color: errorred      #ff005f           197               red
 
 ; Terminal colors for dark variant {{{
 Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
-Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
+             dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
 Variant: gui 256
@@ -310,7 +312,7 @@ Color: errorred      #ff005f           197               red
 
 ; Terminal colors for light variant {{{
 Term colors: light0 light1 light2 light3 light4 light5 light6 light7
-Term colors: light8 light9 light10 light11 light12 light13 light14 light15
+             light8 light9 light10 light11 light12 light13 light14 light15
 ; }}}
 
 Variant: gui 256

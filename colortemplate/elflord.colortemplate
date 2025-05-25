@@ -10,6 +10,10 @@ URL:           https://www.github.com/vim/colorschemes
 License:       Same as Vim
 Options:       backend=viml
 
+Environments: gui 256 16 8 0
+
+Background: dark
+
 ; Common linked groups {{{
 Terminal              -> Normal
 Boolean               -> Constant
@@ -44,8 +48,6 @@ PopupNotification     -> Todo
 TabPanelFill          -> Normal
 TabPanel              -> Normal
 ; }}}
-
-Background: dark
 
 ; Color palette {{{
 ; Color name         GUI                     Base256     Base16 (optional)
@@ -104,8 +106,8 @@ Color: elfBlue        #0000ff          21                blue
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
-Term colors: xterm8 xterm9 xterm10 xterm11 xterm12 xterm13
-Term colors: xterm14 xterm15
+             xterm8 xterm9 xterm10 xterm11 xterm12 xterm13
+             xmerm14 xterm15
 ; }}}
 
 ; Default highlight groups {{{

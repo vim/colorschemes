@@ -6,6 +6,7 @@ Author:      Maxim Kim <habamax@gmail.com>, ported from gruvbox8 of Lifepillar <
 URL:         https://www.github.com/vim/colorschemes
 Options:     backend=viml
 
+Environments: gui 256 16 8 0
 
 CursorColumn                   -> CursorLine
 StatusLineTerm                 -> StatusLine
@@ -53,7 +54,7 @@ Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
 
 Term colors: bg0  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
-Term colors: grey red        green        yellow        blue        purple        aqua        fg1
+             grey red        green        yellow        blue        purple        aqua        fg1
 
 
 Variant: gui 256 16
@@ -256,7 +257,7 @@ Color: aqua                    #427b58        29             Cyan
 Color: orange                  #ff5f00        202            Magenta
 
 Term colors: fg1  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
-Term colors: grey red        green        yellow        blue        purple        aqua        bg0
+             grey red        green        yellow        blue        purple        aqua        bg0
 
 
 Variant: gui 256 16
