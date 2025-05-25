@@ -69,6 +69,8 @@ Type           /0 omit   omit
 Underlined     /0 omit   omit    underline
 
 ; TODO: TO BE VERIFIED:
+LineNrAbove      /0 omit omit s=omit omit
+LineNrBelow      /0 omit omit s=omit omit
 PopupNotification/0 omit omit s=omit omit
 StatusLineTerm   /0 omit omit s=omit omit
 StatusLineTermNC /0 omit omit s=omit omit
