@@ -51,6 +51,11 @@ Color: color12t    #005FFF        27             blue
 Term colors: color00 color01 color02 color03 color04t color05 color06 color07
              color08 color09 color10 color11 color12t color13 color14 color15
 
+; TODO: missing definitions:
+CursorIM -> omit         ; TODO: TBD
+debugBreakpoint -> omit  ; TODO: TBD
+debugPC -> omit          ; TODO: TBD
+
 ;;; chrome
 
 ;;; Links
@@ -69,15 +74,15 @@ TabPanelFill       -> EndOfBuffer
 TabPanel           -> Normal
 
 ; Variant: 8
-Normal             color02        color00
+Normal         /8  color02        color00
 ; Variant: gui 256 16
 Normal             foreground     background
 
 ; Variant: 8
-EndOfBuffer        color04        none           bold
-StatusLine         color04        color07        reverse,bold
-StatusLineNC       color07        color00        reverse
-VertSplit          color07        color00        reverse
+EndOfBuffer    /8  color04        none           bold
+StatusLine     /8  color04        color07        reverse,bold
+StatusLineNC   /8  color07        color00        reverse
+VertSplit      /8  color07        color00        reverse
 ; Variant: gui 256 16
 EndOfBuffer        color12        background
 StatusLine         color15        color04
@@ -85,12 +90,12 @@ StatusLineNC       color15        color17
 VertSplit          color15        color17
 
 ; Variant: 8
-Pmenu              color00        color06
-PmenuSel           color00        color03
-PmenuSbar          none           color00
-PmenuThumb         none           color07
-PmenuMatch         color00        color06        bold
-PmenuMatchSel      color00        color03        bold
+Pmenu          /8  color00        color06
+PmenuSel       /8  color00        color03
+PmenuSbar      /8  none           color00
+PmenuThumb     /8  none           color07
+PmenuMatch     /8  color00        color06        bold
+PmenuMatchSel  /8  color00        color03        bold
 ; Variant: gui 256 16
 Pmenu              color15        color08
 PmenuSel           background     color11
@@ -100,23 +105,23 @@ PmenuThumb         none           color07
 PmenuMatch         color13        color08
 PmenuMatchSel      color13        color11
 ; Variant: 16
-PmenuMatch         color15        color08        bold
-PmenuMatchSel      background     color11        bold
+PmenuMatch     /16 color15        color08        bold
+PmenuMatchSel  /16 background     color11        bold
 
 ; Variant: 16 8
-TabLineFill        none           color07
+TabLineFill  /16/8 none           color07
 ; Variant: gui 256
 TabLineFill        none           color00
 ; Variant: 8
-TabLine            color07        color00        reverse
-TabLineSel         color07        color00
+TabLine        /8  color07        color00        reverse
+TabLineSel     /8  color07        color00
 ; Variant: gui 256 16
 TabLine            foreground     color08
 TabLineSel         color15        background
 
 ; Variant: 8
-ToolbarLine        none           color00
-ToolbarButton      color07        color00        reverse,bold
+ToolbarLine    /8  none           color00
+ToolbarButton  /8  color07        color00        reverse,bold
 ; Variant: gui 256 16
 ToolbarLine        none           color00
 ToolbarButton      color15        color08        bold
@@ -128,18 +133,18 @@ SpecialKey         color06        none
 QuickFixLine       color00        color06
 
 ; Variant: 8
-Folded             color06        none
-CursorLine         none           none           underline
-CursorColumn       none           none           underline
-CursorLineNr       color03        none           bold
-ColorColumn        color07        color01
-Underlined         none           none           underline
+Folded         /8  color06        none
+CursorLine     /8  none           none           underline
+CursorColumn   /8  none           none           underline
+CursorLineNr   /8  color03        none           bold
+ColorColumn    /8  color07        color01
+Underlined     /8  none           none           underline
 ; Variant: 16
-Folded             color06        none
-CursorLine         none           none           underline
-CursorColumn       none           none           underline
-CursorLineNr       color11        none           underline
-ColorColumn        foreground     color08
+Folded         /16 color06        none
+CursorLine     /16 none           none           underline
+CursorColumn   /16 none           none           underline
+CursorLineNr   /16 color11        none           underline
+ColorColumn    /16 foreground     color08
 ; Variant: gui 256
 Folded             color06        color00
 CursorLine         none           color08
@@ -170,72 +175,70 @@ WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
 ; Variant: 8
-Visual             none           none           reverse
-VisualNOS          none           none           reverse,underline
-LineNr             color03        none
-FoldColumn         color06        none
-SignColumn         color06        none
+Visual         /8  none           none           reverse
+VisualNOS      /8  none           none           reverse,underline
+LineNr         /8  color03        none
+FoldColumn     /8  color06        none
+SignColumn     /8  color06        none
 
-Underlined         none           none           underline
+Error          /8  color07        color01
+ErrorMsg       /8  color07        color01
+ModeMsg        /8  color07        none           bold
+WarningMsg     /8  color01        none           bold
+MoreMsg        /8  color02        none           bold
+Question       /8  color06        none           bold
 
-Error              color07        color01
-ErrorMsg           color07        color01
-ModeMsg            color07        none           bold
-WarningMsg         color01        none           bold
-MoreMsg            color02        none           bold
-Question           color06        none           bold
-
-Todo               color04        color03
-MatchParen         color00        color03
-Search             color07        color04
-IncSearch          color01        none           reverse
-WildMenu           color00        color03
+Todo           /8  color04        color03
+MatchParen     /8  color00        color03
+Search         /8  color07        color04
+IncSearch      /8  color01        none           reverse
+WildMenu       /8  color00        color03
 
 ; Variant: gui 256 16
-SpellBad           color09        none           t=underline g=undercurl s=color09
-SpellCap           color14        none           t=underline g=undercurl s=color14
-SpellLocal         color03        none           t=underline g=undercurl s=color03
-SpellRare          color11        none           t=underline g=undercurl s=color11
+SpellBad           color09        none           s=color09 underline /gui omit omit s=omit undercurl
+SpellCap           color14        none           s=color14 underline /gui omit omit s=omit undercurl
+SpellLocal         color03        none           s=color03 underline /gui omit omit s=omit undercurl
+SpellRare          color11        none           s=color11 underline /gui omit omit s=omit undercurl
 ; Variant: 8
-SpellBad           color01        color03        reverse
-SpellCap           color06        none           reverse
-SpellLocal         color03        none           reverse
-SpellRare          color05        color03        reverse
+SpellBad       /8  color01        color03        reverse
+SpellCap       /8  color06        none           reverse
+SpellLocal     /8  color03        none           reverse
+SpellRare      /8  color05        color03        reverse
 
 
 ;;; :h group-names
 ; Variant: gui 256 16
 Comment            color01        none
 ; Variant: 8
-Comment            color01        none           bold
+Comment        /8  color01        none           bold
 
 ; Variant: 8
-Identifier         color06        none
-Statement          color03        none
-Constant           color07        none           bold
+Identifier     /8  color06        none
+Statement      /8  color03        none
+Constant       /8  color07        none           bold
 ; Variant: gui 256 16
 Identifier         color14        none
 Statement          color11        none
 Constant           color15        none
 ; Variant: 8
-PreProc            color05        none           bold
+PreProc        /8  color05        none           bold
 ; Variant: 16
-PreProc            color05        none
+PreProc        /16 color05        none
 ; Variant: gui 256
 PreProc            color03        none
 ; Variant: gui 256 16
 Type               color07        none
 Special            color13        none
 ; Variant: 8
-Type               color07        none
-Special            color05        none
+Type           /8  color07        none
+Special        /8  color05        none
 
 ; Variant: 8
-Directory          color06        none
-Conceal            color07        none
-Ignore             none           none
+Directory      /8  color06        none
+Conceal        /8  color07        none
+Ignore         /8  none           none
 
-Title              color05        none           bold
+Title          /8  color05        none           bold
 
 ; Variant: gui 256 16
 Directory          color14        none
