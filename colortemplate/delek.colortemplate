@@ -189,10 +189,10 @@ SpellCap       /8  darkcyan       black          reverse
 SpellLocal     /8  darkblue       none           reverse
 SpellRare      /8  darkmagenta    none           reverse
 ; Variant:    gui 256 16
-SpellBad           error          none           s=error      underline /gui omit omit undercurl
-SpellCap           identifier     none           s=identifier underline /gui omit omit undercurl
-SpellLocal         statement      none           s=statement  underline /gui omit omit undercurl
-SpellRare          preproc        none           s=preproc    underline /gui omit omit undercurl
+SpellBad           error          none           s=error      underline /gui omit omit s=omit undercurl
+SpellCap           identifier     none           s=identifier underline /gui omit omit s=omit undercurl
+SpellLocal         statement      none           s=statement  underline /gui omit omit s=omit undercurl
+SpellRare          preproc        none           s=preproc    underline /gui omit omit s=omit undercurl
 
 ; Variant:    8
 debugBreakpoint/8  darkyellow     darkblue

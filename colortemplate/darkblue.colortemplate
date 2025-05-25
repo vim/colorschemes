@@ -206,10 +206,10 @@ PmenuMatchSel        ogMagenta         white
 Question             ogGreen           none
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
-SpellBad             ogRed             none              s=ogRed     underline /gui omit omit undercurl
-SpellCap             ogGreen           none              s=ogGreen   underline /gui omit omit undercurl
-SpellLocal           ogCyan            none              s=ogCyan    underline /gui omit omit undercurl
-SpellRare            ogMagenta         none              s=ogMagenta underline /gui omit omit undercurl
+SpellBad             ogRed             none              s=ogRed     underline /gui omit omit s=omit undercurl
+SpellCap             ogGreen           none              s=ogGreen   underline /gui omit omit s=omit undercurl
+SpellLocal           ogCyan            none              s=ogCyan    underline /gui omit omit s=omit undercurl
+SpellRare            ogMagenta         none              s=ogMagenta underline /gui omit omit s=omit undercurl
 StatusLine           ogDeepBlue        ogLightGrey
 StatusLineNC         black             ogGrey
 TabLine              black             ogGrey

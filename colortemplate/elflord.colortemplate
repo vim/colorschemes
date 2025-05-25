@@ -155,10 +155,10 @@ Question              Question         none              bold
 Search                xterm0           xterm11
 SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
-SpellBad              xterm9           none              s=xterm9  underline /gui omit omit undercurl
-SpellCap              rgbBlue          none              s=rgbBlue underline /gui omit omit undercurl
-SpellLocal            xterm11          none              s=xterm11 underline /gui omit omit undercurl
-SpellRare             xterm13          none              s=xterm13 underline /gui omit omit undercurl
+SpellBad              xterm9           none              s=xterm9  underline /gui omit omit s=omit undercurl
+SpellCap              rgbBlue          none              s=rgbBlue underline /gui omit omit s=omit undercurl
+SpellLocal            xterm11          none              s=xterm11 underline /gui omit omit s=omit undercurl
+SpellRare             xterm13          none              s=xterm13 underline /gui omit omit s=omit undercurl
 StatusLine            xterm0           xterm14           bold
 StatusLineNC          xterm0           xterm6
 TabLine               xterm0           rgbDarkCyan
