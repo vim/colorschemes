@@ -12,7 +12,7 @@ Options:     backend=viml
 
 Environments: gui 256 16 8 0
 
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Background: dark
 
 ;;; Color palette
@@ -121,7 +121,7 @@ TabPanel             -> Normal
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
-Variant: 8
+; Variant: 8
 Normal               grey              black
 ColorColumn          grey              darkred
 CursorLine           none              none              underline
@@ -131,7 +131,7 @@ StatusLine           grey              black             reverse,bold
 StatusLineNC         grey              black             reverse
 TabLineSel           grey              black             reverse,bold
 TabLine              grey              black             reverse
-Variant: 16
+; Variant: 16
 Normal               white             black
 ColorColumn          white             darkred
 CursorLine           none              none              underline
@@ -141,7 +141,7 @@ StatusLine           black             white
 StatusLineNC         black             lightgrey
 TabLineSel           black             white
 TabLine              black             lightgrey
-Variant: gui 256
+; Variant: gui 256
 Normal               white             grey20
 ColorColumn          none              darkred
 CursorLine           none              grey40
@@ -152,7 +152,7 @@ StatusLineNC         grey20            lightgrey
 TabLineSel           grey20            white             bold
 TabLine              grey20            lightgrey
 
-Variant: 8
+; Variant: 8
 Pmenu                black             darkcyan
 PmenuSbar            none              grey
 PmenuSel             black             grey
@@ -183,13 +183,13 @@ WarningMsg           darkred           none
 WildMenu             black             yellow
 debugBreakpoint      darkblue          darkred
 debugPC              darkblue          yellow
-Variant: 16
+; Variant: 16
 PmenuMatch           white             grey30            bold
 PmenuMatchSel        black             grey              bold
-Variant: gui 256
+; Variant: gui 256
 PmenuMatch           magenta           grey30
 PmenuMatchSel        darkmagenta       grey
-Variant: gui 256 16
+; Variant: gui 256 16
 Pmenu                white             grey30
 PmenuSbar            none              none
 PmenuSel             black             grey
@@ -220,12 +220,12 @@ WildMenu             black             yellow            bold
 debugBreakpoint      darkblue          red
 debugPC              darkblue          blue
 
-Variant: 8
+; Variant: 8
 SpellBad             darkred           yellow            reverse
 SpellCap             seagreen          none              reverse
 SpellLocal           darkcyan          none              reverse
 SpellRare            darkmagenta       yellow            reverse
-Variant: gui 256 16
+; Variant: gui 256 16
 SpellBad             red               none              t=underline g=undercurl s=red
 SpellCap             green             none              t=underline g=undercurl s=green
 SpellLocal           cyan              none              t=underline g=undercurl s=cyan
@@ -234,7 +234,7 @@ SpellRare            magenta           none              t=underline g=undercurl
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
-Variant: 8
+; Variant: 8
 Directory            darkcyan          none
 Title                magenta           none
 Comment              darkblue          none              bold
@@ -247,7 +247,7 @@ Statement            yellow            none              bold
 Todo                 yellow            blue              reverse
 Type                 seagreen          none              bold
 Underlined           none              none              underline
-Variant: gui 256 16
+; Variant: gui 256 16
 Directory            cyan              none
 Title                magenta           none
 Comment              comment           none

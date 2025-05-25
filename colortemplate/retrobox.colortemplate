@@ -29,7 +29,7 @@ Color: neutralpurple           #b16286        132            DarkMagenta
 Color: neutralaqua             #689d6a        71             DarkCyan
 Color: neutralorange           #d65d0e        166            LightRed
 
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 
 Background: dark
 Color: bg0                     #1c1c1c        234            Black
@@ -57,11 +57,11 @@ Term colors: bg0  neutralred neutralgreen neutralyellow neutralblue neutralpurpl
              grey red        green        yellow        blue        purple        aqua        fg1
 
 
-Variant: gui 256 16
+; Variant: gui 256 16
 Normal                         fg1            bg0
 
 ; GUI & 256-color specific
-Variant: gui 256
+; Variant: gui 256
 CursorLineNr                   yellow         bg0            bold
 FoldColumn                     grey           bg0
 SignColumn                     grey           bg0
@@ -98,7 +98,7 @@ WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
 
 ; 16-color specific {{{
-Variant: 16
+; Variant: 16
 ColorColumn                    bg0            neutralyellow
 Comment                        grey           none
 CursorLine                     none           none           underline
@@ -135,7 +135,7 @@ WildMenu                       fg1            bg0            bold
 EndOfBuffer                    bg2            none
 
 ; 8-color specific {{{
-Variant: 8
+; Variant: 8
 Normal                         fg4            bg0
 ColorColumn                    bg0            fg4
 Comment                        fg4            none           bold
@@ -173,7 +173,7 @@ WildMenu                       blue           bg1            bold
 EndOfBuffer                    none           none
 
 ; Common {{{
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 Conceal                        bg2            none
 Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse
@@ -260,11 +260,11 @@ Term colors: fg1  neutralred neutralgreen neutralyellow neutralblue neutralpurpl
              grey red        green        yellow        blue        purple        aqua        bg0
 
 
-Variant: gui 256 16
+; Variant: gui 256 16
 Normal                         fg1            bg0
 
 ; GUI & 256-color specific
-Variant: gui 256
+; Variant: gui 256
 CursorLineNr                   yellow         bg0            bold
 FoldColumn                     grey           bg0
 SignColumn                     fg1            bg0
@@ -301,7 +301,7 @@ WildMenu                       blue           bg2            bold
 EndOfBuffer                    bg2            none
 
 ; 16-color specific {{{
-Variant: 16
+; Variant: 16
 ColorColumn                    bg0            bg1
 Comment                        grey           none
 CursorLine                     none           none           underline
@@ -338,7 +338,7 @@ WildMenu                       fg1            bg0            bold
 EndOfBuffer                    bg2            none
 
 ; 8-color specific {{{
-Variant: 8
+; Variant: 8
 Normal                         fg1            bg1
 ColorColumn                    bg0            fg4
 Comment                        fg4            none           bold
@@ -376,7 +376,7 @@ WildMenu                       blue           bg1            bold
 EndOfBuffer                    none           none
 
 ; Common {{{
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 Conceal                        bg4            none
 Cursor                         bg0            fg0
 DiffAdd                        green          bg0            reverse

@@ -71,98 +71,98 @@ TabPanel           -> Normal
 
 ;;; Chrome
 
-Variant: 8
+; Variant: 8
 Normal             black          gray
-Variant: gui 256 16
+; Variant: gui 256 16
 Normal             fg0            bg0
 
-Variant: 8
+; Variant: 8
 EndOfBuffer        darkblue       none
 Folded             darkblue       none
 CursorLine         none           none           underline
 CursorColumn       none           none
 CursorLineNr       none           none           bold
-Variant: 16
+; Variant: 16
 EndOfBuffer        comment        none
 Folded             folded_fg      none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       statement      none           underline
 
-Variant: gui 256
+; Variant: gui 256
 EndOfBuffer        comment        endofbuffer    bold
 Folded             folded_fg      folded
 CursorLine         none           folded
 CursorColumn       none           folded
 CursorLineNr       statement      none           bold
 
-Variant: 8
+; Variant: 8
 QuickFixLine       black          darkyellow
 StatusLine         black          gray           reverse,bold
 StatusLineNC       black          gray           reverse
 VertSplit          black          gray           reverse
-Variant: gui 256 16
+; Variant: gui 256 16
 QuickFixLine       fg0            wildmenu
 StatusLine         bg2            fg0            bold
 StatusLineNC       status         fg0
 VertSplit          status         fg0
 
-Variant: 8
+; Variant: 8
 Pmenu              black          darkcyan
 PmenuSel           black          darkyellow
 PmenuSbar          none           none
 PmenuThumb         none           darkgreen
 PmenuMatch         black          darkcyan       bold
 PmenuMatchSel      black          darkyellow     bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Pmenu              fg0            pmenu
 PmenuSel           fg0            wildmenu
 PmenuSbar          none           bg0
 PmenuThumb         none           fg0
-Variant: gui 256
+; Variant: gui 256
 PmenuMatch         statement      pmenu
 PmenuMatchSel      statement      wildmenu
-Variant: 16
+; Variant: 16
 PmenuMatch         fg0            pmenu          bold
 PmenuMatchSel      fg0            wildmenu       bold
 
-Variant: 8
+; Variant: 8
 TabLine            gray           black
 TabLineFill        none           none           reverse
 TabLineSel         black          gray
-Variant: gui 256 16
+; Variant: gui 256 16
 TabLine            fg0            bg1            underline
 TabLineFill        none           none           reverse
 TabLineSel         fg0            bg0            bold
 
-Variant: 8
+; Variant: 8
 ToolbarLine        none           none
 ToolbarButton      black          gray           reverse,bold
-Variant: gui 256 16
+; Variant: gui 256 16
 ToolbarLine        none           none
 ToolbarButton      none           bg1            bold
 
-Variant: 8
+; Variant: 8
 NonText            darkblue       none           bold
 SpecialKey         darkblue       none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 NonText            comment        bg1            bold
 SpecialKey         status         none
 
-Variant: 8
+; Variant: 8
 Visual             none           none           reverse
 VisualNOS          none           none           underline
 LineNr             none           none           bold
 FoldColumn         none           none
 SignColumn         none           none
-Variant: gui 256 16
+; Variant: gui 256 16
 Visual             none           visual
 VisualNOS          none           comment
 LineNr             statement      none
 FoldColumn         folded_fg      none
 SignColumn         folded_fg      none
 
-Variant: 8
+; Variant: 8
 Underlined         none           none           underline
 
 Error              darkred        gray           reverse
@@ -178,7 +178,7 @@ Search             gray           darkmagenta
 IncSearch          darkgreen      none           reverse
 WildMenu           fg0            darkyellow
 ColorColumn        black          darkred
-Variant: gui 256 16
+; Variant: gui 256 16
 Underlined         special        none           underline
 
 Error              error          bg0            reverse
@@ -197,17 +197,17 @@ ColorColumn        fg0            colorcolumn
 Cursor             bg0            type
 lCursor            bg0            statement
 
-Variant: 8
+; Variant: 8
 SpellBad           darkred        none           reverse
 SpellCap           darkcyan       none           reverse
 SpellLocal         darkmagenta    none           reverse
 SpellRare          darkgreen      none           reverse
-Variant: 16
+; Variant: 16
 SpellBad           error          none           underline
 SpellCap           identifier     none           underline
 SpellLocal         statement      none           underline
 SpellRare          type           none           underline
-Variant: gui 256
+; Variant: gui 256
 SpellBad           error          none           t=underline g=undercurl s=error
 SpellCap           spellcap       none           t=underline g=undercurl s=spellcap
 SpellLocal         statement      none           t=underline g=undercurl s=statement
@@ -216,7 +216,7 @@ SpellRare          type           none           t=underline g=undercurl s=type
 
 ;;; Syntax
 
-Variant: 8
+; Variant: 8
 Comment            darkblue       none           bold
 Constant           darkmagenta    none           bold
 Identifier         darkcyan       none
@@ -230,7 +230,7 @@ Directory          darkcyan       none           bold
 Conceal            none           none
 
 Title              darkred        none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Comment            comment        none
 Constant           constant       bg2
 Identifier         identifier     none

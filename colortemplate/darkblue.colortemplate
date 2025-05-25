@@ -114,7 +114,7 @@ TabPanel             -> Normal
 
 
 
-Variant:    8
+; Variant:    8
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               ogLightGrey       black
@@ -178,7 +178,7 @@ Underlined           none              none              underline
 
 
 
-Variant:    gui 256 16
+; Variant:    gui 256 16
 
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
@@ -239,12 +239,12 @@ Type                 ogGreen           none
 Underlined           ogLightViolet     none              underline
 
 
-Variant:  16
+; Variant:  16
 TabLineSel           white             black
 CursorLine           none              none              underline
 CursorLineNr         ogYellow          none              underline
 Search               white             ogBlue
-Variant:  gui 256
+; Variant:  gui 256
 TabLineSel           ogDeepBlue        ogLightGrey
 CursorLine           none              cursorl
 CursorLineNr         ogYellow          cursorl

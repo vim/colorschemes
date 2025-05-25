@@ -88,7 +88,7 @@ TabPanelFill          -> EndOfBuffer
 TabPanel              -> Normal
 
 
-Variant: 8
+; Variant: 8
 Normal                color07     color00
 
 EndOfBuffer           color07     color00        bold
@@ -169,7 +169,7 @@ Conceal               color07     none
 Title                 color05     none           bold
 
 
-Variant: gui 256 16
+; Variant: gui 256 16
 
 Normal                color15     color00
 
@@ -202,14 +202,14 @@ ErrorMsg              color15     color01
 WarningMsg            WarningMsg  none
 SignColumn            color14     SignColumn
 
-Variant: 16
+; Variant: 16
 ColorColumn           color15     rgbGrey30
 FoldColumn            none        none
 Folded                rgbBlue     none
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           underline
-Variant: gui 256
+; Variant: gui 256
 ColorColumn           none        rgbGrey30
 FoldColumn            color08     Folded
 Folded                color08     Folded
@@ -217,7 +217,7 @@ CursorColumn          none        Cursorline
 CursorLine            none        Cursorline
 CursorLineNr          color11     Cursorline     bold
 
-Variant: gui 256 16
+; Variant: gui 256 16
 Visual                rgbDarkBlue rgbDarkGrey
 VisualNOS             none        color00        t=underline g=underline,bold
 LineNr                color08     none
@@ -247,13 +247,13 @@ TabLineSel            color15     color00        bold
 ToolbarLine           none        color00
 ToolbarButton         color00     color07        bold
 
-Variant: 16
+; Variant: 16
 PmenuMatch            fg          Pmenu          bold
 PmenuMatchSel         color00     color07        bold
-Variant: gui 256
+; Variant: gui 256
 PmenuMatch            color13     Pmenu
 PmenuMatchSel         color13     color07
-Variant: gui 256 16
+; Variant: gui 256 16
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color07

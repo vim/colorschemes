@@ -82,42 +82,42 @@ markdownCodeBlock            -> markdownCode
 markdownCodeDelimiter        -> markdownCode
 
 ;;; Chrome
-Variant: 8
+; Variant: 8
 Normal                       color07        color00
-Variant: gui 256 16
+; Variant: gui 256 16
 Normal                       color15        color00
 
-Variant: 8
+; Variant: 8
 StatusLine                   color07        color00        reverse,bold
 StatusLineNC                 color07        color00        reverse
 VertSplit                    color07        color07
-Variant: gui 256 16
+; Variant: gui 256 16
 StatusLine                   color00        color07
 StatusLineNC                 color00        color08
 VertSplit                    color08        color08
 
-Variant: 8
+; Variant: 8
 TabLine                      color00        color07
 TabLineFill                  color07        color07
 TabLineSel                   color00        color07        bold
-Variant: gui 256 16
+; Variant: gui 256 16
 TabLine                      color00        color08
 TabLineFill                  color00        color08
 TabLineSel                   color00        color07        bold
 
-Variant: 8
+; Variant: 8
 ToolbarLine                  none           none
 ToolbarButton                color07        color00        reverse
 QuickFixLine                 color00        color03
-Variant: gui 256 16
+; Variant: gui 256 16
 ToolbarLine                  none           none
 ToolbarButton                color08        color15        reverse,bold
-Variant: 256 16
+; Variant: 256 16
 QuickFixLine                 color00        color05
-Variant: gui
+; Variant: gui
 QuickFixLine                 color00        color04
 
-Variant: 8
+; Variant: 8
 CursorLineNr                 color03        none           bold
 LineNr                       color07        none           bold
 LineNrAbove                  color07        none           bold
@@ -126,7 +126,7 @@ NonText                      color07        none           bold
 EndOfBuffer                  color07        none           bold
 SpecialKey                   color07        none           bold
 FoldColumn                   color07        none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 CursorLineNr                 white          none           bold
 LineNr                       colorNonT      none
 LineNrAbove                  colorNonT      none
@@ -136,14 +136,14 @@ EndOfBuffer                  colorNonT      none
 SpecialKey                   colorNonT      none
 FoldColumn                   colorNonT      none
 
-Variant: 8
+; Variant: 8
 Visual                       color00        color06
 VisualNOS                    color00        color06
-Variant: gui 256 16
+; Variant: gui 256 16
 Visual                       color14        color00        reverse
 VisualNOS                    color00        color06
 
-Variant: 8
+; Variant: 8
 Pmenu                        color00        color07
 PmenuThumb                   color07        color00
 PmenuSbar                    none           color07
@@ -154,7 +154,7 @@ PmenuExtra                   color00        color07
 PmenuExtraSel                color00        color03
 PmenuMatch                   color00        color07        bold
 PmenuMatchSel                color00        color03        bold
-Variant: 16
+; Variant: 16
 Pmenu                        color00        color07
 PmenuThumb                   color07        color00
 PmenuSbar                    none           color07
@@ -165,7 +165,7 @@ PmenuExtra                   color08        color07
 PmenuExtraSel                color00        color03
 PmenuMatch                   color00        color07        bold
 PmenuMatchSel                color00        color03        bold
-Variant: gui 256
+; Variant: gui 256
 Pmenu                        none           colorB
 PmenuThumb                   none           color08
 PmenuSbar                    none           none
@@ -177,7 +177,7 @@ PmenuExtraSel                color07        colorNonT
 PmenuMatch                   colorC         colorB
 PmenuMatchSel                colorC         colorNonT
 
-Variant: 8
+; Variant: 8
 SignColumn                   none           none
 Error                        color01        color07        bold,reverse
 ErrorMsg                     color01        color07        bold,reverse
@@ -185,7 +185,7 @@ ModeMsg                      none           none           bold
 MoreMsg                      color02        none
 Question                     color03        none
 WarningMsg                   color01        none
-Variant: gui 256 16
+; Variant: gui 256 16
 SignColumn                   none           none
 Error                        color09        black          reverse
 ErrorMsg                     color09        black          reverse
@@ -194,14 +194,14 @@ MoreMsg                      color02        none
 Question                     color11        none
 WarningMsg                   color09        none
 
-Variant: 8
+; Variant: 8
 Todo                         color07        none           bold
 MatchParen                   colorMP        none           bold
 Search                       color00        color04
 IncSearch                    color00        color03
 CurSearch                    color00        color03
 WildMenu                     color00        color03
-Variant: gui 256 16
+; Variant: gui 256 16
 Todo                         white          none           bold
 MatchParen                   colorMP        none           bold
 Search                       color12        color00        reverse
@@ -209,94 +209,94 @@ IncSearch                    colorC         color00        reverse
 CurSearch                    colorC         color00        reverse
 WildMenu                     color00        color11        bold
 
-Variant: 8
+; Variant: 8
 debugPC                      color00        color04
 debugBreakpoint              color00        color06
-Variant: gui 256 16
+; Variant: gui 256 16
 debugPC                      color00        color04
 debugBreakpoint              color00        color09
 
-Variant: gui
+; Variant: gui
 Cursor                       black          white
 lCursor                      color00        colorlC
 
-Variant: 8
+; Variant: 8
 CursorLine                   none           none           underline
 CursorColumn                 color00        color03
 Folded                       color00        color03
 ColorColumn                  color00        color03
-Variant: 16
+; Variant: 16
 CursorLine                   none           none           underline
 CursorColumn                 color00        color03
 Folded                       color00        color03
 ColorColumn                  color00        color03
-Variant: gui 256
+; Variant: gui 256
 CursorLine                   none           colorLine
 CursorColumn                 none           colorLine
 Folded                       color07        colorF
 ColorColumn                  none           colorB
 
-Variant: 8
+; Variant: 8
 SpellBad                     color01        color07        reverse
 SpellCap                     color04        color07        reverse
 SpellLocal                   color02        color00        reverse
 SpellRare                    color05        color07        reverse
-Variant: 256 16
+; Variant: 256 16
 SpellBad                     Removed        none           t=underline g=undercurl s=Removed
 SpellCap                     Changed        none           t=underline g=undercurl s=Changed
 SpellLocal                   Added          none           t=underline g=undercurl s=Added
 SpellRare                    color13        none           t=underline g=undercurl s=color13
-Variant: gui
+; Variant: gui
 SpellBad                     none           none           t=underline g=undercurl s=Removed
 SpellCap                     none           none           t=underline g=undercurl s=Changed
 SpellLocal                   none           none           t=underline g=undercurl s=Added
 SpellRare                    none           none           t=underline g=undercurl s=color13
 
 ;;; :h group-name
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 Constant                     color05        none
 Type                         color03        none           bold
 
-Variant: 8
+; Variant: 8
 Character                    color02        none
 Comment                      color07        none           bold
 String                       color03        none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Character                    color10        none
 Comment                      color08        none
 String                       color11        none
 
-Variant: 8
+; Variant: 8
 Function                     color02        none
 Identifier                   color04        none
 PreProc                      color01        none
 Special                      color06        none           bold
 Statement                    color01        none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Function                     color10        none
 Identifier                   color12        none
 PreProc                      color09        none
 Special                      color06        none
 Statement                    color09        none           bold
 
-Variant: 8
+; Variant: 8
 Underlined                   color04        none           underline
-Variant: gui 256 16
+; Variant: gui 256 16
 Underlined                   color12        none           underline
 
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 Title                        none           none           bold
 Debug                        color06        none
 Ignore                       none           none
 
-Variant: 8
+; Variant: 8
 Directory                    color06        none           bold
 Conceal                      color07        none
-Variant: gui 256 16
+; Variant: gui 256 16
 Directory                    color14        none           bold
 Conceal                      colorNonT      none
 
-Variant:                     gui 256 16 8
+; Variant:                     gui 256 16 8
 DiffAdd                      diffAdd        none           reverse
 DiffChange                   diffChange     none           reverse
 DiffText                     diffText       none           reverse
@@ -307,29 +307,29 @@ Changed                      Changed        none
 Removed                      Removed        none
 
 ;;; Syntax
-Variant: 8
+; Variant: 8
 htmlBold                     color07        none           bold
 htmlItalic                   color07        none           underline
-Variant: gui 256 16
+; Variant: gui 256 16
 htmlBold                     color15        none           bold
-Variant: 256 16
+; Variant: 256 16
 htmlItalic                   color15        none           underline
-Variant: gui
+; Variant: gui
 htmlItalic                   color15        none           italic
 
-Variant: 8
+; Variant: 8
 markdownHeadingDelimiter     color07        none
 markdownH1Delimiter          color01        none
 markdownH2Delimiter          color03        none
 markdownH4Delimiter          color04        none
 markdownH6Delimiter          color02        none
-Variant: gui 256 16
+; Variant: gui 256 16
 markdownHeadingDelimiter     color15        none
 markdownH1Delimiter          color09        none
 markdownH2Delimiter          color11        none
 markdownH4Delimiter          color12        none
 markdownH6Delimiter          color10        none
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 markdownH3Delimiter          color03        none
 markdownH5Delimiter          color04        none
 

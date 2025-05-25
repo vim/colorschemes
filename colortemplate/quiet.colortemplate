@@ -15,6 +15,7 @@ Options:       backend=viml
 Environments: gui 256 16 8 0
 ; }}}
 
+Background: any
 
 ; Global definitions - put at the top of the colorscheme {{{
 Added                -> Normal
@@ -103,7 +104,7 @@ Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
              dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
-Variant: gui 256
+; Variant: gui 256
 Normal               dark7             dark0
 
 ; Group              Foreground        Background        Attributes
@@ -178,7 +179,7 @@ ToolbarLine          none              dark0
 ToolbarButton        dark7             dark0             bold
 ; }}}
 
-Variant: 16
+; Variant: 16
 Comment              dark8             none              bold
 CurSearch            dark13            dark0             reverse
 EndOfBuffer          dark8             none
@@ -192,7 +193,7 @@ SpecialKey           dark8             none              bold
 StatusLineNC         dark8             none              reverse
 TabLine              dark8             none              reverse
 VertSplit            dark8             none
-Variant: 8
+; Variant: 8
 Comment              none              none              bold
 CurSearch            dark5             dark0             reverse
 EndOfBuffer          none              none
@@ -206,7 +207,7 @@ SpecialKey           none              none              bold
 StatusLineNC         none              none              bold,underline
 TabLine              none              none              bold,underline
 VertSplit            none              none
-Variant: 16 8
+; Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse
@@ -315,7 +316,7 @@ Term colors: light0 light1 light2 light3 light4 light5 light6 light7
              light8 light9 light10 light11 light12 light13 light14 light15
 ; }}}
 
-Variant: gui 256
+; Variant: gui 256
 Normal               light0            light7
 
 ; Group              Foreground        Background        Attributes
@@ -390,7 +391,7 @@ ToolbarLine          none              light7
 ToolbarButton        light0            light7            bold
 ; }}}
 
-Variant: 16
+; Variant: 16
 CurSearch            light13           light0            reverse
 EndOfBuffer          light8            none
 Folded               light8            none
@@ -403,7 +404,7 @@ SpecialKey           light8            none              bold
 StatusLineNC         light8            none              reverse
 TabLine              light8            none              reverse
 VertSplit            light8            none
-Variant: 8
+; Variant: 8
 CurSearch            light5            light0            reverse
 EndOfBuffer          none              none
 Folded               none              none
@@ -416,7 +417,7 @@ SpecialKey           none              none              bold
 StatusLineNC         none              none              bold,underline
 TabLine              none              none              bold,underline
 VertSplit            none              none
-Variant: 16 8
+; Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              none              reverse

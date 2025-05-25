@@ -68,85 +68,85 @@ Added              -> Constant
 TabPanelFill       -> EndOfBuffer
 TabPanel           -> Normal
 
-Variant: 8
+; Variant: 8
 Normal             color02        color00
-Variant: gui 256 16
+; Variant: gui 256 16
 Normal             foreground     background
 
-Variant: 8
+; Variant: 8
 EndOfBuffer        color04        none           bold
 StatusLine         color04        color07        reverse,bold
 StatusLineNC       color07        color00        reverse
 VertSplit          color07        color00        reverse
-Variant: gui 256 16
+; Variant: gui 256 16
 EndOfBuffer        color12        background
 StatusLine         color15        color04
 StatusLineNC       color15        color17
 VertSplit          color15        color17
 
-Variant: 8
+; Variant: 8
 Pmenu              color00        color06
 PmenuSel           color00        color03
 PmenuSbar          none           color00
 PmenuThumb         none           color07
 PmenuMatch         color00        color06        bold
 PmenuMatchSel      color00        color03        bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Pmenu              color15        color08
 PmenuSel           background     color11
 PmenuSbar          none           color00
 PmenuThumb         none           color07
-Variant: gui 256
+; Variant: gui 256
 PmenuMatch         color13        color08
 PmenuMatchSel      color13        color11
-Variant: 16
+; Variant: 16
 PmenuMatch         color15        color08        bold
 PmenuMatchSel      background     color11        bold
 
-Variant: 16 8
+; Variant: 16 8
 TabLineFill        none           color07
-Variant: gui 256
+; Variant: gui 256
 TabLineFill        none           color00
-Variant: 8
+; Variant: 8
 TabLine            color07        color00        reverse
 TabLineSel         color07        color00
-Variant: gui 256 16
+; Variant: gui 256 16
 TabLine            foreground     color08
 TabLineSel         color15        background
 
-Variant: 8
+; Variant: 8
 ToolbarLine        none           color00
 ToolbarButton      color07        color00        reverse,bold
-Variant: gui 256 16
+; Variant: gui 256 16
 ToolbarLine        none           color00
 ToolbarButton      color15        color08        bold
 
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 NonText            color06        none
 SpecialKey         color06        none
 
 QuickFixLine       color00        color06
 
-Variant: 8
+; Variant: 8
 Folded             color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       color03        none           bold
 ColorColumn        color07        color01
 Underlined         none           none           underline
-Variant: 16
+; Variant: 16
 Folded             color06        none
 CursorLine         none           none           underline
 CursorColumn       none           none           underline
 CursorLineNr       color11        none           underline
 ColorColumn        foreground     color08
-Variant: gui 256
+; Variant: gui 256
 Folded             color06        color00
 CursorLine         none           color08
 CursorColumn       none           color08
 CursorLineNr       color11        none           bold
 ColorColumn        none           color16
-Variant: gui 256 16
+; Variant: gui 256 16
 Visual             color15        color02
 VisualNOS          color15        color02
 LineNr             color11        none
@@ -169,7 +169,7 @@ IncSearch          color01        none           reverse
 WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
-Variant: 8
+; Variant: 8
 Visual             none           none           reverse
 VisualNOS          none           none           reverse,underline
 LineNr             color03        none
@@ -191,12 +191,12 @@ Search             color07        color04
 IncSearch          color01        none           reverse
 WildMenu           color00        color03
 
-Variant: gui 256 16
+; Variant: gui 256 16
 SpellBad           color09        none           t=underline g=undercurl s=color09
 SpellCap           color14        none           t=underline g=undercurl s=color14
 SpellLocal         color03        none           t=underline g=undercurl s=color03
 SpellRare          color11        none           t=underline g=undercurl s=color11
-Variant: 8
+; Variant: 8
 SpellBad           color01        color03        reverse
 SpellCap           color06        none           reverse
 SpellLocal         color03        none           reverse
@@ -204,40 +204,40 @@ SpellRare          color05        color03        reverse
 
 
 ;;; :h group-names
-Variant: gui 256 16
+; Variant: gui 256 16
 Comment            color01        none
-Variant: 8
+; Variant: 8
 Comment            color01        none           bold
 
-Variant: 8
+; Variant: 8
 Identifier         color06        none
 Statement          color03        none
 Constant           color07        none           bold
-Variant: gui 256 16
+; Variant: gui 256 16
 Identifier         color14        none
 Statement          color11        none
 Constant           color15        none
-Variant: 8
+; Variant: 8
 PreProc            color05        none           bold
-Variant: 16
+; Variant: 16
 PreProc            color05        none
-Variant: gui 256
+; Variant: gui 256
 PreProc            color03        none
-Variant: gui 256 16
+; Variant: gui 256 16
 Type               color07        none
 Special            color13        none
-Variant: 8
+; Variant: 8
 Type               color07        none
 Special            color05        none
 
-Variant: 8
+; Variant: 8
 Directory          color06        none
 Conceal            color07        none
 Ignore             none           none
 
 Title              color05        none           bold
 
-Variant: gui 256 16
+; Variant: gui 256 16
 Directory          color14        none
 Conceal            color07        none
 Ignore             none           none

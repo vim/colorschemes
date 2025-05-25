@@ -92,7 +92,7 @@ TabPanel              -> Normal
 
 
 
-Variant: 8
+; Variant: 8
 
 Normal                color07     color00
 
@@ -162,7 +162,7 @@ PmenuMatch            color00     color06        bold
 PmenuMatchSel         color00     color03        bold
 
 
-Variant: gui 256 16
+; Variant: gui 256 16
 
 Normal                foreground  background
 
@@ -180,19 +180,19 @@ Error                 color15     color09
 Todo                  color11     color00        reverse
 
 ; Chrome
-Variant: 16
+; Variant: 16
 Folded                color06     none
 Visual                color00     rgbDarkGrey    g=bold
 CursorColumn          none        none           underline
 CursorLine            none        none           underline
 CursorLineNr          color11     none           bold
-Variant: gui 256
+; Variant: gui 256
 Folded                color06     FoldedBG
 Visual                color00     rgbDarkGrey    g=bold
 CursorColumn          none        rgbGrey40
 CursorLine            none        rgbGrey40
 CursorLineNr          color11     rgbGrey40
-Variant: gui 256 16
+; Variant: gui 256 16
 SignColumn            color14     none
 FoldColumn            color14     none
 ColorColumn           foreground  rgbDarkRed
@@ -235,13 +235,13 @@ TabLineSel            foreground  background     bold
 ToolbarLine           none        color00
 ToolbarButton         color00     color07        bold
 
-Variant: 16
+; Variant: 16
 PmenuMatch            fg          Pmenu          bold
 PmenuMatchSel         color00     color11        bold
-Variant: gui 256
+; Variant: gui 256
 PmenuMatch            color13     Pmenu
 PmenuMatchSel         color13     color11
-Variant: gui 256 16
+; Variant: gui 256 16
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color11

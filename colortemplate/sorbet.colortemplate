@@ -103,7 +103,7 @@ Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
              dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
 
-Variant: gui 256
+; Variant: gui 256
 Normal               dark7             guibg
 
 ; Group              Foreground        Background        Attributes
@@ -184,7 +184,7 @@ ToolbarButton        dark7             dark0             bold
 debugBreakpoint      statuslineNC      dark0             reverse,bold
 ; }}}
 
-Variant: 16
+; Variant: 16
 CurSearch            dark13            dark0             reverse
 EndOfBuffer          dark8             none
 Folded               dark8             none
@@ -197,7 +197,7 @@ SpecialKey           dark8             none              bold
 StatusLineNC         dark8             none              reverse
 TabLine              dark8             none              reverse
 VertSplit            dark8             none
-Variant: 8
+; Variant: 8
 CurSearch            dark5             dark0             reverse
 EndOfBuffer          none              none
 Folded               none              none
@@ -210,7 +210,7 @@ SpecialKey           none              none              bold
 StatusLineNC         none              none              bold,underline
 TabLine              none              none              bold,underline
 VertSplit            none              none
-Variant: 16 8
+; Variant: 16 8
 Normal               none              none
 ; Group              Foreground        Background        Attributes
 Added                dark2             none

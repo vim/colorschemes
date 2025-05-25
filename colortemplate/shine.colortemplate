@@ -66,30 +66,30 @@ TabPanel           -> Normal
 
 
 ;;; Chrome         fg             bg             style
-Variant:    8
+; Variant:    8
 Normal             Black          LightGrey
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Normal             Black          White
 
-Variant:    16 8
+; Variant:    16 8
 Folded             DarkBlue       none
 CursorLine         none           none           underline
 CursorColumn       none           none
 CursorLineNr       none           none           bold
-Variant:    gui 256
+; Variant:    gui 256
 Folded             DarkBlue       LightGrey
 CursorLine         none           LightGrey
 CursorColumn       none           LightGrey
 CursorLineNr       none           LightGrey
 
-Variant:    8
+; Variant:    8
 QuickFixLine       Black          DarkOrange
 StatusLine         Black          LightGrey      reverse,bold
 StatusLineNC       Black          LightGrey      reverse
 StatusLineTerm     Black          DarkGreen      reverse,bold
 StatusLineTermNC   LightGrey      DarkGreen      reverse
 VertSplit          Black          LightGrey      reverse
-Variant:    gui 256 16
+; Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
 StatusLine         White          Black          bold
 StatusLineNC       White          MediumGrey
@@ -97,87 +97,87 @@ StatusLineTerm     Black          LightGreen     bold
 StatusLineTermNC   LightGrey      DarkGreen
 VertSplit          MediumGrey     MediumGrey
 
-Variant:    8
+; Variant:    8
 Pmenu              Black          DarkCyan
 PmenuSel           Black          DarkOrange
 PmenuSbar          LightGrey      LightGrey
 PmenuThumb         Black          Black
 PmenuMatch         Black          DarkCyan       bold
 PmenuMatchSel      Black          DarkOrange     bold
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Pmenu              Black          MediumGrey
 PmenuSel           Black          MutedYellow
 PmenuSbar          White          White
 PmenuThumb         DarkGrey       DarkGrey
-Variant:    gui 256
+; Variant:    gui 256
 PmenuMatch         Red            MediumGrey
 PmenuMatchSel      Red            MutedYellow
-Variant:    16
+; Variant:    16
 PmenuMatch         Black          MediumGrey     bold
 PmenuMatchSel      Black          MutedYellow    bold
 
-Variant:    8
+; Variant:    8
 TabLine            Black          LightGrey      reverse
 TabLineFill        none           none           reverse
 TabLineSel         LightGrey      Black          reverse
-Variant:    gui 256 16
+; Variant:    gui 256 16
 TabLine            Black          LightGrey      underline
 TabLineFill        none           none           reverse
 TabLineSel         Black          White          bold
 
-Variant:    8
+; Variant:    8
 ToolbarLine        none           none
 ToolbarButton      Black          LightGrey      reverse,bold
-Variant:    gui 256 16
+; Variant:    gui 256 16
 ToolbarLine        none           none
 ToolbarButton      none           MediumGrey     bold
 
-Variant:    8
+; Variant:    8
 NonText            DarkBlue       none
 SpecialKey         DarkBlue       none
-Variant:    gui 256 16
+; Variant:    gui 256 16
 NonText            LightBlue      White
 SpecialKey         LightBlue      none
 
-Variant:    8
+; Variant:    8
 Visual             none           none           reverse
 VisualNOS          none           none           underline g=bold
 LineNr             none           none           bold
 FoldColumn         LightGrey      none           bold
 SignColumn         none           none
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Visual             Black          MediumGrey
 VisualNOS          none           none           underline g=bold
 LineNr             DarkGrey       none
 FoldColumn         DarkGrey       none
 SignColumn         none           none
 
-Variant:    8
+; Variant:    8
 Underlined         none           none           underline
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Underlined         Purple         none           underline
 
-Variant:    8
+; Variant:    8
 Error              DarkRed        none           reverse,bold
 WarningMsg         Purple         none
 MoreMsg            DarkGreen      none
 ModeMsg            Black          none
 Question           DarkRed        none
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Error              Red            White          reverse
 WarningMsg         Purple         White
 MoreMsg            DarkGreen      White
 ModeMsg            Black          White
 Question           MutedRed       none
 
-Variant:    8
+; Variant:    8
 Todo               Black          DarkOrange
 MatchParen         LightGrey      DarkRed
 Search             LightGrey      Purple
 IncSearch          DarkCyan       DarkOrange     reverse
 WildMenu           Black          DarkOrange     bold
 ColorColumn        Black          DarkRed
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Todo               Black          Yellow
 MatchParen         White          LightRed
 Search             White          Purple
@@ -187,12 +187,12 @@ ColorColumn        Black          LightRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
-Variant:    8
+; Variant:    8
 SpellBad           DarkRed        none           reverse
 SpellCap           DarkGreen      none           reverse
 SpellLocal         Purple         none           reverse
 SpellRare          DarkBlue       none           reverse
-Variant:    gui 256 16
+; Variant:    gui 256 16
 SpellBad           Red            none           t=underline g=undercurl s=Red
 SpellCap           SeaGreen       none           t=underline g=undercurl s=SeaGreen
 SpellLocal         Magenta        none           t=underline g=undercurl s=Magenta
@@ -200,19 +200,19 @@ SpellRare          DarkBlue       none           t=underline g=undercurl s=DarkB
 
 
 ;;; Syntax
-Variant:    8
+; Variant:    8
 Statement          DarkGreen      none
 Type               DarkGreen      none
 Comment            Black          none           bold
 StorageClass       DarkRed        none           bold
 Conceal            none           none
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Statement          SeaGreen       none           bold
 Type               SeaGreen       none           bold
 Comment            MediumGrey     none           gui=bold
 StorageClass       Red            none           bold
 Conceal            LightBlue      none
-Variant:    gui 256 16 8
+; Variant:    gui 256 16 8
 Identifier         DarkCyan       none
 Constant           MutedRed       none
 Number             MutedRed       none           bold

@@ -63,24 +63,24 @@ Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta
              x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 ;;; Group            Foreground        Background        Attributes
-Variant:    gui 256 16
+; Variant:    gui 256 16
 Normal               yellow            darkblue
 
-Variant:    16
+; Variant:    16
 CursorLine           none              none              underline
 Pmenu                black             darkcyan
 PmenuSel             black             white
 PmenuMatch           black             darkcyan          bold
 PmenuMatchSel        black             white             bold
 
-Variant:    gui 256
+; Variant:    gui 256
 CursorLine           none              blue
 Pmenu                white             darkcyan
 PmenuSel             darkcyan          white
 PmenuMatch           yellow            darkcyan
 PmenuMatchSel        coral             white
 
-Variant:    gui 256 16
+; Variant:    gui 256 16
 QuickFixLine         black             magenta
 ColorColumn          none              darkmagenta
 Conceal              darkcyan          none
@@ -137,7 +137,7 @@ Type                 orange            none              g=bold
 Underlined           none              none              underline
 Label                yellow            none
 
-Variant: 8
+; Variant: 8
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
 Normal               darkyellow        blue
@@ -203,7 +203,7 @@ Type                 red               none
 Underlined           none              none              underline
 Label                yellow            none
 
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 ;;; Links
 ;;; Chrome
 Terminal             -> Normal

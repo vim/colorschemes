@@ -84,47 +84,47 @@ PopupNotification    -> Todo
 
 ;;; chrome
 
-Variant: gui 256
+; Variant: gui 256
 Normal               foreground        background
 EndOfBuffer          color12           none
-Variant: 16 8
+; Variant: 16 8
 Normal               color07           color00
 EndOfBuffer          color04           none              bold
 
-Variant: 8
+; Variant: 8
 StatusLine           color07           color00           reverse,bold
 StatusLineNC         color07           color00           reverse
 StatusLineTerm       color07           color00           reverse,bold
 StatusLineTermNC     color07           color00           reverse
 VertSplit            color07           color00           reverse
-Variant: 16
+; Variant: 16
 StatusLine           color15           color00           reverse,bold
 StatusLineNC         color00           color07
 StatusLineTerm       color15           color00           reverse,bold
 StatusLineTermNC     color00           color07
 VertSplit            color08           color07
-Variant: gui 256
+; Variant: gui 256
 StatusLine           color00           color13
 StatusLineNC         color07           color13
 StatusLineTerm       color00           color13
 StatusLineTermNC     color07           color13
 VertSplit            color07           color13
 
-Variant: 8
+; Variant: 8
 Pmenu                color00           color06
 PmenuSel             color00           color03
 PmenuSbar            none              color00
 PmenuThumb           none              color03
 PmenuMatch           color00           color06           bold
 PmenuMatchSel        color00           color03           bold
-Variant: 16
+; Variant: 16
 Pmenu                none              Pmenu
 PmenuSel             background        color05
 PmenuSbar            none              background
 PmenuThumb           none              color11
 PmenuMatch           color00           Pmenu             bold
 PmenuMatchSel        color00           color05           bold
-Variant: gui 256
+; Variant: gui 256
 Pmenu                none              Pmenu
 PmenuSel             background        color05
 PmenuSbar            none              background
@@ -132,48 +132,48 @@ PmenuThumb           none              color11
 PmenuMatch           color16           Pmenu
 PmenuMatchSel        color16           color05
 
-Variant: 16 8
+; Variant: 16 8
 TabLineSel           color00           color03
-Variant: gui 256
+; Variant: gui 256
 TabLineSel           color00           color13
-Variant: 8
+; Variant: 8
 TabLine              color07           color00           reverse
 TabLineFill          color07           color00           reverse
-Variant: gui 256 16
+; Variant: gui 256 16
 TabLine              color07           color08
 TabLineFill          color14           color08
 
 ToolbarLine          none              none
-Variant: 8
+; Variant: 8
 ToolbarButton        color07           color00           reverse,bold
-Variant: 16
+; Variant: 16
 ToolbarButton        background        color03
-Variant: gui 256
+; Variant: gui 256
 ToolbarButton        background        color05
 
-Variant: 8
+; Variant: 8
 NonText              color04           none              bold
 SpecialKey           color02           none              bold
 QuickFixLine         color00           color04
-Variant: gui 256 16
+; Variant: gui 256 16
 NonText              color12           none
 SpecialKey           color10           none
 QuickFixLine         color00           color12
 
-Variant: 16 8
+; Variant: 16 8
 Folded               color06           none
 FoldColumn           color06           none
 CursorLine           none              none              underline
 CursorColumn         none              none              underline
-Variant: 16
+; Variant: 16
 CursorLineNr         color11           none              bold
 ColorColumn          foreground        color08
 Visual               color11           color02
-Variant: 8
+; Variant: 8
 CursorLineNr         color03           none              bold
 ColorColumn          color07           color01
 Visual               none              none              reverse
-Variant: gui 256
+; Variant: gui 256
 Folded               color07           color00
 FoldColumn           color12           color00
 CursorLine           none              color08
@@ -182,7 +182,7 @@ ColorColumn          none              color00
 CursorLineNr         none              color08
 Visual               color05           color02
 
-Variant: 8
+; Variant: 8
 SignColumn           none              none
 VisualNOS            color05           color02           underline
 LineNr               color07           none              bold
@@ -199,7 +199,7 @@ Question             color03           none
 MatchParen           color00           color03
 Search               color00           color05
 IncSearch            color00           color02
-Variant: gui 256 16
+; Variant: gui 256 16
 SignColumn           none              background
 VisualNOS            color05           color02
 LineNr               color07           none
@@ -214,31 +214,31 @@ Question             color11           none
 MatchParen           color00           color11
 Search               color00           color16
 IncSearch            color00           color17
-Variant: 8
+; Variant: 8
 Todo                 x_black           x_yellow
 WildMenu             color00           color03
 Underlined           x_blue            none              underline
 
-Variant: 16
+; Variant: 16
 Todo                 x_black           x_yellow
 WildMenu             background        color03
 Underlined           color12           none              underline
 
-Variant: gui 256
+; Variant: gui 256
 Todo                 color01           color03
 WildMenu             background        color05
 Underlined           color12           none              underline
 
-Variant: gui
+; Variant: gui
 Cursor               color08           color05
 lCursor              background        color09
 
-Variant: 8
+; Variant: 8
 SpellBad             color01           color03           reverse
 SpellCap             color03           none              reverse
 SpellLocal           color05           color03           reverse
 SpellRare            color06           none              reverse
-Variant: gui 256 16
+; Variant: gui 256 16
 SpellBad             color01           none              t=underline g=undercurl s=color01
 SpellCap             color03           none              t=underline g=undercurl s=color03
 SpellLocal           color09           none              t=underline g=undercurl s=color09
@@ -246,7 +246,7 @@ SpellRare            color06           none              t=underline g=undercurl
 
 
 ;;; :h group-names
-Variant: 8
+; Variant: 8
 Statement            x_darkblue        none              bold
 Identifier           x_darkred         none              bold
 Comment              x_darkgray        none              bold
@@ -256,7 +256,7 @@ Structure            x_darkgreen       none              bold
 Function             x_darkyellow      none              bold
 Type                 x_darkblue        none              bold
 Define               x_darkyellow      none              bold
-Variant: 16
+; Variant: 16
 Statement            x_blue            none              bold
 Identifier           x_red             none              bold
 Comment              x_darkgray        none
@@ -266,7 +266,7 @@ Structure            x_green           none
 Function             x_yellow          none
 Type                 x_blue            none              bold
 Define               x_yellow          none              bold
-Variant: 8 16
+; Variant: 8 16
 Constant             x_darkyellow      none
 String               x_darkcyan        none
 Special              x_darkyellow      none
@@ -275,7 +275,7 @@ Directory            color02           none              bold
 Conceal              color07           none
 Ignore               none              none
 Title                color03           none              bold
-Variant: gui 256
+; Variant: gui 256
 Comment              color07           none
 String               color04           none
 Identifier           color14           none
