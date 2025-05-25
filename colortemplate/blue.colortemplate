@@ -67,11 +67,11 @@ Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta
 Normal               yellow            darkblue
 
 ; Variant:    16
-CursorLine           none              none              underline
-Pmenu                black             darkcyan
-PmenuSel             black             white
-PmenuMatch           black             darkcyan          bold
-PmenuMatchSel        black             white             bold
+CursorLine     /16   none              none              underline
+Pmenu          /16   black             darkcyan
+PmenuSel       /16   black             white
+PmenuMatch     /16   black             darkcyan          bold
+PmenuMatchSel  /16   black             white             bold
 
 ; Variant:    gui 256
 CursorLine           none              blue
@@ -87,13 +87,13 @@ Conceal              darkcyan          none
 Cursor               black             green
 CursorColumn         none              blue
 CursorIM             black             yellow
-CursorLineNr         yellow            blue              g=bold
+CursorLineNr         yellow            blue              /gui omit omit bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
-IncSearch            magenta           black             t=reverse g=standout
+IncSearch            magenta           black             reverse /gui omit omit standout
 LineNr               cyan              none
 MatchParen           none              none              reverse
 ModeMsg              darkblue          green
@@ -105,10 +105,10 @@ Question             green             none
 Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-SpellBad             red               none              g=undercurl t=underline s=red
-SpellCap             green             none              g=undercurl t=underline s=green
-SpellLocal           white             none              g=undercurl t=underline s=white
-SpellRare            magenta           none              g=undercurl t=underline s=magenta
+SpellBad             red               none              s=red     underline /gui omit omit undercurl
+SpellCap             green             none              s=green   underline /gui omit omit undercurl
+SpellLocal           white             none              s=white   underline /gui omit omit undercurl
+SpellRare            magenta           none              s=magenta underline /gui omit omit undercurl
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan
 ToolbarButton        white             blue
@@ -125,7 +125,7 @@ debugPC              cyan              darkblue          reverse
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              comment           none              g=bold
+Comment              comment           none              /gui omit omit bold
 Constant             cyan              none
 Identifier           gray              none
 Ignore               darkgray          none
@@ -133,75 +133,75 @@ PreProc              green             none
 Special              magenta           none
 Statement            white             none
 Todo                 none              none              reverse
-Type                 orange            none              g=bold
+Type                 orange            none              /gui omit omit bold
 Underlined           none              none              underline
 Label                yellow            none
 
 ; Variant: 8
 ;;; Chrome
 ;;; Group            Foreground        Background        Attributes
-Normal               darkyellow        blue
+Normal           /8  darkyellow        blue
 
-CursorLine           none              none              underline
-Pmenu                black             cyan
-PmenuSel             black             gray
-PmenuMatch           black             cyan              bold
-PmenuMatchSel        black             gray              bold
+CursorLine       /8  none              none              underline
+Pmenu            /8  black             cyan
+PmenuSel         /8  black             gray
+PmenuMatch       /8  black             cyan              bold
+PmenuMatchSel    /8  black             gray              bold
 
-QuickFixLine         black             magenta
-ColorColumn          none              magenta
-Conceal              none              none
-Cursor               black             green
-CursorColumn         blue              yellow            reverse,bold
-CursorIM             black             yellow
-EndOfBuffer          yellow            blue
-Error                red               blue              reverse
-ErrorMsg             gray              red
-FoldColumn           cyan              none
-Folded               blue              yellow
-IncSearch            magenta           black             reverse
-LineNr               cyan              none
-MatchParen           none              none              reverse
-ModeMsg              blue              green
-MoreMsg              cyan              none
-NonText              magenta           none
-PmenuSbar            none              none
-PmenuThumb           none              white
-Question             green             none
-Search               yellow            black             reverse
-SignColumn           cyan              none
-SpecialKey           cyan              none
-SpellBad             red               yellow            reverse
-SpellCap             green             none              reverse
-SpellLocal           gray              none              reverse
-SpellRare            magenta           yellow            reverse
-StatusLine           cyan              blue              reverse,bold
-StatusLineNC         blue              cyan
-ToolbarButton        blue              gray              reverse,bold
-ToolbarLine          none              none
-VertSplit            cyan              none
-Visual               black             cyan
-VisualNOS            cyan              gray
-WarningMsg           red               none
-WildMenu             blue              yellow
-debugBreakpoint      green             blue              reverse
-debugPC              cyan              blue              reverse
+QuickFixLine     /8  black             magenta
+ColorColumn      /8  none              magenta
+Conceal          /8  none              none
+Cursor           /8  black             green
+CursorColumn     /8  blue              yellow            reverse,bold
+CursorIM         /8  black             yellow
+EndOfBuffer      /8  yellow            blue
+Error            /8  red               blue              reverse
+ErrorMsg         /8  gray              red
+FoldColumn       /8  cyan              none
+Folded           /8  blue              yellow
+IncSearch        /8  magenta           black             reverse
+LineNr           /8  cyan              none
+MatchParen       /8  none              none              reverse
+ModeMsg          /8  blue              green
+MoreMsg          /8  cyan              none
+NonText          /8  magenta           none
+PmenuSbar        /8  none              none
+PmenuThumb       /8  none              white
+Question         /8  green             none
+Search           /8  yellow            black             reverse
+SignColumn       /8  cyan              none
+SpecialKey       /8  cyan              none
+SpellBad         /8  red               yellow            reverse
+SpellCap         /8  green             none              reverse
+SpellLocal       /8  gray              none              reverse
+SpellRare        /8  magenta           yellow            reverse
+StatusLine       /8  cyan              blue              reverse,bold
+StatusLineNC     /8  blue              cyan
+ToolbarButton    /8  blue              gray              reverse,bold
+ToolbarLine      /8  none              none
+VertSplit        /8  cyan              none
+Visual           /8  black             cyan
+VisualNOS        /8  cyan              gray
+WarningMsg       /8  red               none
+WildMenu         /8  blue              yellow
+debugBreakpoint  /8  green             blue              reverse
+debugPC          /8  cyan              blue              reverse
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
-Directory            cyan              none
-Title                magenta           none
-Comment              black             none              bold
-Constant             cyan              none
-Identifier           gray              none
-Ignore               gray              none
-PreProc              green             none
-Special              magenta           none
-Statement            gray              none
-Todo                 none              none              reverse
-Type                 red               none
-Underlined           none              none              underline
-Label                yellow            none
+Directory        /8  cyan              none
+Title            /8  magenta           none
+Comment          /8  black             none              bold
+Constant         /8  cyan              none
+Identifier       /8  gray              none
+Ignore           /8  gray              none
+PreProc          /8  green             none
+Special          /8  magenta           none
+Statement        /8  gray              none
+Todo             /8  none              none              reverse
+Type             /8  red               none
+Underlined       /8  none              none              underline
+Label            /8  yellow            none
 
 ; Variant: gui 256 16 8
 ;;; Links
@@ -221,7 +221,8 @@ lCursor              -> Cursor
 LineNrAbove          -> LineNr
 LineNrBelow          -> LineNr
 CurSearch            -> Search
-CursorLineNr         -> CursorLine
+CursorLineNr
+    /256/16/8        -> CursorLine     ; TODO: compare with default above
 CursorLineFold       -> CursorLine
 CursorLineSign       -> CursorLine
 StatusLineTerm       -> StatusLine
@@ -253,7 +254,6 @@ String               -> Constant
 Structure            -> Type
 Tag                  -> Special
 Typedef              -> Type
-Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 
