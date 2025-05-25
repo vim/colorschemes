@@ -13,6 +13,8 @@ Options:    backend=viml
 Environments: gui 256 16 8 0
 ; }}}
 
+Background: dark
+
 ; Common linked groups {{{
 Terminal              -> Normal
 Boolean               -> Constant
@@ -54,8 +56,6 @@ TabPanelFill          -> Normal
 TabPanel              -> Normal
 
 ; }}}
-
-Background: dark
 
 ; Color palette {{{
 ; Color name         GUI                     Base256     Base16 (optional)
@@ -115,22 +115,25 @@ Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
              xterm14 xterm15
 ; }}}
 
+; debugPC            TODO: TBD
+; debugBreakpoint    TODO: TBD
+;
 ; Default highlight groups {{{
 ; Group              Foreground        Background        Attributes
 ; Variant: 8
-Normal                xterm7           xterm0
+Normal           /8   xterm7           xterm0
 ; Variant: gui 256 16
 Normal                xterm15          xterm0
 ; Variant: 8
-ColorColumn           xterm7           xterm1
-CursorLineNr          xterm3           none              underline
+ColorColumn      /8   xterm7           xterm1
+CursorLineNr     /8   xterm3           none              underline
 ; Variant: 16
-ColorColumn           xterm15          koeDarkRed
-CursorLineNr          xterm11          none              underline
+ColorColumn      /16  xterm15          koeDarkRed
+CursorLineNr     /16  xterm11          none              underline
 ; Variant: 16 8
-CursorColumn          none             none              underline
-CursorLine            none             none              underline
-Folded                xterm4           none
+CursorColumn   /16/8  none             none              underline
+CursorLine     /16/8  none             none              underline
+Folded         /16/8  xterm4           none
 ; Variant: gui 256
 ColorColumn           none             koeDarkRed
 CursorColumn          none             koeCursorLine
@@ -138,58 +141,58 @@ CursorLine            none             koeCursorLine
 CursorLineNr          xterm11          none              bold
 Folded                xterm6           rgbGrey40
 ; Variant: 8
-QuickFixLine          xterm0           xterm3
-Conceal               xterm7           none
-Directory             koeDirectory     none
-EndOfBuffer           xterm1           none              bold
-ErrorMsg              xterm1           xterm7            reverse,bold
-FoldColumn            xterm6           none
-LineNr                xterm3           none
-MatchParen            none             xterm4
-ModeMsg               xterm15          xterm4            bold
-MoreMsg               xterm2           none              bold
-NonText               xterm1           none              bold
-Pmenu                 xterm7           Pmenu
-PmenuSbar             none             xterm7
-PmenuSel              xterm0           xterm6
-PmenuThumb            none             xterm6
-PmenuMatch            xterm7           Pmenu             bold
-PmenuMatchSel         xterm0           xterm6            bold
-Question              xterm4           none              bold
-Search                xterm7           xterm1
-SignColumn            xterm6           none
-SpecialKey            xterm1           none
+QuickFixLine     /8   xterm0           xterm3
+Conceal          /8   xterm7           none
+Directory        /8   koeDirectory     none
+EndOfBuffer      /8   xterm1           none              bold
+ErrorMsg         /8   xterm1           xterm7            reverse,bold
+FoldColumn       /8   xterm6           none
+LineNr           /8   xterm3           none
+MatchParen       /8   none             xterm4
+ModeMsg          /8   xterm15          xterm4            bold
+MoreMsg          /8   xterm2           none              bold
+NonText          /8   xterm1           none              bold
+Pmenu            /8   xterm7           Pmenu
+PmenuSbar        /8   none             xterm7
+PmenuSel         /8   xterm0           xterm6
+PmenuThumb       /8   none             xterm6
+PmenuMatch       /8   xterm7           Pmenu             bold
+PmenuMatchSel    /8   xterm0           xterm6            bold
+Question         /8   xterm4           none              bold
+Search           /8   xterm7           xterm1
+SignColumn       /8   xterm6           none
+SpecialKey       /8   xterm1           none
 
-SpellBad              xterm1           xterm3            reverse
-SpellCap              xterm2           none              reverse
-SpellLocal            xterm6           none              reverse
-SpellRare             xterm5           xterm3            reverse
+SpellBad         /8   xterm1           xterm3            reverse
+SpellCap         /8   xterm2           none              reverse
+SpellLocal       /8   xterm6           none              reverse
+SpellRare        /8   xterm5           xterm3            reverse
 
-StatusLine            xterm7           xterm4            reverse,bold
-StatusLineNC          xterm7           xterm4            reverse
-TabLine               xterm7           xterm4            reverse,bold
-TabLineFill           xterm4           xterm7            bold
-TabLineSel            xterm7           xterm4            bold
-Title                 xterm5           none              bold
-VertSplit             xterm4           xterm7
-Visual                none             none              reverse
-VisualNOS             none             xterm0            underline
-WarningMsg            xterm1           none
-WildMenu              xterm0           xterm3
+StatusLine       /8   xterm7           xterm4            reverse,bold
+StatusLineNC     /8   xterm7           xterm4            reverse
+TabLine          /8   xterm7           xterm4            reverse,bold
+TabLineFill      /8   xterm4           xterm7            bold
+TabLineSel       /8   xterm7           xterm4            bold
+Title            /8   xterm5           none              bold
+VertSplit        /8   xterm4           xterm7
+Visual           /8   none             none              reverse
+VisualNOS        /8   none             xterm0            underline
+WarningMsg       /8   xterm1           none
+WildMenu         /8   xterm0           xterm3
 ; Other conventional group names (see `:help group-name`)
-Comment               xterm4           none
-Constant              xterm1           none
-Error                 xterm1           xterm7            reverse
-Identifier            xterm6           none
-Ignore                xterm0           xterm0
-PreProc               xterm5           none
-Special               xterm3           none
-Statement             xterm3           none              bold
-Todo                  xterm4           xterm3
-Type                  xterm2           none              bold
-Underlined            none             none              underline
-ToolbarLine           none             none
-ToolbarButton         xterm7           xterm0            reverse,bold
+Comment          /8   xterm4           none
+Constant         /8   xterm1           none
+Error            /8   xterm1           xterm7            reverse
+Identifier       /8   xterm6           none
+Ignore           /8   xterm0           xterm0
+PreProc          /8   xterm5           none
+Special          /8   xterm3           none
+Statement        /8   xterm3           none              bold
+Todo             /8   xterm4           xterm3
+Type             /8   xterm2           none              bold
+Underlined       /8   none             none              underline
+ToolbarLine      /8   none             none
+ToolbarButton    /8   xterm7           xterm0            reverse,bold
 ; Variant: gui 256 16
 QuickFixLine          xterm0           xterm11
 Conceal               rgbGrey40        none
@@ -211,18 +214,18 @@ PmenuThumb            none             xterm15
 PmenuMatch            xterm13          Pmenu
 PmenuMatchSel         xterm9           xterm6
 ; Variant: 16
-PmenuMatch            xterm15          Pmenu             bold
-PmenuMatchSel         xterm0           xterm6            bold
+PmenuMatch       /16  xterm15          Pmenu             bold
+PmenuMatchSel    /16  xterm0           xterm6            bold
 ; Variant: gui 256 16
 Question              xterm12          none              bold
 Search                xterm15          xterm9
 SignColumn            xterm14          none
 SpecialKey            xterm1           none
 
-SpellBad              xterm9           none              t=underline g=undercurl s=xterm9
-SpellCap              Type             none              t=underline g=undercurl s=Type
-SpellLocal            xterm14          none              t=underline g=undercurl s=xterm14
-SpellRare             xterm13          none              t=underline g=undercurl s=xterm13
+SpellBad              xterm9           none              s=xterm9  underline /gui omit omit s=omit undercurl
+SpellCap              Type             none              s=Type    underline /gui omit omit s=omit undercurl
+SpellLocal            xterm14          none              s=xterm14 underline /gui omit omit s=omit undercurl
+SpellRare             xterm13          none              s=xterm13 underline /gui omit omit s=omit undercurl
 
 StatusLine            rgbBlue          xterm15           bold
 StatusLineNC          rgbBlue          xterm7
@@ -231,8 +234,8 @@ TabLineFill           rgbBlue          xterm15           bold
 TabLineSel            xterm15          rgbBlue           bold
 Title                 xterm13          none              bold
 VertSplit             rgbBlue          xterm7
-Visual                none             rgbGrey40         t=reverse g=reverse
-VisualNOS             none             xterm0            t=underline g=underline,bold
+Visual                none             rgbGrey40         reverse
+VisualNOS             none             xterm0            underline /gui omit omit s=omit underline,bold
 WarningMsg            xterm9           none
 WildMenu              xterm0           xterm11
 ; Other conventional group names (see `:help group-name`)
@@ -246,7 +249,7 @@ Special               Special          none
 Statement             Statement        none              bold
 Todo                  rgbBlue          xterm11
 Type                  Type             none              bold
-Underlined            koeLightBlue     none              t=underline g=bold,underline
+Underlined            koeLightBlue     none              underline /gui omit omit s=omit bold,underline
 ; See `:help CursorIM`
 CursorIM              none             fg
 ; See `:help window-toolbar`
