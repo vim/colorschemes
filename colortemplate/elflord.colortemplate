@@ -16,6 +16,8 @@ Background: dark
 
 ; Common linked groups {{{
 ; Terminal              -> Normal  ; TODO: Commented out because defined below
+; debugPC             TODO: TBD
+; debugBreakpoint     TODO: TBD
 Boolean               -> Constant
 Character             -> Constant
 Conditional           -> Repeat
