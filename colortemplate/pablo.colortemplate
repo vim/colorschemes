@@ -4,8 +4,9 @@ Full name:  pablo
 Short name: pablo
 Author:     Ron Aaron <ron@ronware.org>
 Maintainer: Original maintainerRon Aaron <ron@ronware.org>
-Website:    https://github.com/vim/colorschemes
+URL:        https://github.com/vim/colorschemes
 License:    Same as Vim
+Options:    backend=viml
 
 
 Background: dark

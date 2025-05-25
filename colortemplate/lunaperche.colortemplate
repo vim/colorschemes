@@ -1,10 +1,12 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
-Full name: Perchè il sole a Milano? Portofino? Dimmi la luna perchè?
-Short name: lunaperche
+Full name:   Perchè il sole a Milano? Portofino? Dimmi la luna perchè?
+Short name:  lunaperche
 Description: White(perchè il sole)/Black(la luna perchè?) background colorscheme.
-Author: Maxim Kim <habamax@gmail.com>
-Website: https://www.github.com/vim/colorschemes
+Author:      Maxim Kim <habamax@gmail.com>
+URL:         https://www.github.com/vim/colorschemes
+Options:     backend=viml
 
+   
 Background: any
 
 ; links

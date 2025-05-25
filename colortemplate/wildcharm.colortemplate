@@ -1,10 +1,12 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
-Full name: Wild Charm
-Short name: wildcharm
+Full name:   Wild Charm
+Short name:  wildcharm
 Description: Vibrant and playful, at least one popular AI thinks it is.
-Author: Maxim Kim <habamax@gmail.com>
-Website: https://github.com/vim/colorschemes
-License: Same as Vim
+Author:      Maxim Kim <habamax@gmail.com>
+URL:         https://github.com/vim/colorschemes
+License:     Same as Vim
+Options:     backend=viml
+
 
 Background: any
 

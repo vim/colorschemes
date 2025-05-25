@@ -7,9 +7,10 @@ Short name:    quiet
 Author:        Maxence Weynans <neutaaaaan@gmail.com>
 ; Optional
 Maintainer:    Maxence Weynans <neutaaaaan@gmail.com>
-Website:       https://github.com/vim/colorschemes
+URL:           https://github.com/vim/colorschemes
 Description:   A mostly monochrome colorscheme, with a few niceties.
 License:       Vim License (see `:help license`)`
+Options:       backend=viml
 ; }}}
 
 

@@ -4,7 +4,9 @@ Full name:   unokai
 Short name:  unokai
 Description: Color scheme similar to Monokai originally created by Wimer Hazenberg for TextMate
 Author:      k-37 <60838818+k-37@users.noreply.github.com>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
+Options:     backend=viml
+
 
 Background: dark
 

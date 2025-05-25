@@ -6,8 +6,9 @@ Short name:  evening
 Description: This color scheme uses a dark grey background.
 Author:      Original author Bram Moolenaar <Bram@vim.org>
 Maintainer:  Original maintainer Steven Vertigan <steven@vertigan.wattle.id.au>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 Variant:    gui 256 16
 Background: dark

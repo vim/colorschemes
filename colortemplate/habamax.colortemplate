@@ -3,8 +3,9 @@ Full name:   habamax
 Short name:  habamax
 Description: Hubba hubba hubba.
 Author:      Maxim Kim <habamax@gmail.com>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 Background: dark
 

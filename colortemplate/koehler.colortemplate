@@ -6,8 +6,10 @@ Full name:  koehler
 Short name: koehler
 Author:     original author Ron Aaron <ron@ronware.org>
 Maintainer: original maintainer Ron Aaron <ron@ronware.org>
-Website:    https://www.github.com/vim/colorschemes
+URL:        https://www.github.com/vim/colorschemes
 License:    Same as Vim
+Options:    backend=viml
+; }}}
 
 ; Common linked groups {{{
 Terminal              -> Normal

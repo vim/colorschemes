@@ -5,8 +5,9 @@ Short name:  shine
 Description: Light colorscheme inspired by normal text editors.
 Author:      Original author is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
 Maintainer:  Original maintainer is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 
 Background: light

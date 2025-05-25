@@ -5,8 +5,9 @@ Short name:  zellner
 Description: Light background colorscheme.
 Author:      Original author Ron Aaron <ron@ronware.org>
 Maintainer:  Original maintainer Ron Aaron <ron@ronware.org>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 
 Background: light

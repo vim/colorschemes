@@ -5,8 +5,9 @@ Short name:  delek
 Description: Light background colorscheme.
 Author:      Original author David Schweikert <david@schweikert.ch>
 Maintainer:  Original maintainer David Schweikert <david@schweikert.ch>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 
 Background: light

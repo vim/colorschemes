@@ -5,8 +5,9 @@ Short name:  peachpuff
 Description: This color scheme uses a peachpuff background (what you've expected when it's " called peachpuff?).
 Author:      Original author David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
 Maintainer:  Original maintainer David Ne\v{c}as (Yeti) <yeti@physics.muni.cz>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=viml
 
 
 Background: light
