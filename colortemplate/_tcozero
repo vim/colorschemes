@@ -67,3 +67,8 @@ Statement      /0 omit   omit
 Todo           /0 omit   omit    reverse,bold
 Type           /0 omit   omit
 Underlined     /0 omit   omit    underline
+
+; TODO: TO BE VERIFIED:
+PopupNotification/0 omit omit s=omit omit
+StatusLineTerm   /0 omit omit s=omit omit
+StatusLineTermNC /0 omit omit s=omit omit
