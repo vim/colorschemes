@@ -62,7 +62,9 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 ;;; chrome
 
 CursorIM -> omit   ; TODO: To be verified
-
+; debugPC            TODO: TBD
+; debugBreakpoint    TODO: TBD
+;
 ; Variant: 8
 Normal          /8 color07        color00
 
