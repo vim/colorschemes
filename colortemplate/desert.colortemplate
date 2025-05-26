@@ -217,9 +217,9 @@ ColorColumn    /8  color07        color01
 WildMenu           background     color05
 ColorColumn        foreground     color01
 
-Cursor   -> omit   ; Defined only for GUI
-lCursor  -> omit   ; Defined only for GUI
-CursorIM -> omit   ; Defined only for GUI
+Cursor   -> omit   ; TDB/Defined only for GUI
+lCursor  -> omit   ; TDB/Defined only for GUI
+CursorIM -> omit   ; TBD
 
 ; Variant: gui
 Cursor       /gui  background     color11

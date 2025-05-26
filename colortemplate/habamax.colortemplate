@@ -221,9 +221,9 @@ debugBreakpoint    /8   color00        color06
 debugPC                 color00        color04
 debugBreakpoint         color00        color09
 
-Cursor   -> omit   ; Defined only for GUI
-lCursor  -> omit   ; Defined only for GUI
-CursorIM -> omit   ; Defined only for GUI
+Cursor   -> omit   ; TBD/Defined only for GUI
+lCursor  -> omit   ; TBD/Defined only for GUI
+CursorIM -> omit   ; TBD/Defined only for GUI
 
 ; Variant: gui
 Cursor             /gui black          white
