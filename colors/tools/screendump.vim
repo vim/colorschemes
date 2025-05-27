@@ -98,11 +98,11 @@ enddef
 # Examples:
 #
 # TakeSelfies('dark', {colorschemes: glob('../*.vim', 0, 1)})
-TakeSelfies('light', {
-  colorschemes: ['../lunaperche.vim', '../quiet.vim', '../retrobox.vim', '../wildcharm.vim'],
-  scripts:      ['sample_messages.vim', 'sample_terminal.vim'],
-  envs:         [256, 0],
-})
+# TakeSelfies('light', {
+#   colorschemes: ['../lunaperche.vim', '../quiet.vim', '../retrobox.vim', '../wildcharm.vim'],
+#   scripts:      ['sample_messages.vim', 'sample_terminal.vim'],
+#   envs:         [256, 0],
+# })
 #
 # TakeSelfie(
 #   '../lunaperche.vim',
