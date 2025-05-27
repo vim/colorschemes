@@ -35,7 +35,7 @@ def TakeSelfie(
   })
 enddef
 
-# Take screen dumps of a set color schemes.
+# Take screen dumps of a set of color schemes.
 # If `background` is not empty, set background to the given value when
 # starting Vim. `opts` is a dictionary with possible keys:
 #
@@ -99,7 +99,7 @@ enddef
 
 # Examples:
 #
-# TakeSelfies(glob('../*.vim', 0, 1), 'dark')
+# TakeSelfies('dark', {colorschemes: glob('../*.vim', 0, 1)})
 # TakeSelfies('light', {
 #   colorschemes: ['../lunaperche.vim', '../quiet.vim', '../retrobox.vim', '../wildcharm.vim'],
 #   scripts:      ['sample_messages.vim', 'sample_terminal.vim'],

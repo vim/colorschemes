@@ -63,10 +63,11 @@ export def RunVimInTerminal(script: string, colorscheme: string, opts: dict<any>
   split
   vsplit
 
+  var setbackground = empty(background) ? [] : ['-c', $'set bg={background}']
   var vim = [
     'vim', '-N', '-u', 'NONE',
     '--cmd', 'set ruler', # Helps checking for screen drawing (see below)
-    '-c', $'set bg={background}',
+  ] + setbackground + [
     '-S', script,
     $'+source {colorscheme}'
   ]
