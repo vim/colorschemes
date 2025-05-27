@@ -41,7 +41,7 @@ enddef
 #
 # "outdir"       - The output directory (default: './dumps')
 # "envs"         - A list of t_Co values to use. The default for terminal Vim
-#                  is [256, 16, 8, 0], for GUI is [-1].
+#                  is [256, 16, 8, 0], for GUI [16777216, 256, 16, 8, 0].
 # "scripts"      - A list of paths of scripts to use. By default all `sample*.vim` scripts
 #                  are used.
 # "colorschemes" - A list of paths of color schemes to use. By default, all
@@ -51,7 +51,7 @@ export def TakeSelfies(
     opts:         dict<any> = {}
     )
   var outdir:       string       = get(opts, 'outdir', 'dumps')
-  var envs:         list<number> = get(opts, 'envs', has('gui_running') ? [-1] : get(opts, 'envs', [256, 16, 8, 0]))
+  var envs:         list<number> = get(opts, 'envs', has('gui_running') ? [16777216, 256, 16, 8, 0] : [256, 16, 8, 0])
   var scripts:      list<string> = get(opts, 'scripts', glob($'{SCRIPT_DIR}/sample*.vim', 0, 1))
   var colorschemes: list<string> = get(opts, 'colorschemes', glob($'{COLORSCHEMES_DIR}/*.vim', 0, 1))
 
@@ -65,7 +65,7 @@ export def TakeSelfies(
     for script in scripts
       for t_Co in envs
         var scriptname = fnamemodify(script, ":t:r")
-        var affix = t_Co >= 0 ? $'-{scriptname}-{t_Co}' : $'-{scriptname}-gui'
+        var affix = t_Co < 16777216 ? $'-{scriptname}-{t_Co}' : $'-{scriptname}-gui'
         var outfile = $"{outdir}/{name .. affix .. '.dump'}"
 
         # Poll for timer until it is expired
@@ -75,9 +75,7 @@ export def TakeSelfies(
 
         busy = true
 
-        if t_Co >= 0
-          execute $'set t_Co={t_Co}'
-        endif
+        execute $'set t_Co={t_Co}'
 
         TakeSelfie(
           colorscheme,
@@ -100,11 +98,11 @@ enddef
 # Examples:
 #
 # TakeSelfies('dark', {colorschemes: glob('../*.vim', 0, 1)})
-# TakeSelfies('light', {
-#   colorschemes: ['../lunaperche.vim', '../quiet.vim', '../retrobox.vim', '../wildcharm.vim'],
-#   scripts:      ['sample_messages.vim', 'sample_terminal.vim'],
-#   envs:         [256, 0],
-# })
+TakeSelfies('light', {
+  colorschemes: ['../lunaperche.vim', '../quiet.vim', '../retrobox.vim', '../wildcharm.vim'],
+  scripts:      ['sample_messages.vim', 'sample_terminal.vim'],
+  envs:         [256, 0],
+})
 #
 # TakeSelfie(
 #   '../lunaperche.vim',
