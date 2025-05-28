@@ -14,7 +14,7 @@ def TakeSelfie(
     colorscheme: string,        # Path to a color scheme
     script:      string,        # Path to a script setting up the desired screen state
     outfile:     string,        # Dump file
-    opts:        dict<any> = {} # See RunInVimTerminal()
+    opts:        dict<any> = {} # See RunInVimTerminal() and TakeSelfies()
     )
   # Make sure the window is full width
   execute "normal" "\<c-w>o"
@@ -29,9 +29,16 @@ def TakeSelfie(
   # This is necessary to take reliable screenshots for some scripts, such as
   # sample_terminal.vim.
   timer_start(SELFIE_DURATION, (t) => {
-    term_dumpwrite(buf, outfile)
-    util.StopVimInTerminal(buf)
-    busy = false
+    if filereadable(outfile) && get(opts, 'overwrite', false)
+      delete(outfile)
+    endif
+
+    try
+      term_dumpwrite(buf, outfile)
+      util.StopVimInTerminal(buf)
+    finally
+      busy = false
+    endtry
   })
 enddef
 
@@ -46,6 +53,7 @@ enddef
 #                  are used.
 # "colorschemes" - A list of paths of color schemes to use. By default, all
 #                  color schemes are used.
+# "overwrite"    - When true, overwrite existing dump files.
 export def TakeSelfies(
     background:   string,
     opts:         dict<any> = {}
@@ -54,6 +62,7 @@ export def TakeSelfies(
   var envs:         list<number> = get(opts, 'envs', has('gui_running') ? [16777216, 256, 16, 8, 0] : [256, 16, 8, 0])
   var scripts:      list<string> = get(opts, 'scripts', glob($'{SCRIPT_DIR}/sample*.vim', 0, 1))
   var colorschemes: list<string> = get(opts, 'colorschemes', glob($'{COLORSCHEMES_DIR}/*.vim', 0, 1))
+  var overwrite:    bool         = get(opts, 'overwrite', false)
 
   var t_Co_saved = &t_Co
 
@@ -81,7 +90,7 @@ export def TakeSelfies(
           colorscheme,
           script,
           outfile,
-          {background: background}
+          {background: background, overwrite: overwrite}
         )
       endfor
     endfor
