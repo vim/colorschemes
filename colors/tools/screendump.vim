@@ -74,7 +74,7 @@ export def TakeSelfies(
     for script in scripts
       for t_Co in envs
         var scriptname = fnamemodify(script, ":t:r")
-        var affix = t_Co < 16777216 ? $'-{scriptname}-{t_Co}' : $'-{scriptname}-gui'
+        var affix = $'_{background}-{scriptname}-' .. (t_Co < 16777216 ? string(t_Co) : 'gui')
         var outfile = $"{outdir}/{name .. affix .. '.dump'}"
 
         # Poll for timer until it is expired
