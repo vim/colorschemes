@@ -86,10 +86,10 @@ if &background == 'dark'
   hi SpecialChar guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi SpecialComment guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi SpecialKey guifg=#928374 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE ctermul=NONE cterm=NONE term=bold
-  hi SpellBad guifg=#fb4934 guibg=NONE guisp=#fb4934 gui=undercurl ctermfg=203 ctermbg=NONE ctermul=203 cterm=underline term=underline
-  hi SpellCap guifg=#83a598 guibg=NONE guisp=#83a598 gui=undercurl ctermfg=109 ctermbg=NONE ctermul=109 cterm=underline term=underline
-  hi SpellLocal guifg=#8ec07c guibg=NONE guisp=#8ec07c gui=undercurl ctermfg=107 ctermbg=NONE ctermul=107 cterm=underline term=underline
-  hi SpellRare guifg=#d3869b guibg=NONE guisp=#d3869b gui=undercurl ctermfg=175 ctermbg=NONE ctermul=175 cterm=underline term=underline
+  hi SpellBad guifg=#fb4934 guibg=NONE guisp=#fb4934 gui=undercurl ctermfg=203 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellCap guifg=#83a598 guibg=NONE guisp=#83a598 gui=undercurl ctermfg=109 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellLocal guifg=#8ec07c guibg=NONE guisp=#8ec07c gui=undercurl ctermfg=107 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellRare guifg=#d3869b guibg=NONE guisp=#d3869b gui=undercurl ctermfg=175 ctermbg=NONE ctermul=NONE cterm=underline term=underline
   hi Statement guifg=#fb4934 guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi StatusLine guifg=#504945 guibg=#ebdbb2 guisp=NONE gui=bold,reverse ctermfg=239 ctermbg=187 ctermul=NONE cterm=bold,reverse term=bold,reverse
   hi StatusLineNC guifg=#3c3836 guibg=#a89984 guisp=NONE gui=reverse ctermfg=237 ctermbg=102 ctermul=NONE cterm=reverse term=bold,underline
@@ -285,10 +285,10 @@ if &background == 'light'
   hi SpecialChar guifg=#9d0006 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi SpecialComment guifg=#9d0006 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi SpecialKey guifg=#928374 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE ctermul=NONE cterm=NONE term=bold
-  hi SpellBad guifg=#9d0006 guibg=NONE guisp=#9d0006 gui=undercurl ctermfg=124 ctermbg=NONE ctermul=124 cterm=underline term=underline
-  hi SpellCap guifg=#076678 guibg=NONE guisp=#076678 gui=undercurl ctermfg=23 ctermbg=NONE ctermul=23 cterm=underline term=underline
-  hi SpellLocal guifg=#427b58 guibg=NONE guisp=#427b58 gui=undercurl ctermfg=29 ctermbg=NONE ctermul=29 cterm=underline term=underline
-  hi SpellRare guifg=#8f3f71 guibg=NONE guisp=#8f3f71 gui=undercurl ctermfg=126 ctermbg=NONE ctermul=126 cterm=underline term=underline
+  hi SpellBad guifg=#9d0006 guibg=NONE guisp=#9d0006 gui=undercurl ctermfg=124 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellCap guifg=#076678 guibg=NONE guisp=#076678 gui=undercurl ctermfg=23 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellLocal guifg=#427b58 guibg=NONE guisp=#427b58 gui=undercurl ctermfg=29 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+  hi SpellRare guifg=#8f3f71 guibg=NONE guisp=#8f3f71 gui=undercurl ctermfg=126 ctermbg=NONE ctermul=NONE cterm=underline term=underline
   hi Statement guifg=#9d0006 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
   hi StatusLine guifg=#bdae93 guibg=#3c3836 guisp=NONE gui=bold,reverse ctermfg=144 ctermbg=237 ctermul=NONE cterm=bold,reverse term=bold,reverse
   hi StatusLineNC guifg=#ebdbb2 guibg=#3c3836 guisp=NONE gui=reverse ctermfg=187 ctermbg=237 ctermul=NONE cterm=reverse term=bold,underline

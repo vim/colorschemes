@@ -222,10 +222,14 @@ Search                xterm15          xterm9
 SignColumn            xterm14          none
 SpecialKey            xterm1           none
 
-SpellBad              xterm9           none              s=xterm9  underline /gui omit omit s=omit undercurl
-SpellCap              Type             none              s=Type    underline /gui omit omit s=omit undercurl
-SpellLocal            xterm14          none              s=xterm14 underline /gui omit omit s=omit undercurl
-SpellRare             xterm13          none              s=xterm13 underline /gui omit omit s=omit undercurl
+SpellBad              xterm9           none              s=none    underline
+        /gui          omit             omit              s=xterm9  undercurl
+SpellCap              Type             none              s=none    underline
+        /gui          omit             omit              s=Type    undercurl
+SpellLocal            xterm14          none              s=none    underline
+        /gui          omit             omit              s=xterm14 undercurl
+SpellRare             xterm13          none              s=none    underline
+        /gui          omit             omit              s=xterm13 undercurl
 
 StatusLine            rgbBlue          xterm15           bold
 StatusLineNC          rgbBlue          xterm7

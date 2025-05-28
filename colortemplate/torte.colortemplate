@@ -223,10 +223,14 @@ VisualNOS             none        color00        underline /gui omit omit s=omit
 WildMenu              color00     color11
 QuickFixLine          color00     color03
 
-SpellBad              color09     none           s=color09 underline /gui omit omit s=omit undercurl
-SpellCap              color12     none           s=color12 underline /gui omit omit s=omit undercurl
-SpellLocal            color13     none           s=color13 underline /gui omit omit s=omit undercurl
-SpellRare             color14     none           s=color14 underline /gui omit omit s=omit undercurl
+SpellBad              color09     none           s=none    underline
+        /gui          omit        omit           s=color09 undercurl
+SpellCap              color12     none           s=none    underline
+        /gui          omit        omit           s=color12 undercurl
+SpellLocal            color13     none           s=none    underline
+        /gui          omit        omit           s=color13 undercurl
+SpellRare             color14     none           s=none    underline
+        /gui          omit        omit           s=color14 undercurl
 
 StatusLine            color15     color04        bold
 StatusLineNC          color00     color07

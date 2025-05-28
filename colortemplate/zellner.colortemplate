@@ -207,10 +207,14 @@ SpellCap       /8  darkblue       none           reverse
 SpellLocal     /8  darkyellow     darkblue       reverse
 SpellRare      /8  darkcyan       none           reverse
 ; Variant:    gui 256 16
-SpellBad           error          none           s=error      underline /gui omit omit s=omit undercurl
-SpellCap           type           none           s=type       underline /gui omit omit s=omit undercurl
-SpellLocal         darkyellow     none           s=darkyellow underline /gui omit omit s=omit undercurl
-SpellRare          darkcyan       none           s=darkcyan   underline /gui omit omit s=omit undercurl
+SpellBad           error          none           s=none       underline
+        /gui       omit           omit           s=error      undercurl
+SpellCap           type           none           s=none       underline
+        /gui       omit           omit           s=type       undercurl
+SpellLocal         darkyellow     none           s=none       underline
+        /gui       omit           omit           s=darkyellow undercurl
+SpellRare          darkcyan       none           s=none       underline
+        /gui       omit           omit           s=darkcyan   undercurl
 
 
 ;;; Syntax

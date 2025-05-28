@@ -231,10 +231,14 @@ VisualNOS             none             xterm0            underline /gui omit omi
 WarningMsg            xterm11          none
 WildMenu              xterm0           xterm11
 
-SpellBad              xterm9           none              s=xterm9  underline /gui omit omit s=omit undercurl
-SpellCap              xterm15          none              s=xterm15 underline /gui omit omit s=omit undercurl
-SpellLocal            xterm11          none              s=xterm11 underline /gui omit omit s=omit undercurl
-SpellRare             xterm13          none              s=xterm13 underline /gui omit omit s=omit undercurl
+SpellBad              xterm9           none              s=none    underline
+        /gui          omit             omit              s=xterm9  undercurl
+SpellCap              xterm15          none              s=none    underline
+        /gui          omit             omit              s=xterm15 undercurl
+SpellLocal            xterm11          none              s=none    underline
+        /gui          omit             omit              s=xterm11 undercurl
+SpellRare             xterm13          none              s=none    underline
+        /gui          omit             omit              s=xterm13 undercurl
 
 
 ; Variant: 8

@@ -199,10 +199,14 @@ SpellCap       /8  DarkGreen      none           reverse
 SpellLocal     /8  Purple         none           reverse
 SpellRare      /8  DarkBlue       none           reverse
 ; Variant:    gui 256 16
-SpellBad           Red            none           s=Red      underline /gui omit omit s=omit undercurl
-SpellCap           SeaGreen       none           s=SeaGreen underline /gui omit omit s=omit undercurl
-SpellLocal         Magenta        none           s=Magenta  underline /gui omit omit s=omit undercurl
-SpellRare          DarkBlue       none           s=DarkBlue underline /gui omit omit s=omit undercurl
+SpellBad           Red            none           s=none     underline
+        /gui       omit           omit           s=Red      undercurl
+SpellCap           SeaGreen       none           s=none     underline
+        /gui       omit           omit           s=SeaGreen undercurl
+SpellLocal         Magenta        none           s=none     underline
+        /gui       omit           omit           s=Magenta  undercurl
+SpellRare          DarkBlue       none           s=none     underline
+        /gui       omit           omit           s=DarkBlue undercurl
 
 
 ;;; Syntax

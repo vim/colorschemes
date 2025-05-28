@@ -195,10 +195,14 @@ IncSearch      /8  color01        none           reverse
 WildMenu       /8  color00        color03
 
 ; Variant: gui 256 16
-SpellBad           color09        none           s=color09 underline /gui omit omit s=omit undercurl
-SpellCap           color14        none           s=color14 underline /gui omit omit s=omit undercurl
-SpellLocal         color03        none           s=color03 underline /gui omit omit s=omit undercurl
-SpellRare          color11        none           s=color11 underline /gui omit omit s=omit undercurl
+SpellBad           color09        none           s=none    underline
+        /gui       omit           omit           s=color09 undercurl
+SpellCap           color14        none           s=none    underline
+        /gui       omit           omit           s=color14 undercurl
+SpellLocal         color03        none           s=none    underline
+        /gui       omit           omit           s=color03 undercurl
+SpellRare          color11        none           s=none    underline
+        /gui       omit           omit           s=color11 undercurl
 ; Variant: 8
 SpellBad       /8  color01        color03        reverse
 SpellCap       /8  color06        none           reverse

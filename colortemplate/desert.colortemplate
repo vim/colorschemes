@@ -239,10 +239,14 @@ SpellCap     /16/8 color04        color07        reverse
 SpellLocal   /16/8 color03        none           reverse
 SpellRare    /16/8 color02        none           reverse
 ; Variant: gui 256
-SpellBad           color01        none           s=color01 underline /gui omit omit s=omit undercurl
-SpellCap           color04        none           s=color04 underline /gui omit omit s=omit undercurl
-SpellLocal         color13        none           s=color13 underline /gui omit omit s=omit undercurl
-SpellRare          color02        none           s=color02 underline /gui omit omit s=omit undercurl
+SpellBad           color01        none           s=none    underline
+        /gui       omit           omit           s=color01 undercurl
+SpellCap           color04        none           s=none    underline
+        /gui       omit           omit           s=color04 undercurl
+SpellLocal         color13        none           s=none    underline
+        /gui       omit           omit           s=color13 undercurl
+SpellRare          color02        none           s=none    underline
+        /gui       omit           omit           s=color02 undercurl
 
 ;;; :h group-names
 ; Variant: 8

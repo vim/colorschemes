@@ -105,10 +105,14 @@ Question             green             none
 Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
-SpellBad             red               none              s=red     underline /gui omit omit s=omit undercurl
-SpellCap             green             none              s=green   underline /gui omit omit s=omit undercurl
-SpellLocal           white             none              s=white   underline /gui omit omit s=omit undercurl
-SpellRare            magenta           none              s=magenta underline /gui omit omit s=omit undercurl
+SpellBad             red               none              s=none    underline
+        /gui         omit              omit              s=red     undercurl
+SpellCap             green             none              s=none    underline
+        /gui         omit              omit              s=green   undercurl
+SpellLocal           white             none              s=none    underline
+        /gui         omit              omit              s=white   undercurl
+SpellRare            magenta           none              s=none    underline
+        /gui         omit              omit              s=magenta undercurl
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan
 ToolbarButton        white             blue

@@ -251,10 +251,10 @@ SpellCap           /8   color04        color07        reverse
 SpellLocal         /8   color02        color00        reverse
 SpellRare          /8   color05        color07        reverse
 ; Variant: 256 16
-SpellBad                Removed        none           s=Removed underline
-SpellCap                Changed        none           s=Changed underline
-SpellLocal              Added          none           s=Added   underline
-SpellRare               color13        none           s=color13 underline
+SpellBad                Removed        none           s=none    underline
+SpellCap                Changed        none           s=none    underline
+SpellLocal              Added          none           s=none    underline
+SpellRare               color13        none           s=none    underline
 ; Variant: gui
 SpellBad           /gui none           none           s=Removed undercurl
 SpellCap           /gui none           none           s=Changed undercurl

@@ -225,10 +225,14 @@ WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
 
-SpellBad           color09        none           s=color09 underline /gui omit omit s=omit undercurl
-SpellCap           color12        none           s=color12 underline /gui omit omit s=omit undercurl
-SpellLocal         color13        none           s=color13 underline /gui omit omit s=omit undercurl
-SpellRare          color10        none           s=color10 underline /gui omit omit s=omit undercurl
+SpellBad           color09        none           s=none    underline
+        /gui       omit           omit           s=color09 undercurl
+SpellCap           color12        none           s=none    underline
+        /gui       omit           omit           s=color12 undercurl
+SpellLocal         color13        none           s=none    underline
+        /gui       omit           omit           s=color13 undercurl
+SpellRare          color10        none           s=none    underline
+        /gui       omit           omit           s=color10 undercurl
 
 
 ;;; :h group-names

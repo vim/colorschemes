@@ -93,10 +93,10 @@ hi Search guifg=#000000 guibg=#a9a9a9 guisp=NONE gui=bold ctermfg=16 ctermbg=145
 hi SignColumn guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=51 ctermbg=NONE ctermul=NONE cterm=NONE term=reverse
 hi Special guifg=#ffff00 guibg=NONE guisp=NONE gui=NONE ctermfg=226 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#00ffff guibg=NONE guisp=NONE gui=NONE ctermfg=51 ctermbg=NONE ctermul=NONE cterm=NONE term=bold
-hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl ctermfg=196 ctermbg=NONE ctermul=196 cterm=underline term=underline
-hi SpellCap guifg=#ffffff guibg=NONE guisp=#ffffff gui=undercurl ctermfg=231 ctermbg=NONE ctermul=231 cterm=underline term=underline
-hi SpellLocal guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl ctermfg=226 ctermbg=NONE ctermul=226 cterm=underline term=underline
-hi SpellRare guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl ctermfg=201 ctermbg=NONE ctermul=201 cterm=underline term=underline
+hi SpellBad guifg=#ff0000 guibg=NONE guisp=#ff0000 gui=undercurl ctermfg=196 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+hi SpellCap guifg=#ffffff guibg=NONE guisp=#ffffff gui=undercurl ctermfg=231 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+hi SpellLocal guifg=#ffff00 guibg=NONE guisp=#ffff00 gui=undercurl ctermfg=226 ctermbg=NONE ctermul=NONE cterm=underline term=underline
+hi SpellRare guifg=#ff00ff guibg=NONE guisp=#ff00ff gui=undercurl ctermfg=201 ctermbg=NONE ctermul=NONE cterm=underline term=underline
 hi Statement guifg=#add8e6 guibg=NONE guisp=NONE gui=NONE ctermfg=152 ctermbg=NONE ctermul=NONE cterm=NONE term=NONE
 hi StatusLine guifg=#00ffff guibg=#0000ff guisp=NONE gui=bold ctermfg=51 ctermbg=21 ctermul=NONE cterm=NONE term=bold,reverse
 hi StatusLineNC guifg=#add8e6 guibg=#00008b guisp=NONE gui=NONE ctermfg=152 ctermbg=20 ctermul=NONE cterm=NONE term=bold,underline

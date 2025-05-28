@@ -214,10 +214,14 @@ SpellCap       /16 identifier     none           underline
 SpellLocal     /16 statement      none           underline
 SpellRare      /16 type           none           underline
 ; Variant: gui 256
-SpellBad           error          none           s=error     underline /gui omit omit s=omit undercurl
-SpellCap           spellcap       none           s=spellcap  underline /gui omit omit s=omit undercurl
-SpellLocal         statement      none           s=statement underline /gui omit omit s=omit undercurl
-SpellRare          type           none           s=type      underline /gui omit omit s=omit undercurl
+SpellBad           error          none           s=none      underline
+        /gui       omit           omit           s=error     undercurl
+SpellCap           spellcap       none           s=none      underline
+        /gui       omit           omit           s=spellcap  undercurl
+SpellLocal         statement      none           s=none      underline
+        /gui       omit           omit           s=statement undercurl
+SpellRare          type           none           s=none      underline
+        /gui       omit           omit           s=type      undercurl
 
 
 ;;; Syntax

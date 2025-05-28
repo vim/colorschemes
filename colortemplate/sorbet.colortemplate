@@ -151,10 +151,14 @@ QuickFixLine         uicursearch       dark0             reverse
 Search               uiblue            dark0             reverse
 SignColumn           dark7             none
 SpecialKey           darkuipurple      none              bold
-SpellBad             dark1             none              s=dark1 underline /gui omit omit s=omit undercurl
-SpellCap             dark4             none              s=dark4 underline /gui omit omit s=omit undercurl
-SpellLocal           dark5             none              s=dark5 underline /gui omit omit s=omit undercurl
-SpellRare            dark6             none              s=dark6 underline /gui omit omit s=omit undercurl
+SpellBad             dark1             none              s=none  underline
+        /gui         omit              omit              s=dark1 undercurl
+SpellCap             dark4             none              s=none  underline
+        /gui         omit              omit              s=dark4 undercurl
+SpellLocal           dark5             none              s=none  underline
+        /gui         omit              omit              s=dark5 undercurl
+SpellRare            dark6             none              s=none  underline
+        /gui         omit              omit              s=dark6 undercurl
 StatusLine           dark0             statusline        bold
 StatusLineNC         statuslineNC      dark0             reverse
 TabLine              statuslineNC      dark0             reverse
