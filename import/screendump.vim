@@ -2,8 +2,9 @@ vim9script
 
 import './term_util.vim' as util
 
-const SCRIPT_DIR       = fnamemodify(resolve(expand('<sfile>:p')), ':h')
-const COLORSCHEMES_DIR = fnamemodify(SCRIPT_DIR, ':h')
+const ROOT_DIR         = fnamemodify(resolve(expand('<sfile>:p')), ':h:h')
+const COLORSCHEMES_DIR = ROOT_DIR .. '/colors'
+const SCRIPTS_DIR      = ROOT_DIR .. '/colors/tools'
 const SELFIE_DURATION  = 500 # How much time (in ms) to wait for pending
                              # updates. A lower value makes screen dumps
                              # faster to obtain, but they may not be accurate.
