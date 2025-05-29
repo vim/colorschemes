@@ -34,8 +34,6 @@ endif
 botright new
 setlocal
       \ buftype=nofile
-      \ bufhidden=wipe
-      \ nobuflisted
       \ noswapfile
       \ nowrap
 
