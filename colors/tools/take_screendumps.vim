@@ -9,7 +9,7 @@ const dumps_new = 'dumps-new'
 
 # Set the directories of the reference and new color schemes:
 var refdir = $'{$VIMRUNTIME}/colors'
-var newdir = $'../'
+var newdir = $'..'
 
 # Choose the color schemes to test:
 var colorschemes = ['blue']
