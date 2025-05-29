@@ -48,3 +48,6 @@ for dumps in failed_dumps
   append('$', $"call term_dumpdiff('{old}', '{new}', {{'term_rows': 20, 'term_cols': 75}})")
 endfor
 
+append('$', '')
+append('$', v:errors)
+
