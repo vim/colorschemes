@@ -61,7 +61,7 @@ export def TakeSelfies(
     )
   var outdir:       string       = get(opts, 'outdir', 'dumps')
   var envs:         list<number> = get(opts, 'envs', has('gui_running') ? [16777216, 256, 16, 8, 0] : [256, 16, 8, 0])
-  var scripts:      list<string> = get(opts, 'scripts', glob($'{SCRIPT_DIR}/sample*.vim', 0, 1))
+  var scripts:      list<string> = get(opts, 'scripts', glob($'{SCRIPTS_DIR}/sample*.vim', 0, 1))
   var colorschemes: list<string> = get(opts, 'colorschemes', glob($'{COLORSCHEMES_DIR}/*.vim', 0, 1))
   var overwrite:    bool         = get(opts, 'overwrite', false)
 
