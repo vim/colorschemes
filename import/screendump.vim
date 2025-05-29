@@ -28,7 +28,10 @@ def TakeSelfie(
 
   # The timer allows Vim running inside the terminal to continue updating.
   # This is necessary to take reliable screenshots for some scripts, such as
-  # sample_terminal.vim.
+  # sample_terminal.vim. It also means that the function returns immediately,
+  # so the screen dump output may not be available to the caller at once. The
+  # caller should wait for `busy` to become false before trying to access
+  # `outfile`.
   timer_start(SELFIE_DURATION, (t) => {
     if filereadable(outfile) && get(opts, 'overwrite', false)
       delete(outfile)

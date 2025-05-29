@@ -44,7 +44,7 @@ if empty(scripts)
   scripts = glob('./sample*.vim', 0, 1)
 endif
 
-# Take reference screen dumps of the reference color scheme
+# Take reference screen dumps of the reference color schemes
 screendump.TakeSelfies('dark', {
   colorschemes: ref_dark,
   scripts:      scripts,
@@ -58,7 +58,7 @@ screendump.TakeSelfies('light', {
   overwrite:    true,
 })
 
-# Take screen dumps of the new version of the color scheme
+# Take screen dumps of the new version of the color schemes
 screendump.TakeSelfies('dark', {
   colorschemes: new_dark,
   scripts:      scripts,
