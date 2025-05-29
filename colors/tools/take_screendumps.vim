@@ -4,43 +4,70 @@ import '../../import/screendump.vim' as screendump
 # Compare two versions of one or more color schemes for visual differences.
 # Usage: source this script from its directory to generate the screen dumps.
 
-const dumps_ref = 'dumps-ref'
-const dumps_new = 'dumps-new'
+var dark_colorschemes = [
+  'blue', 'darkblue', 'desert', 'elflord', 'evening', 'habamax', 'industry',
+  'koehler', 'lunaperche', 'murphy', 'pablo', 'quiet', 'retrobox', 'ron',
+  'slate', 'sorbet', 'torte', 'unokai', 'wildcharm', 'zaibatsu',
+]
+var light_colorschemes = [
+  'delek', 'lunaperche', 'morning', 'peachpuff', 'quiet', 'wildcharm',
+  'retrobox', 'shine', 'zellner',
+]
+
+# Uncomment to override the choice of color schemes
+# dark_colorschemes = ['sorbet']
+# light_colorschemes = ['wildcharm']
+
+# Output directories (they may or may not exist):
+var dumps_ref = 'dumps-ref'
+var dumps_new = 'dumps-new'
 
 # Set the directories of the reference and new color schemes:
 var refdir = $'{$VIMRUNTIME}/colors'
 var newdir = $'..'
 
-# Choose the color schemes to test:
-var colorschemes = ['blue']
-# var colorschemes = ['lunaperche', 'retrobox', 'wildcharm'] # dark&light color schemes
-
 # Choose the scripts you want to check:
-var scripts = ['./sample_spell.vim']
+var scripts: list<string> = [] # Leave empty to test all scripts
+# var scripts = ['./sample_messages.vim', './sample_terminal.vim']
 
-# Use the following background:
-var background = 'dark'
 
-var ref: list<string> = []
-var new: list<string> = []
+##########################################
+# Do not change anything below this line #
+##########################################
 
-for colorscheme in colorschemes
-  ref->add($'{refdir}/{colorscheme}.vim')
-  new->add($'{newdir}/{colorscheme}.vim')
-endfor
+var ref_dark  = mapnew(dark_colorschemes,  (_, c) => $'{refdir}/{c}.vim')
+var new_dark  = mapnew(dark_colorschemes,  (_, c) => $'{newdir}/{c}.vim')
+var ref_light = mapnew(light_colorschemes, (_, c) => $'{refdir}/{c}.vim')
+var new_light = mapnew(light_colorschemes, (_, c) => $'{newdir}/{c}.vim')
+
+if empty(scripts)
+  scripts = glob('./sample*.vim', 0, 1)
+endif
 
 # Take reference screen dumps of the reference color scheme
-screendump.TakeSelfies(background, {
-  colorschemes: ref,      # Comment out to test all color schemes
-  scripts:      scripts,  # Comment out to test all scripts
+screendump.TakeSelfies('dark', {
+  colorschemes: ref_dark,
+  scripts:      scripts,
+  outdir:       dumps_ref,
+  overwrite:    true,
+})
+screendump.TakeSelfies('light', {
+  colorschemes: ref_light,
+  scripts:      scripts,
   outdir:       dumps_ref,
   overwrite:    true,
 })
 
 # Take screen dumps of the new version of the color scheme
-screendump.TakeSelfies(background, {
-  colorschemes: new,      # Comment out to test all color schemes
-  scripts:      scripts,  # Comment out to test all scripts
+screendump.TakeSelfies('dark', {
+  colorschemes: new_dark,
+  scripts:      scripts,
+  outdir:       dumps_new,
+  overwrite:    true,
+})
+screendump.TakeSelfies('light', {
+  colorschemes: new_light,
+  scripts:      scripts,
   outdir:       dumps_new,
   overwrite:    true,
 })
