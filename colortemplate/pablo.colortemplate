@@ -79,6 +79,9 @@ Color: Cursorline     #3a3a3a     237            darkgrey
 debugBreakpoint -> omit  ; TODO: TBD
 debugPC -> omit          ; TODO: TBD
 
+Float                 -> Number
+Function              -> Identifier
+Number                -> Constant
 Terminal              -> Normal
 StatusLineTerm        -> StatusLine
 StatusLineTermNC      -> StatusLineNC

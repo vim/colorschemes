@@ -62,6 +62,8 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 ;;; chrome
 
 CursorIM -> omit   ; TODO: To be verified
+Float  -> Number
+Number -> Constant
 ; debugPC            TODO: TBD
 ; debugBreakpoint    TODO: TBD
 ;

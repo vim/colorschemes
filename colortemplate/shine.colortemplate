@@ -54,6 +54,7 @@ debugBreakpoint -> omit  ; TODO: TBD
 debugPC         -> omit  ; TODO: TBD
 
 ;;; Links
+Function           -> Identifier
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr

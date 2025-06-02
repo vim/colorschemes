@@ -59,6 +59,9 @@ debugPC -> omit          ; TODO: TBD
 ;;; chrome
 
 ;;; Links
+Float              -> Number
+Function           -> Identifier
+Number             -> Constant
 Terminal           -> Normal
 LineNrAbove        -> LineNr
 LineNrBelow        -> LineNr

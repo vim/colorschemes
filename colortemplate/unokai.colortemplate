@@ -65,6 +65,8 @@ Cursor          -> omit  ; TODO: TBD
 lCursor         -> omit  ; TODO: TBD
 
 ;;; Links
+Float                        -> Number
+Number                       -> Constant
 CursorLineFold               -> FoldColumn
 CursorLineSign               -> SignColumn
 MessageWindow                -> Pmenu

@@ -15,10 +15,6 @@ Cursor -> omit           ; TODO: TBD
 CursorIM -> omit         ; TODO: TBD
 CursorLineFold -> omit   ; TODO: TBD
 CursorLineSign -> omit   ; TODO: TBD
-StatusLine -> omit       ; TODO: TBD
-StatusLineNC -> omit     ; TODO: TBD
-StatusLineTerm -> omit   ; TODO: TBD
-StatusLineTermNC -> omit ; TODO: TBD
 lCursor -> omit          ; TODO: TBD
 
 
@@ -97,9 +93,12 @@ csClassType                    -> Normal
 csType                         -> Statement
 
 ; default links
+Float                          -> Number
+Function                       -> Identifier
+Number                         -> Constant
 Terminal                       -> Normal
-StatuslineTerm                 -> Statusline
-StatuslineTermNC               -> StatuslineNC
+StatusLineTerm                 -> Statusline
+StatusLineTermNC               -> StatuslineNC
 TabPanelFill                   -> Normal
 TabPanel                       -> Normal
 LineNrAbove                    -> LineNr
@@ -166,8 +165,8 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 
 Normal                         color07        color00
 
-Statusline                     color07        color00        reverse,bold
-StatuslineNC                   color08        color00        reverse
+StatusLine                     color07        color00        reverse,bold
+StatusLineNC                   color08        color00        reverse
 VertSplit                      color08        color08
 
 ; Variant: gui 256 16
@@ -321,8 +320,8 @@ CocSearch                      color11        none
 ; Variant: 8
 Normal                   /8    color07        color00
 
-Statusline               /8    color07        color00        reverse,bold
-StatuslineNC             /8    color00        color07
+StatusLine               /8    color07        color00        reverse,bold
+StatusLineNC             /8    color00        color07
 VertSplit                /8    color07        color07
 
 TabLine                  /8    color07        color00        reverse
@@ -464,8 +463,8 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 
 Normal                         color00        color15
 
-Statusline                     color15        color00        bold
-StatuslineNC                   color15        color08
+StatusLine                     color15        color00        bold
+StatusLineNC                   color15        color08
 VertSplit                      color08        color08
 
 TabLine                        color00        colorTab
@@ -613,8 +612,8 @@ CocSearch                      color01        none
 ; Variant: 8
 Normal                   /8    color00        color07
 
-Statusline               /8    color07        color00        bold
-StatuslineNC             /8    color07        color08
+StatusLine               /8    color07        color00        bold
+StatusLineNC             /8    color07        color08
 VertSplit                /8    color00        color00
 
 TabLine                  /8    color00        color07        reverse

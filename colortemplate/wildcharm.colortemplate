@@ -17,6 +17,9 @@ CursorLineSign -> omit  ; TODO: TBD
 
 
 ; default links
+Float                          -> Number
+Function                       -> Identifier
+Number                         -> Constant
 Terminal                       -> Normal
 StatusLineTerm                 -> Statusline
 StatusLineTermNC               -> StatuslineNC
@@ -110,7 +113,7 @@ SpecialKey                     colorNonT      none
 ; Variant: gui 256
 EndOfBuffer                    colorNonT      none
 ; Variant: gui 256 16
-EndOfBuffer            /16     color08        none  ; TODO: Double-check this
+EndOfBuffer            /16     color08        none
 
 
 ; Variant: gui 256

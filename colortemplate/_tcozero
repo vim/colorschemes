@@ -19,17 +19,21 @@ EndOfBuffer    /0 omit   omit
 ErrorMsg       /0 omit   omit    bold,reverse
 FoldColumn     /0 omit   omit
 Folded         /0 omit   omit
+Float          /0 omit   omit
+Function       /0 omit   omit
 IncSearch      /0 omit   omit    reverse,bold,underline
 LineNr         /0 omit   omit
 MatchParen     /0 omit   omit    bold,underline
 ModeMsg        /0 omit   omit    bold
 MoreMsg        /0 omit   omit
 NonText        /0 omit   omit
+Number         /0 omit   omit
 Pmenu          /0 omit   omit    reverse
 PmenuSbar      /0 omit   omit    reverse
 PmenuSel       /0 omit   omit    bold
 PmenuThumb     /0 omit   omit
 Question       /0 omit   omit    standout
+QuickFixLine   /0 omit   omit
 Search         /0 omit   omit    reverse
 SignColumn     /0 omit   omit    reverse
 SpecialKey     /0 omit   omit    bold
@@ -39,6 +43,8 @@ SpellLocal     /0 omit   omit    underline
 SpellRare      /0 omit   omit    underline
 StatusLine     /0 omit   omit    reverse,bold
 StatusLineNC   /0 omit   omit    bold,underline
+StatusLineTerm /0 omit   omit    reverse,bold
+StatusLineTermNC/0 omit  omit    bold,underline
 TabLine        /0 omit   omit    underline,bold
 TabLineFill    /0 omit   omit
 Terminal       /0 omit   omit
@@ -72,5 +78,3 @@ Underlined     /0 omit   omit    underline
 LineNrAbove      /0 omit omit s=omit omit
 LineNrBelow      /0 omit omit s=omit omit
 PopupNotification/0 omit omit s=omit omit
-StatusLineTerm   /0 omit omit s=omit omit
-StatusLineTermNC /0 omit omit s=omit omit

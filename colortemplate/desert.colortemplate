@@ -56,6 +56,9 @@ CurSearch          ->             Search
 CursorLineFold     ->             CursorLine
 CursorLineSign     ->             CursorLine
 EndOfBuffer        ->             NonText
+Float              ->             Number
+Function           ->             Identifier
+Number             ->             Constant
 MessageWindow      ->             Pmenu
 PopupNotification  ->             Todo
 TabPanelFill       ->             EndOfBuffer

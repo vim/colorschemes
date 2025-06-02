@@ -79,7 +79,6 @@ VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
 CursorLine                     none           bg3
-; Error                          red            bg0            bold,reverse ; TODO: commented out because redefined below
 ErrorMsg                       bg0            red            bold
 Folded                         grey           bg6
 LineNr                         bg4            none
@@ -286,7 +285,6 @@ VertSplit                      bg3            bg0
 ColorColumn                    none           bg5
 Comment                        grey           none
 CursorLine                     none           bg2
-; Error                          red            bg0            bold,reverse  ; TODO: commented out because redefined below
 ErrorMsg                       bg0            red            bold
 Folded                         grey           bg6
 LineNr                         bg4            none

@@ -61,7 +61,6 @@ Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkMag ogDarkCyan
 
 
 Terminal             -> Normal
-CursorColumn         -> CursorLine
 CursorIM             -> Cursor
 EndOfBuffer          -> NonText
 ErrorMsg             -> Error
@@ -120,6 +119,7 @@ TabPanel             -> Normal
 Normal          /8   ogLightGrey       black
 Conceal         /8   none              none
 ColorColumn     /8   ogLightGrey       ogDarkerRed
+CursorColumn    /8   none              none              underline
 CursorLine      /8   none              none              underline
 CursorLineNr    /8   ogOrange          none              bold
 QuickFixLine    /8   ogLightGrey       ogMagenta
@@ -245,11 +245,13 @@ Underlined           ogLightViolet     none              underline
 
 ; Variant:  16
 TabLineSel      /16  white             black
+CursorColumn    /16  none              none              underline
 CursorLine      /16  none              none              underline
 CursorLineNr    /16  ogYellow          none              underline
 Search          /16  white             ogBlue
 ; Variant:  gui 256
 TabLineSel           ogDeepBlue        ogLightGrey
+CursorColumn         none              cursorl
 CursorLine           none              cursorl
 CursorLineNr         ogYellow          cursorl
 Search               ogCyan            ogBlue

@@ -63,13 +63,14 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 CursorLineFold    -> omit  ; TODO: TBD
 CursorLineSign    -> omit  ; TODO: TBD
 PopupNotification -> omit  ; TODO: TBD
-StatusLineTerm    -> omit  ; TODO: TBD
-StatusLineTermNC  -> omit  ; TODO: TBD
 
 ;;; links
+Float                                  -> Number
+Function                               -> Identifier
+Number                                 -> Constant
 Terminal                               -> Normal
-StatuslineTerm                         -> Statusline
-StatuslineTermNC                       -> StatuslineNC
+StatusLineTerm                         -> Statusline
+StatusLineTermNC                       -> StatuslineNC
 MessageWindow                          -> Pmenu
 TabPanelFill                           -> Normal
 TabPanel                               -> Normal

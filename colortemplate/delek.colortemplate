@@ -61,6 +61,9 @@ CurSearch          -> Search
 CursorLineFold     -> CursorLine
 CursorLineSign     -> CursorLine
 ErrorMsg           -> Error
+Float              -> Number
+Function           -> Identifier
+Number             -> Constant
 MessageWindow      -> Pmenu
 PopupNotification  -> Todo
 CursorIM           -> Cursor
