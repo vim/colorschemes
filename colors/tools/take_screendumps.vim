@@ -24,11 +24,11 @@ var dumps_new = 'dumps-new'
 
 # Set the directories of the reference and new color schemes:
 var refdir = $'{$VIMRUNTIME}/colors'
-var newdir = $'..'
+var newdir = '..'
 
 # Choose the scripts you want to check:
 var scripts: list<string> = [] # Leave empty to test all scripts
-scripts = ['./sample_windows.vim']
+# scripts = ['./sample_windows.vim']
 
 
 ##########################################
