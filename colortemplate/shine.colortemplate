@@ -7,7 +7,7 @@ Author:      Original author is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
 Maintainer:  Original maintainer is Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
 URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
-Options:     backend=viml
+Options:     backend=vim
 
 Environments: gui 256 16 8 0
 

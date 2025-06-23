@@ -4,7 +4,7 @@ Short name:  lunaperche
 Description: White(perchè il sole)/Black(la luna perchè?) background colorscheme.
 Author:      Maxim Kim <habamax@gmail.com>
 URL:         https://www.github.com/vim/colorschemes
-Options:     backend=viml
+Options:     backend=vim
 
 Environments: gui 256 16 8 0
 

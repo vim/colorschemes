@@ -7,7 +7,7 @@ Author:      Original author Ron Aaron <ron@ronware.org>.
 Maintainer:  Original maintainer Ron Aaron <ron@ronware.org>.
 URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
-Options:     backend=viml
+Options:     backend=vim
 
 Environments: gui 256 16 8 0
 

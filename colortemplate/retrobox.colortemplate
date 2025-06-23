@@ -4,7 +4,7 @@ Short name:  retrobox
 Description: Retro groove color scheme similar to gruvbox originally designed by morhetz <morhetz@gmail.com>
 Author:      Maxim Kim <habamax@gmail.com>, ported from gruvbox8 of Lifepillar <lifepillar@lifepillar.me>
 URL:         https://www.github.com/vim/colorschemes
-Options:     backend=viml
+Options:     backend=vim
 
 Environments: gui 256 16 8 0
 
