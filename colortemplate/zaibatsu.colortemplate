@@ -5,8 +5,11 @@ Full name:   zaibatsu
 Short name:  zaibatsu
 Description: "If you believe the journalists, he's the single wealthiest individual, period. As rich as some zaibatsu. But there's the catch, really: is he an individual? In the sense that you are, or I am? No." -- William Gibson, Count Zero
 Author:      Romain Lafourcade <romainlafourcade@gmail.com>
-Website:     https://github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
+Options:     backend=vim
+
+Environments: gui 256 16 8 0
 
 Background: dark
 
@@ -49,46 +52,46 @@ Color: Xbrightcyan   #00ffff           ~
 
 ; Terminal palette {{{
 Term colors: background
-Term colors: Xdarkred
-Term colors: Xdarkgreen
-Term colors: darkyellow
-Term colors: Xdarkblue
-Term colors: darkmagenta
-Term colors: darkcyan
-Term colors: neutral1
-Term colors: neutral3
-Term colors: red
-Term colors: Xbrightgreen
-Term colors: Xbrightyellow
-Term colors: Xbrightblue
-Term colors: Xbrightmagenta
-Term colors: Xbrightcyan
-Term colors: white
+             Xdarkred
+             Xdarkgreen
+             darkyellow
+             Xdarkblue
+             darkmagenta
+             darkcyan
+             neutral1
+             neutral3
+             red
+             Xbrightgreen
+             Xbrightyellow
+             Xbrightblue
+             Xbrightmagenta
+             Xbrightcyan
+             white
 ; }}}
 
 ; Basics {{{
-Variant: gui 256 16
+; Variant: gui 256 16
 ; Group              Foreground        Background        Attributes
 Normal               white             background
 EndOfBuffer          blue              background
 NonText              neutral3          background
 
-Variant: 8
+; Variant: 8
 ; Group              Foreground        Background        Attributes
-Normal               neutral1          background
-EndOfBuffer          blue              background
-NonText              neutral3          background
+Normal         /8    neutral1          background
+EndOfBuffer    /8    blue              background
+NonText        /8    neutral3          background
 ; }}}
 
 ; Spelling {{{
-Variant: gui
+; Variant: gui
 ; Group              Foreground        Background        Attributes
-SpellBad             none              none              undercurl s=red
-SpellCap             none              none              undercurl s=green
-SpellLocal           none              none              undercurl s=white
-SpellRare            none              none              undercurl s=magenta
+SpellBad       /gui  none              none              s=red     undercurl
+SpellCap       /gui  none              none              s=green   undercurl
+SpellLocal     /gui  none              none              s=white   undercurl
+SpellRare      /gui  none              none              s=magenta undercurl
 
-Variant: 256 16 8
+; Variant: 256 16 8
 ; Group              Foreground        Background        Attributes
 SpellBad             red               none              underline
 SpellCap             green             none              underline
@@ -97,26 +100,26 @@ SpellRare            magenta           none              underline
 ; }}}
 
 ; StatusLine {{{
-Variant: gui 256
+; Variant: gui 256
 ; Group              Foreground        Background        Attributes
 StatusLine           background        white
 StatusLineNC         background        neutral2
 
-Variant: 16 8
+; Variant: 16 8
 ; Group              Foreground        Background        Attributes
-StatusLine           white             background        reverse
+StatusLine     /16/8 white             background        reverse
 
-Variant: 16
+; Variant: 16
 ; Group              Foreground        Background        Attributes
-StatusLineNC         neutral3          neutral1          reverse
+StatusLineNC   /16   neutral3          neutral1          reverse
 
-Variant: 8
+; Variant: 8
 ; Group              Foreground        Background        Attributes
-StatusLineNC         neutral3          neutral1          reverse,bold
+StatusLineNC   /8    neutral3          neutral1          reverse,bold
 ; }}}
 
 ; Popup menu {{{
-Variant: gui 256
+; Variant: gui 256
 ; Group              Foreground        Background        Attributes
 Pmenu                background        white
 PmenuSbar            neutral1          neutral1
@@ -129,51 +132,51 @@ PmenuKindSel         -> PmenuSel
 PmenuMatch           darkmagenta       white
 PmenuMatchSel        darkmagenta       blue
 
-Variant: 16
+; Variant: 16
 ; Group              Foreground        Background        Attributes
-Pmenu                background        white
-PmenuSbar            neutral1          neutral1
-PmenuSel             white             blue
-PmenuThumb           neutral3          neutral3
-PmenuExtra           neutral3          white
-PmenuExtraSel        -> PmenuSel
-PmenuKind            neutral3          white
-PmenuKindSel         -> PmenuSel
-PmenuMatch           background        white             bold
-PmenuMatchSel        white             blue              bold
+Pmenu          /16   background        white
+PmenuSbar      /16   neutral1          neutral1
+PmenuSel       /16   white             blue
+PmenuThumb     /16   neutral3          neutral3
+PmenuExtra     /16   neutral3          white
+PmenuExtraSel  /16   -> PmenuSel
+PmenuKind      /16   neutral3          white
+PmenuKindSel   /16   -> PmenuSel
+PmenuMatch     /16   background        white             bold
+PmenuMatchSel  /16   white             blue              bold
 
-Variant: 8
+; Variant: 8
 ; Group              Foreground        Background        Attributes
-Pmenu                background        white
-PmenuSbar            white             white
-PmenuSel             white             blue
-PmenuThumb           blue              blue
-PmenuExtra           -> Pmenu
-PmenuExtraSel        -> PmenuSel
-PmenuKind            -> Pmenu
-PmenuKindSel         -> PmenuSel
-PmenuMatch           background        white             bold
-PmenuMatchSel        white             blue              bold
+Pmenu          /8    background        white
+PmenuSbar      /8    white             white
+PmenuSel       /8    white             blue
+PmenuThumb     /8    blue              blue
+PmenuExtra     /8    -> Pmenu
+PmenuExtraSel  /8    -> PmenuSel
+PmenuKind      /8    -> Pmenu
+PmenuKindSel   /8    -> PmenuSel
+PmenuMatch     /8    background        white             bold
+PmenuMatchSel  /8    white             blue              bold
 ; }}}
 
 ; Various specifics {{{
-Variant: gui 256
+; Variant: gui 256
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              darkred
 CursorLine           none              neutral5
 CursorColumn         none              neutral5
 WildMenu             background        blue
 
-Variant: 16 8
+; Variant: 16 8
 ; Group              Foreground        Background        Attributes
-ColorColumn          white             darkred
-CursorLine           none              none              underline
-CursorColumn         none              blue
-WildMenu             white             blue
+ColorColumn    /16/8 white             darkred
+CursorLine     /16/8 none              none              underline
+CursorColumn   /16/8 none              blue
+WildMenu       /16/8 white             blue
 ; }}}
 
 ; Generic groups {{{
-Variant: gui 256 16 8
+; Variant: gui 256 16 8
 ; Chrome
 ; Group              Foreground        Background        Attributes
 Conceal              none              none
@@ -258,7 +261,6 @@ String               -> Constant
 Structure            -> Type
 Tag                  -> Special
 Typedef              -> Type
-Terminal             -> Normal
 MessageWindow        -> Pmenu
 PopupNotification    -> Todo
 ; }}}
@@ -272,19 +274,19 @@ Color: fgDiffB       #000000           16                black
 Color: bgDiffC8      #5F87AF           67                darkblue
 Color: bgDiffD8      #AF5FAF           133               darkmagenta
 
-Variant: gui 256
+; Variant: gui 256
 ; Group              Foreground        Background        Attributes
 DiffAdd              green             neutral5          reverse
 DiffChange           blue              neutral5          reverse
 DiffText             neutral1          neutral5          reverse
 DiffDelete           red               neutral5          reverse
 
-Variant: 8 16
+; Variant: 8 16
 ; Group              Foreground        Background        Attributes
-DiffAdd              bgDiffA           fgDiffW           reverse
-DiffChange           bgDiffC8          fgDiffW           reverse
-DiffText             bgDiffT           fgDiffB           reverse
-DiffDelete           bgDiffD8          fgDiffW           reverse
+DiffAdd        /16/8 bgDiffA           fgDiffW           reverse
+DiffChange     /16/8 bgDiffC8          fgDiffW           reverse
+DiffText       /16/8 bgDiffT           fgDiffB           reverse
+DiffDelete     /16/8 bgDiffD8          fgDiffW           reverse
 ; }}}
 
 ; No color support
