@@ -51,7 +51,7 @@ Color: colorMP          #ff00af        199            magenta
 Color: diffAdd          #002f00        71             darkgreen
 Color: diffDelete       #3f1f00        131            darkred
 Color: diffChange       #1f2f3f        67             darkblue
-Color: diffText         #af87af        139            darkmagenta
+Color: diffText         #4f2f4f        139            darkmagenta
 
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
@@ -283,7 +283,7 @@ DiffChange              none           diffChange
  /256/16                diffChange     colorBg        reverse
  /256+tgc true          omit           omit
  /8                     color05        color00        reverse
-DiffText                colorBg        diffText
+DiffText                none           diffText
  /256/16                diffText       colorBg        reverse
  /256+tgc true          omit           omit
  /8                     color04        color00        reverse

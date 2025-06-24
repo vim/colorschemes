@@ -85,7 +85,7 @@ hi Debug guifg=#5f8787 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE ct
 hi DiffAdd guifg=NONE guibg=#002f00 guisp=NONE gui=NONE ctermfg=71 ctermbg=234 cterm=reverse term=reverse
 hi DiffChange guifg=NONE guibg=#1f2f3f guisp=NONE gui=NONE ctermfg=67 ctermbg=234 cterm=reverse term=NONE
 hi DiffDelete guifg=#767676 guibg=#3f1f00 guisp=NONE gui=NONE ctermfg=131 ctermbg=234 cterm=reverse term=reverse
-hi DiffText guifg=#1c1c1c guibg=#af87af guisp=NONE gui=NONE ctermfg=139 ctermbg=234 cterm=reverse term=reverse
+hi DiffText guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=139 ctermbg=234 cterm=reverse term=reverse
 hi Directory guifg=#87afaf guibg=NONE guisp=NONE gui=bold ctermfg=109 ctermbg=NONE cterm=bold term=NONE
 hi EndOfBuffer guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
 hi Error guifg=#af5f5f guibg=#1c1c1c guisp=NONE gui=reverse ctermfg=131 ctermbg=234 cterm=reverse term=bold,reverse
