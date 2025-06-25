@@ -166,6 +166,7 @@ VisualNOS               color00        color06
 Pmenu                   none           colorB
  /8                     none           color07
 PmenuThumb              none           color08
+ /16/8                  none           none           reverse
 PmenuSbar               none           none
 PmenuSel                none           colorNonT
  /16                    none           color07
