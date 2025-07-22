@@ -169,7 +169,7 @@ PmenuThumb              none           color08
  /16/8                  none           none           reverse
 PmenuSbar               none           none
 PmenuSel                none           colorNonT
- /16/8                  none           none           bold
+ /16/8                  color03        none           reverse
 PmenuKind               color06        colorB
  /16/8                  none           none           reverse,bold
 PmenuKindSel            color06        colorNonT
@@ -179,9 +179,9 @@ PmenuExtra              color08        colorB
 PmenuExtraSel           color07        colorNonT
  /16/8                  none           none           bold
 PmenuMatch              colorC         colorB
- /16/8                  none           color01        reverse
+ /16/8                  none           none           bold
 PmenuMatchSel           colorC         colorNonT
- /16/8                  color01        none           bold
+ /16/8                  color03        none           bold
 
 SignColumn              none           none
  /8                     none           none

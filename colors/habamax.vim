@@ -188,10 +188,10 @@ if s:t_Co >= 16
   hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=bold,reverse
   hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
-  hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
-  hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
+  hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuMatchSel ctermfg=darkyellow ctermbg=NONE cterm=bold
   hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuSel ctermfg=darkyellow ctermbg=NONE cterm=reverse
   hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PreProc ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Question ctermfg=yellow ctermbg=NONE cterm=NONE
@@ -266,10 +266,10 @@ if s:t_Co >= 8
   hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=bold,reverse
   hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
-  hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
-  hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
+  hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuMatchSel ctermfg=darkyellow ctermbg=NONE cterm=bold
   hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuSel ctermfg=darkyellow ctermbg=NONE cterm=reverse
   hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PreProc ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Question ctermfg=darkyellow ctermbg=NONE cterm=NONE
