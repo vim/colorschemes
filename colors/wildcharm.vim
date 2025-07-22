@@ -153,7 +153,7 @@ if &background == 'dark'
     hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=black ctermbg=darkyellow cterm=NONE
-    hi PmenuThumb ctermfg=NONE ctermbg=darkgreen cterm=NONE
+    hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=magenta ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
@@ -227,7 +227,7 @@ if &background == 'dark'
     hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=black ctermbg=darkyellow cterm=NONE
-    hi PmenuThumb ctermfg=NONE ctermbg=darkgreen cterm=NONE
+    hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=black ctermbg=darkmagenta cterm=NONE

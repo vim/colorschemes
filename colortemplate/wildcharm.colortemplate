@@ -109,7 +109,7 @@ Pmenu                          none           colorB
 PmenuSel                       none           colorNonT
  /16                           color00        color03
 PmenuThumb                     none           color07
- /16                           none           color02
+ /16                           none           none           reverse
 PmenuSbar                      none           none
  /16                           none           none
 PmenuKind                      color09        colorB
@@ -232,7 +232,7 @@ EndOfBuffer              /8    color07        none
 SpecialKey               /8    color00        none
 
 Pmenu                    /8    color00        color07
-PmenuThumb               /8    none           color02
+PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
 PmenuSel                 /8    color00        color03
 PmenuKind                /8    color01        color07
