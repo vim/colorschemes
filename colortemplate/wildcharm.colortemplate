@@ -333,7 +333,7 @@ Color: colorCm                 #8a8a8a        245            darkgrey
 Color: colorLine               #EEEEEE        255            grey
 Color: colorB                  #E4E4E4        254            grey
 
-Color: colorNonT               #b2b2b2        249            darkgrey
+Color: colorNonT               #a8a8a8        248            darkgrey
 Color: colorTab                #d0d0d0        252            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
@@ -378,7 +378,7 @@ SpecialKey                     colorNonT      none
 ; Variant: gui 256
 Pmenu                          none           colorB
  /16                           color00        color07
-PmenuSel                       none           colorNonT
+PmenuSel                       none           colorTab
  /16                           color00        color03
 PmenuThumb                     none           color08
  /16                           none           color02
@@ -386,15 +386,15 @@ PmenuSbar                      none           none
  /16                           none           none
 PmenuKind                      color09        colorB
  /16                           color01        color07
-PmenuKindSel                   color09        colorNonT
+PmenuKindSel                   color09        colorTab
  /16                           color01        color03
 PmenuExtra                     color08        colorB
  /16                           color08        color07
-PmenuExtraSel                  color08        colorNonT
+PmenuExtraSel                  color08        colorTab
  /16                           color00        color03
 PmenuMatch                     color05        colorB
  /16                           color00        color07        bold
-PmenuMatchSel                  color05        colorNonT
+PmenuMatchSel                  color05        colorTab
  /16                           color00        color03        bold
 
 SignColumn                     none           none
