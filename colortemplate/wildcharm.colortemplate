@@ -71,8 +71,8 @@ Color: colorSt                 #9e9e9e        247            grey
 
 
 ; Diff colors
-Color: diffAdd                 #002f00        22             darkgreen
-Color: diffDelete              #3f1f00        52             darkred
+Color: diffAdd                 #273923        22             darkgreen
+Color: diffDelete              #2f1f1a        52             darkred
 Color: diffChange              #2f2f2f        236            darkgray
 Color: diffText                #0f4f4f        23             darkcyan
 
