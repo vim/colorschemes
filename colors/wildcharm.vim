@@ -96,7 +96,7 @@ if &background == 'dark'
   hi Type guifg=#ffaf00 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
   hi VertSplit guifg=#767676 guibg=#767676 guisp=NONE gui=NONE ctermfg=243 ctermbg=243 cterm=NONE term=NONE
-  hi Visual guifg=NONE guibg=#102a4a guisp=NONE gui=NONE ctermfg=81 ctermbg=16 cterm=reverse term=reverse
+  hi Visual guifg=NONE guibg=#204060 guisp=NONE gui=NONE ctermfg=81 ctermbg=16 cterm=reverse term=reverse
   hi VisualNOS guifg=#000000 guibg=#00afff guisp=NONE gui=NONE ctermfg=16 ctermbg=39 cterm=NONE term=NONE
   hi WarningMsg guifg=#ffaf00 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE term=standout
   hi WildMenu guifg=#000000 guibg=#ffaf00 guisp=NONE gui=NONE ctermfg=16 ctermbg=214 cterm=NONE term=bold
