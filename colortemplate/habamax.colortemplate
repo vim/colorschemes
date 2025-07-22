@@ -164,30 +164,24 @@ VisualNOS               color00        color06
  /8                     none           none           reverse
 
 Pmenu                   none           colorB
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuThumb              none           color08
  /16/8                  none           none           reverse
 PmenuSbar               none           none
 PmenuSel                none           colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuKind               color06        colorB
- /16                    none           color08
- /8                     none           color07
+ /16/8                  none           none           reverse,bold
 PmenuKindSel            color06        colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuExtra              color08        colorB
- /8                     none           color07
+ /16/8                  none           none           reverse
 PmenuExtraSel           color07        colorNonT
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           none           bold
 PmenuMatch              colorC         colorB
- /16                    none           color07
- /8                     none           none           reverse
+ /16/8                  none           color01        reverse
 PmenuMatchSel           colorC         colorNonT
- /16                    none           color07        reverse
- /8                     none           none           bold,reverse
+ /16/8                  color01        none           bold
 
 SignColumn              none           none
  /8                     none           none
