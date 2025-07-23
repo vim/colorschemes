@@ -50,7 +50,7 @@ Color: colorMP          #ff00af        199            magenta
 
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
-Color: diffChange       #37352f        58             darkyellow
+Color: diffChange       #37352f        237            darkyellow
 Color: diffText         #0f4f4f        23             darkcyan
 
 Color: black            #000000        16             black
