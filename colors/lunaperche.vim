@@ -157,9 +157,9 @@ if &background == 'dark'
   hi StatusLine guifg=#c6c6c6 guibg=#000000 guisp=NONE gui=bold,reverse ctermfg=251 ctermbg=16 cterm=bold,reverse term=bold,reverse
   hi StatusLineNC guifg=#767676 guibg=#000000 guisp=NONE gui=reverse ctermfg=243 ctermbg=16 cterm=reverse term=bold,underline
   hi String guifg=#ffd787 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
-  hi TabLine guifg=#000000 guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=16 ctermbg=251 cterm=NONE term=bold,underline
-  hi TabLineFill guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
-  hi TabLineSel guifg=#ffffff guibg=#000000 guisp=NONE gui=bold ctermfg=231 ctermbg=16 cterm=bold term=bold,reverse
+  hi TabLine guifg=#000000 guibg=#767676 guisp=NONE gui=NONE ctermfg=16 ctermbg=243 cterm=NONE term=bold,underline
+  hi TabLineFill guifg=#000000 guibg=#767676 guisp=NONE gui=NONE ctermfg=16 ctermbg=243 cterm=NONE term=NONE
+  hi TabLineSel guifg=#000000 guibg=#c6c6c6 guisp=NONE gui=bold ctermfg=16 ctermbg=251 cterm=bold term=bold,reverse
   hi Title guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
   hi Todo guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE ctermfg=16 ctermbg=231 cterm=NONE term=bold,reverse
@@ -246,9 +246,9 @@ if &background == 'dark'
     hi StatusLine ctermfg=grey ctermbg=black cterm=bold,reverse
     hi StatusLineNC ctermfg=darkgrey ctermbg=black cterm=reverse
     hi String ctermfg=yellow ctermbg=NONE cterm=NONE
-    hi TabLine ctermfg=black ctermbg=grey cterm=NONE
-    hi TabLineFill ctermfg=NONE ctermbg=darkgrey cterm=NONE
-    hi TabLineSel ctermfg=white ctermbg=black cterm=bold
+    hi TabLine ctermfg=black ctermbg=darkgrey cterm=NONE
+    hi TabLineFill ctermfg=black ctermbg=darkgrey cterm=NONE
+    hi TabLineSel ctermfg=black ctermbg=grey cterm=bold
     hi Title ctermfg=NONE ctermbg=NONE cterm=bold
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=black ctermbg=white cterm=NONE
@@ -330,9 +330,9 @@ if &background == 'dark'
     hi StatusLine ctermfg=grey ctermbg=black cterm=bold,reverse
     hi StatusLineNC ctermfg=black ctermbg=grey cterm=NONE
     hi String ctermfg=yellow ctermbg=NONE cterm=NONE
-    hi TabLine ctermfg=grey ctermbg=black cterm=reverse
-    hi TabLineFill ctermfg=NONE ctermbg=grey cterm=NONE
-    hi TabLineSel ctermfg=grey ctermbg=black cterm=NONE
+    hi TabLine ctermfg=black ctermbg=grey cterm=NONE
+    hi TabLineFill ctermfg=grey ctermbg=grey cterm=NONE
+    hi TabLineSel ctermfg=grey ctermbg=black cterm=bold,reverse
     hi Title ctermfg=NONE ctermbg=NONE cterm=bold
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=grey ctermbg=black cterm=bold,reverse

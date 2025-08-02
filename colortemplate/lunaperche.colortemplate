@@ -156,9 +156,9 @@ StatusLine                     color07        color00        reverse,bold
 StatusLineNC                   color08        color00        reverse
 VertSplit                      color08        color08
 
-TabLine                        color00        color07
-TabLineFill                    none           color08
-TabLineSel                     color15        color00        bold
+TabLine                        color00        color08
+TabLineFill                    color00        color08
+TabLineSel                     color00        color07        bold
 
 ToolbarLine                    none           none
 ToolbarButton                  color00        color15
@@ -295,9 +295,9 @@ StatusLine               /8    color07        color00        reverse,bold
 StatusLineNC             /8    color00        color07
 VertSplit                /8    color07        color07
 
-TabLine                  /8    color07        color00        reverse
-TabLineFill              /8    none           color07
-TabLineSel               /8    color07        color00
+TabLine                  /8    color00        color07
+TabLineFill              /8    color07        color07
+TabLineSel               /8    color07        color00        reverse,bold
 
 ToolbarLine              /8    none           none
 ToolbarButton            /8    color07        color00        reverse,bold
