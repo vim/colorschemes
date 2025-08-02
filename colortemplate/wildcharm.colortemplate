@@ -196,13 +196,17 @@ Conceal                        colorNonT      none
 Ignore                         none           none
 
 DiffAdd                        none           diffAdd
- /256/16                       color07        diffAdd
+ /256                          color07        diffAdd
+ /16                           color00        diffAdd
 DiffChange                     none           diffChange
- /256/16                       color07        diffChange
+ /256                          color07        diffChange
+ /16                           color00        diffChange
 DiffText                       none           diffText
- /256/16                       color07        diffText
+ /256                          color07        diffText
+ /16                           color00        diffText
 DiffDelete                     color08        diffDelete
- /256/16                       color08        diffDelete
+ /256                          color08        diffDelete
+ /16                           color00        diffDelete
 
 Added                          color02        none
 Changed                        color04        none
