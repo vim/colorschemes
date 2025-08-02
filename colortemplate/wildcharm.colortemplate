@@ -150,7 +150,6 @@ Cursor                  /gui   color00        color15
 lCursor                 /gui   color00        colorlC
 
 
-; Visual                         colorV         color00        reverse
 Visual                         colorV         color00        reverse
  /gui                          none           colorV
  /256+tgc true                 omit           omit
