@@ -143,7 +143,7 @@ Color: colorDim                #878787        102            grey
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
 Color: diffDelete              #2f1f1a        52             darkred
-Color: diffChange              #2f2f2f        236            darkgray
+Color: diffChange              #37352f        237            darkgray
 Color: diffText                #0f4f4f        23             darkcyan
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07

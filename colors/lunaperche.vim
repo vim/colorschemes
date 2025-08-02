@@ -114,7 +114,7 @@ if &background == 'dark'
   hi CursorLine guifg=NONE guibg=#262626 guisp=NONE gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE term=underline
   hi CursorLineNr guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
   hi DiffAdd guifg=NONE guibg=#273923 guisp=NONE gui=NONE ctermfg=251 ctermbg=22 cterm=NONE term=reverse
-  hi DiffChange guifg=NONE guibg=#2f2f2f guisp=NONE gui=NONE ctermfg=251 ctermbg=236 cterm=NONE term=NONE
+  hi DiffChange guifg=NONE guibg=#37352f guisp=NONE gui=NONE ctermfg=251 ctermbg=237 cterm=NONE term=NONE
   hi DiffDelete guifg=#767676 guibg=#2f1f1a guisp=NONE gui=NONE ctermfg=243 ctermbg=52 cterm=NONE term=reverse
   hi DiffText guifg=NONE guibg=#0f4f4f guisp=NONE gui=NONE ctermfg=251 ctermbg=23 cterm=NONE term=reverse
   hi Directory guifg=#5fafff guibg=NONE guisp=NONE gui=bold ctermfg=75 ctermbg=NONE cterm=bold term=NONE
