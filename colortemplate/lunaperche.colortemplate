@@ -10,14 +10,6 @@ Environments: gui 256 16 8 0
 
 Background: any
 
-; TODO: missing definitions
-Cursor -> omit           ; TODO: TBD
-CursorIM -> omit         ; TODO: TBD
-CursorLineFold -> omit   ; TODO: TBD
-CursorLineSign -> omit   ; TODO: TBD
-lCursor -> omit          ; TODO: TBD
-
-
 ; links
 helpVim                        -> Title
 helpHeader                     -> Title
@@ -105,7 +97,9 @@ LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 MessageWindow                  -> PMenu
 PopupNotification              -> Todo
-
+CursorLineFold                 -> FoldColumn
+CursorLineSign                 -> FoldColumn
+CursorIM                       -> omit
 
 Background: dark
 
@@ -141,27 +135,20 @@ Color: colorNonT               #585858        240            grey
 Color: colorTab                #585858        240            grey
 Color: colorC                  #FFFFFF        231            white
 Color: colorlC                 #FF5FFF        207            magenta
-Color: colorV                  #005F87        24             darkblue
+Color: colorV                  #104070        32             darkblue
 Color: colorMP                 #ff00af        199            magenta
 Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
 
-
-
 ; Diff colors
-Color: diffAdd                 #875f87        96             darkmagenta
-Color: diffDelete              #D78787        174            darkred
-Color: diffChange              #5f5f5f        59             darkgreen
-Color: diffText                #5f8787        66             cyan
-Color: fgDiffText              #afffff        159            black
-Color: fgDiff                  #C6C6C6        251            white
+Color: diffAdd                 #273923        22             darkgreen
+Color: diffDelete              #2f1f1a        52             darkred
+Color: diffChange              #2f2f2f        236            darkgray
+Color: diffText                #0f4f4f        23             darkcyan
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
-
-;;; chrome
-; Variant: gui 256 16
 
 Normal                         color07        color00
 
@@ -169,7 +156,6 @@ StatusLine                     color07        color00        reverse,bold
 StatusLineNC                   color08        color00        reverse
 VertSplit                      color08        color08
 
-; Variant: gui 256 16
 TabLine                        color00        color07
 TabLineFill                    none           color08
 TabLineSel                     color15        color00        bold
@@ -183,47 +169,40 @@ LineNr                         colorNonT      none
 NonText                        colorNonT      none
 FoldColumn                     colorNonT      none
 SpecialKey                     colorNonT      none
-; Variant: gui 256
 EndOfBuffer                    colorNonT      none
-; Variant: 16
-EndOfBuffer              /16   color08        none
+ /16                           color08        none
 
-
-; Variant: gui 256
 Pmenu                          none           colorB
+ /16                           color00        color07
 PmenuSel                       none           colorPMenuSel
+ /16                           color00        colorPMenuSel
 PmenuThumb                     none           color07
+ /16                           none           color02
 PmenuSbar                      none           none
+ /16                           none           none
 PmenuKind                      color09        colorB
+ /16                           color01        color07
 PmenuKindSel                   color09        colorPMenuSel
+ /16                           color01        colorPMenuSel
 PmenuExtra                     color08        colorB
+ /16                           color00        color07
 PmenuExtraSel                  color08        colorPMenuSel
+ /16                           color00        colorPMenuSel
 PmenuMatch                     color05        colorB
+ /16                           color00        color07        bold
 PmenuMatchSel                  color05        colorPMenuSel
-; Variant: 16
-Pmenu                    /16   color00        color07
-PmenuThumb               /16   none           color02
-PmenuSbar                /16   none           none
-PmenuSel                 /16   color00        colorPMenuSel
-PmenuKind                /16   color01        color07
-PmenuKindSel             /16   color01        colorPMenuSel
-PmenuExtra               /16   color00        color07
-PmenuExtraSel            /16   color00        colorPMenuSel
-PmenuMatch               /16   color00        color07        bold
-PmenuMatchSel            /16   color00        colorPMenuSel  bold
+ /16                           color00        colorPMenuSel  bold
 
-
-; Variant: gui 256 16
 SignColumn                     none           none
 
-Error                          color15        color09
-ErrorMsg                       color15        color09
+Error                          color09        color15        reverse
+ErrorMsg                       color09        color15        reverse
 ModeMsg                        color11        none           reverse
 MoreMsg                        color10        none
 Question                       color13        none
 WarningMsg                     color09        none
 
-Todo                           color14        color00        reverse
+Todo                           none           none           bold
 Search                         color00        color11
 IncSearch                      color00        color10
 CurSearch                      color00        color10
@@ -232,45 +211,36 @@ WildMenu                       color00        color11        bold
 debugPC                        color04        none           reverse
 debugBreakpoint                color06        none           reverse
 
-
-; Variant: gui
 Cursor                   /gui  color00        color15
 lCursor                  /gui  colorlC        color00        reverse
 
-
-; Variant: gui 256
-Visual                         color15        colorV
+Visual                         colorV         color00        reverse
+ /gui                          none           colorV
+ /256+tgc true                 omit           omit
 MatchParen                     colorMP        none           bold
+ /16                           none           none           bold,underline
 
-
-; Variant: 16
-MatchParen               /16   none           none           bold,underline
-VisualNOS                /16   color00        color06
-CursorLine               /16   none           none           underline
-CursorColumn             /16   color00        color11
-Folded                   /16   color00        color03
-ColorColumn              /16   color00        color03
-
-; Variant: gui 256
 VisualNOS                      color00        color06
+ /16                           color00        color06
 CursorLine                     none           colorLine
+ /16                           none           none           underline
 CursorColumn                   none           colorLine
+ /16                           color00        color11
 Folded                         color08        colorB
+ /16                           color00        color03
 ColorColumn                    none           colorB
+ /16                           color00        color03
 
-; Variant: gui
-SpellBad                 /gui  none           none           s=color09 undercurl
-SpellCap                 /gui  none           none           s=color06 undercurl
-SpellLocal               /gui  none           none           s=color02 undercurl
-SpellRare                /gui  none           none           s=color13 undercurl
-; Variant: 256 16
 SpellBad                       color09        none           underline
+ /gui                          none           none           s=color09 undercurl
 SpellCap                       color06        none           underline
+ /gui                          none           none           s=color06 undercurl
 SpellLocal                     color10        none           underline
+ /gui                          none           none           s=color10 undercurl
 SpellRare                      color13        none           underline
+ /gui                          none           none           s=color13 undercurl
 
 ;;; :h group-names
-; Variant: gui 256 16
 Comment                        color12        none
 Constant                       color13        none
 String                         color11        none
@@ -289,17 +259,23 @@ Directory                      color12        none           bold
 Conceal                        colorNonT      none
 Ignore                         none           none
 
-; Variant: gui 256 16
-DiffAdd                        fgDiff         diffAdd
-DiffChange                     fgDiff         diffChange
-DiffText                       fgDiffText     diffText
-DiffDelete                     diffDelete     none
+DiffAdd                        none           diffAdd
+ /256                          color07        diffAdd
+ /16                           color02        color00        reverse
+DiffChange                     none           diffChange
+ /256                          color07        diffChange
+ /16                           color03        color00        reverse
+DiffText                       none           diffText
+ /256                          color07        diffText
+ /16                           diffText       color00        reverse
+DiffDelete                     color08        diffDelete
+ /256                          color08        diffDelete
+ /16                           diffDelete     color00        reverse
+
 Added                          color10        none
 Changed                        color12        none
-Removed                        diffDelete     none
-diffSubname                    color13        none
+Removed                        color09        none
 
-; Variant: gui 256 16
 ; other ftplugins
 dirType                        color05        none
 dirPermissionUser              color02        none
@@ -310,11 +286,6 @@ dirGroup                       color08        none
 dirTime                        color08        none
 dirSize                        color11        none
 dirSizeMod                     color05        none
-FilterMenuDirectorySubtle      colorDim       none
-dirFilterMenuBookmarkPath      colorDim       none
-dirFilterMenuHistoryPath       colorDim       none
-FilterMenuLineNr               colorDim       none
-CocSearch                      color11        none
 
 
 ; Variant: 8
@@ -359,8 +330,8 @@ MoreMsg                  /8    color02        none
 Question                 /8    color05        none
 WarningMsg               /8    color01        none
 
-Todo                     /8    color06        color00        reverse
-Search                   /8    color03        color00        reverse
+Todo                     /8    none           none           bold
+Search                   /8    none           none           reverse
 IncSearch                /8    color02        color00        reverse
 CurSearch                /8    color02        color00        reverse
 WildMenu                 /8    color00        color03        bold
@@ -401,10 +372,10 @@ Conceal                  /8    none           none
 Ignore                   /8    none           none
 
 
-DiffAdd                  /8    fgDiff         color05
-DiffChange               /8    fgDiff         color02
-DiffText                 /8    color00        color07
-DiffDelete               /8    color01        none
+DiffAdd                  /8    color00        color02
+DiffChange               /8    color00        color03
+DiffText                 /8    color00        color05
+DiffDelete               /8    color00        color01
 
 
 
