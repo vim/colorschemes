@@ -100,26 +100,28 @@ MatchParen                     none           bg2            bold,underline
  /16                           none           bg0            bold,underline
 NonText                        bg2            none
  /16                           bg2            none
-Pmenu                          fg1            bg1
- /16                           fg1            bg1
+
+Pmenu                          none           bg1
+ /16                           bg0            fg0
 PmenuSbar                      none           bg1
- /16                           none           bg1
-PmenuSel                       bg1            blue           bold
- /16                           bg0            blue
+ /16                           none           none
+PmenuSel                       none           bg2
+ /16                           fg0            bg0
 PmenuThumb                     none           bg4
- /16                           none           blue
+ /16                           none           none           reverse
 PmenuKind                      red            bg1
- /16                           neutralred     bg1
-PmenuKindSel                   red            blue
- /16                           neutralred     blue
+ /16                           neutralred     fg0
+PmenuKindSel                   red            bg2
+ /16                           neutralred     bg0
 PmenuExtra                     fg4            bg1
- /16                           fg4            bg1
-PmenuExtraSel                  bg3            blue
- /16                           bg0            blue
-PmenuMatch                     neutralpurple  bg1
- /16                           fg1            bg1            bold
-PmenuMatchSel                  neutralpurple  blue           bold
- /16                           bg0            blue           bold
+ /16                           grey           fg0
+PmenuExtraSel                  fg4            bg2
+ /16                           grey           bg0
+PmenuMatch                     purple         bg1
+ /16                           bg0            fg0            bold
+PmenuMatchSel                  purple         bg2
+ /16                           bg0            fg0            bold,reverse
+
 SpecialKey                     grey           none
  /16                           bg1            none
 StatusLine                     bg2            fg1            bold,reverse
@@ -158,16 +160,16 @@ Folded                  /8     fg4            none
 LineNr                  /8     fg4            none
 MatchParen              /8     fg4            none           bold,underline
 NonText                 /8     fg4            none
-Pmenu                   /8     bg1            fg1
-PmenuSbar               /8     none           bg1
-PmenuSel                /8     bg0            blue
-PmenuThumb              /8     none           blue
-PmenuKind               /8     red            fg1
-PmenuKindSel            /8     red            blue
-PmenuExtra              /8     bg1            fg1
-PmenuExtraSel           /8     bg1            blue
-PmenuMatch              /8     bg1            fg1            bold
-PmenuMatchSel           /8     bg0            blue           bold
+Pmenu                   /8     none           none           reverse
+PmenuThumb              /8     none           none           reverse
+PmenuSbar               /8     none           none
+PmenuSel                /8     none           none           bold
+PmenuKind               /8     none           none           reverse,bold
+PmenuKindSel            /8     none           none           bold
+PmenuExtra              /8     none           none           reverse
+PmenuExtraSel           /8     none           none           bold
+PmenuMatch              /8     none           red            reverse
+PmenuMatchSel           /8     red            none           bold
 SignColumn              /8     fg4            none
 SpecialKey              /8     fg4            none
 StatusLine              /8     fg4            bg0            reverse,bold
@@ -181,24 +183,24 @@ VertSplit               /8     bg0            fg4
 Visual                  /8     bg0            blue
 WildMenu                /8     blue           bg1            bold
 EndOfBuffer             /8     none           none
+Title                   /8     none           none           bold
 
 ; Common {{{
-; Variant: gui 256 16 8
 Conceal                        bg2            none
 Cursor                         bg0            fg0
 
 DiffAdd                        none           diffAdd
  /256                          fg0            diffAdd
- /16                           fg0            diffAdd
+ /16/8                         bg0            diffAdd
 DiffChange                     none           diffChange
  /256                          fg0            diffChange
- /16                           fg0            diffChange
+ /16/8                         bg0            diffChange
 DiffText                       none           diffText
  /256                          fg0            diffText
- /16                           fg0            diffText
+ /16/8                         bg0            diffText
 DiffDelete                     fg4            diffDelete
  /256                          fg4            diffDelete
- /16                           fg0            diffDelete
+ /16/8                         bg0            diffDelete
 
 Directory                      green          none           bold
 IncSearch                      orange         bg0            reverse
