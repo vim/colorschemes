@@ -164,43 +164,34 @@ Pmenu              foreground     color08
 PmenuSel           background     color11
 PmenuSbar          none           background
 PmenuThumb         none           color07
-; Variant: gui 256
 PmenuMatch         color13        color08
+ /16               foreground     color08        bold
 PmenuMatchSel      color13        color11
-; Variant: 16
-PmenuMatch     /16 foreground     color08        bold
-PmenuMatchSel  /16 background     color11        bold
+ /16               background     color11        bold
 
 ; Variant: gui 256 16
 TabLine            foreground     color08
 TabLineFill        none           color07
 TabLineSel         color15        background     bold
 
-; Variant: 16
-ToolbarButton  /16 foreground     color08
-; Variant: gui 256
-ToolbarButton      foreground     color07        bold
-; Variant: gui 256 16
 ToolbarLine        none           color00
+ /16               foreground     color08
 
 NonText            color06        none
 SpecialKey         color06        none
 
-; Variant: 16
-Folded         /16 color06        none
-Visual         /16 background     color07
-CursorLine     /16 none           none           underline
-CursorColumn   /16 none           none           underline
-CursorLineNr   /16 color11        none           underline
-ColorColumn    /16 foreground     color08
-
-; Variant: gui 256
 Folded             color06        color00
+ /16               color06        none
 Visual             foreground     color07
+ /16               background     color07
 CursorLine         none           color07
+ /16               none           none           underline
 CursorColumn       none           color07
+ /16               none           none           underline
 CursorLineNr       color11        none           bold
+ /16               color11        none           underline
 ColorColumn        none           color08
+ /16               foreground     color08
 
 
 ; Variant: gui 256 16
@@ -228,13 +219,13 @@ Cursor             background     foreground
 lCursor            background     color09
 
 SpellBad           color09        none           s=none    underline
-        /gui       omit           omit           s=color09 undercurl
+ /gui              omit           omit           s=color09 undercurl
 SpellCap           color12        none           s=none    underline
-        /gui       omit           omit           s=color12 undercurl
+ /gui              omit           omit           s=color12 undercurl
 SpellLocal         color13        none           s=none    underline
-        /gui       omit           omit           s=color13 undercurl
+ /gui              omit           omit           s=color13 undercurl
 SpellRare          color10        none           s=none    underline
-        /gui       omit           omit           s=color10 undercurl
+ /gui              omit           omit           s=color10 undercurl
 
 
 ;;; :h group-names
