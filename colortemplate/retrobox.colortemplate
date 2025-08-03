@@ -267,7 +267,7 @@ Background: light
 
 Color: bg0                     #fbf1c7        230            White
 Color: bg1                     #ebdbb2        187            Grey
-Color: bg2                     #e5d4b1        188            Grey
+Color: bg2                     #e5d4b1        187            Grey
 Color: bg3                     #bdae93        144
 Color: bg4                     #a89984        137            Grey
 Color: bg5                     #ebe1b7        229            Grey
@@ -321,25 +321,26 @@ MatchParen                     none           bg2            bold,underline
 NonText                        bg2            none
  /16                           bg2            none
 Pmenu                          none           bg2
- /16                           fg1            bg1
+ /256/16                       fg1            bg1
 PmenuSbar                      none           bg2
- /16                           none           bg1
+ /256/16                       none           bg1
 PmenuSel                       none           bg3
- /16                           bg0            blue
+ /16                           fg1            bg0
 PmenuThumb                     none           bg4
- /16                           none           none           reverse
+ /256/16                       none           none           reverse
 PmenuKind                      red            bg2
  /16                           neutralred     bg1
 PmenuKindSel                   red            bg3
- /16                           neutralred     blue
+ /16                           neutralred     bg3
 PmenuExtra                     fg4            bg2
  /16                           fg0            bg1
 PmenuExtraSel                  fg1            bg3
- /16                           bg0            blue
+ /16                           fg0            bg3
 PmenuMatch                     purple         bg2
  /16                           fg1            bg1            bold
 PmenuMatchSel                  purple         bg3
- /16                           bg0            blue           bold
+ /16                           fg1            bg3            bold
+
 SpecialKey                     grey           none
  /16                           bg1            none
 StatusLine                     bg3            fg1            bold,reverse
@@ -377,16 +378,16 @@ Folded                  /8     fg4            none
 LineNr                  /8     fg4            none
 MatchParen              /8     fg4            none           bold,underline
 NonText                 /8     fg4            none
-Pmenu                   /8     bg1            fg1
-PmenuSbar               /8     none           bg1
-PmenuSel                /8     bg0            blue
-PmenuThumb              /8     none           blue
-PmenuKind               /8     red            fg1
-PmenuKindSel            /8     red            blue
-PmenuExtra              /8     bg1            fg1
-PmenuExtraSel           /8     bg1            blue
-PmenuMatch              /8     bg1            fg1            bold
-PmenuMatchSel           /8     bg0            blue           bold
+Pmenu                   /8     none           none           reverse
+PmenuThumb              /8     none           none           reverse
+PmenuSbar               /8     none           none
+PmenuSel                /8     none           none           bold
+PmenuKind               /8     none           none           reverse,bold
+PmenuKindSel            /8     none           none           bold
+PmenuExtra              /8     none           none           reverse
+PmenuExtraSel           /8     none           none           bold
+PmenuMatch              /8     none           red            reverse
+PmenuMatchSel           /8     red            none           bold
 SignColumn              /8     fg4            none
 SpecialKey              /8     fg4            none
 StatusLine              /8     fg4            bg0            reverse,bold
@@ -402,27 +403,24 @@ WildMenu                /8     blue           bg1            bold
 EndOfBuffer             /8     none           none
 
 ; Common {{{
-; Variant: gui 256 16 8
 Conceal                        bg4            none
 Cursor                         bg0            fg0
 
-; DiffAdd                        green          bg0            reverse
-; DiffChange                     aqua           bg0            reverse
-; DiffDelete                     red            bg0            reverse
-; DiffText                       yellow         bg0            reverse
-
 DiffAdd                        none           diffAdd
  /256                          fg0            diffAdd
- /16/8                         bg0            diffAdd
+ /16                           fg1            diffAdd
+ /8                            fg0            diffAdd
 DiffChange                     none           diffChange
  /256                          fg0            diffChange
- /16/8                         bg0            diffChange
+ /16                           fg1            diffChange
+ /8                            fg0            diffChange
 DiffText                       none           diffText
  /256                          fg0            diffText
- /16/8                         bg0            diffText
+ /16                           fg1            diffText
+ /8                            fg0            diffText
 DiffDelete                     fg4            diffDelete
- /256                          fg4            diffDelete
- /16/8                         bg0            diffDelete
+ /256                          bg1            diffDelete
+ /16/8                         fg0            diffDelete
 
 Directory                      green          none           bold
 IncSearch                      orange         bg0            reverse
@@ -440,6 +438,7 @@ SpellLocal                     aqua           none           s=none   underline
 SpellRare                      purple         none           s=none   underline
  /gui                          omit           omit           s=purple undercurl
 Title                          green          none           bold
+ /16                           none           none           bold
 WarningMsg                     red            none           bold
 ; Other conventional group names (see `:help group-name`)
 Comment                        grey           none
