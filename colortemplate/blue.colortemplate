@@ -63,22 +63,18 @@ Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta
              x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 ;;; Group            Foreground        Background        Attributes
-; Variant:    gui 256 16
 Normal               yellow            darkblue
 
-; Variant:    16
-CursorLine     /16   none              none              underline
-Pmenu          /16   black             darkcyan
-PmenuSel       /16   black             white
-PmenuMatch     /16   black             darkcyan          bold
-PmenuMatchSel  /16   black             white             bold
-
-; Variant:    gui 256
 CursorLine           none              blue
+ /16                 none              none              underline
 Pmenu                white             darkcyan
+ /16                 black             darkcyan
 PmenuSel             darkcyan          white
+ /16                 black             white
 PmenuMatch           yellow            darkcyan
+ /16                 black             darkcyan          bold
 PmenuMatchSel        coral             white
+ /16                 black             white             bold
 
 ; Variant:    gui 256 16
 QuickFixLine         black             magenta
