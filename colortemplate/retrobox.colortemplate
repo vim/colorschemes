@@ -211,13 +211,13 @@ Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
 
 SpellBad                       red            none           s=none   underline
-        /gui                   omit           omit           s=red    undercurl
+ /gui                          omit           omit           s=red    undercurl
 SpellCap                       blue           none           s=none   underline
-        /gui                   omit           omit           s=blue   undercurl
+ /gui                          omit           omit           s=blue   undercurl
 SpellLocal                     aqua           none           s=none   underline
-        /gui                   omit           omit           s=aqua   undercurl
+ /gui                          omit           omit           s=aqua   undercurl
 SpellRare                      purple         none           s=none   underline
-        /gui                   omit           omit           s=purple undercurl
+ /gui                          omit           omit           s=purple undercurl
 
 Title                          green          none           bold
 WarningMsg                     red            none           bold
