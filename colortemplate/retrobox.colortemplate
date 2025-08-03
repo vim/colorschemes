@@ -11,10 +11,6 @@ Environments: gui 256 16 8 0
 Background: any
 
 ; TODO: missing definitions
-CursorLineFold -> omit  ; TODO: TBD
-CursorLineSign -> omit  ; TODO: TBD
-LineNrAbove    -> omit  ; TODO: TBD
-LineNrBelow    -> omit  ; TODO: TBD
 debugBreakpoint -> omit  ; TODO: TBD
 debugPC -> omit          ; TODO: TBD
 
@@ -28,6 +24,10 @@ MessageWindow                  -> PMenu
 PopupNotification              -> Todo
 CurSearch                      -> IncSearch
 Terminal                       -> Normal
+LineNrAbove                    -> LineNr
+LineNrBelow                    -> LineNr
+CursorLineFold                 -> FoldColumn
+CursorLineSign                 -> FoldColumn
 
 
 ; Neutral colors
@@ -62,89 +62,90 @@ Color: blue                    #83a598        109            Blue
 Color: purple                  #d3869b        175            Magenta
 Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
+Color: colorV                  #103050        109            Blue
+
+; Diff colors
+Color: diffAdd                 #273923        22             darkgreen
+Color: diffDelete              #2f1f1a        52             darkred
+Color: diffChange              #37352f        59             darkyellow
+Color: diffText                #0f4f4f        23             darkcyan
 
 Term colors: bg0  neutralred neutralgreen neutralyellow neutralblue neutralpurple neutralaqua fg4
              grey red        green        yellow        blue        purple        aqua        fg1
 
 
-; Variant: gui 256 16
 Normal                         fg1            bg0
 
-; GUI & 256-color specific
-; Variant: gui 256
-CursorLineNr                   yellow         bg0            bold
-FoldColumn                     grey           bg0
-SignColumn                     grey           bg0
-VertSplit                      bg3            bg0
-ColorColumn                    none           bg5
-Comment                        grey           none
 CursorLine                     none           bg3
+ /16                           none           none           underline
+CursorLineNr                   yellow         bg0            bold
+ /16                           yellow         none
+FoldColumn                     grey           bg0
+ /16                           bg1            none
+SignColumn                     grey           bg0
+ /16                           bg1            none
+VertSplit                      bg3            bg0
+ /16                           bg0            fg4
+ColorColumn                    none           bg5
+ /16                           bg0            neutralyellow
+Error                          red            bg0            bold,reverse
+ /16                           red            bg0            reverse
 ErrorMsg                       bg0            red            bold
+ /16                           bg0            red
 Folded                         grey           bg6
+ /16                           bg1            none
 LineNr                         bg4            none
+ /16                           bg1            none
 MatchParen                     none           bg2            bold,underline
+ /16                           none           bg0            bold,underline
 NonText                        bg2            none
+ /16                           bg2            none
 Pmenu                          fg1            bg1
+ /16                           fg1            bg1
 PmenuSbar                      none           bg1
+ /16                           none           bg1
 PmenuSel                       bg1            blue           bold
+ /16                           bg0            blue
 PmenuThumb                     none           bg4
+ /16                           none           blue
 PmenuKind                      red            bg1
+ /16                           neutralred     bg1
 PmenuKindSel                   red            blue
+ /16                           neutralred     blue
 PmenuExtra                     fg4            bg1
+ /16                           fg4            bg1
 PmenuExtraSel                  bg3            blue
+ /16                           bg0            blue
 PmenuMatch                     neutralpurple  bg1
+ /16                           fg1            bg1            bold
 PmenuMatchSel                  neutralpurple  blue           bold
+ /16                           bg0            blue           bold
 SpecialKey                     grey           none
+ /16                           bg1            none
 StatusLine                     bg2            fg1            bold,reverse
+ /16                           fg4            bg0            reverse,bold
 StatusLineNC                   bg1            fg4            reverse
+ /16                           fg4            bg0            reverse
 TabLine                        fg4            bg1
+ /16                           bg0            bg1
 TabLineFill                    fg1            bg1
+ /16                           bg0            bg1
 TabLineSel                     fg0            bg0            bold
+ /16                           fg0            bg0            bold
 ToolbarButton                  fg0            bg3            bold
+ /16                           fg1            bg1            bold
 ToolbarLine                    none           none
-Visual                         bg0            blue
+ /16                           none           none
+Visual                         colorV         bg0            reverse
+ /gui                          none           colorV
+ /256+tgc true                 omit           omit
 WildMenu                       blue           bg2            bold
+ /16                           fg1            bg0            bold
 EndOfBuffer                    bg2            none
+ /16                           bg2            none
 
-; 16-color specific {{{
-; Variant: 16
-ColorColumn             /16    bg0            neutralyellow
-Comment                 /16    grey           none
-CursorLine              /16    none           none           underline
-CursorLineNr            /16    yellow         none
-Error                   /16    red            bg0            reverse
-ErrorMsg                /16    bg0            red
-FoldColumn              /16    bg1            none
-Folded                  /16    bg1            none
-LineNr                  /16    bg1            none
-MatchParen              /16    none           bg0            bold,underline
-NonText                 /16    bg2            none
-Pmenu                   /16    fg1            bg1
-PmenuSbar               /16    none           bg1
-PmenuSel                /16    bg0            blue
-PmenuThumb              /16    none           blue
-PmenuKind               /16    neutralred     bg1
-PmenuKindSel            /16    neutralred     blue
-PmenuExtra              /16    fg4            bg1
-PmenuExtraSel           /16    bg0            blue
-PmenuMatch              /16    fg1            bg1            bold
-PmenuMatchSel           /16    bg0            blue           bold
-SignColumn              /16    bg1            none
-SpecialKey              /16    bg1            none
-StatusLine              /16    fg4            bg0            reverse,bold
-StatusLineNC            /16    fg4            bg0            reverse
-TabLine                 /16    bg0            bg1
-TabLineFill             /16    bg0            bg1
-TabLineSel              /16    fg0            bg0            bold
-ToolbarButton           /16    fg1            bg1            bold
-ToolbarLine             /16    none           none
-VertSplit               /16    bg0            fg4
-Visual                  /16    bg0            blue
-WildMenu                /16    fg1            bg0            bold
-EndOfBuffer             /16    bg2            none
 
 ; 8-color specific {{{
-; Variant: 8
 Normal                  /8     fg4            bg0
 ColorColumn             /8     bg0            fg4
 Comment                 /8     fg4            none           bold
@@ -185,10 +186,20 @@ EndOfBuffer             /8     none           none
 ; Variant: gui 256 16 8
 Conceal                        bg2            none
 Cursor                         bg0            fg0
-DiffAdd                        green          bg0            reverse
-DiffChange                     aqua           bg0            reverse
-DiffDelete                     red            bg0            reverse
-DiffText                       yellow         bg0            reverse
+
+DiffAdd                        none           diffAdd
+ /256                          fg0            diffAdd
+ /16                           fg0            diffAdd
+DiffChange                     none           diffChange
+ /256                          fg0            diffChange
+ /16                           fg0            diffChange
+DiffText                       none           diffText
+ /256                          fg0            diffText
+ /16                           fg0            diffText
+DiffDelete                     fg4            diffDelete
+ /256                          fg4            diffDelete
+ /16                           fg0            diffDelete
+
 Directory                      green          none           bold
 IncSearch                      orange         bg0            reverse
 ModeMsg                        yellow         none           bold
@@ -196,6 +207,7 @@ MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
 Search                         neutralgreen   bg0            reverse
 QuickFixLine                   aqua           bg0            reverse
+
 SpellBad                       red            none           s=none   underline
         /gui                   omit           omit           s=red    undercurl
 SpellCap                       blue           none           s=none   underline
@@ -204,9 +216,16 @@ SpellLocal                     aqua           none           s=none   underline
         /gui                   omit           omit           s=aqua   undercurl
 SpellRare                      purple         none           s=none   underline
         /gui                   omit           omit           s=purple undercurl
+
 Title                          green          none           bold
 WarningMsg                     red            none           bold
+
+CursorIM                       bg0            fg0
+Ignore                         fg             none
+
 ; Other conventional group names (see `:help group-name`)
+Comment                        grey           none
+ /16                           grey           none
 Boolean                        purple         none
 Character                      purple         none
 Conditional                    red            none
@@ -214,12 +233,10 @@ Constant                       purple         none
 Define                         aqua           none
 Debug                          red            none
 Delimiter                      orange         none
-Error                          red            bg0            bold,reverse
 Exception                      red            none
 Float                          purple         none
 Function                       green          none           bold
 Identifier                     blue           none
-Ignore                         fg             none
 Include                        aqua           none
 Keyword                        red            none
 Label                          red            none
@@ -240,7 +257,7 @@ Todo                           fg             bg0            bold
 Type                           yellow         none
 Typedef                        yellow         none
 Underlined                     blue           none           underline
-CursorIM                       bg0            fg0
+
 
 
 
