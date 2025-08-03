@@ -207,13 +207,13 @@ Question             ogGreen           none
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
 SpellBad             ogRed             none              s=none      underline
-        /gui         omit              omit              s=ogRed     undercurl
+ /gui                omit              omit              s=ogRed     undercurl
 SpellCap             ogGreen           none              s=none      underline
-        /gui         omit              omit              s=ogGreen   undercurl
+ /gui                omit              omit              s=ogGreen   undercurl
 SpellLocal           ogCyan            none              s=none      underline
-        /gui         omit              omit              s=ogCyan    undercurl
+ /gui                omit              omit              s=ogCyan    undercurl
 SpellRare            ogMagenta         none              s=none      underline
-        /gui         omit              omit              s=ogMagenta undercurl
+ /gui                omit              omit              s=ogMagenta undercurl
 StatusLine           ogDeepBlue        ogLightGrey
 StatusLineNC         black             ogGrey
 TabLine              black             ogGrey
@@ -243,18 +243,16 @@ Type                 ogGreen           none
 Underlined           ogLightViolet     none              underline
 
 
-; Variant:  16
-TabLineSel      /16  white             black
-CursorColumn    /16  none              none              underline
-CursorLine      /16  none              none              underline
-CursorLineNr    /16  ogYellow          none              underline
-Search          /16  white             ogBlue
-; Variant:  gui 256
 TabLineSel           ogDeepBlue        ogLightGrey
+ /16                 white             black
 CursorColumn         none              cursorl
+ /16                 none              none              underline
 CursorLine           none              cursorl
+ /16                 none              none              underline
 CursorLineNr         ogYellow          cursorl
+ /16                 ogYellow          none              underline
 Search               ogCyan            ogBlue
+ /16                 white             ogBlue
 
 
 ;;; "Standard" diff colors
