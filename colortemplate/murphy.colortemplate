@@ -76,58 +76,44 @@ Added              -> Constant
 TabPanelFill       -> EndOfBuffer
 TabPanel           -> Normal
 
-; Variant: 8
-Normal         /8  color02        color00
-; Variant: gui 256 16
 Normal             foreground     background
+ /8                color02        color00
 
-; Variant: 8
-EndOfBuffer    /8  color04        none           bold
-StatusLine     /8  color04        color07        reverse,bold
-StatusLineNC   /8  color07        color00        reverse
-VertSplit      /8  color07        color00        reverse
-; Variant: gui 256 16
 EndOfBuffer        color12        background
+ /8                color04        none           bold
 StatusLine         color15        color04
+ /8                color04        color07        reverse,bold
 StatusLineNC       color15        color17
+ /8                color07        color00        reverse
 VertSplit          color15        color17
+ /8                color07        color00        reverse
 
-; Variant: 8
-Pmenu          /8  color00        color06
-PmenuSel       /8  color00        color03
-PmenuSbar      /8  none           color00
-PmenuThumb     /8  none           color07
-PmenuMatch     /8  color00        color06        bold
-PmenuMatchSel  /8  color00        color03        bold
-; Variant: gui 256 16
 Pmenu              color15        color08
+ /8                color00        color06
 PmenuSel           background     color11
+ /8                color00        color03
 PmenuSbar          none           color00
+ /8                none           color00
 PmenuThumb         none           color07
-; Variant: gui 256
+ /8                none           color07
 PmenuMatch         color13        color08
+ /16               color15        color08        bold
+ /8                color00        color06        bold
 PmenuMatchSel      color13        color11
-; Variant: 16
-PmenuMatch     /16 color15        color08        bold
-PmenuMatchSel  /16 background     color11        bold
+ /16               background     color11        bold
+ /8                color00        color03        bold
 
-; Variant: 16 8
-TabLineFill  /16/8 none           color07
-; Variant: gui 256
 TabLineFill        none           color00
-; Variant: 8
-TabLine        /8  color07        color00        reverse
-TabLineSel     /8  color07        color00
-; Variant: gui 256 16
+ /16/8             none           color07
 TabLine            foreground     color08
+ /8                color07        color00        reverse
 TabLineSel         color15        background
+ /8                color07        color00
 
-; Variant: 8
-ToolbarLine    /8  none           color00
-ToolbarButton  /8  color07        color00        reverse,bold
-; Variant: gui 256 16
 ToolbarLine        none           color00
+ /8                none           color00
 ToolbarButton      color15        color08        bold
+ /8                color07        color00        reverse,bold
 
 ; Variant: gui 256 16 8
 NonText            color06        none
@@ -135,124 +121,104 @@ SpecialKey         color06        none
 
 QuickFixLine       color00        color06
 
-; Variant: 8
-Folded         /8  color06        none
-CursorLine     /8  none           none           underline
-CursorColumn   /8  none           none           underline
-CursorLineNr   /8  color03        none           bold
-ColorColumn    /8  color07        color01
-Underlined     /8  none           none           underline
-; Variant: 16
-Folded         /16 color06        none
-CursorLine     /16 none           none           underline
-CursorColumn   /16 none           none           underline
-CursorLineNr   /16 color11        none           underline
-ColorColumn    /16 foreground     color08
-; Variant: gui 256
 Folded             color06        color00
+ /8                color06        none
+ /16               color06        none
 CursorLine         none           color08
+ /8                none           none           underline
+ /16               none           none           underline
 CursorColumn       none           color08
+ /8                none           none           underline
+ /16               none           none           underline
 CursorLineNr       color11        none           bold
+ /8                color03        none           bold
+ /16               color11        none           underline
 ColorColumn        none           color16
-; Variant: gui 256 16
+ /8                color07        color01
+ /16               foreground     color08
 Visual             color15        color02
+ /8                none           none           reverse
 VisualNOS          color15        color02
+ /8                none           none           reverse,underline
 LineNr             color11        none
+ /8                color03        none
 FoldColumn         color06        none
+ /8                color06        none
 SignColumn         color06        none
+ /8                color06        none
 
 Underlined         color06        none           underline
+ /8                none           none           underline
 
 Error              color15        color09
+ /8                color07        color01
 ErrorMsg           color15        color09
+ /8                color07        color01
 ModeMsg            foreground     none           bold
+ /8                color07        none           bold
 WarningMsg         color01        none           bold
+ /8                color01        none           bold
 MoreMsg            color02        none           bold
+ /8                color02        none           bold
 Question           color14        none           bold
+ /8                color06        none           bold
 
 Todo               color12        color11
+ /8                color04        color03
 MatchParen         color00        color03
+ /8                color00        color03
 Search             color15        color12
+ /8                color07        color04
 IncSearch          color01        none           reverse
+ /8                color01        none           reverse
 WildMenu           background     color11
+ /8                color00        color03
 Cursor             background     foreground
 lCursor            background     color09
-; Variant: 8
-Visual         /8  none           none           reverse
-VisualNOS      /8  none           none           reverse,underline
-LineNr         /8  color03        none
-FoldColumn     /8  color06        none
-SignColumn     /8  color06        none
 
-Error          /8  color07        color01
-ErrorMsg       /8  color07        color01
-ModeMsg        /8  color07        none           bold
-WarningMsg     /8  color01        none           bold
-MoreMsg        /8  color02        none           bold
-Question       /8  color06        none           bold
 
-Todo           /8  color04        color03
-MatchParen     /8  color00        color03
-Search         /8  color07        color04
-IncSearch      /8  color01        none           reverse
-WildMenu       /8  color00        color03
 
 ; Variant: gui 256 16
 SpellBad           color09        none           s=none    underline
-        /gui       omit           omit           s=color09 undercurl
+ /gui              omit           omit           s=color09 undercurl
+ /8                color01        color03        reverse
 SpellCap           color14        none           s=none    underline
-        /gui       omit           omit           s=color14 undercurl
+ /gui              omit           omit           s=color14 undercurl
+ /8                color06        none           reverse
 SpellLocal         color03        none           s=none    underline
-        /gui       omit           omit           s=color03 undercurl
+ /gui              omit           omit           s=color03 undercurl
+ /8                color03        none           reverse
 SpellRare          color11        none           s=none    underline
-        /gui       omit           omit           s=color11 undercurl
-; Variant: 8
-SpellBad       /8  color01        color03        reverse
-SpellCap       /8  color06        none           reverse
-SpellLocal     /8  color03        none           reverse
-SpellRare      /8  color05        color03        reverse
-
+ /gui              omit           omit           s=color11 undercurl
+ /8                color05        color03        reverse
 
 ;;; :h group-names
-; Variant: gui 256 16
 Comment            color01        none
-; Variant: 8
-Comment        /8  color01        none           bold
+ /8                color01        none           bold
 
-; Variant: 8
-Identifier     /8  color06        none
-Statement      /8  color03        none
-Constant       /8  color07        none           bold
-; Variant: gui 256 16
 Identifier         color14        none
+ /8                color06        none
 Statement          color11        none
+ /8                color03        none
 Constant           color15        none
-; Variant: 8
-PreProc        /8  color05        none           bold
-; Variant: 16
-PreProc        /16 color05        none
-; Variant: gui 256
+ /8                color07        none           bold
 PreProc            color03        none
-; Variant: gui 256 16
+ /8                color05        none           bold
+ /16               color05        none
 Type               color07        none
+ /8                color07        none
 Special            color13        none
-; Variant: 8
-Type           /8  color07        none
-Special        /8  color05        none
+ /8                color05        none
 
-; Variant: 8
-Directory      /8  color06        none
-Conceal        /8  color07        none
-Ignore         /8  none           none
-
-Title          /8  color05        none           bold
-
-; Variant: gui 256 16
 Directory          color14        none
+ /8                color06        none
 Conceal            color07        none
+ /8                color07        none
 Ignore             none           none
+ /8                none           none
 
 Title              color13        none           bold
+ /8                color05        none           bold
 
 
 ;;; "Standard" diff colors
