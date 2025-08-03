@@ -72,159 +72,130 @@ TabPanel           -> Normal
 
 
 ;;; Chrome         fg             bg             style
-; Variant:    8
-Normal        /8   Black          LightGrey
-; Variant:    gui 256 16
 Normal             Black          White
+ /8                Black          LightGrey
 
-; Variant:    16 8
-Folded       /16/8 DarkBlue       none
-CursorLine   /16/8 none           none           underline
-CursorColumn /16/8 none           none
-CursorLineNr /16/8 none           none           bold
-; Variant:    gui 256
 Folded             DarkBlue       LightGrey
+ /16/8             DarkBlue       none
 CursorLine         none           LightGrey
+ /16/8             none           none           underline
 CursorColumn       none           LightGrey
+ /16/8             none           none
 CursorLineNr       none           LightGrey
+ /16/8             none           none           bold
 
-; Variant:    8
-QuickFixLine    /8 Black          DarkOrange
-StatusLine      /8 Black          LightGrey      reverse,bold
-StatusLineNC    /8 Black          LightGrey      reverse
-StatusLineTerm  /8 Black          DarkGreen      reverse,bold
-StatusLineTermNC/8 LightGrey      DarkGreen      reverse
-VertSplit       /8 Black          LightGrey      reverse
-; Variant:    gui 256 16
 QuickFixLine       Black          DarkOrange
+ /8                Black          DarkOrange
 StatusLine         White          Black          bold
+ /8                Black          LightGrey      reverse,bold
 StatusLineNC       White          MediumGrey
+ /8                Black          LightGrey      reverse
 StatusLineTerm     Black          LightGreen     bold
+ /8                Black          DarkGreen      reverse,bold
 StatusLineTermNC   LightGrey      DarkGreen
+ /8                LightGrey      DarkGreen      reverse
 VertSplit          MediumGrey     MediumGrey
+ /8                Black          LightGrey      reverse
 
-; Variant:    8
-Pmenu           /8 Black          DarkCyan
-PmenuSel        /8 Black          DarkOrange
-PmenuSbar       /8 LightGrey      LightGrey
-PmenuThumb      /8 Black          Black
-PmenuMatch      /8 Black          DarkCyan       bold
-PmenuMatchSel   /8 Black          DarkOrange     bold
-; Variant:    gui 256 16
 Pmenu              Black          MediumGrey
+ /8                Black          DarkCyan
 PmenuSel           Black          MutedYellow
+ /8                Black          DarkOrange
 PmenuSbar          White          White
+ /8                LightGrey      LightGrey
 PmenuThumb         DarkGrey       DarkGrey
-; Variant:    gui 256
+ /8                Black          Black
 PmenuMatch         Red            MediumGrey
+ /8                Black          DarkCyan       bold
+ /16               Black          MediumGrey     bold
 PmenuMatchSel      Red            MutedYellow
-; Variant:    16
-PmenuMatch     /16 Black          MediumGrey     bold
-PmenuMatchSel  /16 Black          MutedYellow    bold
+ /8                Black          DarkOrange     bold
+ /16               Black          MutedYellow    bold
 
-; Variant:    8
-TabLine        /8  Black          LightGrey      reverse
-TabLineFill    /8  none           none           reverse
-TabLineSel     /8  LightGrey      Black          reverse
-; Variant:    gui 256 16
 TabLine            Black          LightGrey      underline
+ /8                Black          LightGrey      reverse
 TabLineFill        none           none           reverse
+ /8                none           none           reverse
 TabLineSel         Black          White          bold
+ /8                LightGrey      Black          reverse
 
-; Variant:    8
-ToolbarLine    /8  none           none
-ToolbarButton  /8  Black          LightGrey      reverse,bold
-; Variant:    gui 256 16
 ToolbarLine        none           none
+ /8                none           none
 ToolbarButton      none           MediumGrey     bold
+ /8                Black          LightGrey      reverse,bold
 
-; Variant:    8
-NonText        /8  DarkBlue       none
-SpecialKey     /8  DarkBlue       none
-; Variant:    gui 256 16
 NonText            LightBlue      White
+ /8                DarkBlue       none
 SpecialKey         LightBlue      none
+ /8                DarkBlue       none
 
-; Variant:    8
-Visual         /8  none           none           reverse
-VisualNOS      /8  none           none           underline
-LineNr         /8  none           none           bold
-FoldColumn     /8  LightGrey      none           bold
-SignColumn     /8  none           none
-; Variant:    gui 256 16
 Visual             Black          MediumGrey
+ /8                none           none           reverse
 VisualNOS          none           none           underline
+ /8                none           none           underline
 VisualNOS    /gui  omit           omit    s=omit bold
 LineNr             DarkGrey       none
+ /8                none           none           bold
 FoldColumn         DarkGrey       none
+ /8                LightGrey      none           bold
 SignColumn         none           none
+ /8                none           none
 
-; Variant:    8
-Underlined     /8  none           none           underline
-; Variant:    gui 256 16
 Underlined         Purple         none           underline
+ /8                none           none           underline
 
-; Variant:    8
-Error          /8  DarkRed        none           reverse,bold
-WarningMsg     /8  Purple         none
-MoreMsg        /8  DarkGreen      none
-ModeMsg        /8  Black          none
-Question       /8  DarkRed        none
-; Variant:    gui 256 16
 Error              Red            White          reverse
+ /8                DarkRed        none           reverse,bold
 WarningMsg         Purple         White
+ /8                Purple         none
 MoreMsg            DarkGreen      White
+ /8                DarkGreen      none
 ModeMsg            Black          White
+ /8                Black          none
 Question           MutedRed       none
+ /8                DarkRed        none
 
-; Variant:    8
-Todo           /8  Black          DarkOrange
-MatchParen     /8  LightGrey      DarkRed
-Search         /8  LightGrey      Purple
-IncSearch      /8  DarkCyan       DarkOrange     reverse
-WildMenu       /8  Black          DarkOrange     bold
-ColorColumn    /8  Black          DarkRed
-; Variant:    gui 256 16
 Todo               Black          Yellow
+ /8                Black          DarkOrange
 MatchParen         White          LightRed
+ /8                LightGrey      DarkRed
 Search             White          Purple
+ /8                LightGrey      Purple
 IncSearch          DarkCyan       Yellow         reverse
+ /8                DarkCyan       DarkOrange     reverse
 WildMenu           Black          Yellow         bold
+ /8                Black          DarkOrange     bold
 ColorColumn        Black          LightRed
+ /8                Black          DarkRed
 Cursor             White          Black
 lCursor            Black          MutedRed
 
-; Variant:    8
-SpellBad       /8  DarkRed        none           reverse
-SpellCap       /8  DarkGreen      none           reverse
-SpellLocal     /8  Purple         none           reverse
-SpellRare      /8  DarkBlue       none           reverse
-; Variant:    gui 256 16
 SpellBad           Red            none           s=none     underline
-        /gui       omit           omit           s=Red      undercurl
+ /8                DarkRed        none           reverse
+ /gui              omit           omit           s=Red      undercurl
 SpellCap           SeaGreen       none           s=none     underline
-        /gui       omit           omit           s=SeaGreen undercurl
+ /8                DarkGreen      none           reverse
+ /gui              omit           omit           s=SeaGreen undercurl
 SpellLocal         Magenta        none           s=none     underline
-        /gui       omit           omit           s=Magenta  undercurl
+ /8                Purple         none           reverse
+ /gui              omit           omit           s=Magenta  undercurl
 SpellRare          DarkBlue       none           s=none     underline
-        /gui       omit           omit           s=DarkBlue undercurl
+ /8                DarkBlue       none           reverse
+ /gui              omit           omit           s=DarkBlue undercurl
 
 
 ;;; Syntax
-; Variant:    8
-Statement      /8  DarkGreen      none
-Type           /8  DarkGreen      none
-Comment        /8  Black          none           bold
-StorageClass   /8  DarkRed        none           bold
-Conceal        /8  none           none
-; Variant:    gui 256 16
 Statement          SeaGreen       none           bold
+ /8                DarkGreen      none
 Type               SeaGreen       none           bold
+ /8                DarkGreen      none
 Comment            MediumGrey     none
+ /8                Black          none           bold
             /gui   omit           omit    s=omit bold
 StorageClass       Red            none           bold
+ /8                DarkRed        none           bold
 Conceal            LightBlue      none
-; Variant:    gui 256 16 8
+ /8                none           none
 Identifier         DarkCyan       none
 Constant           MutedRed       none
 Number             MutedRed       none           bold
