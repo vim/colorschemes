@@ -78,183 +78,152 @@ debugPC -> omit          ; TODO: TBD
 
 ;;; Chrome
 
-; Variant: 8
-Normal         /8  black          gray
-; Variant: gui 256 16
 Normal             fg0            bg0
+ /8                black          gray
 
-; Variant: 8
-EndOfBuffer    /8  darkblue       none
-Folded         /8  darkblue       none
-CursorLine     /8  none           none           underline
-CursorColumn   /8  none           none
-CursorLineNr   /8  none           none           bold
-; Variant: 16
-EndOfBuffer    /16 comment        none
-Folded         /16 folded_fg      none
-CursorLine     /16 none           none           underline
-CursorColumn   /16 none           none           underline
-CursorLineNr   /16 statement      none           underline
-
-; Variant: gui 256
 EndOfBuffer        comment        endofbuffer    bold
+ /8                darkblue       none
+ /16               comment        none
 Folded             folded_fg      folded
+ /8                darkblue       none
+ /16               folded_fg      none
 CursorLine         none           folded
+ /8                none           none           underline
+ /16               none           none           underline
 CursorColumn       none           folded
+ /8                none           none
+ /16               none           none           underline
 CursorLineNr       statement      none           bold
+ /8                none           none           bold
+ /16               statement      none           underline
 
-; Variant: 8
-QuickFixLine   /8  black          darkyellow
-StatusLine     /8  black          gray           reverse,bold
-StatusLineNC   /8  black          gray           reverse
-VertSplit      /8  black          gray           reverse
-; Variant: gui 256 16
 QuickFixLine       fg0            wildmenu
+ /8                black          darkyellow
 StatusLine         bg2            fg0            bold
+ /8                black          gray           reverse,bold
 StatusLineNC       status         fg0
+ /8                black          gray           reverse
 VertSplit          status         fg0
+ /8                black          gray           reverse
 
-; Variant: 8
-Pmenu          /8  black          darkcyan
-PmenuSel       /8  black          darkyellow
-PmenuSbar      /8  none           none
-PmenuThumb     /8  none           darkgreen
-PmenuMatch     /8  black          darkcyan       bold
-PmenuMatchSel  /8  black          darkyellow     bold
-; Variant: gui 256 16
 Pmenu              fg0            pmenu
+ /8                black          darkcyan
 PmenuSel           fg0            wildmenu
+ /8                black          darkyellow
 PmenuSbar          none           bg0
+ /8                none           none
 PmenuThumb         none           fg0
-; Variant: gui 256
+ /8                none           darkgreen
 PmenuMatch         statement      pmenu
+ /8                black          darkcyan       bold
+ /16               fg0            pmenu          bold
 PmenuMatchSel      statement      wildmenu
-; Variant: 16
-PmenuMatch     /16 fg0            pmenu          bold
-PmenuMatchSel  /16 fg0            wildmenu       bold
+ /8                black          darkyellow     bold
+ /16               fg0            wildmenu       bold
 
-; Variant: 8
-TabLine        /8  gray           black
-TabLineFill    /8  none           none           reverse
-TabLineSel     /8  black          gray
-; Variant: gui 256 16
 TabLine            fg0            bg1            underline
+ /8                gray           black
 TabLineFill        none           none           reverse
+ /8                none           none           reverse
 TabLineSel         fg0            bg0            bold
+ /8                black          gray
 
-; Variant: 8
-ToolbarLine    /8  none           none
-ToolbarButton  /8  black          gray           reverse,bold
-; Variant: gui 256 16
 ToolbarLine        none           none
+ /8                none           none
 ToolbarButton      none           bg1            bold
+ /8                black          gray           reverse,bold
 
-; Variant: 8
-NonText        /8  darkblue       none           bold
-SpecialKey     /8  darkblue       none           bold
-; Variant: gui 256 16
 NonText            comment        bg1            bold
+ /8                darkblue       none           bold
 SpecialKey         status         none
+ /8                darkblue       none           bold
 
-; Variant: 8
-Visual         /8  none           none           reverse
-VisualNOS      /8  none           none           underline
-LineNr         /8  none           none           bold
-FoldColumn     /8  none           none
-SignColumn     /8  none           none
-; Variant: gui 256 16
 Visual             none           visual
+ /8                none           none           reverse
 VisualNOS          none           comment
+ /8                none           none           underline
 LineNr             statement      none
+ /8                none           none           bold
 FoldColumn         folded_fg      none
+ /8                none           none
 SignColumn         folded_fg      none
+ /8                none           none
 
-; Variant: 8
-Underlined     /8  none           none           underline
-
-Error          /8  darkred        gray           reverse
-ErrorMsg       /8  darkred        gray           reverse
-WarningMsg     /8  darkmagenta    none
-MoreMsg        /8  darkgreen      none
-ModeMsg        /8  none           none
-Question       /8  darkcyan       none
-
-Todo           /8  black          darkyellow
-MatchParen     /8  gray           darkblue
-Search         /8  gray           darkmagenta
-IncSearch      /8  darkgreen      none           reverse
-WildMenu       /8  fg0            darkyellow
-ColorColumn    /8  black          darkred
-; Variant: gui 256 16
 Underlined         special        none           underline
+ /8                none           none           underline
 
 Error              error          bg0            reverse
+ /8                darkred        gray           reverse
 ErrorMsg           error          bg0            reverse
+ /8                darkred        gray           reverse
 WarningMsg         preproc        none           bold
+ /8                darkmagenta    none
 MoreMsg            type           none           bold
+ /8                darkgreen      none
 ModeMsg            fg0            none           bold
+ /8                none           none
 Question           identifier     none           bold
+ /8                darkcyan       none
 
 Todo               fg0            wildmenu
+ /8                black          darkyellow
 MatchParen         bg0            special
+ /8                gray           darkblue
 Search             bg0            preproc
+ /8                gray           darkmagenta
 IncSearch          type           none           reverse
+ /8                darkgreen      none           reverse
 WildMenu           fg0            wildmenu       bold
+ /8                fg0            darkyellow
 ColorColumn        fg0            colorcolumn
+ /8                black          darkred
 Cursor             bg0            type
 lCursor            bg0            statement
 
-; Variant: 8
-SpellBad       /8  darkred        none           reverse
-SpellCap       /8  darkcyan       none           reverse
-SpellLocal     /8  darkmagenta    none           reverse
-SpellRare      /8  darkgreen      none           reverse
-; Variant: 16
-SpellBad       /16 error          none           underline
-SpellCap       /16 identifier     none           underline
-SpellLocal     /16 statement      none           underline
-SpellRare      /16 type           none           underline
-; Variant: gui 256
 SpellBad           error          none           s=none      underline
-        /gui       omit           omit           s=error     undercurl
+ /8                darkred        none           reverse
+ /16               error          none           underline
+ /gui              omit           omit           s=error     undercurl
 SpellCap           spellcap       none           s=none      underline
-        /gui       omit           omit           s=spellcap  undercurl
+ /8                darkcyan       none           reverse
+ /16               identifier     none           underline
+ /gui              omit           omit           s=spellcap  undercurl
 SpellLocal         statement      none           s=none      underline
-        /gui       omit           omit           s=statement undercurl
+ /8                darkmagenta    none           reverse
+ /16               statement      none           underline
+ /gui              omit           omit           s=statement undercurl
 SpellRare          type           none           s=none      underline
-        /gui       omit           omit           s=type      undercurl
+ /8                darkgreen      none           reverse
+ /16               type           none           underline
+ /gui              omit           omit           s=type      undercurl
 
 
 ;;; Syntax
 
-; Variant: 8
-Comment        /8  darkblue       none           bold
-Constant       /8  darkmagenta    none           bold
-Identifier     /8  darkcyan       none
-Statement      /8  darkred        none           bold
-PreProc        /8  darkmagenta    none
-Type           /8  darkgreen      none
-Special        /8  darkblue       none
-Ignore         /8  none           none
-
-Directory      /8  darkcyan       none           bold
-Conceal        /8  none           none
-
-Title          /8  darkred        none           bold
-; Variant: gui 256 16
 Comment            comment        none
+ /8                darkblue       none           bold
 Constant           constant       bg2
+ /8                darkmagenta    none           bold
 Identifier         identifier     none
+ /8                darkcyan       none
 Statement          statement      none           bold
+ /8                darkred        none           bold
 PreProc            preproc        none
+ /8                darkmagenta    none
 Type               type           none           bold
+ /8                darkgreen      none
 Special            special        none
+ /8                darkblue       none
 Ignore             none           none
+ /8                none           none
 
 Directory          identifier     none           bold
+ /8                darkcyan       none           bold
 Conceal            gray           none
+ /8                none           none
 
 Title              statement      none           bold
+ /8                darkred        none           bold
 
 
 ;;; "Standard" diff colors
