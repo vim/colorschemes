@@ -340,10 +340,10 @@ if &background == 'light'
   hi Debug guifg=#9d0006 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE term=NONE
   hi Define guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
   hi Delimiter guifg=#ff5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE term=NONE
-  hi DiffAdd guifg=#79740e guibg=#fbf1c7 guisp=NONE gui=reverse ctermfg=64 ctermbg=230 cterm=reverse term=reverse
-  hi DiffChange guifg=#427b58 guibg=#fbf1c7 guisp=NONE gui=reverse ctermfg=29 ctermbg=230 cterm=reverse term=NONE
-  hi DiffDelete guifg=#9d0006 guibg=#fbf1c7 guisp=NONE gui=reverse ctermfg=124 ctermbg=230 cterm=reverse term=reverse
-  hi DiffText guifg=#b57614 guibg=#fbf1c7 guisp=NONE gui=reverse ctermfg=172 ctermbg=230 cterm=reverse term=reverse
+  hi DiffAdd guifg=NONE guibg=#d7d7a7 guisp=NONE gui=NONE ctermfg=235 ctermbg=108 cterm=NONE term=reverse
+  hi DiffChange guifg=NONE guibg=#e7d7a7 guisp=NONE gui=NONE ctermfg=235 ctermbg=250 cterm=NONE term=NONE
+  hi DiffDelete guifg=#7c6f64 guibg=#e7b7a7 guisp=NONE gui=NONE ctermfg=243 ctermbg=131 cterm=NONE term=reverse
+  hi DiffText guifg=NONE guibg=#a7d7a7 guisp=NONE gui=NONE ctermfg=235 ctermbg=109 cterm=NONE term=reverse
   hi Directory guifg=#79740e guibg=NONE guisp=NONE gui=bold ctermfg=64 ctermbg=NONE cterm=bold term=NONE
   hi EndOfBuffer guifg=#e5d4b1 guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi Error guifg=#9d0006 guibg=#fbf1c7 guisp=NONE gui=bold,reverse ctermfg=124 ctermbg=230 cterm=bold,reverse term=bold,reverse
@@ -367,15 +367,15 @@ if &background == 'light'
   hi NonText guifg=#e5d4b1 guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi Number guifg=#8f3f71 guibg=NONE guisp=NONE gui=NONE ctermfg=126 ctermbg=NONE cterm=NONE term=NONE
   hi Operator guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
-  hi Pmenu guifg=#3c3836 guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=237 ctermbg=188 cterm=NONE term=reverse
+  hi Pmenu guifg=NONE guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=NONE ctermbg=188 cterm=NONE term=reverse
   hi PmenuExtra guifg=#7c6f64 guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=243 ctermbg=188 cterm=NONE term=NONE
-  hi PmenuExtraSel guifg=#bdae93 guibg=#076678 guisp=NONE gui=NONE ctermfg=144 ctermbg=23 cterm=NONE term=NONE
+  hi PmenuExtraSel guifg=#3c3836 guibg=#bdae93 guisp=NONE gui=NONE ctermfg=237 ctermbg=144 cterm=NONE term=NONE
   hi PmenuKind guifg=#9d0006 guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=124 ctermbg=188 cterm=NONE term=NONE
-  hi PmenuKindSel guifg=#9d0006 guibg=#076678 guisp=NONE gui=NONE ctermfg=124 ctermbg=23 cterm=NONE term=NONE
+  hi PmenuKindSel guifg=#9d0006 guibg=#bdae93 guisp=NONE gui=NONE ctermfg=124 ctermbg=144 cterm=NONE term=NONE
   hi PmenuMatch guifg=#8f3f71 guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=126 ctermbg=188 cterm=NONE term=NONE
-  hi PmenuMatchSel guifg=#d3869b guibg=#076678 guisp=NONE gui=bold ctermfg=175 ctermbg=23 cterm=bold term=bold
+  hi PmenuMatchSel guifg=#8f3f71 guibg=#bdae93 guisp=NONE gui=NONE ctermfg=126 ctermbg=144 cterm=NONE term=NONE
   hi PmenuSbar guifg=NONE guibg=#e5d4b1 guisp=NONE gui=NONE ctermfg=NONE ctermbg=188 cterm=NONE term=reverse
-  hi PmenuSel guifg=#e5d4b1 guibg=#076678 guisp=NONE gui=bold ctermfg=188 ctermbg=23 cterm=bold term=bold
+  hi PmenuSel guifg=NONE guibg=#bdae93 guisp=NONE gui=NONE ctermfg=NONE ctermbg=144 cterm=NONE term=bold
   hi PmenuThumb guifg=NONE guibg=#a89984 guisp=NONE gui=NONE ctermfg=NONE ctermbg=137 cterm=NONE term=NONE
   hi PreCondit guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
   hi PreProc guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
@@ -409,11 +409,14 @@ if &background == 'light'
   hi Typedef guifg=#b57614 guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=#076678 guibg=NONE guisp=NONE gui=underline ctermfg=23 ctermbg=NONE cterm=underline term=underline
   hi VertSplit guifg=#bdae93 guibg=#fbf1c7 guisp=NONE gui=NONE ctermfg=144 ctermbg=230 cterm=NONE term=NONE
-  hi Visual guifg=#fbf1c7 guibg=#076678 guisp=NONE gui=NONE ctermfg=230 ctermbg=23 cterm=NONE term=reverse
+  hi Visual guifg=NONE guibg=#b0d0d0 guisp=NONE gui=NONE ctermfg=23 ctermbg=230 cterm=reverse term=reverse
   hi WarningMsg guifg=#9d0006 guibg=NONE guisp=NONE gui=bold ctermfg=124 ctermbg=NONE cterm=bold term=standout
   hi WildMenu guifg=#076678 guibg=#e5d4b1 guisp=NONE gui=bold ctermfg=23 ctermbg=188 cterm=bold term=bold
 
   if s:tgc || s:t_Co >= 256
+    if s:tgc
+      hi Visual cterm=NONE
+    endif
     finish
   endif
 
@@ -433,14 +436,14 @@ if &background == 'light'
     hi Debug ctermfg=Red ctermbg=NONE cterm=NONE
     hi Define ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Magenta ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=Green ctermbg=White cterm=reverse
-    hi DiffChange ctermfg=Cyan ctermbg=White cterm=reverse
-    hi DiffDelete ctermfg=Red ctermbg=White cterm=reverse
-    hi DiffText ctermfg=Yellow ctermbg=White cterm=reverse
+    hi DiffAdd ctermfg=White ctermbg=green cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=yellow cterm=NONE
+    hi DiffDelete ctermfg=White ctermbg=red cterm=NONE
+    hi DiffText ctermfg=White ctermbg=cyan cterm=NONE
     hi Directory ctermfg=Green ctermbg=NONE cterm=bold
     hi EndOfBuffer ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=White cterm=reverse
-    hi ErrorMsg ctermfg=White ctermbg=Red cterm=NONE
+    hi ErrorMsg ctermfg=White ctermbg=Red cterm=bold
     hi Exception ctermfg=Red ctermbg=NONE cterm=NONE
     hi Float ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi FoldColumn ctermfg=Grey ctermbg=NONE cterm=NONE
@@ -469,7 +472,7 @@ if &background == 'light'
     hi PmenuMatchSel ctermfg=White ctermbg=Blue cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PmenuSel ctermfg=White ctermbg=Blue cterm=NONE
-    hi PmenuThumb ctermfg=NONE ctermbg=Blue cterm=NONE
+    hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreCondit ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=Magenta ctermbg=NONE cterm=bold
@@ -502,7 +505,7 @@ if &background == 'light'
     hi Typedef ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=Blue ctermbg=NONE cterm=underline
     hi VertSplit ctermfg=DarkGray ctermbg=Grey cterm=NONE
-    hi Visual ctermfg=White ctermbg=Blue cterm=NONE
+    hi Visual ctermfg=Blue ctermbg=White cterm=reverse
     hi WarningMsg ctermfg=Red ctermbg=NONE cterm=bold
     hi WildMenu ctermfg=Black ctermbg=White cterm=bold
     finish
@@ -524,10 +527,10 @@ if &background == 'light'
     hi Debug ctermfg=Red ctermbg=NONE cterm=NONE
     hi Define ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Magenta ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=Green ctermbg=White cterm=reverse
-    hi DiffChange ctermfg=Cyan ctermbg=White cterm=reverse
-    hi DiffDelete ctermfg=Red ctermbg=White cterm=reverse
-    hi DiffText ctermfg=Yellow ctermbg=White cterm=reverse
+    hi DiffAdd ctermfg=White ctermbg=green cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=yellow cterm=NONE
+    hi DiffDelete ctermfg=White ctermbg=red cterm=NONE
+    hi DiffText ctermfg=White ctermbg=cyan cterm=NONE
     hi Directory ctermfg=Green ctermbg=NONE cterm=bold
     hi EndOfBuffer ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=White cterm=reverse
