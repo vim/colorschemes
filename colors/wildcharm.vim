@@ -220,13 +220,13 @@ if &background == 'dark'
     hi NonText ctermfg=black ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=black ctermbg=grey cterm=NONE
     hi PmenuExtra ctermfg=black ctermbg=grey cterm=NONE
-    hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
-    hi PmenuKind ctermfg=darkred ctermbg=grey cterm=NONE
-    hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
+    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuKind ctermfg=darkred ctermbg=black cterm=NONE
+    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuMatch ctermfg=black ctermbg=grey cterm=bold
-    hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
+    hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi PmenuSel ctermfg=black ctermbg=darkyellow cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
@@ -472,13 +472,13 @@ if &background == 'light'
     hi NonText ctermfg=black ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=grey ctermbg=black cterm=NONE
     hi PmenuExtra ctermfg=grey ctermbg=black cterm=NONE
-    hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
+    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuKind ctermfg=darkred ctermbg=black cterm=NONE
-    hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
+    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuMatch ctermfg=grey ctermbg=black cterm=bold
-    hi PmenuMatchSel ctermfg=NONE ctermbg=darkyellow cterm=bold
+    hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi PmenuSel ctermfg=NONE ctermbg=darkyellow cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE

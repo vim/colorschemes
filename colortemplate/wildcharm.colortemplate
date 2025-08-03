@@ -236,13 +236,13 @@ SpecialKey               /8    color00        none
 Pmenu                    /8    color00        color07
 PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
-PmenuSel                 /8    color00        color03
-PmenuKind                /8    color01        color07
-PmenuKindSel             /8    color01        color03
+PmenuSel                 /8    none           none           reverse
+PmenuKind                /8    color01        color00
+PmenuKindSel             /8    none           none           reverse
 PmenuExtra               /8    color00        color07
-PmenuExtraSel            /8    color00        color03
+PmenuExtraSel            /8    none           none           reverse
 PmenuMatch               /8    color00        color07        bold
-PmenuMatchSel            /8    color00        color03        bold
+PmenuMatchSel            /8    none           none           bold
 
 SignColumn               /8    none           none
 
@@ -511,13 +511,13 @@ SpecialKey               /8    color00        none
 Pmenu                    /8    color07        color00
 PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
-PmenuSel                 /8    none           color03
+PmenuSel                 /8    none           none           reverse
 PmenuKind                /8    color01        color00
-PmenuKindSel             /8    color01        color03
+PmenuKindSel             /8    none           none           reverse
 PmenuExtra               /8    color07        color00
-PmenuExtraSel            /8    color00        color03
+PmenuExtraSel            /8    none           none           reverse
 PmenuMatch               /8    color07        color00        bold
-PmenuMatchSel            /8    none           color03        bold
+PmenuMatchSel            /8    none           none           bold
 
 
 SignColumn               /8    none           none
