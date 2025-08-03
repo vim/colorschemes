@@ -233,16 +233,16 @@ FoldColumn               /8    color00        none
 EndOfBuffer              /8    color07        none
 SpecialKey               /8    color00        none
 
-Pmenu                    /8    color00        color07
+Pmenu                    /8    none           none           reverse
 PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
-PmenuSel                 /8    none           none           reverse
-PmenuKind                /8    color01        color00
-PmenuKindSel             /8    none           none           reverse
-PmenuExtra               /8    color00        color07
-PmenuExtraSel            /8    none           none           reverse
-PmenuMatch               /8    color00        color07        bold
-PmenuMatchSel            /8    none           none           bold
+PmenuSel                 /8    none           none           bold
+PmenuKind                /8    none           none           reverse,bold
+PmenuKindSel             /8    none           none           bold
+PmenuExtra               /8    none           none           reverse
+PmenuExtraSel            /8    none           none           bold
+PmenuMatch               /8    none           color01        reverse
+PmenuMatchSel            /8    color01        none           bold
 
 SignColumn               /8    none           none
 
@@ -508,16 +508,16 @@ FoldColumn               /8    color00        none
 EndOfBuffer              /8    color00        none
 SpecialKey               /8    color00        none
 
-Pmenu                    /8    color07        color00
+Pmenu                    /8    none           none           reverse
 PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
-PmenuSel                 /8    none           none           reverse
-PmenuKind                /8    color01        color00
-PmenuKindSel             /8    none           none           reverse
-PmenuExtra               /8    color07        color00
-PmenuExtraSel            /8    none           none           reverse
-PmenuMatch               /8    color07        color00        bold
-PmenuMatchSel            /8    none           none           bold
+PmenuSel                 /8    none           none           bold
+PmenuKind                /8    none           none           reverse,bold
+PmenuKindSel             /8    none           none           bold
+PmenuExtra               /8    none           none           reverse
+PmenuExtraSel            /8    none           none           bold
+PmenuMatch               /8    none           color01        reverse
+PmenuMatchSel            /8    color01        none           bold
 
 
 SignColumn               /8    none           none

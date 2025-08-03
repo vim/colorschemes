@@ -218,15 +218,15 @@ if &background == 'dark'
     hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=NONE
     hi NonText ctermfg=black ctermbg=NONE cterm=NONE
-    hi Pmenu ctermfg=black ctermbg=grey cterm=NONE
-    hi PmenuExtra ctermfg=black ctermbg=grey cterm=NONE
-    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=reverse
-    hi PmenuKind ctermfg=darkred ctermbg=black cterm=NONE
-    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=reverse
-    hi PmenuMatch ctermfg=black ctermbg=grey cterm=bold
-    hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi Pmenu ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuExtra ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=bold,reverse
+    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
+    hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
@@ -470,15 +470,15 @@ if &background == 'light'
     hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=NONE
     hi NonText ctermfg=black ctermbg=NONE cterm=NONE
-    hi Pmenu ctermfg=grey ctermbg=black cterm=NONE
-    hi PmenuExtra ctermfg=grey ctermbg=black cterm=NONE
-    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=reverse
-    hi PmenuKind ctermfg=darkred ctermbg=black cterm=NONE
-    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=reverse
-    hi PmenuMatch ctermfg=grey ctermbg=black cterm=bold
-    hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi Pmenu ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuExtra ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=bold,reverse
+    hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=NONE ctermbg=darkred cterm=reverse
+    hi PmenuMatchSel ctermfg=darkred ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
+    hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
