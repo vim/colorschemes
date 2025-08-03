@@ -187,18 +187,16 @@ Error                 color15     color09
 Todo                  color11     color00        reverse
 
 ; Chrome
-; Variant: 16
-Folded          /16   color06     none
-Visual          /16   color00     rgbDarkGrey
-CursorColumn    /16   none        none           underline
-CursorLine      /16   none        none           underline
-CursorLineNr    /16   color11     none           bold
-; Variant: gui 256
 Folded                color06     FoldedBG
+ /16                  color06     none
 Visual                color00     rgbDarkGrey    /gui omit omit s=omit bold
+ /16                  color00     rgbDarkGrey
 CursorColumn          none        rgbGrey40
+ /16                  none        none           underline
 CursorLine            none        rgbGrey40
+ /16                  none        none           underline
 CursorLineNr          color11     rgbGrey40
+ /16                  color11     none           bold
 ; Variant: gui 256 16
 SignColumn            color14     none
 FoldColumn            color14     none
@@ -227,13 +225,13 @@ WildMenu              color00     color11
 QuickFixLine          color00     color03
 
 SpellBad              color09     none           s=none    underline
-        /gui          omit        omit           s=color09 undercurl
+ /gui                 omit        omit           s=color09 undercurl
 SpellCap              color12     none           s=none    underline
-        /gui          omit        omit           s=color12 undercurl
+ /gui                 omit        omit           s=color12 undercurl
 SpellLocal            color13     none           s=none    underline
-        /gui          omit        omit           s=color13 undercurl
+ /gui                 omit        omit           s=color13 undercurl
 SpellRare             color14     none           s=none    underline
-        /gui          omit        omit           s=color14 undercurl
+ /gui                 omit        omit           s=color14 undercurl
 
 StatusLine            color15     color04        bold
 StatusLineNC          color00     color07
@@ -246,13 +244,10 @@ TabLineSel            foreground  background     bold
 ToolbarLine           none        color00
 ToolbarButton         color00     color07        bold
 
-; Variant: 16
-PmenuMatch      /16   fg          Pmenu          bold
-PmenuMatchSel   /16   color00     color11        bold
-; Variant: gui 256
 PmenuMatch            color13     Pmenu
+ /16                  fg          Pmenu          bold
 PmenuMatchSel         color13     color11
-; Variant: gui 256 16
+ /16                  color00     color11        bold
 Pmenu                 fg          Pmenu
 PmenuSbar             none        none
 PmenuSel              color00     color11
