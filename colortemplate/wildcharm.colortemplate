@@ -212,7 +212,6 @@ Added                          color02        none
 Changed                        color04        none
 Removed                        color01        none
 
-; Variant: 8
 Normal                   /8    color07        color00
 
 StatusLine               /8    color07        color00        reverse,bold
@@ -378,7 +377,6 @@ FoldColumn                     colorNonT      none
 EndOfBuffer                    colorNonT      none
 SpecialKey                     colorNonT      none
 
-; Variant: gui 256
 Pmenu                          none           colorB
  /16                           color00        color07
 PmenuSel                       none           colorTab
@@ -426,15 +424,12 @@ Cursor                   /gui  color15        color00
 lCursor                  /gui  color00        colorlC
 
 
-; Visual                         color12        color15        reverse
 Visual                         colorV         color15        reverse
  /gui                          none           colorV
  /256+tgc true                 omit           omit
 
 VisualNOS                      color15        color04
 
-
-; Variant: gui 256
 CursorLine                     none           colorLine
  /16                           none           none           underline
 CursorColumn                   none           colorLine
@@ -446,7 +441,6 @@ ColorColumn                    none           colorB
 MatchParen                     colorMP        none           bold
  /16                           none           none           bold,underline
 
-; Variant: 256 16
 SpellBad                       color09        none           underline
  /gui                          none           none           s=color01 undercurl
 SpellCap                       color06        none           underline
@@ -482,11 +476,15 @@ DiffChange                     none           diffChange
 DiffText                       none           diffText
  /256/16                       color00        diffText
 DiffDelete                     color08        diffDelete
- /256/16                       color08        diffDelete
+ /256                          color08        diffDelete
+ /16                           color00        diffDelete
 
 Added                          color10        none
+ /16                           color02        none
 Changed                        color12        none
+ /16                           color04        none
 Removed                        color09        none
+ /16                           color01        none
 
 
 Normal                   /8    color00        color07
@@ -511,7 +509,7 @@ EndOfBuffer              /8    color00        none
 SpecialKey               /8    color00        none
 
 Pmenu                    /8    color07        color00
-PmenuThumb               /8    none           color02
+PmenuThumb               /8    none           none           reverse
 PmenuSbar                /8    none           none
 PmenuSel                 /8    none           color03
 PmenuKind                /8    color01        color00
