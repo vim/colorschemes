@@ -55,14 +55,14 @@ Color: fg2                     #d5c4a1        187
 Color: fg3                     #bdae93        144
 Color: fg4                     #a89984        102            gray
 Color: grey                    #928374        102            DarkGray
-Color: red                     #fb4934        203            Red
+Color: red                     #fb5944        203            Red
 Color: green                   #b8bb26        142            Green
 Color: yellow                  #fabd2f        214            Yellow
 Color: blue                    #83a598        109            Blue
 Color: purple                  #d3869b        175            Magenta
 Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
-Color: colorV                  #103050        109            Blue
+Color: colorV                  #2a405a        109            Blue
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
