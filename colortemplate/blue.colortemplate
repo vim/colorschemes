@@ -83,13 +83,15 @@ Conceal              darkcyan          none
 Cursor               black             green
 CursorColumn         none              blue
 CursorIM             black             yellow
-CursorLineNr         yellow            blue              /gui omit omit bold
+CursorLineNr         yellow            blue
+ /gui                omit              omit              bold
 EndOfBuffer          yellow            darkblue
 Error                coral             darkblue          reverse
 ErrorMsg             white             red
 FoldColumn           darkcyan          none
 Folded               darkblue          darkyellow
-IncSearch            magenta           black             reverse /gui omit omit standout
+IncSearch            magenta           black             reverse
+ /gui                omit              omit              standout
 LineNr               cyan              none
 MatchParen           none              none              reverse
 ModeMsg              darkblue          green
@@ -102,13 +104,13 @@ Search               yellow            black             reverse
 SignColumn           darkcyan          none
 SpecialKey           cyan              none
 SpellBad             red               none              s=none    underline
-        /gui         omit              omit              s=red     undercurl
+ /gui                omit              omit              s=red     undercurl
 SpellCap             green             none              s=none    underline
-        /gui         omit              omit              s=green   undercurl
+ /gui                omit              omit              s=green   undercurl
 SpellLocal           white             none              s=none    underline
-        /gui         omit              omit              s=white   undercurl
+ /gui                omit              omit              s=white   undercurl
 SpellRare            magenta           none              s=none    underline
-        /gui         omit              omit              s=magenta undercurl
+ /gui                omit              omit              s=magenta undercurl
 StatusLine           darkblue          cyan
 StatusLineNC         darkblue          darkcyan
 ToolbarButton        white             blue
@@ -125,7 +127,8 @@ debugPC              cyan              darkblue          reverse
 ;;; Group            Foreground        Background        Attributes
 Directory            cyan              none
 Title                magenta           none
-Comment              comment           none              /gui omit omit bold
+Comment              comment           none
+ /gui                omit              omit              bold
 Constant             cyan              none
 Identifier           gray              none
 Ignore               darkgray          none
@@ -133,7 +136,8 @@ PreProc              green             none
 Special              magenta           none
 Statement            white             none
 Todo                 none              none              reverse
-Type                 orange            none              /gui omit omit bold
+Type                 orange            none
+ /gui                omit              omit              bold
 Underlined           none              none              underline
 Label                yellow            none
 
