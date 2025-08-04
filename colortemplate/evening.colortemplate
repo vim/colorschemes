@@ -157,7 +157,7 @@ PmenuSel             black             grey
 PmenuThumb           none              white
  /8                  none              black
 PmenuMatch           magenta           grey30
- /8                  black             darkcyan            bold
+ /8                  black             darkcyan          bold
  /16                 white             grey30            bold
 PmenuMatchSel        darkmagenta       grey
  /8                  black             grey              bold
