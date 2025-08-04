@@ -189,8 +189,10 @@ Cursor               black             ogYellow
 QuickFixLine         black             ogLightMag
 
 Error                ogLightRed        none              reverse
-FoldColumn           ogGrey            none              /gui omit omit bold
-Folded               ogGrey            none              /gui omit omit bold
+FoldColumn           ogGrey            none
+ /gui                omit              omit              bold
+Folded               ogGrey            none
+ /gui                omit              omit              bold
 IncSearch            white             ogBlue            reverse
 LineNr               ogGreen           none
 MatchParen           none              none              reverse
