@@ -38,4 +38,4 @@ set nonumber
 %foldopen
 wincmd l
 new
-call feedkeys(':view ')
+call feedkeys(':view sample')
