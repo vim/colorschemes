@@ -45,7 +45,7 @@ Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
 Color: colorC           #ffaf5f        215            red
 Color: colorlC          #5fff00        82             green
-Color: colorV           #123456        24             cyan
+Color: colorV           #1a3456        24             cyan
 Color: colorMP          #ff00af        199            magenta
 
 Color: diffAdd          #273923        22             darkgreen
