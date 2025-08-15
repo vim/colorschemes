@@ -138,11 +138,11 @@ WarningMsg                     color11        none
 
 Todo                           color16        color00        reverse
 Search                         color10        color00        reverse
- /gui                   none           colorSrch
- /256+tgc true          omit           omit
+ /gui                          none           colorSrch
+ /256+tgc true                 omit           omit
 IncSearch                      color11        color00        reverse
- /gui                   none           colorInc
- /256+tgc true          omit           omit
+ /gui                          none           colorInc
+ /256+tgc true                 omit           omit
 WildMenu                       color00        color11
 
 debugPC                        color04        none           reverse
