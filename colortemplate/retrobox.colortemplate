@@ -63,6 +63,8 @@ Color: purple                  #d3869b        175            Magenta
 Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
 Color: colorV                  #2a405a        109            Blue
+Color: colorSrch               #3a4a3a        100            DarkGreen
+Color: colorInc                #5f431f        208            Magenta
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -203,11 +205,15 @@ DiffDelete                     fg4            diffDelete
  /16/8                         bg0            diffDelete
 
 Directory                      green          none           bold
-IncSearch                      orange         bg0            reverse
 ModeMsg                        yellow         none           bold
 MoreMsg                        yellow         none           bold
 Question                       orange         none           bold
 Search                         neutralgreen   bg0            reverse
+ /gui                          none           colorSrch
+ /256+tgc true                 omit           omit
+IncSearch                      orange         bg0            reverse
+ /gui                          none           colorInc
+ /256+tgc true                 omit           omit
 QuickFixLine                   aqua           bg0            reverse
 
 SpellBad                       red            none           s=none   underline
@@ -287,6 +293,9 @@ Color: lightpurple             #d3869b        175            Magenta
 Color: aqua                    #427b58        29             Cyan
 Color: orange                  #ff5f00        202            Magenta
 Color: colorV                  #b0d0d0        23             Blue
+Color: colorSrch               #dbebb2        100            DarkGreen
+Color: colorInc                #f7c7a7        202            Magenta
+
 Color: diffAdd                 #d7d7a7        108            green
 Color: diffDelete              #e7b7a7        131            red
 Color: diffChange              #e7d7a7        250            yellow
@@ -423,11 +432,15 @@ DiffDelete                     fg4            diffDelete
  /16/8                         fg0            diffDelete
 
 Directory                      green          none           bold
-IncSearch                      orange         bg0            reverse
 ModeMsg                        fg1            none           bold
 MoreMsg                        fg1            none           bold
 Question                       orange         none           bold
 Search                         neutralgreen   bg0            reverse
+ /gui                          none           colorSrch
+ /256+tgc true                 omit           omit
+IncSearch                      orange         bg0            reverse
+ /gui                          none           colorInc
+ /256+tgc true                 omit           omit
 QuickFixLine                   aqua           bg0            reverse
 SpellBad                       red            none           s=none   underline
  /gui                          omit           omit           s=red    undercurl
