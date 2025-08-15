@@ -390,7 +390,7 @@ if &background == 'light'
   hi CursorLineNr guifg=#000000 guibg=NONE guisp=NONE gui=bold ctermfg=16 ctermbg=NONE cterm=bold term=bold
   hi DiffAdd guifg=NONE guibg=#c7d7c7 guisp=NONE gui=NONE ctermfg=16 ctermbg=108 cterm=NONE term=reverse
   hi DiffChange guifg=NONE guibg=#d7d7c7 guisp=NONE gui=NONE ctermfg=16 ctermbg=253 cterm=NONE term=NONE
-  hi DiffDelete guifg=#767676 guibg=#d7b7b7 guisp=NONE gui=NONE ctermfg=243 ctermbg=131 cterm=NONE term=reverse
+  hi DiffDelete guifg=#767676 guibg=#d7b7b7 guisp=NONE gui=NONE ctermfg=16 ctermbg=131 cterm=NONE term=reverse
   hi DiffText guifg=NONE guibg=#a7cdcd guisp=NONE gui=NONE ctermfg=16 ctermbg=109 cterm=NONE term=reverse
   hi Directory guifg=#005fd7 guibg=NONE guisp=NONE gui=bold ctermfg=26 ctermbg=NONE cterm=bold term=NONE
   hi EndOfBuffer guifg=#9e9e9e guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE term=NONE

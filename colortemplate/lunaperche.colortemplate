@@ -554,7 +554,7 @@ DiffChange                     none           diffChange
 DiffText                       none           diffText
  /256/16                       color00        diffText
 DiffDelete                     color08        diffDelete
- /256                          color08        diffDelete
+ /256                          color00        diffDelete
  /16                           color00        diffDelete
 
 Added                          color02        none
