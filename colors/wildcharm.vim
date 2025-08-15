@@ -54,7 +54,7 @@ if &background == 'dark'
   hi Folded guifg=#767676 guibg=#303030 guisp=NONE gui=NONE ctermfg=243 ctermbg=236 cterm=NONE term=NONE
   hi Identifier guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=NONE
   hi Ignore guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=NONE
-  hi IncSearch guifg=NONE guibg=#4f401f guisp=NONE gui=NONE ctermfg=214 ctermbg=16 cterm=reverse term=bold,reverse,underline
+  hi IncSearch guifg=NONE guibg=#5f431f guisp=NONE gui=NONE ctermfg=214 ctermbg=16 cterm=reverse term=bold,reverse,underline
   hi LineNr guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
   hi MatchParen guifg=#ff00af guibg=NONE guisp=NONE gui=bold ctermfg=199 ctermbg=NONE cterm=bold term=bold,underline
   hi ModeMsg guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
