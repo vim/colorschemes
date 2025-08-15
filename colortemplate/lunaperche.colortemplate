@@ -85,6 +85,7 @@ csClassType                    -> Normal
 csType                         -> Statement
 
 ; default links
+CurSearch                      -> IncSearch
 Float                          -> Number
 Function                       -> Identifier
 Number                         -> Constant
@@ -139,6 +140,8 @@ Color: colorV                  #104070        32             darkblue
 Color: colorMP                 #ff00af        199            magenta
 Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
+Color: colorSrch               #3a4a3a        77             green
+Color: colorInc                #5f431f        222            yellow
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -204,8 +207,11 @@ WarningMsg                     color09        none
 
 Todo                           none           none           bold
 Search                         color00        color11
+ /gui                          none           colorSrch
+ /256+tgc true                 omit           omit
 IncSearch                      color00        color10
-CurSearch                      color00        color10
+ /gui                          none           colorInc
+ /256+tgc true                 omit           omit
 WildMenu                       color00        color11        bold
 
 debugPC                        color04        none           reverse
@@ -332,7 +338,6 @@ WarningMsg               /8    color01        none
 Todo                     /8    none           none           bold
 Search                   /8    none           none           reverse
 IncSearch                /8    color02        color00        reverse
-CurSearch                /8    color02        color00        reverse
 WildMenu                 /8    color00        color03        bold
 
 debugPC                  /8    color04        none           reverse
@@ -414,6 +419,8 @@ Color: colorV                  #bfdfff        67             darkblue
 Color: colorMP                 #ff00af        199            magenta
 Color: colorPMenuSel           #C6C6C6        251            darkcyan
 Color: colorDim                #626262        241            darkgrey
+Color: colorSrch               #e7f3e7        114            green
+Color: colorInc                #fff0cf        222            yellow
 
 
 ; Diff colors
@@ -481,8 +488,11 @@ WarningMsg                     color09        none           bold
 
 Todo                           none           none           bold
 Search                         color00        color11
+ /gui                          none           colorSrch
+ /256+tgc true                 omit           omit
 IncSearch                      color00        color10
-CurSearch                      color00        color10
+ /gui                          none           colorInc
+ /256+tgc true                 omit           omit
 WildMenu                       color00        color11        bold
 
 debugPC                        color04        none           reverse
@@ -610,7 +620,6 @@ WarningMsg               /8    color01        none
 Todo                     /8    none           none           bold
 Search                   /8    color00        color03        reverse
 IncSearch                /8    color00        color02        reverse
-CurSearch                /8    color00        color02        reverse
 WildMenu                 /8    color00        color03        bold
 
 debugPC                  /8    color04        none           reverse
