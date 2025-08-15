@@ -94,7 +94,7 @@ hi FoldColumn guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=N
 hi Folded guifg=#9e9e9e guibg=#262626 guisp=NONE gui=NONE ctermfg=247 ctermbg=235 cterm=NONE term=NONE
 hi Identifier guifg=#87afaf guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE term=NONE
 hi Ignore guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=NONE
-hi IncSearch guifg=#ffaf5f guibg=#1c1c1c guisp=NONE gui=reverse ctermfg=215 ctermbg=234 cterm=reverse term=bold,reverse,underline
+hi IncSearch guifg=NONE guibg=#4f3f1f guisp=NONE gui=NONE ctermfg=215 ctermbg=234 cterm=reverse term=bold,reverse,underline
 hi LineNr guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
 hi MatchParen guifg=#ff00af guibg=NONE guisp=NONE gui=bold ctermfg=199 ctermbg=NONE cterm=bold term=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
@@ -114,7 +114,7 @@ hi PreProc guifg=#af875f guibg=NONE guisp=NONE gui=NONE ctermfg=137 ctermbg=NONE
 hi Question guifg=#d7af87 guibg=NONE guisp=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE term=standout
 hi QuickFixLine guifg=#1c1c1c guibg=#5f87af guisp=NONE gui=NONE ctermfg=234 ctermbg=67 cterm=NONE term=NONE
 hi Removed guifg=#d75f5f guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
-hi Search guifg=#5fafd7 guibg=#1c1c1c guisp=NONE gui=reverse ctermfg=74 ctermbg=234 cterm=reverse term=reverse
+hi Search guifg=NONE guibg=#304050 guisp=NONE gui=NONE ctermfg=74 ctermbg=234 cterm=reverse term=reverse
 hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi Special guifg=#5f8787 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=bold
@@ -146,6 +146,8 @@ hi lCursor guifg=#1c1c1c guibg=#5fff00 guisp=NONE gui=NONE ctermfg=234 ctermbg=8
 
 if s:tgc || s:t_Co >= 256
   if s:tgc
+    hi IncSearch cterm=NONE
+    hi Search cterm=NONE
     hi Visual cterm=NONE
   endif
   finish
