@@ -114,7 +114,7 @@ hi PreProc guifg=#af875f guibg=NONE guisp=NONE gui=NONE ctermfg=137 ctermbg=NONE
 hi Question guifg=#d7af87 guibg=NONE guisp=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE term=standout
 hi QuickFixLine guifg=#1c1c1c guibg=#5f87af guisp=NONE gui=NONE ctermfg=234 ctermbg=67 cterm=NONE term=NONE
 hi Removed guifg=#d75f5f guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
-hi Search guifg=NONE guibg=#304050 guisp=NONE gui=NONE ctermfg=74 ctermbg=234 cterm=reverse term=reverse
+hi Search guifg=NONE guibg=#374a34 guisp=NONE gui=NONE ctermfg=71 ctermbg=234 cterm=reverse term=reverse
 hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
 hi Special guifg=#5f8787 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE term=NONE
 hi SpecialKey guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=bold
@@ -199,7 +199,7 @@ if s:t_Co >= 16
   hi Question ctermfg=yellow ctermbg=NONE cterm=NONE
   hi QuickFixLine ctermfg=black ctermbg=darkblue cterm=NONE
   hi Removed ctermfg=darkred ctermbg=NONE cterm=NONE
-  hi Search ctermfg=blue ctermbg=black cterm=reverse
+  hi Search ctermfg=darkgreen ctermbg=black cterm=reverse
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
   hi Special ctermfg=darkcyan ctermbg=NONE cterm=NONE
   hi SpecialKey ctermfg=darkgrey ctermbg=NONE cterm=NONE
