@@ -124,7 +124,7 @@ lspDiagSignInfoText                    -> Question
 
 ;;; chrome
 Normal                  color15        color00
- /8                     color07        color00
+ /16/8                  color07        color00
 
 StatusLine              color00        color07
  /8                     color07        color00        reverse,bold
@@ -207,7 +207,7 @@ Search                  color02        color00        reverse
  /gui                   none           colorSrch
  /256+tgc true          omit           omit
  /8                     color00        color02
-IncSearch               colorC         color00        reverse
+IncSearch               color11        color00        reverse
  /gui                   none           colorInc
  /256+tgc true          omit           omit
  /8                     color00        color03
