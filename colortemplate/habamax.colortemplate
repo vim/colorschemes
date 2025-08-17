@@ -207,7 +207,7 @@ Search                  color02        color00        reverse
  /gui                   none           colorSrch
  /256+tgc true          omit           omit
  /8                     color00        color02
-IncSearch               color11        color00        reverse
+IncSearch               colorInc       color00        reverse
  /gui                   none           colorInc
  /256+tgc true          omit           omit
  /8                     color00        color03

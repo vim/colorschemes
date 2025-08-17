@@ -94,7 +94,7 @@ hi FoldColumn guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=N
 hi Folded guifg=#9e9e9e guibg=#262626 guisp=NONE gui=NONE ctermfg=247 ctermbg=235 cterm=NONE term=NONE
 hi Identifier guifg=#87afaf guibg=NONE guisp=NONE gui=NONE ctermfg=109 ctermbg=NONE cterm=NONE term=NONE
 hi Ignore guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=NONE
-hi IncSearch guifg=NONE guibg=#5a4a45 guisp=NONE gui=NONE ctermfg=180 ctermbg=234 cterm=reverse term=bold,reverse,underline
+hi IncSearch guifg=NONE guibg=#5a4a45 guisp=NONE gui=NONE ctermfg=215 ctermbg=234 cterm=reverse term=bold,reverse,underline
 hi LineNr guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
 hi MatchParen guifg=#ff00af guibg=NONE guisp=NONE gui=bold ctermfg=199 ctermbg=NONE cterm=bold term=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
@@ -179,7 +179,7 @@ if s:t_Co >= 16
   hi Folded ctermfg=gray ctermbg=NONE cterm=underline
   hi Identifier ctermfg=darkcyan ctermbg=NONE cterm=NONE
   hi Ignore ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi IncSearch ctermfg=yellow ctermbg=black cterm=reverse
+  hi IncSearch ctermfg=red ctermbg=black cterm=reverse
   hi LineNr ctermfg=NONE ctermbg=NONE cterm=NONE
   hi MatchParen ctermfg=magenta ctermbg=NONE cterm=bold
   hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=bold
