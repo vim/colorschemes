@@ -136,7 +136,7 @@ MoreMsg                        color10        none
 Question                       color13        none
 WarningMsg                     color11        none
 
-Todo                           color16        none           bold
+Todo                           none           none           bold
 Search                         color10        color00        reverse
  /gui                          none           colorSrch
  /256+tgc true                 omit           omit
@@ -259,7 +259,7 @@ MoreMsg                  /8    color02        none
 Question                 /8    color05        none
 WarningMsg               /8    color03        none
 
-Todo                     /8    color16        none           bold
+Todo                     /8    none           none           bold
 Search                   /8    color02        color00        reverse
 IncSearch                /8    color03        color00        reverse
 WildMenu                 /8    color00        color03
@@ -415,7 +415,7 @@ MoreMsg                        color02        none
 Question                       color05        none
 WarningMsg                     color03        none
 
-Todo                           color16        none           bold
+Todo                           none           none           bold
 Search                         color02        color15        reverse
  /gui                          none           colorSrch
  /256+tgc true                 omit           omit
@@ -541,7 +541,7 @@ MoreMsg                  /8    color02        none
 Question                 /8    color05        none
 WarningMsg               /8    color03        none
 
-Todo                     /8    color16        none           bold
+Todo                     /8    none           none           bold
 Search                   /8    color02        color00        reverse
 IncSearch                /8    color03        color00        reverse
 WildMenu                 /8    color00        color03
