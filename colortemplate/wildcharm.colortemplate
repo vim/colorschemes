@@ -136,7 +136,8 @@ MoreMsg                        color10        none
 Question                       color13        none
 WarningMsg                     color11        none
 
-Todo                           none           none           bold
+Todo                           color15        none           bold
+ /16                           none           none           bold
 Search                         color10        color00        reverse
  /gui                          none           colorSrch
  /256+tgc true                 omit           omit
