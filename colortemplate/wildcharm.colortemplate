@@ -70,7 +70,7 @@ Color: colorV                  #204060        81             cyan
 Color: colorSt                 #9e9e9e        247            grey
 Color: colorSrch               #3a4a3a        41             green
 Color: colorInc                #5f431f        214            yellow
-Color: colorQF                 #503050        213            magenta
+Color: colorQF                 #7f3f7f        213            magenta
 
 
 ; Diff colors
@@ -97,7 +97,7 @@ TabLineSel                     color00        colorSt        bold
 ToolbarLine                    none           none
 ToolbarButton                  color00        color07
 
-QuickFixLine                   none           colorQF
+QuickFixLine                   color07        colorQF
  /256/16                       color00        colorQF
 CursorLineNr                   color15        none           bold
 LineNr                         colorNonT      none
@@ -381,7 +381,7 @@ TabLineSel                     colorSt        color15        reverse,bold
 ToolbarLine                    none           none
 ToolbarButton                  color15        colorSt
 
-QuickFixLine                   none           colorQF
+QuickFixLine                   color00        colorQF
  /256/16                       color15        colorQF
 CursorLineNr                   colorC         none           bold
 LineNr                         colorNonT      none
