@@ -65,7 +65,7 @@ Color: orange                  #fe8019        208            Magenta
 Color: colorV                  #2a405a        109            Blue
 Color: colorSrch               #3a4a3a        100            DarkGreen
 Color: colorInc                #5f431f        208            Magenta
-Color: colorQF                 #502050        139            darkmagenta
+Color: colorQF                 #3f7f6f        107            Cyan
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -215,7 +215,7 @@ Search                         neutralgreen   bg0            reverse
 IncSearch                      orange         bg0            reverse
  /gui                          none           colorInc
  /256+tgc true                 omit           omit
-QuickFixLine                   none           colorQF
+QuickFixLine                   fg0            colorQF
  /256/16/8                     bg0            colorQF
 
 SpellBad                       red            none           s=none   underline
@@ -297,7 +297,7 @@ Color: orange                  #ff5f00        202            Magenta
 Color: colorV                  #b0d0d0        23             Blue
 Color: colorSrch               #dbebb2        100            DarkGreen
 Color: colorInc                #f7c7a7        202            Magenta
-Color: colorQF                 #d7b7d7        90             darkmagenta
+Color: colorQF                 #97bfa7        29             Cyan
 
 Color: diffAdd                 #d7d7a7        108            green
 Color: diffDelete              #e7b7a7        131            red
@@ -444,7 +444,7 @@ Search                         neutralgreen   bg0            reverse
 IncSearch                      orange         bg0            reverse
  /gui                          none           colorInc
  /256+tgc true                 omit           omit
-QuickFixLine                   none           colorQF
+QuickFixLine                   fg0            colorQF
  /256/16/8                     bg0            colorQF
 SpellBad                       red            none           s=none   underline
  /gui                          omit           omit           s=red    undercurl
