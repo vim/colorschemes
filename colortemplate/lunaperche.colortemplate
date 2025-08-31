@@ -142,6 +142,7 @@ Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
 Color: colorSrch               #3a4a3a        77             green
 Color: colorInc                #5f431f        222            yellow
+Color: colorQF                 #503050        213            magenta
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -166,7 +167,8 @@ TabLineSel                     color00        color07        bold
 ToolbarLine                    none           none
 ToolbarButton                  color00        color15
 
-QuickFixLine                   color00        color12
+QuickFixLine                   none           colorQF
+ /256/16                       color00        colorQF
 CursorLineNr                   colorC         none           bold
 LineNr                         colorNonT      none
 NonText                        colorNonT      none
@@ -307,7 +309,7 @@ TabLineSel               /8    color07        color00        reverse,bold
 ToolbarLine              /8    none           none
 ToolbarButton            /8    color07        color00        reverse,bold
 
-QuickFixLine             /8    color07        color04        bold
+QuickFixLine             /8    color07        color05        bold
 CursorLineNr             /8    color00        none           bold
 LineNr                   /8    color03        none
 NonText                  /8    color07        none
@@ -421,6 +423,7 @@ Color: colorPMenuSel           #C6C6C6        251            darkcyan
 Color: colorDim                #626262        241            darkgrey
 Color: colorSrch               #e7f3e7        114            green
 Color: colorInc                #fff0cf        222            yellow
+Color: colorQF                 #f7bff7        90             darkmagenta
 
 
 ; Diff colors
@@ -450,7 +453,8 @@ TabLineSel                     color00        color15        reverse,bold
 ToolbarLine                    none           none
 ToolbarButton                  color15        color00
 
-QuickFixLine                   color15        color12
+QuickFixLine                   none           colorQF
+ /256/16                       color15        colorQF
 CursorLineNr                   colorC         none           bold
 LineNr                         colorNonT      none
 NonText                        colorNonT      none
@@ -589,7 +593,7 @@ TabLineSel               /8    color00        color07        reverse,bold
 ToolbarLine              /8    none           none
 ToolbarButton            /8    color07        color00        bold
 
-QuickFixLine             /8    color07        color04        bold
+QuickFixLine             /8    color07        color05        bold
 CursorLineNr             /8    color00        none           bold
 LineNr                   /8    color03        none
 NonText                  /8    color00        none
