@@ -49,6 +49,8 @@ Color: colorV           #1a3456        24             cyan
 Color: colorSrch        #374a44        114            green
 Color: colorInc         #5a4a45        215            yellow
 Color: colorMP          #ff00af        199            magenta
+Color: colorErr         #a03f2f        131            darkred
+Color: colorQF          #402040        139            darkmagenta
 
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
@@ -143,7 +145,8 @@ TabLineSel              color00        color07        bold
 ToolbarLine             none           none
 ToolbarButton           color08        color00        reverse,bold
  /8                     color07        color00        reverse
-QuickFixLine            color00        color04
+QuickFixLine            none           colorQF
+ /256/16/8              color00        colorQF
 
 CursorLineNr            white          none           bold
  /16/8                  none           none           bold
@@ -187,8 +190,10 @@ PmenuMatchSel           colorC         colorNonT
 
 SignColumn              none           none
  /8                     none           none
-Error                   color01        color00        reverse
- /8                     color01        color00        reverse
+Error                   colorErr       color00        reverse
+ /gui                   none           colorErr
+ /256+tgc true          omit           omit
+ /8                     colorErr       color00        reverse
 ErrorMsg                color01        color00        reverse
  /8                     color01        color00         reverse
 ModeMsg                 none           none           bold
