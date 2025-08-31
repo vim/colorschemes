@@ -142,7 +142,7 @@ Color: colorPMenuSel           #4e4e4e        239            darkcyan
 Color: colorDim                #878787        102            grey
 Color: colorSrch               #3a4a3a        77             green
 Color: colorInc                #5f431f        222            yellow
-Color: colorQF                 #503050        213            magenta
+Color: colorQF                 #3f5f7f        67             darkblue
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -167,7 +167,7 @@ TabLineSel                     color00        color07        bold
 ToolbarLine                    none           none
 ToolbarButton                  color00        color15
 
-QuickFixLine                   none           colorQF
+QuickFixLine                   color07        colorQF
  /256/16                       color00        colorQF
 CursorLineNr                   colorC         none           bold
 LineNr                         colorNonT      none
@@ -423,7 +423,7 @@ Color: colorPMenuSel           #C6C6C6        251            darkcyan
 Color: colorDim                #626262        241            darkgrey
 Color: colorSrch               #e7f3e7        114            green
 Color: colorInc                #fff0cf        222            yellow
-Color: colorQF                 #f7bff7        90             darkmagenta
+Color: colorQF                 #87afaf        30             cyan
 
 
 ; Diff colors
@@ -453,7 +453,7 @@ TabLineSel                     color00        color15        reverse,bold
 ToolbarLine                    none           none
 ToolbarButton                  color15        color00
 
-QuickFixLine                   none           colorQF
+QuickFixLine                   color00        colorQF
  /256/16                       color15        colorQF
 CursorLineNr                   colorC         none           bold
 LineNr                         colorNonT      none

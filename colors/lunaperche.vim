@@ -143,7 +143,7 @@ if &background == 'dark'
   hi PmenuThumb guifg=NONE guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=NONE ctermbg=251 cterm=NONE term=NONE
   hi PreProc guifg=#5fd7d7 guibg=NONE guisp=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=NONE guibg=#503050 guisp=NONE gui=NONE ctermfg=16 ctermbg=213 cterm=NONE term=NONE
+  hi QuickFixLine guifg=#c6c6c6 guibg=#3f5f7f guisp=NONE gui=NONE ctermfg=16 ctermbg=67 cterm=NONE term=NONE
   hi Removed guifg=#ff5f5f guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#3a4a3a guisp=NONE gui=NONE ctermfg=16 ctermbg=222 cterm=NONE term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -233,7 +233,7 @@ if &background == 'dark'
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=magenta ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
+    hi QuickFixLine ctermfg=black ctermbg=darkblue cterm=NONE
     hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Search ctermfg=black ctermbg=yellow cterm=NONE
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -418,7 +418,7 @@ if &background == 'light'
   hi PmenuThumb guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
   hi PreProc guifg=#005f5f guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#af00af guibg=NONE guisp=NONE gui=bold ctermfg=127 ctermbg=NONE cterm=bold term=standout
-  hi QuickFixLine guifg=NONE guibg=#f7bff7 guisp=NONE gui=NONE ctermfg=231 ctermbg=90 cterm=NONE term=NONE
+  hi QuickFixLine guifg=#000000 guibg=#87afaf guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=NONE
   hi Removed guifg=#d70000 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#e7f3e7 guisp=NONE gui=NONE ctermfg=16 ctermbg=222 cterm=NONE term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -511,7 +511,7 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=white ctermbg=darkmagenta cterm=NONE
+    hi QuickFixLine ctermfg=white ctermbg=cyan cterm=NONE
     hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Search ctermfg=black ctermbg=yellow cterm=NONE
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
