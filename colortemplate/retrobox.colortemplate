@@ -215,7 +215,6 @@ Search                         neutralgreen   bg0            reverse
 IncSearch                      orange         bg0            reverse
  /gui                          none           colorInc
  /256+tgc true                 omit           omit
-; QuickFixLine                   aqua           bg0            reverse
 QuickFixLine                   none           colorQF
  /256/16/8                     bg0            colorQF
 
