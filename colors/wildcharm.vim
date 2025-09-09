@@ -73,7 +73,7 @@ if &background == 'dark'
   hi PmenuThumb guifg=NONE guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=252 cterm=NONE term=NONE
   hi PreProc guifg=#00d7d7 guibg=NONE guisp=NONE gui=NONE ctermfg=44 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=#d0d0d0 guibg=#7f3f7f guisp=NONE gui=NONE ctermfg=16 ctermbg=213 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=252 ctermbg=53 cterm=NONE term=NONE
   hi Removed guifg=#d7005f guibg=NONE guisp=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#3a4a3a guisp=NONE gui=NONE ctermfg=41 ctermbg=16 cterm=reverse term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -112,6 +112,7 @@ if &background == 'dark'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -327,7 +328,7 @@ if &background == 'light'
   hi PmenuThumb guifg=NONE guibg=#808080 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=NONE
   hi PreProc guifg=#008787 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#870087 guibg=NONE guisp=NONE gui=NONE ctermfg=90 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=#000000 guibg=#f7bff7 guisp=NONE gui=NONE ctermfg=231 ctermbg=90 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#e7cfe7 guisp=NONE gui=NONE ctermfg=16 ctermbg=182 cterm=NONE term=NONE
   hi Removed guifg=#d70000 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#e7f3e7 guisp=NONE gui=NONE ctermfg=28 ctermbg=231 cterm=reverse term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -366,6 +367,7 @@ if &background == 'light'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -413,7 +415,7 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=darkgreen cterm=NONE
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=white ctermbg=darkmagenta cterm=NONE
+    hi QuickFixLine ctermfg=black ctermbg=darkmagenta cterm=NONE
     hi Removed ctermfg=darkred ctermbg=NONE cterm=NONE
     hi Search ctermfg=darkgreen ctermbg=white cterm=reverse
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
