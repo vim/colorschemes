@@ -101,6 +101,7 @@ PopupNotification              -> Todo
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 CursorIM                       -> omit
+PreInsert                      -> NonText
 
 Background: dark
 

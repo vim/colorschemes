@@ -28,6 +28,7 @@ LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
+PreInsert                      -> LineNr
 
 
 ; Neutral colors

@@ -97,6 +97,7 @@ Typedef              -> Type
 Debug                -> Special
 Added                -> String
 Removed              -> WarningMsg
+PreInsert            -> NonText
 diffOnly             -> WarningMsg
 diffNoEOL            -> WarningMsg
 diffIsA              -> WarningMsg

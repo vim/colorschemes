@@ -85,6 +85,7 @@ LineNrAbove                            -> LineNr
 LineNrBelow                            -> LineNr
 CursorLineFold                         -> FoldColumn
 CursorLineSign                         -> FoldColumn
+PreInsert                              -> NonText
 
 ;;; ft links
 vimCommentString                       -> Comment

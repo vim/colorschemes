@@ -27,6 +27,7 @@ PopupNotification              -> Todo
 CurSearch                      -> IncSearch
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
+PreInsert                      -> NonText
 
 
 Background: dark
