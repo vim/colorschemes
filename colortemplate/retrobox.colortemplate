@@ -65,8 +65,8 @@ Color: aqua                    #8ec07c        107            Cyan
 Color: orange                  #fe8019        208            Magenta
 Color: colorV                  #2a405a        109            Blue
 Color: colorSrch               #3a4a3a        100            DarkGreen
-Color: colorInc                #5f431f        208            Magenta
-Color: colorQF                 #3f7f6f        107            Cyan
+Color: colorInc                #5f431f        208            yellow
+Color: colorQF                 #4f2f4f        53             magenta
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -217,7 +217,9 @@ IncSearch                      orange         bg0            reverse
  /gui                          none           colorInc
  /256+tgc true                 omit           omit
 QuickFixLine                   fg0            colorQF
- /256/16/8                     bg0            colorQF
+ /gui                          none           colorQF
+ /256+tgc true                 omit           omit
+ /16                           bg0            colorQF
 
 SpellBad                       red            none           s=none   underline
  /gui                          omit           omit           s=red    undercurl
@@ -298,7 +300,7 @@ Color: orange                  #ff5f00        202            Magenta
 Color: colorV                  #b0d0d0        23             Blue
 Color: colorSrch               #dbebb2        100            DarkGreen
 Color: colorInc                #f7c7a7        202            Magenta
-Color: colorQF                 #97bfa7        29             Cyan
+Color: colorQF                 #e7cfd7        182            magenta
 
 Color: diffAdd                 #d7d7a7        108            green
 Color: diffDelete              #e7b7a7        131            red
@@ -446,7 +448,9 @@ IncSearch                      orange         bg0            reverse
  /gui                          none           colorInc
  /256+tgc true                 omit           omit
 QuickFixLine                   fg0            colorQF
- /256/16/8                     bg0            colorQF
+ /gui                          none           colorQF
+ /256+tgc true                 omit           omit
+ /16                           fg0            colorQF
 SpellBad                       red            none           s=none   underline
  /gui                          omit           omit           s=red    undercurl
 SpellCap                       blue           none           s=none   underline

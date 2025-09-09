@@ -86,7 +86,7 @@ if &background == 'dark'
   hi PreCondit guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE term=NONE
   hi PreProc guifg=#8ec07c guibg=NONE guisp=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#fe8019 guibg=NONE guisp=NONE gui=bold ctermfg=208 ctermbg=NONE cterm=bold term=standout
-  hi QuickFixLine guifg=#fbf1c7 guibg=#3f7f6f guisp=NONE gui=NONE ctermfg=234 ctermbg=107 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=230 ctermbg=53 cterm=NONE term=NONE
   hi Repeat guifg=#fb5944 guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#3a4a3a guisp=NONE gui=NONE ctermfg=100 ctermbg=234 cterm=reverse term=reverse
   hi SignColumn guifg=#928374 guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=102 ctermbg=234 cterm=NONE term=reverse
@@ -122,6 +122,7 @@ if &background == 'dark'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -184,7 +185,7 @@ if &background == 'dark'
     hi PreCondit ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=Magenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=Black ctermbg=Cyan cterm=NONE
+    hi QuickFixLine ctermfg=Black ctermbg=magenta cterm=NONE
     hi Repeat ctermfg=Red ctermbg=NONE cterm=NONE
     hi Search ctermfg=DarkGreen ctermbg=Black cterm=reverse
     hi SignColumn ctermfg=DarkGray ctermbg=NONE cterm=NONE
@@ -275,7 +276,7 @@ if &background == 'dark'
     hi PreCondit ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=Magenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=Black ctermbg=Cyan cterm=NONE
+    hi QuickFixLine ctermfg=White ctermbg=magenta cterm=NONE
     hi Repeat ctermfg=Red ctermbg=NONE cterm=NONE
     hi Search ctermfg=DarkGreen ctermbg=Black cterm=reverse
     hi SignColumn ctermfg=gray ctermbg=NONE cterm=NONE
@@ -383,7 +384,7 @@ if &background == 'light'
   hi PreCondit guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
   hi PreProc guifg=#427b58 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#ff5f00 guibg=NONE guisp=NONE gui=bold ctermfg=202 ctermbg=NONE cterm=bold term=standout
-  hi QuickFixLine guifg=#282828 guibg=#97bfa7 guisp=NONE gui=NONE ctermfg=230 ctermbg=29 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#e7cfd7 guisp=NONE gui=NONE ctermfg=235 ctermbg=182 cterm=NONE term=NONE
   hi Repeat guifg=#9d0006 guibg=NONE guisp=NONE gui=NONE ctermfg=124 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#dbebb2 guisp=NONE gui=NONE ctermfg=100 ctermbg=230 cterm=reverse term=reverse
   hi SignColumn guifg=#3c3836 guibg=#fbf1c7 guisp=NONE gui=NONE ctermfg=237 ctermbg=230 cterm=NONE term=reverse
@@ -419,6 +420,7 @@ if &background == 'light'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -481,7 +483,7 @@ if &background == 'light'
     hi PreCondit ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=Magenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=White ctermbg=Cyan cterm=NONE
+    hi QuickFixLine ctermfg=DarkGray ctermbg=magenta cterm=NONE
     hi Repeat ctermfg=Red ctermbg=NONE cterm=NONE
     hi Search ctermfg=DarkGreen ctermbg=White cterm=reverse
     hi SignColumn ctermfg=Grey ctermbg=NONE cterm=NONE
@@ -572,7 +574,7 @@ if &background == 'light'
     hi PreCondit ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=Magenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=White ctermbg=Cyan cterm=NONE
+    hi QuickFixLine ctermfg=DarkGray ctermbg=magenta cterm=NONE
     hi Repeat ctermfg=Red ctermbg=NONE cterm=NONE
     hi Search ctermfg=DarkGreen ctermbg=White cterm=reverse
     hi SignColumn ctermfg=Black ctermbg=NONE cterm=NONE
