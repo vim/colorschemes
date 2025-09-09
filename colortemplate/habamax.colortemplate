@@ -50,7 +50,7 @@ Color: colorSrch        #374a44        114            green
 Color: colorInc         #5a4a45        215            yellow
 Color: colorMP          #ff00af        199            magenta
 Color: colorErr         #a03f2f        131            darkred
-Color: colorQF          #3f5f7f        67             darkblue
+Color: colorQF          #4f2f4f        53             magenta
 
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
@@ -146,8 +146,10 @@ TabLineSel              color00        color07        bold
 ToolbarLine             none           none
 ToolbarButton           color08        color00        reverse,bold
  /8                     color07        color00        reverse
-QuickFixLine            none           colorQF
- /256/16/8              color00        colorQF
+QuickFixLine            color15        colorQF
+ /gui                   none           colorQF
+ /256+tgc true          omit           omit
+ /16/8                  color00        colorQF
 
 CursorLineNr            white          none           bold
  /16/8                  none           none           bold

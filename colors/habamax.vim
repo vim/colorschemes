@@ -113,7 +113,7 @@ hi PmenuSel guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=24
 hi PmenuThumb guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
 hi PreProc guifg=#af875f guibg=NONE guisp=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE term=NONE
 hi Question guifg=#d7af87 guibg=NONE guisp=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE term=standout
-hi QuickFixLine guifg=NONE guibg=#3f5f7f guisp=NONE gui=NONE ctermfg=234 ctermbg=67 cterm=NONE term=NONE
+hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=250 ctermbg=53 cterm=NONE term=NONE
 hi Removed guifg=#d75f5f guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
 hi Search guifg=NONE guibg=#374a44 guisp=NONE gui=NONE ctermfg=114 ctermbg=234 cterm=reverse term=reverse
 hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -149,6 +149,7 @@ if s:tgc || s:t_Co >= 256
   if s:tgc
     hi Error cterm=NONE
     hi IncSearch cterm=NONE
+    hi QuickFixLine cterm=NONE
     hi Search cterm=NONE
     hi Visual cterm=NONE
   endif
@@ -199,7 +200,7 @@ if s:t_Co >= 16
   hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PreProc ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Question ctermfg=yellow ctermbg=NONE cterm=NONE
-  hi QuickFixLine ctermfg=black ctermbg=darkblue cterm=NONE
+  hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
   hi Removed ctermfg=darkred ctermbg=NONE cterm=NONE
   hi Search ctermfg=green ctermbg=black cterm=reverse
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -277,7 +278,7 @@ if s:t_Co >= 8
   hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
   hi PreProc ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi Question ctermfg=darkyellow ctermbg=NONE cterm=NONE
-  hi QuickFixLine ctermfg=black ctermbg=darkblue cterm=NONE
+  hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
   hi Removed ctermfg=darkred ctermbg=NONE cterm=NONE
   hi Search ctermfg=black ctermbg=darkgreen cterm=NONE
   hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
