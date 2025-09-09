@@ -32,6 +32,7 @@ def Test_check_colors()
     const hi_groups = [
         'ColorColumn',
         'Comment',
+        'ComplMatchIns',
         'Conceal',
         'Constant',
         'CurSearch',
@@ -68,6 +69,7 @@ def Test_check_colors()
         'PmenuThumb',
         'PopupNotification',
         'PreProc',
+        'PreInsert',
         'Question',
         'QuickFixLine',
         'Search',
