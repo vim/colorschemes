@@ -144,7 +144,7 @@ if &background == 'dark'
   hi PmenuThumb guifg=NONE guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=NONE ctermbg=251 cterm=NONE term=NONE
   hi PreProc guifg=#5fd7d7 guibg=NONE guisp=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=#c6c6c6 guibg=#3f5f7f guisp=NONE gui=NONE ctermfg=16 ctermbg=67 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=251 ctermbg=53 cterm=NONE term=NONE
   hi Removed guifg=#ff5f5f guibg=NONE guisp=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#3a4a3a guisp=NONE gui=NONE ctermfg=16 ctermbg=222 cterm=NONE term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -187,6 +187,7 @@ if &background == 'dark'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -234,7 +235,7 @@ if &background == 'dark'
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=cyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=magenta ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=black ctermbg=darkblue cterm=NONE
+    hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
     hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Search ctermfg=black ctermbg=yellow cterm=NONE
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -286,7 +287,7 @@ if &background == 'dark'
     hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
     hi CursorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-    hi CursorLineNr ctermfg=black ctermbg=NONE cterm=bold
+    hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=bold
     hi DiffAdd ctermfg=black ctermbg=darkgreen cterm=NONE
     hi DiffChange ctermfg=black ctermbg=darkyellow cterm=NONE
     hi DiffDelete ctermfg=black ctermbg=darkred cterm=NONE
@@ -317,7 +318,7 @@ if &background == 'dark'
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=grey ctermbg=darkmagenta cterm=bold
+    hi QuickFixLine ctermfg=black ctermbg=darkmagenta cterm=NONE
     hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Search ctermfg=NONE ctermbg=NONE cterm=reverse
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -419,7 +420,7 @@ if &background == 'light'
   hi PmenuThumb guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
   hi PreProc guifg=#005f5f guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#af00af guibg=NONE guisp=NONE gui=bold ctermfg=127 ctermbg=NONE cterm=bold term=standout
-  hi QuickFixLine guifg=#000000 guibg=#87afaf guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=NONE
+  hi QuickFixLine guifg=NONE guibg=#e7cfe7 guisp=NONE gui=NONE ctermfg=16 ctermbg=182 cterm=NONE term=NONE
   hi Removed guifg=#d70000 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=NONE guibg=#e7f3e7 guisp=NONE gui=NONE ctermfg=16 ctermbg=222 cterm=NONE term=reverse
   hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -465,6 +466,7 @@ if &background == 'light'
   if s:tgc || s:t_Co >= 256
     if s:tgc
       hi IncSearch cterm=NONE
+      hi QuickFixLine cterm=NONE
       hi Search cterm=NONE
       hi Visual cterm=NONE
     endif
@@ -512,7 +514,7 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=bold
-    hi QuickFixLine ctermfg=white ctermbg=cyan cterm=NONE
+    hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
     hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Search ctermfg=black ctermbg=yellow cterm=NONE
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
