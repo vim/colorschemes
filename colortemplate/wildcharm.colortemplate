@@ -357,7 +357,7 @@ Color: colorSt                 #5f5f5f        59             darkgrey
 Color: colorMP                 #ff00af        199            magenta
 Color: colorSrch               #e7f3e7        28             darkgreen
 Color: colorInc                #fff0cf        172            yellow
-Color: colorQF                 #e7cfe7        182            darkmagenta
+Color: colorQF                 #e7cfe7        182            magenta
 
 
 ; Diff colors

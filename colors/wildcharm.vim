@@ -415,7 +415,7 @@ if &background == 'light'
     hi PmenuThumb ctermfg=NONE ctermbg=darkgreen cterm=NONE
     hi PreProc ctermfg=darkcyan ctermbg=NONE cterm=NONE
     hi Question ctermfg=darkmagenta ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=black ctermbg=darkmagenta cterm=NONE
+    hi QuickFixLine ctermfg=black ctermbg=magenta cterm=NONE
     hi Removed ctermfg=darkred ctermbg=NONE cterm=NONE
     hi Search ctermfg=darkgreen ctermbg=white cterm=reverse
     hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
