@@ -79,10 +79,10 @@ if &background == 'dark'
   hi SignColumn guifg=#45475a guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=60 ctermbg=234 cterm=NONE
   hi Special guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE
   hi SpecialKey guifg=#a6adc8 guibg=NONE guisp=NONE gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE
-  hi SpellBad guifg=#1e1e2e guibg=#f38ba8 guisp=NONE gui=NONE ctermfg=234 ctermbg=211 cterm=NONE
-  hi SpellCap guifg=#1e1e2e guibg=#f9e2af guisp=NONE gui=NONE ctermfg=234 ctermbg=229 cterm=NONE
-  hi SpellLocal guifg=#1e1e2e guibg=#89b4fa guisp=NONE gui=NONE ctermfg=234 ctermbg=111 cterm=NONE
-  hi SpellRare guifg=#1e1e2e guibg=#a6e3a1 guisp=NONE gui=NONE ctermfg=234 ctermbg=151 cterm=NONE
+  hi SpellBad guifg=NONE guibg=NONE guisp=#f38ba8 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=211
+  hi SpellCap guifg=NONE guibg=NONE guisp=#f9e2af gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=229
+  hi SpellLocal guifg=NONE guibg=NONE guisp=#89b4fa gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=111
+  hi SpellRare guifg=NONE guibg=NONE guisp=#a6e3a1 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=151
   hi Statement guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
   hi StatusLine guifg=#cdd6f4 guibg=#181825 guisp=NONE gui=NONE ctermfg=189 ctermbg=235 cterm=NONE
   hi StatusLineNC guifg=#45475a guibg=#181825 guisp=NONE gui=NONE ctermfg=60 ctermbg=235 cterm=NONE
@@ -160,10 +160,10 @@ if &background == 'dark'
     hi SignColumn ctermfg=black ctermbg=black cterm=NONE
     hi Special ctermfg=magenta ctermbg=NONE cterm=NONE
     hi SpecialKey ctermfg=white ctermbg=NONE cterm=NONE
-    hi SpellBad ctermfg=black ctermbg=red cterm=NONE
-    hi SpellCap ctermfg=black ctermbg=yellow cterm=NONE
-    hi SpellLocal ctermfg=black ctermbg=blue cterm=NONE
-    hi SpellRare ctermfg=black ctermbg=green cterm=NONE
+    hi SpellBad ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=red
+    hi SpellCap ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=yellow
+    hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=blue
+    hi SpellRare ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=green
     hi Statement ctermfg=magenta ctermbg=NONE cterm=NONE
     hi StatusLine ctermfg=white ctermbg=black cterm=NONE
     hi StatusLineNC ctermfg=black ctermbg=black cterm=NONE
@@ -244,10 +244,10 @@ if &background == 'light'
   hi SignColumn guifg=#bcc0cc guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=188 ctermbg=255 cterm=NONE
   hi Special guifg=#ea76cb guibg=NONE guisp=NONE gui=NONE ctermfg=212 ctermbg=NONE cterm=NONE
   hi SpecialKey guifg=#6c6f85 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE
-  hi SpellBad guifg=#eff1f5 guibg=#d20f39 guisp=NONE gui=NONE ctermfg=255 ctermbg=160 cterm=NONE
-  hi SpellCap guifg=#eff1f5 guibg=#df8e1d guisp=NONE gui=NONE ctermfg=255 ctermbg=178 cterm=NONE
-  hi SpellLocal guifg=#eff1f5 guibg=#1e66f5 guisp=NONE gui=NONE ctermfg=255 ctermbg=27 cterm=NONE
-  hi SpellRare guifg=#eff1f5 guibg=#40a02b guisp=NONE gui=NONE ctermfg=255 ctermbg=70 cterm=NONE
+  hi SpellBad guifg=NONE guibg=NONE guisp=#d20f39 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=160
+  hi SpellCap guifg=NONE guibg=NONE guisp=#df8e1d gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=178
+  hi SpellLocal guifg=NONE guibg=NONE guisp=#1e66f5 gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=27
+  hi SpellRare guifg=NONE guibg=NONE guisp=#40a02b gui=undercurl ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=70
   hi Statement guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
   hi StatusLine guifg=#4c4f69 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=59 ctermbg=255 cterm=NONE
   hi StatusLineNC guifg=#bcc0cc guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=188 ctermbg=255 cterm=NONE
@@ -325,10 +325,10 @@ if &background == 'light'
     hi SignColumn ctermfg=white ctermbg=white cterm=NONE
     hi Special ctermfg=magenta ctermbg=NONE cterm=NONE
     hi SpecialKey ctermfg=black ctermbg=NONE cterm=NONE
-    hi SpellBad ctermfg=white ctermbg=red cterm=NONE
-    hi SpellCap ctermfg=white ctermbg=yellow cterm=NONE
-    hi SpellLocal ctermfg=white ctermbg=blue cterm=NONE
-    hi SpellRare ctermfg=white ctermbg=green cterm=NONE
+    hi SpellBad ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=red
+    hi SpellCap ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=yellow
+    hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=blue
+    hi SpellRare ctermfg=NONE ctermbg=NONE cterm=undercurl ctermul=green
     hi Statement ctermfg=magenta ctermbg=NONE cterm=NONE
     hi StatusLine ctermfg=black ctermbg=white cterm=NONE
     hi StatusLineNC ctermfg=white ctermbg=white cterm=NONE

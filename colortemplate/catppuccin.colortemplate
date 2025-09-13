@@ -125,10 +125,10 @@ Question             blue              none
 QuickFixLine         none              surface1          bold
 Search               pink              surface1          bold
 SpecialKey           subtext0          none
-SpellBad             base              red
-SpellCap             base              yellow
-SpellLocal           base              blue
-SpellRare            base              green
+SpellBad             none              none              s=red undercurl
+SpellCap             none              none              s=yellow undercurl
+SpellLocal           none              none              s=blue undercurl
+SpellRare            none              none              s=green undercurl
 StatusLine           text              mantle
 StatusLineNC         surface1          mantle
 TabLine              surface1          mantle
