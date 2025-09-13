@@ -1,0 +1,185 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
+Full name:   Catppuccin
+Short name:  catppuccin
+Description: Catppuccin Latte (for light) and Mocha (for dark)
+Author:      Catppuccin Community <catppuccin.com>
+Maintainer:  Mao-Yining <mao.yining@outlook.com>
+URL:         https://www.github.com/vim/colorschemes
+Options:     backend=vim
+
+Environments: gui 256 16
+
+Background: dark
+
+; Color palette {{{
+Color: rosewater     #F5E0DC           224               white
+Color: flamingo      #F2CDCD           224               white
+Color: pink          #F5C2E7           225               magenta
+Color: mauve         #CBA6F7           183               magenta
+Color: red           #F38BA8           211               red
+Color: maroon        #EBA0AC           217               red
+Color: peach         #FAB387           223               yellow
+Color: yellow        #F9E2AF           229               yellow
+Color: green         #A6E3A1           151               green
+Color: teal          #94E2D5           122               cyan
+Color: sky           #89DCEB           117               cyan
+Color: sapphire      #74C7EC           111               blue
+Color: blue          #89B4FA           111               blue
+Color: lavender      #B4BEFE           189               blue
+
+Color: text          #CDD6F4           189               white
+Color: subtext1      #BAC2DE           146               white
+Color: subtext0      #A6ADC8           146               white
+Color: overlay2      #9399B2           103               white
+Color: overlay1      #7F849C           103               white
+Color: overlay0      #6C7086           102               white
+Color: surface2      #585B70           60                black
+Color: surface1      #45475A           60                black
+Color: surface0      #313244           59                black
+
+Color: base          #1E1E2E           234               black
+Color: mantle        #181825           235               black
+Color: crust         #11111B           234               black
+; }}}
+
+; Terminal palette {{{
+Term colors: surface1 red green yellow blue pink teal subtext1
+             surface2 red green yellow blue pink teal subtext0
+; }}}
+
+Background: light
+
+; Color palette {{{
+Color: rosewater     #DC8A78           174               red
+Color: flamingo      #DD7878           174               red
+Color: pink          #EA76CB           212               magenta
+Color: mauve         #8839EF           93                magenta
+Color: red           #D20F39           160               red
+Color: maroon        #E64553           167               red
+Color: peach         #FE640B           202               yellow
+Color: yellow        #DF8E1D           178               yellow
+Color: green         #40A02B           70                green
+Color: teal          #179299           30                cyan
+Color: sky           #04A5E5           32                cyan
+Color: sapphire      #209FB5           31                blue
+Color: blue          #1E66F5           27                blue
+Color: lavender      #7287FD           105               blue
+
+Color: text          #4C4F69           59                black
+Color: subtext1      #5C5F77           60                black
+Color: subtext0      #6C6F85           66                black
+Color: overlay2      #7C7F93           66                black
+Color: overlay1      #8C8FA1           102               white
+Color: overlay0      #9CA0B0           146               white
+Color: surface2      #ACB0BE           146               white
+Color: surface1      #BCC0CC           188               white
+Color: surface0      #CCD0DA           188               white
+
+Color: base          #EFF1F5           255               white
+Color: mantle        #E6E9EF           255               white
+Color: crust         #DCE0E8           255               white
+; }}}
+
+; Terminal palette {{{
+Term colors: subtext1 red green yellow blue pink teal surface2
+             subtext0 red green yellow blue pink teal surface1
+; }}}
+
+Background: any
+
+; Highlight {{{
+; Variant: gui 256 16
+; Group              Foreground        Background        Attributes
+Normal               text              base
+Visual               none              surface1          bold
+Conceal              overlay1          none
+ColorColumn          none              surface0
+Cursor               base              rosewater
+lCursor              base              rosewater
+CursorIM             base              rosewater
+CursorColumn         none              mantle
+CursorLine           none              surface0
+Directory            blue              none
+DiffAdd              base              green
+DiffChange           base              yellow
+DiffDelete           base              red
+DiffText             base              blue
+EndOfBuffer          none              none
+ErrorMsg             red               none              bold,italic
+VertSplit            crust             none
+Folded               blue              surface1
+FoldColumn           overlay0          base
+SignColumn           surface1          base
+IncSearch            surface1          pink
+CursorLineNR         lavender          none
+LineNr               surface1          none
+MatchParen           peach             none              bold
+ModeMsg              text              none              bold
+MoreMsg              blue              none
+NonText              overlay0          none
+Pmenu                overlay2          surface0
+PmenuSel             text              surface1          bold
+PmenuSbar            none              surface1
+PmenuThumb           none              overlay0
+Question             blue              none
+QuickFixLine         none              surface1          bold
+Search               pink              surface1          bold
+SpecialKey           subtext0          none
+SpellBad             base              red
+SpellCap             base              yellow
+SpellLocal           base              blue
+SpellRare            base              green
+StatusLine           text              mantle
+StatusLineNC         surface1          mantle
+TabLine              surface1          mantle
+TabLineFill          none              mantle
+TabLineSel           green             surface1
+Title                blue              none              bold
+VisualNOS            none              surface1          bold
+WarningMsg           yellow            none
+WildMenu             none              overlay0
+Comment              overlay0          none
+Constant             peach             none
+Identifier           flamingo          none
+Statement            mauve             none
+PreProc              pink              none
+Type                 blue              none
+Special              pink              none
+Underlined           text              base              underline
+Error                red               none
+Todo                 base              flamingo          bold
+
+String               green             none
+Character            teal              none
+Number               peach             none
+Boolean              peach             none
+Float                peach             none
+Function             blue              none
+Conditional          red               none
+Repeat               red               none
+Label                peach             none
+Operator             sky               none
+Keyword              pink              none
+Include              pink              none
+StorageClass         yellow            none
+Structure            yellow            none
+Typedef              yellow            none
+debugPC              none              crust
+debugBreakpoint      overlay0          base
+; }}}
+
+; Links {{{
+Define               -> PreProc
+Macro                -> PreProc
+PreCondit            -> PreProc
+SpecialChar          -> Special
+Tag                  -> Special
+Delimiter            -> Special
+SpecialComment       -> Special
+Debug                -> Special
+Exception            -> Error
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+Terminal             -> Normal
+Ignore               -> Comment
+; }}}
