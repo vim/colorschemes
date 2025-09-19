@@ -2,7 +2,7 @@
 Full name:   Catppuccin Latte (for light) and Mocha (for dark)
 Short name:  catppuccin
 Description: Soothing pastel theme for the high-spirited!
-Author:      Catppuccin Community <catppuccin.com>
+Author:      The Catppuccin Community <catppuccin.com>
 Maintainer:  Mao-Yining <mao.yining@outlook.com>
 URL:         https://www.github.com/vim/colorschemes
 Options:     backend=vim
@@ -130,7 +130,7 @@ CursorColumn         none              mantle
 Delimiter            overlay2          none
 Directory            blue              none
 EndOfBuffer          base              none
-ErrorMsg             red               none              bold,italic
+ErrorMsg             red               none              bold
 Exception            mauve             none
 VertSplit            crust             none
 Folded               blue              surface1
@@ -176,13 +176,11 @@ Special              pink              none
 Underlined           text              base              underline
 Error                red               none
 Todo                 base              flamingo          bold
-Italic               none              none              italic
-Bold                 none              none              bold
 
 String               green             none
 Character            teal              none
 Function             blue              none
-Conditional          mauve             none              italic
+Conditional          mauve             none
 Repeat               mauve             none
 Label                sapphire          none
 Operator             sky               none
