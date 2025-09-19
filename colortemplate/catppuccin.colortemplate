@@ -159,6 +159,8 @@ StatusLineNC         surface1          mantle
 TabLine              overlay0          crust
 TabLineFill          none              mantle
 TabLineSel           green             surface1
+ToolbarLine          none              none
+ToolbarButton        rosewater         none              bold
 Tag                  lavender          none
 Title                blue              none              bold
 VisualNOS            none              surface1          bold
@@ -196,12 +198,16 @@ debugBreakpoint      overlay0          base
 ; Links {{{
 Boolean              -> Constant
 CursorLineFold       -> FoldColumn
+CursorLineSign       -> FoldColumn
 Debug                -> Special
 Define               -> PreProc
 Float                -> Constant
 Ignore               -> Comment
 IncSearch            -> Search
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
 Number               -> Constant
+PopupNotification    -> WarningMsg
 PreCondit            -> PreProc
 SpecialChar          -> Special
 SpecialComment       -> Special
