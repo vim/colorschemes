@@ -15,12 +15,16 @@ let s:tgc = has('termguicolors') && &termguicolors
 
 hi! link Boolean Constant
 hi! link CursorLineFold FoldColumn
+hi! link CursorLineSign FoldColumn
 hi! link Debug Special
 hi! link Define PreProc
 hi! link Float Constant
 hi! link Ignore Comment
 hi! link IncSearch Search
+hi! link LineNrAbove LineNr
+hi! link LineNrBelow LineNr
 hi! link Number Constant
+hi! link PopupNotification WarningMsg
 hi! link PreCondit PreProc
 hi! link SpecialChar Special
 hi! link SpecialComment Special
@@ -101,6 +105,8 @@ if &background == 'dark'
   hi Tag guifg=#b4befe guibg=NONE guisp=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
   hi Title guifg=#89b4fa guibg=NONE guisp=NONE gui=bold ctermfg=111 ctermbg=NONE cterm=bold term=NONE
   hi Todo guifg=#1e1e2e guibg=#f2cdcd guisp=NONE gui=bold ctermfg=234 ctermbg=224 cterm=bold term=bold,reverse
+  hi ToolbarButton guifg=#f5e0dc guibg=NONE guisp=NONE gui=bold ctermfg=224 ctermbg=NONE cterm=bold term=bold,reverse
+  hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=#cdd6f4 guibg=#1e1e2e guisp=NONE gui=underline ctermfg=189 ctermbg=234 cterm=underline term=underline
   hi VertSplit guifg=#11111b guibg=NONE guisp=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE term=NONE
@@ -185,6 +191,8 @@ if &background == 'dark'
     hi Tag ctermfg=blue ctermbg=NONE cterm=NONE
     hi Title ctermfg=blue ctermbg=NONE cterm=bold
     hi Todo ctermfg=black ctermbg=white cterm=bold
+    hi ToolbarButton ctermfg=white ctermbg=NONE cterm=bold
+    hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=white ctermbg=black cterm=underline
     hi VertSplit ctermfg=black ctermbg=NONE cterm=NONE
@@ -272,6 +280,8 @@ if &background == 'light'
   hi Tag guifg=#7287fd guibg=NONE guisp=NONE gui=NONE ctermfg=105 ctermbg=NONE cterm=NONE
   hi Title guifg=#1e66f5 guibg=NONE guisp=NONE gui=bold ctermfg=27 ctermbg=NONE cterm=bold term=NONE
   hi Todo guifg=#eff1f5 guibg=#dd7878 guisp=NONE gui=bold ctermfg=255 ctermbg=174 cterm=bold term=bold,reverse
+  hi ToolbarButton guifg=#dc8a78 guibg=NONE guisp=NONE gui=bold ctermfg=174 ctermbg=NONE cterm=bold term=bold,reverse
+  hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=#4c4f69 guibg=#eff1f5 guisp=NONE gui=underline ctermfg=59 ctermbg=255 cterm=underline term=underline
   hi VertSplit guifg=#dce0e8 guibg=NONE guisp=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE term=NONE
@@ -356,6 +366,8 @@ if &background == 'light'
     hi Tag ctermfg=blue ctermbg=NONE cterm=NONE
     hi Title ctermfg=blue ctermbg=NONE cterm=bold
     hi Todo ctermfg=white ctermbg=red cterm=bold
+    hi ToolbarButton ctermfg=red ctermbg=NONE cterm=bold
+    hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=black ctermbg=white cterm=underline
     hi VertSplit ctermfg=white ctermbg=NONE cterm=NONE
