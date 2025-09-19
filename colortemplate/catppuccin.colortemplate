@@ -1,7 +1,7 @@
 ; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2 vsts=21,18,18,2
-Full name:   Catppuccin
+Full name:   Catppuccin Latte (for light) and Mocha (for dark)
 Short name:  catppuccin
-Description: Catppuccin Latte (for light) and Mocha (for dark)
+Description: Soothing pastel theme for the high-spirited!
 Author:      Catppuccin Community <catppuccin.com>
 Maintainer:  Mao-Yining <mao.yining@outlook.com>
 URL:         https://www.github.com/vim/colorschemes
@@ -40,12 +40,26 @@ Color: surface0      #313244           59                black
 Color: base          #1E1E2E           234               black
 Color: mantle        #181825           235               black
 Color: crust         #11111B           234               black
+
+Color: cursorLine    #2A2B3C           236               black
+Color: diffAdd       #364143           238               black
+Color: diffChange    #25293C           236               black
+Color: diffDelete    #443244           238               magenta
+Color: diffText      #3E4B6B           240               blue
+Color: search        #3E5767           240               blue
 ; }}}
 
 ; Terminal palette {{{
 Term colors: surface1 red green yellow blue pink teal subtext1
              surface2 red green yellow blue pink teal subtext0
 ; }}}
+
+CursorLine           none              cursorLine
+DiffAdd              none              diffAdd
+DiffChange           none              diffChange
+DiffDelete           none              diffDelete
+DiffText             none              diffText
+Search               text              search
 
 Background: light
 
@@ -78,6 +92,13 @@ Color: surface0      #CCD0DA           188               white
 Color: base          #EFF1F5           255               white
 Color: mantle        #E6E9EF           255               white
 Color: crust         #DCE0E8           255               white
+
+Color: cursorLine    #E9EBF1           255               white
+Color: diffAdd       #D0E2D1           194               green
+Color: diffChange    #E0E7F5           255               blue
+Color: diffDelete    #EAC8D3           224               magenta
+Color: diffText      #B0C7F5           153               blue
+Color: search        #A8DAF0           153               cyan
 ; }}}
 
 ; Terminal palette {{{
@@ -85,101 +106,111 @@ Term colors: subtext1 red green yellow blue pink teal surface2
              subtext0 red green yellow blue pink teal surface1
 ; }}}
 
+CursorLine           none              cursorLine
+DiffAdd              none              diffAdd
+DiffChange           none              diffChange
+DiffDelete           none              diffDelete
+DiffText             none              diffText
+Search               text              search
+
 Background: any
 
-; Highlight {{{
+; Highlights {{{
 ; Variant: gui 256 16
 ; Group              Foreground        Background        Attributes
 Normal               text              base
 Visual               none              surface1          bold
 Conceal              overlay1          none
 ColorColumn          none              surface0
+CurSearch            mantle            red
 Cursor               base              rosewater
 lCursor              base              rosewater
-CursorIM             base              rosewater
+CursorIM             base              mauve
 CursorColumn         none              mantle
-CursorLine           none              surface0
+Delimiter            overlay2          none
 Directory            blue              none
-DiffAdd              base              green
-DiffChange           base              yellow
-DiffDelete           base              red
-DiffText             base              blue
-EndOfBuffer          none              none
+EndOfBuffer          base              none
 ErrorMsg             red               none              bold,italic
+Exception            mauve             none
 VertSplit            crust             none
 Folded               blue              surface1
-FoldColumn           overlay0          base
-SignColumn           surface1          base
-IncSearch            surface1          pink
-CursorLineNR         lavender          none
+FoldColumn           overlay0          none
+SignColumn           surface1          none
+CursorLineNr         lavender          none
 LineNr               surface1          none
-MatchParen           peach             none              bold
+MatchParen           peach             surface1          bold
 ModeMsg              text              none              bold
 MoreMsg              blue              none
 NonText              overlay0          none
-Pmenu                overlay2          surface0
-PmenuSel             text              surface1          bold
-PmenuSbar            none              surface1
+Pmenu                overlay2          mantle
+PmenuExtra           overlay0          none
+PmenuExtraSel        overlay0          none              bold
+PmenuSel             none              surface0          bold
+PmenuSbar            none              surface0
 PmenuThumb           none              overlay0
 Question             blue              none
 QuickFixLine         none              surface1          bold
-Search               pink              surface1          bold
-SpecialKey           subtext0          none
 SpellBad             none              none              s=red undercurl
 SpellCap             none              none              s=yellow undercurl
 SpellLocal           none              none              s=blue undercurl
 SpellRare            none              none              s=green undercurl
 StatusLine           text              mantle
 StatusLineNC         surface1          mantle
-TabLine              surface1          mantle
+TabLine              overlay0          crust
 TabLineFill          none              mantle
 TabLineSel           green             surface1
+Tag                  lavender          none
 Title                blue              none              bold
 VisualNOS            none              surface1          bold
 WarningMsg           yellow            none
 WildMenu             none              overlay0
-Comment              overlay0          none
+Comment              overlay2          none
 Constant             peach             none
 Identifier           flamingo          none
 Statement            mauve             none
 PreProc              pink              none
-Type                 blue              none
+Type                 yellow            none
 Special              pink              none
 Underlined           text              base              underline
 Error                red               none
 Todo                 base              flamingo          bold
+Italic               none              none              italic
+Bold                 none              none              bold
 
 String               green             none
 Character            teal              none
-Number               peach             none
-Boolean              peach             none
-Float                peach             none
 Function             blue              none
-Conditional          red               none
-Repeat               red               none
-Label                peach             none
+Conditional          mauve             none              italic
+Repeat               mauve             none
+Label                sapphire          none
 Operator             sky               none
-Keyword              pink              none
-Include              pink              none
+Keyword              mauve             none
+Include              mauve             none
+Macro                mauve             none
 StorageClass         yellow            none
 Structure            yellow            none
-Typedef              yellow            none
 debugPC              none              crust
 debugBreakpoint      overlay0          base
 ; }}}
 
 ; Links {{{
+Boolean              -> Constant
+CursorLineFold       -> FoldColumn
+Debug                -> Special
 Define               -> PreProc
-Macro                -> PreProc
+Float                -> Constant
+Ignore               -> Comment
+IncSearch            -> Search
+Number               -> Constant
 PreCondit            -> PreProc
 SpecialChar          -> Special
-Tag                  -> Special
-Delimiter            -> Special
 SpecialComment       -> Special
-Debug                -> Special
-Exception            -> Error
+SpecialKey           -> NonText
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Terminal             -> Normal
-Ignore               -> Comment
+Typedef              -> Type
 ; }}}
+
+; No color support
+Include: _tcozero
