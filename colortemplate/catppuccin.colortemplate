@@ -143,8 +143,8 @@ ModeMsg              text              none              bold
 MoreMsg              blue              none
 NonText              overlay0          none
 Pmenu                overlay2          mantle
-PmenuExtra           overlay0          none
-PmenuExtraSel        overlay0          none              bold
+PmenuExtra           overlay0          mantle
+PmenuExtraSel        overlay0          surface0          bold
 PmenuSel             none              surface0          bold
 PmenuSbar            none              surface0
 PmenuThumb           none              overlay0
