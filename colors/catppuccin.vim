@@ -1,6 +1,6 @@
 " Name:         Catppuccin Latte (for light) and Mocha (for dark)
 " Description:  Soothing pastel theme for the high-spirited!
-" Author:       Catppuccin Community <catppuccin.com>
+" Author:       The Catppuccin Community <catppuccin.com>
 " Maintainer:   Mao-Yining <mao.yining@outlook.com>
 " URL:          https://www.github.com/vim/colorschemes
 " Last Change:  2025 9月 20
@@ -38,12 +38,13 @@ if &background == 'dark'
   let g:terminal_ansi_colors = ['#45475a', '#f38ba8', '#a6e3a1', '#f9e2af', '#89b4fa', '#f5c2e7', '#94e2d5', '#bac2de', '#585b70', '#f38ba8', '#a6e3a1', '#f9e2af', '#89b4fa', '#f5c2e7', '#94e2d5', '#a6adc8']
 
   hi Normal guifg=#cdd6f4 guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=189 ctermbg=234 cterm=NONE term=NONE
-  hi Bold guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
+  hi Added guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=151 ctermbg=NONE cterm=NONE
+  hi Changed guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE
   hi Character guifg=#94e2d5 guibg=NONE guisp=NONE gui=NONE ctermfg=122 ctermbg=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#313244 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=reverse
   hi Comment guifg=#9399b2 guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE term=bold
   hi Conceal guifg=#7f849c guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE term=NONE
-  hi Conditional guifg=#cba6f7 guibg=NONE guisp=NONE gui=italic ctermfg=183 ctermbg=NONE cterm=italic
+  hi Conditional guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
   hi Constant guifg=#fab387 guibg=NONE guisp=NONE gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE term=NONE
   hi CurSearch guifg=#181825 guibg=#f38ba8 guisp=NONE gui=NONE ctermfg=235 ctermbg=211 cterm=NONE term=reverse
   hi Cursor guifg=#1e1e2e guibg=#f5e0dc guisp=NONE gui=NONE ctermfg=234 ctermbg=224 cterm=NONE term=reverse
@@ -59,14 +60,13 @@ if &background == 'dark'
   hi Directory guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
   hi EndOfBuffer guifg=#1e1e2e guibg=NONE guisp=NONE gui=NONE ctermfg=234 ctermbg=NONE cterm=NONE term=NONE
   hi Error guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE term=bold,reverse
-  hi ErrorMsg guifg=#f38ba8 guibg=NONE guisp=NONE gui=bold,italic ctermfg=211 ctermbg=NONE cterm=bold,italic term=bold,reverse
+  hi ErrorMsg guifg=#f38ba8 guibg=NONE guisp=NONE gui=bold ctermfg=211 ctermbg=NONE cterm=bold term=bold,reverse
   hi Exception guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
   hi FoldColumn guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE term=NONE
   hi Folded guifg=#89b4fa guibg=#45475a guisp=NONE gui=NONE ctermfg=111 ctermbg=60 cterm=NONE term=NONE
   hi Function guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
   hi Identifier guifg=#f2cdcd guibg=NONE guisp=NONE gui=NONE ctermfg=224 ctermbg=NONE cterm=NONE term=NONE
   hi Include guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
-  hi Italic guifg=NONE guibg=NONE guisp=NONE gui=italic ctermfg=NONE ctermbg=NONE cterm=italic
   hi Keyword guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
   hi Label guifg=#74c7ec guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE
   hi LineNr guifg=#45475a guibg=NONE guisp=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE term=NONE
@@ -85,6 +85,7 @@ if &background == 'dark'
   hi PreProc guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=standout
   hi QuickFixLine guifg=NONE guibg=#45475a guisp=NONE gui=bold ctermfg=NONE ctermbg=60 cterm=bold term=NONE
+  hi Removed guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE
   hi Repeat guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE
   hi Search guifg=#cdd6f4 guibg=#3e5767 guisp=NONE gui=NONE ctermfg=189 ctermbg=240 cterm=NONE term=reverse
   hi SignColumn guifg=#45475a guibg=NONE guisp=NONE gui=NONE ctermfg=60 ctermbg=NONE cterm=NONE term=reverse
@@ -104,7 +105,7 @@ if &background == 'dark'
   hi TabLineSel guifg=#a6e3a1 guibg=#45475a guisp=NONE gui=NONE ctermfg=151 ctermbg=60 cterm=NONE term=bold,reverse
   hi Tag guifg=#b4befe guibg=NONE guisp=NONE gui=NONE ctermfg=189 ctermbg=NONE cterm=NONE
   hi Title guifg=#89b4fa guibg=NONE guisp=NONE gui=bold ctermfg=111 ctermbg=NONE cterm=bold term=NONE
-  hi Todo guifg=#1e1e2e guibg=#f2cdcd guisp=NONE gui=bold ctermfg=234 ctermbg=224 cterm=bold term=bold,reverse
+  hi Todo guifg=#f2cdcd guibg=#1e1e2e guisp=NONE gui=bold ctermfg=224 ctermbg=234 cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#f5e0dc guibg=NONE guisp=NONE gui=bold ctermfg=224 ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=229 ctermbg=NONE cterm=NONE term=NONE
@@ -124,12 +125,13 @@ if &background == 'dark'
 
   if s:t_Co >= 16
     hi Normal ctermfg=white ctermbg=black cterm=NONE
-    hi Bold ctermfg=NONE ctermbg=NONE cterm=bold
+    hi Added ctermfg=green ctermbg=NONE cterm=NONE
+    hi Changed ctermfg=blue ctermbg=NONE cterm=NONE
     hi Character ctermfg=cyan ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=NONE ctermbg=black cterm=NONE
     hi Comment ctermfg=white ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=white ctermbg=NONE cterm=NONE
-    hi Conditional ctermfg=magenta ctermbg=NONE cterm=italic
+    hi Conditional ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Constant ctermfg=yellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=black ctermbg=red cterm=NONE
     hi Cursor ctermfg=black ctermbg=white cterm=NONE
@@ -138,21 +140,20 @@ if &background == 'dark'
     hi CursorLine ctermfg=NONE ctermbg=black cterm=NONE
     hi CursorLineNr ctermfg=blue ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=white ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=NONE ctermbg=black cterm=NONE
-    hi DiffChange ctermfg=NONE ctermbg=black cterm=NONE
-    hi DiffDelete ctermfg=NONE ctermbg=magenta cterm=NONE
+    hi DiffAdd ctermfg=NONE ctermbg=green cterm=NONE
+    hi DiffChange ctermfg=NONE ctermbg=blue cterm=NONE
+    hi DiffDelete ctermfg=NONE ctermbg=red cterm=NONE
     hi DiffText ctermfg=NONE ctermbg=blue cterm=NONE
     hi Directory ctermfg=blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=black ctermbg=NONE cterm=NONE
     hi Error ctermfg=red ctermbg=NONE cterm=NONE
-    hi ErrorMsg ctermfg=red ctermbg=NONE cterm=bold,italic
+    hi ErrorMsg ctermfg=red ctermbg=NONE cterm=bold
     hi Exception ctermfg=magenta ctermbg=NONE cterm=NONE
     hi FoldColumn ctermfg=white ctermbg=NONE cterm=NONE
     hi Folded ctermfg=blue ctermbg=black cterm=NONE
     hi Function ctermfg=blue ctermbg=NONE cterm=NONE
     hi Identifier ctermfg=white ctermbg=NONE cterm=NONE
     hi Include ctermfg=magenta ctermbg=NONE cterm=NONE
-    hi Italic ctermfg=NONE ctermbg=NONE cterm=italic
     hi Keyword ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=blue ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=black ctermbg=NONE cterm=NONE
@@ -171,6 +172,7 @@ if &background == 'dark'
     hi PreProc ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=blue ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=NONE ctermbg=black cterm=bold
+    hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=white ctermbg=blue cterm=NONE
     hi SignColumn ctermfg=black ctermbg=NONE cterm=NONE
@@ -190,7 +192,7 @@ if &background == 'dark'
     hi TabLineSel ctermfg=green ctermbg=black cterm=NONE
     hi Tag ctermfg=blue ctermbg=NONE cterm=NONE
     hi Title ctermfg=blue ctermbg=NONE cterm=bold
-    hi Todo ctermfg=black ctermbg=white cterm=bold
+    hi Todo ctermfg=white ctermbg=black cterm=bold
     hi ToolbarButton ctermfg=white ctermbg=NONE cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=yellow ctermbg=NONE cterm=NONE
@@ -213,12 +215,13 @@ if &background == 'light'
   let g:terminal_ansi_colors = ['#5c5f77', '#d20f39', '#40a02b', '#df8e1d', '#1e66f5', '#ea76cb', '#179299', '#acb0be', '#6c6f85', '#d20f39', '#40a02b', '#df8e1d', '#1e66f5', '#ea76cb', '#179299', '#bcc0cc']
 
   hi Normal guifg=#4c4f69 guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=59 ctermbg=255 cterm=NONE term=NONE
-  hi Bold guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
+  hi Added guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=70 ctermbg=NONE cterm=NONE
+  hi Changed guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
   hi Character guifg=#179299 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE
   hi ColorColumn guifg=NONE guibg=#ccd0da guisp=NONE gui=NONE ctermfg=NONE ctermbg=188 cterm=NONE term=reverse
   hi Comment guifg=#7c7f93 guibg=NONE guisp=NONE gui=NONE ctermfg=66 ctermbg=NONE cterm=NONE term=bold
   hi Conceal guifg=#8c8fa1 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE term=NONE
-  hi Conditional guifg=#8839ef guibg=NONE guisp=NONE gui=italic ctermfg=93 ctermbg=NONE cterm=italic
+  hi Conditional guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
   hi Constant guifg=#fe640b guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE term=NONE
   hi CurSearch guifg=#e6e9ef guibg=#d20f39 guisp=NONE gui=NONE ctermfg=255 ctermbg=160 cterm=NONE term=reverse
   hi Cursor guifg=#eff1f5 guibg=#dc8a78 guisp=NONE gui=NONE ctermfg=255 ctermbg=174 cterm=NONE term=reverse
@@ -234,14 +237,13 @@ if &background == 'light'
   hi Directory guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
   hi EndOfBuffer guifg=#eff1f5 guibg=NONE guisp=NONE gui=NONE ctermfg=255 ctermbg=NONE cterm=NONE term=NONE
   hi Error guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE term=bold,reverse
-  hi ErrorMsg guifg=#d20f39 guibg=NONE guisp=NONE gui=bold,italic ctermfg=160 ctermbg=NONE cterm=bold,italic term=bold,reverse
+  hi ErrorMsg guifg=#d20f39 guibg=NONE guisp=NONE gui=bold ctermfg=160 ctermbg=NONE cterm=bold term=bold,reverse
   hi Exception guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
   hi FoldColumn guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE term=NONE
   hi Folded guifg=#1e66f5 guibg=#bcc0cc guisp=NONE gui=NONE ctermfg=27 ctermbg=188 cterm=NONE term=NONE
   hi Function guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
   hi Identifier guifg=#dd7878 guibg=NONE guisp=NONE gui=NONE ctermfg=174 ctermbg=NONE cterm=NONE term=NONE
   hi Include guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
-  hi Italic guifg=NONE guibg=NONE guisp=NONE gui=italic ctermfg=NONE ctermbg=NONE cterm=italic
   hi Keyword guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
   hi Label guifg=#209fb5 guibg=NONE guisp=NONE gui=NONE ctermfg=31 ctermbg=NONE cterm=NONE
   hi LineNr guifg=#bcc0cc guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
@@ -260,6 +262,7 @@ if &background == 'light'
   hi PreProc guifg=#ea76cb guibg=NONE guisp=NONE gui=NONE ctermfg=212 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=standout
   hi QuickFixLine guifg=NONE guibg=#bcc0cc guisp=NONE gui=bold ctermfg=NONE ctermbg=188 cterm=bold term=NONE
+  hi Removed guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE
   hi Repeat guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE
   hi Search guifg=#4c4f69 guibg=#a8daf0 guisp=NONE gui=NONE ctermfg=59 ctermbg=153 cterm=NONE term=reverse
   hi SignColumn guifg=#bcc0cc guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=reverse
@@ -279,7 +282,7 @@ if &background == 'light'
   hi TabLineSel guifg=#40a02b guibg=#bcc0cc guisp=NONE gui=NONE ctermfg=70 ctermbg=188 cterm=NONE term=bold,reverse
   hi Tag guifg=#7287fd guibg=NONE guisp=NONE gui=NONE ctermfg=105 ctermbg=NONE cterm=NONE
   hi Title guifg=#1e66f5 guibg=NONE guisp=NONE gui=bold ctermfg=27 ctermbg=NONE cterm=bold term=NONE
-  hi Todo guifg=#eff1f5 guibg=#dd7878 guisp=NONE gui=bold ctermfg=255 ctermbg=174 cterm=bold term=bold,reverse
+  hi Todo guifg=#dd7878 guibg=#eff1f5 guisp=NONE gui=bold ctermfg=174 ctermbg=255 cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#dc8a78 guibg=NONE guisp=NONE gui=bold ctermfg=174 ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=178 ctermbg=NONE cterm=NONE term=NONE
@@ -299,12 +302,13 @@ if &background == 'light'
 
   if s:t_Co >= 16
     hi Normal ctermfg=black ctermbg=white cterm=NONE
-    hi Bold ctermfg=NONE ctermbg=NONE cterm=bold
+    hi Added ctermfg=green ctermbg=NONE cterm=NONE
+    hi Changed ctermfg=blue ctermbg=NONE cterm=NONE
     hi Character ctermfg=cyan ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=NONE ctermbg=white cterm=NONE
     hi Comment ctermfg=black ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=white ctermbg=NONE cterm=NONE
-    hi Conditional ctermfg=magenta ctermbg=NONE cterm=italic
+    hi Conditional ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Constant ctermfg=yellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=white ctermbg=red cterm=NONE
     hi Cursor ctermfg=white ctermbg=red cterm=NONE
@@ -320,14 +324,13 @@ if &background == 'light'
     hi Directory ctermfg=blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=white ctermbg=NONE cterm=NONE
     hi Error ctermfg=red ctermbg=NONE cterm=NONE
-    hi ErrorMsg ctermfg=red ctermbg=NONE cterm=bold,italic
+    hi ErrorMsg ctermfg=red ctermbg=NONE cterm=bold
     hi Exception ctermfg=magenta ctermbg=NONE cterm=NONE
     hi FoldColumn ctermfg=white ctermbg=NONE cterm=NONE
     hi Folded ctermfg=blue ctermbg=white cterm=NONE
     hi Function ctermfg=blue ctermbg=NONE cterm=NONE
     hi Identifier ctermfg=red ctermbg=NONE cterm=NONE
     hi Include ctermfg=magenta ctermbg=NONE cterm=NONE
-    hi Italic ctermfg=NONE ctermbg=NONE cterm=italic
     hi Keyword ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=blue ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=white ctermbg=NONE cterm=NONE
@@ -346,6 +349,7 @@ if &background == 'light'
     hi PreProc ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=blue ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=NONE ctermbg=white cterm=bold
+    hi Removed ctermfg=red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=magenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=black ctermbg=cyan cterm=NONE
     hi SignColumn ctermfg=white ctermbg=NONE cterm=NONE
@@ -365,7 +369,7 @@ if &background == 'light'
     hi TabLineSel ctermfg=green ctermbg=white cterm=NONE
     hi Tag ctermfg=blue ctermbg=NONE cterm=NONE
     hi Title ctermfg=blue ctermbg=NONE cterm=bold
-    hi Todo ctermfg=white ctermbg=red cterm=bold
+    hi Todo ctermfg=red ctermbg=white cterm=bold
     hi ToolbarButton ctermfg=red ctermbg=NONE cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=yellow ctermbg=NONE cterm=NONE

@@ -175,7 +175,7 @@ Type                 yellow            none
 Special              pink              none
 Underlined           text              base              underline
 Error                red               none
-Todo                 base              flamingo          bold
+Todo                 flamingo          base              bold
 
 String               green             none
 Character            teal              none
