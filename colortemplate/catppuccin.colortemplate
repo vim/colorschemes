@@ -7,7 +7,7 @@ Maintainer:  Mao-Yining <mao.yining@outlook.com>
 URL:         https://www.github.com/vim/colorschemes
 Options:     backend=vim
 
-Environments: gui 256 16
+Environments: gui 256 16 8 0
 
 Background: dark
 
@@ -41,7 +41,7 @@ Color: base          #1E1E2E           234               black
 Color: mantle        #181825           235               black
 Color: crust         #11111B           234               black
 
-Color: cursorLine    #2A2B3C           236               black
+Color: cursorLine    #2A2B3C           236               red
 Color: diffAdd       #364143           238               green
 Color: diffChange    #25293C           236               blue
 Color: diffDelete    #443244           238               red
@@ -54,12 +54,14 @@ Term colors: surface1 red green yellow blue pink teal subtext1
              surface2 red green yellow blue pink teal subtext0
 ; }}}
 
+; Specially fine-tuned colors {{{
 CursorLine           none              cursorLine
 DiffAdd              none              diffAdd
 DiffChange           none              diffChange
 DiffDelete           none              diffDelete
 DiffText             none              diffText
 Search               text              search
+; }}}
 
 Background: light
 
@@ -106,12 +108,14 @@ Term colors: subtext1 red green yellow blue pink teal surface2
              subtext0 red green yellow blue pink teal surface1
 ; }}}
 
+; Specially fine-tuned colors {{{
 CursorLine           none              cursorLine
 DiffAdd              none              diffAdd
 DiffChange           none              diffChange
 DiffDelete           none              diffDelete
 DiffText             none              diffText
 Search               text              search
+; }}}
 
 Background: any
 
@@ -124,7 +128,7 @@ Conceal              overlay1          none
 ColorColumn          none              surface0
 CurSearch            mantle            red
 Cursor               base              rosewater
-lCursor              base              rosewater
+lCursor              base              red
 CursorIM             base              mauve
 CursorColumn         none              mantle
 Delimiter            overlay2          none
