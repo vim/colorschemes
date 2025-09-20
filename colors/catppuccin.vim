@@ -77,8 +77,8 @@ if &background == 'dark'
   hi NonText guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE term=NONE
   hi Operator guifg=#89dceb guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE
   hi Pmenu guifg=#9399b2 guibg=#181825 guisp=NONE gui=NONE ctermfg=103 ctermbg=235 cterm=NONE term=reverse
-  hi PmenuExtra guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=102 ctermbg=NONE cterm=NONE
-  hi PmenuExtraSel guifg=#6c7086 guibg=NONE guisp=NONE gui=bold ctermfg=102 ctermbg=NONE cterm=bold
+  hi PmenuExtra guifg=#6c7086 guibg=#181825 guisp=NONE gui=NONE ctermfg=102 ctermbg=235 cterm=NONE
+  hi PmenuExtraSel guifg=#6c7086 guibg=#313244 guisp=NONE gui=bold ctermfg=102 ctermbg=59 cterm=bold
   hi PmenuSbar guifg=NONE guibg=#313244 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#313244 guisp=NONE gui=bold ctermfg=NONE ctermbg=59 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#6c7086 guisp=NONE gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE term=NONE
@@ -164,8 +164,8 @@ if &background == 'dark'
     hi NonText ctermfg=white ctermbg=NONE cterm=NONE
     hi Operator ctermfg=cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=white ctermbg=black cterm=NONE
-    hi PmenuExtra ctermfg=white ctermbg=NONE cterm=NONE
-    hi PmenuExtraSel ctermfg=white ctermbg=NONE cterm=bold
+    hi PmenuExtra ctermfg=white ctermbg=black cterm=NONE
+    hi PmenuExtraSel ctermfg=white ctermbg=black cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=black cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=black cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=white cterm=NONE
@@ -254,8 +254,8 @@ if &background == 'light'
   hi NonText guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE term=NONE
   hi Operator guifg=#04a5e5 guibg=NONE guisp=NONE gui=NONE ctermfg=32 ctermbg=NONE cterm=NONE
   hi Pmenu guifg=#7c7f93 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=66 ctermbg=255 cterm=NONE term=reverse
-  hi PmenuExtra guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=146 ctermbg=NONE cterm=NONE
-  hi PmenuExtraSel guifg=#9ca0b0 guibg=NONE guisp=NONE gui=bold ctermfg=146 ctermbg=NONE cterm=bold
+  hi PmenuExtra guifg=#9ca0b0 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=146 ctermbg=255 cterm=NONE
+  hi PmenuExtraSel guifg=#9ca0b0 guibg=#ccd0da guisp=NONE gui=bold ctermfg=146 ctermbg=188 cterm=bold
   hi PmenuSbar guifg=NONE guibg=#ccd0da guisp=NONE gui=NONE ctermfg=NONE ctermbg=188 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#ccd0da guisp=NONE gui=bold ctermfg=NONE ctermbg=188 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#9ca0b0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=146 cterm=NONE term=NONE
@@ -341,8 +341,8 @@ if &background == 'light'
     hi NonText ctermfg=white ctermbg=NONE cterm=NONE
     hi Operator ctermfg=cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=black ctermbg=white cterm=NONE
-    hi PmenuExtra ctermfg=white ctermbg=NONE cterm=NONE
-    hi PmenuExtraSel ctermfg=white ctermbg=NONE cterm=bold
+    hi PmenuExtra ctermfg=white ctermbg=white cterm=NONE
+    hi PmenuExtraSel ctermfg=white ctermbg=white cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=white cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=white cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=white cterm=NONE
