@@ -42,9 +42,9 @@ Color: mantle        #181825           235               black
 Color: crust         #11111B           234               black
 
 Color: cursorLine    #2A2B3C           236               black
-Color: diffAdd       #364143           238               black
-Color: diffChange    #25293C           236               black
-Color: diffDelete    #443244           238               magenta
+Color: diffAdd       #364143           238               green
+Color: diffChange    #25293C           236               blue
+Color: diffDelete    #443244           238               red
 Color: diffText      #3E4B6B           240               blue
 Color: search        #3E5767           240               blue
 ; }}}
@@ -191,6 +191,10 @@ StorageClass         yellow            none
 Structure            yellow            none
 debugPC              none              crust
 debugBreakpoint      overlay0          base
+
+Added                green             none
+Removed              red               none
+Changed              blue              none
 ; }}}
 
 ; Links {{{
