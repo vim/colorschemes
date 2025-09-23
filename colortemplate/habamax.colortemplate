@@ -239,17 +239,21 @@ Folded                  color07        colorF
 ColorColumn             none           colorB
  /16/8                  color00        color03
 
-SpellBad                none           none           s=Removed undercurl
- /256/16                Removed        none           s=Removed underline
+SpellBad                Removed        none           underline
+ /gui                   none           none           s=Removed undercurl
+ /256+tgc true          Removed        none           underline
  /8                     color01        none           reverse
-SpellCap                none           none           s=Changed undercurl
- /256/16                Changed        none           s=Changed underline
+SpellCap                Changed        none           underline
+ /gui                   none           none           s=Changed undercurl
+ /256+tgc true          Changed        none           underline
  /8                     color03        none           reverse
-SpellLocal              none           none           s=Added undercurl
- /256/16                Added          none           s=Added underline
+SpellLocal              Added          none           underline
+ /gui                   none           none           s=Added undercurl
+ /256+tgc true          Added          none           underline
  /8                     color02        none           reverse
-SpellRare               none           none           s=color13 undercurl
- /256/16                color13        none           s=color13 underline
+SpellRare               color13        none           underline
+ /gui                   none           none           s=color13 undercurl
+ /256+tgc true          color13        none           underline
  /8                     color05        none           reverse
 
 
