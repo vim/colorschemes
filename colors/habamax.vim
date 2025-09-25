@@ -15,7 +15,7 @@ let g:colors_name = 'habamax'
 let s:t_Co = has('gui_running') ? 16777216 : str2nr(&t_Co)
 let s:tgc = has('termguicolors') && &termguicolors
 
-let g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5faf5f', '#af875f', '#5f87af', '#af87af', '#5f8787', '#9e9e9e', '#767676', '#d75f87', '#87d787', '#d7af87', '#5fafd7', '#d787d7', '#87afaf', '#d0d0d0']
+let g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5faf5f', '#af875f', '#5f87af', '#af87af', '#5f8787', '#9e9e9e', '#767676', '#d75f87', '#87d787', '#d7af87', '#5fafd7', '#d787d7', '#87afaf', '#c7c7c7']
 
 hi! link CurSearch IncSearch
 hi! link CursorLineFold FoldColumn
@@ -70,7 +70,7 @@ hi! link vimSep Normal
 hi! link vimVar Normal
 hi! link yamlBlockMappingKey Statement
 
-hi Normal guifg=#d0d0d0 guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=252 ctermbg=234 cterm=NONE term=NONE
+hi Normal guifg=#c7c7c7 guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=251 ctermbg=234 cterm=NONE term=NONE
 hi Added guifg=#5fd75f guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE term=NONE
 hi Changed guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
 hi Character guifg=#87d787 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
@@ -113,7 +113,7 @@ hi PmenuSel guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=24
 hi PmenuThumb guifg=NONE guibg=#767676 guisp=NONE gui=NONE ctermfg=NONE ctermbg=243 cterm=NONE term=NONE
 hi PreProc guifg=#af875f guibg=NONE guisp=NONE gui=NONE ctermfg=137 ctermbg=NONE cterm=NONE term=NONE
 hi Question guifg=#d7af87 guibg=NONE guisp=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE term=standout
-hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=252 ctermbg=53 cterm=NONE term=NONE
+hi QuickFixLine guifg=NONE guibg=#4f2f4f guisp=NONE gui=NONE ctermfg=251 ctermbg=53 cterm=NONE term=NONE
 hi Removed guifg=#d75f5f guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
 hi Search guifg=NONE guibg=#374a44 guisp=NONE gui=NONE ctermfg=114 ctermbg=234 cterm=reverse term=reverse
 hi SignColumn guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
