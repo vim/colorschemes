@@ -142,7 +142,7 @@ FoldColumn           overlay0          none
 SignColumn           surface1          none
 CursorLineNr         lavender          none
 LineNr               surface1          none
-MatchParen           peach             surface1          bold
+MatchParen           peach             none              bold
 ModeMsg              text              none              bold
 MoreMsg              blue              none
 NonText              overlay0          none
