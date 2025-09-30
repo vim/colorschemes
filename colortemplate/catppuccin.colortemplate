@@ -18,35 +18,35 @@ Color: pink          #F5C2E7           225               magenta
 Color: mauve         #CBA6F7           183               magenta
 Color: red           #F38BA8           211               red
 Color: maroon        #EBA0AC           217               red
-Color: peach         #FAB387           223               yellow
-Color: yellow        #F9E2AF           229               yellow
-Color: green         #A6E3A1           151               green
-Color: teal          #94E2D5           122               cyan
-Color: sky           #89DCEB           117               cyan
-Color: sapphire      #74C7EC           111               blue
+Color: peach         #FAB387           216               yellow
+Color: yellow        #F9E2AF           222               yellow
+Color: green         #A6E3A1           114               green
+Color: teal          #94E2D5           116               cyan
+Color: sky           #89DCEB           116               cyan
+Color: sapphire      #74C7EC           117               blue
 Color: blue          #89B4FA           111               blue
-Color: lavender      #B4BEFE           189               blue
+Color: lavender      #B4BEFE           147               blue
 
 Color: text          #CDD6F4           189               white
 Color: subtext1      #BAC2DE           146               white
 Color: subtext0      #A6ADC8           146               white
 Color: overlay2      #9399B2           103               white
 Color: overlay1      #7F849C           103               white
-Color: overlay0      #6C7086           102               white
+Color: overlay0      #6C7086           60                white
 Color: surface2      #585B70           60                black
-Color: surface1      #45475A           60                black
-Color: surface0      #313244           59                black
+Color: surface1      #45475A           239               black
+Color: surface0      #313244           236               black
 
 Color: base          #1E1E2E           234               black
-Color: mantle        #181825           235               black
-Color: crust         #11111B           234               black
+Color: mantle        #181825           234               black
+Color: crust         #11111B           233               black
 
 Color: cursorLine    #2A2B3C           236               red
-Color: diffAdd       #364143           238               green
-Color: diffChange    #25293C           236               blue
-Color: diffDelete    #443244           238               red
-Color: diffText      #3E4B6B           240               blue
-Color: search        #3E5767           240               blue
+Color: diffAdd       #364143           237               green
+Color: diffChange    #25293C           235               blue
+Color: diffDelete    #443244           237               red
+Color: diffText      #3E4B6B           60                blue
+Color: search        #3E5767           24                blue
 ; }}}
 
 ; Terminal palette {{{
@@ -68,39 +68,39 @@ Background: light
 ; Color palette {{{
 Color: rosewater     #DC8A78           174               red
 Color: flamingo      #DD7878           174               red
-Color: pink          #EA76CB           212               magenta
+Color: pink          #EA76CB           206               magenta
 Color: mauve         #8839EF           93                magenta
-Color: red           #D20F39           160               red
+Color: red           #D20F39           161               red
 Color: maroon        #E64553           167               red
 Color: peach         #FE640B           202               yellow
-Color: yellow        #DF8E1D           178               yellow
-Color: green         #40A02B           70                green
+Color: yellow        #DF8E1D           172               yellow
+Color: green         #40A02B           34                green
 Color: teal          #179299           30                cyan
-Color: sky           #04A5E5           32                cyan
-Color: sapphire      #209FB5           31                blue
+Color: sky           #04A5E5           39                cyan
+Color: sapphire      #209FB5           38                blue
 Color: blue          #1E66F5           27                blue
-Color: lavender      #7287FD           105               blue
+Color: lavender      #7287FD           69                blue
 
-Color: text          #4C4F69           59                black
-Color: subtext1      #5C5F77           60                black
-Color: subtext0      #6C6F85           66                black
-Color: overlay2      #7C7F93           66                black
-Color: overlay1      #8C8FA1           102               white
-Color: overlay0      #9CA0B0           146               white
-Color: surface2      #ACB0BE           146               white
-Color: surface1      #BCC0CC           188               white
-Color: surface0      #CCD0DA           188               white
+Color: text          #4C4F69           60                black
+Color: subtext1      #5C5F77           97                black
+Color: subtext0      #6C6F85           60                black
+Color: overlay2      #7C7F93           103               black
+Color: overlay1      #8C8FA1           103               white
+Color: overlay0      #9CA0B0           247               white
+Color: surface2      #ACB0BE           145               white
+Color: surface1      #BCC0CC           250               white
+Color: surface0      #CCD0DA           252               white
 
 Color: base          #EFF1F5           255               white
-Color: mantle        #E6E9EF           255               white
-Color: crust         #DCE0E8           255               white
+Color: mantle        #E6E9EF           254               white
+Color: crust         #DCE0E8           254               white
 
 Color: cursorLine    #E9EBF1           255               white
-Color: diffAdd       #D0E2D1           194               green
-Color: diffChange    #E0E7F5           255               blue
+Color: diffAdd       #D0E2D1           152               green
+Color: diffChange    #E0E7F5           254               blue
 Color: diffDelete    #EAC8D3           224               magenta
 Color: diffText      #B0C7F5           153               blue
-Color: search        #A8DAF0           153               cyan
+Color: search        #A8DAF0           117               cyan
 ; }}}
 
 ; Terminal palette {{{
