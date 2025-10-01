@@ -153,7 +153,6 @@ PmenuSel             none              surface0          bold
 PmenuSbar            none              surface0
 PmenuThumb           none              overlay0
 Question             blue              none
-QuickFixLine         none              surface1          bold
 SpellBad             none              none              s=red undercurl
 SpellCap             none              none              s=yellow undercurl
 SpellLocal           none              none              s=blue undercurl
@@ -222,6 +221,7 @@ StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 Terminal             -> Normal
 Typedef              -> Type
+QuickFixLine         -> Search
 ; }}}
 
 ; No color support
