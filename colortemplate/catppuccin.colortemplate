@@ -192,8 +192,6 @@ Include              mauve             none
 Macro                mauve             none
 StorageClass         yellow            none
 Structure            yellow            none
-debugPC              none              crust
-debugBreakpoint      overlay0          base
 
 Added                green             none
 Removed              red               none
@@ -222,6 +220,12 @@ StatusLineTermNC     -> StatusLineNC
 Terminal             -> Normal
 Typedef              -> Type
 QuickFixLine         -> Search
+; }}}
+
+; Plugins {{{
+debugPC              none              crust
+debugBreakpoint      overlay0          base
+dirMark -> DiffText
 ; }}}
 
 ; No color support
