@@ -234,6 +234,9 @@ LspDiagSignErrorText           red            none           bold
 LspDiagSignWarningText         yellow         none           bold
 LspDiagSignHintText            blue           none           bold
 LspDiagSignInfoText            green          none           bold
+ALEVirtualTextError            -> LspDiagVirtualTextError
+ALEVirtualTextWarning          -> LspDiagVirtualTextWarning
+ALEVirtualTextInfo             -> LspDiagVirtualTextInfo
 ;
 
 ; No color support
