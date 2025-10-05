@@ -226,6 +226,14 @@ QuickFixLine                    -> Search
 debugPC                        none           crust
 debugBreakpoint                overlay0       base
 dirMark                        none           diffText
+LspDiagVirtualTextError        red            mantle         bold
+LspDiagVirtualTextWarning      yellow         mantle         bold
+LspDiagVirtualTextHint         blue           mantle         bold
+LspDiagVirtualTextInfo         green          mantle         bold
+LspDiagSignErrorText           red            none           bold
+LspDiagSignWarningText         yellow         none           bold
+LspDiagSignHintText            blue           none           bold
+LspDiagSignInfoText            green          none           bold
 ;
 
 ; No color support
