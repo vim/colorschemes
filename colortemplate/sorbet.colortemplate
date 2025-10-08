@@ -100,6 +100,10 @@ Color: uicursearch   #ff5fff           207               magenta
 Color: invisigrey    #a6a8b1           248               darkgrey
 
 Color: errorred      #ff5f5f           203               red
+
+Color: cTitle        #363851           237               black
+Color: cTitleNC      #262841           236               black
+
 ; You may use hexadecimal values, too, and you may provide an explicit base-256 color:
 ; }}}
 
@@ -119,6 +123,8 @@ ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       dark0             reverse
 Cursor               none              none              reverse
+TitleBar             dark7             cTitle
+TitleBarNC           dark8             cTitleNC
 CursorColumn         none              uiblack
 CursorLine           none              uiblack
 CursorLineNr         statusline        uiblack
