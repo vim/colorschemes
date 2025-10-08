@@ -65,6 +65,9 @@ Color: color17       #00FF00           46                darkgreen
 
 Color: Pmenu         #4A4A4A           239               darkgrey
 
+Color: colorTitle    #3c3c3c           237               black
+Color: colorTitleNC  #2c2c2c           236               black
+
 
 ;;; Terminal
 Term colors: x_black    x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta x_darkcyan x_gray
@@ -169,6 +172,8 @@ Visual               color05           color02
  /16                 color11           color02
  /8                  none              none              reverse
 
+TitleBar             foreground        colorTitle
+TitleBarNC           color07           colorTitleNC
 
 SignColumn           none              background
  /8                  none              none
