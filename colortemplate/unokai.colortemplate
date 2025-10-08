@@ -56,6 +56,9 @@ Color: Added                 #5fd75f        77             darkgreen
 Color: Changed               #ffaf5f        215            darkyellow
 Color: Removed               #d75f5f        167            darkred
 
+Color: cTitle                #484943        237            black
+Color: cTitleNC              #383933        236            black
+
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
@@ -226,6 +229,9 @@ debugBreakpoint              color00        color09
 ; Variant: gui
 Cursor                  /gui black          white
 lCursor                 /gui color00        colorlC
+
+TitleBar                     white          cTitle
+TitleBarNC                   color07        cTitleNC
 
 ; Variant: 8
 CursorLine              /8   none           none           underline
