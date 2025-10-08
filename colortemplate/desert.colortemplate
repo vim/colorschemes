@@ -45,6 +45,9 @@ Color: color15     #c2bfa5        144            white
 Color: color16     #6b8e24        64             darkgreen
 Color: color17     #4d4d4d        239            grey
 
+Color: cTitle      #4c4c4c        237            black
+Color: cTitleNC    #3c3c3c        236            black
+
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
@@ -190,6 +193,10 @@ CursorIM -> omit   ; TBD
 
 Cursor       /gui  background     color11
 lCursor      /gui  background     color09
+
+TitleBar           foreground     cTitle
+TitleBarNC         color08        cTitleNC
+
 
 debugPC            color07        none           reverse
  /8                color07        none           reverse
