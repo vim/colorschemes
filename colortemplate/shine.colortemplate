@@ -43,6 +43,9 @@ Color: MutedRed    #a07070        95             darkred
 Color: MutedYellow #ffff60        228            yellow
 Color: Purple      #6a0dad        55             darkmagenta
 
+Color: cTitle      #ececec        255            white
+Color: cTitleNC    #f5f5f5        255            white
+
 ;;; Terminal
 
 Term colors: Black DarkRed DarkGreen Yellow DarkBlue Purple DarkCyan LightGrey
@@ -169,6 +172,8 @@ ColorColumn        Black          LightRed
  /8                Black          DarkRed
 Cursor             White          Black
 lCursor            Black          MutedRed
+TitleBar           Black          cTitle
+TitleBarNC         DarkGrey       cTitleNC
 
 SpellBad           Red            none           s=none     underline
  /8                DarkRed        none           reverse
