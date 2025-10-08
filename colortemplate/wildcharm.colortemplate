@@ -73,6 +73,8 @@ Color: colorSrch               #3a4a3a        41             green
 Color: colorInc                #5f431f        214            yellow
 Color: colorQF                 #4f2f4f        53             magenta
 
+Color: colorTitle              #3c3c3c        237            black
+Color: colorTitleNC            #2c2c2c        236            black
 
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
@@ -113,6 +115,8 @@ EndOfBuffer                    colorNonT      none
 
 Pmenu                          none           colorB
  /16                           color00        color07
+PmenuBorder                    color08        colorB
+ /16                           none           color07
 PmenuSel                       none           colorNonT
  /16                           color00        color03
 PmenuThumb                     none           color07
@@ -140,6 +144,9 @@ ModeMsg                        none           none           bold
 MoreMsg                        color10        none
 Question                       color13        none
 WarningMsg                     color11        none
+
+TitleBar                       color15        colorTitle
+TitleBarNC                     color08        colorTitleNC
 
 Todo                           color15        none           bold
  /16                           none           none           bold
@@ -359,6 +366,8 @@ Color: colorSrch               #e7f3e7        28             darkgreen
 Color: colorInc                #fff0cf        172            yellow
 Color: colorQF                 #e7cfe7        182            magenta
 
+Color: colorTitle              #ececec        255            white
+Color: colorTitleNC            #f5f5f5        255            white
 
 ; Diff colors
 Color: diffAdd                 #dafada        151            darkgreen
@@ -398,6 +407,8 @@ SpecialKey                     colorNonT      none
 
 Pmenu                          none           colorB
  /16                           color00        color07
+PmenuBorder                    color08        colorB
+ /16                           color00        color07
 PmenuSel                       none           colorTab
  /16                           color00        color03
 PmenuThumb                     none           color08
@@ -425,6 +436,9 @@ ModeMsg                        none           none           bold
 MoreMsg                        color02        none
 Question                       color05        none
 WarningMsg                     color03        none
+
+TitleBar                       color00        colorTitle
+TitleBarNC                     color08        colorTitleNC
 
 Todo                           none           none           bold
 Search                         color02        color15        reverse
