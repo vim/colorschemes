@@ -41,6 +41,8 @@ Color: grey40        #666666           241               darkgray
 Color: grey60        #999999           246               darkgray
 Color: comment       #80a0ff           111               lightblue
 Color: darkred       #8b0000           88                darkred
+Color: cTitle        #4c4c4c           237               black
+Color: cTitleNC      #3c3c3c           236               black
 
 
 Color: x_black       #000000           16                black
@@ -165,6 +167,8 @@ PmenuMatchSel        darkmagenta       grey
 QuickFixLine         white             darkmagenta
  /8                  grey              darkmagenta
 Cursor               black             green
+TitleBar             white             cTitle
+TitleBarNC           grey              cTitleNC
 Error                red               white             reverse
  /8                  red               grey              reverse
 ErrorMsg             white             red
