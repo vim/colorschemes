@@ -48,6 +48,9 @@ Color: color17     #3A3A3A        237            darkgrey
 Color: color04t    #87AFFF        111            darkblue
 Color: color12t    #005FFF        27             blue
 
+Color: cTitle      #4c4c4c        237            black
+Color: cTitleNC    #3c3c3c        236            black
+
 Term colors: color00 color01 color02 color03 color04t color05 color06 color07
              color08 color09 color10 color11 color12t color13 color14 color15
 
@@ -175,6 +178,8 @@ WildMenu           background     color11
  /8                color00        color03
 Cursor             background     foreground
 lCursor            background     color09
+TitleBar           foreground     cTitle
+TitleBarNC         color07        cTitleNC
 
 
 
