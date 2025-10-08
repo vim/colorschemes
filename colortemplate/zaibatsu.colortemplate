@@ -48,6 +48,9 @@ Color: Xbrightyellow #ffd700           ~
 Color: Xbrightblue   #8787ff           ~
 Color: Xbrightmagenta #ff87ff          ~
 Color: Xbrightcyan   #00ffff           ~
+
+Color: cTitle        #2e2044           237               black
+Color: cTitleNC      #1e1034           236               black
 ; }}}
 
 ; Terminal palette {{{
@@ -182,6 +185,8 @@ WildMenu       /16/8 white             blue
 Conceal              none              none
 Cursor               background        yellow
 CursorIM             background        yellow
+TitleBar             white             cTitle
+TitleBarNC           neutral2          cTitleNC
 Error                error             white             reverse
 ErrorMsg             white             error
 FoldColumn           darkcyan          none
