@@ -105,6 +105,9 @@ Color: elfPreProc     #ff80ff          213               magenta
 Color: elfType        #60ff60          83                green
 Color: elfBlue        #0000ff          21                blue
 
+Color: cTitle         #3c3c3c          237               black
+Color: cTitleNC       #2c2c2c          236               black
+
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -132,6 +135,8 @@ Folded                xterm14          rgbGrey40
 ; Group               Foreground       Background        Attributes
 Conceal               rgbGrey40        none
 Cursor                xterm0           xterm14
+TitleBar              xterm14          cTitle
+TitleBarNC            xterm8           cTitleNC
 Directory             Directory        xterm0
 EndOfBuffer           rgbBlue          xterm0            /gui omit omit bold
 ErrorMsg              xterm15          xterm1
