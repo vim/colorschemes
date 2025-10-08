@@ -52,6 +52,9 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorErr         #a03f2f        131            darkred
 Color: colorQF          #4f2f4f        53             magenta
 
+Color: colorTitle       #3c3c3c        237            black
+Color: colorTitleNC     #2c2c2c        236            black
+
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
 Color: diffChange       #37352f        237            darkyellow
@@ -206,6 +209,9 @@ Question                color11        none
  /8                     color03        none
 WarningMsg              color09        none
  /8                     color01        none
+
+TitleBar                white          colorTitle
+TitleBarNC              color08        colorTitleNC
 
 Todo                    white          none           bold
  /8                     colorFg        none           bold
