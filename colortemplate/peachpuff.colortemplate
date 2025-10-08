@@ -49,6 +49,10 @@ Color: darkblue    #000087        18             darkblue
 Color: darkmagenta #870087        18             darkmagenta
 Color: darkcyan    #008787        30             darkcyan
 Color: gray        #878787        102            gray
+Color: darkgray    #5f5f5f        59             darkgray
+
+Color: cTitle      #dfba99        255            white
+Color: cTitleNC    #efcaa9        254            white
 
 ;;; Terminal
 
@@ -178,6 +182,8 @@ ColorColumn        none           colorcolumn
  /8                black          darkred
 Cursor             bg0            fg0
 lCursor            fg0            constant
+TitleBar           fg0            cTitle
+TitleBarNC         darkgray       cTitleNC
 
 SpellBad           error          none           s=none       underline
  /8                darkred        none           reverse
