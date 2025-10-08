@@ -75,6 +75,9 @@ Color: Pmenu          #303030     236            darkgrey
 Color: Folded         #303030     236            darkgrey
 Color: Cursorline     #3a3a3a     237            darkgrey
 
+Color: cTitle         #3c3c3c     237            black
+Color: cTitleNC       #2c2c2c     236            black
+
 ; TODO: missing definitions
 debugBreakpoint -> omit  ; TODO: TBD
 debugPC -> omit          ; TODO: TBD
@@ -197,6 +200,8 @@ Conceal               rgbGrey40   none
 Cursor                color00     color15
 lCursor               color00     color15
 CursorIM              none        fg
+TitleBar              color15     cTitle
+TitleBarNC            color07     cTitleNC
 
 Title                 Title       none           bold
 Directory             Directory   none
