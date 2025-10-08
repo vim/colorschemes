@@ -54,6 +54,9 @@ Color: ogLightMag    #ff80ff           213               magenta
 Color: ogOrange      #ffa500           214               darkyellow
 Color: ogYellow      #ffff60           227               yellow
 
+Color: colorTitle    #3c3c66           237               black
+Color: colorTitleNC  #2c2c56           236               black
+
 
 ;;; Terminal
 Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkMag ogDarkCyan ogLightGrey
@@ -229,6 +232,9 @@ WarningMsg           ogRed             none
 WildMenu             ogYellow          black
 debugBreakpoint      ogGreen           ogDarkBlue        reverse
 debugPC              ogCyan            ogDarkBlue        reverse
+
+TitleBar             ogLightGrey       colorTitle
+TitleBarNC           ogGrey            colorTitleNC
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
