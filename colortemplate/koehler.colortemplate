@@ -103,6 +103,9 @@ Color: Statement      #ffff60          227               yellow
 Color: PreProc        #ff80ff          213               magenta
 Color: Type           #60ff60          83                green
 
+Color: cTitle         #3c3c3c          237               black
+Color: cTitleNC       #2c2c2c          236               black
+
 ; Colors specific to koehler
 Color: koeDirectory   #cc8000          172               darkyellow
 Color: koeCursorLine  #555555          240               black
@@ -191,6 +194,8 @@ ToolbarButton    /8   xterm7           xterm0            reverse,bold
 QuickFixLine          xterm0           xterm11
 Conceal               rgbGrey40        none
 Cursor                xterm0           xterm10
+TitleBar              xterm15          cTitle
+TitleBarNC            xterm7           cTitleNC
 Directory             koeDirectory     none
 EndOfBuffer           xterm1           none              bold
 ErrorMsg              xterm1           xterm15           reverse
