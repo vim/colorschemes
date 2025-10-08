@@ -48,6 +48,9 @@ Color: darkmagenta #870087        18             darkmagenta
 Color: darkcyan    #008787        30             darkcyan
 Color: gray        #878787        102            gray
 
+Color: cTitle      #ececec        255            white
+Color: cTitleNC    #f5f5f5        255            white
+
 ;;; Terminal
 
 Term colors: bg0     statement constant preproc identifier type special bg1
@@ -179,6 +182,9 @@ ColorColumn        none           colorcolumn
  /8                black          darkred
 Cursor             bg0            fg0
 lCursor            fg0            constant
+
+TitleBar           fg0            cTitle
+TitleBarNC         gray           cTitleNC
 
 SpellBad           error          none           s=none       underline
  /8                darkred        none           reverse
