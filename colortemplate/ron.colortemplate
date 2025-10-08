@@ -117,6 +117,9 @@ Color: ronSlateBlue   #6a5acd          62                blue
 Color: ronOliveDrab   #6b8e23          64                green
 Color: ronCoral       #ff7f50          209               red
 Color: ronGray30      #4d4d4d          239               darkgrey
+
+Color: cTitle         #3c3c3c          237               black
+Color: cTitleNC       #2c2c2c          236               black
 ; }}}
 ; Terminal colors {{{
 Term colors: xterm0 xterm1 xterm2 xterm3 xterm4 xterm5 xterm6 xterm7
@@ -187,6 +190,8 @@ SpellRare        /8   xterm5           xterm3            reverse
 QuickFixLine          xterm0           xterm6
 Conceal               rgbGrey40        none
 Cursor                xterm15          ronCursor
+TitleBar              xterm14          cTitle
+TitleBarNC            xterm8           cTitleNC
 Directory             Directory        none
 EndOfBuffer           xterm11          ron303030
 ErrorMsg              xterm9           xterm15           reverse
