@@ -76,6 +76,9 @@ Color: FoldedBG       #3a3a3a     237            darkgrey
 Color: Pmenu          #303030     236            darkgrey
 Color: rgbDarkRed     #8b0000     88             darkred
 
+Color: cTitle         #3c3c3c     237            black
+Color: cTitleNC       #2c2c2c     236            black
+
 ; TODO: missing definitions
 debugBreakpoint -> omit  ; TODO: TBD
 debugPC         -> omit  ; TODO: TBD
@@ -205,6 +208,8 @@ Conceal               rgbGrey40   none
 Cursor                color00     color10        /gui omit omit s=omit bold
 lCursor               color00     color07
 CursorIM              none        fg
+TitleBar              foreground  cTitle
+TitleBarNC            color08     cTitleNC
 
 Title                 Title       none           bold
 Directory             Directory   none
