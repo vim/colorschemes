@@ -68,6 +68,9 @@ Color: colorSrch               #3a4a3a        100            DarkGreen
 Color: colorInc                #5f431f        208            yellow
 Color: colorQF                 #4f2f4f        53             magenta
 
+Color: colorTitle              #3c3c3c        237            black
+Color: colorTitleNC            #2c2c2c        236            black
+
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
 Color: diffDelete              #2f1f1a        52             darkred
@@ -106,6 +109,8 @@ NonText                        bg2            none
  /16                           bg2            none
 
 Pmenu                          none           bg1
+ /16                           bg0            fg0
+PmenuBorder                    fg4            bg1
  /16                           bg0            fg0
 PmenuSbar                      none           bg1
  /16                           none           none
@@ -233,6 +238,9 @@ SpellRare                      purple         none           s=none   underline
 Title                          green          none           bold
 WarningMsg                     red            none           bold
 
+TitleBar                       fg1            colorTitle
+TitleBarNC                     fg4            colorTitleNC
+
 CursorIM                       bg0            fg0
 Ignore                         fg             none
 
@@ -302,6 +310,9 @@ Color: colorSrch               #dbebb2        100            DarkGreen
 Color: colorInc                #f7c7a7        202            Magenta
 Color: colorQF                 #e7cfd7        182            magenta
 
+Color: colorTitle              #dbcba2        255            white
+Color: colorTitleNC            #e9d9b0        255            white
+
 Color: diffAdd                 #d7d7a7        108            green
 Color: diffDelete              #e7b7a7        131            red
 Color: diffChange              #e7d7a7        250            yellow
@@ -336,6 +347,8 @@ MatchParen                     none           bg2            bold,underline
 NonText                        bg2            none
  /16                           bg2            none
 Pmenu                          none           bg2
+ /256/16                       fg1            bg1
+PmenuBorder                    fg4            bg2
  /256/16                       fg1            bg1
 PmenuSbar                      none           bg2
  /256/16                       none           bg1
@@ -462,6 +475,10 @@ SpellRare                      purple         none           s=none   underline
 Title                          green          none           bold
  /16                           none           none           bold
 WarningMsg                     red            none           bold
+
+TitleBar                       fg1            colorTitle
+TitleBarNC                     fg4            colorTitleNC
+
 ; Other conventional group names (see `:help group-name`)
 Comment                        grey           none
 Boolean                        purple         none
