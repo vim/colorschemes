@@ -56,6 +56,9 @@ Color: color14     #00FFFF        51             cyan
 Color: color07     #6C6C6C        242            grey
 Color: color15     #FFFFFF        231            white
 
+Color: cTitle      #4c4c4c        237            black
+Color: cTitleNC    #3c3c3c        236            black
+
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
 
@@ -217,6 +220,8 @@ IncSearch          background     color10
 WildMenu           background     color11
 Cursor             background     foreground
 lCursor            background     color09
+TitleBar           foreground     cTitle
+TitleBarNC         color07        cTitleNC
 
 SpellBad           color09        none           s=none    underline
  /gui              omit           omit           s=color09 undercurl
