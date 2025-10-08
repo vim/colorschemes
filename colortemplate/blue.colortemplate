@@ -58,6 +58,10 @@ Color: coral         #ff7f50           209               red
 Color: olivedrab     #6b8e23           64                green
 Color: slateblue     #6a5acd           62                darkmagenta
 
+Color: colorTitle    #1f4f87           237               black
+Color: colorTitleNC  #0f3f77           236               black
+
+
 ;;; Terminal
 Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue x_darkmagenta x_darkcyan x_gray
              x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
@@ -122,6 +126,10 @@ WarningMsg           magenta           none
 WildMenu             darkblue          yellow
 debugBreakpoint      green             darkblue          reverse
 debugPC              cyan              darkblue          reverse
+
+TitleBar             yellow            colorTitle
+TitleBarNC           comment           colorTitleNC
+
 
 ;;; Syntax
 ;;; Group            Foreground        Background        Attributes
