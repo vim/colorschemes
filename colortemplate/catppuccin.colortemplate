@@ -1,4 +1,4 @@
-; vim: ft=colortemplate fdm=marker noeb cc=32,47,62 vsts=31,15,15,4
+; vim: ft=colortemplate fdm=marker noet cc=32,47,62 vts=31,15,15,4
 Full name:   Catppuccin Latte (for light) and Mocha (for dark)
 Short name:  catppuccin
 Description: Soothing pastel theme for the high-spirited!
@@ -122,66 +122,67 @@ Search	text	search
 Background: any
 
 ; Highlights {{{
-; Variant: gui 256 16
-; Group              Foreground        Background        Attributes
-Normal               text              base
-Visual               none              surface1          bold
-Conceal              overlay1          none
-ColorColumn          none              surface0
-CurSearch            mantle            red
-Cursor               base              rosewater
-lCursor              base              red
-CursorIM             base              mauve
-CursorColumn         none              mantle
-Delimiter            overlay2          none
-Directory            blue              none
-EndOfBuffer          base              none
-ErrorMsg             red               none              bold
-Exception            mauve             none
-VertSplit            crust             none
-Folded               blue              surface1
-FoldColumn           overlay0          none
-SignColumn           surface1          none
-CursorLineNr         lavender          none
-LineNr               surface1          none
-MatchParen           peach             none              bold
-ModeMsg              text              none              bold
-MoreMsg              blue              none
-NonText              overlay0          none
-Pmenu                overlay2          mantle
-PmenuExtra           overlay0          mantle
-PmenuExtraSel        overlay0          surface0          bold
-PmenuSel             none              surface0          bold
-PmenuSbar            none              surface0
-PmenuThumb           none              overlay0
-Question             blue              none
-QuickFixLine         none              surface1          bold
-SpellBad             none              none              s=red undercurl
-SpellCap             none              none              s=yellow undercurl
-SpellLocal           none              none              s=blue undercurl
-SpellRare            none              none              s=green undercurl
-StatusLine           text              mantle
-StatusLineNC         surface1          mantle
-TabLine              overlay0          crust
-TabLineFill          none              mantle
-TabLineSel           green             surface1
-ToolbarLine          none              none
-ToolbarButton        rosewater         none              bold
-Tag                  lavender          none
-Title                blue              none              bold
-VisualNOS            none              surface1          bold
-WarningMsg           yellow            none
-WildMenu             none              overlay0
-Comment              overlay2          none
-Constant             peach             none
-Identifier           flamingo          none
-Statement            mauve             none
-PreProc              pink              none
-Type                 yellow            none
-Special              pink              none
-Underlined           text              base              underline
-Error                red               none
-Todo                 flamingo          base              bold
+; Group	Foreground	Background	Attributes
+Normal	text	base
+Visual	none	surface1	bold
+Conceal	overlay1	none
+ColorColumn	none	surface0
+CurSearch	mantle	red
+Cursor	base	rosewater
+lCursor	base	red
+CursorIM	base	mauve
+CursorColumn	none	mantle
+Delimiter	overlay2	none
+Directory	blue	none
+EndOfBuffer	base	none
+ErrorMsg	red	none	bold
+Exception	mauve	none
+VertSplit	crust	none
+Folded	blue	surface1
+FoldColumn	overlay0	none
+SignColumn	surface1	none
+CursorLineNr	lavender	none
+LineNr	surface1	none
+MatchParen	peach	none	bold
+ModeMsg	text	none	bold
+MoreMsg	blue	none
+NonText	overlay0	none
+Pmenu	overlay2	mantle
+PmenuExtra	overlay0	mantle
+PmenuExtraSel	overlay0	surface0	bold
+PmenuSel	none	surface0	bold
+PmenuSbar	none	surface0
+PmenuThumb	none	overlay0
+Question	blue	none
+QuickFixLine	none	surface1	bold
+SpellBad	none	none	s=red undercurl
+SpellCap	none	none	s=yellow undercurl
+SpellLocal	none	none	s=blue undercurl
+SpellRare	none	none	s=green undercurl
+StatusLine	text	mantle
+StatusLineNC	surface1	mantle
+TabLine	overlay0	crust
+TabLineFill	none	mantle
+TabLineSel	green	surface1
+ToolbarLine	none	none
+ToolbarButton	rosewater	none	bold
+Tag	lavender	none
+Title	blue	none	bold
+TitleBar	text	base
+TitleBarNC	overlay0	base
+VisualNOS	none	surface1	bold
+WarningMsg	yellow	none
+WildMenu	none	overlay0
+Comment	overlay2	none
+Constant	peach	none
+Identifier	flamingo	none
+Statement	mauve	none
+PreProc	pink	none
+Type	yellow	none
+Special	pink	none
+Underlined	text	base	underline
+Error	red	none
+Todo	flamingo	base	bold
 
 String	green	none
 Character	teal	none
@@ -199,34 +200,35 @@ Structure	yellow	none
 Added	green	none
 Removed	red	none
 Changed	blue	none
+
+debugPC	none	crust
+debugBreakpoint	overlay0	base
 ; }}}
 
 ; Links {{{
-Boolean              -> Constant
-CursorLineFold       -> FoldColumn
-CursorLineSign       -> FoldColumn
-Debug                -> Special
-Define               -> PreProc
-Float                -> Constant
-Ignore               -> Comment
-IncSearch            -> Search
-LineNrAbove          -> LineNr
-LineNrBelow          -> LineNr
-Number               -> Constant
-PopupNotification    -> WarningMsg
-PreCondit            -> PreProc
-SpecialChar          -> Special
-SpecialComment       -> Special
-SpecialKey           -> NonText
-StatusLineTerm       -> StatusLine
-StatusLineTermNC     -> StatusLineNC
-Terminal             -> Normal
-Typedef              -> Type
+Boolean	-> Constant
+CursorLineFold	-> FoldColumn
+CursorLineSign	-> FoldColumn
+Debug	-> Special
+Define	-> PreProc
+Float	-> Constant
+Ignore	-> Comment
+IncSearch	-> Search
+LineNrAbove	-> LineNr
+LineNrBelow	-> LineNr
+Number	-> Constant
+PopupNotification	-> WarningMsg
+PreCondit	-> PreProc
+SpecialChar	-> Special
+SpecialComment	-> Special
+SpecialKey	-> NonText
+StatusLineTerm	-> StatusLine
+StatusLineTermNC	-> StatusLineNC
+Terminal	-> Normal
+Typedef	-> Type
 ; }}}
 
 ; Plugins {{{
-debugPC	none	crust
-debugBreakpoint	overlay0	base
 dirMark	none	diffText
 LspDiagVirtualTextError	red	mantle	bold
 LspDiagVirtualTextWarning	yellow	mantle	bold
