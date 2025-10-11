@@ -153,6 +153,8 @@ PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
+PmenuMatch	peach	mantle
+PmenuMatchSel	peach	surface0
 Question	blue	none
 QuickFixLine	none	surface1	bold
 SpellBad	none	none	s=red undercurl
