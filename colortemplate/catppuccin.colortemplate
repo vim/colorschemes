@@ -11,7 +11,7 @@ Environments: gui 256 16 8 0
 
 Background: dark
 
-; Color palette {{{
+; Color palette
 Color: rosewater	#F5E0DC	224	white
 Color: flamingo	#F2CDCD	224	white
 Color: pink	#F5C2E7	225	magenta
@@ -47,14 +47,12 @@ Color: diffChange	#25293C	235	blue
 Color: diffDelete	#443244	237	red
 Color: diffText	#3E4B6B	60	blue
 Color: search	#3E5767	24	blue
-; }}}
 
-; Terminal palette {{{
+; Terminal palette
 Term colors: surface1 red green yellow blue pink teal subtext1
              surface2 red green yellow blue pink teal subtext0
-; }}}
 
-; Specially fine-tuned colors {{{
+; Specially fine-tuned colors
 ; Group	Foreground	Background	Attributes
 CursorLine	none	cursorLine
 DiffAdd	none	diffAdd
@@ -62,11 +60,10 @@ DiffChange	none	diffChange
 DiffDelete	none	diffDelete
 DiffText	none	diffText
 Search	text	search
-; }}}
 
 Background: light
 
-; Color palette {{{
+; Color palette
 Color: rosewater	#DC8A78	174	red
 Color: flamingo	#DD7878	174	red
 Color: pink	#EA76CB	206	magenta
@@ -102,14 +99,12 @@ Color: diffChange	#E0E7F5	254	blue
 Color: diffDelete	#EAC8D3	224	magenta
 Color: diffText	#B0C7F5	153	blue
 Color: search	#A8DAF0	117	cyan
-; }}}
 
-; Terminal palette {{{
+; Terminal palette
 Term colors: subtext1 red green yellow blue pink teal surface2
              subtext0 red green yellow blue pink teal surface1
-; }}}
 
-; Specially fine-tuned colors {{{
+; Specially fine-tuned colors
 ; Group	Foreground	Background	Attributes
 CursorLine	none	cursorLine
 DiffAdd	none	diffAdd
@@ -117,11 +112,10 @@ DiffChange	none	diffChange
 DiffDelete	none	diffDelete
 DiffText	none	diffText
 Search	text	search
-; }}}
 
 Background: any
 
-; Highlights {{{
+; Highlights
 ; Group	Foreground	Background	Attributes
 Normal	text	base
 Visual	none	surface1	bold
@@ -205,9 +199,8 @@ Changed	blue	none
 
 debugPC	none	crust
 debugBreakpoint	overlay0	base
-; }}}
 
-; Links {{{
+; Links
 Boolean	-> Constant
 CursorLineFold	-> FoldColumn
 CursorLineSign	-> FoldColumn
@@ -228,9 +221,8 @@ StatusLineTerm	-> StatusLine
 StatusLineTermNC	-> StatusLineNC
 Terminal	-> Normal
 Typedef	-> Type
-; }}}
 
-; Plugins {{{
+; Plugins
 dirMark	none	diffText
 LspDiagVirtualTextError	red	mantle	bold
 LspDiagVirtualTextWarning	yellow	mantle	bold
@@ -243,7 +235,6 @@ LspDiagSignInfoText	green	none	bold
 ALEVirtualTextError	-> LspDiagVirtualTextError
 ALEVirtualTextWarning	-> LspDiagVirtualTextWarning
 ALEVirtualTextInfo	-> LspDiagVirtualTextInfo
-; }}}
 
-; No color support {{{
+; No color support
 Include: _tcozero
