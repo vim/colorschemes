@@ -71,6 +71,8 @@ Color: colorQF                 #4f2f4f        53             magenta
 Color: colorTitle              #3c3c3c        237            black
 Color: colorTitleNC            #2c2c2c        236            black
 
+Color: colorShadow             #121212        233            black
+
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
 Color: diffDelete              #2f1f1a        52             darkred
@@ -110,8 +112,6 @@ NonText                        bg2            none
 
 Pmenu                          none           bg1
  /16                           bg0            fg0
-PmenuBorder                    fg4            bg1
- /16                           bg0            fg0
 PmenuSbar                      none           bg1
  /16                           none           none
 PmenuSel                       none           bg2
@@ -130,6 +130,10 @@ PmenuMatch                     purple         bg1
  /16                           bg0            fg0            bold
 PmenuMatchSel                  purple         bg2
  /16                           bg0            fg0            bold,reverse
+PmenuBorder                    fg4            bg1
+ /16                           bg0            fg0
+PmenuShadow                    fg4            colorShadow
+ /16/8                         none           none
 
 SpecialKey                     grey           none
  /16                           bg1            none
@@ -313,6 +317,8 @@ Color: colorQF                 #e7cfd7        182            magenta
 Color: colorTitle              #dbcba2        255            white
 Color: colorTitleNC            #e9d9b0        255            white
 
+Color: colorShadow             #303030        236            black
+
 Color: diffAdd                 #d7d7a7        108            green
 Color: diffDelete              #e7b7a7        131            red
 Color: diffChange              #e7d7a7        250            yellow
@@ -348,8 +354,6 @@ NonText                        bg2            none
  /16                           bg2            none
 Pmenu                          none           bg2
  /256/16                       fg1            bg1
-PmenuBorder                    fg4            bg2
- /256/16                       fg1            bg1
 PmenuSbar                      none           bg2
  /256/16                       none           bg1
 PmenuSel                       none           bg3
@@ -368,6 +372,10 @@ PmenuMatch                     purple         bg2
  /16                           fg1            bg1            bold
 PmenuMatchSel                  purple         bg3
  /16                           fg1            bg3            bold
+PmenuBorder                    fg4            bg2
+ /256/16                       fg1            bg1
+PmenuShadow                    fg4            colorShadow
+ /16/8                         none           none
 
 SpecialKey                     grey           none
  /16                           bg1            none
