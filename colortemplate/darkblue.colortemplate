@@ -57,6 +57,7 @@ Color: ogYellow      #ffff60           227               yellow
 Color: colorTitle    #3c3c66           237               black
 Color: colorTitleNC  #2c2c56           236               black
 
+Color: colorShadow   #000000           233               black
 
 ;;; Terminal
 Term colors: black  ogDarkerRed ogGreen ogOrange ogDarkBlue ogDarkMag ogDarkCyan ogLightGrey
@@ -209,6 +210,9 @@ PmenuSel             ogBlue            white
 PmenuThumb           none              white
 PmenuMatch           ogLightMag        ogBlue
 PmenuMatchSel        ogMagenta         white
+PmenuBorder          none              ogBlue
+PmenuShadow          ogGrey            colorShadow
+ /16/8               none              none
 Question             ogGreen           none
 SignColumn           ogGrey            none
 SpecialKey           ogDarkCyan        none
