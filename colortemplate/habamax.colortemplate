@@ -55,6 +55,8 @@ Color: colorQF          #4f2f4f        53             magenta
 Color: colorTitle       #3c3c3c        237            black
 Color: colorTitleNC     #2c2c2c        236            black
 
+Color: colorShadow      #121212        233            black
+
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
 Color: diffChange       #37352f        237            darkyellow
@@ -193,6 +195,10 @@ PmenuMatch              colorC         colorB
  /16/8                  none           none           bold
 PmenuMatchSel           colorC         colorNonT
  /16/8                  color03        none           bold
+PmenuBorder             color08        colorB
+ /16/8                  none           none           reverse
+PmenuShadow             color08        colorShadow
+ /16/8                  none           none
 
 SignColumn              none           none
  /8                     none           none
