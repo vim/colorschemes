@@ -54,6 +54,8 @@ Color: darkgray    #5f5f5f        59             darkgray
 Color: cTitle      #dfba99        255            white
 Color: cTitleNC    #efcaa9        254            white
 
+Color: cShadow     #303030        236            black
+
 ;;; Terminal
 
 Term colors: bg0     statement constant preproc identifier type special bg1
@@ -123,6 +125,10 @@ PmenuMatch         statement      pmenu
 PmenuMatchSel      statement      cursorline     bold
  /16               fg0            cursorline     bold
  /8                black          darkyellow     bold
+PmenuBorder        darkgray       pmenu
+ /16               none           pmenu
+PmenuShadow        bg1            cShadow
+ /16/8             none           none
 
 TabLine            bg0            bg1            underline
  /8                gray           black
