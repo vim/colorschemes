@@ -76,6 +76,8 @@ Color: colorQF                 #4f2f4f        53             magenta
 Color: colorTitle              #3c3c3c        237            black
 Color: colorTitleNC            #2c2c2c        236            black
 
+Color: colorShadow             #121212        233            black
+
 ; Diff colors
 Color: diffAdd                 #273923        22             darkgreen
 Color: diffDelete              #2f1f1a        52             darkred
@@ -115,8 +117,6 @@ EndOfBuffer                    colorNonT      none
 
 Pmenu                          none           colorB
  /16                           color00        color07
-PmenuBorder                    color08        colorB
- /16                           none           color07
 PmenuSel                       none           colorNonT
  /16                           color00        color03
 PmenuThumb                     none           color07
@@ -135,6 +135,10 @@ PmenuMatch                     color05        colorB
  /16                           color00        color07        bold
 PmenuMatchSel                  color05        colorNonT
  /16                           color00        color03        bold
+PmenuBorder                    color08        colorB
+ /16                           none           color07
+PmenuShadow                    color08        colorShadow
+ /16/8                         none           none
 
 SignColumn                     none           none
 
@@ -369,6 +373,8 @@ Color: colorQF                 #e7cfe7        182            magenta
 Color: colorTitle              #ececec        255            white
 Color: colorTitleNC            #f5f5f5        255            white
 
+Color: colorShadow             #303030        236            black
+
 ; Diff colors
 Color: diffAdd                 #dafada        151            darkgreen
 Color: diffDelete              #ffd7d7        224            darkred
@@ -407,8 +413,6 @@ SpecialKey                     colorNonT      none
 
 Pmenu                          none           colorB
  /16                           color00        color07
-PmenuBorder                    color08        colorB
- /16                           color00        color07
 PmenuSel                       none           colorTab
  /16                           color00        color03
 PmenuThumb                     none           color08
@@ -427,6 +431,10 @@ PmenuMatch                     color05        colorB
  /16                           color00        color07        bold
 PmenuMatchSel                  color05        colorTab
  /16                           color00        color03        bold
+PmenuBorder                    color08        colorB
+ /16                           color00        color07
+PmenuShadow                    color08        colorShadow
+ /16/8                         none           none
 
 SignColumn                     none           none
 
