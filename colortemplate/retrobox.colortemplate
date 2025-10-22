@@ -21,7 +21,7 @@ VisualNOS                      -> Visual
 Tag                            -> Special
 lCursor                        -> Cursor
 MessageWindow                  -> PMenu
-PopupNotification              -> Todo
+PopupNotification              -> Normal
 CurSearch                      -> IncSearch
 Terminal                       -> Normal
 LineNrAbove                    -> LineNr

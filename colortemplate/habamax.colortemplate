@@ -85,7 +85,7 @@ TabPanelFill                           -> Normal
 TabPanel                               -> Normal
 CurSearch                              -> IncSearch
 PopupSelected                          -> PmenuSel
-PopupNotification                      -> Todo
+PopupNotification                      -> Normal
 LineNrAbove                            -> LineNr
 LineNrBelow                            -> LineNr
 CursorLineFold                         -> FoldColumn

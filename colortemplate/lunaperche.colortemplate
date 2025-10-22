@@ -97,7 +97,7 @@ TabPanel                       -> Normal
 LineNrAbove                    -> LineNr
 LineNrBelow                    -> LineNr
 MessageWindow                  -> PMenu
-PopupNotification              -> Todo
+PopupNotification              -> Normal
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 CursorIM                       -> omit
