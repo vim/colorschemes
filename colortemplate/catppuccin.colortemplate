@@ -222,19 +222,5 @@ StatusLineTermNC	-> StatusLineNC
 Terminal	-> Normal
 Typedef	-> Type
 
-; Plugins
-dirMark	none	diffText
-LspDiagVirtualTextError	red	mantle	bold
-LspDiagVirtualTextWarning	yellow	mantle	bold
-LspDiagVirtualTextHint	blue	mantle	bold
-LspDiagVirtualTextInfo	green	mantle	bold
-LspDiagSignErrorText	red	none	bold
-LspDiagSignWarningText	yellow	none	bold
-LspDiagSignHintText	blue	none	bold
-LspDiagSignInfoText	green	none	bold
-ALEVirtualTextError	-> LspDiagVirtualTextError
-ALEVirtualTextWarning	-> LspDiagVirtualTextWarning
-ALEVirtualTextInfo	-> LspDiagVirtualTextInfo
-
 ; No color support
 Include: _tcozero
