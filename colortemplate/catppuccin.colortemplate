@@ -151,10 +151,14 @@ PmenuMatch	peach	none
 PmenuMatchSel	peach	surface0
 Question	blue	none
 QuickFixLine	none	surface1	bold
-SpellBad	none	none	s=red undercurl
-SpellCap	none	none	s=yellow undercurl
-SpellLocal	none	none	s=blue undercurl
-SpellRare	none	none	s=green undercurl
+SpellBad	red	none	underline
+  /gui	none	none	s=red undercurl
+SpellCap	yellow	none	underline
+  /gui	none	none	s=yellow undercurl
+SpellLocal	blue	none	underline
+  /gui	none	none	s=blue undercurl
+SpellRare	green	none	underline
+  /gui	none	none	s=green undercurl
 StatusLine	text	mantle
 StatusLineNC	surface1	mantle
 TabLine	overlay0	crust
