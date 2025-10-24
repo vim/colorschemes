@@ -38,8 +38,8 @@ Color: surface1	#45475A	239	black
 Color: surface0	#313244	236	black
 
 Color: base	#1E1E2E	234	black
-Color: mantle	#181825	234	black
-Color: crust	#11111B	233	black
+Color: mantle	#181825	233	black
+Color: crust	#11111B	232	black
 
 Color: cursorLine	#2A2B3C	236	red
 Color: diffAdd	#364143	237	green
@@ -89,8 +89,8 @@ Color: surface2	#ACB0BE	145	white
 Color: surface1	#BCC0CC	250	white
 Color: surface0	#CCD0DA	252	white
 
-Color: base	#EFF1F5	255	white
-Color: mantle	#E6E9EF	254	white
+Color: base	#EFF1F5	231	white
+Color: mantle	#E6E9EF	255	white
 Color: crust	#DCE0E8	254	white
 
 Color: cursorLine	#E9EBF1	255	white
@@ -147,7 +147,7 @@ PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
-PmenuMatch	peach	mantle
+PmenuMatch	peach	none
 PmenuMatchSel	peach	surface0
 Question	blue	none
 QuickFixLine	none	surface1	bold
@@ -203,7 +203,7 @@ debugBreakpoint	overlay0	base
 ; Links
 Boolean	-> Constant
 CursorLineFold	-> FoldColumn
-CursorLineSign	-> FoldColumn
+CursorLineSign	-> SignColumn
 Debug	-> Special
 Define	-> PreProc
 Float	-> Constant
