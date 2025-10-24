@@ -42,10 +42,10 @@ Color: mantle	#181825	233	black
 Color: crust	#11111B	232	black
 
 Color: cursorLine	#2A2B3C	236	red
-Color: diffAdd	#364143	237	green
-Color: diffChange	#25293C	235	blue
-Color: diffDelete	#443244	237	red
-Color: diffText	#3E4B6B	60	blue
+Color: diffAdd	#364143	22	darkgreen
+Color: diffChange	#25293C	235	darkblue
+Color: diffDelete	#443244	52	darkred
+Color: diffText	#3E4B6B	22	darkcyan
 Color: search	#3E5767	24	blue
 
 ; Terminal palette
