@@ -13,7 +13,7 @@ Background: dark
 
 ; Color palette
 Color: rosewater	#F5E0DC	224	white
-Color: flamingo	#F2CDCD	224	white
+Color: flamingo	#F2CDCD	181	white
 Color: pink	#F5C2E7	225	magenta
 Color: mauve	#CBA6F7	183	magenta
 Color: red	#F38BA8	211	red
@@ -21,7 +21,7 @@ Color: maroon	#EBA0AC	217	red
 Color: peach	#FAB387	216	yellow
 Color: yellow	#F9E2AF	222	yellow
 Color: green	#A6E3A1	114	green
-Color: teal	#94E2D5	116	cyan
+Color: teal	#94E2D5	158	cyan
 Color: sky	#89DCEB	116	cyan
 Color: sapphire	#74C7EC	117	blue
 Color: blue	#89B4FA	111	blue
@@ -31,21 +31,21 @@ Color: text	#CDD6F4	189	white
 Color: subtext1	#BAC2DE	146	white
 Color: subtext0	#A6ADC8	146	white
 Color: overlay2	#9399B2	103	white
-Color: overlay1	#7F849C	103	white
-Color: overlay0	#6C7086	60	white
+Color: overlay1	#7F849C	102	white
+Color: overlay0	#6C7086	59	white
 Color: surface2	#585B70	60	black
-Color: surface1	#45475A	239	black
+Color: surface1	#45475A	237	black
 Color: surface0	#313244	236	black
 
 Color: base	#1E1E2E	234	black
-Color: mantle	#181825	233	black
-Color: crust	#11111B	232	black
+Color: mantle	#181825	232	black
+Color: crust	#11111B	16	black
 
 Color: cursorLine	#2A2B3C	236	red
 Color: diffAdd	#364143	22	darkgreen
-Color: diffChange	#25293C	235	darkblue
+Color: diffChange	#25293C	237	darkblue
 Color: diffDelete	#443244	52	darkred
-Color: diffText	#3E4B6B	22	darkcyan
+Color: diffText	#3E4B6B	60	darkcyan
 Color: search	#3E5767	24	blue
 
 ; Terminal palette
@@ -65,7 +65,7 @@ Background: light
 
 ; Color palette
 Color: rosewater	#DC8A78	174	red
-Color: flamingo	#DD7878	174	red
+Color: flamingo	#DD7878	167	red
 Color: pink	#EA76CB	206	magenta
 Color: mauve	#8839EF	93	magenta
 Color: red	#D20F39	161	red
@@ -79,15 +79,15 @@ Color: sapphire	#209FB5	38	blue
 Color: blue	#1E66F5	27	blue
 Color: lavender	#7287FD	69	blue
 
-Color: text	#4C4F69	60	black
+Color: text	#4C4F69	236	black
 Color: subtext1	#5C5F77	97	black
 Color: subtext0	#6C6F85	60	black
 Color: overlay2	#7C7F93	103	black
-Color: overlay1	#8C8FA1	103	white
+Color: overlay1	#8C8FA1	246	white
 Color: overlay0	#9CA0B0	247	white
 Color: surface2	#ACB0BE	145	white
 Color: surface1	#BCC0CC	250	white
-Color: surface0	#CCD0DA	252	white
+Color: surface0	#CCD0DA	253	white
 
 Color: base	#EFF1F5	231	white
 Color: mantle	#E6E9EF	255	white
@@ -148,7 +148,7 @@ PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
 PmenuMatch	peach	none
-PmenuMatchSel	peach	surface0
+PmenuMatchSel	peach	none
 Question	blue	none
 QuickFixLine	none	surface1	bold
 SpellBad	red	none	underline
