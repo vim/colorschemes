@@ -12,41 +12,41 @@ Environments: gui 256 16 8 0
 Background: dark
 
 ; Color palette
-Color: rosewater	#F5E0DC	224	white
-Color: flamingo	#F2CDCD	181	white
-Color: pink	#F5C2E7	225	magenta
-Color: mauve	#CBA6F7	183	magenta
-Color: red	#F38BA8	211	red
-Color: maroon	#EBA0AC	217	red
-Color: peach	#FAB387	216	yellow
-Color: yellow	#F9E2AF	222	yellow
-Color: green	#A6E3A1	114	green
-Color: teal	#94E2D5	158	cyan
-Color: sky	#89DCEB	116	cyan
-Color: sapphire	#74C7EC	117	blue
-Color: blue	#89B4FA	111	blue
-Color: lavender	#B4BEFE	147	blue
+Color: rosewater	#F5E0DC	224	Yellow
+Color: flamingo	#F2CDCD	181	Yellow
+Color: pink	#F5C2E7	225	Magenta
+Color: mauve	#CBA6F7	183	DarkMagenta
+Color: red	#F38BA8	211	Red
+Color: maroon	#EBA0AC	217	DarkRed
+Color: peach	#FAB387	216	Brown
+Color: yellow	#F9E2AF	222	Yellow
+Color: green	#A6E3A1	114	Green
+Color: teal	#94E2D5	158	DarkGreen
+Color: sky	#89DCEB	116	Cyan
+Color: sapphire	#74C7EC	117	DarkCyan
+Color: blue	#89B4FA	111	Blue
+Color: lavender	#B4BEFE	147	LightGrey
 
-Color: text	#CDD6F4	189	white
-Color: subtext1	#BAC2DE	146	white
-Color: subtext0	#A6ADC8	146	white
-Color: overlay2	#9399B2	103	white
-Color: overlay1	#7F849C	102	white
-Color: overlay0	#6C7086	59	white
-Color: surface2	#585B70	60	black
-Color: surface1	#45475A	237	black
-Color: surface0	#313244	236	black
+Color: text	#CDD6F4	189	White
+Color: subtext1	#BAC2DE	146	Grey
+Color: subtext0	#A6ADC8	146	White
+Color: overlay2	#9399B2	103	White
+Color: overlay1	#7F849C	102	Grey
+Color: overlay0	#6C7086	59	Grey
+Color: surface2	#585B70	60	DarkGrey
+Color: surface1	#45475A	237	Black
+Color: surface0	#313244	236	Brown
 
-Color: base	#1E1E2E	234	black
-Color: mantle	#181825	232	black
-Color: crust	#11111B	16	black
+Color: base	#1E1E2E	234	Black
+Color: mantle	#181825	232	DarkGrey
+Color: crust	#11111B	16	Black
 
-Color: cursorLine	#2A2B3C	236	red
-Color: diffAdd	#364143	22	darkgreen
-Color: diffChange	#25293C	237	darkblue
-Color: diffDelete	#443244	52	darkred
-Color: diffText	#3E4B6B	60	darkcyan
-Color: search	#3E5767	24	blue
+Color: cursorLine	#2A2B3C	236
+Color: diffAdd	#364143	22	DarkGreen
+Color: diffChange	#25293C	237	DarkBlue
+Color: diffDelete	#443244	52	DarkRed
+Color: diffText	#3E4B6B	60	DarkCyan
+Color: search	#3E5767	24	Blue
 
 ; Terminal palette
 Term colors: surface1 red green yellow blue pink teal subtext1
@@ -55,6 +55,7 @@ Term colors: surface1 red green yellow blue pink teal subtext1
 ; Specially fine-tuned colors
 ; Group	Foreground	Background	Attributes
 CursorLine	none	cursorLine
+  /16	none	none	underline
 DiffAdd	none	diffAdd
 DiffChange	none	diffChange
 DiffDelete	none	diffDelete
@@ -64,41 +65,41 @@ Search	text	search
 Background: light
 
 ; Color palette
-Color: rosewater	#DC8A78	174	red
-Color: flamingo	#DD7878	167	red
-Color: pink	#EA76CB	206	magenta
-Color: mauve	#8839EF	93	magenta
-Color: red	#D20F39	161	red
-Color: maroon	#E64553	167	red
-Color: peach	#FE640B	202	yellow
-Color: yellow	#DF8E1D	172	yellow
-Color: green	#40A02B	34	green
-Color: teal	#179299	30	cyan
-Color: sky	#04A5E5	39	cyan
-Color: sapphire	#209FB5	38	blue
-Color: blue	#1E66F5	27	blue
-Color: lavender	#7287FD	69	blue
+Color: rosewater	#DC8A78	174	Red
+Color: flamingo	#DD7878	167	DarkRed
+Color: pink	#EA76CB	206	Magenta
+Color: mauve	#8839EF	93	DarkMagenta
+Color: red	#D20F39	161	Red
+Color: maroon	#E64553	167	DarkRed
+Color: peach	#FE640B	202	Brown
+Color: yellow	#DF8E1D	172	Yellow
+Color: green	#40A02B	34	Green
+Color: teal	#179299	30	DarkGreen
+Color: sky	#04A5E5	39	Cyan
+Color: sapphire	#209FB5	38	DarkCyan
+Color: blue	#1E66F5	27	Blue
+Color: lavender	#7287FD	69	DarkBlue
 
-Color: text	#4C4F69	236	black
-Color: subtext1	#5C5F77	97	black
-Color: subtext0	#6C6F85	60	black
-Color: overlay2	#7C7F93	103	black
-Color: overlay1	#8C8FA1	246	white
-Color: overlay0	#9CA0B0	247	white
-Color: surface2	#ACB0BE	145	white
-Color: surface1	#BCC0CC	250	white
-Color: surface0	#CCD0DA	253	white
+Color: text	#4C4F69	236	Black
+Color: subtext1	#5C5F77	97	Grey
+Color: subtext0	#6C6F85	60	Black
+Color: overlay2	#7C7F93	103	Black
+Color: overlay1	#8C8FA1	246	Grey
+Color: overlay0	#9CA0B0	247	DarkGrey
+Color: surface2	#ACB0BE	145	DarkGrey
+Color: surface1	#BCC0CC	250	White
+Color: surface0	#CCD0DA	253	Grey
 
-Color: base	#EFF1F5	231	white
-Color: mantle	#E6E9EF	255	white
-Color: crust	#DCE0E8	254	white
+Color: base	#EFF1F5	231	White
+Color: mantle	#E6E9EF	255	White
+Color: crust	#DCE0E8	254	Grey
 
-Color: cursorLine	#E9EBF1	255	white
-Color: diffAdd	#D0E2D1	152	green
-Color: diffChange	#E0E7F5	254	blue
-Color: diffDelete	#EAC8D3	224	magenta
-Color: diffText	#B0C7F5	153	blue
-Color: search	#A8DAF0	117	cyan
+Color: cursorLine	#E9EBF1	255
+Color: diffAdd	#D0E2D1	152	Green
+Color: diffChange	#E0E7F5	254	Yellow
+Color: diffDelete	#EAC8D3	224	Red
+Color: diffText	#B0C7F5	153	Cyan
+Color: search	#A8DAF0	117	Cyan
 
 ; Terminal palette
 Term colors: subtext1 red green yellow blue pink teal surface2
@@ -107,7 +108,9 @@ Term colors: subtext1 red green yellow blue pink teal surface2
 ; Specially fine-tuned colors
 ; Group	Foreground	Background	Attributes
 CursorLine	none	cursorLine
+  /16/8	none	none	underline
 DiffAdd	none	diffAdd
+  /16/8	text	diffAdd
 DiffChange	none	diffChange
 DiffDelete	none	diffDelete
 DiffText	none	diffText
@@ -119,6 +122,7 @@ Background: any
 ; Group	Foreground	Background	Attributes
 Normal	text	base
 Visual	none	surface1	bold
+  /16/8	blue	base	bold,reverse
 Conceal	overlay1	none
 ColorColumn	none	surface0
 CurSearch	mantle	red
@@ -137,6 +141,7 @@ FoldColumn	overlay0	none
 SignColumn	surface1	none
 CursorLineNr	lavender	none
 LineNr	surface1	none
+  /16/8	surface0	none
 MatchParen	peach	none	bold
 ModeMsg	text	none	bold
 MoreMsg	blue	none
@@ -147,8 +152,8 @@ PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
-PmenuMatch	peach	none
-PmenuMatchSel	peach	none
+PmenuMatch	none	none	bold
+PmenuMatchSel	none	none	bold
 Question	blue	none
 QuickFixLine	none	surface1	bold
 SpellBad	red	none	underline
@@ -161,6 +166,7 @@ SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
 StatusLine	text	mantle
 StatusLineNC	surface1	mantle
+  /16/8	overlay0	mantle	
 TabLine	overlay0	crust
 TabLineFill	none	mantle
 TabLineSel	green	surface1
