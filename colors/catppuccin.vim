@@ -71,7 +71,7 @@ if &background == 'dark'
   hi Label guifg=#74c7ec guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE term=NONE
   hi LineNr guifg=#45475a guibg=NONE guisp=NONE gui=NONE ctermfg=237 ctermbg=NONE cterm=NONE term=NONE
   hi Macro guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE term=NONE
-  hi MatchParen guifg=#fab387 guibg=NONE guisp=NONE gui=bold ctermfg=216 ctermbg=NONE cterm=bold term=bold,underline
+  hi MatchParen guifg=#fab387 guibg=#393b4d guisp=NONE gui=bold ctermfg=216 ctermbg=236 cterm=bold term=bold,underline
   hi ModeMsg guifg=#cdd6f4 guibg=NONE guisp=NONE gui=bold ctermfg=189 ctermbg=NONE cterm=bold term=bold
   hi MoreMsg guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
   hi NonText guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE term=NONE
@@ -79,14 +79,14 @@ if &background == 'dark'
   hi Pmenu guifg=#9399b2 guibg=#181825 guisp=NONE gui=NONE ctermfg=103 ctermbg=232 cterm=NONE term=reverse
   hi PmenuExtra guifg=#6c7086 guibg=#181825 guisp=NONE gui=NONE ctermfg=59 ctermbg=232 cterm=NONE term=NONE
   hi PmenuExtraSel guifg=#6c7086 guibg=#313244 guisp=NONE gui=bold ctermfg=59 ctermbg=236 cterm=bold term=bold
-  hi PmenuMatch guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
+  hi PmenuMatch guifg=#cdd6f4 guibg=NONE guisp=NONE gui=bold ctermfg=189 ctermbg=NONE cterm=bold term=bold
   hi PmenuMatchSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi PmenuSbar guifg=NONE guibg=#313244 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#313244 guisp=NONE gui=bold ctermfg=NONE ctermbg=236 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#6c7086 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=NONE
   hi PreProc guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=NONE guibg=#45475a guisp=NONE gui=bold ctermfg=NONE ctermbg=237 cterm=bold term=NONE
+  hi QuickFixLine guifg=NONE guibg=#393b4d guisp=NONE gui=bold ctermfg=NONE ctermbg=236 cterm=bold term=NONE
   hi Removed guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE term=NONE
   hi Repeat guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=#cdd6f4 guibg=#3e5767 guisp=NONE gui=NONE ctermfg=189 ctermbg=24 cterm=NONE term=reverse
@@ -162,7 +162,7 @@ if &background == 'dark'
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=DarkGrey cterm=bold
     hi ModeMsg ctermfg=White ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
@@ -170,14 +170,14 @@ if &background == 'dark'
     hi Pmenu ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
     hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
-    hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=White ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=DarkYellow cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=NONE ctermbg=Black cterm=bold
+    hi QuickFixLine ctermfg=NONE ctermbg=DarkGrey cterm=bold
     hi Removed ctermfg=Red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=White ctermbg=Blue cterm=NONE
@@ -251,7 +251,7 @@ if &background == 'dark'
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=DarkGrey cterm=bold
     hi ModeMsg ctermfg=White ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
@@ -259,14 +259,14 @@ if &background == 'dark'
     hi Pmenu ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
     hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
-    hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=White ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=DarkYellow cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=NONE ctermbg=Black cterm=bold
+    hi QuickFixLine ctermfg=NONE ctermbg=DarkGrey cterm=bold
     hi Removed ctermfg=Red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=White ctermbg=Blue cterm=NONE
@@ -359,7 +359,7 @@ if &background == 'light'
   hi Label guifg=#209fb5 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE term=NONE
   hi LineNr guifg=#bcc0cc guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi Macro guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE term=NONE
-  hi MatchParen guifg=#fe640b guibg=NONE guisp=NONE gui=bold ctermfg=202 ctermbg=NONE cterm=bold term=bold,underline
+  hi MatchParen guifg=#fe640b guibg=#cbcfd8 guisp=NONE gui=bold ctermfg=202 ctermbg=254 cterm=bold term=bold,underline
   hi ModeMsg guifg=#4c4f69 guibg=NONE guisp=NONE gui=bold ctermfg=236 ctermbg=NONE cterm=bold term=bold
   hi MoreMsg guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
   hi NonText guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE term=NONE
@@ -367,14 +367,14 @@ if &background == 'light'
   hi Pmenu guifg=#7c7f93 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=103 ctermbg=255 cterm=NONE term=reverse
   hi PmenuExtra guifg=#9ca0b0 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=247 ctermbg=255 cterm=NONE term=NONE
   hi PmenuExtraSel guifg=#9ca0b0 guibg=#ccd0da guisp=NONE gui=bold ctermfg=247 ctermbg=253 cterm=bold term=bold
-  hi PmenuMatch guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
+  hi PmenuMatch guifg=#4c4f69 guibg=NONE guisp=NONE gui=bold ctermfg=236 ctermbg=NONE cterm=bold term=bold
   hi PmenuMatchSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi PmenuSbar guifg=NONE guibg=#ccd0da guisp=NONE gui=NONE ctermfg=NONE ctermbg=253 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#ccd0da guisp=NONE gui=bold ctermfg=NONE ctermbg=253 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#9ca0b0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=247 cterm=NONE term=NONE
   hi PreProc guifg=#ea76cb guibg=NONE guisp=NONE gui=NONE ctermfg=206 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=standout
-  hi QuickFixLine guifg=NONE guibg=#bcc0cc guisp=NONE gui=bold ctermfg=NONE ctermbg=188 cterm=bold term=NONE
+  hi QuickFixLine guifg=NONE guibg=#cbcfd8 guisp=NONE gui=bold ctermfg=NONE ctermbg=254 cterm=bold term=NONE
   hi Removed guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE term=NONE
   hi Repeat guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE term=NONE
   hi Search guifg=#4c4f69 guibg=#a8daf0 guisp=NONE gui=NONE ctermfg=236 ctermbg=117 cterm=NONE term=reverse
@@ -450,7 +450,7 @@ if &background == 'light'
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=Grey cterm=bold
     hi ModeMsg ctermfg=Black ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
@@ -458,14 +458,14 @@ if &background == 'light'
     hi Pmenu ctermfg=Black ctermbg=White cterm=NONE
     hi PmenuExtra ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi PmenuExtraSel ctermfg=DarkGrey ctermbg=Grey cterm=bold
-    hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=Black ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=Grey cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=NONE ctermbg=White cterm=bold
+    hi QuickFixLine ctermfg=NONE ctermbg=Grey cterm=bold
     hi Removed ctermfg=Red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=Black ctermbg=Cyan cterm=NONE
@@ -539,7 +539,7 @@ if &background == 'light'
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
     hi LineNr ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=Grey cterm=bold
     hi ModeMsg ctermfg=Black ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
@@ -547,14 +547,14 @@ if &background == 'light'
     hi Pmenu ctermfg=Black ctermbg=White cterm=NONE
     hi PmenuExtra ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi PmenuExtraSel ctermfg=DarkGrey ctermbg=Grey cterm=bold
-    hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+    hi PmenuMatch ctermfg=Black ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=Grey cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
-    hi QuickFixLine ctermfg=NONE ctermbg=White cterm=bold
+    hi QuickFixLine ctermfg=NONE ctermbg=Grey cterm=bold
     hi Removed ctermfg=Red ctermbg=NONE cterm=NONE
     hi Repeat ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Search ctermfg=Black ctermbg=Cyan cterm=NONE

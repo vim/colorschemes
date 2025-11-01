@@ -47,24 +47,11 @@ Color: diffChange	#25293C	237	DarkYellow
 Color: diffDelete	#443244	52	DarkRed
 Color: diffText	#3E4B6B	60	DarkCyan
 Color: search	#3E5767	24	Blue
+Color: quickfixline	#393B4D	236	DarkGrey ; darken(C.surface1, 0.70, C.base)
 
 ; Terminal palette
 Term colors: surface1 red green yellow blue pink teal subtext1
              surface2 red green yellow blue pink teal subtext0
-
-; Specially fine-tuned colors
-; Group	Foreground	Background	Attributes
-CursorLine	none	cursorLine
-  /16/8	none	none	underline
-DiffAdd	none	diffAdd
-  /16/8	base	diffAdd
-DiffChange	none	diffChange
-  /16/8	base	diffChange
-DiffText	none	diffText
-  /16/8	base	diffText
-DiffDelete	none	diffDelete
-  /16/8	base	diffDelete
-Search	text	search
 
 Background: light
 
@@ -104,24 +91,11 @@ Color: diffChange	#E0E7F5	254	Yellow
 Color: diffDelete	#EAC8D3	224	Red
 Color: diffText	#B0C7F5	153	Cyan
 Color: search	#A8DAF0	117	Cyan
+Color: quickfixline	#CBCFD8	254	Grey ; darken(C.surface1, 0.70, C.base)
 
 ; Terminal palette
 Term colors: subtext1 red green yellow blue pink teal surface2
              subtext0 red green yellow blue pink teal surface1
-
-; Specially fine-tuned colors
-; Group	Foreground	Background	Attributes
-CursorLine	none	cursorLine
-  /16/8	none	none	underline
-DiffAdd	none	diffAdd
-  /16/8	base	diffAdd
-DiffChange	none	diffChange
-  /16/8	base	diffChange
-DiffText	none	diffText
-  /16/8	base	diffText
-DiffDelete	none	diffDelete
-  /16/8	base	diffDelete
-Search	text	search
 
 Background: any
 
@@ -153,7 +127,6 @@ CursorLineNr	lavender	none
   /16/8	surface0	none
 LineNr	surface1	none
   /16/8	overlay0	none
-MatchParen	peach	none	bold
 ModeMsg	text	none	bold
 MoreMsg	blue	none
 NonText	overlay0	none
@@ -163,10 +136,9 @@ PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
-PmenuMatch	none	none	bold
+PmenuMatch	text	none	bold
 PmenuMatchSel	none	none	bold
 Question	blue	none
-QuickFixLine	none	surface1	bold
 SpellBad	red	none	underline
   /gui	none	none	s=red undercurl
 SpellCap	yellow	none	underline
@@ -222,6 +194,21 @@ Changed	blue	none
 
 debugPC	none	crust
 debugBreakpoint	overlay0	base
+
+; Specially fine-tuned colors
+CursorLine	none	cursorLine
+  /16/8	none	none	underline
+DiffAdd	none	diffAdd
+  /16/8	base	diffAdd
+DiffChange	none	diffChange
+  /16/8	base	diffChange
+DiffText	none	diffText
+  /16/8	base	diffText
+DiffDelete	none	diffDelete
+  /16/8	base	diffDelete
+Search	text	search
+QuickFixLine	none	quickfixline	bold
+MatchParen	peach	quickfixline	bold
 
 ; Links
 Boolean	-> Constant
