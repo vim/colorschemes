@@ -87,7 +87,7 @@ Color: overlay2	#7C7F93	103	Black
 Color: overlay1	#8C8FA1	246	Grey
 Color: overlay0	#9CA0B0	247	DarkGrey
 Color: surface2	#ACB0BE	145	DarkGrey
-Color: surface1	#BCC0CC	250	White
+Color: surface1	#BCC0CC	188	White
 Color: surface0	#CCD0DA	253	Grey
 
 Color: base	#EFF1F5	231	White
@@ -166,7 +166,7 @@ SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
 StatusLine	text	mantle
 StatusLineNC	surface1	mantle
-  /16/8	overlay0	mantle	
+  /16/8	overlay0	mantle
 TabLine	overlay0	crust
 TabLineFill	none	mantle
 TabLineSel	green	surface1
