@@ -132,22 +132,22 @@ if &background == 'dark'
     hi Added ctermfg=Green ctermbg=NONE cterm=NONE
     hi Changed ctermfg=Blue ctermbg=NONE cterm=NONE
     hi Character ctermfg=DarkGreen ctermbg=NONE cterm=NONE
-    hi ColorColumn ctermfg=NONE ctermbg=Brown cterm=NONE
+    hi ColorColumn ctermfg=NONE ctermbg=DarkYellow cterm=NONE
     hi Comment ctermfg=White ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Conditional ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi Constant ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi Constant ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=DarkGrey ctermbg=Red cterm=NONE
     hi Cursor ctermfg=Black ctermbg=Yellow cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi CursorIM ctermfg=Black ctermbg=DarkMagenta cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-    hi CursorLineNr ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi CursorLineNr ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=White ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=NONE ctermbg=DarkGreen cterm=NONE
-    hi DiffChange ctermfg=NONE ctermbg=DarkBlue cterm=NONE
-    hi DiffDelete ctermfg=NONE ctermbg=DarkRed cterm=NONE
-    hi DiffText ctermfg=NONE ctermbg=DarkCyan cterm=NONE
+    hi DiffAdd ctermfg=Black ctermbg=DarkGreen cterm=NONE
+    hi DiffChange ctermfg=Black ctermbg=DarkYellow cterm=NONE
+    hi DiffDelete ctermfg=Black ctermbg=DarkRed cterm=NONE
+    hi DiffText ctermfg=Black ctermbg=DarkCyan cterm=NONE
     hi Directory ctermfg=Blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=Black ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=NONE cterm=NONE
@@ -160,20 +160,20 @@ if &background == 'dark'
     hi Include ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Keyword ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
-    hi LineNr ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=Brown ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
     hi ModeMsg ctermfg=White ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
-    hi PmenuExtraSel ctermfg=Grey ctermbg=Brown cterm=bold
+    hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
     hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
-    hi PmenuSbar ctermfg=NONE ctermbg=Brown cterm=NONE
-    hi PmenuSel ctermfg=NONE ctermbg=Brown cterm=bold
+    hi PmenuSbar ctermfg=NONE ctermbg=DarkYellow cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
@@ -221,48 +221,48 @@ if &background == 'dark'
     hi Added ctermfg=Green ctermbg=NONE cterm=NONE
     hi Changed ctermfg=Blue ctermbg=NONE cterm=NONE
     hi Character ctermfg=DarkGreen ctermbg=NONE cterm=NONE
-    hi ColorColumn ctermfg=NONE ctermbg=Brown cterm=NONE
+    hi ColorColumn ctermfg=Black ctermbg=Grey cterm=NONE
     hi Comment ctermfg=White ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Conditional ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi Constant ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi Constant ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=DarkGrey ctermbg=Red cterm=NONE
     hi Cursor ctermfg=Black ctermbg=Yellow cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi CursorIM ctermfg=Black ctermbg=DarkMagenta cterm=NONE
-    hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE
-    hi CursorLineNr ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
+    hi CursorLineNr ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=White ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=NONE ctermbg=DarkGreen cterm=NONE
-    hi DiffChange ctermfg=NONE ctermbg=DarkBlue cterm=NONE
-    hi DiffDelete ctermfg=NONE ctermbg=DarkRed cterm=NONE
-    hi DiffText ctermfg=NONE ctermbg=DarkCyan cterm=NONE
+    hi DiffAdd ctermfg=Black ctermbg=DarkGreen cterm=NONE
+    hi DiffChange ctermfg=Black ctermbg=DarkYellow cterm=NONE
+    hi DiffDelete ctermfg=Black ctermbg=DarkRed cterm=NONE
+    hi DiffText ctermfg=Black ctermbg=DarkCyan cterm=NONE
     hi Directory ctermfg=Blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=Black ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=NONE cterm=NONE
     hi ErrorMsg ctermfg=Red ctermbg=NONE cterm=bold
     hi Exception ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi FoldColumn ctermfg=Grey ctermbg=NONE cterm=NONE
-    hi Folded ctermfg=Blue ctermbg=Black cterm=NONE
+    hi Folded ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Function ctermfg=Blue ctermbg=NONE cterm=NONE
     hi Identifier ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Include ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Keyword ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
-    hi LineNr ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=Brown ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
     hi ModeMsg ctermfg=White ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
-    hi PmenuExtraSel ctermfg=Grey ctermbg=Brown cterm=bold
+    hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
     hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
-    hi PmenuSbar ctermfg=NONE ctermbg=Brown cterm=NONE
-    hi PmenuSel ctermfg=NONE ctermbg=Brown cterm=bold
+    hi PmenuSbar ctermfg=NONE ctermbg=DarkYellow cterm=NONE
+    hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
@@ -277,8 +277,8 @@ if &background == 'dark'
     hi SpellLocal ctermfg=Blue ctermbg=NONE cterm=underline
     hi SpellRare ctermfg=Green ctermbg=NONE cterm=underline
     hi Statement ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi StatusLine ctermfg=White ctermbg=DarkGrey cterm=NONE
-    hi StatusLineNC ctermfg=Grey ctermbg=DarkGrey cterm=NONE
+    hi StatusLine ctermfg=White ctermbg=DarkGrey cterm=bold,reverse
+    hi StatusLineNC ctermfg=Grey ctermbg=DarkGrey cterm=reverse
     hi StorageClass ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi String ctermfg=Green ctermbg=NONE cterm=NONE
     hi Structure ctermfg=Yellow ctermbg=NONE cterm=NONE
@@ -294,7 +294,7 @@ if &background == 'dark'
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=White ctermbg=Black cterm=underline
-    hi VertSplit ctermfg=Black ctermbg=NONE cterm=NONE
+    hi VertSplit ctermfg=Black ctermbg=Grey cterm=NONE
     hi Visual ctermfg=Blue ctermbg=Black cterm=bold,reverse
     hi VisualNOS ctermfg=NONE ctermbg=Black cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
@@ -424,18 +424,18 @@ if &background == 'light'
     hi Comment ctermfg=Black ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Conditional ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi Constant ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi Constant ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=White ctermbg=Red cterm=NONE
     hi Cursor ctermfg=White ctermbg=Red cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=White cterm=NONE
     hi CursorIM ctermfg=White ctermbg=DarkMagenta cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-    hi CursorLineNr ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi CursorLineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=Black ctermbg=Green cterm=NONE
-    hi DiffChange ctermfg=NONE ctermbg=Yellow cterm=NONE
-    hi DiffDelete ctermfg=NONE ctermbg=Red cterm=NONE
-    hi DiffText ctermfg=NONE ctermbg=Cyan cterm=NONE
+    hi DiffAdd ctermfg=White ctermbg=Green cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=Yellow cterm=NONE
+    hi DiffDelete ctermfg=White ctermbg=Red cterm=NONE
+    hi DiffText ctermfg=White ctermbg=Cyan cterm=NONE
     hi Directory ctermfg=Blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=White ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=NONE cterm=NONE
@@ -448,9 +448,9 @@ if &background == 'light'
     hi Include ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Keyword ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
-    hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi LineNr ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=Brown ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
     hi ModeMsg ctermfg=Black ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
@@ -509,37 +509,37 @@ if &background == 'light'
     hi Added ctermfg=Green ctermbg=NONE cterm=NONE
     hi Changed ctermfg=Blue ctermbg=NONE cterm=NONE
     hi Character ctermfg=DarkGreen ctermbg=NONE cterm=NONE
-    hi ColorColumn ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi ColorColumn ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi Comment ctermfg=Black ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Conditional ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi Constant ctermfg=Brown ctermbg=NONE cterm=NONE
+    hi Constant ctermfg=DarkYellow ctermbg=NONE cterm=NONE
     hi CurSearch ctermfg=White ctermbg=Red cterm=NONE
     hi Cursor ctermfg=White ctermbg=Red cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=White cterm=NONE
     hi CursorIM ctermfg=White ctermbg=DarkMagenta cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
-    hi CursorLineNr ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi CursorLineNr ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
-    hi DiffAdd ctermfg=Black ctermbg=Green cterm=NONE
-    hi DiffChange ctermfg=NONE ctermbg=Yellow cterm=NONE
-    hi DiffDelete ctermfg=NONE ctermbg=Red cterm=NONE
-    hi DiffText ctermfg=NONE ctermbg=Cyan cterm=NONE
+    hi DiffAdd ctermfg=White ctermbg=Green cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=Yellow cterm=NONE
+    hi DiffDelete ctermfg=White ctermbg=Red cterm=NONE
+    hi DiffText ctermfg=White ctermbg=Cyan cterm=NONE
     hi Directory ctermfg=Blue ctermbg=NONE cterm=NONE
     hi EndOfBuffer ctermfg=White ctermbg=NONE cterm=NONE
     hi Error ctermfg=Red ctermbg=NONE cterm=NONE
     hi ErrorMsg ctermfg=Red ctermbg=NONE cterm=bold
     hi Exception ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi FoldColumn ctermfg=DarkGrey ctermbg=NONE cterm=NONE
-    hi Folded ctermfg=Blue ctermbg=White cterm=NONE
+    hi Folded ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Function ctermfg=Blue ctermbg=NONE cterm=NONE
     hi Identifier ctermfg=DarkRed ctermbg=NONE cterm=NONE
     hi Include ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Keyword ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
     hi Label ctermfg=DarkCyan ctermbg=NONE cterm=NONE
-    hi LineNr ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi LineNr ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Macro ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi MatchParen ctermfg=Brown ctermbg=NONE cterm=bold
+    hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
     hi ModeMsg ctermfg=Black ctermbg=NONE cterm=bold
     hi MoreMsg ctermfg=Blue ctermbg=NONE cterm=NONE
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
@@ -565,8 +565,8 @@ if &background == 'light'
     hi SpellLocal ctermfg=Blue ctermbg=NONE cterm=underline
     hi SpellRare ctermfg=Green ctermbg=NONE cterm=underline
     hi Statement ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
-    hi StatusLine ctermfg=Black ctermbg=White cterm=NONE
-    hi StatusLineNC ctermfg=DarkGrey ctermbg=White cterm=NONE
+    hi StatusLine ctermfg=Black ctermbg=White cterm=bold,reverse
+    hi StatusLineNC ctermfg=DarkGrey ctermbg=White cterm=reverse
     hi StorageClass ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi String ctermfg=Green ctermbg=NONE cterm=NONE
     hi Structure ctermfg=Yellow ctermbg=NONE cterm=NONE
@@ -582,7 +582,7 @@ if &background == 'light'
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=Black ctermbg=White cterm=underline
-    hi VertSplit ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi VertSplit ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi Visual ctermfg=Blue ctermbg=White cterm=bold,reverse
     hi VisualNOS ctermfg=NONE ctermbg=White cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE

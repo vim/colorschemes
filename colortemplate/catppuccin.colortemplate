@@ -18,7 +18,7 @@ Color: pink	#F5C2E7	225	Magenta
 Color: mauve	#CBA6F7	183	DarkMagenta
 Color: red	#F38BA8	211	Red
 Color: maroon	#EBA0AC	217	DarkRed
-Color: peach	#FAB387	216	Brown
+Color: peach	#FAB387	216	DarkYellow
 Color: yellow	#F9E2AF	222	Yellow
 Color: green	#A6E3A1	114	Green
 Color: teal	#94E2D5	158	DarkGreen
@@ -35,7 +35,7 @@ Color: overlay1	#7F849C	102	Grey
 Color: overlay0	#6C7086	59	Grey
 Color: surface2	#585B70	60	DarkGrey
 Color: surface1	#45475A	237	Black
-Color: surface0	#313244	236	Brown
+Color: surface0	#313244	236	DarkYellow
 
 Color: base	#1E1E2E	234	Black
 Color: mantle	#181825	232	DarkGrey
@@ -43,7 +43,7 @@ Color: crust	#11111B	16	Black
 
 Color: cursorLine	#2A2B3C	236
 Color: diffAdd	#364143	22	DarkGreen
-Color: diffChange	#25293C	237	DarkBlue
+Color: diffChange	#25293C	237	DarkYellow
 Color: diffDelete	#443244	52	DarkRed
 Color: diffText	#3E4B6B	60	DarkCyan
 Color: search	#3E5767	24	Blue
@@ -55,11 +55,15 @@ Term colors: surface1 red green yellow blue pink teal subtext1
 ; Specially fine-tuned colors
 ; Group	Foreground	Background	Attributes
 CursorLine	none	cursorLine
-  /16	none	none	underline
+  /16/8	none	none	underline
 DiffAdd	none	diffAdd
+  /16/8	base	diffAdd
 DiffChange	none	diffChange
-DiffDelete	none	diffDelete
+  /16/8	base	diffChange
 DiffText	none	diffText
+  /16/8	base	diffText
+DiffDelete	none	diffDelete
+  /16/8	base	diffDelete
 Search	text	search
 
 Background: light
@@ -71,7 +75,7 @@ Color: pink	#EA76CB	206	Magenta
 Color: mauve	#8839EF	93	DarkMagenta
 Color: red	#D20F39	161	Red
 Color: maroon	#E64553	167	DarkRed
-Color: peach	#FE640B	202	Brown
+Color: peach	#FE640B	202	DarkYellow
 Color: yellow	#DF8E1D	172	Yellow
 Color: green	#40A02B	34	Green
 Color: teal	#179299	30	DarkGreen
@@ -110,10 +114,13 @@ Term colors: subtext1 red green yellow blue pink teal surface2
 CursorLine	none	cursorLine
   /16/8	none	none	underline
 DiffAdd	none	diffAdd
-  /16/8	text	diffAdd
+  /16/8	base	diffAdd
 DiffChange	none	diffChange
-DiffDelete	none	diffDelete
+  /16/8	base	diffChange
 DiffText	none	diffText
+  /16/8	base	diffText
+DiffDelete	none	diffDelete
+  /16/8	base	diffDelete
 Search	text	search
 
 Background: any
@@ -125,6 +132,7 @@ Visual	none	surface1	bold
   /16/8	blue	base	bold,reverse
 Conceal	overlay1	none
 ColorColumn	none	surface0
+  /8	base	overlay0
 CurSearch	mantle	red
 Cursor	base	rosewater
 lCursor	base	red
@@ -136,12 +144,15 @@ EndOfBuffer	base	none
 ErrorMsg	red	none	bold
 Exception	mauve	none
 VertSplit	crust	none
+  /8	base	overlay0
 Folded	blue	surface1
+  /8	overlay0	none
 FoldColumn	overlay0	none
 SignColumn	surface1	none
 CursorLineNr	lavender	none
-LineNr	surface1	none
   /16/8	surface0	none
+LineNr	surface1	none
+  /16/8	overlay0	none
 MatchParen	peach	none	bold
 ModeMsg	text	none	bold
 MoreMsg	blue	none
@@ -165,8 +176,10 @@ SpellLocal	blue	none	underline
 SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
 StatusLine	text	mantle
+  /8	text	mantle	reverse,bold
 StatusLineNC	surface1	mantle
-  /16/8	overlay0	mantle
+  /16	overlay0	mantle
+  /8	overlay0	mantle	reverse
 TabLine	overlay0	crust
 TabLineFill	none	mantle
 TabLineSel	green	surface1
