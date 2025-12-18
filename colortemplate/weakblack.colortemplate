@@ -70,7 +70,6 @@ PopupNotification    -> WarningMsg
 PopupSelected        -> PmenuSel
 PreCondit            -> PreProc
 PreInsert            -> NonText
-QuickFixLine         -> Search
 Removed              -> diffRemoved
 Repeat               -> Statement
 SpecialChar          -> Special
@@ -103,18 +102,11 @@ CocErrorSign         -> ErrorMsg
 CocVirtualText       -> Conceal
 CocMarkdownLink      -> Conceal
 
-; Each color has an arbitrary name, a hex value (for GUI and
-; terminals supporting millions of colors), a base-256 value
-; (that is, a number between 16 and 255), and an optional
-; base-16 value (a number between 0 and 15 or, better, a
-; color name: see :help cterm-colors).
-; The base-256 value is inferred automatically by
-; Colortemplate when ~ is used.
-
+; basic colors {{{
 ; Color name         GUI         Base256                 Base16 (optional)
 Color: w0            #080808     ~                       0
-Color: w1            #0e0e0e     ~
-Color: w2            #191919     ~
+Color: w1            #0e0e0e     ~                       0
+Color: w2            #191919     ~                       0
 Color: w3            #222222     ~
 Color: w4            #2c2c2c     ~                       8
 Color: w5            #373737     ~
@@ -141,9 +133,10 @@ Color: r0            #d75f5f     ~
 Color: r1            #ffaf5f     ~
 Color: r2            #5fd75f     ~
 Color: r3            #d787d7     ~
+; }}}
 
 Normal               w19               w2
-Normal/16/0          w23               w0
+Normal/16/8/0        w23               w0
 Terminal             w19               w2
 
 ; The following is a 'discriminator'. It is defined using
@@ -183,6 +176,7 @@ PmenuThumb           none              w12
 Question             fg                bg
 Search               w4                w20
 IncSearch            w4                w17
+QuickFixLine         w4                w15
 SignColumn           none              w3
 SpellBad             r0                none              underline
 SpellCap             r1                none              underline
@@ -195,6 +189,7 @@ VertSplit            w11               bg
 WildMenu             w2                w20
 Title                none              none              bold
 Visual               none              w6
+Visual/16/8          none              none              reverse
 
 Bold                 fg                none              bold
 BoldItalic           fg                none              bold,italic
