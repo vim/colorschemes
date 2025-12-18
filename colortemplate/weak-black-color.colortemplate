@@ -1,0 +1,223 @@
+; vim: ft=colortemplate fdm=marker et ts=2 sw=2 vsts=21,18,18,2 nowrap
+
+; nmap <F5> :w\|Colortemplate! \| ColortemplateShow<cr> | nmap <F4> :ColortemplateHide<cr>
+
+; Add the following to force Vim9 script syntax highlighting in this template's
+; verbatim blocks. Adding vim9script here has no effect on the resulting color
+; scheme (this keyword is effectively treated as a comment).
+vim9script
+
+; Mandatory metadata:
+Full name:     Weak Black Color
+Short name:    weakblack
+Author:        A4-Tacks <wdsjxhno1001@163.com>
+URL:           https://github.com/A4-Tacks/weak-black-color.vim
+License:       MIT
+
+; The backend determines how the code is generated.
+; 'vim9' is the default: use 'vim' for legacy Vim script
+Options:       backend=vim     ; Generate Vim script code
+Options:       palette=true    ; Append the color palette to the output as a comment
+Options:       dateformat="%c" ; Custom date format (strftime() syntax)
+
+; An optional prefix for the color scheme's settings. This is typically
+; used in the help file (see `_help.colortemplate`) and in discriminators
+; (see below). If not provided, it is set equal to the short name.
+Prefix: weakblack
+
+; Variants tell Colortemplate for which environments to generate highlight
+; group definitions. The 'gui' variant is always enabled and doesn't have to be
+; specified (unless it's the only one to be supported).
+Environments:   gui 256 16 0
+
+; The background must be defined before any color or highlight group.
+Background: dark
+
+; Linked groups do not depend on colors, so they may be
+; defined before defining colors:
+Added                -> diffAdded
+Changed              -> diffChanged
+Boolean              -> Constant
+ComplMatchIns        -> Normal
+Conditional          -> Statement
+CurSearch            -> IncSearch
+CursorLineFold       -> FoldColumn
+CursorLineSign       -> SignColumn
+Debug                -> Special
+debugPC              -> SignColumn
+debugBreakpoint      -> SignColumn
+Define               -> PreProc
+Exception            -> Statement
+EndOfBuffer          -> NonText
+Float                -> Constant
+Function             -> Identifier
+Include              -> PreProc
+Keyword              -> Statement
+Label                -> Statement
+LineNrAbove          -> LineNr
+LineNrBelow          -> LineNr
+Macro                -> PreProc
+MessageWindow        -> WarningMsg
+Number               -> Constant
+Operator             -> Statement
+PmenuBorder          -> Pmenu
+PmenuKind            -> Pmenu
+PmenuKindSel         -> PmenuSel
+PmenuExtra           -> Pmenu
+PmenuExtraSel        -> PmenuSel
+PmenuShadow          -> Normal
+PopupNotification    -> WarningMsg
+PopupSelected        -> PmenuSel
+PreCondit            -> PreProc
+PreInsert            -> NonText
+QuickFixLine         -> Search
+Removed              -> diffRemoved
+Repeat               -> Statement
+SpecialChar          -> Special
+StatusLineTerm       -> StatusLine
+StatusLineTermNC     -> StatusLineNC
+StorageClass         -> Type
+Structure            -> Type
+Tag                  -> Special
+Typedef              -> Type
+lCursor              -> Cursor
+CursorIM             -> Cursor
+Error                -> ErrorMsg
+FoldColumn           -> SignColumn
+VisualNOS            -> Visual
+TabLine              -> StatusLineNC
+TabLineFill          -> StatusLineNC
+TabLineSel           -> StatusLine
+ToolbarLine          -> StatusLineNC
+ToolbarButton        -> StatusLine
+SpecialKey           -> Conceal
+Directory            -> Todo
+
+CocFloatThumb        -> PmenuThumb
+CocFloatSbar         -> PmenuSbar
+CocSearch            -> PmenuMatchSel
+CocMenuSel           -> PmenuSel
+CocFloating          -> Pmenu
+CocErrorFloat        -> ErrorMsg
+CocErrorSign         -> ErrorMsg
+CocVirtualText       -> Conceal
+CocMarkdownLink      -> Conceal
+
+; Each color has an arbitrary name, a hex value (for GUI and
+; terminals supporting millions of colors), a base-256 value
+; (that is, a number between 16 and 255), and an optional
+; base-16 value (a number between 0 and 15 or, better, a
+; color name: see :help cterm-colors).
+; The base-256 value is inferred automatically by
+; Colortemplate when ~ is used.
+
+; Color name         GUI         Base256                 Base16 (optional)
+Color: w0            #080808     ~                       0
+Color: w1            #0e0e0e     ~
+Color: w2            #191919     ~
+Color: w3            #222222     ~
+Color: w4            #2c2c2c     ~                       8
+Color: w5            #373737     ~
+Color: w6            #424242     ~
+Color: w7            #4d4d4d     ~
+Color: w8            #585858     ~
+Color: w9            #636363     ~                       8
+Color: w10           #6e6e6e     ~                       8
+Color: w11           #797979     ~                       8
+Color: w12           #858585     ~                       7
+Color: w13           #909090     ~                       7
+Color: w14           #9b9b9b     ~                       7
+Color: w15           #a6a6a6     ~
+Color: w16           #b1b1b1     ~
+Color: w17           #bcbcbc     ~                       7
+Color: w18           #c7c7c7     ~
+Color: w19           #d2d2d2     ~
+Color: w20           #dddddd     ~                       15
+Color: w21           #e8e8e8     ~
+Color: w22           #f3f3f3     ~
+Color: w23           #ffffff     ~                       15
+
+Color: r0            #d75f5f     ~
+Color: r1            #ffaf5f     ~
+Color: r2            #5fd75f     ~
+Color: r3            #d787d7     ~
+
+Normal               w19               w2
+Normal/16/0          w23               w0
+Terminal             w19               w2
+
+; The following is a 'discriminator'. It is defined using
+; Vim 9 script syntax and it is used to override some
+; highlight group definitions when the discriminator has
+; certain values.
+#const transp_bg = get(g:, '@prefix_transp_bg', 0)
+
+; Group              Foreground        Background        Attributes
+ColorColumn          none              w5
+Conceal              w9                none
+Cursor               none              none              reverse
+CursorColumn         none              w3
+CursorLine           none              w3
+CursorLineNr         fg                none              bold
+DiffAdd              w15               w10
+DiffChange           w15               w5
+DiffDelete           w15               w1
+DiffText             w19               w8                bold
+diffAdded            w14               none
+diffChanged          w11               none              bold
+diffRemoved          w8                none
+ErrorMsg             w23               w0                reverse
+WarningMsg           w19               w4                reverse
+Folded               w15               w4
+LineNr               w8                none
+MatchParen           none              w7                bold
+ModeMsg              fg                bg                bold
+MoreMsg              fg                bg
+NonText              w8                none
+Pmenu                w19               w3
+PmenuSel             none              w4
+PmenuMatch           none              none
+PmenuMatchSel        w13               none
+PmenuSbar            none              w9
+PmenuThumb           none              w12
+Question             fg                bg
+Search               w4                w20
+IncSearch            w4                w17
+SignColumn           none              w3
+SpellBad             r0                none              underline
+SpellCap             r1                none              underline
+SpellLocal           r2                none              underline
+SpellRare            r3                none              underline
+Underlined           r3                none              bold,underline
+StatusLine           w2                w14
+StatusLineNC         w2                w10
+VertSplit            w11               bg
+WildMenu             w2                w20
+Title                none              none              bold
+Visual               none              w6
+
+Bold                 fg                none              bold
+BoldItalic           fg                none              bold,italic
+Comment              w9                none
+Constant             w10               none
+String               w11               none
+Character            w15               none
+Identifier           w14               none
+Ignore               none              none
+Italic               none              none              italic
+PreProc              w12               none
+Special              w16               none
+SpecialComment       w11               none
+Delimiter            w14               none
+Statement            w13               none
+Todo                 w23               none              bold
+Type                 w15               none
+
+WordLight            none              none              underline
+EOLWhiteSpace        none              w4
+User1                w23               w10
+CocInlayHint         w19               w4
+DiagnosticSignError  w23               w13
+DiagnosticSignWarn   w20               w13
+DiagnosticSignHint   w15               w3
+DiagnosticSignInfo   w10               w5
