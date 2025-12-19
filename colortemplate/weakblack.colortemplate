@@ -142,7 +142,7 @@ TitleBarNC           w10               w1
 ; }}}
 
 Normal               w19               w2
-Normal/16/8/0        w23               w0
+Normal/16/8          w23               w0
 Terminal             w19               w2
 
 ; The following is a 'discriminator'. It is defined using
@@ -232,3 +232,6 @@ DiagnosticSignError  w23               w13
 DiagnosticSignWarn   w20               w13
 DiagnosticSignHint   w15               w3
 DiagnosticSignInfo   w10               w5
+
+; Template for black & white terminals
+Include: _tcozero
