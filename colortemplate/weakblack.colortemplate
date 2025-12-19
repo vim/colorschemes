@@ -160,7 +160,10 @@ CursorColumn         none              w3
 CursorLine           none              w3
 CursorLineNr         fg                none              bold
 DiffAdd              w15               w10
+DiffAdd/16           w23               w10
+DiffAdd/8            w23               w3                bold
 DiffChange           w15               w5
+DiffChange/16/8      w23               none              underline
 DiffDelete           w15               w1
 DiffText             w19               w8                bold
 diffAdded            w14               none
