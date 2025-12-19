@@ -28,12 +28,12 @@ Prefix: weakblack
 ; Variants tell Colortemplate for which environments to generate highlight
 ; group definitions. The 'gui' variant is always enabled and doesn't have to be
 ; specified (unless it's the only one to be supported).
-Environments:   gui 256 16 0
+Environments:   gui 256 16 8 0
 
 ; The background must be defined before any color or highlight group.
 Background: dark
 
-; Linked groups do not depend on colors, so they may be
+; Linked groups do not depend on colors, so they may be {{{
 ; defined before defining colors:
 Added                -> diffAdded
 Changed              -> diffChanged
@@ -101,7 +101,7 @@ CocErrorFloat        -> ErrorMsg
 CocErrorSign         -> ErrorMsg
 CocVirtualText       -> Conceal
 CocMarkdownLink      -> Conceal
-
+; }}}
 ; basic colors {{{
 ; Color name         GUI         Base256                 Base16 (optional)
 Color: w0            #080808     ~                       0
@@ -134,6 +134,8 @@ Color: r1            #ffaf5f     ~
 Color: r2            #5fd75f     ~
 Color: r3            #d787d7     ~
 ; }}}
+; 8 colors {{{
+; }}}
 ; side color and groups {{{
 TitleBar             w20               w4
 TitleBarNC           w10               w1
@@ -152,6 +154,7 @@ Terminal             w19               w2
 ; Group              Foreground        Background        Attributes
 ColorColumn          none              w5
 Conceal              w9                none
+Conceal/8            w23               none
 Cursor               none              none              reverse
 CursorColumn         none              w3
 CursorLine           none              w3
@@ -176,6 +179,7 @@ PmenuSel             none              w4
 PmenuMatch           none              none
 PmenuMatchSel        w13               none
 PmenuSbar            none              w9
+PmenuSbar/8          none              w23
 PmenuThumb           none              w12
 Question             fg                bg
 Search               w4                w20
@@ -188,8 +192,11 @@ SpellLocal           r2                none              underline
 SpellRare            r3                none              underline
 Underlined           r3                none              bold,underline
 StatusLine           w2                w14
+StatusLine/8         w0                w23               bold
 StatusLineNC         w2                w10
+StatusLineNC/8       w23               w0                underline
 VertSplit            w11               bg
+VertSplit/8          none              bg
 WildMenu             w2                w20
 Title                none              none              bold
 Visual               none              w6
@@ -198,15 +205,20 @@ Visual/16/8          none              none              reverse
 Bold                 fg                none              bold
 BoldItalic           fg                none              bold,italic
 Comment              w9                none
+Comment/8            none              none              bold
 Constant             w10               none
+Constant/8           none              none
 String               w11               none
+String/8             none              none
 Character            w15               none
 Identifier           w14               none
+Identifier/8         w23               none              underline
 Ignore               none              none
 Italic               none              none              italic
 PreProc              w12               none
 Special              w16               none
 SpecialComment       w11               none
+SpecialComment/8     none              none              bold,italic
 Delimiter            w14               none
 Statement            w13               none
 Todo                 w23               none              bold
