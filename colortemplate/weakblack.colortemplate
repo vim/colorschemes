@@ -134,6 +134,10 @@ Color: r1            #ffaf5f     ~
 Color: r2            #5fd75f     ~
 Color: r3            #d787d7     ~
 ; }}}
+; side color and groups {{{
+TitleBar             w20               w4
+TitleBarNC           w10               w2
+; }}}
 
 Normal               w19               w2
 Normal/16/8/0        w23               w0
