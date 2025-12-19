@@ -129,10 +129,10 @@ Color: w21           #e8e8e8     ~
 Color: w22           #f3f3f3     ~
 Color: w23           #ffffff     ~                       15
 
-Color: r0            #d75f5f     ~
-Color: r1            #ffaf5f     ~
-Color: r2            #5fd75f     ~
-Color: r3            #d787d7     ~
+Color: r0            #d75f5f     ~                       1
+Color: r1            #ffaf5f     ~                       3
+Color: r2            #5fd75f     ~                       2
+Color: r3            #d787d7     ~                       5
 ; }}}
 ; 8 colors {{{
 ; }}}
