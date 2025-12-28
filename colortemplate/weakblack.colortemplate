@@ -185,9 +185,9 @@ PmenuSbar            none              w9
 PmenuSbar/8          none              w23
 PmenuThumb           none              w12
 Question             fg                bg
-Search               w4                w20
-IncSearch            w4                w17
-QuickFixLine         w4                w15
+Search               w20               w4                reverse
+IncSearch            w17               w4                reverse
+QuickFixLine         w15               w4                reverse
 SignColumn           none              w3
 SpellBad             r0                none              underline
 SpellCap             r1                none              underline
