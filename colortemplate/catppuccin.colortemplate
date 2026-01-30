@@ -195,6 +195,7 @@ Changed	blue	none
 
 debugPC	none	crust
 debugBreakpoint	overlay0	base
+
 qfLineNr	yellow	none
 qfFileName	blue	none
 diffAdded	green	none
@@ -205,6 +206,16 @@ diffNewFile	peach	none
 diffFile	blue	none
 diffLine	overlay0	none
 diffIndexLine	teal	none
+
+csvCol0	red	none
+csvCol1	peach	none
+csvCol2	yellow	none
+csvCol3	green	none
+csvCol4	sky	none
+csvCol5	blue	none
+csvCol6	lavender	none
+csvCol7	mauve	none
+csvCol8	pink	none
 
 markdownHeadingDelimiter	peach	none	bold
 markdownCode	flamingo	none

@@ -120,6 +120,15 @@ if &background == 'dark'
   hi VisualNOS guifg=NONE guibg=#45475a guisp=NONE gui=bold ctermfg=NONE ctermbg=240 cterm=bold term=NONE
   hi WarningMsg guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=standout
   hi WildMenu guifg=NONE guibg=#6c7086 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=bold
+  hi csvCol0 guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol1 guifg=#fab387 guibg=NONE guisp=NONE gui=NONE ctermfg=216 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol2 guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol3 guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol4 guifg=#89dceb guibg=NONE guisp=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol5 guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol6 guifg=#b4befe guibg=NONE guisp=NONE gui=NONE ctermfg=147 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol7 guifg=#cba6f7 guibg=NONE guisp=NONE gui=NONE ctermfg=183 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol8 guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE term=NONE
   hi debugBreakpoint guifg=#6c7086 guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
   hi debugPC guifg=NONE guibg=#11111b guisp=NONE gui=NONE ctermfg=NONE ctermbg=16 cterm=NONE term=NONE
   hi diffAdded guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
@@ -238,6 +247,15 @@ if &background == 'dark'
     hi VisualNOS ctermfg=NONE ctermbg=Black cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi WildMenu ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi csvCol0 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi csvCol1 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi csvCol2 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi csvCol3 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi csvCol4 ctermfg=Cyan ctermbg=NONE cterm=NONE
+    hi csvCol5 ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi csvCol6 ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi csvCol7 ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
+    hi csvCol8 ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=Grey ctermbg=Black cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Black cterm=NONE
     hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
@@ -350,6 +368,15 @@ if &background == 'dark'
     hi VisualNOS ctermfg=NONE ctermbg=Black cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi WildMenu ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi csvCol0 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi csvCol1 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi csvCol2 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi csvCol3 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi csvCol4 ctermfg=Cyan ctermbg=NONE cterm=NONE
+    hi csvCol5 ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi csvCol6 ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi csvCol7 ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
+    hi csvCol8 ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=Grey ctermbg=Black cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Black cterm=NONE
     hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
@@ -479,6 +506,15 @@ if &background == 'light'
   hi VisualNOS guifg=NONE guibg=#bcc0cc guisp=NONE gui=bold ctermfg=NONE ctermbg=250 cterm=bold term=NONE
   hi WarningMsg guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=standout
   hi WildMenu guifg=NONE guibg=#9ca0b0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=247 cterm=NONE term=bold
+  hi csvCol0 guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol1 guifg=#fe640b guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol2 guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol3 guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol4 guifg=#04a5e5 guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol5 guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol6 guifg=#7287fd guibg=NONE guisp=NONE gui=NONE ctermfg=69 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol7 guifg=#8839ef guibg=NONE guisp=NONE gui=NONE ctermfg=93 ctermbg=NONE cterm=NONE term=NONE
+  hi csvCol8 guifg=#ea76cb guibg=NONE guisp=NONE gui=NONE ctermfg=206 ctermbg=NONE cterm=NONE term=NONE
   hi debugBreakpoint guifg=#9ca0b0 guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=247 ctermbg=231 cterm=NONE term=NONE
   hi debugPC guifg=NONE guibg=#dce0e8 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=NONE
   hi diffAdded guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE term=NONE
@@ -597,6 +633,15 @@ if &background == 'light'
     hi VisualNOS ctermfg=NONE ctermbg=White cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi WildMenu ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+    hi csvCol0 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi csvCol1 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi csvCol2 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi csvCol3 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi csvCol4 ctermfg=Cyan ctermbg=NONE cterm=NONE
+    hi csvCol5 ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi csvCol6 ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi csvCol7 ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
+    hi csvCol8 ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Grey cterm=NONE
     hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
@@ -709,6 +754,15 @@ if &background == 'light'
     hi VisualNOS ctermfg=NONE ctermbg=White cterm=bold
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi WildMenu ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+    hi csvCol0 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi csvCol1 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi csvCol2 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi csvCol3 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi csvCol4 ctermfg=Cyan ctermbg=NONE cterm=NONE
+    hi csvCol5 ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi csvCol6 ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi csvCol7 ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
+    hi csvCol8 ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Grey cterm=NONE
     hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
