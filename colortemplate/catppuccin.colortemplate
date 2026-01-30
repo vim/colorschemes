@@ -88,7 +88,7 @@ Color: diffChange	#E0E7F5	254	Yellow
 Color: diffDelete	#EAC8D3	224	Red
 Color: diffText	#B0C7F5	153	Cyan
 Color: search	#A8DAF0	117	Cyan
-Color: curSearch	#fc8fc3	211	Red
+Color: curSearch	#FC8FC3	211	Red
 Color: quickFixLine	#D0BAF3	183	Magenta
 
 Background: any
@@ -208,9 +208,7 @@ DiffText	none	diffText
 DiffDelete	none	diffDelete
   /16/8	base	diffDelete
 Search	text	search
-CurSearch	curSearch	text	reverse
-  /gui	none	curSearch
-  /256+tgc true	omit	omit
+CurSearch	text	curSearch
 QuickFixLine	text	quickFixLine	bold
   /gui	none	quickFixLine	bold
   /256+tgc true	omit	omit
