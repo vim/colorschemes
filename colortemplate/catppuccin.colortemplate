@@ -150,7 +150,7 @@ StatusLineNC	surface1	mantle
   /8	overlay0	mantle	reverse
 TabLine	overlay0	crust
 TabLineSel	text	base
-  /16/8	text	mantle	bold
+  /8	text	mantle	bold
 TabLineFill	none	mantle
 ToolbarLine	none	none
 ToolbarButton	rosewater	none
