@@ -122,7 +122,27 @@ if &background == 'dark'
   hi WildMenu guifg=NONE guibg=#6c7086 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=bold
   hi debugBreakpoint guifg=#6c7086 guibg=#1e1e2e guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
   hi debugPC guifg=NONE guibg=#11111b guisp=NONE gui=NONE ctermfg=NONE ctermbg=16 cterm=NONE term=NONE
+  hi diffAdded guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
+  hi diffChanged guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
+  hi diffFile guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
+  hi diffIndexLine guifg=#94e2d5 guibg=NONE guisp=NONE gui=NONE ctermfg=158 ctermbg=NONE cterm=NONE term=NONE
+  hi diffLine guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE term=NONE
+  hi diffNewFile guifg=#fab387 guibg=NONE guisp=NONE gui=NONE ctermfg=216 ctermbg=NONE cterm=NONE term=NONE
+  hi diffOldFile guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
+  hi diffRemoved guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE term=NONE
   hi lCursor guifg=#1e1e2e guibg=#f38ba8 guisp=NONE gui=NONE ctermfg=233 ctermbg=211 cterm=NONE term=NONE
+  hi markdownCode guifg=#f2cdcd guibg=NONE guisp=NONE gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownCodeBlock guifg=#f2cdcd guibg=NONE guisp=NONE gui=NONE ctermfg=181 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH1 guifg=#f38ba8 guibg=NONE guisp=NONE gui=NONE ctermfg=211 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH2 guifg=#fab387 guibg=NONE guisp=NONE gui=NONE ctermfg=216 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH3 guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH4 guifg=#a6e3a1 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH5 guifg=#74c7ec guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH6 guifg=#b4befe guibg=NONE guisp=NONE gui=NONE ctermfg=147 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownHeadingDelimiter guifg=#fab387 guibg=NONE guisp=NONE gui=bold ctermfg=216 ctermbg=NONE cterm=bold term=bold
+  hi markdownLinkText guifg=#89b4fa guibg=NONE guisp=NONE gui=underline ctermfg=111 ctermbg=NONE cterm=underline term=underline
+  hi qfFileName guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=NONE
+  hi qfLineNr guifg=#f9e2af guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
 
   if s:tgc || s:t_Co >= 256
     if s:tgc
@@ -220,7 +240,27 @@ if &background == 'dark'
     hi WildMenu ctermfg=NONE ctermbg=Grey cterm=NONE
     hi debugBreakpoint ctermfg=Grey ctermbg=Black cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Black cterm=NONE
+    hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
+    hi diffChanged ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffFile ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffIndexLine ctermfg=DarkGreen ctermbg=NONE cterm=NONE
+    hi diffLine ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi diffNewFile ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi diffOldFile ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi diffRemoved ctermfg=Red ctermbg=NONE cterm=NONE
     hi lCursor ctermfg=Black ctermbg=Red cterm=NONE
+    hi markdownCode ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownCodeBlock ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH1 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi markdownH2 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi markdownH3 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH4 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi markdownH5 ctermfg=DarkCyan ctermbg=NONE cterm=NONE
+    hi markdownH6 ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi markdownHeadingDelimiter ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi markdownLinkText ctermfg=Blue ctermbg=NONE cterm=underline
+    hi qfFileName ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi qfLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     finish
   endif
 
@@ -312,7 +352,27 @@ if &background == 'dark'
     hi WildMenu ctermfg=NONE ctermbg=Grey cterm=NONE
     hi debugBreakpoint ctermfg=Grey ctermbg=Black cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Black cterm=NONE
+    hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
+    hi diffChanged ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffFile ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffIndexLine ctermfg=DarkGreen ctermbg=NONE cterm=NONE
+    hi diffLine ctermfg=Grey ctermbg=NONE cterm=NONE
+    hi diffNewFile ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi diffOldFile ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi diffRemoved ctermfg=Red ctermbg=NONE cterm=NONE
     hi lCursor ctermfg=Black ctermbg=Red cterm=NONE
+    hi markdownCode ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownCodeBlock ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH1 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi markdownH2 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi markdownH3 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH4 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi markdownH5 ctermfg=DarkCyan ctermbg=NONE cterm=NONE
+    hi markdownH6 ctermfg=LightGrey ctermbg=NONE cterm=NONE
+    hi markdownHeadingDelimiter ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi markdownLinkText ctermfg=Blue ctermbg=NONE cterm=underline
+    hi qfFileName ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi qfLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     finish
   endif
 
@@ -421,7 +481,27 @@ if &background == 'light'
   hi WildMenu guifg=NONE guibg=#9ca0b0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=247 cterm=NONE term=bold
   hi debugBreakpoint guifg=#9ca0b0 guibg=#eff1f5 guisp=NONE gui=NONE ctermfg=247 ctermbg=231 cterm=NONE term=NONE
   hi debugPC guifg=NONE guibg=#dce0e8 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=NONE
+  hi diffAdded guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE term=NONE
+  hi diffChanged guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
+  hi diffFile guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
+  hi diffIndexLine guifg=#179299 guibg=NONE guisp=NONE gui=NONE ctermfg=30 ctermbg=NONE cterm=NONE term=NONE
+  hi diffLine guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE term=NONE
+  hi diffNewFile guifg=#fe640b guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE term=NONE
+  hi diffOldFile guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=NONE
+  hi diffRemoved guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE term=NONE
   hi lCursor guifg=#eff1f5 guibg=#d20f39 guisp=NONE gui=NONE ctermfg=231 ctermbg=161 cterm=NONE term=NONE
+  hi markdownCode guifg=#dd7878 guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownCodeBlock guifg=#dd7878 guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH1 guifg=#d20f39 guibg=NONE guisp=NONE gui=NONE ctermfg=161 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH2 guifg=#fe640b guibg=NONE guisp=NONE gui=NONE ctermfg=202 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH3 guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH4 guifg=#40a02b guibg=NONE guisp=NONE gui=NONE ctermfg=34 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH5 guifg=#209fb5 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownH6 guifg=#7287fd guibg=NONE guisp=NONE gui=NONE ctermfg=69 ctermbg=NONE cterm=NONE term=NONE
+  hi markdownHeadingDelimiter guifg=#fe640b guibg=NONE guisp=NONE gui=bold ctermfg=202 ctermbg=NONE cterm=bold term=bold
+  hi markdownLinkText guifg=#1e66f5 guibg=NONE guisp=NONE gui=underline ctermfg=27 ctermbg=NONE cterm=underline term=underline
+  hi qfFileName guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=NONE
+  hi qfLineNr guifg=#df8e1d guibg=NONE guisp=NONE gui=NONE ctermfg=172 ctermbg=NONE cterm=NONE term=NONE
 
   if s:tgc || s:t_Co >= 256
     if s:tgc
@@ -519,7 +599,27 @@ if &background == 'light'
     hi WildMenu ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi debugBreakpoint ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
+    hi diffChanged ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffFile ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffIndexLine ctermfg=DarkGreen ctermbg=NONE cterm=NONE
+    hi diffLine ctermfg=DarkGrey ctermbg=NONE cterm=NONE
+    hi diffNewFile ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi diffOldFile ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi diffRemoved ctermfg=Red ctermbg=NONE cterm=NONE
     hi lCursor ctermfg=White ctermbg=Red cterm=NONE
+    hi markdownCode ctermfg=DarkRed ctermbg=NONE cterm=NONE
+    hi markdownCodeBlock ctermfg=DarkRed ctermbg=NONE cterm=NONE
+    hi markdownH1 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi markdownH2 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi markdownH3 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH4 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi markdownH5 ctermfg=DarkCyan ctermbg=NONE cterm=NONE
+    hi markdownH6 ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi markdownHeadingDelimiter ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi markdownLinkText ctermfg=Blue ctermbg=NONE cterm=underline
+    hi qfFileName ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi qfLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     finish
   endif
 
@@ -611,7 +711,27 @@ if &background == 'light'
     hi WildMenu ctermfg=NONE ctermbg=DarkGrey cterm=NONE
     hi debugBreakpoint ctermfg=DarkGrey ctermbg=White cterm=NONE
     hi debugPC ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi diffAdded ctermfg=Green ctermbg=NONE cterm=NONE
+    hi diffChanged ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffFile ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi diffIndexLine ctermfg=DarkGreen ctermbg=NONE cterm=NONE
+    hi diffLine ctermfg=DarkGrey ctermbg=NONE cterm=NONE
+    hi diffNewFile ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi diffOldFile ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi diffRemoved ctermfg=Red ctermbg=NONE cterm=NONE
     hi lCursor ctermfg=White ctermbg=Red cterm=NONE
+    hi markdownCode ctermfg=DarkRed ctermbg=NONE cterm=NONE
+    hi markdownCodeBlock ctermfg=DarkRed ctermbg=NONE cterm=NONE
+    hi markdownH1 ctermfg=Red ctermbg=NONE cterm=NONE
+    hi markdownH2 ctermfg=DarkYellow ctermbg=NONE cterm=NONE
+    hi markdownH3 ctermfg=Yellow ctermbg=NONE cterm=NONE
+    hi markdownH4 ctermfg=Green ctermbg=NONE cterm=NONE
+    hi markdownH5 ctermfg=DarkCyan ctermbg=NONE cterm=NONE
+    hi markdownH6 ctermfg=DarkBlue ctermbg=NONE cterm=NONE
+    hi markdownHeadingDelimiter ctermfg=DarkYellow ctermbg=NONE cterm=bold
+    hi markdownLinkText ctermfg=Blue ctermbg=NONE cterm=underline
+    hi qfFileName ctermfg=Blue ctermbg=NONE cterm=NONE
+    hi qfLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     finish
   endif
 

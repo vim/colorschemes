@@ -195,6 +195,28 @@ Changed	blue	none
 
 debugPC	none	crust
 debugBreakpoint	overlay0	base
+qfLineNr	yellow	none
+qfFileName	blue	none
+diffAdded	green	none
+diffRemoved	red	none
+diffChanged	blue	none
+diffOldFile	yellow	none
+diffNewFile	peach	none
+diffFile	blue	none
+diffLine	overlay0	none
+diffIndexLine	teal	none
+
+markdownHeadingDelimiter	peach	none	bold
+markdownCode	flamingo	none
+markdownCodeBlock	flamingo	none
+markdownLinkText	blue	none	underline
+
+markdownH1	red	none
+markdownH2	peach	none
+markdownH3	yellow	none
+markdownH4	green	none
+markdownH5	sapphire	none
+markdownH6	lavender	none
 
 ; Specially fine-tuned colors
 CursorLine	none	cursorLine
