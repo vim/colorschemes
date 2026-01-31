@@ -88,7 +88,7 @@ Color: diffChange	#E0E7F5	254	Yellow
 Color: diffDelete	#EAC8D3	224	Red
 Color: diffText	#B0C7F5	153	Cyan
 Color: search	#A8DAF0	117	Cyan
-Color: curSearch	#fc8fc3	211	Red
+Color: curSearch	#FC8FC3	211	Red
 Color: quickFixLine	#D0BAF3	183	Magenta
 
 Background: any
@@ -150,7 +150,7 @@ StatusLineNC	surface1	mantle
   /8	overlay0	mantle	reverse
 TabLine	overlay0	crust
 TabLineSel	text	base
-  /16/8	text	mantle	bold
+  /8	text	mantle	bold
 TabLineFill	none	mantle
 ToolbarLine	none	none
 ToolbarButton	rosewater	none
@@ -196,6 +196,39 @@ Changed	blue	none
 debugPC	none	crust
 debugBreakpoint	overlay0	base
 
+qfLineNr	yellow	none
+qfFileName	blue	none
+diffAdded	green	none
+diffRemoved	red	none
+diffChanged	blue	none
+diffOldFile	yellow	none
+diffNewFile	peach	none
+diffFile	blue	none
+diffLine	overlay0	none
+diffIndexLine	teal	none
+
+csvCol0	red	none
+csvCol1	peach	none
+csvCol2	yellow	none
+csvCol3	green	none
+csvCol4	sky	none
+csvCol5	blue	none
+csvCol6	lavender	none
+csvCol7	mauve	none
+csvCol8	pink	none
+
+markdownHeadingDelimiter	peach	none	bold
+markdownCode	flamingo	none
+markdownCodeBlock	flamingo	none
+markdownLinkText	blue	none	underline
+
+markdownH1	red	none
+markdownH2	peach	none
+markdownH3	yellow	none
+markdownH4	green	none
+markdownH5	sapphire	none
+markdownH6	lavender	none
+
 ; Specially fine-tuned colors
 CursorLine	none	cursorLine
   /16/8	none	none	underline
@@ -208,9 +241,7 @@ DiffText	none	diffText
 DiffDelete	none	diffDelete
   /16/8	base	diffDelete
 Search	text	search
-CurSearch	curSearch	text	reverse
-  /gui	none	curSearch
-  /256+tgc true	omit	omit
+CurSearch	text	curSearch
 QuickFixLine	text	quickFixLine	bold
   /gui	none	quickFixLine	bold
   /256+tgc true	omit	omit
