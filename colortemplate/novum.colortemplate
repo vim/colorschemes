@@ -1,8 +1,9 @@
-Full name: dev_theme
-Short name: nvim
+Full name: novum
+Short name: novum
 Author: charan <charancuz008@gmail.com>
 Background: dark
 Environments: gui 256 0
+Options: backend=vim
 
 ; Common linked groups {{{
 Boolean                                -> Constant
@@ -59,145 +60,6 @@ LspSignatureActiveParameter            -> Visual
 Macro                                  -> PreProc
 MsgSeparator                           -> StatusLine
 Number                                 -> Constant
-NvimAnd                                -> Operator
-NvimArrow                              -> Delimiter
-NvimAssignment                         -> Operator
-NvimAssignmentWithAddition             -> Operator
-NvimAssignmentWithConcatenation        -> Operator
-NvimAssignmentWithSubtraction          -> Operator
-NvimAugmentedAssignment                -> Operator
-NvimBinaryMinus                        -> Operator
-NvimBinaryOperator                     -> Operator
-NvimBinaryPlus                         -> Operator
-NvimCallingParenthesis                 -> Delimiter
-NvimColon                              -> Delimiter
-NvimComma                              -> Delimiter
-NvimComparison                         -> Operator
-NvimComparisonModifier                 -> Operator
-NvimConcat                             -> Operator
-NvimConcatOrSubscript                  -> Operator
-NvimContainer                          -> Delimiter
-NvimCurly                              -> Delimiter
-NvimDict                               -> Delimiter
-NvimDivision                           -> Operator
-NvimDoubleQuote                        -> String
-NvimDoubleQuotedBody                   -> String
-NvimDoubleQuotedEscape                 -> Special
-NvimDoubleQuotedUnknownEscape          -> Error
-NvimEnvironmentName                    -> Identifier
-NvimEnvironmentSigil                   -> Type
-NvimFigureBrace                        -> NvimInternalError
-NvimFloat                              -> Constant
-NvimIdentifier                         -> Identifier
-NvimIdentifierKey                      -> Identifier
-NvimIdentifierName                     -> Identifier
-NvimIdentifierScope                    -> Identifier
-NvimIdentifierScopeDelimiter           -> Identifier
-NvimInvalid                            -> Error
-NvimInvalidAnd                         -> Error
-NvimInvalidArrow                       -> Error
-NvimInvalidAssignment                  -> Error
-NvimInvalidAssignmentWithAddition      -> Error
-NvimInvalidAssignmentWithConcatenation -> Error
-NvimInvalidAssignmentWithSubtraction   -> Error
-NvimInvalidAugmentedAssignment         -> Error
-NvimInvalidBinaryMinus                 -> Error
-NvimInvalidBinaryOperator              -> Error
-NvimInvalidBinaryPlus                  -> Error
-NvimInvalidCallingParenthesis          -> Error
-NvimInvalidColon                       -> Error
-NvimInvalidComma                       -> Error
-NvimInvalidComparison                  -> Error
-NvimInvalidComparisonModifier          -> Error
-NvimInvalidConcat                      -> Error
-NvimInvalidConcatOrSubscript           -> Error
-NvimInvalidContainer                   -> Error
-NvimInvalidCurly                       -> Error
-NvimInvalidDelimiter                   -> Error
-NvimInvalidDict                        -> Error
-NvimInvalidDivision                    -> Error
-NvimInvalidDoubleQuote                 -> Error
-NvimInvalidDoubleQuotedBody            -> String
-NvimInvalidDoubleQuotedEscape          -> Special
-NvimInvalidDoubleQuotedUnknownEscape   -> Error
-NvimInvalidEnvironmentName             -> Error
-NvimInvalidEnvironmentSigil            -> Error
-NvimInvalidFigureBrace                 -> Error
-NvimInvalidFloat                       -> Error
-NvimInvalidIdentifier                  -> Error
-NvimInvalidIdentifierKey               -> Error
-NvimInvalidIdentifierName              -> Error
-NvimInvalidIdentifierScope             -> Error
-NvimInvalidIdentifierScopeDelimiter    -> Error
-NvimInvalidLambda                      -> Error
-NvimInvalidList                        -> Error
-NvimInvalidMod                         -> Error
-NvimInvalidMultiplication              -> Error
-NvimInvalidNestingParenthesis          -> Error
-NvimInvalidNot                         -> Error
-NvimInvalidNumber                      -> Error
-NvimInvalidNumberPrefix                -> Error
-NvimInvalidOperator                    -> Error
-NvimInvalidOptionName                  -> Error
-NvimInvalidOptionScope                 -> Error
-NvimInvalidOptionScopeDelimiter        -> Error
-NvimInvalidOptionSigil                 -> Error
-NvimInvalidOr                          -> Error
-NvimInvalidParenthesis                 -> Error
-NvimInvalidPlainAssignment             -> Error
-NvimInvalidRegister                    -> Error
-NvimInvalidSingleQuote                 -> Error
-NvimInvalidSingleQuotedBody            -> String
-NvimInvalidSingleQuotedQuote           -> Special
-NvimInvalidSingleQuotedUnknownEscape   -> NvimInternalError
-NvimInvalidSpacing                     -> ErrorMsg
-NvimInvalidString                      -> Error
-NvimInvalidStringBody                  -> String
-NvimInvalidStringQuote                 -> Error
-NvimInvalidStringSpecial               -> Special
-NvimInvalidSubscript                   -> Error
-NvimInvalidSubscriptBracket            -> Error
-NvimInvalidSubscriptColon              -> Error
-NvimInvalidTernary                     -> Error
-NvimInvalidTernaryColon                -> Error
-NvimInvalidUnaryMinus                  -> Error
-NvimInvalidUnaryOperator               -> Error
-NvimInvalidUnaryPlus                   -> Error
-NvimInvalidValue                       -> Error
-NvimLambda                             -> Delimiter
-NvimList                               -> Delimiter
-NvimMod                                -> Operator
-NvimMultiplication                     -> Operator
-NvimNestingParenthesis                 -> Delimiter
-NvimNot                                -> Operator
-NvimNumber                             -> Constant
-NvimNumberPrefix                       -> Type
-NvimOperator                           -> Operator
-NvimOptionName                         -> Identifier
-NvimOptionScope                        -> Identifier
-NvimOptionScopeDelimiter               -> Identifier
-NvimOptionSigil                        -> Type
-NvimOr                                 -> Operator
-NvimParenthesis                        -> Delimiter
-NvimPlainAssignment                    -> Operator
-NvimRegister                           -> Special
-NvimSingleQuote                        -> String
-NvimSingleQuotedBody                   -> String
-NvimSingleQuotedQuote                  -> Special
-NvimSingleQuotedUnknownEscape          -> NvimInternalError
-NvimSpacing                            -> Normal
-NvimString                             -> String
-NvimStringBody                         -> String
-NvimStringQuote                        -> String
-NvimStringSpecial                      -> Special
-NvimSubscript                          -> Delimiter
-NvimSubscriptBracket                   -> Delimiter
-NvimSubscriptColon                     -> Delimiter
-NvimTernary                            -> Operator
-NvimTernaryColon                       -> Operator
-NvimUnaryMinus                         -> Operator
-NvimUnaryOperator                      -> Operator
-NvimUnaryPlus                          -> Operator
 PmenuExtra                             -> Pmenu
 PmenuExtraSel                          -> PmenuSel
 PmenuKind                              -> Pmenu
@@ -245,8 +107,6 @@ luaStringDelimiter                     -> String
 luaSymbolOperator                      -> Operator
 luaTable                               -> Type
 luaTodo                                -> Todo
-nvimAutoEvent                          -> Type
-nvimHLGroup                            -> Type
 vim9Abstract                           -> Statement
 vim9AbstractDef                        -> Statement
 vim9Boolean                            -> Constant
@@ -546,7 +406,7 @@ Color: zanyLlama #a6dbff ~
 Normal                                 tameFossa  richSaola
 Added                                  tameHorse  richSaola
 Changed                                warmQuail  richSaola
-ColorColumn                            tameFossa  deadLemur   reverse
+ColorColumn                            tameFossa  deadLemur
 ColortemplateInfoBg                    tameFossa  richSaola
 ColortemplateInfoFg                    tameFossa  richSaola
 ColortemplateInfoSp                    tameFossa  richSaola
@@ -591,12 +451,11 @@ MsgArea                                tameFossa  richSaola
 NonText                                deadLemur  richSaola
 NormalFloat                            tameFossa  longDhole
 NormalNC                               tameFossa  richSaola
-NvimInternalError                      fineSnake  fineSnake
 Operator                               tameFossa  richSaola
-Pmenu                                  tameFossa  weakSnail   reverse
+Pmenu                                  tameFossa  weakSnail
 PmenuMatch                             tameFossa  richSaola   bold
 PmenuMatchSel                          tameFossa  richSaola   bold
-PmenuSel                               tameFossa  richSaola   reverse,underline
+PmenuSel                               tameFossa  richSaola   reverse
 PmenuThumb                             tameFossa  deadLemur
 PreProc                                tameFossa  richSaola
 Question                               warmQuail  richSaola
@@ -615,8 +474,8 @@ SpellCap                               tameFossa  richSaola s=poorLlama undercur
 SpellLocal                             tameFossa  richSaola s=tameHorse undercurl
 SpellRare                              tameFossa  richSaola s=warmQuail undercurl
 Statement                              tameFossa  richSaola   bold
-StatusLine                             weakSnail  zanyDingo   reverse
-StatusLineNC                           tameFossa  deadLemur   bold,underline
+StatusLine                             weakSnail  zanyDingo   
+StatusLineNC                           tameFossa  deadLemur   bold
 String                                 tameHorse  richSaola
 TabLineSel                             tameFossa  richSaola   bold
 TermCursor                             tameFossa  richSaola   reverse
