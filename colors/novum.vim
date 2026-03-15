@@ -1,4 +1,5 @@
 " Name:         novum
+" Description:  port of nvim dev_theme
 " Author:       charan <charancuz008@gmail.com>
 " Last Change:  2026 Mar 15
 
@@ -9,6 +10,11 @@ set background=dark
 hi clear
 let g:colors_name = 'novum'
 
+let s:t_Co = has('gui_running') ? 16777216 : str2nr(&t_Co)
+let s:tgc = has('termguicolors') && &termguicolors
+
+let g:terminal_ansi_colors = ['#14161b', '#ff0000', '#005523', '#fce094', '#8cf8f7', '#590008', '#007373', '#6b5300', '#9b9ea4', '#ff0000', '#005523', '#fce094', '#a6dbff', '#590008', '#007373', '#eef1f8']
+
 hi! link Boolean Constant
 hi! link Character Constant
 hi! link Conditional Statement
@@ -17,33 +23,9 @@ hi! link CursorLineFold SignColumn
 hi! link CursorLineSign SignColumn
 hi! link Debug Special
 hi! link Define PreProc
-hi! link DiagnosticFloatingError DiagnosticError
-hi! link DiagnosticFloatingHint DiagnosticHint
-hi! link DiagnosticFloatingInfo DiagnosticInfo
-hi! link DiagnosticFloatingOk DiagnosticOk
-hi! link DiagnosticFloatingWarn DiagnosticWarn
-hi! link DiagnosticSignError DiagnosticError
-hi! link DiagnosticSignHint DiagnosticHint
-hi! link DiagnosticSignInfo DiagnosticInfo
-hi! link DiagnosticSignOk DiagnosticOk
-hi! link DiagnosticSignWarn DiagnosticWarn
-hi! link DiagnosticUnnecessary Comment
-hi! link DiagnosticVirtualLinesError DiagnosticError
-hi! link DiagnosticVirtualLinesHint DiagnosticHint
-hi! link DiagnosticVirtualLinesInfo DiagnosticInfo
-hi! link DiagnosticVirtualLinesOk DiagnosticOk
-hi! link DiagnosticVirtualLinesWarn DiagnosticWarn
-hi! link DiagnosticVirtualTextError DiagnosticError
-hi! link DiagnosticVirtualTextHint DiagnosticHint
-hi! link DiagnosticVirtualTextInfo DiagnosticInfo
-hi! link DiagnosticVirtualTextOk DiagnosticOk
-hi! link DiagnosticVirtualTextWarn DiagnosticWarn
 hi! link EndOfBuffer NonText
 hi! link Exception Statement
 hi! link Float Constant
-hi! link FloatBorder NormalFloat
-hi! link FloatFooter Title
-hi! link FloatTitle Title
 hi! link FoldColumn SignColumn
 hi! link Ignore Normal
 hi! link IncSearch CurSearch
@@ -52,32 +34,23 @@ hi! link Keyword Statement
 hi! link Label Statement
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
-hi! link LspCodeLens NonText
-hi! link LspCodeLensSeparator NonText
-hi! link LspInlayHint NonText
-hi! link LspReferenceRead Visual
-hi! link LspReferenceTarget Visual
-hi! link LspReferenceText Visual
-hi! link LspReferenceWrite Visual
-hi! link LspSignatureActiveParameter Visual
 hi! link Macro PreProc
-hi! link MsgSeparator StatusLine
 hi! link Number Constant
 hi! link PmenuExtra Pmenu
 hi! link PmenuExtraSel PmenuSel
 hi! link PmenuKind Pmenu
 hi! link PmenuKindSel PmenuSel
 hi! link PmenuSbar Pmenu
+hi! link PopupNotification Normal
 hi! link PreCondit PreProc
+hi! link PreInsert Normal
 hi! link Repeat Statement
-hi! link SnippetTabstop Visual
 hi! link SpecialChar Special
 hi! link SpecialComment Special
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
 hi! link StorageClass Type
 hi! link Structure Type
-hi! link Substitute Search
 hi! link TabLine StatusLineNC
 hi! link TabLineFill StatusLineNC
 hi! link Tag Special
@@ -85,528 +58,368 @@ hi! link Terminal Normal
 hi! link Typedef Type
 hi! link VertSplit Normal
 hi! link VisualNOS Visual
-hi! link Whitespace NonText
 hi! link WildMenu PmenuSel
-hi! link WinSeparator Normal
-hi! link luaComment Comment
-hi! link luaCommentDelimiter Comment
-hi! link luaCond Statement
-hi! link luaCondElse Statement
-hi! link luaConstant Constant
-hi! link luaError Error
-hi! link luaFor Statement
-hi! link luaFunc Identifier
-hi! link luaFunction Function
-hi! link luaLabel Statement
-hi! link luaMetaMethod Function
-hi! link luaNumber Constant
-hi! link luaOperator Operator
-hi! link luaParenError Error
-hi! link luaRepeat Statement
-hi! link luaSpecial Special
-hi! link luaStatement Statement
-hi! link luaString String
-hi! link luaString2 String
-hi! link luaStringDelimiter String
-hi! link luaSymbolOperator Operator
-hi! link luaTable Type
-hi! link luaTodo Todo
-hi! link vim9Abstract Statement
-hi! link vim9AbstractDef Statement
-hi! link vim9Boolean Constant
-hi! link vim9Class Statement
-hi! link vim9Comment Comment
-hi! link vim9CommentError Error
-hi! link vim9CommentTitle PreProc
-hi! link vim9Const Statement
-hi! link vim9ConstructorDefParam Normal
-hi! link vim9ContinueComment Comment
-hi! link vim9Enum Statement
-hi! link vim9Export Statement
-hi! link vim9Extends Statement
-hi! link vim9Final Statement
-hi! link vim9For Statement
-hi! link vim9ForInComment Comment
-hi! link vim9Implements Statement
-hi! link vim9Interface Statement
-hi! link vim9KeymapLineComment Comment
-hi! link vim9LambdaOperator Operator
-hi! link vim9LambdaOperatorComment Comment
-hi! link vim9LambdaParamsParen Delimiter
-hi! link vim9LhsRegister Special
-hi! link vim9LhsVariable Normal
-hi! link vim9LineComment Comment
-hi! link vim9MethodDef Statement
-hi! link vim9MethodName Function
-hi! link vim9MethodNameError Error
-hi! link vim9Null Constant
-hi! link vim9Public Statement
-hi! link vim9Search String
-hi! link vim9SearchDelim Delimiter
-hi! link vim9Static Statement
-hi! link vim9Super Identifier
-hi! link vim9This Identifier
-hi! link vim9Type Statement
-hi! link vim9TypeAliasError Error
-hi! link vim9TypeEquals Operator
-hi! link vim9Var Statement
-hi! link vim9Variable Normal
-hi! link vim9Vim9Script Statement
-hi! link vim9Vim9ScriptArg Special
-hi! link vimAbb Statement
-hi! link vimAddress Constant
-hi! link vimAugroupBang Operator
-hi! link vimAugroupError Error
-hi! link vimAugroupKey Statement
-hi! link vimAutoCmd Statement
-hi! link vimAutoCmdBang Operator
-hi! link vimAutoCmdMod Special
-hi! link vimAutoEvent Type
-hi! link vimBang Operator
-hi! link vimBehave Statement
-hi! link vimBehaveBang Operator
-hi! link vimBehaveError Error
-hi! link vimBehaveModel Statement
 hi! link vimBracket Delimiter
-hi! link vimBufnrWarn WarningMsg
-hi! link vimCall Statement
-hi! link vimCatch Statement
-hi! link vimCmplxRepeat Special
-hi! link vimCollClassErr Error
-hi! link vimCommand Statement
-hi! link vimComment Comment
-hi! link vimCommentError Error
-hi! link vimCommentString String
 hi! link vimCommentTitle PreProc
-hi! link vimCompilerSet Statement
-hi! link vimCondHL Statement
-hi! link vimConst Statement
-hi! link vimContinue Special
-hi! link vimContinueComment Comment
-hi! link vimCount Constant
-hi! link vimCtrlChar Special
-hi! link vimDebuggreedy Statement
-hi! link vimDefComment Comment
-hi! link vimDefKey Statement
-hi! link vimDefParam Normal
-hi! link vimDelcommand Statement
-hi! link vimDelcommandAttr Special
 hi! link vimEcho Statement
-hi! link vimEchohl Statement
-hi! link vimEchohlNone Type
-hi! link vimElseIfErr Error
-hi! link vimEmbedError Normal
-hi! link vimEnddef Statement
-hi! link vimEndfunction Statement
-hi! link vimEnvvar PreProc
-hi! link vimErrSetting Error
-hi! link vimError Error
-hi! link vimEscape Special
-hi! link vimFBVar Normal
-hi! link vimFTCmd Statement
-hi! link vimFTError Error
-hi! link vimFTOption Type
-hi! link vimFgBgAttrib PreProc
-hi! link vimFor Statement
-hi! link vimForInContinue Special
-hi! link vimForInContinueComment Comment
-hi! link vimFunc Error
-hi! link vimFuncBang Operator
-hi! link vimFuncComment Comment
-hi! link vimFuncEcho Statement
-hi! link vimFuncKey Statement
-hi! link vimFuncMod Special
-hi! link vimFuncName Function
-hi! link vimFuncParam Normal
-hi! link vimFuncParamEquals Operator
-hi! link vimFuncSID Special
-hi! link vimFuncScope Normal
-hi! link vimFunctionError Error
-hi! link vimGroup Type
-hi! link vimGroupAdd Special
-hi! link vimGroupName Type
-hi! link vimGroupRem Special
-hi! link vimGroupSpecial Special
-hi! link vimHLGroup Type
-hi! link vimHiAttrib PreProc
-hi! link vimHiAttribList Error
 hi! link vimHiBang Operator
-hi! link vimHiBlend Type
-hi! link vimHiCTerm Type
-hi! link vimHiClear Type
 hi! link vimHiCtermColor Constant
-hi! link vimHiCtermError Error
-hi! link vimHiCtermFgBg Type
-hi! link vimHiCtermfont Type
-hi! link vimHiCtermul Type
-hi! link vimHiGroup Type
-hi! link vimHiGui Type
-hi! link vimHiGuiFgBg Type
-hi! link vimHiGuiFont Type
-hi! link vimHiGuiRgb Constant
-hi! link vimHiKeyError Error
-hi! link vimHiNmbr Constant
-hi! link vimHiStartStop Type
-hi! link vimHiTerm Type
-hi! link vimHighlight Statement
-hi! link vimInsert String
-hi! link vimIskSep Delimiter
-hi! link vimKeymapLineComment Comment
-hi! link vimKeymapTailComment Comment
-hi! link vimLambdaOperator Operator
-hi! link vimLet Statement
-hi! link vimLetHereDoc String
-hi! link vimLetHereDocStart Special
-hi! link vimLetHereDocStop Special
-hi! link vimLetRegister Special
-hi! link vimLineComment Comment
-hi! link vimLockvar Statement
-hi! link vimLockvarBang Operator
-hi! link vimLockvarDepth Constant
-hi! link vimMap Statement
-hi! link vimMapBang Operator
-hi! link vimMapLeader Delimiter
-hi! link vimMapLeaderKey Special
 hi! link vimMapMod Delimiter
-hi! link vimMapModErr Error
 hi! link vimMapModKey Special
-hi! link vimMark Constant
-hi! link vimMarkNumber Constant
-hi! link vimMatch Statement
-hi! link vimMatchGroup Type
-hi! link vimMatchNone Type
-hi! link vimMenu Statement
 hi! link vimMenuBang Operator
-hi! link vimMenuClear Special
-hi! link vimMenuMod Delimiter
-hi! link vimMenuName PreProc
-hi! link vimMenuNotation Special
 hi! link vimMenuPriority Constant
-hi! link vimMenuStatus Special
-hi! link vimMenutranslateComment Comment
-hi! link vimMtchComment Comment
-hi! link vimNormal Statement
-hi! link vimNotFunc Statement
-hi! link vimNotPatSep String
 hi! link vimNotation Special
-hi! link vimNumber Constant
-hi! link vimOper Operator
-hi! link vimOperContinue Special
-hi! link vimOperContinueComment Comment
-hi! link vimOperError Error
-hi! link vimOption PreProc
-hi! link vimOptionVar Identifier
-hi! link vimParenSep Delimiter
-hi! link vimPatSep Special
-hi! link vimPatSepErr Error
-hi! link vimPatSepR Special
-hi! link vimPatSepZ Special
-hi! link vimPatSepZone String
-hi! link vimPattern Type
-hi! link vimPlainMark Constant
-hi! link vimPlainRegister Special
-hi! link vimQuoteEscape Special
-hi! link vimRegister Special
-hi! link vimScriptDelim Comment
-hi! link vimSearch String
-hi! link vimSearchDelim Delimiter
-hi! link vimSep Delimiter
 hi! link vimSet Statement
-hi! link vimSetAll PreProc
-hi! link vimSetBang Operator
-hi! link vimSetMod PreProc
-hi! link vimSetSep Delimiter
-hi! link vimSetString String
-hi! link vimSetTermcap PreProc
-hi! link vimShebang PreProc
-hi! link vimShebangError Error
-hi! link vimSleep Statement
-hi! link vimSleepArg Constant
-hi! link vimSleepBang Operator
-hi! link vimSpecFile Identifier
-hi! link vimSpecFileMod Identifier
-hi! link vimSpecial Type
-hi! link vimString String
-hi! link vimStringCont String
-hi! link vimStringEnd String
-hi! link vimStringInterpolationBrace Special
-hi! link vimSubst Statement
-hi! link vimSubst1 Statement
-hi! link vimSubstDelim Delimiter
-hi! link vimSubstFlagErr Error
-hi! link vimSubstFlags Special
-hi! link vimSubstSubstr Special
-hi! link vimSubstTwoBS String
-hi! link vimSynCase Type
-hi! link vimSynCaseError Error
-hi! link vimSynCchar Special
-hi! link vimSynCcharValue Constant
-hi! link vimSynContains Special
-hi! link vimSynError Error
-hi! link vimSynFoldMethod Type
-hi! link vimSynFoldMethodError Error
-hi! link vimSynKeyContainedin Special
-hi! link vimSynKeyOpt Special
-hi! link vimSynMenu Statement
-hi! link vimSynMenuPath PreProc
-hi! link vimSynMtchGrp Special
-hi! link vimSynMtchOpt Special
-hi! link vimSynNextgroup Special
-hi! link vimSynNotPatRange String
-hi! link vimSynOption Special
-hi! link vimSynPatRange String
-hi! link vimSynReg Type
-hi! link vimSynRegOpt Special
-hi! link vimSynRegPat String
-hi! link vimSynType Type
-hi! link vimSyncC Type
-hi! link vimSyncError Error
-hi! link vimSyncGroup Type
-hi! link vimSyncGroupName Type
-hi! link vimSyncKey Type
-hi! link vimSyncNone Type
-hi! link vimSyntax Statement
-hi! link vimThrow Statement
-hi! link vimTodo Todo
-hi! link vimType Type
-hi! link vimUnlet Statement
-hi! link vimUnletBang Operator
-hi! link vimUnlockvar Statement
-hi! link vimUnmap Statement
-hi! link vimUserCmdAttr Special
-hi! link vimUserCmdAttrAddr Type
-hi! link vimUserCmdAttrCmplt Type
-hi! link vimUserCmdAttrError Error
-hi! link vimUserCmdAttrKey Special
-hi! link vimUserCmdAttrNargs Type
-hi! link vimUserCmdAttrRange Type
-hi! link vimUserCmdError Error
-hi! link vimUserCmdKey Statement
 hi! link vimUserFunc Normal
-hi! link vimVar Normal
-hi! link vimVimVar Identifier
-hi! link vimWarn WarningMsg
 
-hi Normal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Added guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=158 ctermbg=233 cterm=NONE term=NONE
+hi Normal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi Added guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=157 ctermbg=233 cterm=NONE term=NONE
 hi Changed guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi ColorColumn guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=254 ctermbg=239 cterm=NONE term=NONE
-hi ColortemplateInfoBg guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi ColortemplateInfoFg guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi ColortemplateInfoSp guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Comment guifg=#9b9ea4 guibg=#14161b guisp=NONE gui=NONE ctermfg=247 ctermbg=233 cterm=NONE term=NONE
-hi ComplMatchIns guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Conceal guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=239 ctermbg=233 cterm=NONE term=NONE
-hi Constant guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
+hi ColorColumn guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=188 ctermbg=59 cterm=NONE term=NONE
+hi Comment guifg=#9b9ea4 guibg=#14161b guisp=NONE gui=NONE ctermfg=145 ctermbg=233 cterm=NONE term=NONE
+hi ComplMatchIns guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi Conceal guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
+hi Constant guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
 hi CurSearch guifg=#07080d guibg=#fce094 guisp=NONE gui=NONE ctermfg=232 ctermbg=222 cterm=NONE term=NONE
-hi Cursor guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=254 cterm=NONE term=NONE
-hi CursorColumn guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=254 ctermbg=236 cterm=NONE term=NONE
-hi CursorLine guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=254 ctermbg=236 cterm=NONE term=NONE
-hi CursorLineNr guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi Delimiter guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi DiagnosticDeprecated guifg=#e0e2ea guibg=#14161b guisp=#ffc0b9 gui=strikethrough ctermfg=254 ctermbg=233 cterm=strikethrough term=strikethrough ctermul=217
-hi DiagnosticError guifg=#ffc0b9 guibg=#14161b guisp=NONE gui=NONE ctermfg=217 ctermbg=233 cterm=NONE term=NONE
-hi DiagnosticHint guifg=#a6dbff guibg=#14161b guisp=NONE gui=NONE ctermfg=153 ctermbg=233 cterm=NONE term=NONE
-hi DiagnosticInfo guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi DiagnosticOk guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=158 ctermbg=233 cterm=NONE term=NONE
-hi DiagnosticUnderlineError guifg=#e0e2ea guibg=#14161b guisp=#ffc0b9 gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline ctermul=217
-hi DiagnosticUnderlineHint guifg=#e0e2ea guibg=#14161b guisp=#a6dbff gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline ctermul=153
-hi DiagnosticUnderlineInfo guifg=#e0e2ea guibg=#14161b guisp=#8cf8f7 gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline ctermul=123
-hi DiagnosticUnderlineOk guifg=#e0e2ea guibg=#14161b guisp=#b3f6c0 gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline ctermul=158
-hi DiagnosticUnderlineWarn guifg=#e0e2ea guibg=#14161b guisp=#fce094 gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline ctermul=222
-hi DiagnosticWarn guifg=#fce094 guibg=#14161b guisp=NONE gui=NONE ctermfg=222 ctermbg=233 cterm=NONE term=NONE
-hi DiffAdd guifg=#eef1f8 guibg=#005523 guisp=NONE gui=NONE ctermfg=255 ctermbg=22 cterm=NONE term=NONE
-hi DiffChange guifg=#eef1f8 guibg=#4f5258 guisp=NONE gui=NONE ctermfg=255 ctermbg=239 cterm=NONE term=NONE
+hi Cursor guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=188 cterm=NONE term=NONE
+hi CursorColumn guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=188 ctermbg=236 cterm=NONE term=NONE
+hi CursorLine guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=188 ctermbg=236 cterm=NONE term=NONE
+hi CursorLineNr guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi Delimiter guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi DiffAdd guifg=#eef1f8 guibg=#005523 guisp=NONE gui=NONE ctermfg=231 ctermbg=22 cterm=NONE term=NONE
+hi DiffChange guifg=#eef1f8 guibg=#4f5258 guisp=NONE gui=NONE ctermfg=231 ctermbg=59 cterm=NONE term=NONE
 hi DiffDelete guifg=#ffc0b9 guibg=#14161b guisp=NONE gui=bold ctermfg=217 ctermbg=233 cterm=bold term=bold
-hi DiffText guifg=#eef1f8 guibg=#007373 guisp=NONE gui=NONE ctermfg=255 ctermbg=23 cterm=NONE term=NONE
+hi DiffText guifg=#eef1f8 guibg=#007373 guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=NONE
 hi Directory guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi Error guifg=#eef1f8 guibg=#590008 guisp=NONE gui=NONE ctermfg=255 ctermbg=52 cterm=NONE term=NONE
+hi Error guifg=#eef1f8 guibg=#590008 guisp=NONE gui=NONE ctermfg=231 ctermbg=52 cterm=NONE term=NONE
 hi ErrorMsg guifg=#ffc0b9 guibg=#14161b guisp=NONE gui=NONE ctermfg=217 ctermbg=233 cterm=NONE term=NONE
-hi FloatShadow guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=254 ctermbg=239 cterm=NONE term=NONE
-hi FloatShadowThrough guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=254 ctermbg=239 cterm=NONE term=NONE
-hi Folded guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=NONE ctermfg=247 ctermbg=232 cterm=NONE term=NONE
+hi Folded guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=NONE ctermfg=145 ctermbg=232 cterm=NONE term=NONE
 hi Function guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
 hi Identifier guifg=#a6dbff guibg=#14161b guisp=NONE gui=NONE ctermfg=153 ctermbg=233 cterm=NONE term=NONE
-hi LineNr guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=239 ctermbg=233 cterm=NONE term=NONE
-hi MatchParen guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold,underline ctermfg=254 ctermbg=239 cterm=bold,underline term=bold,underline
-hi ModeMsg guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=158 ctermbg=233 cterm=NONE term=NONE
+hi LineNr guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
+hi MatchParen guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold,underline ctermfg=188 ctermbg=59 cterm=bold,underline term=bold,underline
+hi ModeMsg guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=157 ctermbg=233 cterm=NONE term=NONE
 hi MoreMsg guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi MsgArea guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi NonText guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=239 ctermbg=233 cterm=NONE term=NONE
-hi NormalFloat guifg=#e0e2ea guibg=#07080d guisp=NONE gui=NONE ctermfg=254 ctermbg=232 cterm=NONE term=NONE
-hi NormalNC guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Operator guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Pmenu guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=254 ctermbg=236 cterm=NONE term=NONE
-hi PmenuMatch guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi PmenuMatchSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi PmenuSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=reverse ctermfg=254 ctermbg=233 cterm=reverse term=reverse
-hi PmenuThumb guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=254 ctermbg=239 cterm=NONE term=NONE
-hi PreProc guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
+hi NonText guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
+hi Operator guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi Pmenu guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=188 ctermbg=236 cterm=NONE term=NONE
+hi PmenuMatch guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi PmenuMatchSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi PmenuSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=reverse ctermfg=188 ctermbg=233 cterm=reverse term=reverse
+hi PmenuThumb guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=188 ctermbg=59 cterm=NONE term=NONE
+hi PreProc guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
 hi Question guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
 hi QuickFixLine guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi RedrawDebugClear guifg=#e0e2ea guibg=#6b5300 guisp=NONE gui=NONE ctermfg=254 ctermbg=94 cterm=NONE term=NONE
-hi RedrawDebugComposed guifg=#e0e2ea guibg=#005523 guisp=NONE gui=NONE ctermfg=254 ctermbg=22 cterm=NONE term=NONE
-hi RedrawDebugNormal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=reverse ctermfg=254 ctermbg=233 cterm=reverse term=reverse
-hi RedrawDebugRecompose guifg=#e0e2ea guibg=#590008 guisp=NONE gui=NONE ctermfg=254 ctermbg=52 cterm=NONE term=NONE
 hi Removed guifg=#ffc0b9 guibg=#14161b guisp=NONE gui=NONE ctermfg=217 ctermbg=233 cterm=NONE term=NONE
-hi Search guifg=#eef1f8 guibg=#6b5300 guisp=NONE gui=NONE ctermfg=255 ctermbg=94 cterm=NONE term=NONE
-hi SignColumn guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=239 ctermbg=233 cterm=NONE term=NONE
+hi Search guifg=#eef1f8 guibg=#6b5300 guisp=NONE gui=NONE ctermfg=231 ctermbg=58 cterm=NONE term=NONE
+hi SignColumn guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
 hi Special guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
-hi SpecialKey guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=239 ctermbg=233 cterm=NONE term=NONE
-hi SpellBad guifg=#e0e2ea guibg=#14161b guisp=#ffc0b9 gui=undercurl ctermfg=254 ctermbg=233 cterm=undercurl term=undercurl ctermul=217
-hi SpellCap guifg=#e0e2ea guibg=#14161b guisp=#fce094 gui=undercurl ctermfg=254 ctermbg=233 cterm=undercurl term=undercurl ctermul=222
-hi SpellLocal guifg=#e0e2ea guibg=#14161b guisp=#b3f6c0 gui=undercurl ctermfg=254 ctermbg=233 cterm=undercurl term=undercurl ctermul=158
-hi SpellRare guifg=#e0e2ea guibg=#14161b guisp=#8cf8f7 gui=undercurl ctermfg=254 ctermbg=233 cterm=undercurl term=undercurl ctermul=123
-hi Statement guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi StatusLine guifg=#2c2e33 guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=236 ctermbg=251 cterm=NONE term=NONE
-hi StatusLineNC guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold ctermfg=254 ctermbg=239 cterm=bold term=bold
-hi String guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=158 ctermbg=233 cterm=NONE term=NONE
-hi TabLineSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi TermCursor guifg=#e0e2ea guibg=#14161b guisp=NONE gui=reverse ctermfg=254 ctermbg=233 cterm=reverse term=reverse
-hi Title guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi Todo guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=254 ctermbg=233 cterm=bold term=bold
-hi Type guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi Underlined guifg=#e0e2ea guibg=#14161b guisp=NONE gui=underline ctermfg=254 ctermbg=233 cterm=underline term=underline
-hi Visual guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=254 ctermbg=239 cterm=NONE term=NONE
-hi VisualNC guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
+hi SpecialKey guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
+hi SpellBad guifg=#e0e2ea guibg=#14161b guisp=#ffc0b9 gui=undercurl ctermfg=188 ctermbg=233 cterm=undercurl term=undercurl ctermul=217
+hi SpellCap guifg=#e0e2ea guibg=#14161b guisp=#fce094 gui=undercurl ctermfg=188 ctermbg=233 cterm=undercurl term=undercurl ctermul=222
+hi SpellLocal guifg=#e0e2ea guibg=#14161b guisp=#b3f6c0 gui=undercurl ctermfg=188 ctermbg=233 cterm=undercurl term=undercurl ctermul=157
+hi SpellRare guifg=#e0e2ea guibg=#14161b guisp=#8cf8f7 gui=undercurl ctermfg=188 ctermbg=233 cterm=undercurl term=undercurl ctermul=123
+hi Statement guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi StatusLine guifg=#2c2e33 guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=236 ctermbg=152 cterm=NONE term=NONE
+hi StatusLineNC guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold ctermfg=188 ctermbg=59 cterm=bold term=bold
+hi String guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=157 ctermbg=233 cterm=NONE term=NONE
+hi TabLineSel guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi Title guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi Todo guifg=#e0e2ea guibg=#14161b guisp=NONE gui=bold ctermfg=188 ctermbg=233 cterm=bold term=bold
+hi ToolbarButton guifg=#fce094 guibg=#07080d guisp=NONE gui=bold ctermfg=222 ctermbg=232 cterm=bold term=bold
+hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=NONE
+hi Type guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi Underlined guifg=#e0e2ea guibg=#14161b guisp=NONE gui=underline ctermfg=188 ctermbg=233 cterm=underline term=underline
+hi Visual guifg=NONE guibg=#4f5258 guisp=NONE gui=NONE ctermfg=188 ctermbg=59 cterm=NONE term=NONE
 hi WarningMsg guifg=#fce094 guibg=#14161b guisp=NONE gui=NONE ctermfg=222 ctermbg=233 cterm=NONE term=NONE
-hi WinBar guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=bold ctermfg=247 ctermbg=232 cterm=bold term=bold
-hi WinBarNC guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=bold ctermfg=247 ctermbg=232 cterm=bold term=bold
-hi lCursor guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=254 cterm=NONE term=NONE
-hi luaBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaCondElseif guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaCondEnd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaCondStart guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaFunctionBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaInnerComment guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaParen guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaRepeatBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaTableBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi luaWhile guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9AbstractDefName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9AbstractDefParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9AbstractDefReturnType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9Block guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9ClassBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9ClassName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9CommentTitleLeader guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9ConstructorDefName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9ConstructorDefParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9Def guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9EnumBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9EnumName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9ImplementedInterface guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9InterfaceBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9InterfaceListComma guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9InterfaceName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9LambdaBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9LambdaParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9LambdaReturnType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9LamdaOperatorComment guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9LhsVariableList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9MethodDefBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9MethodDefName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9MethodDefParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9MethodDefReturnType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9SuperClass guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9TypeAlias guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vim9VariableList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAugroup guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAugroupEnd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAugroupSyncA guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAutoCmdBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAutoCmdGroup guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAutoCmdSfxList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAutoCmdSpace guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimAutoEventList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCatchPattern guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimClusterName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCmdSep guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCollClass guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCollection guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimComFilter guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCommentTitleLeader guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimCompoundType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimDef guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimDefBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimDefFold guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimDefParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimEscapeBrace guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimExecute guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimExtCmd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFiletype guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFilter guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimForInComment guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFuncBlank guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFuncBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFuncFold guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFuncParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFuncPattern guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimFunction guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimGlobal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimGroupList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimHiFontname guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimHiGuiFontname guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimHiKeyList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimHiLink guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimHiTermcap guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimIsCommand guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimIskList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimKeymapLhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimKeymapRhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimKeymapStart guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimLambda guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimLambdaParams guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimLoadkeymap guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimLockvarVars guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimLuaRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMapLhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMapRhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMapRhsContinue guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMatchPattern guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMenuRhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMenuRhsContinue guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMenutranslate guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimMenutranslateName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimNormalArg guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimOnlyCommand guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimOnlyHLGroup guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimOnlyOption guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimOperParen guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimParamType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimPatRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimRange guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimReturnType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSetArgs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSetEqual guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimStdPlugin guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimStringInterpolationExpr guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubscript guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubscriptBracket guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubstPat guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubstRange guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubstRep guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSubstRep4 guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynKeyRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynMatchRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynMenuColon guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynMenuName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynPatMod guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSynRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSyncLinebreak guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSyncLinecont guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSyncLines guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSyncMatch guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimSyncRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimTermOption guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimTypeSep guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUnletVars guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUserCmd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUserCmdAttrCmpltFunc guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUserCmdBlock guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUserCmdName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUserType guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimUsrCmd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
-hi vimVarList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=254 ctermbg=233 cterm=NONE term=NONE
+hi lCursor guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=188 cterm=NONE term=NONE
+hi vimAugroup guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimAutoCmdSfxList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimAutoCmdSpace guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimAutoEventList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimClusterName guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimCmdSep guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimCollClass guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimCollection guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimCommentTitleLeader guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimEscapeBrace guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimExecute guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimExtCmd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimFiletype guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimFilter guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimFuncBlank guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimFuncBody guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimFunction guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimGlobal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimGroupList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimHiFontname guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimHiGuiFontname guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimHiKeyList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimHiLink guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimHiTermcap guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimIsCommand guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimIskList guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimMapLhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimMapRhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimMenuRhs guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimOperParen guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimPatRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSetEqual guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimStdPlugin guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSubstPat guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSubstRange guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSubstRep guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSubstRep4 guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSynKeyRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSynMatchRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSynPatMod guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSynRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSyncLinebreak guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSyncLinecont guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSyncLines guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSyncMatch guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimSyncRegion guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+hi vimUserCmd guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
+
+if s:tgc || s:t_Co >= 256
+  finish
+endif
+
+if s:t_Co >= 16
+  hi Normal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Added ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Changed ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi ColorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Comment ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi ComplMatchIns ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CurSearch ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Cursor ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
+  hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Delimiter ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffDelete ctermfg=NONE ctermbg=NONE cterm=bold
+  hi DiffText ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Error ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Folded ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Function ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Identifier ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi LineNr ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold,underline
+  hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi MoreMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi NonText ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Operator ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Pmenu ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PreProc ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Question ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi QuickFixLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Removed ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Search ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Special ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SpecialKey ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SpellBad ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellCap ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellRare ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi Statement ctermfg=NONE ctermbg=NONE cterm=bold
+  hi StatusLine ctermfg=NONE ctermbg=NONE cterm=bold,reverse
+  hi StatusLineNC ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi String ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi Title ctermfg=NONE ctermbg=NONE cterm=bold
+  hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ToolbarButton ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Type ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+  hi VertSplit ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi lCursor ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAugroup ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoCmdSfxList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoCmdSpace ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoEventList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimClusterName ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCmdSep ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCollClass ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCollection ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCommentTitleLeader ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimEscapeBrace ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimExecute ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimExtCmd ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFiletype ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFilter ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFuncBlank ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFuncBody ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFunction ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimGlobal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimGroupList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiFontname ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiGuiFontname ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiKeyList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiLink ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiTermcap ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimIsCommand ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimIskList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMapLhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMapRhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMenuRhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimOperParen ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimPatRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSetEqual ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimStdPlugin ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstPat ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRange ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRep ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRep4 ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynKeyRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynMatchRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynPatMod ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLinebreak ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLinecont ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLines ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncMatch ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimUserCmd ctermfg=NONE ctermbg=NONE cterm=NONE
+  finish
+endif
+
+if s:t_Co >= 8
+  hi Normal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Added ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Changed ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi ColorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ComplMatchIns ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CurSearch ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Cursor ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
+  hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Delimiter ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffAdd ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffChange ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi DiffDelete ctermfg=NONE ctermbg=NONE cterm=bold
+  hi DiffText ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Directory ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi EndOfBuffer ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Error ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi FoldColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Folded ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Function ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Identifier ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi LineNr ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold,underline
+  hi ModeMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi MoreMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi NonText ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Operator ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Pmenu ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuExtra ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=bold,reverse
+  hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=bold
+  hi PmenuThumb ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi PreProc ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Question ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi QuickFixLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Removed ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Search ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SignColumn ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Special ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SpecialKey ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi SpellBad ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellCap ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellLocal ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi SpellRare ctermfg=NONE ctermbg=NONE cterm=undercurl
+  hi Statement ctermfg=NONE ctermbg=NONE cterm=bold
+  hi StatusLine ctermfg=NONE ctermbg=NONE cterm=bold,reverse
+  hi StatusLineNC ctermfg=NONE ctermbg=NONE cterm=reverse
+  hi String ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi TabLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi TabLineFill ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Title ctermfg=NONE ctermbg=NONE cterm=bold
+  hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ToolbarButton ctermfg=NONE ctermbg=NONE cterm=bold
+  hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Type ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+  hi VertSplit ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi WildMenu ctermfg=NONE ctermbg=NONE cterm=bold
+  hi lCursor ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAugroup ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoCmdSfxList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoCmdSpace ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimAutoEventList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimClusterName ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCmdSep ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCollClass ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCollection ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimCommentTitleLeader ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimEscapeBrace ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimExecute ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimExtCmd ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFiletype ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFilter ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFuncBlank ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFuncBody ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimFunction ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimGlobal ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimGroupList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiFontname ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiGuiFontname ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiKeyList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiLink ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimHiTermcap ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimIsCommand ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimIskList ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMapLhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMapRhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimMenuRhs ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimOperParen ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimPatRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSetEqual ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimStdPlugin ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstPat ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRange ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRep ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSubstRep4 ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynKeyRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynMatchRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynPatMod ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSynRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLinebreak ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLinecont ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncLines ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncMatch ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimSyncRegion ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi vimUserCmd ctermfg=NONE ctermbg=NONE cterm=NONE
+  finish
+endif
 
 " vim: et ts=8 sw=2 sts=2
