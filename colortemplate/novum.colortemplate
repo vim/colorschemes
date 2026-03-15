@@ -1,7 +1,8 @@
 Full name: novum
 Short name: novum
 Description: port of nvim dev_theme
-Author: charan <charancuz008@gmail.com>
+Author: Charan Mandati <charancuz008@gmail.com>
+License: Vim License (see `:help license`)`
 Options: backend=vim
 
 Environments: gui 256 16 8 0
