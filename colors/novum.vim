@@ -81,6 +81,7 @@ hi! link Substitute Search
 hi! link TabLine StatusLineNC
 hi! link TabLineFill StatusLineNC
 hi! link Tag Special
+hi! link Terminal Normal
 hi! link Typedef Type
 hi! link VertSplit Normal
 hi! link VisualNOS Visual

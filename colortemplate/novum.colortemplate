@@ -78,6 +78,7 @@ Substitute                             -> Search
 TabLine                                -> StatusLineNC
 TabLineFill                            -> StatusLineNC
 Tag                                    -> Special
+Terminal							   -> Normal
 Typedef                                -> Type
 VertSplit                              -> Normal
 VisualNOS                              -> Visual
