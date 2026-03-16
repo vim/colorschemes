@@ -54,52 +54,43 @@ Typedef                                -> Type
 VertSplit                              -> Normal
 VisualNOS                              -> Visual
 WildMenu                               -> PmenuSel
-vimBracket                             -> Delimiter
-vimCommentTitle                        -> PreProc
-vimEcho                                -> Statement
-vimHiBang                              -> Operator
-vimHiCtermColor                        -> Constant
-vimMapMod                              -> Delimiter
-vimMapModKey                           -> Special
-vimMenuBang                            -> Operator
-vimMenuPriority                        -> Constant
-vimNotation                            -> Special
-vimSet                                 -> Statement
-vimUserFunc                            -> Normal
 ; }}}
 
-Color: baldFossa #ffc0b9 217
-Color: deadLemur #4f5258 59
-Color: dullZorse #9b9ea4 145
-Color: easyTetra #005523 22
-Color: fineSnake #ff0000 196
-Color: gladHuman #007373 30
-Color: gladRobin #590008 52
-Color: longDhole #07080d 232
-Color: poorLlama #fce094 222
-Color: richBison #6b5300 58
-Color: richSaola #14161b 233
-Color: soreSloth #eef1f8 231
-Color: tameFossa #e0e2ea 188
-Color: tameHorse #b3f6c0 157
-Color: warmQuail #8cf8f7 123
-Color: weakSnail #2c2e33 236
-Color: zanyDingo #c4c6cd 152
-Color: zanyLlama #a6dbff 153
+Color: baldFossa #ffc0b9 217 Red
+Color: deadLemur #4f5258 59 DarkGrey
+Color: dullZorse #9b9ea4 145 LightGrey
+Color: easyTetra #005523 22 DarkGreen
+Color: fineSnake #ff0000 196 Red
+Color: gladHuman #007373 30 DarkCyan
+Color: gladRobin #590008 52 DarkRed
+Color: longDhole #07080d 232 DarkGrey
+Color: poorLlama #fce094 222 LightYellow
+Color: richBison #6b5300 58 DarkYellow
+Color: richSaola #14161b 233 DarkGrey
+Color: soreSloth #eef1f8 231 LightGrey
+Color: tameFossa #e0e2ea 188 LightGrey
+Color: tameHorse #b3f6c0 157 LightGreen
+Color: warmQuail #8cf8f7 123 LightCyan
+Color: weakSnail #2c2e33 236 DarkGrey
+Color: zanyDingo #c4c6cd 152 LightGrey
+Color: zanyLlama #a6dbff 153 LightBlue
 
 Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHuman richBison
              dullZorse fineSnake easyTetra poorLlama zanyLlama gladRobin gladHuman soreSloth
 
 
 Normal                                 tameFossa  richSaola
+/16                                    tameFossa  none
 Added                                  tameHorse  richSaola
 Changed                                warmQuail  richSaola
 ColorColumn                            tameFossa  deadLemur
 /16                                    richSaola  poorLlama
 Comment                                dullZorse  richSaola
+/16                                    dullZorse  none
 ComplMatchIns                          tameFossa  richSaola
 Conceal                                deadLemur  richSaola
 Constant                               tameFossa  richSaola
+/16                                    tameFossa  none
 CurSearch                              longDhole  poorLlama
 Cursor                                 richSaola  tameFossa
 CursorColumn                           tameFossa  weakSnail
@@ -108,6 +99,7 @@ CursorLine                             tameFossa  weakSnail
 CursorLineNr                           tameFossa  richSaola   bold
 /16                                    poorLlama  none
 Delimiter                              tameFossa  richSaola
+/16                                    tameFossa  none
 DiffAdd                                soreSloth  easyTetra
 DiffChange                             soreSloth  deadLemur
 DiffDelete                             baldFossa  richSaola   bold
@@ -120,7 +112,9 @@ ErrorMsg                               baldFossa  richSaola
 Folded                                 dullZorse  longDhole
 /16                                    none       richBison
 Function                               warmQuail  richSaola
+/16                                    warmQuail  none
 Identifier                             zanyLlama  richSaola
+/16                                    zanyLlama  none
 LineNr                                 deadLemur  richSaola
 /16                                    deadLemur  none
 MatchParen                             tameFossa  deadLemur   bold,underline
@@ -130,6 +124,7 @@ MoreMsg                                warmQuail  richSaola
 NonText                                deadLemur  richSaola
 /16                                    dullZorse  none
 Operator                               tameFossa  richSaola
+/16                                    tameFossa  none
 Pmenu                                  tameFossa  weakSnail
 /16                                    richSaola  tameFossa
 PmenuMatch                             tameFossa  richSaola   bold
@@ -140,6 +135,7 @@ PmenuThumb                             tameFossa  deadLemur
 /16                                    none       none        reverse
 PmenuSbar /16                          none       none
 PreProc                                tameFossa  richSaola
+/16                                    tameFossa  none
 Question                               warmQuail  richSaola
 QuickFixLine                           warmQuail  richSaola
 Removed                                baldFossa  richSaola
@@ -147,6 +143,7 @@ Search                                 soreSloth  richBison
 SignColumn                             deadLemur  richSaola
 /16                                    deadLemur  none
 Special                                warmQuail  richSaola
+/16                                    warmQuail  none
 SpecialKey                             deadLemur  richSaola
 /16                                    deadLemur  none
 SpellBad                               tameFossa  richSaola   s=baldFossa undercurl
@@ -154,109 +151,63 @@ SpellCap                               tameFossa  richSaola   s=poorLlama underc
 SpellLocal                             tameFossa  richSaola   s=tameHorse undercurl
 SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
 Statement                              tameFossa  richSaola   bold
+/16                                    tameFossa  none        bold
 StatusLine                             weakSnail  zanyDingo
 /16                                    weakSnail  zanyDingo   reverse,bold
 StatusLineNC                           tameFossa  deadLemur   bold
 /16                                    tameFossa  deadLemur   reverse
 String                                 tameHorse  richSaola
+/16                                    tameHorse  none
 TabLineSel                             tameFossa  richSaola   bold
 /16                                    tameFossa  richSaola   bold
 Title                                  tameFossa  richSaola   bold
 Todo                                   tameFossa  richSaola   bold
 ToolbarButton                          poorLlama  longDhole   bold
- /16                                   richBison  dullZorse   bold
+/16                                    richBison  dullZorse   bold
 ToolbarLine                            none       none
- /16                                   none       none
+/16                                    none       none
 Type                                   tameFossa  richSaola
+/16                                    tameFossa  none
 Underlined                             tameFossa  richSaola   underline
 Visual                                 tameFossa  deadLemur
 /gui                                   none       omit
 WarningMsg                             poorLlama  richSaola
 lCursor                                richSaola  tameFossa
-vimAugroup                             tameFossa  richSaola
-vimAutoCmdSfxList                      tameFossa  richSaola
-vimAutoCmdSpace                        tameFossa  richSaola
-vimAutoEventList                       tameFossa  richSaola
-vimClusterName                         tameFossa  richSaola
-vimCmdSep                              tameFossa  richSaola
-vimCollClass                           tameFossa  richSaola
-vimCollection                          tameFossa  richSaola
-vimCommentTitleLeader                  tameFossa  richSaola
-vimEscapeBrace                         tameFossa  richSaola
-vimExecute                             tameFossa  richSaola
-vimExtCmd                              tameFossa  richSaola
-vimFiletype                            tameFossa  richSaola
-vimFilter                              tameFossa  richSaola
-vimFuncBlank                           tameFossa  richSaola
-vimFuncBody                            tameFossa  richSaola
-vimFunction                            tameFossa  richSaola
-vimGlobal                              tameFossa  richSaola
-vimGroupList                           tameFossa  richSaola
-vimHiFontname                          tameFossa  richSaola
-vimHiGuiFontname                       tameFossa  richSaola
-vimHiKeyList                           tameFossa  richSaola
-vimHiLink                              tameFossa  richSaola
-vimHiTermcap                           tameFossa  richSaola
-vimIsCommand                           tameFossa  richSaola
-vimIskList                             tameFossa  richSaola
-vimMapLhs                              tameFossa  richSaola
-vimMapRhs                              tameFossa  richSaola
-vimMenuRhs                             tameFossa  richSaola
-vimOperParen                           tameFossa  richSaola
-vimPatRegion                           tameFossa  richSaola
-vimSetEqual                            tameFossa  richSaola
-vimStdPlugin                           tameFossa  richSaola
-vimSubstPat                            tameFossa  richSaola
-vimSubstRange                          tameFossa  richSaola
-vimSubstRep                            tameFossa  richSaola
-vimSubstRep4                           tameFossa  richSaola
-vimSynKeyRegion                        tameFossa  richSaola
-vimSynMatchRegion                      tameFossa  richSaola
-vimSynPatMod                           tameFossa  richSaola
-vimSynRegion                           tameFossa  richSaola
-vimSyncLinebreak                       tameFossa  richSaola
-vimSyncLinecont                        tameFossa  richSaola
-vimSyncLines                           tameFossa  richSaola
-vimSyncMatch                           tameFossa  richSaola
-vimSyncRegion                          tameFossa  richSaola
-vimUserCmd                             tameFossa  richSaola
-VertSplit /16                          richSaola  zanyDingo
 
 
-;8-color specific {{{
-Normal                  /8  richBison  richSaola
-ColorColumn             /8  richSaola  richBison
-Comment                 /8  richBison  none        bold
-CursorLine              /8  none       none        underline
-CursorLineNr            /8  poorLlama  none
-Error                   /8  fineSnake  richSaola   reverse
-ErrorMsg                /8  richSaola  fineSnake
-FoldColumn              /8  richBison  none
-Folded                  /8  richBison  none
-LineNr                  /8  richBison  none
-MatchParen              /8  richBison  none        bold,underline
-NonText                 /8  richBison  none
-Pmenu                   /8  none       none        reverse
-PmenuThumb              /8  none       none        reverse
-PmenuSbar               /8  none       none
-PmenuSel                /8  none       none        bold
-PmenuKind               /8  none       none        reverse,bold
-PmenuKindSel            /8  none       none        bold
-PmenuExtra              /8  none       none        reverse
-PmenuExtraSel           /8  none       none        bold
-PmenuMatch              /8  none       fineSnake   reverse
-PmenuMatchSel           /8  fineSnake  none        bold
-SignColumn              /8  richBison  none
-SpecialKey              /8  richBison  none
-StatusLine              /8  richBison  richSaola   reverse,bold
-StatusLineNC            /8  richBison  richSaola   reverse
-TabLine                 /8  richSaola  richBison
-TabLineFill             /8  richSaola  richBison
-TabLineSel              /8  richBison  richSaola
-ToolbarButton           /8  richSaola  richBison   bold
-ToolbarLine             /8  none       none
-VertSplit               /8  richSaola  richBison
-Visual                  /8  richSaola  zanyLlama
-WildMenu                /8  zanyLlama  dullZorse   bold
-EndOfBuffer             /8  none       none
-Title                   /8  none       none        bold
+; 8-color overrides
+Normal          /8   richBison   none
+ColorColumn     /8   richSaola   richBison
+Comment         /8   richBison   none        bold
+CursorLine      /8   none        none        underline
+CursorLineNr    /8   poorLlama   none
+Error           /8   fineSnake   richSaola   reverse
+ErrorMsg        /8   richSaola   fineSnake
+FoldColumn      /8   richBison   none
+Folded          /8   richBison   none
+LineNr          /8   richBison   none
+MatchParen      /8   richBison   none        bold,underline
+NonText         /8   richBison   none
+Pmenu           /8   none        none        reverse
+PmenuThumb      /8   none        none        reverse
+PmenuSbar       /8   none        none
+PmenuSel        /8   none        none        bold
+PmenuKind       /8   none        none        reverse,bold
+PmenuKindSel    /8   none        none        bold
+PmenuExtra      /8   none        none        reverse
+PmenuExtraSel   /8   none        none        bold
+PmenuMatch      /8   none        fineSnake   reverse
+PmenuMatchSel   /8   fineSnake   none        bold
+SignColumn      /8   richBison   none
+SpecialKey      /8   richBison   none
+StatusLine      /8   richBison   richSaola   reverse,bold
+StatusLineNC    /8   richBison   richSaola   reverse
+TabLine         /8   richSaola   richBison
+TabLineFill     /8   richSaola   richBison
+TabLineSel      /8   richBison   richSaola
+ToolbarButton   /8   richSaola   richBison   bold
+ToolbarLine     /8   none        none
+Visual          /8   richSaola   zanyLlama
+WildMenu        /8   zanyLlama   dullZorse   bold
+EndOfBuffer     /8   none        none
+Title           /8   none        none        bold
