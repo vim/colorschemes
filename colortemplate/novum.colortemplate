@@ -82,7 +82,9 @@ Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHum
 Normal                                 tameFossa  richSaola
 /16                                    tameFossa  none
 Added                                  tameHorse  richSaola
+/16                                    tameHorse  none
 Changed                                warmQuail  richSaola
+/16                                    warmQuail  none
 ColorColumn                            tameFossa  deadLemur
 /16                                    richSaola  poorLlama
 Comment                                dullZorse  richSaola
@@ -101,16 +103,21 @@ CursorLineNr                           tameFossa  richSaola   bold
 Delimiter                              tameFossa  richSaola
 /16                                    tameFossa  none
 DiffAdd                                soreSloth  easyTetra
+/16                                    soreSloth  easyTetra
 DiffChange                             soreSloth  deadLemur
+/16                                    soreSloth  deadLemur
 DiffDelete                             baldFossa  richSaola   bold
+/16                                    baldFossa  none        bold
 DiffText                               soreSloth  gladHuman
+/16                                    soreSloth  gladHuman
 Directory                              warmQuail  richSaola
+/16                                    warmQuail  none
 Error                                  soreSloth  gladRobin
 /16                                    fineSnake  richSaola   reverse
 ErrorMsg                               baldFossa  richSaola
 /16                                    richSaola  fineSnake
 Folded                                 dullZorse  longDhole
-/16                                    none       richBison
+/16                                    longDhole  richBison
 Function                               warmQuail  richSaola
 /16                                    warmQuail  none
 Identifier                             zanyLlama  richSaola
@@ -120,7 +127,9 @@ LineNr                                 deadLemur  richSaola
 MatchParen                             tameFossa  deadLemur   bold,underline
 /16                                    none       richSaola   bold,underline
 ModeMsg                                tameHorse  richSaola
+/16                                    tameHorse  none
 MoreMsg                                warmQuail  richSaola
+/16                                    warmQuail  none
 NonText                                deadLemur  richSaola
 /16                                    dullZorse  none
 Operator                               tameFossa  richSaola
@@ -137,9 +146,13 @@ PmenuSbar /16                          none       none
 PreProc                                tameFossa  richSaola
 /16                                    tameFossa  none
 Question                               warmQuail  richSaola
+/16                                    warmQuail  none
 QuickFixLine                           warmQuail  richSaola
+/16                                    warmQuail  none
 Removed                                baldFossa  richSaola
+/16                                    baldFossa  none
 Search                                 soreSloth  richBison
+/16                                    longDhole  poorLlama
 SignColumn                             deadLemur  richSaola
 /16                                    deadLemur  none
 Special                                warmQuail  richSaola
@@ -153,7 +166,7 @@ SpellRare                              tameFossa  richSaola   s=warmQuail underc
 Statement                              tameFossa  richSaola   bold
 /16                                    tameFossa  none        bold
 StatusLine                             weakSnail  zanyDingo
-/16                                    weakSnail  zanyDingo   reverse,bold
+/16                                    longDhole  zanyDingo   reverse,bold
 StatusLineNC                           tameFossa  deadLemur   bold
 /16                                    tameFossa  deadLemur   reverse
 String                                 tameHorse  richSaola
@@ -170,8 +183,10 @@ Type                                   tameFossa  richSaola
 /16                                    tameFossa  none
 Underlined                             tameFossa  richSaola   underline
 Visual                                 tameFossa  deadLemur
+/16                                    none       deadLemur
 /gui                                   none       omit
 WarningMsg                             poorLlama  richSaola
+/16                                    poorLlama  none
 lCursor                                richSaola  tameFossa
 
 
@@ -211,3 +226,5 @@ Visual          /8   richSaola   zanyLlama
 WildMenu        /8   zanyLlama   dullZorse   bold
 EndOfBuffer     /8   none        none
 Title           /8   none        none        bold
+
+Include: _tcozero
