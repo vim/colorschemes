@@ -63,7 +63,7 @@ Color: easyTetra #005523 22 DarkGreen
 Color: fineSnake #ff0000 196 Red
 Color: gladHuman #007373 30 DarkCyan
 Color: gladRobin #590008 52 DarkRed
-Color: longDhole #07080d 232 DarkGrey
+Color: longDhole #07080d 232 Black
 Color: poorLlama #fce094 222 LightYellow
 Color: richBison #6b5300 58 DarkYellow
 Color: richSaola #14161b 233 DarkGrey
@@ -94,6 +94,7 @@ Conceal                                deadLemur  richSaola
 Constant                               tameFossa  richSaola
 /16                                    tameFossa  none
 CurSearch                              longDhole  poorLlama
+/16                                    longDhole  poorLlama   bold,reverse
 Cursor                                 richSaola  tameFossa
 CursorColumn                           tameFossa  weakSnail
 CursorLine                             tameFossa  weakSnail
@@ -115,7 +116,7 @@ Directory                              warmQuail  richSaola
 Error                                  soreSloth  gladRobin
 /16                                    fineSnake  richSaola   reverse
 ErrorMsg                               baldFossa  richSaola
-/16                                    richSaola  fineSnake
+/16                                    longDhole  fineSnake
 Folded                                 dullZorse  longDhole
 /16                                    longDhole  richBison
 Function                               warmQuail  richSaola
@@ -160,9 +161,13 @@ Special                                warmQuail  richSaola
 SpecialKey                             deadLemur  richSaola
 /16                                    deadLemur  none
 SpellBad                               tameFossa  richSaola   s=baldFossa undercurl
+/16                                    tameFossa  none        underline
 SpellCap                               tameFossa  richSaola   s=poorLlama undercurl
+/16                                    tameFossa  none        underline
 SpellLocal                             tameFossa  richSaola   s=tameHorse undercurl
+/16                                    tameFossa  none        underline
 SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
+/16                                    tameFossa  none        underline
 Statement                              tameFossa  richSaola   bold
 /16                                    tameFossa  none        bold
 StatusLine                             weakSnail  zanyDingo
@@ -176,7 +181,7 @@ TabLineSel                             tameFossa  richSaola   bold
 Title                                  tameFossa  richSaola   bold
 Todo                                   tameFossa  richSaola   bold
 ToolbarButton                          poorLlama  longDhole   bold
-/16                                    richBison  dullZorse   bold
+/16                                    longDhole  dullZorse   bold
 ToolbarLine                            none       none
 /16                                    none       none
 Type                                   tameFossa  richSaola
@@ -215,6 +220,10 @@ PmenuMatch      /8   none        fineSnake   reverse
 PmenuMatchSel   /8   fineSnake   none        bold
 SignColumn      /8   richBison   none
 SpecialKey      /8   richBison   none
+SpellBad        /8   none        none        underline
+SpellCap        /8   none        none        underline
+SpellLocal      /8   none        none        underline
+SpellRare       /8   none        none        underline
 StatusLine      /8   richBison   richSaola   reverse,bold
 StatusLineNC    /8   richBison   richSaola   reverse
 TabLine         /8   richSaola   richBison
