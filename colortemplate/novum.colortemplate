@@ -101,6 +101,10 @@ CursorLine                             tameFossa  weakSnail
 /16                                    none       none        underline
 CursorLineNr                           tameFossa  richSaola   bold
 /16                                    poorLlama  none
+debugBreakpoint                        soreSloth  gladRobin
+/16                                    soreSloth  gladRobin
+debugPC                                soreSloth  gladHuman
+/16                                    soreSloth  gladHuman
 Delimiter                              tameFossa  richSaola
 /16                                    tameFossa  none
 DiffAdd                                soreSloth  easyTetra
@@ -125,8 +129,8 @@ Identifier                             zanyLlama  richSaola
 /16                                    zanyLlama  none
 LineNr                                 deadLemur  richSaola
 /16                                    deadLemur  none
-MatchParen                             tameFossa  deadLemur   bold,underline
-/16                                    none       richSaola   bold,underline
+MatchParen                             tameFossa  deadLemur   bold
+/16                                    none       richSaola   bold
 ModeMsg                                tameHorse  richSaola
 /16                                    tameHorse  none
 MoreMsg                                warmQuail  richSaola
@@ -177,7 +181,7 @@ StatusLineNC                           tameFossa  deadLemur   bold
 String                                 tameHorse  richSaola
 /16                                    tameHorse  none
 TabLineSel                             tameFossa  richSaola   bold
-/16                                    tameFossa  richSaola   bold
+/16                                    tameFossa  richBison   bold
 Title                                  tameFossa  richSaola   bold
 Todo                                   tameFossa  richSaola   bold
 ToolbarButton                          poorLlama  longDhole   bold
@@ -201,12 +205,14 @@ ColorColumn     /8   richSaola   richBison
 Comment         /8   richBison   none        bold
 CursorLine      /8   none        none        underline
 CursorLineNr    /8   poorLlama   none
+debugBreakpoint /8   fineSnake   none        reverse
+debugPC         /8   warmQuail   none        reverse
 Error           /8   fineSnake   richSaola   reverse
 ErrorMsg        /8   richSaola   fineSnake
 FoldColumn      /8   richBison   none
 Folded          /8   richBison   none
 LineNr          /8   richBison   none
-MatchParen      /8   richBison   none        bold,underline
+MatchParen      /8   richBison   none        bold
 NonText         /8   richBison   none
 Pmenu           /8   none        none        reverse
 PmenuThumb      /8   none        none        reverse

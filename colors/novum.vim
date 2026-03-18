@@ -86,7 +86,7 @@ hi Folded guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=NONE ctermfg=145 ctermbg=23
 hi Function guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
 hi Identifier guifg=#a6dbff guibg=#14161b guisp=NONE gui=NONE ctermfg=153 ctermbg=233 cterm=NONE term=NONE
 hi LineNr guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
-hi MatchParen guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold,underline ctermfg=188 ctermbg=59 cterm=bold,underline term=bold,underline
+hi MatchParen guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=bold ctermfg=188 ctermbg=59 cterm=bold term=bold,underline
 hi ModeMsg guifg=#b3f6c0 guibg=#14161b guisp=NONE gui=NONE ctermfg=157 ctermbg=233 cterm=NONE term=bold
 hi MoreMsg guifg=#8cf8f7 guibg=#14161b guisp=NONE gui=NONE ctermfg=123 ctermbg=233 cterm=NONE term=NONE
 hi NonText guifg=#4f5258 guibg=#14161b guisp=NONE gui=NONE ctermfg=59 ctermbg=233 cterm=NONE term=NONE
@@ -121,6 +121,8 @@ hi Type guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 
 hi Underlined guifg=#e0e2ea guibg=#14161b guisp=NONE gui=underline ctermfg=188 ctermbg=233 cterm=underline term=underline
 hi Visual guifg=NONE guibg=#4f5258 guisp=NONE gui=NONE ctermfg=188 ctermbg=59 cterm=NONE term=reverse
 hi WarningMsg guifg=#fce094 guibg=#14161b guisp=NONE gui=NONE ctermfg=222 ctermbg=233 cterm=NONE term=standout
+hi debugBreakpoint guifg=#eef1f8 guibg=#590008 guisp=NONE gui=NONE ctermfg=231 ctermbg=52 cterm=NONE term=NONE
+hi debugPC guifg=#eef1f8 guibg=#007373 guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=NONE
 hi lCursor guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=188 cterm=NONE term=NONE
 
 if s:tgc || s:t_Co >= 256
@@ -153,7 +155,7 @@ if s:t_Co >= 16
   hi Function ctermfg=LightCyan ctermbg=NONE cterm=NONE
   hi Identifier ctermfg=LightBlue ctermbg=NONE cterm=NONE
   hi LineNr ctermfg=DarkGrey ctermbg=NONE cterm=NONE
-  hi MatchParen ctermfg=NONE ctermbg=DarkGrey cterm=bold,underline
+  hi MatchParen ctermfg=NONE ctermbg=DarkGrey cterm=bold
   hi ModeMsg ctermfg=LightGreen ctermbg=NONE cterm=NONE
   hi MoreMsg ctermfg=LightCyan ctermbg=NONE cterm=NONE
   hi NonText ctermfg=LightGrey ctermbg=NONE cterm=NONE
@@ -180,7 +182,7 @@ if s:t_Co >= 16
   hi StatusLine ctermfg=Black ctermbg=LightGrey cterm=bold,reverse
   hi StatusLineNC ctermfg=LightGrey ctermbg=DarkGrey cterm=reverse
   hi String ctermfg=LightGreen ctermbg=NONE cterm=NONE
-  hi TabLineSel ctermfg=LightGrey ctermbg=DarkGrey cterm=bold
+  hi TabLineSel ctermfg=LightGrey ctermbg=DarkYellow cterm=bold
   hi Title ctermfg=LightGrey ctermbg=DarkGrey cterm=bold
   hi Todo ctermfg=LightGrey ctermbg=DarkGrey cterm=bold
   hi ToolbarButton ctermfg=Black ctermbg=LightGrey cterm=bold
@@ -189,6 +191,8 @@ if s:t_Co >= 16
   hi Underlined ctermfg=LightGrey ctermbg=DarkGrey cterm=underline
   hi Visual ctermfg=NONE ctermbg=DarkGrey cterm=NONE
   hi WarningMsg ctermfg=LightYellow ctermbg=NONE cterm=NONE
+  hi debugBreakpoint ctermfg=LightGrey ctermbg=DarkRed cterm=NONE
+  hi debugPC ctermfg=LightGrey ctermbg=DarkCyan cterm=NONE
   hi lCursor ctermfg=DarkGrey ctermbg=LightGrey cterm=NONE
   finish
 endif
@@ -221,7 +225,7 @@ if s:t_Co >= 8
   hi Function ctermfg=LightCyan ctermbg=DarkGrey cterm=NONE
   hi Identifier ctermfg=LightBlue ctermbg=DarkGrey cterm=NONE
   hi LineNr ctermfg=DarkYellow ctermbg=NONE cterm=NONE
-  hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold,underline
+  hi MatchParen ctermfg=DarkYellow ctermbg=NONE cterm=bold
   hi ModeMsg ctermfg=LightGreen ctermbg=DarkGrey cterm=NONE
   hi MoreMsg ctermfg=LightCyan ctermbg=DarkGrey cterm=NONE
   hi NonText ctermfg=DarkYellow ctermbg=NONE cterm=NONE
@@ -264,6 +268,8 @@ if s:t_Co >= 8
   hi Visual ctermfg=DarkGrey ctermbg=LightBlue cterm=NONE
   hi WarningMsg ctermfg=LightYellow ctermbg=DarkGrey cterm=NONE
   hi WildMenu ctermfg=LightBlue ctermbg=LightGrey cterm=bold
+  hi debugBreakpoint ctermfg=Red ctermbg=NONE cterm=reverse
+  hi debugPC ctermfg=LightCyan ctermbg=NONE cterm=reverse
   hi lCursor ctermfg=DarkGrey ctermbg=LightGrey cterm=NONE
   finish
 endif
