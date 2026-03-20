@@ -57,22 +57,22 @@ WildMenu                               -> PmenuSel
 ; }}}
 
 Color: baldFossa #ffc0b9 217 Red
-Color: deadLemur #4f5258 59 DarkGrey
-Color: dullZorse #9b9ea4 145 LightGrey
+Color: deadLemur #4f5258 59 DarkGray
+Color: dullZorse #9b9ea4 145 DarkGray
 Color: easyTetra #005523 22 DarkGreen
 Color: fineSnake #ff0000 196 Red
 Color: gladHuman #007373 30 DarkCyan
 Color: gladRobin #590008 52 DarkRed
 Color: longDhole #07080d 232 Black
-Color: poorLlama #fce094 222 LightYellow
-Color: richBison #6b5300 58 DarkYellow
-Color: richSaola #14161b 233 DarkGrey
-Color: soreSloth #eef1f8 231 LightGrey
-Color: tameFossa #e0e2ea 188 LightGrey
+Color: poorLlama #fce094 222 Yellow
+Color: richBison #6b5300 58 Brown
+Color: richSaola #14161b 233 Black
+Color: soreSloth #eef1f8 231 White
+Color: tameFossa #e0e2ea 188 LightGray
 Color: tameHorse #b3f6c0 157 LightGreen
-Color: warmQuail #8cf8f7 123 LightCyan
-Color: weakSnail #2c2e33 236 DarkGrey
-Color: zanyDingo #c4c6cd 152 LightGrey
+Color: warmQuail #8cf8f7 123 Cyan
+Color: weakSnail #2c2e33 236 DarkGray
+Color: zanyDingo #c4c6cd 152 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
 
 Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHuman richBison
@@ -80,15 +80,10 @@ Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHum
 
 
 Normal                                 tameFossa  richSaola
-/16                                    tameFossa  none
 Added                                  tameHorse  richSaola
-/16                                    tameHorse  none
 Changed                                warmQuail  richSaola
-/16                                    warmQuail  none
 ColorColumn                            tameFossa  deadLemur
-/16                                    richSaola  poorLlama
 Comment                                dullZorse  richSaola
-/16                                    dullZorse  none
 ComplMatchIns                          tameFossa  richSaola
 Conceal                                deadLemur  richSaola
 Constant                               tameFossa  richSaola
@@ -98,13 +93,11 @@ CurSearch                              longDhole  poorLlama
 Cursor                                 richSaola  tameFossa
 CursorColumn                           tameFossa  weakSnail
 CursorLine                             tameFossa  weakSnail
-/16                                    none       none        underline
+/16                                    tameFossa  weakSnail   underline
 CursorLineNr                           tameFossa  richSaola   bold
 /16                                    poorLlama  none
 debugBreakpoint                        soreSloth  gladRobin
-/16                                    soreSloth  gladRobin
 debugPC                                soreSloth  gladHuman
-/16                                    soreSloth  gladHuman
 Delimiter                              tameFossa  richSaola
 /16                                    tameFossa  none
 DiffAdd                                soreSloth  easyTetra
@@ -118,9 +111,7 @@ DiffText                               soreSloth  gladHuman
 Directory                              warmQuail  richSaola
 /16                                    warmQuail  none
 Error                                  soreSloth  gladRobin
-/16                                    fineSnake  richSaola   reverse
 ErrorMsg                               baldFossa  richSaola
-/16                                    longDhole  fineSnake
 Folded                                 dullZorse  longDhole
 /16                                    longDhole  richBison
 Function                               warmQuail  richSaola
@@ -128,118 +119,99 @@ Function                               warmQuail  richSaola
 Identifier                             zanyLlama  richSaola
 /16                                    zanyLlama  none
 LineNr                                 deadLemur  richSaola
-/16                                    deadLemur  none
 MatchParen                             tameFossa  deadLemur   bold
 /16                                    none       richSaola   bold
 ModeMsg                                tameHorse  richSaola
-/16                                    tameHorse  none
 MoreMsg                                warmQuail  richSaola
-/16                                    warmQuail  none
 NonText                                deadLemur  richSaola
-/16                                    dullZorse  none
 Operator                               tameFossa  richSaola
 /16                                    tameFossa  none
 Pmenu                                  tameFossa  weakSnail
-/16                                    richSaola  tameFossa
 PmenuMatch                             tameFossa  richSaola   bold
 PmenuMatchSel                          tameFossa  richSaola   bold
 PmenuSel                               tameFossa  richSaola   reverse
-/16                                    tameFossa  richSaola
+/16                                    richSaola  tameFossa
 PmenuThumb                             tameFossa  deadLemur
-/16                                    none       none        reverse
-PmenuSbar /16                          none       none
 PreProc                                tameFossa  richSaola
-/16                                    tameFossa  none
 Question                               warmQuail  richSaola
-/16                                    warmQuail  none
 QuickFixLine                           warmQuail  richSaola
 /16                                    warmQuail  none
 Removed                                baldFossa  richSaola
-/16                                    baldFossa  none
 Search                                 soreSloth  richBison
-/16                                    longDhole  poorLlama
+/16                                    soreSloth  gladRobin
 SignColumn                             deadLemur  richSaola
 /16                                    deadLemur  none
 Special                                warmQuail  richSaola
-/16                                    warmQuail  none
 SpecialKey                             deadLemur  richSaola
-/16                                    deadLemur  none
 SpellBad                               tameFossa  richSaola   s=baldFossa undercurl
-/16                                    tameFossa  none        underline
+/16                                    tameFossa  richSaola   underline
 SpellCap                               tameFossa  richSaola   s=poorLlama undercurl
-/16                                    tameFossa  none        underline
+/16                                    tameFossa  richSaola   underline
 SpellLocal                             tameFossa  richSaola   s=tameHorse undercurl
-/16                                    tameFossa  none        underline
+/16                                    tameFossa  richSaola   underline
 SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
-/16                                    tameFossa  none        underline
+/16                                    tameFossa  richSaola   underline
 Statement                              tameFossa  richSaola   bold
-/16                                    tameFossa  none        bold
 StatusLine                             weakSnail  zanyDingo
-/16                                    longDhole  zanyDingo   reverse,bold
 StatusLineNC                           tameFossa  deadLemur   bold
-/16                                    tameFossa  deadLemur   reverse
 String                                 tameHorse  richSaola
 /16                                    tameHorse  none
 TabLineSel                             tameFossa  richSaola   bold
-/16                                    tameFossa  richBison   bold
 Title                                  tameFossa  richSaola   bold
 Todo                                   tameFossa  richSaola   bold
 ToolbarButton                          poorLlama  longDhole   bold
-/16                                    longDhole  dullZorse   bold
 ToolbarLine                            none       none
-/16                                    none       none
 Type                                   tameFossa  richSaola
-/16                                    tameFossa  none
+/16                                    tameFossa  richSaola   bold
 Underlined                             tameFossa  richSaola   underline
 Visual                                 tameFossa  deadLemur
 /16                                    none       deadLemur
 /gui                                   none       omit
 WarningMsg                             poorLlama  richSaola
-/16                                    poorLlama  none
 lCursor                                richSaola  tameFossa
 
 
 ; 8-color overrides
-Normal          /8   richBison   none
-ColorColumn     /8   richSaola   richBison
-Comment         /8   richBison   none        bold
-CursorLine      /8   none        none        underline
-CursorLineNr    /8   poorLlama   none
-debugBreakpoint /8   fineSnake   none        reverse
-debugPC         /8   warmQuail   none        reverse
-Error           /8   fineSnake   richSaola   reverse
-ErrorMsg        /8   richSaola   fineSnake
-FoldColumn      /8   richBison   none
-Folded          /8   richBison   none
-LineNr          /8   richBison   none
-MatchParen      /8   richBison   none        bold
-NonText         /8   richBison   none
-Pmenu           /8   none        none        reverse
-PmenuThumb      /8   none        none        reverse
-PmenuSbar       /8   none        none
-PmenuSel        /8   none        none        bold
-PmenuKind       /8   none        none        reverse,bold
-PmenuKindSel    /8   none        none        bold
-PmenuExtra      /8   none        none        reverse
-PmenuExtraSel   /8   none        none        bold
-PmenuMatch      /8   none        fineSnake   reverse
-PmenuMatchSel   /8   fineSnake   none        bold
-SignColumn      /8   richBison   none
-SpecialKey      /8   richBison   none
-SpellBad        /8   none        none        underline
-SpellCap        /8   none        none        underline
-SpellLocal      /8   none        none        underline
-SpellRare       /8   none        none        underline
-StatusLine      /8   richBison   richSaola   reverse,bold
-StatusLineNC    /8   richBison   richSaola   reverse
-TabLine         /8   richSaola   richBison
-TabLineFill     /8   richSaola   richBison
-TabLineSel      /8   richBison   richSaola
-ToolbarButton   /8   richSaola   richBison   bold
-ToolbarLine     /8   none        none
-Visual          /8   richSaola   zanyLlama
-WildMenu        /8   zanyLlama   dullZorse   bold
-EndOfBuffer     /8   none        none
-Title           /8   none        none        bold
+; Normal          /8   richBison   none
+; ColorColumn     /8   richSaola   richBison
+; Comment         /8   richBison   none        bold
+; CursorLine      /8   none        none        underline
+; CursorLineNr    /8   poorLlama   none
+; debugBreakpoint /8   fineSnake   none        reverse
+; debugPC         /8   warmQuail   none        reverse
+; Error           /8   fineSnake   richSaola   reverse
+; ErrorMsg        /8   richSaola   fineSnake
+; FoldColumn      /8   richBison   none
+; Folded          /8   richBison   none
+; LineNr          /8   richBison   none
+; MatchParen      /8   richBison   none        bold
+; NonText         /8   richBison   none
+; Pmenu           /8   none        none        reverse
+; PmenuThumb      /8   none        none        reverse
+; PmenuSbar       /8   none        none
+; PmenuSel        /8   none        none        bold
+; PmenuKind       /8   none        none        reverse,bold
+; PmenuKindSel    /8   none        none        bold
+; PmenuExtra      /8   none        none        reverse
+; PmenuExtraSel   /8   none        none        bold
+; PmenuMatch      /8   none        fineSnake   reverse
+; PmenuMatchSel   /8   fineSnake   none        bold
+; SignColumn      /8   richBison   none
+; SpecialKey      /8   richBison   none
+; SpellBad        /8   none        none        underline
+; SpellCap        /8   none        none        underline
+; SpellLocal      /8   none        none        underline
+; SpellRare       /8   none        none        underline
+; StatusLine      /8   richBison   richSaola   reverse,bold
+; StatusLineNC    /8   richBison   richSaola   reverse
+; TabLine         /8   richSaola   richBison
+; TabLineFill     /8   richSaola   richBison
+; TabLineSel      /8   richBison   richSaola
+; ToolbarButton   /8   richSaola   richBison   bold
+; ToolbarLine     /8   none        none
+; Visual          /8   richSaola   zanyLlama
+; WildMenu        /8   zanyLlama   dullZorse   bold
+; EndOfBuffer     /8   none        none
+; Title           /8   none        none        bold
 
 Include: _tcozero
