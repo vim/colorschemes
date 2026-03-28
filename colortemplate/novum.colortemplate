@@ -172,46 +172,26 @@ lCursor                                richSaola  tameFossa
 
 
 ; 8-color overrides
-; Normal          /8   richBison   none
-; ColorColumn     /8   richSaola   richBison
-; Comment         /8   richBison   none        bold
-; CursorLine      /8   none        none        underline
-; CursorLineNr    /8   poorLlama   none
-; debugBreakpoint /8   fineSnake   none        reverse
-; debugPC         /8   warmQuail   none        reverse
-; Error           /8   fineSnake   richSaola   reverse
-; ErrorMsg        /8   richSaola   fineSnake
-; FoldColumn      /8   richBison   none
-; Folded          /8   richBison   none
-; LineNr          /8   richBison   none
-; MatchParen      /8   richBison   none        bold
-; NonText         /8   richBison   none
-; Pmenu           /8   none        none        reverse
-; PmenuThumb      /8   none        none        reverse
-; PmenuSbar       /8   none        none
-; PmenuSel        /8   none        none        bold
-; PmenuKind       /8   none        none        reverse,bold
-; PmenuKindSel    /8   none        none        bold
-; PmenuExtra      /8   none        none        reverse
-; PmenuExtraSel   /8   none        none        bold
-; PmenuMatch      /8   none        fineSnake   reverse
-; PmenuMatchSel   /8   fineSnake   none        bold
-; SignColumn      /8   richBison   none
-; SpecialKey      /8   richBison   none
-; SpellBad        /8   none        none        underline
-; SpellCap        /8   none        none        underline
-; SpellLocal      /8   none        none        underline
-; SpellRare       /8   none        none        underline
-; StatusLine      /8   richBison   richSaola   reverse,bold
-; StatusLineNC    /8   richBison   richSaola   reverse
-; TabLine         /8   richSaola   richBison
-; TabLineFill     /8   richSaola   richBison
-; TabLineSel      /8   richBison   richSaola
-; ToolbarButton   /8   richSaola   richBison   bold
-; ToolbarLine     /8   none        none
-; Visual          /8   richSaola   zanyLlama
-; WildMenu        /8   zanyLlama   dullZorse   bold
-; EndOfBuffer     /8   none        none
-; Title           /8   none        none        bold
+Comment         /8   richBison   none        bold
+LineNr          /8   richBison   none
+SignColumn      /8   richBison   none
+NonText         /8   richBison   none
+SpecialKey      /8   richBison   none
+Folded          /8   richBison   none
+FoldColumn      /8   richBison   none
+Conceal         /8   richBison   none
+ColorColumn     /8   none        richSaola
+CursorLine      /8   none        none        underline
+CursorColumn    /8   none        none        underline
+MatchParen      /8   poorLlama   none        bold
+Visual          /8   none        none        reverse
+StatusLine      /8   none        none        reverse,bold
+StatusLineNC    /8   none        none        reverse
+SpellBad        /8   none        none        underline
+SpellCap        /8   none        none        underline
+SpellLocal      /8   none        none        underline
+SpellRare       /8   none        none        underline
+Statement       /8   tameFossa   none        bold
+Title           /8   tameFossa   none        bold
 
 Include: _tcozero
