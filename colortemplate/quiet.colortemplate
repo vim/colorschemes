@@ -340,7 +340,7 @@ Normal               light0            light7
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       light0            reverse
-Cursor               none              none              reverse
+Cursor               light15           light0
 TitleBar             light0            cTitle
 TitleBarNC           light8            cTitleNC
 CursorColumn         none              brightwhite
