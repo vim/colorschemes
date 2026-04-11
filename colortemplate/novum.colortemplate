@@ -38,7 +38,7 @@ PmenuKindSel                           -> PmenuSel
 PmenuSbar                              -> Pmenu
 PopupNotification                      -> Normal
 PreCondit                              -> PreProc
-PreInsert                              -> Normal
+PreInsert                              -> Added
 Repeat                                 -> Statement
 SpecialChar                            -> Special
 SpecialComment                         -> Special
@@ -152,8 +152,8 @@ SpellLocal                             tameFossa  richSaola   s=tameHorse underc
 SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
 /16                                    tameFossa  richSaola   underline
 Statement                              tameFossa  richSaola   bold
-StatusLine                             weakSnail  zanyDingo
-StatusLineNC                           tameFossa  deadLemur   bold
+StatusLine                             tameFossa  deadLemur
+StatusLineNC                           zanyDingo  weakSnail
 String                                 tameHorse  richSaola
 /16                                    tameHorse  none
 TabLineSel                             tameFossa  richSaola   bold
