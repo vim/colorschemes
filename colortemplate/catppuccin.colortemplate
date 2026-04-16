@@ -4,7 +4,7 @@ Short name:  catppuccin
 Description: Soothing pastel theme for the high-spirited!
 Author:      The Catppuccin Community <catppuccin.com>
 Maintainer:  Mao-Yining <mao.yining@outlook.com>
-URL:         https://www.github.com/vim/colorschemes
+URL:         https://github.com/vim/colorschemes
 Options:     backend=vim
 
 Environments: gui 256 16 8 0
@@ -143,9 +143,9 @@ SpellLocal	blue	none	underline
   /gui	none	none	s=blue undercurl
 SpellRare	green	none	underline
   /gui	none	none	s=green undercurl
-StatusLine	text	crust
+StatusLine	text	crust	bold
   /16/8	text	mantle	reverse,bold
-StatusLineNC	surface1	mantle
+StatusLineNC	overlay0	mantle
   /16	overlay0	mantle
   /8	overlay0	mantle	reverse
 TabLine	overlay0	crust
