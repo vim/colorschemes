@@ -93,7 +93,8 @@ Normal                         color07        color00
 
 StatusLine                     colorSt        color00        reverse,bold
 StatusLineNC                   color08        color00        reverse
-VertSplit                      color08        color08
+VertSplit                      colorSt        colorSt
+VertSplitNC                    color08        color08
 
 TabLine                        color00        color08
 TabLineFill                    color00        color08
@@ -240,6 +241,7 @@ Normal                   /8    color07        color00
 StatusLine               /8    color07        color00        reverse,bold
 StatusLineNC             /8    color00        color07
 VertSplit                /8    color07        color07
+VertSplitNC              /8    color07        color07
 
 TabLine                  /8    color00        color07
 TabLineFill              /8    color07        color07
@@ -390,7 +392,8 @@ Normal                         color00        color15
 
 StatusLine                     color15        colorSt        bold
 StatusLineNC                   color00        colorTab
-VertSplit                      colorTab       colorTab
+VertSplit                      colorSt        colorSt
+VertSplitNC                    colorTab       colorTab
 
 TabLine                        color00        colorTab
 TabLineFill                    colorTab       colorTab
@@ -537,6 +540,7 @@ Normal                   /8    color00        color07
 StatusLine               /8    color07        color00        bold
 StatusLineNC             /8    color07        color00
 VertSplit                /8    color00        color00
+VertSplitNC              /8    color00        color00
 
 TabLine                  /8    color07        color00
 TabLineFill              /8    color00        color00
