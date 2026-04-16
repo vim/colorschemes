@@ -107,19 +107,22 @@ sqlKeyword                             -> Statement
 sqlSpecial                             -> Constant
 Quote                                  -> String
 markdownUrl                            -> String
-asciidoctorH1Delimiter                 -> Statement
-asciidoctorH2Delimiter                 -> Statement
-asciidoctorH3Delimiter                 -> Statement
-asciidoctorH4Delimiter                 -> Statement
-asciidoctorH5Delimiter                 -> Statement
-asciidoctorH6Delimiter                 -> Statement
+markdownHeadingRule                    -> Special
+asciidoctorTitle                       -> htmlH1
+asciidoctorH1                          -> htmlH1
+asciidoctorH2                          -> htmlH1
+asciidoctorH3                          -> htmlH1
+asciidoctorH4                          -> htmlH1
+asciidoctorH5                          -> htmlH1
+asciidoctorH6                          -> htmlH1
 asciidoctorSetextHeaderDelimiter       -> Statement
-asciidoctorTitleDelimiter              -> Statement
 asciidoctorListMarker                  -> Constant
 asciidoctorBlock                       -> Special
 asciidoctorCode                        -> String
 asciidoctorOption                      -> Special
 asciidoctorMacro                       -> Special
+rstSection                             -> htmlH1
+typstMarkupHeading                     -> htmlH1
 lspDiagVirtualTextError                -> Removed
 lspDiagSignErrorText                   -> Removed
 lspDiagVirtualTextWarning              -> Changed
@@ -138,7 +141,8 @@ StatusLine              color00        color07
  /8                     color07        color00        reverse,bold
 StatusLineNC            color00        color08
  /8                     color00        color07
-VertSplit               color08        color08
+VertSplit               color07        color07
+VertSplitNC             color08        color08
  /8                     color07        color07
 
 TabLine                 color00        color08
@@ -320,6 +324,8 @@ Changed                 Changed        none
 Removed                 Removed        none
  /8                     color01        none
 
+;; ftplugins
+htmlH1                  white          none           bold
 
 ; No color support
 Include: _tcozero
