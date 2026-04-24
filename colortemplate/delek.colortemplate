@@ -87,7 +87,9 @@ StatusLineTerm     Yellow         type           bold
  /8                darkblue       darkyellow     reverse,bold
 StatusLineTermNC   folded         type
  /8                darkblue       darkyellow     reverse
-VertSplit          folded         wildmenu
+VertSplit          Yellow         wildmenu
+ /8                darkblue       darkyellow     reverse
+VertSplitNC        folded         wildmenu
  /8                darkblue       darkyellow     reverse
 
 Pmenu              fg0            pmenu
