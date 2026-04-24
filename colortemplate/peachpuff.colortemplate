@@ -107,7 +107,9 @@ StatusLineTerm     fg1            type           bold
  /8                black          gray           reverse,bold
 StatusLineTermNC   bg0            identifier     bold
  /8                black          gray           reverse
-VertSplit          bg0            bg1
+VertSplit          bg0            fg0
+ /8                black          gray           reverse
+VertSplitNC        bg0            bg1
  /8                black          gray           reverse
 
 Pmenu              fg0            pmenu
