@@ -107,7 +107,8 @@ StatusLine        /8  color04     color07        reverse
 StatusLineNC      /8  color07     color00        reverse
 StatusLineTerm    /8  color04     color07        reverse
 StatusLineTermNC  /8  color07     color00        reverse
-VertSplit         /8  color07     color00        reverse
+VertSplit         /8  color04     color07        reverse
+VertSplitNC       /8  color07     color00        reverse
 
 
 Pmenu             /8  color00     color07
@@ -249,7 +250,8 @@ SpellRare             color11     none           s=none    underline
 
 StatusLine            color11     color04
 StatusLineNC          color00     color15
-VertSplit             color00     color15
+VertSplit             color11     color04
+VertSplitNC           color00     color15
 
 TabLine               color15     color08
 TabLineFill           none        color00        reverse
