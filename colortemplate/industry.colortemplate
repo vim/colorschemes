@@ -79,6 +79,7 @@ StatusLineNC    /8 color07        color00        reverse
 StatusLineTerm  /8 color02        color00        reverse,bold
 StatusLineTermNC/8 color02        color00        reverse
 VertSplit       /8 color07        color00        reverse
+VertSplitNC     /8 color07        color00        reverse
 
 
 Pmenu           /8 color00        color07
@@ -160,7 +161,8 @@ StatusLine         background     foreground     bold
 StatusLineNC       background     color07
 StatusLineTerm     background     color10        bold
 StatusLineTermNC   background     color02
-VertSplit          background     color07
+VertSplit          background     foreground
+VertSplitNC        background     color07
 
 
 Pmenu              foreground     color08
