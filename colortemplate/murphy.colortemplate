@@ -88,7 +88,9 @@ StatusLine         color15        color04
  /8                color04        color07        reverse,bold
 StatusLineNC       color15        color17
  /8                color07        color00        reverse
-VertSplit          color15        color17
+VertSplit          color15        color04
+ /8                color04        color07        reverse
+VertSplitNC        color15        color17
  /8                color07        color00        reverse
 
 Pmenu              color15        color08
