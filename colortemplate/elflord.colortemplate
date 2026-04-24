@@ -172,7 +172,8 @@ TabLineFill           none             xterm0            reverse
 TabLineSel            xterm14          xterm0            bold
 Terminal              xterm14          xterm0
 Title                 Title            none              bold
-VertSplit             xterm0           xterm6
+VertSplit             xterm0           xterm14
+VertSplitNC           xterm0           xterm6
 Visual                xterm0           rgbDarkGrey
 VisualNOS             none             xterm0            underline /gui omit omit underline,bold
 WarningMsg            WarningMsg       none
@@ -246,6 +247,7 @@ TabLineSel        /8  xterm6           none
 Terminal          /8  xterm6           none
 Title             /8  xterm5           none
 VertSplit         /8  xterm0           xterm6
+VertSplitNC       /8  xterm0           xterm6
 Visual            /8  xterm0           xterm7
 VisualNOS         /8  none             none              underline
 WarningMsg        /8  xterm1           none
