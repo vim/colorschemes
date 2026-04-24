@@ -68,7 +68,8 @@ Term colors: x_black x_darkred x_darkgreen x_darkyellow x_darkblue_m x_darkmagen
              x_darkgray x_red x_green x_yellow x_blue x_magenta x_cyan x_white
 
 
-VertSplit            -> StatusLineNC
+VertSplit            -> StatusLine
+VertSplitNC          -> StatusLineNC
 StatusLineTerm       -> StatusLine
 StatusLineTermNC     -> StatusLineNC
 TabLineFill          -> TabLine
