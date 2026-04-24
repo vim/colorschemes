@@ -154,7 +154,8 @@ SpellLocal      /8   ogDarkCyan        none              reverse
 SpellRare       /8   ogMagenta         ogOrange          reverse
 StatusLine      /8   ogDarkBlue        ogLightGrey       reverse,bold
 StatusLineNC    /8   ogLightGrey       black             reverse
-VertSplit       /8   ogLightGrey       black             reverse
+VertSplit       /8   ogDarkBlue        ogLightGrey       reverse
+VertSplitNC     /8   ogLightGrey       black             reverse
 TabLine         /8   ogLightGrey       black             reverse
 TabLineSel      /8   ogDarkBlue        ogLightGrey       reverse,bold
 ToolbarButton   /8   ogDarkBlue        ogLightGrey       reverse,bold
@@ -229,7 +230,8 @@ StatusLineNC         black             ogGrey
 TabLine              black             ogGrey
 ToolbarButton        white             ogBlue
 ToolbarLine          none              none
-VertSplit            black             ogGrey
+VertSplit            ogDeepBlue        ogLightGrey
+VertSplitNC          black             ogGrey
 Visual               ogViolet          white             reverse
 VisualNOS            ogViolet          ogLightGrey       reverse,underline
 WarningMsg           ogRed             none
