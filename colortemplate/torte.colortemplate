@@ -155,7 +155,8 @@ SpellRare       /8    color06     none           reverse
 
 StatusLine      /8    color07     color04        bold
 StatusLineNC    /8    color00     color07
-VertSplit       /8    color00     color07
+VertSplit       /8    color07     color04
+VertSplitNC     /8    color00     color07
 
 TabLine         /8    color00     color07
 TabLineFill     /8    none        color00        reverse
@@ -240,7 +241,8 @@ SpellRare             color14     none           s=none    underline
 
 StatusLine            color15     color04        bold
 StatusLineNC          color00     color07
-VertSplit             color00     color07
+VertSplit             color00     color04
+VertSplitNC           color00     color07
 
 TabLine               color15     color08
 TabLineFill           none        color00        reverse
