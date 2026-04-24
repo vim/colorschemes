@@ -106,7 +106,9 @@ StatusLine         bg2            fg0            bold
  /8                black          gray           reverse,bold
 StatusLineNC       status         fg0
  /8                black          gray           reverse
-VertSplit          status         fg0
+VertSplit          bg2            fg0
+ /8                black          gray           reverse
+VertSplitNC        status         fg0
  /8                black          gray           reverse
 
 Pmenu              fg0            pmenu
