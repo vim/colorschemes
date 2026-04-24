@@ -83,7 +83,10 @@ StatusLineTerm     background     color15
 StatusLineTermNC   foreground     color15
  /16               color08        color07
  /8                color07        color00        reverse
-VertSplit          color00        color15
+VertSplit          background     color15
+ /16               background     color07
+ /8                color07        color00        reverse
+VertSplitNC        color00        color15
  /16               color08        color07
  /8                color07        color00        reverse
 
