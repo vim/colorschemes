@@ -112,7 +112,10 @@ StatusLineTerm       color00           color13
 StatusLineTermNC     color07           color13
  /8                  color07           color00           reverse
  /16                 color00           color07
-VertSplit            color07           color13
+VertSplit            color00           color13
+ /8                  color07           color00           reverse
+ /16                 color15           color00           reverse
+VertSplitNC          color07           color13
  /8                  color07           color00           reverse
  /16                 color08           color07
 
