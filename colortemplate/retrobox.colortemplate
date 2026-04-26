@@ -93,8 +93,10 @@ FoldColumn                     grey           bg0
  /16                           bg1            none
 SignColumn                     grey           bg0
  /16                           bg1            none
-VertSplit                      bg3            bg0
- /16                           bg0            fg4
+VertSplit                      bg2            bg0
+ /16                           fg4            bg0
+VertSplitNC                    bg3            bg0
+ /16                           fg4            bg0
 ColorColumn                    none           bg5
  /16                           bg0            neutralyellow
 Error                          red            bg0            bold,reverse
@@ -192,7 +194,8 @@ TabLineFill             /8     bg0            fg4
 TabLineSel              /8     fg4            bg0
 ToolbarButton           /8     bg0            fg4            bold
 ToolbarLine             /8     none           none
-VertSplit               /8     bg0            fg4
+VertSplit               /8     fg4            bg0
+VertSplitNC             /8     fg4            bg0
 Visual                  /8     bg0            blue
 WildMenu                /8     blue           bg1            bold
 EndOfBuffer             /8     none           none
@@ -337,8 +340,10 @@ FoldColumn                     grey           bg0
  /16                           bg1            none
 SignColumn                     fg1            bg0
  /16                           bg1            none
-VertSplit                      bg3            bg0
- /16                           fg0            bg1
+VertSplit                      fg4            bg0
+ /16                           fg0            bg0
+VertSplitNC                    bg3            bg0
+ /16                           fg0            bg0
 ColorColumn                    none           bg5
  /16                           bg0            bg1
 CursorLine                     none           bg2
@@ -433,7 +438,8 @@ TabLineFill             /8     bg0            fg4
 TabLineSel              /8     fg1            bg0
 ToolbarButton           /8     bg0            fg4            bold
 ToolbarLine             /8     none           none
-VertSplit               /8     bg0            fg4
+VertSplit               /8     fg4            bg0
+VertSplitNC             /8     fg4            bg0
 Visual                  /8     bg0            blue
 WildMenu                /8     blue           bg1            bold
 EndOfBuffer             /8     none           none
