@@ -106,7 +106,9 @@ StatusLineTerm     bg0            tag
  /8                black          gray           reverse,bold
 StatusLineTermNC   bg0            type
  /8                black          gray           reverse
-VertSplit          bg0            fg0
+VertSplit          visual         status
+ /8                black          gray           reverse
+VertSplitNC        bg0            fg0
  /8                black          gray           reverse
 
 Pmenu              fg0            pmenu
