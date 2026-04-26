@@ -172,6 +172,7 @@ TabLineFill      /8   xterm4           xterm7            bold
 TabLineSel       /8   xterm7           xterm4            bold
 Title            /8   xterm5           none              bold
 VertSplit        /8   xterm4           xterm7
+VertSplitNC      /8   xterm4           xterm7
 Visual           /8   none             none              reverse
 VisualNOS        /8   none             xterm0            underline
 WarningMsg       /8   xterm1           none
@@ -233,7 +234,8 @@ TabLine               rgbBlue          xterm15           bold
 TabLineFill           rgbBlue          xterm15           bold
 TabLineSel            xterm15          rgbBlue           bold
 Title                 xterm13          none              bold
-VertSplit             rgbBlue          xterm7
+VertSplit             rgbBlue          xterm15
+VertSplitNC           rgbBlue          xterm7
 Visual                none             rgbGrey40         reverse
 VisualNOS             none             xterm0            underline /gui omit omit s=omit underline,bold
 WarningMsg            xterm9           none
