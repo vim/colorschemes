@@ -97,7 +97,9 @@ StatusLineTerm     Black          LightGreen     bold
  /8                Black          DarkGreen      reverse,bold
 StatusLineTermNC   LightGrey      DarkGreen
  /8                LightGrey      DarkGreen      reverse
-VertSplit          MediumGrey     MediumGrey
+VertSplit          Black          Black
+ /8                Black          LightGrey      reverse
+VertSplitNC        MediumGrey     MediumGrey
  /8                Black          LightGrey      reverse
 
 Pmenu              Black          MediumGrey
