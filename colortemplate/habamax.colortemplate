@@ -153,8 +153,8 @@ TabLineSel              color00        color07        bold
  /8                     color00        color07        bold
 
 ToolbarLine             none           none
-ToolbarButton           color08        color00        reverse,bold
- /8                     color07        color00        reverse
+ToolbarButton           color06        color00        reverse,bold
+ /16/8                  none           none           reverse
 QuickFixLine            color15        colorQF
  /gui                   none           colorQF
  /256+tgc true          omit           omit
