@@ -362,6 +362,7 @@ Color: colorB                  #E4E4E4        254            grey
 
 Color: colorNonT               #a8a8a8        248            darkgrey
 Color: colorTab                #d0d0d0        252            lightgrey
+Color: colorS                  #c6c6c6        251            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
 Color: colorV                  #bfdfff        32             blue
@@ -416,7 +417,7 @@ SpecialKey                     colorNonT      none
 
 Pmenu                          none           colorB
  /16                           color00        color07
-PmenuSel                       none           colorTab
+PmenuSel                       none           colorS
  /16                           color00        color03
 PmenuThumb                     none           color08
  /16                           none           color02
@@ -424,15 +425,15 @@ PmenuSbar                      none           none
  /16                           none           none
 PmenuKind                      color09        colorB
  /16                           color01        color07
-PmenuKindSel                   color09        colorTab
+PmenuKindSel                   color09        colorS
  /16                           color01        color03
 PmenuExtra                     color08        colorB
  /16                           color08        color07
-PmenuExtraSel                  color08        colorTab
+PmenuExtraSel                  color08        colorS
  /16                           color00        color03
 PmenuMatch                     color05        colorB
  /16                           color00        color07        bold
-PmenuMatchSel                  color05        colorTab
+PmenuMatchSel                  color05        colorS
  /16                           color00        color03        bold
 PmenuBorder                    color08        colorB
  /16                           color00        color07
