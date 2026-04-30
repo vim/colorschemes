@@ -195,9 +195,9 @@ PmenuExtra              color08        colorB
  /16/8                  none           none           reverse
 PmenuExtraSel           color07        colorNonT
  /16/8                  none           none           bold
-PmenuMatch              colorC         colorB
+PmenuMatch              colorC         none
  /16/8                  none           none           bold
-PmenuMatchSel           colorC         colorNonT
+PmenuMatchSel           colorC         none
  /16/8                  color03        none           bold
 PmenuBorder             color08        colorB
  /16/8                  none           none           reverse

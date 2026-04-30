@@ -128,9 +128,9 @@ PmenuExtra                     fg4            bg1
  /16                           grey           fg0
 PmenuExtraSel                  fg4            bg2
  /16                           grey           bg0
-PmenuMatch                     purple         bg1
+PmenuMatch                     purple         none
  /16                           bg0            fg0            bold
-PmenuMatchSel                  purple         bg2
+PmenuMatchSel                  purple         none
  /16                           bg0            fg0            bold,reverse
 PmenuBorder                    fg4            bg1
  /16                           bg0            fg0
@@ -373,9 +373,9 @@ PmenuExtra                     fg4            bg2
  /16                           fg0            bg1
 PmenuExtraSel                  fg1            bg3
  /16                           fg0            bg3
-PmenuMatch                     purple         bg2
+PmenuMatch                     purple         none
  /16                           fg1            bg1            bold
-PmenuMatchSel                  purple         bg3
+PmenuMatchSel                  purple         none
  /16                           fg1            bg3            bold
 PmenuBorder                    fg4            bg2
  /256/16                       fg1            bg1
