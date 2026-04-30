@@ -1,0 +1,197 @@
+Full name: novum
+Short name: novum
+Description: port of nvim dev_theme
+Author: Charan Mandati <charancuz008@gmail.com>
+License: Vim License (see `:help license`)`
+Options: backend=vim
+
+Environments: gui 256 16 8 0
+
+Background: dark
+
+; Common linked groups {{{
+Boolean                                -> Constant
+Character                              -> Constant
+Conditional                            -> Statement
+CursorIM                               -> Cursor
+CursorLineFold                         -> SignColumn
+CursorLineSign                         -> SignColumn
+Debug                                  -> Special
+Define                                 -> PreProc
+EndOfBuffer                            -> NonText
+Exception                              -> Statement
+Float                                  -> Constant
+FoldColumn                             -> SignColumn
+Ignore                                 -> Normal
+IncSearch                              -> CurSearch
+Include                                -> PreProc
+Keyword                                -> Statement
+Label                                  -> Statement
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
+Macro                                  -> PreProc
+Number                                 -> Constant
+PmenuExtra                             -> Pmenu
+PmenuExtraSel                          -> PmenuSel
+PmenuKind                              -> Pmenu
+PmenuKindSel                           -> PmenuSel
+PmenuSbar                              -> Pmenu
+PopupNotification                      -> Normal
+PreCondit                              -> PreProc
+PreInsert                              -> Added
+Repeat                                 -> Statement
+SpecialChar                            -> Special
+SpecialComment                         -> Special
+StatusLineTerm                         -> StatusLine
+StatusLineTermNC                       -> StatusLineNC
+StorageClass                           -> Type
+Structure                              -> Type
+TabLine                                -> StatusLineNC
+TabLineFill                            -> StatusLineNC
+Tag                                    -> Special
+Terminal                               -> Normal
+Typedef                                -> Type
+VertSplit                              -> Normal
+VisualNOS                              -> Visual
+WildMenu                               -> PmenuSel
+; }}}
+
+Color: baldFossa #ffc0b9 217 Red
+Color: deadLemur #4f5258 59 DarkGray
+Color: dullZorse #9b9ea4 145 DarkGray
+Color: easyTetra #005523 22 DarkGreen
+Color: fineSnake #ff0000 196 Red
+Color: gladHuman #007373 30 DarkCyan
+Color: gladRobin #590008 52 DarkRed
+Color: longDhole #07080d 232 Black
+Color: poorLlama #fce094 222 Yellow
+Color: richBison #6b5300 58 Brown
+Color: richSaola #14161b 233 Black
+Color: soreSloth #eef1f8 231 White
+Color: tameFossa #e0e2ea 188 LightGray
+Color: tameHorse #b3f6c0 157 LightGreen
+Color: warmQuail #8cf8f7 123 Cyan
+Color: weakSnail #2c2e33 236 DarkGray
+Color: zanyDingo #c4c6cd 152 LightGray
+Color: zanyLlama #a6dbff 153 LightBlue
+
+Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHuman richBison
+             dullZorse fineSnake easyTetra poorLlama zanyLlama gladRobin gladHuman soreSloth
+
+
+Normal                                 tameFossa  richSaola
+Added                                  tameHorse  richSaola
+Changed                                warmQuail  richSaola
+ColorColumn                            tameFossa  deadLemur
+Comment                                dullZorse  richSaola
+ComplMatchIns                          tameFossa  richSaola
+Conceal                                deadLemur  richSaola
+Constant                               tameFossa  richSaola
+/16                                    tameFossa  none
+CurSearch                              longDhole  poorLlama
+/16                                    longDhole  poorLlama   bold,reverse
+Cursor                                 richSaola  tameFossa
+CursorColumn                           tameFossa  weakSnail
+CursorLine                             tameFossa  weakSnail
+/16                                    tameFossa  weakSnail   underline
+CursorLineNr                           tameFossa  richSaola   bold
+/16                                    poorLlama  none
+debugBreakpoint                        soreSloth  gladRobin
+debugPC                                soreSloth  gladHuman
+Delimiter                              tameFossa  richSaola
+/16                                    tameFossa  none
+DiffAdd                                soreSloth  easyTetra
+/16                                    soreSloth  easyTetra
+DiffChange                             soreSloth  deadLemur
+/16                                    soreSloth  deadLemur
+DiffDelete                             baldFossa  richSaola   bold
+/16                                    baldFossa  none        bold
+DiffText                               soreSloth  gladHuman
+/16                                    soreSloth  gladHuman
+Directory                              warmQuail  richSaola
+/16                                    warmQuail  none
+Error                                  soreSloth  gladRobin
+ErrorMsg                               baldFossa  richSaola
+Folded                                 dullZorse  longDhole
+/16                                    longDhole  richBison
+Function                               warmQuail  richSaola
+/16                                    warmQuail  none
+Identifier                             zanyLlama  richSaola
+/16                                    zanyLlama  none
+LineNr                                 deadLemur  richSaola
+MatchParen                             tameFossa  deadLemur   bold
+/16                                    none       richSaola   bold
+ModeMsg                                tameHorse  richSaola
+MoreMsg                                warmQuail  richSaola
+NonText                                deadLemur  richSaola
+Operator                               tameFossa  richSaola
+/16                                    tameFossa  none
+Pmenu                                  tameFossa  weakSnail
+PmenuMatch                             tameFossa  richSaola   bold
+PmenuMatchSel                          tameFossa  richSaola   bold
+PmenuSel                               tameFossa  richSaola   reverse
+/16                                    richSaola  tameFossa
+PmenuThumb                             tameFossa  deadLemur
+PreProc                                tameFossa  richSaola
+Question                               warmQuail  richSaola
+QuickFixLine                           warmQuail  richSaola
+/16                                    warmQuail  none
+Removed                                baldFossa  richSaola
+Search                                 soreSloth  richBison
+/16                                    soreSloth  gladRobin
+SignColumn                             deadLemur  richSaola
+/16                                    deadLemur  none
+Special                                warmQuail  richSaola
+SpecialKey                             deadLemur  richSaola
+SpellBad                               tameFossa  richSaola   s=baldFossa undercurl
+/16                                    tameFossa  richSaola   underline
+SpellCap                               tameFossa  richSaola   s=poorLlama undercurl
+/16                                    tameFossa  richSaola   underline
+SpellLocal                             tameFossa  richSaola   s=tameHorse undercurl
+/16                                    tameFossa  richSaola   underline
+SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
+/16                                    tameFossa  richSaola   underline
+Statement                              tameFossa  richSaola   bold
+StatusLine                             tameFossa  deadLemur
+StatusLineNC                           zanyDingo  weakSnail
+String                                 tameHorse  richSaola
+/16                                    tameHorse  none
+TabLineSel                             tameFossa  richSaola   bold
+Title                                  tameFossa  richSaola   bold
+Todo                                   tameFossa  richSaola   bold
+ToolbarButton                          poorLlama  longDhole   bold
+ToolbarLine                            none       none
+Type                                   tameFossa  richSaola
+/16                                    tameFossa  richSaola   bold
+Underlined                             tameFossa  richSaola   underline
+Visual                                 tameFossa  deadLemur
+/16                                    none       deadLemur
+/gui                                   none       omit
+WarningMsg                             poorLlama  richSaola
+lCursor                                richSaola  tameFossa
+
+
+; 8-color overrides
+Comment         /8   richBison   none        bold
+LineNr          /8   richBison   none
+SignColumn      /8   richBison   none
+NonText         /8   richBison   none
+SpecialKey      /8   richBison   none
+Folded          /8   richBison   none
+FoldColumn      /8   richBison   none
+Conceal         /8   richBison   none
+ColorColumn     /8   none        richSaola
+CursorLine      /8   none        none        underline
+CursorColumn    /8   none        none        underline
+MatchParen      /8   poorLlama   none        bold
+Visual          /8   none        none        reverse
+StatusLine      /8   none        none        reverse,bold
+StatusLineNC    /8   none        none        reverse
+SpellBad        /8   none        none        underline
+SpellCap        /8   none        none        underline
+SpellLocal      /8   none        none        underline
+SpellRare       /8   none        none        underline
+Statement       /8   tameFossa   none        bold
+Title           /8   tameFossa   none        bold
+
+Include: _tcozero
