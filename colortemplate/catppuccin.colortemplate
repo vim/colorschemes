@@ -132,7 +132,7 @@ PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
 PmenuThumb	none	overlay0
 PmenuMatch	text	none	bold
-PmenuMatchSel	none	none	bold
+PmenuMatchSel	text	none	bold
 PreInsert	overlay2	none
 Question	blue	none
 SpellBad	red	none	underline
