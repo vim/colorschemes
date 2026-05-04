@@ -130,6 +130,7 @@ PmenuExtra	overlay0	mantle
 PmenuExtraSel	overlay0	surface0	bold
 PmenuSel	none	surface0	bold
 PmenuSbar	none	surface0
+  /16/8	none	none
 PmenuThumb	none	overlay0
 PmenuMatch	text	none	bold
 PmenuMatchSel	text	none	bold
