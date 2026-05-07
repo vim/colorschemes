@@ -300,7 +300,7 @@ if s:t_Co >= 8
   hi Type ctermfg=darkyellow ctermbg=NONE cterm=bold
   hi Underlined ctermfg=darkblue ctermbg=NONE cterm=underline
   hi VertSplit ctermfg=gray ctermbg=gray cterm=NONE
-  hi VertSplitNC ctermfg=darkgray ctermbg=darkgray cterm=NONE
+  hi VertSplitNC ctermfg=gray ctermbg=gray cterm=NONE
   hi Visual ctermfg=black ctermbg=darkcyan cterm=NONE
   hi VisualNOS ctermfg=black ctermbg=darkcyan cterm=NONE
   hi WarningMsg ctermfg=darkred ctermbg=NONE cterm=NONE

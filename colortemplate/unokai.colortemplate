@@ -101,6 +101,7 @@ Normal                       color15        color00
 StatusLine              /8   color07        color00        reverse,bold
 StatusLineNC            /8   color07        color00        reverse
 VertSplit               /8   color07        color07
+VertSplitNC             /8   color07        color07
 ; Variant: gui 256 16
 StatusLine                   color00        color07
 StatusLineNC                 color00        color08
