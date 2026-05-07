@@ -104,7 +104,8 @@ VertSplit               /8   color07        color07
 ; Variant: gui 256 16
 StatusLine                   color00        color07
 StatusLineNC                 color00        color08
-VertSplit                    color08        color08
+VertSplit                    color07        color07
+VertSplitNC                  color08        color08
 
 ; Variant: 8
 TabLine                 /8   color00        color07
