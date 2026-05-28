@@ -7,8 +7,6 @@ URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
 Options:     backend=vim
 
-Environments: gui 256 16 8 0
-
 Background: dark
 
 ;;; Color palette
@@ -52,15 +50,15 @@ Color: colorMP          #ff00af        199            magenta
 Color: colorErr         #a03f2f        131            darkred
 Color: colorQF          #4f2f4f        53             magenta
 
-Color: colorTitle       #3c3c3c        237            black
-Color: colorTitleNC     #2c2c2c        236            black
-
-Color: colorShadow      #121212        233            black
-
 Color: diffAdd          #273923        22             darkgreen
 Color: diffDelete       #2f1f1a        52             darkred
 Color: diffChange       #37352f        237            darkyellow
 Color: diffText         #0f4f4f        23             darkcyan
+
+Color: colorTitle       #3c3c3c        237            black
+Color: colorTitleNC     #2c2c2c        236            black
+
+Color: colorShadow      #121212        233            black
 
 Color: black            #000000        16             black
 Color: white            #dadada        253            white
@@ -68,6 +66,7 @@ Color: Added            #5fd75f        77             darkgreen
 Color: Changed          #ffaf5f        215            darkyellow
 Color: Removed          #d75f5f        167            darkred
 
+Environments: gui 256 16 8 0
 
 Term colors: color00 color01 color02 color03 color04 color05 color06 color07
              color08 color09 color10 color11 color12 color13 color14 color15
@@ -180,13 +179,25 @@ Visual                  color14        color00        reverse
 VisualNOS               color00        color06
  /8                     none           none           reverse
 
+Popup                   none           colorB
+ /16/8                  none           none           reverse
+PopupBorder             color08        colorB
+ /16/8                  none           none           reverse
+PopupTitle              color07        colorB         bold
+ /16/8                  none           none           bold,reverse
+
 Pmenu                   none           colorB
  /16/8                  none           none           reverse
-PmenuThumb              none           color08
+PmenuBorder             color08        colorB
  /16/8                  none           none           reverse
-PmenuSbar               none           none
+PmenuShadow             color08        colorShadow
+ /16/8                  none           none
+PmenuThumb              none           color08
+ /16/8                  none           none
+PmenuSbar               none           colorNonT
+ /16/8                  none           none           reverse
 PmenuSel                none           colorNonT
- /16/8                  color03        none           reverse
+ /16/8                  none           none           bold
 PmenuKind               color06        colorB
  /16/8                  none           none           reverse,bold
 PmenuKindSel            color06        colorNonT
@@ -196,13 +207,9 @@ PmenuExtra              color08        colorB
 PmenuExtraSel           color07        colorNonT
  /16/8                  none           none           bold
 PmenuMatch              colorC         none
- /16/8                  none           none           bold
+ /16/8                  none           color01        reverse
 PmenuMatchSel           colorC         none
- /16/8                  color03        none           bold
-PmenuBorder             color08        colorB
- /16/8                  none           none           reverse
-PmenuShadow             color08        colorShadow
- /16/8                  none           none
+ /16/8                  color01        none           bold
 
 SignColumn              none           none
  /8                     none           none
@@ -211,7 +218,7 @@ Error                   colorErr       color00        reverse
  /256+tgc true          omit           omit
  /8                     colorErr       color00        reverse
 ErrorMsg                color01        color00        reverse
- /8                     color01        color00         reverse
+ /8                     color01        color00        reverse
 ModeMsg                 none           none           bold
 MoreMsg                 color02        none
  /8                     color02        none
