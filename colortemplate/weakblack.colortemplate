@@ -92,16 +92,6 @@ ToolbarButton        -> StatusLine
 SpecialKey           -> Conceal
 Directory            -> Todo
 
-CocFloatThumb        -> PmenuThumb
-CocFloatSbar         -> PmenuSbar
-CocSearch            -> PmenuMatchSel
-CocMenuSel           -> PmenuSel
-CocFloating          -> Pmenu
-CocErrorFloat        -> ErrorMsg
-CocErrorSign         -> ErrorMsg
-CocVirtualText       -> Conceal
-CocMarkdownLink      -> Conceal
-CocSelectedText      -> CursorLineNr
 ; }}}
 ; basic colors {{{
 ; Color name         GUI         Base256                 Base16 (optional)
@@ -227,15 +217,6 @@ Delimiter            w14               none
 Statement            w13               none
 Todo                 w23               none              bold
 Type                 w15               none
-
-WordLight            none              none              underline
-EOLWhiteSpace        none              w4
-User1                w23               w10
-CocInlayHint         w19               w4
-DiagnosticSignError  w23               w13
-DiagnosticSignWarn   w20               w13
-DiagnosticSignHint   w15               w3
-DiagnosticSignInfo   w10               w5
 
 ; Template for black & white terminals
 Include: _tcozero
