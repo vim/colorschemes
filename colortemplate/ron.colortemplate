@@ -172,6 +172,7 @@ SpecialKey       /8   xterm6           none
 StatusLine       /8   xterm4           xterm7            reverse,bold
 StatusLineNC     /8   xterm4           xterm7            reverse
 VertSplit        /8   xterm4           xterm4
+VertSplitNC      /8   xterm4           xterm4
 TabLine          /8   xterm0           xterm6
 TabLineFill      /8   xterm4           xterm4
 TabLineSel       /8   xterm6           xterm0            bold
@@ -217,7 +218,8 @@ SignColumn            xterm14          none
 SpecialKey            SpecialKey       none
 StatusLine            xterm14          rgbBlue           /gui omit omit s=omit bold
 StatusLineNC          ronLightBlue     rgbDarkBlue
-VertSplit             ronLightBlue     rgbDarkBlue
+VertSplit             xterm14          rgbBlue
+VertSplitNC           ronLightBlue     rgbDarkBlue
 TabLine               xterm0           rgbDarkCyan
 TabLineFill           rgbDarkGrey      xterm8
 TabLineSel            xterm14          xterm0            /gui omit omit s=omit bold
