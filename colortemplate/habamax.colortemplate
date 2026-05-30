@@ -123,13 +123,6 @@ asciidoctorMacro                       -> Special
 rstSection                             -> htmlH1
 typstMarkupHeading                     -> htmlH1
 lspDiagVirtualTextError                -> Removed
-lspDiagSignErrorText                   -> Removed
-lspDiagVirtualTextWarning              -> Changed
-lspDiagSignWarningText                 -> Changed
-lspDiagVirtualTextHint                 -> Added
-lspDiagSignHintText                    -> Added
-lspDiagVirtualTextInfo                 -> Question
-lspDiagSignInfoText                    -> Question
 
 
 ;;; chrome
