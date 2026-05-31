@@ -25,31 +25,31 @@ Color: richSaola #14161b 233 Black
 Color: soreSloth #eef1f8 231 White
 Color: tameFossa #e0e2ea 188 LightGray
 Color: tameHorse #b3f6c0 157 LightGreen
-Color: warmQuail #8cf8f7 123 Cyan
+Color: warmQuail #8cf8f7 123 LightCyan
 Color: weakSnail #2c2e33 236 DarkGray
 Color: zanyDingo #c4c6cd 152 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
 
 Background: light
 
-Color: baldFossa #ffc0b9 217 Red
-Color: deadLemur #4f5258 59  DarkGray
-Color: dullZorse #9b9ea4 145 DarkGray
-Color: easyTetra #005523 22  DarkGreen
+Color: baldFossa #590008 52  DarkRed
+Color: deadLemur #9b9ea4 145 DarkGray
+Color: dullZorse #4f5258 59  DarkGray
+Color: easyTetra #b3f6c0 157 LightGreen
 Color: fineSnake #ff0000 196 Red
-Color: gladHuman #007373 30  DarkCyan
-Color: gladRobin #590008 52  DarkRed
-Color: longDhole #07080d 232 Black
-Color: poorLlama #fce094 222 Yellow
-Color: richBison #6b5300 58  Brown
-Color: richSaola #14161b 233 Black
-Color: soreSloth #eef1f8 231 White
-Color: tameFossa #e0e2ea 188 LightGray
-Color: tameHorse #b3f6c0 157 LightGreen
-Color: warmQuail #8cf8f7 123 Cyan
-Color: weakSnail #2c2e33 236 DarkGray
-Color: zanyDingo #c4c6cd 152 LightGray
-Color: zanyLlama #a6dbff 153 LightBlue
+Color: gladHuman #8cf8f7 30  LightCyan
+Color: gladRobin #FFC0B9 217 LightRed
+Color: longDhole #eef1f8 231 White
+Color: poorLlama #6b5300 58  Brown
+Color: richBison #fce094 222 Yellow
+Color: richSaola #e0e2ea 188 LightGray
+Color: soreSloth #07080d 232 Black
+Color: tameFossa #14161b 233 Black
+Color: tameHorse #005523 22  DarkGreen
+Color: warmQuail #007373 23  Cyan
+Color: weakSnail #c4c6cd 152 LightGray
+Color: zanyDingo #2c2e33 236 DarkGray
+Color: zanyLlama #004c73 24  DarkBlue
 
 Background: any
 
