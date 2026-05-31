@@ -95,7 +95,7 @@ Operator                               tameFossa  none
 Pmenu                                  tameFossa  weakSnail
 PmenuMatch                             none       none        bold
 PmenuMatchSel                          none       none        bold
-PmenuSel                               none       none        reverse,underline
+PmenuSel                               none       none        reverse
 PmenuThumb                             tameFossa  deadLemur
 PreProc                                tameFossa  none
 Question                               warmQuail  none
