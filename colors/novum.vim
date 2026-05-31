@@ -113,11 +113,14 @@ if &background == 'dark'
   hi String guifg=#b3f6c0 guibg=NONE guisp=NONE gui=NONE ctermfg=157 ctermbg=NONE cterm=NONE term=NONE
   hi TabLineSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
   hi Title guifg=#e0e2ea guibg=NONE guisp=NONE gui=bold ctermfg=188 ctermbg=NONE cterm=bold term=NONE
+  hi TitleBar guifg=#eef1f8 guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=231 ctermbg=236 cterm=NONE term=NONE
+  hi TitleBarNC guifg=#c4c6cd guibg=#07080d guisp=NONE gui=NONE ctermfg=152 ctermbg=232 cterm=NONE term=NONE
   hi Todo guifg=#e0e2ea guibg=NONE guisp=NONE gui=bold ctermfg=188 ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=bold ctermfg=145 ctermbg=232 cterm=bold term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=#07080d guisp=NONE gui=NONE ctermfg=NONE ctermbg=232 cterm=NONE term=reverse
   hi Type guifg=#e0e2ea guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
+  hi VertSplitNC guifg=#2c2e33 guibg=NONE guisp=NONE gui=NONE ctermfg=236 ctermbg=NONE cterm=NONE term=NONE
   hi Visual guifg=NONE guibg=#4f5258 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=reverse
   hi WarningMsg guifg=#fce094 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=standout
   hi debugBreakpoint guifg=#eef1f8 guibg=#590008 guisp=NONE gui=NONE ctermfg=231 ctermbg=52 cterm=NONE term=NONE
@@ -182,11 +185,14 @@ if &background == 'dark'
     hi String ctermfg=LightGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=LightGray ctermbg=NONE cterm=bold
+    hi TitleBar ctermfg=White ctermbg=DarkGray cterm=NONE
+    hi TitleBarNC ctermfg=LightGray ctermbg=Black cterm=NONE
     hi Todo ctermfg=LightGray ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=Black cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=Black cterm=NONE
     hi Type ctermfg=LightGray ctermbg=NONE cterm=bold
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+    hi VertSplitNC ctermfg=DarkGray ctermbg=NONE cterm=NONE
     hi Visual ctermfg=NONE ctermbg=DarkGray cterm=NONE
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=White ctermbg=DarkRed cterm=NONE
@@ -250,11 +256,14 @@ if &background == 'dark'
     hi String ctermfg=LightGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=LightGray ctermbg=NONE cterm=bold
+    hi TitleBar ctermfg=White ctermbg=DarkGray cterm=NONE
+    hi TitleBarNC ctermfg=LightGray ctermbg=Black cterm=NONE
     hi Todo ctermfg=LightGray ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=Black cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=Black cterm=NONE
     hi Type ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+    hi VertSplitNC ctermfg=DarkGray ctermbg=NONE cterm=NONE
     hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
     hi WarningMsg ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=White ctermbg=DarkRed cterm=NONE
@@ -344,11 +353,14 @@ if &background == 'light'
   hi String guifg=#005523 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
   hi TabLineSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
   hi Title guifg=#14161b guibg=NONE guisp=NONE gui=bold ctermfg=233 ctermbg=NONE cterm=bold term=NONE
+  hi TitleBar guifg=#07080d guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=232 ctermbg=152 cterm=NONE term=NONE
+  hi TitleBarNC guifg=#2c2e33 guibg=#eef1f8 guisp=NONE gui=NONE ctermfg=236 ctermbg=231 cterm=NONE term=NONE
   hi Todo guifg=#14161b guibg=NONE guisp=NONE gui=bold ctermfg=233 ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#4f5258 guibg=#eef1f8 guisp=NONE gui=bold ctermfg=59 ctermbg=231 cterm=bold term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=#eef1f8 guisp=NONE gui=NONE ctermfg=NONE ctermbg=231 cterm=NONE term=reverse
   hi Type guifg=#14161b guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
+  hi VertSplitNC guifg=#c4c6cd guibg=NONE guisp=NONE gui=NONE ctermfg=152 ctermbg=NONE cterm=NONE term=NONE
   hi Visual guifg=NONE guibg=#9b9ea4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=145 cterm=NONE term=reverse
   hi WarningMsg guifg=#6b5300 guibg=NONE guisp=NONE gui=NONE ctermfg=58 ctermbg=NONE cterm=NONE term=standout
   hi debugBreakpoint guifg=#07080d guibg=#ffc0b9 guisp=NONE gui=NONE ctermfg=232 ctermbg=217 cterm=NONE term=NONE
@@ -413,11 +425,14 @@ if &background == 'light'
     hi String ctermfg=DarkGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=Black ctermbg=NONE cterm=bold
+    hi TitleBar ctermfg=Black ctermbg=LightGray cterm=NONE
+    hi TitleBarNC ctermfg=DarkGray ctermbg=White cterm=NONE
     hi Todo ctermfg=Black ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=White cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=White cterm=NONE
     hi Type ctermfg=Black ctermbg=NONE cterm=bold
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+    hi VertSplitNC ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi Visual ctermfg=NONE ctermbg=DarkGray cterm=NONE
     hi WarningMsg ctermfg=Brown ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=Black ctermbg=LightRed cterm=NONE
@@ -481,11 +496,14 @@ if &background == 'light'
     hi String ctermfg=DarkGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=Black ctermbg=NONE cterm=bold
+    hi TitleBar ctermfg=Black ctermbg=LightGray cterm=NONE
+    hi TitleBarNC ctermfg=DarkGray ctermbg=White cterm=NONE
     hi Todo ctermfg=Black ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=White cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=White cterm=NONE
     hi Type ctermfg=Black ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
+    hi VertSplitNC ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
     hi WarningMsg ctermfg=Brown ctermbg=NONE cterm=NONE
     hi debugBreakpoint ctermfg=Black ctermbg=LightRed cterm=NONE

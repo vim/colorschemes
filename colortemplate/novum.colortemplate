@@ -124,12 +124,15 @@ String                                 tameHorse  none
 /16                                    tameHorse  none
 TabLineSel                             none       none        bold
 Title                                  tameFossa  none        bold
+TitleBar                               soreSloth  weakSnail
+TitleBarNC                             zanyDingo  longDhole
 Todo                                   tameFossa  none        bold
 ToolbarButton                          dullZorse  longDhole   bold
 ToolbarLine                            none       longDhole
 Type                                   tameFossa  none
 /16                                    tameFossa  none        bold
 Underlined                             none       none        underline
+VertSplitNC                            weakSnail  none
 Visual                                 none       deadLemur
 WarningMsg                             poorLlama  none
 lCursor                                bg         fg
