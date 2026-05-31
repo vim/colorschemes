@@ -11,52 +11,26 @@ Environments: gui 256 16 8 0
 
 Background: dark
 
-; Common linked groups {{{
-Boolean                                -> Constant
-Character                              -> Constant
-Conditional                            -> Statement
-CursorIM                               -> Cursor
-CursorLineFold                         -> SignColumn
-CursorLineSign                         -> SignColumn
-Debug                                  -> Special
-Define                                 -> PreProc
-EndOfBuffer                            -> NonText
-Exception                              -> Statement
-Float                                  -> Constant
-FoldColumn                             -> SignColumn
-Ignore                                 -> Normal
-IncSearch                              -> CurSearch
-Include                                -> PreProc
-Keyword                                -> Statement
-Label                                  -> Statement
-LineNrAbove                            -> LineNr
-LineNrBelow                            -> LineNr
-Macro                                  -> PreProc
-Number                                 -> Constant
-PmenuExtra                             -> Pmenu
-PmenuExtraSel                          -> PmenuSel
-PmenuKind                              -> Pmenu
-PmenuKindSel                           -> PmenuSel
-PmenuSbar                              -> Pmenu
-PopupNotification                      -> Normal
-PreCondit                              -> PreProc
-PreInsert                              -> Added
-Repeat                                 -> Statement
-SpecialChar                            -> Special
-SpecialComment                         -> Special
-StatusLineTerm                         -> StatusLine
-StatusLineTermNC                       -> StatusLineNC
-StorageClass                           -> Type
-Structure                              -> Type
-TabLine                                -> StatusLineNC
-TabLineFill                            -> StatusLineNC
-Tag                                    -> Special
-Terminal                               -> Normal
-Typedef                                -> Type
-VertSplit                              -> Normal
-VisualNOS                              -> Visual
-WildMenu                               -> PmenuSel
-; }}}
+Color: baldFossa #ffc0b9 217 Red
+Color: deadLemur #4f5258 59  DarkGray
+Color: dullZorse #9b9ea4 145 DarkGray
+Color: easyTetra #005523 22  DarkGreen
+Color: fineSnake #ff0000 196 Red
+Color: gladHuman #007373 30  DarkCyan
+Color: gladRobin #590008 52  DarkRed
+Color: longDhole #07080d 232 Black
+Color: poorLlama #fce094 222 Yellow
+Color: richBison #6b5300 58  Brown
+Color: richSaola #14161b 233 Black
+Color: soreSloth #eef1f8 231 White
+Color: tameFossa #e0e2ea 188 LightGray
+Color: tameHorse #b3f6c0 157 LightGreen
+Color: warmQuail #8cf8f7 123 Cyan
+Color: weakSnail #2c2e33 236 DarkGray
+Color: zanyDingo #c4c6cd 152 LightGray
+Color: zanyLlama #a6dbff 153 LightBlue
+
+Background: light
 
 Color: baldFossa #ffc0b9 217 Red
 Color: deadLemur #4f5258 59  DarkGray
@@ -76,6 +50,8 @@ Color: warmQuail #8cf8f7 123 Cyan
 Color: weakSnail #2c2e33 236 DarkGray
 Color: zanyDingo #c4c6cd 152 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
+
+Background: any
 
 Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHuman richBison
              dullZorse fineSnake easyTetra poorLlama zanyLlama gladRobin gladHuman soreSloth
@@ -100,23 +76,16 @@ debugBreakpoint                        soreSloth  gladRobin
 debugPC                                soreSloth  gladHuman
 Delimiter                              tameFossa  none
 DiffAdd                                soreSloth  easyTetra
-/16                                    soreSloth  easyTetra
 DiffChange                             soreSloth  deadLemur
-/16                                    soreSloth  deadLemur
 DiffDelete                             baldFossa  none        bold
-/16                                    baldFossa  none        bold
 DiffText                               soreSloth  gladHuman
-/16                                    soreSloth  gladHuman
 Directory                              warmQuail  none
-/16                                    warmQuail  none
 Error                                  soreSloth  gladRobin
 ErrorMsg                               baldFossa  none
 Folded                                 dullZorse  longDhole
 /16                                    longDhole  richBison
 Function                               warmQuail  none
-/16                                    warmQuail  none
 Identifier                             zanyLlama  none
-/16                                    zanyLlama  none
 LineNr                                 deadLemur  none
 MatchParen                             none       deadLemur   bold
 ModeMsg                                tameHorse  none
@@ -187,5 +156,52 @@ SpellLocal      /8   none        none        underline
 SpellRare       /8   none        none        underline
 Statement       /8   tameFossa   none        bold
 Title           /8   tameFossa   none        bold
+
+; Common linked groups {{{
+Boolean                                -> Constant
+Character                              -> Constant
+Conditional                            -> Statement
+CursorIM                               -> Cursor
+CursorLineFold                         -> SignColumn
+CursorLineSign                         -> SignColumn
+Debug                                  -> Special
+Define                                 -> PreProc
+EndOfBuffer                            -> NonText
+Exception                              -> Statement
+Float                                  -> Constant
+FoldColumn                             -> SignColumn
+Ignore                                 -> Normal
+IncSearch                              -> CurSearch
+Include                                -> PreProc
+Keyword                                -> Statement
+Label                                  -> Statement
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
+Macro                                  -> PreProc
+Number                                 -> Constant
+PmenuExtra                             -> Pmenu
+PmenuExtraSel                          -> PmenuSel
+PmenuKind                              -> Pmenu
+PmenuKindSel                           -> PmenuSel
+PmenuSbar                              -> Pmenu
+PopupNotification                      -> Normal
+PreCondit                              -> PreProc
+PreInsert                              -> Added
+Repeat                                 -> Statement
+SpecialChar                            -> Special
+SpecialComment                         -> Special
+StatusLineTerm                         -> StatusLine
+StatusLineTermNC                       -> StatusLineNC
+StorageClass                           -> Type
+Structure                              -> Type
+TabLine                                -> StatusLineNC
+TabLineFill                            -> StatusLineNC
+Tag                                    -> Special
+Terminal                               -> Normal
+Typedef                                -> Type
+VertSplit                              -> Normal
+VisualNOS                              -> Visual
+WildMenu                               -> PmenuSel
+; }}}
 
 Include: _tcozero
