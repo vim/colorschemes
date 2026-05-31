@@ -1,3 +1,5 @@
+; vim: ft=colortemplate fdm=marker et
+
 Full name: novum
 Short name: novum
 Description: port of nvim dev_theme
@@ -57,15 +59,15 @@ WildMenu                               -> PmenuSel
 ; }}}
 
 Color: baldFossa #ffc0b9 217 Red
-Color: deadLemur #4f5258 59 DarkGray
+Color: deadLemur #4f5258 59  DarkGray
 Color: dullZorse #9b9ea4 145 DarkGray
-Color: easyTetra #005523 22 DarkGreen
+Color: easyTetra #005523 22  DarkGreen
 Color: fineSnake #ff0000 196 Red
-Color: gladHuman #007373 30 DarkCyan
-Color: gladRobin #590008 52 DarkRed
+Color: gladHuman #007373 30  DarkCyan
+Color: gladRobin #590008 52  DarkRed
 Color: longDhole #07080d 232 Black
 Color: poorLlama #fce094 222 Yellow
-Color: richBison #6b5300 58 Brown
+Color: richBison #6b5300 58  Brown
 Color: richSaola #14161b 233 Black
 Color: soreSloth #eef1f8 231 White
 Color: tameFossa #e0e2ea 188 LightGray
@@ -80,95 +82,87 @@ Term colors: richSaola fineSnake easyTetra poorLlama warmQuail gladRobin gladHum
 
 
 Normal                                 tameFossa  richSaola
-Added                                  tameHorse  richSaola
-Changed                                warmQuail  richSaola
-ColorColumn                            tameFossa  deadLemur
-Comment                                dullZorse  richSaola
-ComplMatchIns                          tameFossa  richSaola
-Conceal                                deadLemur  richSaola
-Constant                               tameFossa  richSaola
-/16                                    tameFossa  none
+Added                                  tameHorse  none
+Changed                                warmQuail  none
+ColorColumn                            none       deadLemur
+Comment                                dullZorse  none
+Conceal                                deadLemur  none
+Constant                               tameFossa  none
 CurSearch                              longDhole  poorLlama
 /16                                    longDhole  poorLlama   bold,reverse
-Cursor                                 richSaola  tameFossa
-CursorColumn                           tameFossa  weakSnail
-CursorLine                             tameFossa  weakSnail
-/16                                    tameFossa  weakSnail   underline
-CursorLineNr                           tameFossa  richSaola   bold
+Cursor                                 bg         fg
+CursorColumn                           none       weakSnail
+CursorLine                             none       weakSnail
+/16                                    none       weakSnail   underline
+CursorLineNr                           none       none        bold
 /16                                    poorLlama  none
 debugBreakpoint                        soreSloth  gladRobin
 debugPC                                soreSloth  gladHuman
-Delimiter                              tameFossa  richSaola
-/16                                    tameFossa  none
+Delimiter                              tameFossa  none
 DiffAdd                                soreSloth  easyTetra
 /16                                    soreSloth  easyTetra
 DiffChange                             soreSloth  deadLemur
 /16                                    soreSloth  deadLemur
-DiffDelete                             baldFossa  richSaola   bold
+DiffDelete                             baldFossa  none        bold
 /16                                    baldFossa  none        bold
 DiffText                               soreSloth  gladHuman
 /16                                    soreSloth  gladHuman
-Directory                              warmQuail  richSaola
+Directory                              warmQuail  none
 /16                                    warmQuail  none
 Error                                  soreSloth  gladRobin
-ErrorMsg                               baldFossa  richSaola
+ErrorMsg                               baldFossa  none
 Folded                                 dullZorse  longDhole
 /16                                    longDhole  richBison
-Function                               warmQuail  richSaola
+Function                               warmQuail  none
 /16                                    warmQuail  none
-Identifier                             zanyLlama  richSaola
+Identifier                             zanyLlama  none
 /16                                    zanyLlama  none
-LineNr                                 deadLemur  richSaola
-MatchParen                             tameFossa  deadLemur   bold
-/16                                    none       richSaola   bold
-ModeMsg                                tameHorse  richSaola
-MoreMsg                                warmQuail  richSaola
-NonText                                deadLemur  richSaola
-Operator                               tameFossa  richSaola
-/16                                    tameFossa  none
+LineNr                                 deadLemur  none
+MatchParen                             none       deadLemur   bold
+ModeMsg                                tameHorse  none
+MoreMsg                                warmQuail  none
+NonText                                deadLemur  none
+Operator                               tameFossa  none
 Pmenu                                  tameFossa  weakSnail
-PmenuMatch                             tameFossa  richSaola   bold
-PmenuMatchSel                          tameFossa  richSaola   bold
-PmenuSel                               tameFossa  richSaola   reverse
-/16                                    richSaola  tameFossa
+PmenuMatch                             none       none        bold
+PmenuMatchSel                          none       none        bold
+PmenuSel                               none       none        reverse,underline
 PmenuThumb                             tameFossa  deadLemur
-PreProc                                tameFossa  richSaola
-Question                               warmQuail  richSaola
-QuickFixLine                           warmQuail  richSaola
+PreProc                                tameFossa  none
+Question                               warmQuail  none
+QuickFixLine                           warmQuail  none
 /16                                    warmQuail  none
-Removed                                baldFossa  richSaola
+Removed                                baldFossa  none
 Search                                 soreSloth  richBison
 /16                                    soreSloth  gladRobin
-SignColumn                             deadLemur  richSaola
+SignColumn                             deadLemur  none
 /16                                    deadLemur  none
-Special                                warmQuail  richSaola
-SpecialKey                             deadLemur  richSaola
-SpellBad                               tameFossa  richSaola   s=baldFossa undercurl
-/16                                    tameFossa  richSaola   underline
-SpellCap                               tameFossa  richSaola   s=poorLlama undercurl
-/16                                    tameFossa  richSaola   underline
-SpellLocal                             tameFossa  richSaola   s=tameHorse undercurl
-/16                                    tameFossa  richSaola   underline
-SpellRare                              tameFossa  richSaola   s=warmQuail undercurl
-/16                                    tameFossa  richSaola   underline
-Statement                              tameFossa  richSaola   bold
+Special                                warmQuail  none
+SpecialKey                             deadLemur  none
+SpellBad                               none       none        s=baldFossa undercurl
+/16                                    none       none        underline
+SpellCap                               none       none        s=poorLlama undercurl
+/16                                    none       none        underline
+SpellLocal                             none       none        s=tameHorse undercurl
+/16                                    none       none        underline
+SpellRare                              none       none        s=warmQuail undercurl
+/16                                    none       none        underline
+Statement                              tameFossa  none        bold
 StatusLine                             tameFossa  deadLemur
 StatusLineNC                           zanyDingo  weakSnail
-String                                 tameHorse  richSaola
+String                                 tameHorse  none
 /16                                    tameHorse  none
-TabLineSel                             tameFossa  richSaola   bold
-Title                                  tameFossa  richSaola   bold
-Todo                                   tameFossa  richSaola   bold
+TabLineSel                             none       none        bold
+Title                                  tameFossa  none        bold
+Todo                                   tameFossa  none        bold
 ToolbarButton                          poorLlama  longDhole   bold
 ToolbarLine                            none       none
-Type                                   tameFossa  richSaola
-/16                                    tameFossa  richSaola   bold
-Underlined                             tameFossa  richSaola   underline
-Visual                                 tameFossa  deadLemur
-/16                                    none       deadLemur
-/gui                                   none       omit
-WarningMsg                             poorLlama  richSaola
-lCursor                                richSaola  tameFossa
+Type                                   tameFossa  none
+/16                                    tameFossa  none        bold
+Underlined                             none       none        underline
+Visual                                 none       deadLemur
+WarningMsg                             poorLlama  none
+lCursor                                bg         fg
 
 
 ; 8-color overrides
