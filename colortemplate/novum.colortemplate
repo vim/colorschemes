@@ -155,8 +155,8 @@ String                                 tameHorse  none
 TabLineSel                             none       none        bold
 Title                                  tameFossa  none        bold
 Todo                                   tameFossa  none        bold
-ToolbarButton                          poorLlama  longDhole   bold
-ToolbarLine                            none       none
+ToolbarButton                          dullZorse  longDhole   bold
+ToolbarLine                            none       longDhole
 Type                                   tameFossa  none
 /16                                    tameFossa  none        bold
 Underlined                             none       none        underline

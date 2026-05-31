@@ -114,8 +114,8 @@ hi String guifg=#b3f6c0 guibg=NONE guisp=NONE gui=NONE ctermfg=157 ctermbg=NONE 
 hi TabLineSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
 hi Title guifg=#e0e2ea guibg=NONE guisp=NONE gui=bold ctermfg=188 ctermbg=NONE cterm=bold term=NONE
 hi Todo guifg=#e0e2ea guibg=NONE guisp=NONE gui=bold ctermfg=188 ctermbg=NONE cterm=bold term=bold,reverse
-hi ToolbarButton guifg=#fce094 guibg=#07080d guisp=NONE gui=bold ctermfg=222 ctermbg=232 cterm=bold term=bold,reverse
-hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
+hi ToolbarButton guifg=#9b9ea4 guibg=#07080d guisp=NONE gui=bold ctermfg=145 ctermbg=232 cterm=bold term=bold,reverse
+hi ToolbarLine guifg=NONE guibg=#07080d guisp=NONE gui=NONE ctermfg=NONE ctermbg=232 cterm=NONE term=reverse
 hi Type guifg=#e0e2ea guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
 hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
 hi Visual guifg=NONE guibg=#4f5258 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=reverse
@@ -161,7 +161,7 @@ if s:t_Co >= 16
   hi Pmenu ctermfg=LightGray ctermbg=DarkGray cterm=NONE
   hi PmenuMatch ctermfg=NONE ctermbg=NONE cterm=bold
   hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
-  hi PmenuSel ctermfg=Black ctermbg=LightGray cterm=NONE
+  hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse,underline
   hi PmenuThumb ctermfg=LightGray ctermbg=DarkGray cterm=NONE
   hi PreProc ctermfg=LightGray ctermbg=NONE cterm=NONE
   hi Question ctermfg=Cyan ctermbg=NONE cterm=NONE
@@ -182,8 +182,8 @@ if s:t_Co >= 16
   hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi Title ctermfg=LightGray ctermbg=NONE cterm=bold
   hi Todo ctermfg=LightGray ctermbg=NONE cterm=bold
-  hi ToolbarButton ctermfg=Yellow ctermbg=Black cterm=bold
-  hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi ToolbarButton ctermfg=DarkGray ctermbg=Black cterm=bold
+  hi ToolbarLine ctermfg=NONE ctermbg=Black cterm=NONE
   hi Type ctermfg=LightGray ctermbg=NONE cterm=bold
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi Visual ctermfg=NONE ctermbg=DarkGray cterm=NONE
@@ -249,8 +249,8 @@ if s:t_Co >= 8
   hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
   hi Title ctermfg=LightGray ctermbg=NONE cterm=bold
   hi Todo ctermfg=LightGray ctermbg=NONE cterm=bold
-  hi ToolbarButton ctermfg=Yellow ctermbg=Black cterm=bold
-  hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi ToolbarButton ctermfg=DarkGray ctermbg=Black cterm=bold
+  hi ToolbarLine ctermfg=NONE ctermbg=Black cterm=NONE
   hi Type ctermfg=LightGray ctermbg=NONE cterm=NONE
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
