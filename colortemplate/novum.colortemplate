@@ -97,6 +97,7 @@ PmenuMatch                             none       none        bold
 PmenuMatchSel                          none       none        bold
 PmenuSel                               none       none        reverse
 PmenuThumb                             tameFossa  deadLemur
+PopupTitle                             tameFossa  weakSnail   bold
 PreProc                                tameFossa  none
 Question                               warmQuail  none
 QuickFixLine                           warmQuail  none

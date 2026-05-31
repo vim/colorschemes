@@ -94,6 +94,7 @@ if &background == 'dark'
   hi PmenuMatchSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi PmenuSel guifg=NONE guibg=NONE guisp=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse term=bold
   hi PmenuThumb guifg=#e0e2ea guibg=#4f5258 guisp=NONE gui=NONE ctermfg=188 ctermbg=59 cterm=NONE term=NONE
+  hi PopupTitle guifg=#e0e2ea guibg=#2c2e33 guisp=NONE gui=bold ctermfg=188 ctermbg=236 cterm=bold term=bold
   hi PreProc guifg=#e0e2ea guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#8cf8f7 guibg=NONE guisp=NONE gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE term=standout
   hi QuickFixLine guifg=#8cf8f7 guibg=NONE guisp=NONE gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE term=NONE
@@ -162,6 +163,7 @@ if &background == 'dark'
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=LightGray ctermbg=DarkGray cterm=NONE
+    hi PopupTitle ctermfg=LightGray ctermbg=DarkGray cterm=bold
     hi PreProc ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi Question ctermfg=LightCyan ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=LightCyan ctermbg=NONE cterm=NONE
@@ -229,6 +231,7 @@ if &background == 'dark'
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=LightGray ctermbg=DarkGray cterm=NONE
+    hi PopupTitle ctermfg=LightGray ctermbg=DarkGray cterm=bold
     hi PreProc ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi Question ctermfg=LightCyan ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=LightCyan ctermbg=NONE cterm=NONE
@@ -322,6 +325,7 @@ if &background == 'light'
   hi PmenuMatchSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi PmenuSel guifg=NONE guibg=NONE guisp=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse term=bold
   hi PmenuThumb guifg=#14161b guibg=#9b9ea4 guisp=NONE gui=NONE ctermfg=233 ctermbg=145 cterm=NONE term=NONE
+  hi PopupTitle guifg=#14161b guibg=#c4c6cd guisp=NONE gui=bold ctermfg=233 ctermbg=152 cterm=bold term=bold
   hi PreProc guifg=#14161b guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#007373 guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=standout
   hi QuickFixLine guifg=#007373 guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=NONE
@@ -390,6 +394,7 @@ if &background == 'light'
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=Black ctermbg=DarkGray cterm=NONE
+    hi PopupTitle ctermfg=Black ctermbg=LightGray cterm=bold
     hi PreProc ctermfg=Black ctermbg=NONE cterm=NONE
     hi Question ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=Cyan ctermbg=NONE cterm=NONE
@@ -457,6 +462,7 @@ if &background == 'light'
     hi PmenuMatchSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi PmenuSel ctermfg=NONE ctermbg=NONE cterm=reverse
     hi PmenuThumb ctermfg=Black ctermbg=DarkGray cterm=NONE
+    hi PopupTitle ctermfg=Black ctermbg=LightGray cterm=bold
     hi PreProc ctermfg=Black ctermbg=NONE cterm=NONE
     hi Question ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi QuickFixLine ctermfg=Cyan ctermbg=NONE cterm=NONE
