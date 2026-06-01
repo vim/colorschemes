@@ -27,7 +27,7 @@ Color: tameFossa #e0e2ea 188 LightGray
 Color: tameHorse #b3f6c0 157 LightGreen
 Color: warmQuail #8cf8f7 123 LightCyan
 Color: weakSnail #2c2e33 236 DarkGray
-Color: zanyDingo #c4c6cd 152 LightGray
+Color: zanyDingo #c4c6cd 251 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
 
 Background: light
@@ -47,7 +47,7 @@ Color: soreSloth #07080d 232 Black
 Color: tameFossa #14161b 233 Black
 Color: tameHorse #005523 22  DarkGreen
 Color: warmQuail #007373 23  Cyan
-Color: weakSnail #c4c6cd 152 LightGray
+Color: weakSnail #c4c6cd 251 LightGray
 Color: zanyDingo #2c2e33 236 DarkGray
 Color: zanyLlama #004c73 24  DarkBlue
 
