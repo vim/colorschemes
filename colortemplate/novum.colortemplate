@@ -29,6 +29,8 @@ Color: warmQuail #8cf8f7 123 LightCyan
 Color: weakSnail #2c2e33 236 DarkGray
 Color: zanyDingo #c4c6cd 251 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
+Color: mistWhale #384851 239 LightBlue
+Color: mossShark #b8cfc7 152 LightGreen
 
 Background: light
 
@@ -50,6 +52,8 @@ Color: warmQuail #007373 23  Cyan
 Color: weakSnail #c4c6cd 251 LightGray
 Color: zanyDingo #2c2e33 236 DarkGray
 Color: zanyLlama #004c73 24  DarkBlue
+Color: mistWhale #b8cfc7 152 LightGreen
+Color: mossShark #384851 239 LightBlue
 
 Background: any
 
