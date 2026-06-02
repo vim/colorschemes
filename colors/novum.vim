@@ -74,7 +74,7 @@ if &background == 'dark'
   hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi Delimiter guifg=#e0e2ea guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi DiffAdd guifg=#eef1f8 guibg=#005523 guisp=NONE gui=NONE ctermfg=231 ctermbg=22 cterm=NONE term=reverse
-  hi DiffChange guifg=#eef1f8 guibg=#4f5258 guisp=NONE gui=NONE ctermfg=231 ctermbg=59 cterm=NONE term=NONE
+  hi DiffChange guifg=#eef1f8 guibg=#384851 guisp=NONE gui=NONE ctermfg=231 ctermbg=239 cterm=NONE term=NONE
   hi DiffDelete guifg=#ffc0b9 guibg=NONE guisp=NONE gui=bold ctermfg=217 ctermbg=NONE cterm=bold term=reverse
   hi DiffText guifg=#eef1f8 guibg=#007373 guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=reverse
   hi Directory guifg=#8cf8f7 guibg=NONE guisp=NONE gui=NONE ctermfg=123 ctermbg=NONE cterm=NONE term=NONE
@@ -146,7 +146,7 @@ if &background == 'dark'
     hi CursorLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=White ctermbg=DarkGreen cterm=NONE
-    hi DiffChange ctermfg=White ctermbg=DarkGray cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=LightBlue cterm=NONE
     hi DiffDelete ctermfg=Red ctermbg=NONE cterm=bold
     hi DiffText ctermfg=White ctermbg=DarkCyan cterm=NONE
     hi Directory ctermfg=LightCyan ctermbg=NONE cterm=NONE
@@ -216,7 +216,7 @@ if &background == 'dark'
     hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=bold
     hi Delimiter ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=White ctermbg=DarkGreen cterm=NONE
-    hi DiffChange ctermfg=White ctermbg=DarkGray cterm=NONE
+    hi DiffChange ctermfg=White ctermbg=LightBlue cterm=NONE
     hi DiffDelete ctermfg=Red ctermbg=NONE cterm=bold
     hi DiffText ctermfg=White ctermbg=DarkCyan cterm=NONE
     hi Directory ctermfg=LightCyan ctermbg=NONE cterm=NONE
@@ -314,7 +314,7 @@ if &background == 'light'
   hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi Delimiter guifg=#14161b guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE term=NONE
   hi DiffAdd guifg=#07080d guibg=#b3f6c0 guisp=NONE gui=NONE ctermfg=232 ctermbg=157 cterm=NONE term=reverse
-  hi DiffChange guifg=#07080d guibg=#9b9ea4 guisp=NONE gui=NONE ctermfg=232 ctermbg=145 cterm=NONE term=NONE
+  hi DiffChange guifg=#07080d guibg=#b8cfc7 guisp=NONE gui=NONE ctermfg=232 ctermbg=152 cterm=NONE term=NONE
   hi DiffDelete guifg=#590008 guibg=NONE guisp=NONE gui=bold ctermfg=52 ctermbg=NONE cterm=bold term=reverse
   hi DiffText guifg=#07080d guibg=#8cf8f7 guisp=NONE gui=NONE ctermfg=232 ctermbg=30 cterm=NONE term=reverse
   hi Directory guifg=#007373 guibg=NONE guisp=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE term=NONE
@@ -386,7 +386,7 @@ if &background == 'light'
     hi CursorLineNr ctermfg=Brown ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=Black ctermbg=LightGreen cterm=NONE
-    hi DiffChange ctermfg=Black ctermbg=DarkGray cterm=NONE
+    hi DiffChange ctermfg=Black ctermbg=LightGreen cterm=NONE
     hi DiffDelete ctermfg=DarkRed ctermbg=NONE cterm=bold
     hi DiffText ctermfg=Black ctermbg=LightCyan cterm=NONE
     hi Directory ctermfg=Cyan ctermbg=NONE cterm=NONE
@@ -456,7 +456,7 @@ if &background == 'light'
     hi CursorLineNr ctermfg=NONE ctermbg=NONE cterm=bold
     hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=Black ctermbg=LightGreen cterm=NONE
-    hi DiffChange ctermfg=Black ctermbg=DarkGray cterm=NONE
+    hi DiffChange ctermfg=Black ctermbg=LightGreen cterm=NONE
     hi DiffDelete ctermfg=DarkRed ctermbg=NONE cterm=bold
     hi DiffText ctermfg=Black ctermbg=LightCyan cterm=NONE
     hi Directory ctermfg=Cyan ctermbg=NONE cterm=NONE
