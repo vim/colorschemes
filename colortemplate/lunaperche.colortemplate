@@ -207,7 +207,7 @@ PmenuMatch                     color05        none
 PmenuMatchSel                  color05        none
  /16                           color00        colorPMenuSel  bold
 PmenuBorder                    color08        colorB
- /16                           none           color07
+ /16                           color08        color07
 PmenuShadow                    color08        colorShadow
  /16                           none           none
 
@@ -300,18 +300,6 @@ Added                          color10        none
 Changed                        color12        none
 Removed                        color09        none
 
-; other ftplugins
-dirType                        color05        none
-dirPermissionUser              color02        none
-dirPermissionGroup             color03        none
-dirPermissionOther             color06        none
-dirOwner                       color08        none
-dirGroup                       color08        none
-dirTime                        color08        none
-dirSize                        color11        none
-dirSizeMod                     color05        none
-
-
 Normal                   /8    color07        color00
 
 StatusLine               /8    color07        color00        reverse,bold
@@ -344,6 +332,7 @@ PmenuExtra               /8    none           none           reverse
 PmenuExtraSel            /8    none           none           bold
 PmenuMatch               /8    none           color01        reverse
 PmenuMatchSel            /8    color01        none           bold
+PmenuBorder              /8    color00        color07
 
 SignColumn               /8    none           none
 
@@ -643,6 +632,7 @@ PmenuExtra               /8    none           none           reverse
 PmenuExtraSel            /8    none           none           bold
 PmenuMatch               /8    none           color01        reverse
 PmenuMatchSel            /8    color01        none           bold
+PmenuBorder              /8    color07        color00
 
 SignColumn               /8    none           none
 
