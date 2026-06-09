@@ -180,9 +180,11 @@ PopupTitle              color07        colorB         bold
  /16/8                  none           none           bold,reverse
 
 Pmenu                   none           colorB
- /16/8                  none           none           reverse
+ /16                    color00        color07
+ /8                     none           none           reverse
 PmenuBorder             color08        colorB
- /16/8                  none           none           reverse
+ /16                    color00        color07
+ /8                     none           none           reverse
 PmenuShadow             color08        colorShadow
  /16/8                  none           none
 PmenuThumb              none           color08
@@ -190,19 +192,25 @@ PmenuThumb              none           color08
 PmenuSbar               none           colorNonT
  /16/8                  none           none           reverse
 PmenuSel                none           colorNonT
- /16/8                  none           none           bold
+ /16                    color07        color00
+ /8                     color00        none
 PmenuKind               color06        colorB
- /16/8                  none           none           reverse,bold
+ /16                    color07        color00
+ /8                     none           none           reverse
 PmenuKindSel            color06        colorNonT
- /16/8                  none           none           bold
+ /16/8                  none           none
 PmenuExtra              color08        colorB
- /16/8                  none           none           reverse
+ /16                    color00        color07
+ /8                     none           none           reverse
 PmenuExtraSel           color07        colorNonT
- /16/8                  none           none           bold
+ /16                    color07        color00
+ /8                     none           none
 PmenuMatch              colorC         none
- /16/8                  none           color01        reverse
+ /16                    color00        color07        bold
+ /8                     none           none           bold
 PmenuMatchSel           colorC         none
- /16/8                  color01        none           bold
+ /16                    color07        color00        bold
+ /8                     color00        none           bold
 
 SignColumn              none           none
  /8                     none           none
