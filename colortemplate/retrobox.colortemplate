@@ -29,6 +29,8 @@ LineNrBelow                    -> LineNr
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 PreInsert                      -> LineNr
+markdownUrl                    -> Underlined
+markdownLinkText               -> String
 
 
 ; Neutral colors
