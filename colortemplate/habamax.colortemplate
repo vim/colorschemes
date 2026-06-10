@@ -105,7 +105,8 @@ javaScriptIdentifier                   -> Statement
 sqlKeyword                             -> Statement
 sqlSpecial                             -> Constant
 Quote                                  -> String
-markdownUrl                            -> String
+markdownUrl                            -> Underlined
+markdownLinkText                       -> String
 markdownHeadingRule                    -> Special
 asciidoctorTitle                       -> htmlH1
 asciidoctorH1                          -> htmlH1
