@@ -28,6 +28,9 @@ CurSearch                      -> IncSearch
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 PreInsert                      -> NonText
+; bundled ftplugin
+markdownUrl                    -> Underlined
+markdownLinkText               -> String
 
 
 Background: dark
