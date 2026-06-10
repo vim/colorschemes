@@ -32,7 +32,8 @@ rstDelimiter                   -> Special
 rstInterpretedText             -> Special
 rstCodeBlock                   -> Normal
 rstLiteralBlock                -> rstCodeBlock
-markdownUrl                    -> String
+markdownUrl                    -> Underlined
+markdownLinkText               -> String
 colortemplateKey               -> Statement
 xmlTagName                     -> Statement
 javaScriptFunction             -> Statement
