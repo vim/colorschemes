@@ -24,6 +24,7 @@ hi! link IncSearch CurSearch
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi! link Number Constant
+hi! link PopupBorder PmenuBorder
 hi! link PopupNotification WarningMsg
 hi! link PreCondit PreProc
 hi! link SpecialChar Special
@@ -77,6 +78,7 @@ if &background == 'dark'
   hi NonText guifg=#6c7086 guibg=NONE guisp=NONE gui=NONE ctermfg=59 ctermbg=NONE cterm=NONE term=NONE
   hi Operator guifg=#89dceb guibg=NONE guisp=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE term=NONE
   hi Pmenu guifg=#9399b2 guibg=#181825 guisp=NONE gui=NONE ctermfg=103 ctermbg=232 cterm=NONE term=reverse
+  hi PmenuBorder guifg=#89b4fa guibg=#181825 guisp=NONE gui=NONE ctermfg=111 ctermbg=232 cterm=NONE term=NONE
   hi PmenuExtra guifg=#6c7086 guibg=#181825 guisp=NONE gui=NONE ctermfg=59 ctermbg=232 cterm=NONE term=NONE
   hi PmenuExtraSel guifg=#6c7086 guibg=#313244 guisp=NONE gui=bold ctermfg=59 ctermbg=236 cterm=bold term=bold
   hi PmenuMatch guifg=#cdd6f4 guibg=NONE guisp=NONE gui=bold ctermfg=189 ctermbg=NONE cterm=bold term=bold
@@ -84,6 +86,8 @@ if &background == 'dark'
   hi PmenuSbar guifg=NONE guibg=#313244 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#313244 guisp=NONE gui=bold ctermfg=NONE ctermbg=236 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#6c7086 guisp=NONE gui=NONE ctermfg=NONE ctermbg=59 cterm=NONE term=NONE
+  hi Popup guifg=#cdd6f4 guibg=#181825 guisp=NONE gui=NONE ctermfg=189 ctermbg=232 cterm=NONE term=NONE
+  hi PopupTitle guifg=#a6adc8 guibg=#181825 guisp=NONE gui=NONE ctermfg=146 ctermbg=232 cterm=NONE term=NONE
   hi PreInsert guifg=#9399b2 guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE term=NONE
   hi PreProc guifg=#f5c2e7 guibg=NONE guisp=NONE gui=NONE ctermfg=225 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#89b4fa guibg=NONE guisp=NONE gui=NONE ctermfg=111 ctermbg=NONE cterm=NONE term=standout
@@ -205,6 +209,7 @@ if &background == 'dark'
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=Grey ctermbg=DarkGrey cterm=NONE
+    hi PmenuBorder ctermfg=Blue ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
     hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
     hi PmenuMatch ctermfg=White ctermbg=NONE cterm=bold
@@ -212,6 +217,8 @@ if &background == 'dark'
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi Popup ctermfg=White ctermbg=DarkGrey cterm=NONE
+    hi PopupTitle ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PreInsert ctermfg=Grey ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
@@ -327,6 +334,7 @@ if &background == 'dark'
     hi NonText ctermfg=Grey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=Grey ctermbg=DarkGrey cterm=NONE
+    hi PmenuBorder ctermfg=Blue ctermbg=DarkGrey cterm=NONE
     hi PmenuExtra ctermfg=Grey ctermbg=DarkGrey cterm=NONE
     hi PmenuExtraSel ctermfg=Grey ctermbg=DarkYellow cterm=bold
     hi PmenuMatch ctermfg=White ctermbg=NONE cterm=bold
@@ -334,6 +342,8 @@ if &background == 'dark'
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=DarkYellow cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=Grey cterm=NONE
+    hi Popup ctermfg=White ctermbg=DarkGrey cterm=NONE
+    hi PopupTitle ctermfg=White ctermbg=DarkGrey cterm=NONE
     hi PreInsert ctermfg=Grey ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
@@ -466,6 +476,7 @@ if &background == 'light'
   hi NonText guifg=#9ca0b0 guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE term=NONE
   hi Operator guifg=#04a5e5 guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE term=NONE
   hi Pmenu guifg=#7c7f93 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=103 ctermbg=255 cterm=NONE term=reverse
+  hi PmenuBorder guifg=#1e66f5 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=27 ctermbg=255 cterm=NONE term=NONE
   hi PmenuExtra guifg=#9ca0b0 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=247 ctermbg=255 cterm=NONE term=NONE
   hi PmenuExtraSel guifg=#9ca0b0 guibg=#ccd0da guisp=NONE gui=bold ctermfg=247 ctermbg=253 cterm=bold term=bold
   hi PmenuMatch guifg=#4c4f69 guibg=NONE guisp=NONE gui=bold ctermfg=236 ctermbg=NONE cterm=bold term=bold
@@ -473,6 +484,8 @@ if &background == 'light'
   hi PmenuSbar guifg=NONE guibg=#ccd0da guisp=NONE gui=NONE ctermfg=NONE ctermbg=253 cterm=NONE term=reverse
   hi PmenuSel guifg=NONE guibg=#ccd0da guisp=NONE gui=bold ctermfg=NONE ctermbg=253 cterm=bold term=bold
   hi PmenuThumb guifg=NONE guibg=#9ca0b0 guisp=NONE gui=NONE ctermfg=NONE ctermbg=247 cterm=NONE term=NONE
+  hi Popup guifg=#4c4f69 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=236 ctermbg=255 cterm=NONE term=NONE
+  hi PopupTitle guifg=#6c6f85 guibg=#e6e9ef guisp=NONE gui=NONE ctermfg=60 ctermbg=255 cterm=NONE term=NONE
   hi PreInsert guifg=#7c7f93 guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE term=NONE
   hi PreProc guifg=#ea76cb guibg=NONE guisp=NONE gui=NONE ctermfg=206 ctermbg=NONE cterm=NONE term=NONE
   hi Question guifg=#1e66f5 guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE term=standout
@@ -594,6 +607,7 @@ if &background == 'light'
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=Black ctermbg=Grey cterm=NONE
+    hi PmenuBorder ctermfg=Blue ctermbg=Grey cterm=NONE
     hi PmenuExtra ctermfg=DarkGrey ctermbg=Grey cterm=NONE
     hi PmenuExtraSel ctermfg=DarkGrey ctermbg=Grey cterm=bold
     hi PmenuMatch ctermfg=Black ctermbg=NONE cterm=bold
@@ -601,6 +615,8 @@ if &background == 'light'
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=Grey cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+    hi Popup ctermfg=Black ctermbg=Grey cterm=NONE
+    hi PopupTitle ctermfg=Black ctermbg=Grey cterm=NONE
     hi PreInsert ctermfg=Black ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
@@ -716,6 +732,7 @@ if &background == 'light'
     hi NonText ctermfg=DarkGrey ctermbg=NONE cterm=NONE
     hi Operator ctermfg=Cyan ctermbg=NONE cterm=NONE
     hi Pmenu ctermfg=Black ctermbg=Grey cterm=NONE
+    hi PmenuBorder ctermfg=Blue ctermbg=Grey cterm=NONE
     hi PmenuExtra ctermfg=DarkGrey ctermbg=Grey cterm=NONE
     hi PmenuExtraSel ctermfg=DarkGrey ctermbg=Grey cterm=bold
     hi PmenuMatch ctermfg=Black ctermbg=NONE cterm=bold
@@ -723,6 +740,8 @@ if &background == 'light'
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
     hi PmenuSel ctermfg=NONE ctermbg=Grey cterm=bold
     hi PmenuThumb ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+    hi Popup ctermfg=Black ctermbg=Grey cterm=NONE
+    hi PopupTitle ctermfg=Black ctermbg=Grey cterm=NONE
     hi PreInsert ctermfg=Black ctermbg=NONE cterm=NONE
     hi PreProc ctermfg=Magenta ctermbg=NONE cterm=NONE
     hi Question ctermfg=Blue ctermbg=NONE cterm=NONE
