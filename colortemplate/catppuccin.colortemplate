@@ -112,7 +112,8 @@ EndOfBuffer	surface1	none
   /16	surface2	none
   /8	overlay0	none
 ErrorMsg	red	none	bold
-VertSplit	crust	none
+VertSplit	blue	none
+VertSplitNC	crust	none
   /16/8	overlay0	none
 Folded	blue	none
 FoldColumn	overlay0	none
