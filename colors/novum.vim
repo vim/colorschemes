@@ -58,7 +58,7 @@ hi! link VisualNOS Visual
 hi! link WildMenu PmenuSel
 
 if &background == 'dark'
-  let g:terminal_ansi_colors = ['#14161b', '#ff0000', '#005523', '#fce094', '#8cf8f7', '#590008', '#007373', '#6b5300', '#9b9ea4', '#ff0000', '#005523', '#fce094', '#a6dbff', '#590008', '#007373', '#eef1f8']
+  let g:terminal_ansi_colors = ['#eef1f8', '#ffc0b9', '#b3f6c0', '#fce094', '#a6dbff', '#ff0000', '#8cf8f7', '#9b9ea4', '#2c2e33', '#590008', '#005523', '#6b5300', '#007373', '#4f5258', '#07080d', '#14161b']
 
   hi Normal guifg=#e0e2ea guibg=#14161b guisp=NONE gui=NONE ctermfg=188 ctermbg=233 cterm=NONE term=NONE
   hi Added guifg=#b3f6c0 guibg=NONE guisp=NONE gui=NONE ctermfg=157 ctermbg=NONE cterm=NONE term=NONE
@@ -298,7 +298,7 @@ if &background == 'dark'
 endif
 
 if &background == 'light'
-  let g:terminal_ansi_colors = ['#e0e2ea', '#ff0000', '#b3f6c0', '#6b5300', '#007373', '#ffc0b9', '#8cf8f7', '#fce094', '#4f5258', '#ff0000', '#b3f6c0', '#6b5300', '#004c73', '#ffc0b9', '#8cf8f7', '#07080d']
+  let g:terminal_ansi_colors = ['#07080d', '#590008', '#005523', '#6b5300', '#004c73', '#ff0000', '#007373', '#4f5258', '#c4c6cd', '#ffc0b9', '#b3f6c0', '#fce094', '#8cf8f7', '#9b9ea4', '#eef1f8', '#e0e2ea']
 
   hi Normal guifg=#14161b guibg=#e0e2ea guisp=NONE gui=NONE ctermfg=233 ctermbg=188 cterm=NONE term=NONE
   hi Added guifg=#005523 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
