@@ -70,7 +70,7 @@ if &background == 'dark'
   hi CurSearch guifg=#07080d guibg=#fce094 guisp=NONE gui=NONE ctermfg=232 ctermbg=222 cterm=NONE term=reverse
   hi Cursor guifg=bg guibg=fg guisp=NONE gui=NONE ctermfg=bg ctermbg=fg cterm=NONE term=reverse
   hi CursorColumn guifg=NONE guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=NONE
-  hi CursorLine guifg=NONE guibg=#2c2e33 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=underline
+  hi CursorLine guifg=NONE guibg=#384851 guisp=NONE gui=NONE ctermfg=NONE ctermbg=239 cterm=NONE term=underline
   hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi Delimiter guifg=#e0e2ea guibg=NONE guisp=NONE gui=NONE ctermfg=188 ctermbg=NONE cterm=NONE term=NONE
   hi DiffAdd guifg=#eef1f8 guibg=#005523 guisp=NONE gui=NONE ctermfg=231 ctermbg=22 cterm=NONE term=reverse
@@ -142,7 +142,7 @@ if &background == 'dark'
     hi CurSearch ctermfg=Black ctermbg=Yellow cterm=bold,reverse
     hi Cursor ctermfg=bg ctermbg=fg cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=DarkGray cterm=NONE
-    hi CursorLine ctermfg=NONE ctermbg=DarkGray cterm=underline
+    hi CursorLine ctermfg=NONE ctermbg=LightBlue cterm=underline
     hi CursorLineNr ctermfg=Yellow ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=LightGray ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=White ctermbg=DarkGreen cterm=NONE
@@ -310,7 +310,7 @@ if &background == 'light'
   hi CurSearch guifg=#eef1f8 guibg=#6b5300 guisp=NONE gui=NONE ctermfg=231 ctermbg=58 cterm=NONE term=reverse
   hi Cursor guifg=bg guibg=fg guisp=NONE gui=NONE ctermfg=bg ctermbg=fg cterm=NONE term=reverse
   hi CursorColumn guifg=NONE guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=NONE ctermbg=251 cterm=NONE term=NONE
-  hi CursorLine guifg=NONE guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=NONE ctermbg=251 cterm=NONE term=underline
+  hi CursorLine guifg=NONE guibg=#b8cfc7 guisp=NONE gui=NONE ctermfg=NONE ctermbg=152 cterm=NONE term=underline
   hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi Delimiter guifg=#14161b guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE term=NONE
   hi DiffAdd guifg=#07080d guibg=#b3f6c0 guisp=NONE gui=NONE ctermfg=232 ctermbg=157 cterm=NONE term=reverse
@@ -382,7 +382,7 @@ if &background == 'light'
     hi CurSearch ctermfg=White ctermbg=Brown cterm=bold,reverse
     hi Cursor ctermfg=bg ctermbg=fg cterm=NONE
     hi CursorColumn ctermfg=NONE ctermbg=LightGray cterm=NONE
-    hi CursorLine ctermfg=NONE ctermbg=LightGray cterm=underline
+    hi CursorLine ctermfg=NONE ctermbg=LightGreen cterm=underline
     hi CursorLineNr ctermfg=Brown ctermbg=NONE cterm=NONE
     hi Delimiter ctermfg=Black ctermbg=NONE cterm=NONE
     hi DiffAdd ctermfg=Black ctermbg=LightGreen cterm=NONE

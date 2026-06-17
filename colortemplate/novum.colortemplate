@@ -72,8 +72,8 @@ CurSearch                              longDhole  poorLlama
 /16                                    longDhole  poorLlama   bold,reverse
 Cursor                                 bg         fg
 CursorColumn                           none       weakSnail
-CursorLine                             none       weakSnail
-/16                                    none       weakSnail   underline
+CursorLine                             none       mistWhale
+/16                                    none       mistWhale   underline
 CursorLineNr                           none       none        bold
 /16                                    poorLlama  none
 debugBreakpoint                        soreSloth  gladRobin
