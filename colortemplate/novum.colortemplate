@@ -1,0 +1,211 @@
+; vim: ft=colortemplate fdm=marker et
+
+Full name: novum
+Short name: novum
+Description: port of nvim dev_theme
+Author: Charan Mandati <charancuz008@gmail.com>
+License: Vim License (see `:help license`)`
+Options: backend=vim
+
+Environments: gui 256 16 8 0
+
+Background: dark
+
+Color: baldFossa #ffc0b9 217 Red
+Color: deadLemur #4f5258 59  DarkGray
+Color: dullZorse #9b9ea4 145 DarkGray
+Color: easyTetra #005523 22  DarkGreen
+Color: fineSnake #ff0000 196 Red
+Color: gladHuman #007373 30  DarkCyan
+Color: gladRobin #590008 52  DarkRed
+Color: longDhole #07080d 232 Black
+Color: poorLlama #fce094 222 Yellow
+Color: richBison #6b5300 58  Brown
+Color: richSaola #14161b 233 Black
+Color: soreSloth #eef1f8 231 White
+Color: tameFossa #e0e2ea 188 LightGray
+Color: tameHorse #b3f6c0 157 LightGreen
+Color: warmQuail #8cf8f7 123 LightCyan
+Color: weakSnail #2c2e33 236 DarkGray
+Color: zanyDingo #c4c6cd 251 LightGray
+Color: zanyLlama #a6dbff 153 LightBlue
+Color: mistWhale #384851 239 LightBlue
+Color: mossShark #b8cfc7 152 LightGreen
+
+Background: light
+
+Color: baldFossa #590008 52  DarkRed
+Color: deadLemur #9b9ea4 145 DarkGray
+Color: dullZorse #4f5258 59  DarkGray
+Color: easyTetra #b3f6c0 157 LightGreen
+Color: fineSnake #ff0000 196 Red
+Color: gladHuman #8cf8f7 30  LightCyan
+Color: gladRobin #FFC0B9 217 LightRed
+Color: longDhole #eef1f8 231 White
+Color: poorLlama #6b5300 58  Brown
+Color: richBison #fce094 222 Yellow
+Color: richSaola #e0e2ea 188 LightGray
+Color: soreSloth #07080d 232 Black
+Color: tameFossa #14161b 233 Black
+Color: tameHorse #005523 22  DarkGreen
+Color: warmQuail #007373 23  Cyan
+Color: weakSnail #c4c6cd 251 LightGray
+Color: zanyDingo #2c2e33 236 DarkGray
+Color: zanyLlama #004c73 24  DarkBlue
+Color: mistWhale #b8cfc7 152 LightGreen
+Color: mossShark #384851 239 LightBlue
+
+Background: any
+
+Term colors: soreSloth baldFossa tameHorse poorLlama zanyLlama fineSnake warmQuail dullZorse
+             weakSnail gladRobin easyTetra richBison gladHuman deadLemur longDhole richSaola
+
+
+Normal                                 tameFossa  richSaola
+Added                                  tameHorse  none
+Changed                                warmQuail  none
+ColorColumn                            none       deadLemur
+Comment                                dullZorse  none
+Conceal                                deadLemur  none
+Constant                               tameFossa  none
+CurSearch                              longDhole  poorLlama
+/16                                    longDhole  poorLlama   bold,reverse
+Cursor                                 bg         fg
+CursorColumn                           none       weakSnail
+CursorLine                             none       weakSnail
+/16                                    none       weakSnail   underline
+CursorLineNr                           none       none        bold
+/16                                    poorLlama  none
+debugBreakpoint                        soreSloth  gladRobin
+debugPC                                soreSloth  gladHuman
+Delimiter                              tameFossa  none
+DiffAdd                                soreSloth  easyTetra
+DiffChange                             soreSloth  mistWhale
+DiffDelete                             baldFossa  none        bold
+DiffText                               soreSloth  gladHuman
+Directory                              warmQuail  none
+Error                                  soreSloth  gladRobin
+ErrorMsg                               baldFossa  none
+Folded                                 dullZorse  longDhole
+/16                                    longDhole  richBison
+Function                               warmQuail  none
+Identifier                             zanyLlama  none
+LineNr                                 deadLemur  none
+MatchParen                             fineSnake  none        bold
+ModeMsg                                tameHorse  none
+MoreMsg                                warmQuail  none
+NonText                                deadLemur  none
+Operator                               tameFossa  none
+Pmenu                                  tameFossa  weakSnail
+PmenuMatch                             none       none        bold
+PmenuMatchSel                          none       none        bold
+PmenuSel                               none       none        reverse
+PmenuThumb                             tameFossa  deadLemur
+PopupTitle                             tameFossa  weakSnail   bold
+PreProc                                tameFossa  none
+Question                               warmQuail  none
+QuickFixLine                           warmQuail  none
+/16                                    warmQuail  none
+Removed                                baldFossa  none
+Search                                 soreSloth  richBison
+/16                                    soreSloth  gladRobin
+SignColumn                             deadLemur  none
+/16                                    deadLemur  none
+Special                                warmQuail  none
+SpecialKey                             deadLemur  none
+SpellBad                               none       none        s=baldFossa undercurl
+/256/16/8                              baldFossa  none        s=none underline
+SpellCap                               none       none        s=poorLlama undercurl
+/256/16/8                              poorLlama  none        s=none underline
+SpellLocal                             none       none        s=tameHorse undercurl
+/256/16/8                              tameHorse  none        s=none underline
+SpellRare                              none       none        s=warmQuail undercurl
+/256/16/8                              warmQuail  none        s=none underline
+Statement                              tameFossa  none        bold
+StatusLine                             tameFossa  deadLemur
+StatusLineNC                           zanyDingo  weakSnail
+String                                 tameHorse  none
+/16                                    tameHorse  none
+TabLineSel                             none       none        bold
+Title                                  tameFossa  none        bold
+TitleBar                               soreSloth  deadLemur
+TitleBarNC                             zanyDingo  longDhole
+Todo                                   tameFossa  none        bold
+ToolbarButton                          dullZorse  longDhole   bold
+ToolbarLine                            none       longDhole
+Type                                   tameFossa  none
+/16                                    tameFossa  none        bold
+Underlined                             none       none        underline
+VertSplitNC                            weakSnail  none
+Visual                                 none       deadLemur
+WarningMsg                             poorLlama  none
+lCursor                                bg         fg
+
+
+; 8-color overrides
+Comment         /8   richBison   none        bold
+LineNr          /8   richBison   none
+SignColumn      /8   richBison   none
+NonText         /8   richBison   none
+SpecialKey      /8   richBison   none
+Folded          /8   richBison   none
+FoldColumn      /8   richBison   none
+Conceal         /8   richBison   none
+ColorColumn     /8   none        richSaola
+CursorLine      /8   none        none        underline
+CursorColumn    /8   none        none        underline
+MatchParen      /8   poorLlama   none        bold
+Visual          /8   none        none        reverse
+StatusLine      /8   none        none        reverse,bold
+StatusLineNC    /8   none        none        reverse
+Statement       /8   tameFossa   none        bold
+Title           /8   tameFossa   none        bold
+
+; Common linked groups {{{
+Boolean                                -> Constant
+Character                              -> Constant
+Conditional                            -> Statement
+CursorIM                               -> Cursor
+CursorLineFold                         -> SignColumn
+CursorLineSign                         -> SignColumn
+Debug                                  -> Special
+Define                                 -> PreProc
+EndOfBuffer                            -> NonText
+Exception                              -> Statement
+Float                                  -> Constant
+FoldColumn                             -> SignColumn
+Ignore                                 -> Normal
+IncSearch                              -> CurSearch
+Include                                -> PreProc
+Keyword                                -> Statement
+Label                                  -> Statement
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
+Macro                                  -> PreProc
+Number                                 -> Constant
+PmenuExtra                             -> Pmenu
+PmenuExtraSel                          -> PmenuSel
+PmenuKind                              -> Pmenu
+PmenuKindSel                           -> PmenuSel
+PmenuSbar                              -> Pmenu
+PopupNotification                      -> Normal
+PreCondit                              -> PreProc
+PreInsert                              -> Added
+Repeat                                 -> Statement
+SpecialChar                            -> Special
+SpecialComment                         -> Special
+StatusLineTerm                         -> StatusLine
+StatusLineTermNC                       -> StatusLineNC
+StorageClass                           -> Type
+Structure                              -> Type
+TabLine                                -> StatusLineNC
+TabLineFill                            -> StatusLineNC
+Tag                                    -> Special
+Terminal                               -> Normal
+Typedef                                -> Type
+VertSplit                              -> Normal
+VisualNOS                              -> Visual
+WildMenu                               -> PmenuSel
+; }}}
+
+Include: _tcozero
