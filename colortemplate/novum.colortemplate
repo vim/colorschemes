@@ -128,7 +128,7 @@ String                                 tameHorse  none
 /16                                    tameHorse  none
 TabLineSel                             none       none        bold
 Title                                  tameFossa  none        bold
-TitleBar                               soreSloth  weakSnail
+TitleBar                               soreSloth  deadLemur
 TitleBarNC                             zanyDingo  longDhole
 Todo                                   tameFossa  none        bold
 ToolbarButton                          dullZorse  longDhole   bold
