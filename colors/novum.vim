@@ -310,7 +310,7 @@ if &background == 'light'
   hi CurSearch guifg=#eef1f8 guibg=#6b5300 guisp=NONE gui=NONE ctermfg=231 ctermbg=58 cterm=NONE term=reverse
   hi Cursor guifg=bg guibg=fg guisp=NONE gui=NONE ctermfg=bg ctermbg=fg cterm=NONE term=reverse
   hi CursorColumn guifg=NONE guibg=#c4c6cd guisp=NONE gui=NONE ctermfg=NONE ctermbg=251 cterm=NONE term=NONE
-  hi CursorLine guifg=NONE guibg=#d4d6dd guisp=NONE gui=NONE ctermfg=NONE ctermbg=253 cterm=NONE term=underline
+  hi CursorLine guifg=NONE guibg=#d4d6dd guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=underline
   hi CursorLineNr guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold
   hi Delimiter guifg=#14161b guibg=NONE guisp=NONE gui=NONE ctermfg=233 ctermbg=NONE cterm=NONE term=NONE
   hi DiffAdd guifg=#07080d guibg=#b3f6c0 guisp=NONE gui=NONE ctermfg=232 ctermbg=157 cterm=NONE term=reverse
