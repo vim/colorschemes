@@ -31,6 +31,7 @@ Color: zanyDingo #c4c6cd 251 LightGray
 Color: zanyLlama #a6dbff 153 LightBlue
 Color: mistWhale #384851 239 LightBlue
 Color: mossShark #b8cfc7 152 LightGreen
+Color: goreMoose #37393f 237 DarkGray
 
 Background: light
 
@@ -54,6 +55,7 @@ Color: zanyDingo #2c2e33 236 DarkGray
 Color: zanyLlama #004c73 24  DarkBlue
 Color: mistWhale #b8cfc7 152 LightGreen
 Color: mossShark #384851 239 LightBlue
+Color: goreMoose #d4d6dd 253 LightGray
 
 Background: any
 
@@ -72,8 +74,8 @@ CurSearch                              longDhole  poorLlama
 /16                                    longDhole  poorLlama   bold,reverse
 Cursor                                 bg         fg
 CursorColumn                           none       weakSnail
-CursorLine                             none       mistWhale
-/16                                    none       mistWhale   underline
+CursorLine                             none       goreMoose
+/16                                    none       goreMoose   underline
 CursorLineNr                           none       none        bold
 /16                                    poorLlama  none
 debugBreakpoint                        soreSloth  gladRobin
