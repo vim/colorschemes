@@ -130,8 +130,6 @@ String                                 tameHorse  none
 /16                                    tameHorse  none
 TabLineSel                             none       none        bold
 Title                                  tameFossa  none        bold
-TitleBar                               soreSloth  deadLemur
-TitleBarNC                             zanyDingo  longDhole
 Todo                                   tameFossa  none        bold
 ToolbarButton                          dullZorse  longDhole   bold
 ToolbarLine                            none       longDhole
@@ -143,6 +141,17 @@ Visual                                 none       deadLemur
 WarningMsg                             poorLlama  none
 lCursor                                bg         fg
 
+Background: dark
+
+TitleBar                               soreSloth  deadLemur
+TitleBarNC                             zanyDingo  longDhole
+
+Background: light
+
+TitleBar                               soreSloth  longDhole
+TitleBarNC                             zanyDingo  deadLemur
+
+Background: any
 
 ; 8-color overrides
 Comment         /8   richBison   none        bold

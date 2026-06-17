@@ -353,8 +353,8 @@ if &background == 'light'
   hi String guifg=#005523 guibg=NONE guisp=NONE gui=NONE ctermfg=22 ctermbg=NONE cterm=NONE term=NONE
   hi TabLineSel guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
   hi Title guifg=#14161b guibg=NONE guisp=NONE gui=bold ctermfg=233 ctermbg=NONE cterm=bold term=NONE
-  hi TitleBar guifg=#07080d guibg=#9b9ea4 guisp=NONE gui=NONE ctermfg=232 ctermbg=145 cterm=NONE term=NONE
-  hi TitleBarNC guifg=#2c2e33 guibg=#eef1f8 guisp=NONE gui=NONE ctermfg=236 ctermbg=231 cterm=NONE term=NONE
+  hi TitleBar guifg=#07080d guibg=#eef1f8 guisp=NONE gui=NONE ctermfg=232 ctermbg=231 cterm=NONE term=NONE
+  hi TitleBarNC guifg=#2c2e33 guibg=#9b9ea4 guisp=NONE gui=NONE ctermfg=236 ctermbg=145 cterm=NONE term=NONE
   hi Todo guifg=#14161b guibg=NONE guisp=NONE gui=bold ctermfg=233 ctermbg=NONE cterm=bold term=bold,reverse
   hi ToolbarButton guifg=#4f5258 guibg=#eef1f8 guisp=NONE gui=bold ctermfg=59 ctermbg=231 cterm=bold term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=#eef1f8 guisp=NONE gui=NONE ctermfg=NONE ctermbg=231 cterm=NONE term=reverse
@@ -425,8 +425,8 @@ if &background == 'light'
     hi String ctermfg=DarkGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=Black ctermbg=NONE cterm=bold
-    hi TitleBar ctermfg=Black ctermbg=DarkGray cterm=NONE
-    hi TitleBarNC ctermfg=DarkGray ctermbg=White cterm=NONE
+    hi TitleBar ctermfg=Black ctermbg=White cterm=NONE
+    hi TitleBarNC ctermfg=DarkGray ctermbg=DarkGray cterm=NONE
     hi Todo ctermfg=Black ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=White cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=White cterm=NONE
@@ -496,8 +496,8 @@ if &background == 'light'
     hi String ctermfg=DarkGreen ctermbg=NONE cterm=NONE
     hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
     hi Title ctermfg=Black ctermbg=NONE cterm=bold
-    hi TitleBar ctermfg=Black ctermbg=DarkGray cterm=NONE
-    hi TitleBarNC ctermfg=DarkGray ctermbg=White cterm=NONE
+    hi TitleBar ctermfg=Black ctermbg=White cterm=NONE
+    hi TitleBarNC ctermfg=DarkGray ctermbg=DarkGray cterm=NONE
     hi Todo ctermfg=Black ctermbg=NONE cterm=bold
     hi ToolbarButton ctermfg=DarkGray ctermbg=White cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=White cterm=NONE
