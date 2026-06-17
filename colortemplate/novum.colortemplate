@@ -114,13 +114,13 @@ SignColumn                             deadLemur  none
 Special                                warmQuail  none
 SpecialKey                             deadLemur  none
 SpellBad                               none       none        s=baldFossa undercurl
-/256/16/8                              none       none        s=none underline
+/256/16/8                              baldFossa  none        s=none underline
 SpellCap                               none       none        s=poorLlama undercurl
-/256/16/8                              none       none        s=none underline
+/256/16/8                              poorLlama  none        s=none underline
 SpellLocal                             none       none        s=tameHorse undercurl
-/256/16/8                              none       none        s=none underline
+/256/16/8                              tameHorse  none        s=none underline
 SpellRare                              none       none        s=warmQuail undercurl
-/256/16/8                              none       none        s=none underline
+/256/16/8                              warmQuail  none        s=none underline
 Statement                              tameFossa  none        bold
 StatusLine                             tameFossa  deadLemur
 StatusLineNC                           zanyDingo  weakSnail
