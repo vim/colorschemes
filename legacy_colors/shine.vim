@@ -1,5 +1,5 @@
 " Vim color file
-" Maintainer:	Yasuhiro Matsumoto <mattn@mail.goo.ne.jp>
+" Maintainer:	Yasuhiro Matsumoto <mattn.jp@gmail.com>
 " Last Change:	2001 May 25
 
 " This look like normal text editor.
