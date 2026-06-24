@@ -119,6 +119,13 @@ SpecialKey                     colorNonT      none
 EndOfBuffer                    colorNonT      none
  /16                           color08        none
 
+Popup                          none           colorB
+ /16/8                         none           none           reverse
+PopupBorder                    color08        colorB
+ /16/8                         none           none           reverse
+PopupTitle                     colorSt        colorB         bold
+ /16/8                         none           none           bold,reverse
+
 Pmenu                          none           colorB
  /16                           color00        color07
 PmenuSel                       none           colorNonT
@@ -417,6 +424,13 @@ NonText                        colorNonT      none
 FoldColumn                     colorNonT      none
 EndOfBuffer                    colorNonT      none
 SpecialKey                     colorNonT      none
+
+Popup                          none           colorB
+ /16/8                         none           none           reverse
+PopupBorder                    color07        colorB
+ /16/8                         none           none           reverse
+PopupTitle                     color08        colorB         bold
+ /16/8                         none           none           bold,reverse
 
 Pmenu                          none           colorB
  /16                           color00        color07
