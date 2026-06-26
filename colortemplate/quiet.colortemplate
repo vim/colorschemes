@@ -120,7 +120,7 @@ Normal               dark7             dark0
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       dark0             reverse
-Cursor               none              none              reverse
+Cursor               dark0             dark7
 TitleBar             dark7             cTitle
 TitleBarNC           dark8             cTitleNC
 CursorColumn         none              uiblack
@@ -340,7 +340,7 @@ Normal               light0            light7
 ColorColumn          none              yasogrey
 Conceal              none              none
 CurSearch            uicursearch       light0            reverse
-Cursor               none              none              reverse
+Cursor               light15           light7
 TitleBar             light0            cTitle
 TitleBarNC           light8            cTitleNC
 CursorColumn         none              brightwhite
