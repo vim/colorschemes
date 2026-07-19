@@ -170,7 +170,7 @@ MoreMsg              fg                bg
 NonText              w8                none
 Pmenu                w19               w3
 PmenuSel             none              w4
-PmenuMatch           none              none
+PmenuMatch           w13               none
 PmenuMatchSel        w13               none
 PmenuSbar            none              w9
 PmenuSbar/8          none              w23
