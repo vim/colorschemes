@@ -1,0 +1,325 @@
+; vim: cc=25,40,55 vsts=24,15,15,4
+Full name:   habamax_vibrant
+Short name:  habamax_vibrant
+Description: Vibrant version of habamax.
+Author:      Maxim Kim <habamax@gmail.com> (modified by Gemini)
+URL:         https://github.com/vim/colorschemes
+License:     Same as Vim
+Options:     backend=vim
+
+Environments: gui 256 16 8 0
+
+Background: dark
+
+;;; Color palette
+Color: colorFg          #eeeeee        255            white
+Color: colorBg          #1c1c1c        234            black
+
+Color: color00          #1c1c1c        234            black
+Color: color08          #9e9e9e        247            darkgray
+
+Color: color01          #ff5f5f        203            darkred
+Color: color09          #ff87af        211            red
+
+Color: color02          #87d787        114            darkgreen
+Color: color10          #b3f6c0        157            green
+
+Color: color03          #ffaf5f        215            darkyellow
+Color: color11          #ffd787        222            yellow
+
+Color: color04          #87afff        111            darkblue
+Color: color12          #87d7ff        117            blue
+
+Color: color05          #d787d7        176            darkmagenta
+Color: color13          #ffafff        219            magenta
+
+Color: color06          #5fd7d7        80             darkcyan
+Color: color14          #87ffff        123            cyan
+
+Color: color07          #c7c7c7        251            gray
+Color: color15          #ffffff        231            white
+
+Color: colorLine        #303030        236            darkgrey
+Color: colorB           #3a3a3a        237            darkgrey
+Color: colorF           #262626        235            darkgrey
+Color: colorNonT        #585858        240            darkgrey
+Color: colorC           #ffaf5f        215            red
+Color: colorlC          #5fff00        82             green
+Color: colorV           #1a3456        24             cyan
+Color: colorSrch        #374a44        114            green
+Color: colorInc         #5a4a45        215            yellow
+Color: colorMP          #ff00af        199            magenta
+Color: colorErr         #a03f2f        131            darkred
+Color: colorQF          #4f2f4f        53             magenta
+
+Color: colorTitle       #3c3c3c        237            black
+Color: colorTitleNC     #2c2c2c        236            black
+
+Color: colorShadow      #121212        233            black
+
+Color: diffAdd          #273923        22             darkgreen
+Color: diffDelete       #2f1f1a        52             darkred
+Color: diffChange       #37352f        237            darkyellow
+Color: diffText         #0f4f4f        23             darkcyan
+
+Color: black            #000000        16             black
+Color: white            #dadada        253            white
+Color: Added            #87d787        114            darkgreen
+Color: Changed          #ffaf5f        215            darkyellow
+Color: Removed          #ff5f5f        203            darkred
+
+
+Term colors: color00 color01 color02 color03 color04 color05 color06 color07
+             color08 color09 color10 color11 color12 color13 color14 color15
+
+
+;;; links
+Float                                  -> Number
+Function                               -> Identifier
+Number                                 -> Constant
+Terminal                               -> Normal
+StatusLineTerm                         -> StatusLine
+StatusLineTermNC                       -> StatusLineNC
+MessageWindow                          -> Pmenu
+TabPanelFill                           -> Normal
+TabPanel                               -> Normal
+CurSearch                              -> IncSearch
+PopupSelected                          -> PmenuSel
+PopupNotification                      -> Normal
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
+CursorLineFold                         -> FoldColumn
+CursorLineSign                         -> FoldColumn
+PreInsert                              -> NonText
+
+;;; ft links
+vimCommentString                       -> Comment
+vimVar                                 -> Normal
+vimOper                                -> Normal
+vimSep                                 -> Normal
+vimParenSep                            -> Normal
+yamlBlockMappingKey                    -> Statement
+rubyMacro                              -> Statement
+rubyDefine                             -> Statement
+javaScriptFunction                     -> Statement
+javaScriptIdentifier                   -> Statement
+sqlKeyword                             -> Statement
+sqlSpecial                             -> Constant
+Quote                                  -> String
+markdownUrl                            -> String
+asciidoctorH1Delimiter                 -> Statement
+asciidoctorH2Delimiter                 -> Statement
+asciidoctorH3Delimiter                 -> Statement
+asciidoctorH4Delimiter                 -> Statement
+asciidoctorH5Delimiter                 -> Statement
+asciidoctorH6Delimiter                 -> Statement
+asciidoctorSetextHeaderDelimiter       -> Statement
+asciidoctorTitleDelimiter              -> Statement
+asciidoctorListMarker                  -> Constant
+asciidoctorBlock                       -> Special
+asciidoctorCode                        -> String
+asciidoctorOption                      -> Special
+asciidoctorMacro                       -> Special
+lspDiagVirtualTextError                -> Removed
+lspDiagSignErrorText                   -> Removed
+lspDiagVirtualTextWarning              -> Changed
+lspDiagSignWarningText                 -> Changed
+lspDiagVirtualTextHint                 -> Added
+lspDiagSignHintText                    -> Added
+lspDiagVirtualTextInfo                 -> Question
+lspDiagSignInfoText                    -> Question
+
+
+;;; chrome
+Normal                  colorFg        color00
+ /16/8                  color07        color00
+
+StatusLine              color00        color07
+ /8                     color07        color00        reverse,bold
+StatusLineNC            color00        color08
+ /8                     color00        color07
+VertSplit               color08        color08
+ /8                     color07        color07
+
+TabLine                 color00        color08
+ /8                     color00        color07
+TabLineFill             color00        color08
+ /8                     color07        color07
+TabLineSel              color00        color07        bold
+ /8                     color00        color07        bold
+
+ToolbarLine             none           none
+ToolbarButton           color08        color00        reverse,bold
+ /8                     color07        color00        reverse
+QuickFixLine            color15        colorQF
+ /gui                   none           colorQF
+ /256+tgc true          omit           omit
+ /16/8                  color00        colorQF
+
+CursorLineNr            white          none           bold
+ /16/8                  none           none           bold
+LineNr                  colorNonT      none
+ /16/8                  none           none
+NonText                 colorNonT      none
+ /8                     none           none
+EndOfBuffer             colorNonT      none
+ /8                     none           none
+SpecialKey              colorNonT      none
+ /8                     none           none
+FoldColumn              colorNonT      none
+ /8                     none           none
+
+Visual                  color14        color00        reverse
+ /gui                   none           colorV
+ /256+tgc true          omit           omit
+ /8                     color06        color00        reverse
+VisualNOS               color00        color06
+ /8                     none           none           reverse
+
+Pmenu                   none           colorB
+ /16/8                  none           none           reverse
+PmenuThumb              none           color08
+ /16/8                  none           none           reverse
+PmenuSbar               none           none
+PmenuSel                none           colorNonT
+ /16/8                  color03        none           reverse
+PmenuKind               color06        colorB
+ /16/8                  none           none           reverse,bold
+PmenuKindSel            color06        colorNonT
+ /16/8                  none           none           bold
+PmenuExtra              color08        colorB
+ /16/8                  none           none           reverse
+PmenuExtraSel           color07        colorNonT
+ /16/8                  none           none           bold
+PmenuMatch              colorC         colorB
+ /16/8                  none           none           bold
+PmenuMatchSel           colorC         colorNonT
+ /16/8                  color03        none           bold
+PmenuBorder             color08        colorB
+ /16/8                  none           none           reverse
+PmenuShadow             color08        colorShadow
+ /16/8                  none           none
+
+SignColumn              none           none
+ /8                     none           none
+Error                   colorErr       color00        reverse
+ /gui                   none           colorErr
+ /256+tgc true          omit           omit
+ /8                     colorErr       color00        reverse
+ErrorMsg                color01        color00        reverse
+ /8                     color01        color00         reverse
+ModeMsg                 none           none           bold
+MoreMsg                 color02        none
+ /8                     color02        none
+Question                color11        none
+ /8                     color03        none
+WarningMsg              color09        none
+ /8                     color01        none
+
+TitleBar                white          colorTitle
+TitleBarNC              color08        colorTitleNC
+
+Todo                    white          none           bold
+ /8                     colorFg        none           bold
+MatchParen              colorMP        none           bold
+ /8                     none           none           bold,underline
+Search                  colorSrch      color00        reverse
+ /gui                   none           colorSrch
+ /256+tgc true          omit           omit
+ /8                     color00        color02
+IncSearch               colorInc       color00        reverse
+ /gui                   none           colorInc
+ /256+tgc true          omit           omit
+ /8                     color00        color03
+WildMenu                color00        color11        bold
+ /8                     color00        color03
+
+debugPC                 color00        color04
+ /8                     color04        none           reverse
+debugBreakpoint         color00        color09
+ /8                     color06        none           reverse
+
+Cursor                  black          white
+lCursor                 color00        colorlC
+
+CursorLine              none           colorLine
+ /16/8                  none           none           underline
+CursorColumn            none           colorLine
+ /16/8                  color00        color03
+Folded                  color07        colorF
+ /16/8                  color07        none           underline
+ColorColumn             none           colorB
+ /16/8                  color00        color03
+
+SpellBad                Removed        none           underline
+ /gui                   none           none           s=Removed undercurl
+ /256+tgc true          Removed        none           underline
+ /8                     color01        none           reverse
+SpellCap                Changed        none           underline
+ /gui                   none           none           s=Changed undercurl
+ /256+tgc true          Changed        none           underline
+ /8                     color03        none           reverse
+SpellLocal              Added          none           underline
+ /gui                   none           none           s=Added undercurl
+ /256+tgc true          Added          none           underline
+ /8                     color02        none           reverse
+SpellRare               color13        none           underline
+ /gui                   none           none           s=color13 undercurl
+ /256+tgc true          color13        none           underline
+ /8                     color05        none           reverse
+
+
+;;; :h group-names
+Comment                 color08        none
+ /16/8                  none           none           bold
+Constant                color09        none
+ /16/8                  color01        none
+String                  color02        none
+ /8                     color02        none
+Character               color10        none
+ /16/8                  color02        none
+Identifier              color14        none
+ /16/8                  color06        none
+
+Statement               color05        none
+ /8                     color05        none
+PreProc                 color03        none
+ /8                     color03        none
+Type                    color04        none
+ /8                     color04        none
+Special                 color06        none
+ /8                     color06        none
+
+Underlined              none           none           underline
+Title                   none           none           bold
+Directory               color14        none           bold
+ /8                     none           none           bold
+Conceal                 colorNonT      none
+ /8                     none           none
+Ignore                  none           none
+Debug                   color06        none
+ /8                     color06        none           bold
+
+DiffAdd                 none           diffAdd
+ /256                   color07        diffAdd
+ /16/8                  color02        color00        reverse
+DiffChange              none           diffChange
+ /256                   color07        diffChange
+ /16/8                  color03        color00        reverse
+DiffText                none           diffText
+ /256                   color07        diffText
+ /16/8                  color04        color00        reverse
+DiffDelete              color08        diffDelete
+ /256                   color08        diffDelete
+ /16/8                  color01        color00        reverse
+
+Added                   Added          none
+ /8                     color02        none
+Changed                 Changed        none
+ /8                     color03        none
+Removed                 Removed        none
+ /8                     color01        none
+
+
+; No color support
+Include: _tcozero
