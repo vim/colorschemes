@@ -142,9 +142,9 @@ PmenuExtra                     color08        colorB
  /16                           color08        color07
 PmenuExtraSel                  color08        colorNonT
  /16                           color00        color03
-PmenuMatch                     color05        none
+PmenuMatch                     color15        none           bold
  /16                           color00        color07        bold
-PmenuMatchSel                  color05        none
+PmenuMatchSel                  color15        none           bold
  /16                           color00        color03        bold
 PmenuBorder                    color08        colorB
  /16                           none           color07
@@ -448,9 +448,9 @@ PmenuExtra                     color08        colorB
  /16                           color08        color07
 PmenuExtraSel                  color08        colorS
  /16                           color00        color03
-PmenuMatch                     color05        none
+PmenuMatch                     color00        none           bold
  /16                           color00        color07        bold
-PmenuMatchSel                  color05        none
+PmenuMatchSel                  color00        none           bold
  /16                           color00        color03        bold
 PmenuBorder                    color08        colorB
  /16                           color00        color07
