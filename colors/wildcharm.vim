@@ -167,8 +167,8 @@ if &background == 'dark'
     hi PmenuBorder ctermfg=NONE ctermbg=grey cterm=NONE
     hi PmenuExtra ctermfg=darkgrey ctermbg=grey cterm=NONE
     hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
-    hi PmenuKind ctermfg=darkred ctermbg=grey cterm=NONE
-    hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
+    hi PmenuKind ctermfg=darkcyan ctermbg=grey cterm=NONE
+    hi PmenuKindSel ctermfg=darkcyan ctermbg=darkyellow cterm=NONE
     hi PmenuMatch ctermfg=black ctermbg=grey cterm=bold
     hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -445,8 +445,8 @@ if &background == 'light'
     hi PmenuBorder ctermfg=black ctermbg=grey cterm=NONE
     hi PmenuExtra ctermfg=darkgrey ctermbg=grey cterm=NONE
     hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
-    hi PmenuKind ctermfg=darkred ctermbg=grey cterm=NONE
-    hi PmenuKindSel ctermfg=darkred ctermbg=darkyellow cterm=NONE
+    hi PmenuKind ctermfg=darkcyan ctermbg=grey cterm=NONE
+    hi PmenuKindSel ctermfg=darkcyan ctermbg=darkyellow cterm=NONE
     hi PmenuMatch ctermfg=black ctermbg=grey cterm=bold
     hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
     hi PmenuSbar ctermfg=NONE ctermbg=NONE cterm=NONE
