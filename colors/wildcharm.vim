@@ -72,8 +72,8 @@ if &background == 'dark'
   hi PmenuBorder guifg=#767676 guibg=#303030 guisp=NONE gui=NONE ctermfg=243 ctermbg=236 cterm=NONE term=NONE
   hi PmenuExtra guifg=#767676 guibg=#303030 guisp=NONE gui=NONE ctermfg=243 ctermbg=236 cterm=NONE term=reverse
   hi PmenuExtraSel guifg=#767676 guibg=#585858 guisp=NONE gui=NONE ctermfg=243 ctermbg=240 cterm=NONE term=NONE
-  hi PmenuKind guifg=#ff5f87 guibg=#303030 guisp=NONE gui=NONE ctermfg=204 ctermbg=236 cterm=NONE term=reverse
-  hi PmenuKindSel guifg=#ff5f87 guibg=#585858 guisp=NONE gui=NONE ctermfg=204 ctermbg=240 cterm=NONE term=NONE
+  hi PmenuKind guifg=#00afaf guibg=#303030 guisp=NONE gui=NONE ctermfg=37 ctermbg=236 cterm=NONE term=reverse
+  hi PmenuKindSel guifg=#00afaf guibg=#585858 guisp=NONE gui=NONE ctermfg=37 ctermbg=240 cterm=NONE term=NONE
   hi PmenuMatch guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
   hi PmenuMatchSel guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
   hi PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
@@ -351,8 +351,8 @@ if &background == 'light'
   hi PmenuBorder guifg=#808080 guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=240 ctermbg=254 cterm=NONE term=NONE
   hi PmenuExtra guifg=#808080 guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=240 ctermbg=254 cterm=NONE term=reverse
   hi PmenuExtraSel guifg=#808080 guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=240 ctermbg=251 cterm=NONE term=NONE
-  hi PmenuKind guifg=#d70000 guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=160 ctermbg=254 cterm=NONE term=reverse
-  hi PmenuKindSel guifg=#d70000 guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=160 ctermbg=251 cterm=NONE term=NONE
+  hi PmenuKind guifg=#008787 guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=30 ctermbg=254 cterm=NONE term=reverse
+  hi PmenuKindSel guifg=#008787 guibg=#c6c6c6 guisp=NONE gui=NONE ctermfg=30 ctermbg=251 cterm=NONE term=NONE
   hi PmenuMatch guifg=#000000 guibg=NONE guisp=NONE gui=bold ctermfg=16 ctermbg=NONE cterm=bold term=bold
   hi PmenuMatchSel guifg=#000000 guibg=NONE guisp=NONE gui=bold ctermfg=16 ctermbg=NONE cterm=bold term=bold
   hi PmenuSbar guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse

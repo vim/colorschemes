@@ -139,9 +139,9 @@ PmenuThumb                     none           color07
  /16                           none           none           reverse
 PmenuSbar                      none           none
  /16                           none           none
-PmenuKind                      color09        colorB
+PmenuKind                      color06        colorB
  /16                           color01        color07
-PmenuKindSel                   color09        colorNonT
+PmenuKindSel                   color06        colorNonT
  /16                           color01        color03
 PmenuExtra                     color08        colorB
  /16                           color08        color07
@@ -446,9 +446,9 @@ PmenuThumb                     none           color08
  /16                           none           color02
 PmenuSbar                      none           none
  /16                           none           none
-PmenuKind                      color09        colorB
+PmenuKind                      color06        colorB
  /16                           color01        color07
-PmenuKindSel                   color09        colorS
+PmenuKindSel                   color06        colorS
  /16                           color01        color03
 PmenuExtra                     color08        colorB
  /16                           color08        color07
