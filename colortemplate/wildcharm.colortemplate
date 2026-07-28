@@ -29,6 +29,11 @@ CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 PreInsert                      -> NonText
 ; bundled ftplugin
+markdownHeadingRule            -> Type
+markdownHeadingDelimiter       -> Type
+markdownCodeDelimiter          -> Special
+markdownId                     -> String
+markdownListMarker             -> PreProc
 markdownUrl                    -> Underlined
 markdownLinkText               -> String
 

@@ -29,7 +29,12 @@ hi! link StatusLineTermNC StatuslineNC
 hi! link TabPanel Normal
 hi! link TabPanelFill Normal
 hi! link Terminal Normal
+hi! link markdownCodeDelimiter Special
+hi! link markdownHeadingDelimiter Type
+hi! link markdownHeadingRule Type
+hi! link markdownId String
 hi! link markdownLinkText String
+hi! link markdownListMarker PreProc
 hi! link markdownUrl Underlined
 
 if &background == 'dark'
