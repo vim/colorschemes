@@ -127,10 +127,10 @@ PmenuSel                       none           bg2
  /16                           fg0            bg0
 PmenuThumb                     none           bg4
  /16                           none           none           reverse
-PmenuKind                      red            bg1
- /16                           neutralred     fg0
-PmenuKindSel                   red            bg2
- /16                           neutralred     bg0
+PmenuKind                      yellow         bg1
+ /16                           yellow         fg0
+PmenuKindSel                   yellow         bg2
+ /16                           yellow         bg0
 PmenuExtra                     fg4            bg1
  /16                           grey           fg0
 PmenuExtraSel                  fg4            bg2
@@ -372,10 +372,10 @@ PmenuSel                       none           bg3
  /16                           fg1            bg0
 PmenuThumb                     none           bg4
  /256/16                       none           none           reverse
-PmenuKind                      red            bg2
- /16                           neutralred     bg1
-PmenuKindSel                   red            bg3
- /16                           neutralred     bg3
+PmenuKind                      yellow         bg2
+ /16                           yellow         bg1
+PmenuKindSel                   yellow         bg3
+ /16                           yellow         bg3
 PmenuExtra                     fg4            bg2
  /16                           fg0            bg1
 PmenuExtraSel                  fg1            bg3
