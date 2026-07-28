@@ -117,6 +117,7 @@ if &background == 'dark'
   hi WildMenu guifg=#000000 guibg=#ffaf00 guisp=NONE gui=NONE ctermfg=16 ctermbg=214 cterm=NONE term=bold
   hi debugBreakpoint guifg=#00afaf guibg=NONE guisp=NONE gui=reverse ctermfg=37 ctermbg=NONE cterm=reverse term=reverse
   hi debugPC guifg=#0087d7 guibg=NONE guisp=NONE gui=reverse ctermfg=32 ctermbg=NONE cterm=reverse term=reverse
+  hi htmlH1 guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
 
   if has('gui_running') || s:tgc
     hi Cursor guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE cterm=NONE
@@ -211,6 +212,7 @@ if &background == 'dark'
     hi WildMenu ctermfg=black ctermbg=yellow cterm=NONE
     hi debugBreakpoint ctermfg=darkcyan ctermbg=NONE cterm=reverse
     hi debugPC ctermfg=darkblue ctermbg=NONE cterm=reverse
+    hi htmlH1 ctermfg=white ctermbg=NONE cterm=bold
     finish
   endif
 
@@ -292,6 +294,7 @@ if &background == 'dark'
     hi WildMenu ctermfg=black ctermbg=darkyellow cterm=NONE
     hi debugBreakpoint ctermfg=darkcyan ctermbg=NONE cterm=reverse
     hi debugPC ctermfg=darkblue ctermbg=NONE cterm=reverse
+    hi htmlH1 ctermfg=white ctermbg=NONE cterm=bold
     finish
   endif
 
