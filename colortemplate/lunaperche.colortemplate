@@ -23,7 +23,6 @@ fugitiveStagedModifier         -> PreProc
 fugitiveUnstagedModifier       -> PreProc
 fugitiveHash                   -> Constant
 diffFile                       -> PreProc
-markdownHeadingDelimiter       -> Special
 rstSectionDelimiter            -> Statement
 rstDirective                   -> PreProc
 rstHyperlinkReference          -> Special
@@ -32,6 +31,11 @@ rstDelimiter                   -> Special
 rstInterpretedText             -> Special
 rstCodeBlock                   -> Normal
 rstLiteralBlock                -> rstCodeBlock
+markdownHeadingRule            -> Type
+markdownHeadingDelimiter       -> Type
+markdownCodeDelimiter          -> Special
+markdownId                     -> String
+markdownListMarker             -> PreProc
 markdownUrl                    -> Underlined
 markdownLinkText               -> String
 colortemplateKey               -> Statement
