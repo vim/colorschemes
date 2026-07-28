@@ -29,6 +29,11 @@ LineNrBelow                    -> LineNr
 CursorLineFold                 -> FoldColumn
 CursorLineSign                 -> FoldColumn
 PreInsert                      -> LineNr
+markdownHeadingRule            -> Type
+markdownHeadingDelimiter       -> Type
+markdownCodeDelimiter          -> Special
+markdownId                     -> String
+markdownListMarker             -> PreProc
 markdownUrl                    -> Underlined
 markdownLinkText               -> String
 
