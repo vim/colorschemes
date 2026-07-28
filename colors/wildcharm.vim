@@ -1,5 +1,5 @@
 " Name:         Wild Charm
-" Description:  Vibrant and playful, at least one popular AI thinks it is.
+" Description:  Vibrant and playful.
 " Author:       Maxim Kim <habamax@gmail.com>
 " URL:          https://github.com/vim/colorschemes
 " License:      Same as Vim
@@ -368,9 +368,9 @@ if &background == 'light'
   hi SpellRare guifg=NONE guibg=NONE guisp=#af00af gui=undercurl ctermfg=127 ctermbg=NONE cterm=underline term=underline
   hi Statement guifg=#005faf guibg=NONE guisp=NONE gui=NONE ctermfg=25 ctermbg=NONE cterm=NONE term=NONE
   hi StatusLine guifg=#ffffff guibg=#5f5f5f guisp=NONE gui=bold ctermfg=231 ctermbg=59 cterm=bold term=bold,reverse
-  hi StatusLineNC guifg=#000000 guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=16 ctermbg=252 cterm=NONE term=bold,underline
-  hi TabLine guifg=#000000 guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=16 ctermbg=252 cterm=NONE term=bold,underline
-  hi TabLineFill guifg=#d0d0d0 guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=252 ctermbg=252 cterm=NONE term=NONE
+  hi StatusLineNC guifg=#ffffff guibg=#878787 guisp=NONE gui=NONE ctermfg=231 ctermbg=102 cterm=NONE term=bold,underline
+  hi TabLine guifg=#ffffff guibg=#878787 guisp=NONE gui=NONE ctermfg=231 ctermbg=102 cterm=NONE term=bold,underline
+  hi TabLineFill guifg=#878787 guibg=#878787 guisp=NONE gui=NONE ctermfg=102 ctermbg=102 cterm=NONE term=NONE
   hi TabLineSel guifg=#5f5f5f guibg=#ffffff guisp=NONE gui=bold,reverse ctermfg=59 ctermbg=231 cterm=bold,reverse term=bold,reverse
   hi Title guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=NONE
   hi TitleBar guifg=#000000 guibg=#ececec guisp=NONE gui=NONE ctermfg=16 ctermbg=255 cterm=NONE term=NONE
@@ -381,7 +381,7 @@ if &background == 'light'
   hi Type guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
   hi VertSplit guifg=#5f5f5f guibg=#5f5f5f guisp=NONE gui=NONE ctermfg=59 ctermbg=59 cterm=NONE term=NONE
-  hi VertSplitNC guifg=#d0d0d0 guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=252 ctermbg=252 cterm=NONE term=NONE
+  hi VertSplitNC guifg=#878787 guibg=#878787 guisp=NONE gui=NONE ctermfg=102 ctermbg=102 cterm=NONE term=NONE
   hi Visual guifg=NONE guibg=#bfdfff guisp=NONE gui=NONE ctermfg=32 ctermbg=231 cterm=reverse term=reverse
   hi VisualNOS guifg=#ffffff guibg=#005faf guisp=NONE gui=NONE ctermfg=231 ctermbg=25 cterm=NONE term=NONE
   hi WarningMsg guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE term=standout
@@ -462,8 +462,8 @@ if &background == 'light'
     hi SpellRare ctermfg=magenta ctermbg=NONE cterm=underline
     hi Statement ctermfg=darkblue ctermbg=NONE cterm=NONE
     hi StatusLine ctermfg=white ctermbg=darkgrey cterm=bold
-    hi StatusLineNC ctermfg=black ctermbg=lightgrey cterm=NONE
-    hi TabLine ctermfg=black ctermbg=lightgrey cterm=NONE
+    hi StatusLineNC ctermfg=white ctermbg=lightgrey cterm=NONE
+    hi TabLine ctermfg=white ctermbg=lightgrey cterm=NONE
     hi TabLineFill ctermfg=lightgrey ctermbg=lightgrey cterm=NONE
     hi TabLineSel ctermfg=darkgrey ctermbg=white cterm=bold,reverse
     hi Title ctermfg=NONE ctermbg=NONE cterm=bold

@@ -369,7 +369,7 @@ Color: colorLine               #EEEEEE        255            grey
 Color: colorB                  #E4E4E4        254            grey
 
 Color: colorNonT               #a8a8a8        248            darkgrey
-Color: colorTab                #d0d0d0        252            lightgrey
+Color: colorTab                #878787        102            lightgrey
 Color: colorS                  #c6c6c6        251            lightgrey
 Color: colorC                  #000000        16             black
 Color: colorlC                 #FF00FF        201            magenta
@@ -400,11 +400,11 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 Normal                         color00        color15
 
 StatusLine                     color15        colorSt        bold
-StatusLineNC                   color00        colorTab
+StatusLineNC                   color15        colorTab
 VertSplit                      colorSt        colorSt
 VertSplitNC                    colorTab       colorTab
 
-TabLine                        color00        colorTab
+TabLine                        color15        colorTab
 TabLineFill                    colorTab       colorTab
 TabLineSel                     colorSt        color15        reverse,bold
 
