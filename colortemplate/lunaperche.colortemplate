@@ -305,6 +305,9 @@ Added                          color10        none
 Changed                        color12        none
 Removed                        color09        none
 
+;; ftplugins
+htmlH1                         color15        none           bold
+
 Normal                   /8    color07        color00
 
 StatusLine               /8    color07        color00        reverse,bold

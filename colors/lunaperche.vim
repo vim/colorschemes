@@ -184,6 +184,7 @@ if &background == 'dark'
   hi WildMenu guifg=#000000 guibg=#ffd787 guisp=NONE gui=bold ctermfg=16 ctermbg=222 cterm=bold term=bold
   hi debugBreakpoint guifg=#5fafaf guibg=NONE guisp=NONE gui=reverse ctermfg=73 ctermbg=NONE cterm=reverse term=reverse
   hi debugPC guifg=#5f87af guibg=NONE guisp=NONE gui=reverse ctermfg=67 ctermbg=NONE cterm=reverse term=reverse
+  hi htmlH1 guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
 
   if s:tgc || s:t_Co >= 256
     if s:tgc
@@ -271,6 +272,7 @@ if &background == 'dark'
     hi WildMenu ctermfg=black ctermbg=yellow cterm=bold
     hi debugBreakpoint ctermfg=darkcyan ctermbg=NONE cterm=reverse
     hi debugPC ctermfg=darkblue ctermbg=NONE cterm=reverse
+    hi htmlH1 ctermfg=white ctermbg=NONE cterm=bold
     finish
   endif
 
@@ -350,6 +352,7 @@ if &background == 'dark'
     hi WildMenu ctermfg=black ctermbg=darkyellow cterm=bold
     hi debugBreakpoint ctermfg=darkcyan ctermbg=NONE cterm=reverse
     hi debugPC ctermfg=darkblue ctermbg=NONE cterm=reverse
+    hi htmlH1 ctermfg=white ctermbg=NONE cterm=bold
     finish
   endif
 
