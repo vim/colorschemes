@@ -1,7 +1,7 @@
 ; vim: cc=32,47,62 vsts=31,15,15,4
 Full name:   Wild Charm
 Short name:  wildcharm
-Description: Vibrant and playful, at least one popular AI thinks it is.
+Description: Vibrant and playful.
 Author:      Maxim Kim <habamax@gmail.com>
 URL:         https://github.com/vim/colorschemes
 License:     Same as Vim
@@ -212,8 +212,7 @@ SpellRare                      color13        none           underline
 
 ;;; :h group-names
 Comment                        color08        none
-Constant                       color09        none
-String                         color10        none
+Constant                       color10        none
 Identifier                     color13        none
 
 Statement                      color12        none
@@ -312,8 +311,7 @@ SpellLocal               /8    color02        color00        reverse
 SpellRare                /8    color05        none           reverse
 
 Comment                  /8    none           none           bold
-Constant                 /8    color01        none
-String                   /8    color02        none
+Constant                 /8    color02        none
 Identifier               /8    color05        none
 
 Statement                /8    color04        none
@@ -518,8 +516,7 @@ SpellRare                      color13        none           underline
 
 ;;; :h group-names
 Comment                        colorCm        none
-Constant                       color01        none
-String                         color02        none
+Constant                       color02        none
 Identifier                     color05        none
 
 Statement                      color04        none
@@ -620,8 +617,7 @@ SpellLocal               /8    color02        color00        reverse
 SpellRare                /8    color05        color00        reverse
 
 Comment                  /8    none           none           bold
-Constant                 /8    color01        none
-String                   /8    color02        none
+Constant                 /8    color02        none
 Identifier               /8    color05        none
 
 Statement                /8    color04        none
