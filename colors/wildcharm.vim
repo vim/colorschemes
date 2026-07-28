@@ -100,7 +100,7 @@ if &background == 'dark'
   hi TitleBar guifg=#ffffff guibg=#3c3c3c guisp=NONE gui=NONE ctermfg=231 ctermbg=237 cterm=NONE term=NONE
   hi TitleBarNC guifg=#767676 guibg=#2c2c2c guisp=NONE gui=NONE ctermfg=243 ctermbg=236 cterm=NONE term=NONE
   hi Todo guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold,reverse
-  hi ToolbarButton guifg=#000000 guibg=#d0d0d0 guisp=NONE gui=NONE ctermfg=16 ctermbg=252 cterm=NONE term=bold,reverse
+  hi ToolbarButton guifg=#000000 guibg=#00afaf guisp=NONE gui=NONE ctermfg=16 ctermbg=37 cterm=NONE term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#ffaf00 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
@@ -194,7 +194,7 @@ if &background == 'dark'
     hi TitleBar ctermfg=white ctermbg=black cterm=NONE
     hi TitleBarNC ctermfg=darkgrey ctermbg=black cterm=NONE
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
-    hi ToolbarButton ctermfg=black ctermbg=grey cterm=NONE
+    hi ToolbarButton ctermfg=black ctermbg=darkcyan cterm=NONE
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=yellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
@@ -275,7 +275,7 @@ if &background == 'dark'
     hi TitleBar ctermfg=white ctermbg=black cterm=NONE
     hi TitleBarNC ctermfg=darkgrey ctermbg=black cterm=NONE
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
-    hi ToolbarButton ctermfg=grey ctermbg=black cterm=bold,reverse
+    hi ToolbarButton ctermfg=darkcyan ctermbg=black cterm=bold,reverse
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=darkyellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
@@ -376,7 +376,7 @@ if &background == 'light'
   hi TitleBar guifg=#000000 guibg=#ececec guisp=NONE gui=NONE ctermfg=16 ctermbg=255 cterm=NONE term=NONE
   hi TitleBarNC guifg=#808080 guibg=#f5f5f5 guisp=NONE gui=NONE ctermfg=240 ctermbg=255 cterm=NONE term=NONE
   hi Todo guifg=NONE guibg=NONE guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold term=bold,reverse
-  hi ToolbarButton guifg=#ffffff guibg=#5f5f5f guisp=NONE gui=NONE ctermfg=231 ctermbg=59 cterm=NONE term=bold,reverse
+  hi ToolbarButton guifg=#ffffff guibg=#008787 guisp=NONE gui=NONE ctermfg=231 ctermbg=30 cterm=NONE term=bold,reverse
   hi ToolbarLine guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE term=reverse
   hi Type guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE term=NONE
   hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
@@ -470,7 +470,7 @@ if &background == 'light'
     hi TitleBar ctermfg=black ctermbg=white cterm=NONE
     hi TitleBarNC ctermfg=darkgrey ctermbg=white cterm=NONE
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
-    hi ToolbarButton ctermfg=white ctermbg=darkgrey cterm=NONE
+    hi ToolbarButton ctermfg=white ctermbg=darkcyan cterm=NONE
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=darkyellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
@@ -551,7 +551,7 @@ if &background == 'light'
     hi TitleBar ctermfg=black ctermbg=white cterm=NONE
     hi TitleBarNC ctermfg=darkgrey ctermbg=white cterm=NONE
     hi Todo ctermfg=NONE ctermbg=NONE cterm=bold
-    hi ToolbarButton ctermfg=grey ctermbg=black cterm=bold
+    hi ToolbarButton ctermfg=darkcyan ctermbg=black cterm=bold
     hi ToolbarLine ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Type ctermfg=darkyellow ctermbg=NONE cterm=NONE
     hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline

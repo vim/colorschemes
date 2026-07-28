@@ -104,7 +104,7 @@ TabLineFill                    color00        color08
 TabLineSel                     color00        colorSt        bold
 
 ToolbarLine                    none           none
-ToolbarButton                  color00        color07
+ToolbarButton                  color00        color06
 
 QuickFixLine                   color07        colorQF
  /gui                          none           colorQF
@@ -257,7 +257,7 @@ TabLineFill              /8    color07        color07
 TabLineSel               /8    color07        color00        reverse,bold
 
 ToolbarLine              /8    none           none
-ToolbarButton            /8    color07        color00        reverse,bold
+ToolbarButton            /8    color06        color00        reverse,bold
 
 QuickFixLine             /8    color00        color05
 CursorLineNr             /8    color00        none           bold
@@ -409,7 +409,7 @@ TabLineFill                    colorTab       colorTab
 TabLineSel                     colorSt        color15        reverse,bold
 
 ToolbarLine                    none           none
-ToolbarButton                  color15        colorSt
+ToolbarButton                  color15        color06
 
 QuickFixLine                   color00        colorQF
  /gui                          none           colorQF
@@ -562,7 +562,7 @@ TabLineFill              /8    color00        color00
 TabLineSel               /8    color00        color07        reverse,bold
 
 ToolbarLine              /8    none           none
-ToolbarButton            /8    color07        color00        bold
+ToolbarButton            /8    color06        color00        bold
 
 QuickFixLine             /8    color00        color05
 CursorLineNr             /8    color00        none           bold
