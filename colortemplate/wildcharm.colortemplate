@@ -370,7 +370,7 @@ Color: color14                 #00afaf        37             cyan
 Color: color07                 #8a8a8a        245            grey
 Color: color15                 #ffffff        231            white
 
-Color: color16                 #5f00d7        56             blue
+Color: color16                 #8700ff        93             blue
 Color: colorCm                 #8a8a8a        245            darkgrey
 
 Color: colorLine               #EEEEEE        255            grey
