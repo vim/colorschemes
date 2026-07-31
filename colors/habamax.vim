@@ -74,7 +74,6 @@ hi! link yamlBlockMappingKey Statement
 hi Normal guifg=#c7c7c7 guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=251 ctermbg=234 cterm=NONE term=NONE
 hi Added guifg=#5fd75f guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE term=NONE
 hi Changed guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
-hi Character guifg=#87d787 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
 hi ColorColumn guifg=NONE guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE term=reverse
 hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE term=bold
 hi Conceal guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
@@ -173,7 +172,6 @@ if s:t_Co >= 16
   hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
-  hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=darkgrey ctermbg=NONE cterm=NONE
@@ -259,7 +257,6 @@ if s:t_Co >= 8
   hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
-  hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE

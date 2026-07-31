@@ -290,19 +290,13 @@ SpellRare               color13        none           underline
 Comment                 color08        none
  /16/8                  none           none           bold
 Constant                color02        none
-Character               color10        none
- /16/8                  color02        none
 Identifier              color14        none
  /16/8                  color06        none
 
 Statement               color05        none
- /8                     color05        none
 PreProc                 color03        none
- /8                     color03        none
 Type                    color04        none
- /8                     color04        none
 Special                 color06        none
- /8                     color06        none
 
 Underlined              none           none           underline
 Title                   none           none           bold
