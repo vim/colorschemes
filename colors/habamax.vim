@@ -74,11 +74,10 @@ hi! link yamlBlockMappingKey Statement
 hi Normal guifg=#c7c7c7 guibg=#1c1c1c guisp=NONE gui=NONE ctermfg=251 ctermbg=234 cterm=NONE term=NONE
 hi Added guifg=#5fd75f guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE term=NONE
 hi Changed guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
-hi Character guifg=#87d787 guibg=NONE guisp=NONE gui=NONE ctermfg=114 ctermbg=NONE cterm=NONE term=NONE
 hi ColorColumn guifg=NONE guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE term=reverse
 hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE term=bold
 hi Conceal guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
-hi Constant guifg=#d75f87 guibg=NONE guisp=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE term=NONE
+hi Constant guifg=#5faf5f guibg=NONE guisp=NONE gui=NONE ctermfg=71 ctermbg=NONE cterm=NONE term=NONE
 hi Cursor guifg=#000000 guibg=#dadada guisp=NONE gui=NONE ctermfg=16 ctermbg=253 cterm=NONE term=reverse
 hi CursorColumn guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=NONE
 hi CursorLine guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=underline
@@ -132,7 +131,6 @@ hi SpellRare guifg=NONE guibg=NONE guisp=#d787d7 gui=undercurl ctermfg=176 cterm
 hi Statement guifg=#af87af guibg=NONE guisp=NONE gui=NONE ctermfg=139 ctermbg=NONE cterm=NONE term=NONE
 hi StatusLine guifg=#1c1c1c guibg=#9e9e9e guisp=NONE gui=NONE ctermfg=234 ctermbg=247 cterm=NONE term=bold,reverse
 hi StatusLineNC guifg=#1c1c1c guibg=#767676 guisp=NONE gui=NONE ctermfg=234 ctermbg=243 cterm=NONE term=bold,underline
-hi String guifg=#5faf5f guibg=NONE guisp=NONE gui=NONE ctermfg=71 ctermbg=NONE cterm=NONE term=NONE
 hi TabLine guifg=#1c1c1c guibg=#767676 guisp=NONE gui=NONE ctermfg=234 ctermbg=243 cterm=NONE term=bold,underline
 hi TabLineFill guifg=#1c1c1c guibg=#767676 guisp=NONE gui=NONE ctermfg=234 ctermbg=243 cterm=NONE term=NONE
 hi TabLineSel guifg=#1c1c1c guibg=#9e9e9e guisp=NONE gui=bold ctermfg=234 ctermbg=247 cterm=bold term=bold,reverse
@@ -174,11 +172,10 @@ if s:t_Co >= 16
   hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
-  hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=darkgrey ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=black ctermbg=white cterm=NONE
   hi CursorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
@@ -232,7 +229,6 @@ if s:t_Co >= 16
   hi Statement ctermfg=darkmagenta ctermbg=NONE cterm=NONE
   hi StatusLine ctermfg=black ctermbg=gray cterm=NONE
   hi StatusLineNC ctermfg=black ctermbg=darkgray cterm=NONE
-  hi String ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi TabLine ctermfg=black ctermbg=darkgray cterm=NONE
   hi TabLineFill ctermfg=black ctermbg=darkgray cterm=NONE
   hi TabLineSel ctermfg=black ctermbg=gray cterm=bold
@@ -261,11 +257,10 @@ if s:t_Co >= 8
   hi Normal ctermfg=gray ctermbg=black cterm=NONE
   hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Changed ctermfg=darkyellow ctermbg=NONE cterm=NONE
-  hi Character ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=black ctermbg=white cterm=NONE
   hi CursorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
@@ -319,7 +314,6 @@ if s:t_Co >= 8
   hi Statement ctermfg=darkmagenta ctermbg=NONE cterm=NONE
   hi StatusLine ctermfg=gray ctermbg=black cterm=bold,reverse
   hi StatusLineNC ctermfg=black ctermbg=gray cterm=NONE
-  hi String ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi TabLine ctermfg=black ctermbg=gray cterm=NONE
   hi TabLineFill ctermfg=gray ctermbg=gray cterm=NONE
   hi TabLineSel ctermfg=black ctermbg=gray cterm=bold
