@@ -20,12 +20,9 @@ let g:terminal_ansi_colors = ['#1c1c1c', '#af5f5f', '#5faf5f', '#af875f', '#5f87
 hi! link CurSearch IncSearch
 hi! link CursorLineFold FoldColumn
 hi! link CursorLineSign FoldColumn
-hi! link Float Number
-hi! link Function Identifier
 hi! link LineNrAbove LineNr
 hi! link LineNrBelow LineNr
 hi! link MessageWindow Pmenu
-hi! link Number Constant
 hi! link PopupNotification Normal
 hi! link PopupSelected PmenuSel
 hi! link PreInsert NonText
@@ -108,8 +105,8 @@ hi PmenuExtra guifg=#767676 guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=243 ctermb
 hi PmenuExtraSel guifg=#9e9e9e guibg=#585858 guisp=NONE gui=NONE ctermfg=247 ctermbg=240 cterm=NONE term=NONE
 hi PmenuKind guifg=#5f8787 guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=66 ctermbg=237 cterm=NONE term=reverse
 hi PmenuKindSel guifg=#5f8787 guibg=#585858 guisp=NONE gui=NONE ctermfg=66 ctermbg=240 cterm=NONE term=NONE
-hi PmenuMatch guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
-hi PmenuMatchSel guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE term=NONE
+hi PmenuMatch guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold
+hi PmenuMatchSel guifg=#dadada guibg=NONE guisp=NONE gui=bold ctermfg=253 ctermbg=NONE cterm=bold term=bold
 hi PmenuSbar guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=reverse
 hi PmenuSel guifg=NONE guibg=#585858 guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=bold
 hi PmenuShadow guifg=#767676 guibg=#121212 guisp=NONE gui=NONE ctermfg=243 ctermbg=233 cterm=NONE term=NONE
@@ -348,9 +345,6 @@ if s:t_Co >= 0
   hi CurSearch term=reverse
   hi CursorLineFold term=underline
   hi CursorLineSign term=underline
-  hi Float term=NONE
-  hi Function term=NONE
-  hi Number term=NONE
   hi StatusLineTerm term=bold,reverse
   hi StatusLineTermNC term=bold,underline
   hi Terminal term=NONE

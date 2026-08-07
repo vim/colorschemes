@@ -41,7 +41,6 @@ Color: colorLine        #303030        236            darkgrey
 Color: colorB           #3a3a3a        237            darkgrey
 Color: colorF           #262626        235            darkgrey
 Color: colorNonT        #585858        240            darkgrey
-Color: colorC           #ffaf5f        215            red
 Color: colorlC          #5fff00        82             green
 Color: colorV           #1a3456        24             cyan
 Color: colorSrch        #374a44        114            green
@@ -73,9 +72,6 @@ Term colors: color00 color01 color02 color03 color04 color05 color06 color07
 
 
 ;;; links
-Float                                  -> Number
-Function                               -> Identifier
-Number                                 -> Constant
 Terminal                               -> Normal
 StatusLineTerm                         -> StatusLine
 StatusLineTermNC                       -> StatusLineNC
@@ -210,10 +206,10 @@ PmenuExtra              color08        colorB
 PmenuExtraSel           color07        colorNonT
  /16                    color07        color00
  /8                     none           none
-PmenuMatch              colorC         none
+PmenuMatch              white          none           bold
  /16                    color00        color07        bold
  /8                     none           none           bold
-PmenuMatchSel           colorC         none
+PmenuMatchSel           white          none           bold
  /16                    color07        color00        bold
  /8                     color00        none           bold
 
