@@ -12,9 +12,6 @@ Environments: gui 256 16 8 0
 Background: any
 
 ; default links
-Float                          -> Number
-Function                       -> Identifier
-Number                         -> Constant
 Terminal                       -> Normal
 StatusLineTerm                 -> Statusline
 StatusLineTermNC               -> StatuslineNC
@@ -364,13 +361,13 @@ Color: color12                 #0087d7        32             blue
 Color: color05                 #870087        90             darkmagenta
 Color: color13                 #af00af        127            magenta
 
-Color: color06                 #008787        30             darkcyan
+Color: color06                 #008f9f        30             darkcyan
 Color: color14                 #00afaf        37             cyan
 
 Color: color07                 #8a8a8a        245            grey
 Color: color15                 #ffffff        231            white
 
-Color: color16                 #8700ff        93             blue
+Color: color16                 #8700ef        93             blue
 Color: colorCm                 #8a8a8a        245            darkgrey
 
 Color: colorLine               #EEEEEE        255            grey
