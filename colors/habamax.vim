@@ -75,7 +75,7 @@ hi Character guifg=#5faf5f guibg=NONE guisp=NONE gui=NONE ctermfg=71 ctermbg=NON
 hi ColorColumn guifg=NONE guibg=#3a3a3a guisp=NONE gui=NONE ctermfg=NONE ctermbg=237 cterm=NONE term=reverse
 hi Comment guifg=#767676 guibg=NONE guisp=NONE gui=NONE ctermfg=243 ctermbg=NONE cterm=NONE term=bold
 hi Conceal guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
-hi Constant guifg=#d75f87 guibg=NONE guisp=NONE gui=NONE ctermfg=168 ctermbg=NONE cterm=NONE term=NONE
+hi Constant guifg=#d7af87 guibg=NONE guisp=NONE gui=NONE ctermfg=180 ctermbg=NONE cterm=NONE term=NONE
 hi Cursor guifg=#000000 guibg=#dadada guisp=NONE gui=NONE ctermfg=16 ctermbg=253 cterm=NONE term=reverse
 hi CursorColumn guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=NONE
 hi CursorLine guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=underline
@@ -175,7 +175,7 @@ if s:t_Co >= 16
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=darkgrey ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=yellow ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=black ctermbg=white cterm=NONE
   hi CursorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
@@ -262,7 +262,7 @@ if s:t_Co >= 8
   hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi Comment ctermfg=NONE ctermbg=NONE cterm=bold
   hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi Constant ctermfg=darkred ctermbg=NONE cterm=NONE
+  hi Constant ctermfg=darkgreen ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=black ctermbg=white cterm=NONE
   hi CursorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
