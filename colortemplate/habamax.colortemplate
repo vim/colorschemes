@@ -292,6 +292,7 @@ Comment                 color08        none
 Constant                color09        none
  /16/8                  color01        none
 String                  color02        none
+Character               color02        none
 Identifier              color14        none
  /16/8                  color06        none
 
