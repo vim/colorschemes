@@ -14,14 +14,6 @@ Background: any
 helpVim                        -> Title
 helpHeader                     -> Title
 helpHyperTextJump              -> Underlined
-fugitiveSymbolicRef            -> PreProc
-fugitiveHeading                -> Statement
-fugitiveStagedHeading          -> Statement
-fugitiveUnstagedHeading        -> Statement
-fugitiveUntrackedHeading       -> Statement
-fugitiveStagedModifier         -> PreProc
-fugitiveUnstagedModifier       -> PreProc
-fugitiveHash                   -> Constant
 diffFile                       -> PreProc
 rstSectionDelimiter            -> Statement
 rstDirective                   -> PreProc
@@ -38,7 +30,6 @@ markdownId                     -> String
 markdownListMarker             -> PreProc
 markdownUrl                    -> Underlined
 markdownLinkText               -> String
-colortemplateKey               -> Statement
 xmlTagName                     -> Statement
 javaScriptFunction             -> Statement
 javaScriptIdentifier           -> Statement
@@ -46,13 +37,6 @@ sqlKeyword                     -> Statement
 yamlBlockMappingKey            -> Statement
 rubyMacro                      -> Statement
 rubyDefine                     -> Statement
-vimGroup                       -> Normal
-vimVar                         -> Normal
-vimOper                        -> Normal
-vimSep                         -> Normal
-vimParenSep                    -> Normal
-vimOption                      -> Normal
-vimCommentString               -> Comment
 pythonInclude                  -> Statement
 shQuote                        -> Constant
 shNoQuote                      -> Normal
@@ -271,8 +255,9 @@ SpellRare                      color13        none           underline
 
 ;;; :h group-names
 Comment                        color12        none
-Constant                       color13        none
+Constant                       color05        none
 String                         color11        none
+Character                      color11        none
 Identifier                     none           none
 
 Statement                      colorDimWhite  none           bold
@@ -564,6 +549,7 @@ SpellRare                      color13        none           underline
 Comment                        color04        none
 Constant                       color05        none
 String                         color03        none
+Character                      color03        none
 Identifier                     none           none
 
 Statement                      color00        none           bold

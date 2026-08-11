@@ -28,7 +28,6 @@ hi! link StatusLineTermNC StatuslineNC
 hi! link TabPanel Normal
 hi! link TabPanelFill Normal
 hi! link Terminal Normal
-hi! link colortemplateKey Statement
 hi! link csAccessModifier Statement
 hi! link csAsyncModifier Statement
 hi! link csClass Statement
@@ -38,14 +37,6 @@ hi! link csModifier Statement
 hi! link csStorage Statement
 hi! link csType Statement
 hi! link diffFile PreProc
-hi! link fugitiveHash Constant
-hi! link fugitiveHeading Statement
-hi! link fugitiveStagedHeading Statement
-hi! link fugitiveStagedModifier PreProc
-hi! link fugitiveSymbolicRef PreProc
-hi! link fugitiveUnstagedHeading Statement
-hi! link fugitiveUnstagedModifier PreProc
-hi! link fugitiveUntrackedHeading Statement
 hi! link helpHeader Title
 hi! link helpHyperTextJump Underlined
 hi! link helpVim Title
@@ -96,13 +87,6 @@ hi! link shQuote Constant
 hi! link shSetOption Normal
 hi! link shTestOpr Normal
 hi! link sqlKeyword Statement
-hi! link vimCommentString Comment
-hi! link vimGroup Normal
-hi! link vimOper Normal
-hi! link vimOption Normal
-hi! link vimParenSep Normal
-hi! link vimSep Normal
-hi! link vimVar Normal
 hi! link xmlTagName Statement
 hi! link yamlBlockMappingKey Statement
 
@@ -112,10 +96,11 @@ if &background == 'dark'
   hi Normal guifg=#c6c6c6 guibg=#000000 guisp=NONE gui=NONE ctermfg=251 ctermbg=16 cterm=NONE term=NONE
   hi Added guifg=#5fd75f guibg=NONE guisp=NONE gui=NONE ctermfg=77 ctermbg=NONE cterm=NONE term=NONE
   hi Changed guifg=#5fafff guibg=NONE guisp=NONE gui=NONE ctermfg=75 ctermbg=NONE cterm=NONE term=NONE
+  hi Character guifg=#ffd787 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE term=NONE
   hi ColorColumn guifg=NONE guibg=#303030 guisp=NONE gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE term=reverse
   hi Comment guifg=#5fafff guibg=NONE guisp=NONE gui=NONE ctermfg=75 ctermbg=NONE cterm=NONE term=bold
   hi Conceal guifg=#585858 guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
-  hi Constant guifg=#ff87ff guibg=NONE guisp=NONE gui=NONE ctermfg=213 ctermbg=NONE cterm=NONE term=NONE
+  hi Constant guifg=#d787d7 guibg=NONE guisp=NONE gui=NONE ctermfg=176 ctermbg=NONE cterm=NONE term=NONE
   hi CursorColumn guifg=NONE guibg=#262626 guisp=NONE gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE term=NONE
   hi CursorLine guifg=NONE guibg=#262626 guisp=NONE gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE term=underline
   hi CursorLineNr guifg=#ffffff guibg=NONE guisp=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold term=bold
@@ -200,10 +185,11 @@ if &background == 'dark'
     hi Normal ctermfg=grey ctermbg=black cterm=NONE
     hi Added ctermfg=green ctermbg=NONE cterm=NONE
     hi Changed ctermfg=blue ctermbg=NONE cterm=NONE
+    hi Character ctermfg=yellow ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
     hi Comment ctermfg=blue ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=grey ctermbg=NONE cterm=NONE
-    hi Constant ctermfg=magenta ctermbg=NONE cterm=NONE
+    hi Constant ctermfg=darkmagenta ctermbg=NONE cterm=NONE
     hi CursorColumn ctermfg=black ctermbg=yellow cterm=NONE
     hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline
     hi CursorLineNr ctermfg=white ctermbg=NONE cterm=bold
@@ -280,6 +266,7 @@ if &background == 'dark'
     hi Normal ctermfg=grey ctermbg=black cterm=NONE
     hi Added ctermfg=green ctermbg=NONE cterm=NONE
     hi Changed ctermfg=blue ctermbg=NONE cterm=NONE
+    hi Character ctermfg=yellow ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
     hi Comment ctermfg=darkblue ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
@@ -379,6 +366,7 @@ if &background == 'light'
   hi Normal guifg=#000000 guibg=#ffffff guisp=NONE gui=NONE ctermfg=16 ctermbg=231 cterm=NONE term=NONE
   hi Added guifg=#008700 guibg=NONE guisp=NONE gui=NONE ctermfg=28 ctermbg=NONE cterm=NONE term=NONE
   hi Changed guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE term=NONE
+  hi Character guifg=#af5f00 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE term=NONE
   hi ColorColumn guifg=NONE guibg=#e4e4e4 guisp=NONE gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE term=reverse
   hi Comment guifg=#005fd7 guibg=NONE guisp=NONE gui=NONE ctermfg=26 ctermbg=NONE cterm=NONE term=bold
   hi Conceal guifg=#9e9e9e guibg=NONE guisp=NONE gui=NONE ctermfg=247 ctermbg=NONE cterm=NONE term=NONE
@@ -466,6 +454,7 @@ if &background == 'light'
     hi Normal ctermfg=black ctermbg=white cterm=NONE
     hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
     hi Changed ctermfg=darkblue ctermbg=NONE cterm=NONE
+    hi Character ctermfg=darkyellow ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
     hi Comment ctermfg=darkblue ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=darkgrey ctermbg=NONE cterm=NONE
@@ -545,6 +534,7 @@ if &background == 'light'
     hi Normal ctermfg=black ctermbg=grey cterm=NONE
     hi Added ctermfg=darkgreen ctermbg=NONE cterm=NONE
     hi Changed ctermfg=darkblue ctermbg=NONE cterm=NONE
+    hi Character ctermfg=darkyellow ctermbg=NONE cterm=NONE
     hi ColorColumn ctermfg=black ctermbg=darkyellow cterm=NONE
     hi Comment ctermfg=darkblue ctermbg=NONE cterm=NONE
     hi Conceal ctermfg=NONE ctermbg=NONE cterm=NONE
