@@ -283,7 +283,7 @@ Special                        color06        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
-Directory                      color12        none           bold
+Directory                      color15        none           bold
 
 Conceal                        colorNonT      none
 Ignore                         none           none
@@ -386,7 +386,7 @@ Special                  /8    color06        none
 Underlined               /8    none           none           underline
 
 Title                    /8    none           none           bold
-Directory                /8    color04        none           bold
+Directory                /8    none           none           bold
 
 Conceal                  /8    none           none
 Ignore                   /8    none           none
@@ -574,7 +574,7 @@ Special                        color14        none
 Underlined                     none           none           underline
 
 Title                          none           none           bold
-Directory                      color04        none           bold
+Directory                      none           none           bold
 
 Conceal                        colorNonT      none
 Ignore                         none           none
@@ -592,21 +592,6 @@ DiffDelete                     color08        diffDelete
 Added                          color02        none
 Changed                        color04        none
 Removed                        color09        none
-
-; other ftplugins
-dirType                        color06        none
-dirPermissionUser              color03        none
-dirPermissionGroup             color02        none
-dirPermissionOther             color05        none
-dirOwner                       color07        none
-dirGroup                       color07        none
-dirTime                        color07        none
-dirSize                        color01        none
-dirSizeMod                     color06        none
-dirLink                        color02        none           bold
-dirFilterMenuBookmarkPath      colorDim       none
-dirFilterMenuHistoryPath       colorDim       none
-
 
 Normal                   /8    color00        color07
 
@@ -686,7 +671,7 @@ Special                  /8    color06        none
 Underlined               /8    none           none           underline
 
 Title                    /8    color00        none           bold
-Directory                /8    color04        none           bold
+Directory                /8    none           none           bold
 
 Conceal                  /8    none           none
 Ignore                   /8    none           none
