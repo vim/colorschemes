@@ -27,6 +27,7 @@ markdownHeadingRule            -> Type
 markdownHeadingDelimiter       -> Type
 markdownCodeDelimiter          -> Special
 markdownId                     -> String
+markdownIdDeclaration          -> Constant
 markdownListMarker             -> PreProc
 markdownUrl                    -> Underlined
 markdownLinkText               -> String
