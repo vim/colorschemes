@@ -104,7 +104,7 @@ Quote                                  -> String
 markdownHeadingRule                    -> Type
 markdownHeadingDelimiter               -> Type
 markdownCodeDelimiter                  -> Special
-markdownId                             -> String
+markdownId                             -> Constant
 markdownIdDeclaration                  -> Constant
 markdownListMarker                     -> PreProc
 markdownUrl                            -> Underlined
