@@ -10,9 +10,6 @@ Options:     backend=vim
 Background: dark
 
 ;;; Color palette
-Color: colorFg          #c7c7c7        251            white
-Color: colorBg          #1c1c1c        234            black
-
 Color: color00          #1c1c1c        234            black
 Color: color08          #767676        243            darkgray
 
@@ -34,9 +31,10 @@ Color: color13          #d787d7        176            magenta
 Color: color06          #5f8787        66             darkcyan
 Color: color14          #87afaf        109            cyan
 
-Color: color07          #9e9e9e        247            gray
-Color: color15          #c7c7c7        251            white
+Color: color07          #c7c7c7        251            gray
+Color: color15          #eeeeee        255            white
 
+Color: colorSt          #9e9e9e        247            gray
 Color: colorLine        #303030        236            darkgrey
 Color: colorB           #3a3a3a        237            darkgrey
 Color: colorF           #262626        235            darkgrey
@@ -59,8 +57,6 @@ Color: colorTitleNC     #2c2c2c        236            black
 
 Color: colorShadow      #121212        233            black
 
-Color: black            #000000        16             black
-Color: white            #dadada        253            white
 Color: Added            #5fd75f        77             darkgreen
 Color: Changed          #ffaf5f        215            darkyellow
 Color: Removed          #d75f5f        167            darkred
@@ -127,171 +123,168 @@ typstMarkupHeading                     -> htmlH1
 lspDiagVirtualTextError                -> Removed
 
 
-;;; chrome
-Normal                  color15        color00
- /16/8                  color07        color00
+Normal                  color07        color00
 
-StatusLine              color00        color07
- /8                     color07        color00        reverse,bold
+StatusLine              color00        colorSt
+/8                      color07        color00        reverse,bold
 StatusLineNC            color00        color08
- /8                     color00        color07
-VertSplit               color07        color07
+/8                      color00        color07
+VertSplit               colorSt        colorSt
 VertSplitNC             color08        color08
- /8                     color07        color07
+/8                      color07        color07
 
 TabLine                 color00        color08
- /8                     color00        color07
+/8                      color00        color07
 TabLineFill             color00        color08
- /8                     color07        color07
-TabLineSel              color00        color07        bold
- /8                     color00        color07        bold
+/8                      color07        color07
+TabLineSel              color00        colorSt        bold
+/8                      color00        color07        bold
 
 ToolbarLine             none           none
 ToolbarButton           color06        color00        reverse,bold
- /16/8                  none           none           reverse
+/16/8                   none           none           reverse
 QuickFixLine            color15        colorQF
- /gui                   none           colorQF
- /256+tgc true          omit           omit
- /16/8                  color00        colorQF
+/gui                    none           colorQF
+/256+tgc true           omit           omit
+/16/8                   color00        colorQF
 
-CursorLineNr            white          none           bold
- /16/8                  none           none           bold
+CursorLineNr            color15        none           bold
+/16/8                   none           none           bold
 LineNr                  colorNonT      none
- /16/8                  none           none
+/16/8                   none           none
 NonText                 colorNonT      none
- /8                     none           none
+/8                      none           none
 EndOfBuffer             colorNonT      none
- /8                     none           none
+/8                      none           none
 SpecialKey              colorNonT      none
- /8                     none           none
+/8                      none           none
 FoldColumn              colorNonT      none
- /8                     none           none
+/8                      none           none
 
 Visual                  color14        color00        reverse
- /gui                   none           colorV
- /256+tgc true          omit           omit
- /8                     color06        color00        reverse
+/gui                    none           colorV
+/256+tgc true           omit           omit
+/8                      color06        color00        reverse
 VisualNOS               color00        color06
- /8                     none           none           reverse
+/8                      none           none           reverse
 
 Popup                   none           colorB
- /16/8                  none           none           reverse
+/16/8                   none           none           reverse
 PopupBorder             color08        colorB
- /16/8                  none           none           reverse
-PopupTitle              color07        colorB         bold
- /16/8                  none           none           bold,reverse
+/16/8                   none           none           reverse
+PopupTitle              colorSt        colorB         bold
+/16/8                   none           none           bold,reverse
 
 Pmenu                   none           colorB
- /16                    color00        color07
- /8                     none           none           reverse
+/16                     color00        color07
+/8                      none           none           reverse
 PmenuBorder             color08        colorB
- /16                    color00        color07
- /8                     none           none           reverse
+/16                     color00        color07
+/8                      none           none           reverse
 PmenuShadow             color08        colorShadow
- /16/8                  none           none
+/16/8                   none           none
 PmenuThumb              none           color08
- /16/8                  none           none
+/16/8                   none           none
 PmenuSbar               none           colorNonT
- /16/8                  none           none           reverse
+/16/8                   none           none           reverse
 PmenuSel                none           colorNonT
- /16                    color07        color00
- /8                     color00        none
+/16                     color07        color00
+/8                      color00        none
 PmenuKind               color06        colorB
- /16                    color07        color00
- /8                     none           none           reverse
+/16                     color07        color00
+/8                      none           none           reverse
 PmenuKindSel            color06        colorNonT
- /16/8                  none           none
+/16/8                   none           none
 PmenuExtra              color08        colorB
- /16                    color00        color07
- /8                     none           none           reverse
-PmenuExtraSel           color07        colorNonT
- /16                    color07        color00
- /8                     none           none
-PmenuMatch              white          none           bold
- /16                    color00        color07        bold
- /8                     none           none           bold
-PmenuMatchSel           white          none           bold
- /16                    color07        color00        bold
- /8                     color00        none           bold
+/16                     color00        color07
+/8                      none           none           reverse
+PmenuExtraSel           colorSt        colorNonT
+/16                     color07        color00
+/8                      none           none
+PmenuMatch              color15        none           bold
+/16                     color00        color07        bold
+/8                      none           none           bold
+PmenuMatchSel           color15        none           bold
+/16                     color07        color00        bold
+/8                      color00        none           bold
 
 SignColumn              none           none
- /8                     none           none
+/8                      none           none
 Error                   colorErr       color00        reverse
- /gui                   none           colorErr
- /256+tgc true          omit           omit
- /8                     colorErr       color00        reverse
+/gui                    none           colorErr
+/256+tgc true           omit           omit
+/8                      colorErr       color00        reverse
 ErrorMsg                color01        color00        reverse
- /8                     color01        color00        reverse
+/8                      color01        color00        reverse
 ModeMsg                 none           none           bold
 MoreMsg                 color02        none
- /8                     color02        none
+/8                      color02        none
 Question                color11        none
- /8                     color03        none
+/8                      color03        none
 WarningMsg              color09        none
- /8                     color01        none
+/8                      color01        none
 
-TitleBar                white          colorTitle
+TitleBar                color15        colorTitle
 TitleBarNC              color08        colorTitleNC
 
-Todo                    white          none           bold
- /8                     colorFg        none           bold
+Todo                    color15        none           bold
 MatchParen              colorMP        none           bold
- /8                     none           none           bold,underline
+/8                      none           none           bold,underline
 Search                  colorSrch      color00        reverse
- /gui                   none           colorSrch
- /256+tgc true          omit           omit
- /8                     color00        color02
+/gui                    none           colorSrch
+/256+tgc true           omit           omit
+/8                      color00        color02
 IncSearch               colorInc       color00        reverse
- /gui                   none           colorInc
- /256+tgc true          omit           omit
- /8                     color00        color03
+/gui                    none           colorInc
+/256+tgc true           omit           omit
+/8                      color00        color03
 WildMenu                color00        color11        bold
- /8                     color00        color03
+/8                      color00        color03
 
 debugPC                 color00        color04
- /8                     color04        none           reverse
+/8                      color04        none           reverse
 debugBreakpoint         color00        color09
- /8                     color06        none           reverse
+/8                      color06        none           reverse
 
-Cursor                  black          white
+Cursor                  color00        color15
 lCursor                 color00        colorlC
 
 CursorLine              none           colorLine
- /16/8                  none           none           underline
+/16/8                   none           none           underline
 CursorColumn            none           colorLine
- /16/8                  color00        color03
-Folded                  color07        colorF
- /16/8                  color07        none           underline
+/16/8                   color00        color03
+Folded                  colorSt        colorF
+/16/8                   color07        none           underline
 ColorColumn             none           colorB
- /16/8                  color00        color03
+/16/8                   color00        color03
 
 SpellBad                Removed        none           underline
- /gui                   none           none           s=Removed undercurl
- /256+tgc true          Removed        none           underline
- /8                     color01        none           reverse
+/gui                    none           none           s=Removed undercurl
+/256+tgc true           Removed        none           underline
+/8                      color01        none           reverse
 SpellCap                Changed        none           underline
- /gui                   none           none           s=Changed undercurl
- /256+tgc true          Changed        none           underline
- /8                     color03        none           reverse
+/gui                    none           none           s=Changed undercurl
+/256+tgc true           Changed        none           underline
+/8                      color03        none           reverse
 SpellLocal              Added          none           underline
- /gui                   none           none           s=Added undercurl
- /256+tgc true          Added          none           underline
- /8                     color02        none           reverse
+/gui                    none           none           s=Added   undercurl
+/256+tgc true           Added          none           underline
+/8                      color02        none           reverse
 SpellRare               color13        none           underline
- /gui                   none           none           s=color13 undercurl
- /256+tgc true          color13        none           underline
- /8                     color05        none           reverse
+/gui                    none           none           s=color13 undercurl
+/256+tgc true           color13        none           underline
+/8                      color05        none           reverse
 
 
 ;;; :h group-names
 Comment                 color08        none
- /16/8                  none           none           bold
+/16/8                   none           none           bold
 Constant                color11        none
- /8                     color02        none
+/8                      color02        none
 String                  color02        none
 Character               color02        none
 Identifier              color14        none
- /16/8                  color06        none
+/16/8                   color06        none
 
 Statement               color05        none
 PreProc                 color03        none
@@ -301,35 +294,35 @@ Special                 color06        none
 Underlined              none           none           underline
 Title                   none           none           bold
 Directory               color14        none           bold
- /8                     none           none           bold
+/8                      none           none           bold
 Conceal                 colorNonT      none
- /8                     none           none
+/8                      none           none
 Ignore                  none           none
 Debug                   color06        none
- /8                     color06        none           bold
+/8                      color06        none           bold
 
 DiffAdd                 none           diffAdd
- /256                   color07        diffAdd
- /16/8                  color02        color00        reverse
+/256                    colorSt        diffAdd
+/16/8                   color02        color00        reverse
 DiffChange              none           diffChange
- /256                   color07        diffChange
- /16/8                  color03        color00        reverse
+/256                    colorSt        diffChange
+/16/8                   color03        color00        reverse
 DiffText                none           diffText
- /256                   color07        diffText
- /16/8                  color04        color00        reverse
+/256                    colorSt        diffText
+/16/8                   color04        color00        reverse
 DiffDelete              color08        diffDelete
- /256                   color08        diffDelete
- /16/8                  color01        color00        reverse
+/256                    color08        diffDelete
+/16/8                   color01        color00        reverse
 
 Added                   Added          none
- /8                     color02        none
+/8                      color02        none
 Changed                 Changed        none
- /8                     color03        none
+/8                      color03        none
 Removed                 Removed        none
- /8                     color01        none
+/8                      color01        none
 
 ;; ftplugins
-htmlH1                  white          none           bold
+htmlH1                  color15        none           bold
 
 ; No color support
 Include: _tcozero
