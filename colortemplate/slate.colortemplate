@@ -131,12 +131,24 @@ PmenuSbar            none              background
 PmenuThumb           none              color11
  /8                  none              color03
  /16                 none              color11
-PmenuMatch           color16           Pmenu
+PmenuMatch           color16           none              bold
  /8                  color00           color06           bold
  /16                 color00           Pmenu             bold
-PmenuMatchSel        color16           color05
+PmenuMatchSel        none              color05           bold
  /8                  color00           color03           bold
  /16                 color00           color05           bold
+PmenuKind            color11           Pmenu
+ /8                  color00           color06
+ /16                 none              Pmenu
+PmenuKindSel         background        color05
+ /8                  color00           color03
+ /16                 color00           color05
+PmenuExtra           color13           Pmenu
+ /8                  color00           color06
+ /16                 none              Pmenu
+PmenuExtraSel        background        color05
+ /8                  color00           color03
+ /16                 color00           color05
 
 TabLineSel           color00           color13
  /16/8               color00           color03
