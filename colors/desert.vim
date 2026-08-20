@@ -140,10 +140,10 @@ if s:t_Co >= 16
   hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=bold
   hi NonText ctermfg=blue ctermbg=NONE cterm=NONE
   hi Pmenu ctermfg=NONE ctermbg=darkgrey cterm=NONE
-  hi PmenuExtra ctermfg=black ctermbg=grey cterm=NONE
-  hi PmenuExtraSel ctermfg=grey ctermbg=black cterm=NONE
-  hi PmenuKind ctermfg=grey ctermbg=black cterm=NONE
-  hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuExtra ctermfg=NONE ctermbg=darkgrey cterm=NONE
+  hi PmenuExtraSel ctermfg=black ctermbg=yellow cterm=NONE
+  hi PmenuKind ctermfg=NONE ctermbg=darkgrey cterm=NONE
+  hi PmenuKindSel ctermfg=black ctermbg=yellow cterm=NONE
   hi PmenuMatch ctermfg=NONE ctermbg=darkgrey cterm=bold
   hi PmenuMatchSel ctermfg=black ctermbg=yellow cterm=bold
   hi PmenuSbar ctermfg=NONE ctermbg=black cterm=NONE
@@ -214,10 +214,10 @@ if s:t_Co >= 8
   hi MoreMsg ctermfg=darkgreen ctermbg=NONE cterm=bold
   hi NonText ctermfg=darkblue ctermbg=NONE cterm=bold
   hi Pmenu ctermfg=black ctermbg=darkcyan cterm=NONE
-  hi PmenuExtra ctermfg=NONE ctermbg=NONE cterm=reverse
-  hi PmenuExtraSel ctermfg=NONE ctermbg=NONE cterm=NONE
-  hi PmenuKind ctermfg=NONE ctermbg=NONE cterm=reverse
-  hi PmenuKindSel ctermfg=NONE ctermbg=NONE cterm=NONE
+  hi PmenuExtra ctermfg=black ctermbg=darkcyan cterm=NONE
+  hi PmenuExtraSel ctermfg=black ctermbg=darkyellow cterm=NONE
+  hi PmenuKind ctermfg=black ctermbg=darkcyan cterm=NONE
+  hi PmenuKindSel ctermfg=black ctermbg=darkyellow cterm=NONE
   hi PmenuMatch ctermfg=black ctermbg=darkcyan cterm=bold
   hi PmenuMatchSel ctermfg=black ctermbg=darkyellow cterm=bold
   hi PmenuSbar ctermfg=NONE ctermbg=black cterm=NONE

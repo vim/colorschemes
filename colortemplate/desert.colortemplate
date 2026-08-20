@@ -109,16 +109,17 @@ PmenuMatchSel      none           color11        bold
  /16               background     color11        bold
  /8                color00        color03        bold
 PmenuKind          color11        color07
-/16                color07        color00
-/8                 none           none           reverse
+ /16               none           color08
+ /8                color00        color06
 PmenuKindSel       background     color11
-/16/8              none           none
+ /16               background     color11
+ /8                color00        color03
 PmenuExtra         color03        color07
-/16                color00        color07
-/8                 none           none           reverse
+ /16               none           color08
+ /8                color00        color06
 PmenuExtraSel      background     color11
-/16                color07        color00
-/8                 none           none
+ /16               background     color11
+ /8                color00        color03
 
 TabLine            background     color15
  /16               background     color07
