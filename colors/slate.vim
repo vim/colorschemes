@@ -194,7 +194,7 @@ endif
 if s:t_Co >= 8
   hi Normal ctermfg=grey ctermbg=black cterm=NONE
   hi ColorColumn ctermfg=grey ctermbg=darkred cterm=NONE
-  hi Comment ctermfg=darkgray ctermbg=NONE cterm=bold
+  hi Comment ctermfg=grey ctermbg=NONE cterm=bold
   hi Conceal ctermfg=grey ctermbg=NONE cterm=NONE
   hi Constant ctermfg=darkyellow ctermbg=NONE cterm=NONE
   hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=underline

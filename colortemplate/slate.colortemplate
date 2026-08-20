@@ -245,7 +245,7 @@ SpellRare            color06           none              s=none    underline
 
 ;;; :h group-names
 Comment              color07           none
- /8                  x_darkgray        none              bold
+ /8                  color07           none              bold
  /16                 x_darkgray        none
 String               color04           none
  /16/8               x_darkcyan        none
