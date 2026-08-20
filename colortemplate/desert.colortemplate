@@ -102,12 +102,23 @@ PmenuSbar          none           background
 PmenuThumb         none           color15
  /16               none           color15
  /8                none           color07
-PmenuMatch         color14        color07
+PmenuMatch         none           none           bold
  /16               none           color08        bold
  /8                color00        color06        bold
-PmenuMatchSel      color01        color11
+PmenuMatchSel      none           color11        bold
  /16               background     color11        bold
  /8                color00        color03        bold
+PmenuKind          color11        color07
+/16                color07        color00
+/8                 none           none           reverse
+PmenuKindSel       background     color11
+/16/8              none           none
+PmenuExtra         color03        color07
+/16                color00        color07
+/8                 none           none           reverse
+PmenuExtraSel      background     color11
+/16                color07        color00
+/8                 none           none
 
 TabLine            background     color15
  /16               background     color07
@@ -141,7 +152,7 @@ Visual             color11        color16
 VisualNOS          color11        color12
  /16               none           none           underline
  /8                none           none           underline
-LineNr             color05        none
+LineNr             color07        none
  /16               color03        none
  /8                color03        none
 FoldColumn         color05        color17
