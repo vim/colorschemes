@@ -42,7 +42,6 @@ StatusLineTermNC                       -> StatusLineNC
 MessageWindow                          -> Pmenu
 PopupNotification                      -> WarningMsg
 PopupSelected                          -> PmenuSel
-CurSearch                              -> IncSearch
 LineNrAbove                            -> LineNr
 LineNrBelow                            -> LineNr
 CursorLineFold                         -> FoldColumn
@@ -112,14 +111,14 @@ StatusLine                      tundra8       tundra3       bold
 /16/8                           tundra8       tundra3       reverse,bold
 StatusLineNC                    tundra4       tundra1
 /16/8                           tundra4       tundra1       reverse
-VertSplit                       tundra2       none
+VertSplit                       tundra3       none
 /16/8                           tundra3       none
-VertSplitNC                     tundra2       none
-/16/8                           tundra3       none
+VertSplitNC                     tundra1       none
+/16/8                           tundra1       none
 
 TabLine                         tundra4       tundra1
 /16/8                           tundra4       tundra1       reverse
-TabLineFill                     tundra4       tundra1
+TabLineFill                     tundra4       tundra0
 /16/8                           none        none        reverse
 TabLineSel                      tundra8       tundra3       bold
 /16/8                           tundra8       tundra3       bold
@@ -137,18 +136,18 @@ PmenuKind                       tundra7       tundra2
 /16/8                           tundra7       tundra1
 PmenuKindSel                    tundra7       tundra3       bold
 /16/8                           tundra7       tundra3       bold
-PmenuExtra                      tundra3       tundra2
-/16/8                           tundra3       tundra1
+PmenuExtra                      tundra4       tundra2
+/16/8                           tundra4       tundra1
 PmenuExtraSel                   tundra4       tundra3       bold
 /16/8                           tundra4       tundra3       bold
 PmenuSbar                       none        tundra2
 /16/8                           none        none        reverse
 PmenuThumb                      none        tundra3
 /16/8                           none        none        reverse
-PmenuMatch                      tundra8       tundra2       bold
-/16/8                           tundra8       tundra1       bold
-PmenuMatchSel                   tundra8       tundra3       bold
-/16/8                           tundra8       tundra3       bold
+PmenuMatch                      tundra9       tundra2       bold
+/16/8                           tundra9       tundra1       bold
+PmenuMatchSel                   tundra9       tundra3       bold
+/16/8                           tundra9       tundra3       bold
 Popup                           tundra4       tundra1
 /16/8                           none        none        reverse
 PopupBorder                     tundra3       tundra1
@@ -168,19 +167,20 @@ EndOfBuffer                     tundra1       none
 SpecialKey                      tundra3       none
 Directory                       tundra8       none
 
-Visual                          none        tundra2
-/16/8                           none        tundra1
+Visual                          none        tundra3
+/16/8                           none        tundra3
 VisualNOS                       none        tundra2
 /16/8                           none        tundra1
 
-Search                          tundra1       tundra8
-IncSearch                       tundra6       tundra10      underline
-QuickFixLine                    tundra8       tundra3       bold
-/16/8                           tundra8       tundra3       bold
+Search                          tundra8       tundra0       reverse,bold
+CurSearch                       tundra13      tundra0       reverse,bold
+IncSearch                       tundra13      tundra0       reverse,bold
+QuickFixLine                    none        tundra2
+/16/8                           tundra8       tundra1
 WildMenu                        tundra8       tundra1       bold
 /16/8                           tundra8       tundra1       bold
-MatchParen                      tundra8       tundra3       bold
-/16/8                           tundra8       tundra3       bold
+MatchParen                      tundra8       none        bold,underline
+/16/8                           tundra8       none        bold,underline
 
 Error                           tundra4       tundra11
 ErrorMsg                        tundra4       tundra11
@@ -189,8 +189,8 @@ ModeMsg                         tundra4       none
 MoreMsg                         tundra8       none
 Question                        tundra4       none
 Title                           tundra4       none        bold
-TitleBar                        tundra4       tundra1
-TitleBarNC                      tundra3       tundra1
+TitleBar                        tundra6       tundra2       bold
+TitleBarNC                      tundra4       tundra1
 
 debugPC                         none        tundra10
 /16/8                           tundra10      none        reverse
@@ -199,10 +199,22 @@ debugBreakpoint                 tundra3       tundra0
 
 Todo                            tundra13      none        bold
 
-SpellBad                        none        none        underline
-SpellCap                        none        none        underline
-SpellLocal                      none        none        underline
-SpellRare                       none        none        underline
+SpellBad                        tundra11      none        underline
+/gui                            none        none        s=tundra11 undercurl
+/256+tgc true                   tundra11      none        underline
+/16/8                           tundra11      none        reverse
+SpellCap                        tundra13      none        underline
+/gui                            none        none        s=tundra13 undercurl
+/256+tgc true                   tundra13      none        underline
+/16/8                           tundra13      none        reverse
+SpellLocal                      tundra8       none        underline
+/gui                            none        none        s=tundra8 undercurl
+/256+tgc true                   tundra8       none        underline
+/16/8                           tundra8       none        reverse
+SpellRare                       tundra15      none        underline
+/gui                            none        none        s=tundra15 undercurl
+/256+tgc true                   tundra15      none        underline
+/16/8                           tundra15      none        reverse
 
 
 ;;; :h group-names
@@ -226,10 +238,14 @@ Decorator                       tundra12      none
 Underlined                      none        none        underline
 Ignore                          none        none
 
-DiffAdd                         tundra14      tundra0       reverse
-DiffChange                      tundra13      tundra0       reverse
-DiffDelete                      tundra11      tundra0       reverse
-DiffText                        tundra9       tundra0       reverse
+DiffAdd                         tundra14      tundra1
+/16/8                           tundra14      tundra0       reverse
+DiffChange                      tundra13      tundra1
+/16/8                           tundra13      tundra0       reverse
+DiffDelete                      tundra11      tundra1
+/16/8                           tundra11      tundra0       reverse
+DiffText                        tundra12      tundra1       bold
+/16/8                           tundra12      tundra0       reverse
 
 
 ;;; common filetype groups
