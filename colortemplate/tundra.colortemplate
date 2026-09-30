@@ -168,7 +168,7 @@ SpecialKey                      tundra3       none
 Directory                       tundra8       none
 
 Visual                          none        tundra3
-/16/8                           none        tundra3
+/16/8                           none        none        reverse
 VisualNOS                       none        tundra2
 /16/8                           none        tundra1
 

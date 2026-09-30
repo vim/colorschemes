@@ -146,7 +146,7 @@ hi Type guifg=#81a1c1 guibg=NONE guisp=NONE gui=NONE ctermfg=110 ctermbg=NONE ct
 hi Underlined guifg=NONE guibg=NONE guisp=NONE gui=underline ctermfg=NONE ctermbg=NONE cterm=underline term=underline
 hi VertSplit guifg=#4c566a guibg=NONE guisp=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE term=NONE
 hi VertSplitNC guifg=#3b4252 guibg=NONE guisp=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE term=NONE
-hi Visual guifg=NONE guibg=#4c566a guisp=NONE gui=NONE ctermfg=NONE ctermbg=240 cterm=NONE term=reverse
+hi Visual guifg=NONE guibg=#3b4252 guisp=NONE gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE term=reverse
 hi VisualNOS guifg=NONE guibg=#434c5e guisp=NONE gui=NONE ctermfg=NONE ctermbg=239 cterm=NONE term=NONE
 hi WarningMsg guifg=#2e3440 guibg=#ebcb8b guisp=NONE gui=NONE ctermfg=236 ctermbg=222 cterm=NONE term=standout
 hi WildMenu guifg=#88c0d0 guibg=#3b4252 guisp=NONE gui=bold ctermfg=116 ctermbg=238 cterm=bold term=bold
@@ -251,7 +251,7 @@ if s:t_Co >= 16
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi VertSplit ctermfg=DarkGrey ctermbg=NONE cterm=NONE
   hi VertSplitNC ctermfg=DarkGrey ctermbg=NONE cterm=NONE
-  hi Visual ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
   hi VisualNOS ctermfg=NONE ctermbg=DarkGrey cterm=NONE
   hi WarningMsg ctermfg=Black ctermbg=Yellow cterm=NONE
   hi WildMenu ctermfg=Cyan ctermbg=DarkGrey cterm=bold
@@ -348,7 +348,7 @@ if s:t_Co >= 8
   hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline
   hi VertSplit ctermfg=DarkGrey ctermbg=NONE cterm=NONE
   hi VertSplitNC ctermfg=DarkGrey ctermbg=NONE cterm=NONE
-  hi Visual ctermfg=NONE ctermbg=DarkGrey cterm=NONE
+  hi Visual ctermfg=NONE ctermbg=NONE cterm=reverse
   hi VisualNOS ctermfg=NONE ctermbg=DarkGrey cterm=NONE
   hi WarningMsg ctermfg=Black ctermbg=Yellow cterm=NONE
   hi WildMenu ctermfg=Cyan ctermbg=DarkGrey cterm=bold
