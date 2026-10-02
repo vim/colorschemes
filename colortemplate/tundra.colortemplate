@@ -1,0 +1,263 @@
+; vim: ft=colortemplate fdm=marker cc=40,55,70 vsts=39,15,15,4
+Full name:   Tundra
+Short name:  tundra
+Description: Color scheme similar to Nord originally created by Ice Studio and Sven Greb
+Author:      Julien Voisin
+URL:         https://github.com/vim/colorschemes
+License:     Same as Vim
+Options:     backend=vim
+
+Background: dark
+
+;;; Color palette
+;                Color name  GUI       Base256  Base16
+Color: tundra0                 #2e3440   236      Black
+Color: tundra1                 #3b4252   238      DarkGrey
+Color: tundra2                 #434c5e   239      DarkGrey
+Color: tundra3                 #4c566a   240      DarkGrey
+Color: tundra3b                #616e88   60       Grey
+Color: tundra4                 #d8dee9   253      Grey
+Color: tundra5                 #e5e9f0   254      LightGrey
+Color: tundra6                 #eceff4   255      White
+Color: tundra7                 #8fbcbb   109      DarkCyan
+Color: tundra8                 #88c0d0   116      Cyan
+Color: tundra9                 #81a1c1   110      Blue
+Color: tundra10                #5e81ac   67       DarkBlue
+Color: tundra11                #bf616a   131      DarkRed
+Color: tundra12                #d08770   173      DarkYellow
+Color: tundra13                #ebcb8b   222      Yellow
+Color: tundra14                #a3be8c   144      Green
+Color: tundra15                #b48ead   139      Magenta
+
+Environments: gui 256 16 8 0
+
+Term colors: tundra1 tundra11 tundra14 tundra13 tundra9 tundra15 tundra8 tundra5
+             tundra3 tundra11 tundra14 tundra13 tundra9 tundra15 tundra7 tundra6
+
+
+;;; links
+Terminal                               -> Normal
+StatusLineTerm                         -> StatusLine
+StatusLineTermNC                       -> StatusLineNC
+MessageWindow                          -> Pmenu
+PopupNotification                      -> WarningMsg
+PopupSelected                          -> PmenuSel
+LineNrAbove                            -> LineNr
+LineNrBelow                            -> LineNr
+CursorLineFold                         -> FoldColumn
+CursorLineSign                         -> SignColumn
+PreInsert                              -> NonText
+TabPanel                               -> TabLine
+TabPanelFill                           -> TabLineFill
+TabPanelSel                            -> TabLineSel
+
+;;; group links
+Conditional                            -> Statement
+Repeat                                 -> Statement
+Label                                  -> Statement
+Keyword                                -> Statement
+Exception                              -> Statement
+Operator                               -> Statement
+Include                                -> PreProc
+Define                                 -> PreProc
+Macro                                  -> PreProc
+PreCondit                              -> PreProc
+StorageClass                           -> Type
+Structure                              -> Type
+Typedef                                -> Type
+Debug                                  -> Special
+Tag                                    -> Special
+
+;;; ft links
+Added                                  -> diffAdded
+Changed                                -> diffChanged
+Removed                                -> diffRemoved
+markdownH1                             -> htmlH1
+markdownH2                             -> htmlH1
+markdownH3                             -> htmlH1
+markdownH4                             -> htmlH1
+markdownH5                             -> htmlH1
+markdownH6                             -> htmlH1
+markdownHeadingDelimiter               -> htmlH1
+markdownH1Delimiter                    -> htmlH1
+markdownH2Delimiter                    -> htmlH1
+markdownH3Delimiter                    -> htmlH1
+markdownH4Delimiter                    -> htmlH1
+markdownH5Delimiter                    -> htmlH1
+markdownH6Delimiter                    -> htmlH1
+pythonDecorator                        -> Decorator
+pythonDecoratorName                    -> Decorator
+typescriptDecorator                    -> Decorator
+rustAttribute                          -> Decorator
+
+
+;;; Highlight groups
+;             Group             Foreground  Background  Attributes
+
+Normal                          tundra4       tundra0
+
+Cursor                          tundra0       tundra4
+lCursor                         tundra0       tundra14
+CursorIM                        tundra0       tundra9
+CursorLine                      none        tundra1
+/16/8                           none        none        underline
+CursorColumn                    none        tundra1
+/16/8                           none        none
+ColorColumn                     none        tundra1
+/16/8                           none        none        reverse
+Conceal                         tundra3       none
+
+StatusLine                      tundra8       tundra3       bold
+/16/8                           tundra8       tundra3       reverse,bold
+StatusLineNC                    tundra4       tundra1
+/16/8                           tundra4       tundra1       reverse
+VertSplit                       tundra3       none
+/16/8                           tundra3       none
+VertSplitNC                     tundra1       none
+/16/8                           tundra1       none
+
+TabLine                         tundra4       tundra1
+/16/8                           tundra4       tundra1       reverse
+TabLineFill                     tundra4       tundra0
+/16/8                           none        none        reverse
+TabLineSel                      tundra8       tundra3       bold
+/16/8                           tundra8       tundra3       bold
+
+ToolbarLine                     none        tundra1
+/16/8                           none        none        reverse
+ToolbarButton                   tundra8       tundra3       bold
+/16/8                           tundra8       tundra3       reverse,bold
+
+Pmenu                           tundra4       tundra2
+/16/8                           tundra4       tundra1
+PmenuSel                        tundra8       tundra3       bold
+/16/8                           tundra8       tundra3       bold
+PmenuKind                       tundra7       tundra2
+/16/8                           tundra7       tundra1
+PmenuKindSel                    tundra7       tundra3       bold
+/16/8                           tundra7       tundra3       bold
+PmenuExtra                      tundra4       tundra2
+/16/8                           tundra4       tundra1
+PmenuExtraSel                   tundra4       tundra3       bold
+/16/8                           tundra4       tundra3       bold
+PmenuSbar                       none        tundra2
+/16/8                           none        none        reverse
+PmenuThumb                      none        tundra3
+/16/8                           none        none        reverse
+PmenuMatch                      tundra9       tundra2       bold
+/16/8                           tundra9       tundra1       bold
+PmenuMatchSel                   tundra9       tundra3       bold
+/16/8                           tundra9       tundra3       bold
+Popup                           tundra4       tundra1
+/16/8                           none        none        reverse
+PopupBorder                     tundra3       tundra1
+/16/8                           none        none        reverse
+PopupTitle                      tundra8       tundra1       bold
+/16/8                           tundra8       tundra1       reverse,bold
+
+LineNr                          tundra3       none
+CursorLineNr                    tundra4       none        bold
+SignColumn                      tundra1       none
+FoldColumn                      tundra3       none
+Folded                          tundra3       tundra1       bold
+NonText                         tundra2       none
+/16/8                           tundra3       none
+EndOfBuffer                     tundra1       none
+/16/8                           tundra3       none
+SpecialKey                      tundra3       none
+Directory                       tundra8       none
+
+Visual                          none        tundra3
+/16/8                           none        none        reverse
+VisualNOS                       none        tundra2
+/16/8                           none        tundra1
+
+Search                          tundra8       tundra0       reverse,bold
+CurSearch                       tundra13      tundra0       reverse,bold
+IncSearch                       tundra13      tundra0       reverse,bold
+QuickFixLine                    none        tundra2
+/16/8                           tundra8       tundra1
+WildMenu                        tundra8       tundra1       bold
+/16/8                           tundra8       tundra1       bold
+MatchParen                      tundra8       none        bold,underline
+/16/8                           tundra8       none        bold,underline
+
+Error                           tundra4       tundra11
+ErrorMsg                        tundra4       tundra11
+WarningMsg                      tundra0       tundra13
+ModeMsg                         tundra4       none
+MoreMsg                         tundra8       none
+Question                        tundra4       none
+Title                           tundra4       none        bold
+TitleBar                        tundra6       tundra2       bold
+TitleBarNC                      tundra4       tundra1
+
+debugPC                         none        tundra10
+/16/8                           tundra10      none        reverse
+debugBreakpoint                 tundra3       tundra0
+/16/8                           tundra11      none        reverse
+
+Todo                            tundra13      none        bold
+
+SpellBad                        tundra11      none        underline
+/gui                            none        none        s=tundra11 undercurl
+/256+tgc true                   tundra11      none        underline
+/16/8                           tundra11      none        reverse
+SpellCap                        tundra13      none        underline
+/gui                            none        none        s=tundra13 undercurl
+/256+tgc true                   tundra13      none        underline
+/16/8                           tundra13      none        reverse
+SpellLocal                      tundra8       none        underline
+/gui                            none        none        s=tundra8 undercurl
+/256+tgc true                   tundra8       none        underline
+/16/8                           tundra8       none        reverse
+SpellRare                       tundra15      none        underline
+/gui                            none        none        s=tundra15 undercurl
+/256+tgc true                   tundra15      none        underline
+/16/8                           tundra15      none        reverse
+
+
+;;; :h group-names
+Comment                         tundra3b      none
+Constant                        tundra4       none
+Number                          tundra15      none
+Float                           tundra15      none
+Boolean                         tundra9       none
+String                          tundra14      none
+Character                       tundra14      none
+Identifier                      tundra4       none
+Function                        tundra8       none
+Statement                       tundra9       none
+PreProc                         tundra9       none
+Type                            tundra9       none
+Special                         tundra4       none
+SpecialChar                     tundra13      none
+SpecialComment                  tundra8       none
+Delimiter                       tundra6       none
+Decorator                       tundra12      none
+Underlined                      none        none        underline
+Ignore                          none        none
+
+DiffAdd                         tundra14      tundra1
+/16/8                           tundra14      tundra0       reverse
+DiffChange                      tundra13      tundra1
+/16/8                           tundra13      tundra0       reverse
+DiffDelete                      tundra11      tundra1
+/16/8                           tundra11      tundra0       reverse
+DiffText                        tundra12      tundra1       bold
+/16/8                           tundra12      tundra0       reverse
+
+
+;;; common filetype groups
+diffAdded                       tundra14      none
+diffChanged                     tundra13      none
+diffRemoved                     tundra11      none
+diffLine                        tundra9       none
+diffFile                        tundra8       none
+diffIndexLine                   tundra7       none
+
+;; ftplugins
+htmlH1                          tundra9       none        bold
+
+; No color support
+Include: _tcozero
