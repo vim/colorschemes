@@ -86,6 +86,8 @@ CursorLineSign                         -> FoldColumn
 PreInsert                              -> NonText
 
 ;;; ft links
+qfFileName                             -> Identifier
+qfLineNr                               -> PreProc
 vimCommentString                       -> Comment
 vimVar                                 -> Normal
 vimOper                                -> Normal
